@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "https://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">redmei</journal-id>
+            <journal-title-group>
+                <journal-title>Revista Digital: Matemática, Educación e Internet</journal-title>
+                <abbrev-journal-title abbrev-type="publisher">Rev. Dig. Mat. Educ. Internet</abbrev-journal-title>
+            </journal-title-group>
+            <issn pub-type="ppub">1659-0643</issn>
+            <publisher>
+                <publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.18845/rdmei.v24i2.6902</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Artículos</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title >Practicas evaluativas de docentes de matemática costarricenses</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0000-0003-1852-6599</contrib-id>
+                    <name name-style="western">
+                        <surname>Díaz Gutiérrez</surname>
+                        <given-names>Elizabeth</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"/>
+                </contrib>
+            </contrib-group>
+            <aff id="aff1">
+                <institution content-type="original">Universidad de Costa Rica, Sede del Sur. Golfito, Costa Rica</institution>
+                <institution content-type="orgname">Universidad de Costa Rica</institution>
+                <country country="CR">Costa Rica</country>
+                <email>elizabeth.diaz@ucr.ac.cr</email>
+            </aff>
+            <pub-date pub-type="collection">
+                <season>Mar/Aug</season>
+                <year>2024</year>
+            </pub-date>
+            <volume>24</volume>
+            <issue>2</issue>
+            <fpage>1</fpage>
+            <lpage>26</lpage>
+            <history>
+                <date date-type="received" publication-format="dd mes yyyy">
+                    <day>22</day>
+                    <month>03</month>
+                    <year>2023</year>
+                </date>
+                <date date-type="accepted" publication-format="dd mes yyyy">
+                    <day>22</day>
+                    <month>06</month>
+                    <year>2023</year>
+                </date>
+            </history>
+            <abstract>
+                <title>Resumen</title>
+                <p>Hace más de una década, en Costa Rica se realizó una reforma educativa que incluyó los Programas de Estudio de Matemática, en estos, la resolución de problemas se concibe como la punta de lanza que debe guiar la mediación pedagógica. La investigación surge por la necesidad de conocer, analizar y comprender las prácticas evaluativas de las personas docentes, a la luz del marco teórico de la propuesta curricular. Este es un estudio cualitativo, donde desde el método fenomenológico se busca un acercamiento a la realidad de las personas participantes y su accionar diario en el campo. Para la recolección de datos se acudió a personas expertas en el área, material documental, docentes de matemática y su respectivo estudiantado.</p>
+            </abstract>
+            <trans-abstract xml:lang="en">
+                <title>Abstract</title>
+                <p>Over a decade ago, an educational reform was carried out in Costa Rica that included Mathematics Curricula. Problem solving was conceived as the spearhead that should guide pedagogical mediation. The research arises from the need to know, analyze and understand teachers’ assessment practices in light of the theoretical framework of the curricular proposal. This is a qualitative study that seeks, from the phenomenological method; an approach to the reality of the participating people and their daily actions in the field. For data collection were consulted experts in the area, material was documented, and Mathematics teachers and their respective students were included.</p>
+            </trans-abstract>
+            <kwd-group xml:lang="es">
+                <title>Palabras clave</title>
+                <kwd>prácticas evaluativas</kwd>
+                <kwd>resolución de problemas matemáticos</kwd>
+                <kwd>medios de evaluación</kwd>
+                <kwd>roles en la evaluación de los aprendizajes</kwd>
+            </kwd-group>
+            <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>assessment Practices</kwd>
+                <kwd>solving mathematical problems</kwd>
+                <kwd>means of assessment</kwd>
+                <kwd>roles in the assessment of learning</kwd>
+            </kwd-group>
+            <counts>
+                <fig-count count="4"/>
+                <table-count count="4"/>
+                <equation-count count="0"/>
+                <ref-count count="38"/>
+            </counts>
+        </article-meta>
+    </front>
+    <body>
+        <sec>
+            <title>
+                Introducción
+            </title>
+            <p>A partir del año 2012, en Costa Rica, se comienzan a implementar los nuevos Programas de Estudio de Matemáticas (en adelante los PEM), en los cuales se busca el fortalecimiento y desarrollo de habilidades cognoscitivas que brinden respuestas a las demandas sociales actuales. La propuesta sostiene que “aprender a plantear y resolver problemas y especialmente a usarlos en la organización de las lecciones se adopta como la estrategia central para generar esas capacidades” (MEP, 2012, p. 13).</p>
+            <p>Al respecto, Trelles et al. (2017) advierte que estas reformas curriculares deben ir acompañadas de una reflexión en torno a la práctica profesional de la persona docente, particularmente en las concernientes a la evaluación de los aprendizajes, de lo contrario no se verán cambios significativos en la enseñanza y aprendizaje de las matemáticas.</p>
+            <p>En este sentido, el <xref ref-type="bibr" rid="ref20">MEP (2012)</xref>  indica que la evaluación de los aprendizajes matemáticos es un proceso guiado por principios fundamentales, para promoverlos, es esencial una planificación que los contemple aunado a las habilidades a desarrollar y la mediación pedagógica de forma integral. Al respecto, Förster (2017) coincide en que, si se planifica la evaluación de forma simultánea con la enseñanza, ambos procesos se integrarán de forma significativa.</p>
+            <p>Las autoridades ministeriales han realizado cambios en la legislación que guía la promoción estudiantil, de tal manera que haya avenencia entre ésta y los principios que orientan la evaluación de los aprendizajes matemáticos, no obstante, estos esfuerzos podrían ser en vano si no se realizan reflexiones sobre las prácticas evaluativas en el contexto escolar. Al respecto, se ha detectado que hay poca investigación en el campo de la evaluación de los aprendizajes, particularmente en la disciplina de matemática. En este sentido, “la evaluación en educación es una problemática difícil y compleja sobre la que se ha debatido muy poco en el ámbito de la escuela” (Perassi, 2014, p. 46).</p>
+        </sec>
+        <sec>
+            <title>
+                Planteamiento del problema
+            </title>
+            <p>El presente artículo es producto de la investigación realizada como tesis de la Maestría Académica en Educación con énfasis en Evaluación Educativa, la cual fue defendida en abril del 2021.</p>
+            <p>La investigación surge por el interés de comprender las prácticas evaluativas de las persones docentes de matemática, ya que éstas podrían discrepar de los lineamientos que se establecen en la Política Educativa, los PEM o el Reglamento de Evaluación de los Aprendizajes. Al respecto se hace una lectura de las acciones del profesorado desde las pautas en tormo a evaluación y promoción escolar del Ministerio de Educación Pública (en adelante MEP), dando énfasis al tercer ciclo, particularmente en séptimo año.</p>
+            <p>La investigación inicia seis años después de la implementación de los nuevos Programas de Estudio de Matemática, la recopilación de información se llevó a cabo durante los años 2018, 2019 y 2020, además se centra en séptimo año, pues se constató que, al ser un nivel de transición entre primaria y secundaria, se encuentran múltiples factores que inciden en la exclusión o deserción estudiantil.</p>
+            <p>El método de investigación permitió un acercamiento al punto referencial donde las personas docentes y estudiantes conviven, intercambian ideas, acciones, construyen, dialogan y se desenvuelven, en este estudio, el interés estuvo en la cotidianeidad de las lecciones de matemáticas.</p>
+        </sec>
+        <sec>
+            <title>
+                Marco teórico
+            </title>
+            <sec>
+                <title>
+                    Antecedentes
+                </title>
+                <p>En el año 2011, el Instituto Tecnológico de Costa Rica, la Universidad Estatal a Distancia, la Universidad Nacional y la Universidad de Costa Rica conformaron comisiones de trabajo para analizar la primicia de lo que serían los Programas de Estudio de Matemática. Los hallazgos fueron entregados al Consejo Superior de Educación.</p>
+                <p>Al respecto la investigadora de este trabajo participó por parte de la Escuela de Matemática de la Universidad de Costa Rica (UCR) en uno de estos equipos de trabajo y particularmente llamó su atención que no había una guía precisa sobre cómo se llevaría a cabo la evaluación de los aprendizajes. El aspecto mencionado le resulta preocupante, ya que desde su experiencia como docente de secundaría, considera que esto podría entorpecer la puesta en marcha de los nuevos programas. Al respecto, la UCR (2011) indica que es necesario que la propuesta curricular vaya acompañada de cambios en torno a la evaluación de los aprendizajes, los cuales irían desde su concepción hasta la reglamentación relativa a promoción estudiantil.</p>
+            </sec>
+            <sec>
+                <title>
+                    Bases teóricas
+                </title>
+                <p>Las prácticas evaluativas de las personas docentes son inherentes a los lineamientos de la Política Educativa, la fundamentación de los Programas de Estudio de Matemática o de la reglamentación relativa a la promoción escolar, consecuentemente, un primer paso a la construcción teórica consistió en el análisis de cada uno de los elementos mencionados para develar los principios que deberían orientar las prácticas evaluativas del profesorado.</p>
+                <sec>
+                    <title>
+                        La política Educativa
+                    </title>
+                    <p>De acuerdo con el tema de interés, se develó que el MEP (2015) sugiere la participación activa de las personas estudiantes en la construcción de su propio aprendizaje, la reflexión y valoración de los aportes de sus pares. Para lograr las metas propuestas, el MEP (2014) estableció quince líneas de trabajo que guían el quehacer docente; de estas, se destaca la que tiene relación más estrecha con la evaluación de los aprendizajes: “11. Evaluación de la calidad que sustente la toma de decisiones para mejorar los procesos de enseñanza y aprendizaje” (MEP, 2014, p. 3). De aquí, se deduce que la persona docente debe tener un acentuado conocimiento de los diferentes medios para la evaluación de los aprendizajes matemáticos. Además “la Educación para una Nueva Ciudadanía se basa en teorías educativas que centran su interés en el estudiante y en la estudiante y que visualizan al personal docente como facilitador de los procesos requeridos para construir conocimientos” (MEP, 2015, p.22).</p>
+                    <p>Aunado a lo anterior, MEP (2015) destaca la importancia de la evaluación formativa en los procesos de aprendizaje, pues permite el acceso a información continua y oportuna sobre el desempeño del estudiantado, con el objetivo de brindar pautas para alcanzar las metas planteadas. Al respecto, Zepeda (2017) añade que “el propósito primordial de la evaluación formativa continua es mejorar el aprendizaje mientras el estudiante está aprendiendo y no auditarlo” (p. 100)</p>
+                    <p>En la evaluación formativa hay más oportunidades para democratizar los procesos evaluativos, es decir, los errores en los que podría incurrir la persona estudiante al trabajar en una tarea matemática, otorgan espacios para la reflexión sobre sus limitaciones y conocimientos previos. Además, coadyuva a fomentar el trabajo colaborativo entre pares, mediante la discusión y exploración de otras rutas para abordar la tarea planteada.</p>
+                </sec>
+                <sec>
+                    <title>
+                        Los Programas de Estudio de Matemática
+                    </title>
+                    <p>En la fundamentación teórica de la propuesta curricular, se concibe la resolución de problemas matemáticos como la estrategia que debe guiar la mediación pedagógica. Análogamente, se establece que:</p>
+                    <p>La resolución de problemas corresponde a la necesidad de asumir estándares cuya conveniencia para la Educación Matemática ha sido ampliamente comprobada en la escala internacional. La contextualización que se propone busca fortalecer un papel estudiantil activo y comprometido con su aprendizaje, recalcando la identificación, uso y diseño de modelos matemáticos adecuados para cada nivel educativo (MEP, 2012, p.17).</p>
+                    <p>Al respecto, en el planteamiento y solución de los problemas matemáticos, el profesorado no destaca como figura central; por el contrario, se sugiere que las personas estudiantes son las que deben asumir un rol más activo en la construcción y valoración de su aprendizaje, así como en la de sus homólogas. Además, MEP (2012) propone que</p>
+                    <p>Los métodos de evaluación deben estar claramente relacionados con las metas y objetivos de aprendizaje, y ser compatibles con los métodos de enseñanza utilizados. Planificar el diseño de la evaluación al mismo tiempo que se planifica la enseñanza ayudará a integrar ambos de manera significativa. Dicha planificación conjunta provee una perspectiva general sobre los conocimientos, habilidades, actitudes y comportamientos que se espera sean aprendidos y evaluados, y los contextos en que se aprenderán y evaluarán (Förster, 2017, p. 28).</p>
+                    <p>Al respecto, MEP (2012) establece seis principios que deben orientar la evaluación de los aprendizajes matemáticos, estos son: es parte integral del proceso de enseñanza y aprendizaje, constituye un proceso colaborativo, pertinencia con las actividades de mediación, congruencia de las técnicas e instrumentos, permite la toma de decisiones y, por último, promueve el compromiso hacia el aprendizaje.</p>
+                    <p>Para incorporar estos principios y los fundamentos que guían los PEM, el diseño didáctico es sustancial. Al respecto, Serrazina (2017) indica que la planificación de las clases implica una reflexión continua y cuidadosa de la persona docente sobre el currículo de Matemáticas que debe impartir, los elementos más relevantes para desarrollar con el estudiantado, el tipo de tareas que potencian mejor sus habilidades, prever cómo se llevará a cabo la evaluación de los aprendizajes y las evidencias que se obtengan de ella deben condicionar el diseño de la próxima clase.</p>
+                </sec>
+                <sec>
+                    <title>
+                        La Evaluación en el Reglamento de Evaluación de los Aprendizajes
+                    </title>
+                    <p>La actividad educativa no está exenta de las directrices en materia legal de cada región, ya que “la injerencia de las decisiones de política educativa en el currículo se prolonga hasta el centro mismo de trabajo de las instituciones educativas” (Molina, 2006, p. 14). Por lo tanto, es necesario considerar las pautas que dicta el Reglamento de Evaluación de los Aprendizajes. De éste, en primer lugar, se destaca que:</p>
+                    <p>La evaluación de los aprendizajes, es un proceso continuo de recopilación de información cualitativa y cuantitativa, que fundamenta la emisión de juicios de valor y la toma de decisiones por parte de la persona docente y el estudiantado, para la mejora progresiva de los procesos de enseñanza y aprendizaje (MEP, 2018, Art. 3).</p>
+                    <p>De texto anterior, en primer lugar, se devela un cambio de paradigma en torno a cómo se concibe y se lleva a cabo la evaluación de los aprendizajes matemáticos, el cual debería ser consecuente con la resolución de problemas, la cual se sitúa como estrategia metodológica principal en los PEM.</p>
+                    <p>Por otro lado, en el artículo 15, el MEP (2018) se recalca el rol de la persona docente, en el cual sugiere que es ésta la principal responsable de la evaluación de los aprendizajes estudiantiles. Cabe destacar que este aspecto no elude que el estudiantado debe ser relegado del proceso, antes bien, se exhorta para que este participe de su propia evaluación o a la evaluación de sus homólogos. Cabe destacar que ese accionar más protagónico es factible desde la evaluación formativa.</p>
+                </sec>
+                <sec>
+                    <title>
+                       Resolución de los problemas matemáticos y su evaluación
+                    </title>
+                    <p>Diversos autores como Fernández (2007), Castro (2008), Blanco y Pino (2015), coinciden en que no existe una definición única para problema matemático, consecuentemente, sostienen que dentro del mismo campo disciplinar existe consenso sobre el carácter polisémico de dicho objeto.</p>
+                    <p>Al escudriñar diferentes acepciones, se encontraron algunos elementos que son recurrentes en las definiciones, en la figura 1 se presenta un diagrama que los sintetiza.</p>
+
+                    <fig id="gf1">
+                        <caption>
+                            <title>
+                                    Figura 1
+                            </title>
+                            <p>Elementos que convergen en las definiciones de problemas matemáticos</p>
+                        </caption>
+                        <graphic xlink:href="607975560002_gf7.png" position="anchor" orientation="portrait"/>
+                        <attrib>Elaboración propia, con información de Díaz (2021, p. 66-67)</attrib>
+                    </fig>
+
+                    <p>Acorde con lo expuesto, posterior a indagar sobre cómo se concibe un problema matemático desde diferentes autores, teorías y modelos de enseñanza y aprendizaje, en la investigación se definió problema matemático como:</p>
+                    <p>Una tarea matemática novedosa, es decir, no se expuso una tarea semejante antes y tampoco se explicó previamente cómo resolverla. Hay un punto de partida y una meta por alcanzar, empero, la estrategia o método para llegar a la meta no son evidentes para el individuo, por eso es necesario un plan o una estrategia para resolverla. Esta estrategia requiere que se identifique la información más importante, se realicen conexiones con otras áreas de la matemática, se hagan diferentes representaciones de los objetos matemáticos presentes en el problema, se comunique de manera oral o escrita, utilizando el lenguaje matemático pertinente, los argumentos que validan la respuesta (Díaz, 2021, p. 53).</p>
+                    <p>El MEP (2012) sugiere que la resolución de problemas en la clase de matemática no se presenta como un objetivo por sí mismo en el currículum escolar, o como un contenido más por abordar, sino que se concibe como un medio para la consecución de las habilidades planteadas a lo largo de la propuesta curricular.</p>
+                    <p>En este sentido, la evaluación de los aprendizajes matemáticos debe centrar su atención en los procesos que intervinieron para llegar a una determinada respuesta o resultado y en cómo el estudiantado comunica y valida sus hallazgos. En este sentido, “en la evaluación de la resolución de problemas se suele destacar la importancia del proceso de resolución en sus diversas fases” ” (Cáceres y Chamoso, 2015, p. 229).</p>
+                    <p>Para López e Hinojosa (2000), Santos (2014), Blanco y Caballero (2015) y Pascual et al. (2020) existen algunos componentes básicos que deben intervenir en la evaluación de los procesos que median en la resolución de los problemas matemáticos, el primero implica que la persona estudiante ha identificado la información más relevante, segundo está asociado con las estrategias utilizadas y finalmente, implica un análisis y validación de las respuestas obtenidas y del trabajo realizado.</p>
+                    <p>Cárdenas y Blanco (2018), advierten que, a pesar de que se pueden encontrar diversos instrumentos para evaluar la resolución de problemas matemáticos, la persona docente tiende a optar por registros como la prueba escrita, en las que se corre el riesgo de dejar fuera los procesos comunicativos, pensamientos, reflexiones, conexiones, conjeturas, entre otros, que intervienen al abordar la tarea matemática mencionada. En este sentido, Cárdenas et al. (2018), Ríos (2007) y Santos (2014) coinciden en que la evaluación de la resolución de los problemas matemáticos debe incluir medios más allá de los tradicionales, donde se incluya la valoración de aspectos cognitivos – heurísticos.</p>
+                    <p>En la investigación se habla de medios de evaluación, pues éstos contemplan todas y cada una de las producciones del alumnado que el profesorado puede recoger, ver y/o escuchar, y que sirven para demostrar lo que los discentes han aprendido a lo largo de un proceso determinado. Pueden adoptar tres formas diferentes: escritos, orales y prácticos (Hamodi et al., 2015, p. 154).</p>
+                    <p>Existe concordancia entre los expertos en que hay medios que favorecen la recolección de información para evaluar las habilidades que intervienen al resolver problemas matemáticos. Por ejemplo, Giménez (1997), Santos (2014), Cáceres et al. (2015), Förster et al. (2017) y Pascual et al. (2020), destacan la rúbrica como un medio que permite la recolección de información y la oportunidad de hacer una realimentación específica de los aspectos que se pueden mejorar.</p>
+                    <p>Otro medio es la V de Gowin o la V heurística, la cual favorece la organización de información en torno a la tarea, esto implica ideas, representaciones, interrogantes, estrategias, conocimientos previos, entre otros. Förster et al. (2017), recalca que este recurso propicia el aprendizaje significativo y demanda habilidades cognitivas complejas.</p>
+                </sec>
+                <sec>
+                    <title>
+                        El rol de profesorado y del estudiantado en la evaluación formativa
+                    </title>
+                    <p>Marín (2003) y Podcamisky (2006) coinciden en que dentro de una organización social hay interacciones entre las personas y cada una de estas interactúa con otra ejerciendo un determina rol. Al respecto, se realizó una exploración de los paradigmas teóricos en educación que “han sido utilizados para orientar los aspectos psicopedagógicos de modelos educativos en lo que respecta a cómo se concibe la enseñanza, el aprendizaje, y la manera de evaluar” (Blanco, 2004, p. 112). Además, se consideró que en “la resolución de problemas como estrategia pedagógica hace converger principios esenciales del constructivismo, una premisa filosófica de la política educativa nacional” (MEP, 2012, p.18-19).</p>
+                    <p>De la tesis de Blanco (2004) y de acuerdo con el modelo educativo que orienta los PEM, se devela que la evaluación de los aprendizajes presenta las siguientes características:</p>
+                    <p>
+                        <list list-type="bullet">
+                            <list-item>
+                                <p>La evaluación es un proceso integrante del proceso enseñanza – aprendizaje</p>
+                            </list-item>
+                            <list-item>
+                                <p>Se le resta protagonismo a la prueba escrita para darle más importancia a aquellas actividades que potencien los intercambios entre la persona docente, el estudiantado y sus pares</p>
+                            </list-item>
+                            <list-item>
+                                <p>La evaluación es consubstancial del proceso educativo, es decir, no se concibe como un hecho aislado al finalizar un ciclo lectivo, un contenido o una actividad</p>
+                            </list-item>
+                            <list-item>
+                                <p>Se fortalece la evaluación formativa.</p>
+                            </list-item>
+                            <list-item>
+                                <p>El propósito de las actividades de evaluación es que el estudiantado fortalezca sus conocimientos</p>
+                            </list-item>
+                        </list>
+                    </p>
+                    <p>En concordancia, El MEP (2013) y Segura (2018), destacan la importancia de la evaluación formativa, al respecto “el propósito formativo de la evaluación de los aprendizajes se convierte en parte inherente al proceso de aprendizaje, mediante los procesos de construcción y comunicación de los significados que se desenvuelven dentro del salón de clases de forma natural” (Segura, 2018, p. 7).</p>
+                    <p>De lo anterior se develan elementos y las características en torno al rol del profesorado en los procesos evaluativos, en los que se destaca a la persona docente como mediadora, la cual recolecta información sobre el desempeño estudiantil y la utiliza para planear actividades que potencien las habilidades estudiantiles, comparte la responsabilidad del juicio evaluativo con el estudiantado. Consecuentemente, el rol de la persona estudiante es de colaboradora, esto implica que por medio de los intercambios académicos con las otras personas de la clase se potencia el aprendizaje significativo, además, su participación de los procesos evaluativos es más activa, por tanto, estos son más democráticos.</p>
+                </sec>
+            </sec>
+            <sec>
+                <title>
+                    Marco metodológico
+                </title>
+                <sec>
+                    <title>
+                        Concepción metodológica de la investigación
+                    </title>
+                    <p>“Desde este estudio se ofrece una lectura del fenómeno que no se había realizado en el contexto nacional y que aporta al campo de conocimiento asociado a la comprensión y descubrimiento de las prácticas evaluativas de docentes de matemática, empero, al realizarse en un contexto específico, el fenómeno que aquí se investiga y las conclusiones a las que se llegan son para un contexto específico, no son generalizables y requieren de investigaciones posteriores para la toma de decisiones” (Díaz, 2021, p. 80).</p>
+                    <sec>
+                        <title>
+                            Tipo de investigación
+                        </title>
+                        <p>El objeto de estudio de esta investigación, requirió un acercamiento a la cotidianidad del aula donde interactúan tanto la persona docente como sus estudiantes, para comprender sus puntos de vista y cómo experimentan la evaluación de los aprendizajes, además en este escenario se develan sus roles en torno a ésta. Así, la investigación se define como cualitativa. Al respecto “la principal característica de la investigación cualitativa es su interés por captar la realidad, en este caso socio-educativa, a través de los ojos de las y los sujetos actuantes” (Gurdián, 2007, p.183).</p>
+                    </sec>
+                    <sec>
+                        <title>
+                            Fases desde el método fenomenológico
+                        </title>
+                        <p>Ahora bien, desde el método fenomenológico se busca describir y comprender la realidad vivida de las personas participantes. Se busca develar el significado que éstas dan a sus experiencias, además se consideran las diversas perspectivas en torno al objeto de estudio. Para lograrlo, de acuerdo con Rodríguez et al. (1999), se siguieron de seis fases, las cuales se describen a continuación.</p>
+                        <p>
+                            <bold>I Fase. Descripción del fenómeno:</bold>Esta se llevó a cabo mediante un diario de campo donde se recopilaron extractos de conversaciones y se describieron acciones, sin entrar en categorizaciones.</p>
+                        <p>
+                            <bold>II Fase. Búsqueda de múltiples perspectivas:</bold>Se complementan los datos de la fase I con informaciones de diversas fuentes.</p>
+                        <p>
+                            <bold>III Fase. Búsqueda de la esencia y la estructura:</bold>Se organiza la mediante categorías de análisis, las cuales se desprenden partir las sub interrogantes de investigación tal como se muestra en la tabla 1.</p>
+                        <p>
+                            <table-wrap id="gt1">
+                                <caption>
+                                    <title>
+                                        Tabla 1 
+                                    </title>
+                                    <p>Categorías de análisis: Búsqueda de la esencia y la estructura</p>
+                                </caption>
+                                <alternatives>
+                                    <graphic xlink:href="607975560002_gt2.png" position="anchor" orientation="portrait"/>
+                                    <table id="gt2-526564616c7963">
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align: center;">¿Cuáles medios utiliza el profesorado de matemática para recopilar información sobre el desempeño de estudiantil?</td>
+                                                <td style="text-align: center;">
+                                                    <bold>Medios de evaluación de los aprendizajes:</bold> Técnicas: de observación, de interrogación y otras técnicas. Instrumentos: las rúbricas, las listas de cotejo o de control y los exámenes. Medios de evaluación: Todas las producciones estudiantiles que se utilizan para recopilar evidencias de aprendizaje.</td>
+                                                <td style="text-align: center;">Observación participante Entrevista a docentes Diario de campo Análisis documental</td>
+                                                <td style="text-align: center;">Docentes Estudiantes</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">¿Cómo utiliza el profesorado la información obtenida en los medios de evaluación?</td>
+                                                <td style="text-align: center;">
+                                                    <bold>Uso de la información obtenida en los medios de evaluación:</bold> Promoción estudiantil, como diagnóstico para los temas siguientes, como evidencia para informar a las personas encargadas, para cumplir con un requisito institucional, otros.</td>
+                                                <td style="text-align: center;">Observación participante Entrevista a docentes Diario de campo Grupo focal</td>
+                                                <td style="text-align: center;">Docentes Estudiantes</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">¿Cuál es el rol del profesorado de matemática y del estudiantado en la evaluación de los aprendizajes?</td>
+                                                <td style="text-align: center;">
+                                                    <bold>Rol del profesorado en la evaluación de los aprendizajes:</bold> * Protagónico: La persona docente es el protagonista durante el proceso evaluativo. * Relación horizontal: La persona docente comparte la responsabilidad del juicio evaluativo con el estudiantado. * Guía: La persona docente considera en sí todo el proceso de enseñanza y aprendizaje como un proceso de evaluación permanente en el que intervienen diferentes</td>
+                                                <td style="text-align: center;">Observación participante Entrevista Grupo focal</td>
+                                                <td style="text-align: center;">Docentes Estudiantes</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </alternatives>
+                                <attrib>Díaz (2021, p. 83)</attrib>
+                            </table-wrap>
+                        </p>
+                        <p>
+                            <bold>IV fase. Constitución de las significaciones:</bold> Se determinaron las características esenciales del fenómeno.</p>
+                        <p>
+                            <bold>V fase. Suspensión de enjuiciamiento:</bold> La investigadora realiza una autobiografía, la cual, según Gurdián (2007), se realiza con el objetivo no imponer su propia experiencia previa como docente de matemática.</p>
+                        <p>
+                            <bold>VI fase. Interpretación del fenómeno:</bold> En este punto se reflexiona sobre la información recolectada en el proceso investigativo. Además, se develó que, habían elementos recurrentes en torno a las prácticas evaluativas del profesorado, los cuales constituyeron dos categorías de análisis emergentes y se muestran en la tabla 2.
+                        </p>
+
+                        <table-wrap id="gt2">
+                            <caption>
+                                <title>
+                                        Tabla 2 
+                                </title>
+                                <p>Categorías de análisis emergentes a partir de los referentes teóricos: Búsqueda de la esencia y la estructura</p>
+                            </caption>
+                            <alternatives>
+                                <graphic xlink:href="607975560002_gt3.png" position="anchor" orientation="portrait"/>
+                                <table id="gt3-526564616c7963">
+                                    <tbody>
+                                        <tr>
+                                            <td style="text-align: center;">¿Cómo se lleva a cabo la evaluación formativa de los aprendizajes matemáticos?</td>
+                                            <td style="text-align: center;">
+                                                <bold>La evaluación formativa de los aprendizajes matemáticos:</bold> Momentos de la evaluación formativa. Medios de evaluación formativa. Personas participantes. Uso de la información.</td>
+                                            <td style="text-align: center;">Observación participante Entrevista a docentes Diario de campo Análisis documental</td>
+                                            <td style="text-align: center;">Docentes Estudiantes</td>
+                                            <td style="text-align: center;">Instrucciones de las tareas matemáticas asociadas a la evaluación formativa.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">¿Cómo se articula la evaluación de los aprendizajes en el planeamiento didáctico?</td>
+                                            <td style="text-align: center;">
+                                                <bold>La evaluación de los aprendizajes matemáticos en el planeamiento didáctico:</bold> El planeamiento didáctico. Habilidades específicas y su evaluación. Descripción de las técnicas e instrumentos.</td>
+                                            <td style="text-align: center;">Observación participante Entrevista a docentes Diario de campo</td>
+                                            <td style="text-align: center;">Docentes Estudiantes</td>
+                                            <td style="text-align: center;">Planeamiento didáctico de cada docente.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </alternatives>
+                            <attrib>Díaz (2021, p.89)</attrib>
+                            <table-wrap-foot>
+                                <fn id="fn2" fn-type="other">
+                                    <p>C1 colegio participante 1, C2 colegio participante 2 y C3 colegio participante 3</p>
+                                </fn>
+                            </table-wrap-foot>
+                        </table-wrap>
+
+                    </sec>
+                    <sec>
+                        <title>
+                            Población y muestra
+                        </title>
+                        <p>La muestra, desde el enfoque cualitativo, busca “obtener tanta información como sea posible para fundamentar su diseño y generar una teoría, basándose en criterios pragmáticos y teóricos antes que en criterios probabilísticos” (Colás, 1998, p.254). La selección de la muestra en esta investigación se definió gradualmente, es decir, acorde con la construcción y reflexiones surgidas del marco teórico y los aportes de personas expertas en el área, además se “consideraron algunos criterios que según Flick (2007), permiten seleccionar la muestra exitosamente, aportando información pertinente y respondiendo la interrogante de investigación” (Díaz, 2021, p. 103).</p>
+                        <p>El primer criterio se refiere a los casos críticos, este se fundamenta en las recomendaciones hechas por expertos en el campo como la asesora nacional de matemática, asesores nacionales de evaluación de los aprendizajes Ministerio de Educación Pública, tres asesores regionales, personas que estuvieron a cargo de las capacitaciones sobre la implementación de los PEM, ex asesores regionales y el director del equipo que elaboró los PEM.</p>
+                        <p>Estos recalcaron algunos tipos de instituciones educativas públicas como las que presentaron una actitud negativa, hacia los PEM al iniciar la reforma curricular y, por ende, en algunos casos prescindieron de las capacitaciones en torno a estos, o aquellas que presentan altos porcentajes de exclusión estudiantil en séptimo año. Luego, se definen el segundo criterio de selección, los “casos extremos. Este criterio es útil para el estudio del funcionamiento de un programa o reforma, se eligen los casos cuya implementación ha sido un éxito o por el contrario un fracaso” (Díaz, 2021, p. 104).</p>
+                        <p>Finalmente, se seleccionaron cuatro instituciones, de estas se tuvo acceso a tres de ellas, la cuarta institución no pudo participar del proceso investigativo pues, por la emergencia sanitaria de la COVID-19, permaneció cerrada. En la tabla 3 se presenta un resumen con la información de cada colegio.</p>
+
+                        <table-wrap id="gt3">
+                            <caption>
+                                <title>
+                                        Tabla 3
+                                </title>
+                                <p>Descripción de las instituciones donde se recopiló información</p>
+                            </caption>
+                            <alternatives>
+                                <graphic xlink:href="607975560002_gt4.png" position="anchor" orientation="portrait"/>
+                                <table id="gt4-526564616c7963">
+                                    <tbody>
+                                        <tr>
+                                            <td style="text-align: center;">C1</td>
+                                            <td style="text-align: center;">Desde que se iniciaron con las capacitaciones de los PEM tuvieron anuencia a participar, se han esforzado por implementarlos en las clases de matemática y además presentan un bajo índice de exclusión estudiantil.</td>
+                                            <td style="text-align: center;">170 estudiantes distribuidos en 7 grupos. Una persona docente a cargo de todas las clases de matemática.</td>
+                                            <td style="text-align: center;">julio 2019 a diciembre de 2019, para un total de 8 observaciones, distribuidas en los diferentes grupos.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">C2</td>
+                                            <td style="text-align: center;">Desde que se iniciaron con las capacitaciones de los PEM tuvieron anuencia a participar, se han esforzado por implementarlos en las clases de matemática y además presentan un alto índice de exclusión estudiantil.</td>
+                                            <td style="text-align: center;">270 estudiantes distribuidos en 8 grupos. Una persona docente a cargo de todas las clases de matemática.</td>
+                                            <td style="text-align: center;">agosto de 2019 a diciembre de 2019, para un total de 4 observaciones, distribuidas en los diferentes grupos. Cabe destacar que se suspendieron muchas lecciones de matemática por diferentes razones.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="text-align: center;">C3</td>
+                                            <td style="text-align: center;">Desde que se iniciaron con las capacitaciones de los PEM tuvieron poca anuencia a participar, mostraron resistencia en su implementación en las clases de matemática y además presentan un bajo índice de exclusión estudiantil.</td>
+                                            <td style="text-align: center;">210 estudiantes distribuidos en 8 grupos. Una persona docente a cargo de todas las clases de matemática.</td>
+                                            <td style="text-align: center;">febrero de 2020 a marzo de 2020 para un total de 4 observaciones, distribuidas en los diferentes grupos. Se suspendieron las observaciones por la emergencia sanitaria 2020.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </alternatives>
+                            <attrib>Comité de evaluación del C1 (2019)</attrib>
+                            <table-wrap-foot>
+                                <fn id="fn3" fn-type="other">
+                                    <p>Rúbrica utilizada PC1 para valorar el trabajo cotidiano o las tareas del estudiantado.</p>
+                                </fn>
+                            </table-wrap-foot>
+                        </table-wrap>
+
+                    </sec>
+                </sec>
+                <sec>
+                    <title>
+                        Técnicas e instrumentos de recolección de información
+                    </title>
+                    <p>De acuerdo con el enfoque y método de investigación, se consideraron aquellas técnicas que permiten recolectar información sobre un fenómeno o hecho tal y cómo éste se lleva a cabo. Estas son:</p>
+                    <p>
+                        <bold>Observación participante:</bold> la investigadora se introdujo en el campo de acción de la persona docente, la clase de matemáticas, consecuentemente, tuvo acceso a las sus experiencias del día a día e interacción con sus estudiantes, así como a los medios y recursos utilizados para la evaluación de los aprendizajes. Las acciones relevantes en torno al objeto de estudio se plasmaron de manera detallada y descriptiva en un diario de campo digital.</p>
+                    <p>
+                        <bold>La entrevista cualitativa enfocada:</bold> ésta consistió en una conversación entre la investigadora y las personas docentes, donde se definió con anterioridad el foco de interés que orientó el diálogo. El instrumento se validó por medio de criterio de expertos. Este se puede ver en el Anexo A.1.</p>
+                    <p>
+                        <bold>Grupo focal:</bold> mediante esta técnica se recolectó información sobre cómo experimentan las personas estudiantes la evaluación de los aprendizajes en la clase de matemáticas. Para ello se utilizó una guía de entrevista grupal, la validación de ésta se hizo análogamente por medio de criterio de expertos. El miso se ubica en el Anexo A.2.</p>
+                    <p>
+                        <bold>Información secundaria cualitativa:</bold> se realizó la recolección de material escrito o fotográfico de las pruebas escritas, las rúbricas, listas de cotejo u otro instrumento para la evaluación de los aprendizajes. Además, se tomaron fotografías de las devoluciones hechas a las personas estudiantes de los trabajos realizados. Ver en Anexo A.3, Anexo A.4 y Anexo A.5 algunas fotografías de las evidencias recopiladas.</p>
+                    <p>También se utilizó la estrategia “4+6”, la cual consiste es un modelo para la valoración de las tareas matemáticas, según la demanda cognitiva. Al respecto, Ruiz (2018) destaca tres niveles de complejidad: reproducción, conexión y reflexión.</p>
+                </sec>
+                <sec>
+                    <title>
+                        Técnicas de procesamiento y análisis de datos
+                    </title>
+                    <p>Para resguardar la fiabilidad y credibilidad de la investigación, se consideraron algunas estrategias que según Flick (2007) pueden potenciarlas en la investigación cualitativa. La primera apunta a un compromiso por parte de la persona investigadora para acudir de forma constate al campo de acción. La segunda implica la consulta a personas expertas para develar los puntos ciegos, la tercera estrategia consistió en la triangulación de fuentes documentales, de las personas informantes y de las técnicas para la recopilación de datos.</p>
+                </sec>
+            </sec>
+            <sec>
+                <title>
+                    Análisis de datos
+                </title>
+                <p>Los hallazgos se clasificaron de acuerdo con categorías de análisis. Cabe destacar que para hacer referencia a las intervenciones de las personas participantes se utilizó la siguiente codificación: para la profesora del colegio 1 es PC1, para la profesora del colegio 2 se utilizó PC2 y para el profesor del colegio 3 este se identificó como PC3. Una codificación análoga se utilizó para el estudiantado: EC1 estudiante del colegio 1 y así sucesivamente, además se utilizó I para la investigadora.</p>
+                <p>
+                    <bold>I Categoría: Medios de evaluación de los aprendizajes matemáticos.</bold> De esta categoría se develó que las personas docentes tienden a utilizar aquellos medios de evaluación que están explícitos en el Reglamento de Evaluación de los Aprendizajes, los cuales el profesorado limita a las rúbricas y a las pruebas escritas. Al indagar sobre las primeras, el MEP (2018) no menciona la rúbrica como tal, sino que:</p>
+                <p>Elaborar los instrumentos para la evaluación de los aprendizajes que aplicará al grupo o grupos que tiene a su cargo, de acuerdo con la naturaleza de la asignatura y los lineamientos técnicos establecidos por el Departamento de Evaluación de los Aprendizajes. (MEP, 2018, Art. 15, inc. e)</p>
+                <p>Del artículo mencionado se devela que las personas docentes tienen la libertad de construir instrumentos que mejor permitan la recolección de evidencias sobre el desarrollo de las habilidades matemáticas que se establecen en la propuesta curricular. Al respecto, la PC2 añade lo siguiente, al preguntarle sobre los instrumentos de evaluación utilizados:</p>
+                <p>I: usted me mencionó que usa rúbricas, construidas por usted misma, para poder calificar o evaluar a los estudiantes. ¿Usa algún otro instrumento? PC2: No, yo me apego al REA, como ellos van diciendo. El cotidiano, los extraclase, bueno, ahora se llaman tareas. I: ¿Utiliza listas de cotejo o escalas? PC2: no, no, porque ahora el REA, hace más de dos años que quitaron eso. (Díaz, 2021, p. 155).</p>
+                <p>Análogamente, las personas docentes del C1 y del C3 sostienen que, de acuerdo con el REA, todo trabajo debe ir acompañado de una rúbrica para sustentar su calificación. Si bien se destacó que la rúbrica se encuentra entre los medios de evaluación que privilegian la recolección de información, esto es válido siempre y cuando cumpla con algunas características básicas, entre ellas:</p>
+                <p>todos los indicadores son claros, diferenciados y están acordes con los objetivos educativos establecidos, cada nivel de logro está claramente diferenciado y el progreso entre uno y otro se hace en un orden lógico, también esta debe presentarse desde el inicio del trabajo como eje de referencia para elaborar el producto o realizar la tarea (Díaz, 2021, p. 127).</p>
+                <p>Al analizar las rúbricas que utilizan las personas docentes, se reveló que el énfasis está en cuantificar los ejercicios realizados por el estudiantado, y no hay indicadores asociados a los aspectos en torno a la resolución de problemas matemáticos. Al respecto se asigna cierta cantidad de ejercicios y la calificación del trabajo dependerá de la totalidad que logró hacer la persona estudiante. Además, la revisión consiste en colocar un “check” sobre cada respuesta correcta y no se hace una devolución o realimentación sobre el trabajo realizado. Ver Anexo A.3.</p>
+                <p>Se les solicitó a las personas docentes la rúbrica utilizada para valorar las tareas asignadas y la estructura, en general, es como se muestra en la tabla 4.</p>
+                <p>
+                    <table-wrap id="gt4">
+                        <caption>
+                            <title>
+                                Tabla 4
+                            </title>
+                            <p>Rúbrica para evaluar los aprendizajes matemáticos de la profesora colegio 1</p>
+                        </caption>
+                        <alternatives>
+                            <graphic xlink:href="607975560002_gt5.png" position="anchor" orientation="portrait"/>
+                            <table id="gt5-526564616c7963">
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align: center;"/>
+                                        <td style="text-align: center;">Excelente (5)</td>
+                                        <td style="text-align: center;">Muy Bueno</td>
+                                        <td style="text-align: center;">Bueno</td>
+                                        <td style="text-align: center;">Regular</td>
+                                        <td style="text-align: center;">Por mejorar</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">*</td>
+                                        <td style="text-align: center;">Contestó correctamente entre el 80% y el 100% de las preguntas, en el tiempo asignado para ello.</td>
+                                        <td style="text-align: center;">Contestó correctamente entre el 60% y el 79% de las preguntas, en el tiempo asignado para ello.</td>
+                                        <td style="text-align: center;">Contestó correctamente entre el 40% y el 59% de las preguntas, en el tiempo asignado para ello.</td>
+                                        <td style="text-align: center;">Contestó correctamente entre el 21% y el 39% de las preguntas, en el tiempo asignado para ello.</td>
+                                        <td style="text-align: center;">Contestó correctamente menos del 20% de las preguntas, en el tiempo asignado para ello.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </alternatives>
+                        <attrib>Elaboración propia</attrib>
+                        <table-wrap-foot>
+                            <fn id="fn4" fn-type="other">
+                                <p>Rúbrica utilizada PC1 para valorar el trabajo cotidiano o las tareas del estudiantado</p>
+                            </fn>
+                        </table-wrap-foot>
+                    </table-wrap>
+                </p>
+                <p>En la columna asociada a indicadores, la persona docente debe colocar el indicador asociado a la habilidad matemática que se está evaluando. Nótese que con este recurso, tal como se presenta, la persona estudiante no tiene una realimentación efectiva del trabajo realizado.</p>
+                <p>En cuanto a otros medios de evaluación, como la V de Gowin o los mapas mentales, se consultó a las tres personas docentes, de manera explícita, si los utilizaban, a lo que contestan, de manera general, que del todo ignoran en qué consiste la primera y en cuanto al segundo consideran que no es una técnica apropiada para evaluar en la disciplina de matemáticas.</p>
+                <p>Finalmente, al utilizar la estrategia “4+6” para examinar los ítems de las pruebas escritas, se corrobora que el nivel de dificultad para cada uno de ellos se define como de reproducción. Cabe destacar que las preguntas de la prueba escrita son réplicas de los ejercicios realizados en la clase, como los que se muestran en el Anexo A.3 y Anexo A.5.</p>
+                <p>
+                    <bold>II Categoría: Uso que se le da a los medios de evaluación de los aprendizajes matemáticos.</bold> El uso que la persona docente da a los medios de evaluación está ligado a las respuestas que ésta proporciona a la interrogante ¿para qué evalúa? De las respuestas se devela que la persona docente concibe la evaluación de los aprendizajes como una medición, esto implica que “los juicios que se hacen acerca del aprendizaje están mediados por el diseño de instrumentos de medición, así como por la asignación de puntuaciones y su interpretación” (Moreno, 2016 p.100).</p>
+                <p>Consecuentemente, se plantea el siguiente cuestionamiento ¿cómo se utiliza que la información recopilada en el proceso evaluativo? La respuesta del PC3 resume las afirmaciones de las otras dos personas docentes; “Ok, para qué uso los insumos que obtengo del proceso de evaluación. Número 1, todos los insumos van enfocados en asignarle el bendito número al estudiante” (Díaz, 2021, pp. 150-151). Al respecto, la PC2, ante el mismo cuestionamiento añade:</p>
+                <p>I: ¿Para qué cree usted que es necesario evaluar? PC2: Para medir el aprendizaje. I: ¿De quién? PC2: De los alumnos. I: Bien. PC2: y de uno también. (Díaz, 2021, p. 149).</p>
+                <p>Del texto anterior, se vislumbra que la evaluación de los aprendizajes se enmarca desde la propuesta sumativa del MEP (2018), donde se le otorga un carácter administrativo con el fin de justificar la promoción escolar. Análogamente, de las observaciones y de los grupos focales hay consenso en que la evaluación es una medición ligada a una calificación.</p>
+                <p>
+                    <bold>III Categoría: Roles del profesorado y del estudiantado en la evaluación de los aprendizajes.</bold> En las tres instituciones se detectó que es el profesorado quien plantea las interrogantes que guían la mediación pedagógica, además el tipo de cuestionamientos se caracterizaban por ser simples, es decir, requerían respuestas memorísticas, dicotómicas de si o no, o cálculos básicos, sin argumentar cuáles son los principios, teoremas o axiomas que respaldan los resultados obtenidos. Ver Anexo A.4.</p>
+                <p>Al respecto se tiene el siguiente extracto del diario de campo del C2:</p>
+                <p>Se está revisando una práctica sobre ángulos internos de un cuadrilátero. La profesora pregunta ¿Cuál era el primer paso para encontrar este? Algunas personas contestan de manera simultánea: Se suman. La profesora: Se suma 120 + 24 + 125 (lo escribe en la pizarra). Luego agrega: Ok, ¿cuál es el segundo paso? Estudiante: a 360 se le resta 269. La profesora: Recuerden chicos lo que les dije, si la pregunta vale 3 puntos, entonces deben hacer los procedimientos, pero si se los doy en un marque con x deben dar sólo la respuesta. Se continúa con la resta respectiva y se le indica al estudiantado que revisen en sus folletos si “la tienen buena”. (Díaz, 2021, pp. 166 - 167).</p>
+                <p>Aunado a lo anterior, se develó que la persona docente es quien avala estas respuestas. Al respecto, es fundamental que el profesorado evite dar apreciaciones inmediatas sobre los aportes estudiantiles, ya que este aspecto va en detrimento de potenciar procesos de comunicación, reflexión, argumentación o conexión en torno a la construcción de los objetos matemáticos.</p>
+                <p>En contra parte, plantear las preguntas apropiadas en la clase de matemática, requiere “un proceso de reflexión de parte de los docentes, en el cuál es bueno cuestionarse cuándo, cómo y por qué preguntamos, y así lograr plantear cuestiones en el momento adecuado, de la mejor forma posible” (Polanco, 2011, p. 12).</p>
+                <p>Por otro lado, se comprobó que el profesorado hace un esfuerzo por motivar el trabajo en equipos, empero, se detectó que, durante este espacio, el estudiantado se limitaba a colocar un pupitre al lado de otro, compartir la calculadora o el borrador de ser necesario, omitiendo el discutir, reflexionar y aportar para realizar la tarea propuesta. Además, cuando alguna persona del equipo tenía alguna duda, inmediatamente se ponía de pie y se dirigía al escritorio de la persona docente para que le diera pistas de cómo encontrar la respuesta correcta. Pareciera que durante esas dinámicas prevalece una intención más fiscalizadora que formativa.</p>
+                <p>De esta categoría se concluyó que el rol del profesorado se circunscribe al paradigma conductual, tal que la persona docente controla el proceso evaluativo, donde el aprendizaje es medible y se asocia a una calificación. Consecuentemente, el estudiantado asume un rol de receptor pasivo, en el que acepta las valoraciones de la persona profesora, pues considera es ella quien es portadora de conocimiento.</p>
+                <p>
+                    <bold>IV Categoría: Evaluación formativa de los aprendizajes matemáticos.</bold> Esta categoría de análisis surgió por la insistencia con la que diversos autores la destacan para potenciar el aprendizaje significativo, así MEP (2015), Moreno (2016) y Zepeda (2017) coinciden en que su propósito se centra en la persona docente y sus estudiantes, dispongan de información continua y a tiempo de las producciones estudiantiles, que orienten la mediación pedagógica.</p>
+                <p>Al indagar con las personas docentes sobre cómo conciben la evaluación formativa, en primer lugar, se destaca que la asocian con el trabajo que realiza el estudiantado en equipos. Cabe destacar que, de acuerdo con las observaciones, esta forma de trabajar no implicaba una acción recíproca intencionada o coordinada en torno a la tarea matemática que se llevaba a cabo y tampoco promovía una discusión reflexiva entre las personas que conforman el equipo.</p>
+                <p>Luego, se asocia con la transcripción de algún procedimiento del cuaderno a la pizarra. Además, tanto las personas docentes como estudiantes coincidieron que la evaluación formativa es la que carece de una calificación, por lo tanto, no tiene tanta relevancia como la sumativa.</p>
+                <p>A continuación, se presenta un extracto de la entrevista realizada a la PC1 en el que hace referencia a cómo concibe la evaluación formativa en el aula de matemática:</p>
+                <p>PC1: Bueno, la evaluación formativa, cuando nosotros trabajamos en, eee, lo que son, bueno, el trabajo cotidiano, en ese caso, eee, que se trabaja casi siempre en grupos, o en forma individual, la parte, digamos, donde, eee, mmm, retomamos, los ejercicios o el ejercicio inicial que se le da a un estudiante, eee, salen preguntas generadoras, las cuales se hacen, digamos, al azar o el que quiera contestar, para ver qué tanto, digamos, este, comprendieron el tema, verdad, en este caso, es más fácil cuando son problemas de la vida cotidiana porque los chicos incluso, eee, cuentan alguna anécdota o alguna experiencia que les pasó a ellos, en el caso de séptimo digamos, que se utilizan números naturales o números enteros, diay, en los cuales son más fáciles de aplicar en la vida cotidiana y ellos tienen experiencias que les han pasado y lo cuentan. En ese momento cuando estamos hablando sobre el problema que se trabajó para iniciar un tema, es ahí donde digamos, este, aplicamos esa parte. Y también en general cuando se revisan los problemas, porque siempre después de analizarlos, no solamente en ese problema inicial, antes de, eee, antes de aplicar un tema, sino que cuando ya se ha visto un tema, y si hacen los ejercicios, también cuando se hace el análisis de los ejercicios ahí es cuando se da la parte formativa. (Díaz, 2021, p. 185).</p>
+                <p>
+                    <bold>V Categoría: Evaluación de los aprendizajes matemáticos en el planeamiento didáctico.</bold> De acuerdo con la fundamentación teórica de los PEM, la planificación de las lecciones debe articular habilidades y procesos matemáticos que se potencian en la resolución de problemas y su respectiva la evaluación, en la que se contemplen sus seis principios. Al respecto,</p>
+                <p>Este estilo obliga a una preparación cuidadosa de la lección, involucrando la escogencia de los problemas, los tiempos a destinar para cada paso y la acción docente en cada momento, que no es solamente guía general para la construcción de aprendizajes automáticos, sino que posee un carácter central en la interacción social y cognitiva de aula (MEP, 2012, p.44).</p>
+                <p>Al indagar sobre qué elementos se toman en cuenta para el planeamiento didáctico, se deriva que las personas participantes tienen algunas nociones de los elementos que se deben articular en el diseño didáctico como las habilidades de los PEM, los problemas matemáticos y la evaluación de los aprendizajes. No obstante, al contrastar los documentos recopilados se constata que se le da énfasis a enunciar alguna de las habilidades específicas de la propuesta curricular, el enunciado de alguna tarea matemática o la página del libro en la que se trabajará y finalmente los indicadores de aprendizajes, “los cuales son las mismas habilidades específicas mencionadas, pero redactadas en tercera persona del modo indicativo” (Díaz, 2021, p. 199). En la estructura presentada no se considera la evaluación de los aprendizajes matemáticos, los momentos o sus funciones, tampoco se explicitan tareas matemáticas ubicadas en los tres niveles de complejidad: reproducción, conexión y reflexión.</p>
+                <p>Durante las observaciones, se constató que las tres personas docentes orientan las lecciones con base en un folleto o libro, el cual funciona también como cuaderno de trabajo para el estudiantado (Ver Anexo A.3 y Anexo A.5), además, la estructura general del material mencionado consta de algunos ejemplos asociados a la temática, algunos ejemplos de resolución de ejercicios y una lista de actividades semejantes a éstos.</p>
+                <p>Al realizar el análisis de algunos de los problemas o ejercicios propuestos, utilizando la estrategia “4+6”, se determinó que el tipo de tarea que predomina se ubica en el nivel de reproducción. Por ejemplo, se le solicita al estudiantado determinar la factorización prima del número 216,donde de manera mecánica, la persona estudiante inicia por dividir dicho número por 2, 3, 5, 7, etcétera, hasta identificar cuáles son sus divisores primos.</p>
+                <p>De acuerdo con la teoría, el promover estas acciones repetitivas para desarrollar las habilidades propuestas, en las que no se contempla la evaluación de los aprendizajes matemáticos como parte integral del planeamiento didáctico, sino se concibe como un suceso al finalizar un periodo de tiempo, apuntan hacia un paradigma conductual de enseñanza.</p>
+            </sec>
+            <sec>
+                <title>
+                    Conclusiones
+                </title>
+                <p>Al hacer un recorrido por la teoría que sustenta esta investigación, se constata que hay material bibliográfico amplio y suficiente que promueven prácticas evaluativas acordes con la fundamentación de los PEM. Cabe destacar que estos recursos se encuentran al alcance de las personas docentes en la página oficial del Ministerio de Educación Pública. No obstante, pareciera que el Reglamento de Evaluación de los Aprendizajes es el documento que tiene más injerencia en las decisiones del profesorado, en torno a los medios de evaluación utilizados.</p>
+                <p>Las respuestas de las personas docentes, relativas a los medios utilizados para la evaluación de los aprendizajes matemáticos, deja al descubierto que ésta se lleva a cabo desde un enfoque tradicional, donde la realización de listas de ejercicios rutinarios y las pruebas escritas siguen predominando en las clases.</p>
+                <p>De la categoría de análisis I de develó que la evaluación de los aprendizajes matemáticos se comprende como una medición, de ahí que en la categoría II se desprende que la prueba escrita prevalece como el medio privilegiado para determinar el logro de las habilidades propuestas en los PEM.</p>
+                <p>Seguidamente, en la categoría III se advierte que el rol del profesorado es protagónico, en tanto que el del estudiantado es de receptor pasivo de la valoración que realiza la persona docente. Es decir, la persona estudiante acepta cómo válidas las apreciaciones que la persona docente hace de sus producciones.</p>
+                <p>De forma paralela, en las categorías IV y V se desprende que la evaluación formativa no se considera en el diseño didáctico y no cumple su propósito dentro del accionar educativo, invisibilizando la autoevaluación y la coevaluación. Este aspecto actúa en detrimento de promover una evaluación más democrática en el contexto escolar.</p>
+                <p>En síntesis, de los hallazgos se destaca que la persona docente tiende mantener una postura más tradicional al implementar medios de evaluación, usualmente ligada a su referente histórico y experiencias como estudiante, tanto de secundaria como universitaria, consecuentemente las pruebas escritas, mejor conocidas como exámenes, siguen siendo el medio evaluativo privilegiado en los salones de clase. Ante tal escenario, se da énfasis a los resultados, a la evaluación individualizada, se deja de lado la evaluación formativa y el rol de la persona docente es protagónico, no se promueve la discusión de los resultados y finalmente, se concibe la evaluación de los aprendizajes matemáticos como un suceso y no un proceso.</p>
+            </sec>
+            <sec>
+                <title>
+                    Recomendaciones
+                </title>
+                <p>En cuanto a futuras investigaciones, se sugiere indagar sobre cuáles elementos interfieren para que el profesorado no desarrolle sus clases con base en las pautas que sugieren los PEM, los cuales podrían incluir el cómo se comprenden los problemas matemáticos, la carga laboral excesiva de la que algunas personas docentes hacen referencia, hasta la formación inicial de la persona docente.</p>
+                <p>De lo anterior, se resalta la necesidad de crear espacios para reflexionar sobre cómo articular la resolución de problemas matemáticos y su evaluación, sin dejar de lado las demandas administrativas de cada institución educativa. Pues pareciera que la reglamentación en torno a la promoción escolar absorbe el interés del profesorado, dejando de lado la posibilidad de ser creativo y explorar otras formas de llevar a cabo las prácticas evaluativas.</p>
+                <p>Luego, tanto las autoridades ministeriales como la persona docente en el aula, debe promover la participación del estudiantado desde un rol más activo y protagónico, en el que proponga, reflexione, argumente y valide sus propios aportes, sin que se limite a responder interrogantes simples planteadas por el profesorado. Este es un proceso que requiere paciencia, puesto que, ambas partes podrían presentar resistencia al cambio. Al respecto, deberían crearse espacios para que el estudiantado, desde sus primeros pasos en el ámbito escolar, participe en la valoración de su propio desempeño, así como en el de sus pares.</p>
+                <p>Este cambio debería iniciar desde el planeamiento didáctico, pues la persona docente debe reflexionar sobre los objetos matemáticos a construir, los conocimientos previos, las demandas cognitivas para cada tarea matemática, el cómo se llevará a cabo la evaluación de los aprendizajes y cuáles medios permiten la mayor recopilación de evidencias, tanto para el profesorado como para el estudiantado, del desempeño estudiantil. Este debe ser un proceso que forme parte del quehacer diario, pues la información obtenida condiciona de manera directa la planificación de las próximas clases.</p>
+                <p>No se omite el hecho que en la literatura se advierte que hay múltiples obstáculos al planificar las clases, estos van desde las experiencias personales, el volumen de trabajo de cada docente, el mismo currículo, hasta la formación profesional del profesorado, empero, al ignorar este proceso de reflexión constante y acudir a “plantillas o matrices” ya establecidas, se corre el riesgo de tecnificar la educación y actuar en detrimento de la complejidad de la misma.</p>
+            </sec>
+        </sec>
+    </body>
+    <back> 
+        <ref-list>
+            <title>Referencias</title>
+            <ref id="ref3">
+                <label>[1]</label>
+                <mixed-citation>Blanco, O. Tendencias en la Evaluación de los Aprendizajes. Revista de Teoría y Didáctica de las Ciencias Sociales, (9),111-130. 2004.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Blanco</surname>
+                            <given-names>O.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Tendencias en la Evaluación de los Aprendizajes</article-title>
+                    <source>Revista de Teoría y Didáctica de las Ciencias Sociales</source>
+                    <year>2004</year>
+                    <volume>9</volume>
+                    <fpage>111</fpage>
+                    <lpage>130</lpage>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref4">
+                <label>[2]</label>
+                <mixed-citation>[2] Blanco, L. &amp; Caballero, A. Modelo integrado de Resolución de Problemas en Matemática: MIRPM. En L. Blanco, J. Cárdenas y A. Caballero (Eds.), La resolución de problemas de matemática en la formación inicial de profesores de primaria. España: Universidad de Extremadura. 2015.</mixed-citation>
+                <element-citation publication-type="other">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Blanco</surname>
+                            <given-names>L.</given-names>
+                        </name>
+                        <name>
+                            <surname>Caballero</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <source>España: Universidad de Extremadura</source>
+                    <year>2015</year>
+                    <chapter-title>Modelo integrado de Resolución de Problemas en Matemática: MIRPM</chapter-title>
+                    <series>La resolución de problemas de matemática en la formación inicial de profesores de primaria</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref5">
+                <label>[3]</label>
+                <mixed-citation>[3] Blanco, L. &amp; Pino. J. ¿Qué entendemos por problema de matemáticas? En L. Blanco, J. Cárdenas y A. Caballero (Eds.), La resolución de problemas de matemática en la formación inicial de profesores de primaria. España: Universidad de Extremadura. 2015.</mixed-citation>
+                <element-citation publication-type="other">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Blanco</surname>
+                            <given-names>L.</given-names>
+                        </name>
+                        <name>
+                            <surname>Pino</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                    </person-group>
+                    <source>España: Universidad de Extremadura</source>
+                    <year>2015</year>
+                    <chapter-title>¿Qué entendemos por problema de matemáticas?</chapter-title>
+                    <series>La resolución de problemas de matemática en la formación inicial de profesores de primaria</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref6">
+                <label>[4]</label>
+                <mixed-citation>[4] Cáceres, M.&amp; Chamoso, J. La evaluación sobre la resolución de problemas en matemática. En L. Blanco, J. Cárdenas y A. Caballero (Eds.), La Resolución de Problemas de Matemáticas en la Formación inicial de Profesores de Primaria (pp. 225- 239). España: Universidad de Extremadura. 2015.</mixed-citation>
+                <element-citation publication-type="other">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Cáceres</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Chamoso</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                    </person-group>
+                    <source>España: Universidad de Extremadura</source>
+                    <year>2015</year>
+                    <fpage>225</fpage>
+                    <lpage>239</lpage>
+                    <chapter-title>La evaluación sobre la resolución de problemas en matemática</chapter-title>
+                    <series>La Resolución de Problemas de Matemáticas en la Formación inicial de Profesores de Primaria</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref7">
+                <label>[5]</label>
+                <mixed-citation>[5] Cárdenas, J.&amp; Blanco, L. La evaluación de la Resolución de Problemas de Matemáticas de profesores de Secundaria en Colombia. Educatio Siglo XXI, 36(3 Nov-Feb1), 123–152. 2018.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Cárdenas</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                        <name>
+                            <surname>Blanco</surname>
+                            <given-names>L.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>La evaluación de la Resolución de Problemas de Matemáticas de profesores de Secundaria en Colombia</article-title>
+                    <source>Educatio Siglo XXI</source>
+                    <year>2018</year>
+                    <volume>36</volume>
+                    <issue>3</issue>
+                    <fpage>123</fpage>
+                    <lpage>152</lpage>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref8">
+                <label>[6]</label>
+                <mixed-citation>[6] Castro, E. Resolución de problemas: ideas, tendencias e influencias en España. En: Ricardo; Gómez, Bernardo; Camacho, Matías; Blanco, Lorenzo (Eds.), Investigación en educación matemática XII (pp. 113-140). Badajoz: SEIEM. 2008.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Castro</surname>
+                            <given-names>E.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Badajoz: SEIEM</source>
+                    <year>2008</year>
+                    <fpage>113</fpage>
+                    <lpage>140</lpage>
+                    <chapter-title>Resolución de problemas: ideas, tendencias e influencias en España</chapter-title>
+                    <series>Investigación en educación matemática XII</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref9">
+                <label>[7]</label>
+                <mixed-citation>[7] Colás, M.P. La Metodología Cualitativa. En M.P.Colás &amp; L. Buendía (Autoras), Investigación Educativa. (pp 249-290). Sevilla: Alfar. 1998.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Colás</surname>
+                            <given-names>M.P.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Sevilla: Alfar</source>
+                    <year>1998</year>
+                    <fpage>249</fpage>
+                    <lpage>290</lpage>
+                    <series>La Metodología Cualitativa. En M.P.Colás &amp; L. Buendía (Autoras), Investigación Educativa</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref10">
+                <label>[8]</label>
+                <mixed-citation>[8] Díaz, E. Las prácticas evaluativas del profesorado de matemática de sétimo año con base en los programas de estudio del MEP, un estudio en tres liceos del Valle Central. (Tesis de Maestría). Universidad de Costa Rica, San José, Costa Rica. 2021.</mixed-citation>
+                <element-citation publication-type="thesis">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Díaz</surname>
+                            <given-names>E.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Las prácticas evaluativas del profesorado de matemática de sétimo año con base en los programas de estudio del MEP, un estudio en tres liceos del Valle Central</article-title>
+                    <source>Universidad de Costa Rica, San José, Costa Rica</source>
+                    <year>2021</year>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref11">
+                <label>[9]</label>
+                <mixed-citation>[9] Fernández, J.A. Técnicas creativas. Resolución de problemas matemáticos. España: Wolters Kluwer. S. A. 2007.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Fernández</surname>
+                            <given-names>J.A.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Wolters Kluwer. S. A.</source>
+                    <year>2007</year>
+                    <publisher-loc>España</publisher-loc>
+                    <series>Técnicas creativas. Resolución de problemas matemáticos</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref12">
+                <label>[10]</label>
+                <mixed-citation>[10] Flick, U. Introducción a la investigación cualitativa. Madrid: Morata. 2007.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Flick</surname>
+                            <given-names>U.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Morata</source>
+                    <year>2007</year>
+                    <publisher-loc>Madrid</publisher-loc>
+                    <series>Introducción a la investigación cualitativa</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref13">
+                <label>[11]</label>
+                <mixed-citation>[11] Förster, C. Alfabetización evaluativa de docentes. En C. Förster (Editora), El poder de la evaluación en el aula. Mejores decisiones para promover aprendizajes (pp. 14-42). Santiago, Chile: Ediciones Universidad Católica de Chile. 2017.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Förster</surname>
+                            <given-names>C.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Ediciones Universidad Católica de Chile</source>
+                    <year>2017</year>
+                    <fpage>14</fpage>
+                    <lpage>42</lpage>
+                    <publisher-loc>Santiago, Chile</publisher-loc>
+                    <chapter-title>Alfabetización evaluativa de docentes</chapter-title>
+                    <series>El poder de la evaluación en el aula. Mejores decisiones para promover aprendizajes</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref14">
+                <label>[12]</label>
+                <mixed-citation>[12] Förster, C., Zepeda, S.&amp; Núñez, C. Instrumentos para la evaluación de aprendizaje, ¿con qué evaluar?. En C. Förster (Editora), El poder de la evaluación en el aula. Mejores decisiones para promover aprendizajes (pp. 177-229). Santiago, Chile: Ediciones Universidad Católica de Chile. 2017.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Förster</surname>
+                            <given-names>C.</given-names>
+                        </name>
+                        <name>
+                            <surname>Zepeda</surname>
+                            <given-names>S.</given-names>
+                        </name>
+                        <name>
+                            <surname>Núñez</surname>
+                            <given-names>C.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Ediciones Universidad Católica de Chile</source>
+                    <year>2017</year>
+                    <fpage>177</fpage>
+                    <lpage>229</lpage>
+                    <publisher-loc>Santiago, Chile</publisher-loc>
+                    <chapter-title>Instrumentos para la evaluación de aprendizaje, ¿con qué evaluar?</chapter-title>
+                    <series>El poder de la evaluación en el aula. Mejores decisiones para promover aprendizajes</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref15">
+                <label>[13]</label>
+                <mixed-citation>[13] Giménez, J. Evaluación en Matemáticas. Una integración de perspectivas. España: Síntesis. 1997.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Giménez</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Síntesis</source>
+                    <year>1997</year>
+                    <publisher-loc>España</publisher-loc>
+                    <series>Evaluación en Matemáticas. Una integración de perspectivas</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref16">
+                <label>[14]</label>
+                <mixed-citation>[14] Gurdián, A. El Paradigma Cualitativo en la Investigación Socio – Educativa. San José, Costa Rica: IDER. 2007.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Gurdián</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <source>IDER</source>
+                    <year>2007</year>
+                    <publisher-loc>San José, Costa Rica</publisher-loc>
+                    <series>El Paradigma Cualitativo en la Investigación Socio – Educativa</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref17">
+                <label>[15]</label>
+                <mixed-citation>[15] Hamodi, C., López, V. M.&amp; López, A. T. Medios, técnicas e instrumentos de evaluación formativa y compartida del aprendizaje en educación superior. Perfiles educativos, 37(147), 146-161. 2015.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Hamodi</surname>
+                            <given-names>C.</given-names>
+                        </name>
+                        <name>
+                            <surname>López</surname>
+                            <given-names>V. M.</given-names>
+                        </name>
+                        <name>
+                            <surname>López</surname>
+                            <given-names>A. T.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Medios, técnicas e instrumentos de evaluación formativa y compartida del aprendizaje en educación superior</article-title>
+                    <source>Perfiles educativos</source>
+                    <year>2015</year>
+                    <volume>37</volume>
+                    <issue>147</issue>
+                    <fpage>146</fpage>
+                    <lpage>161</lpage>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref18">
+                <label>[16]</label>
+                <mixed-citation>[16] López, B.&amp; Hinojosa, E. Evaluación del aprendizaje. Alternativas y nuevos desarrollos. México: Trillas. 2000.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>López</surname>
+                            <given-names>B.</given-names>
+                        </name>
+                        <name>
+                            <surname>Hinojosa</surname>
+                            <given-names>E.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Trillas</source>
+                    <year>2000</year>
+                    <publisher-loc>México</publisher-loc>
+                    <series>Evaluación del aprendizaje. Alternativas y nuevos desarrollos</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref19">
+                <label>[17]</label>
+                <mixed-citation>[17] Marín, M. Función Social de la Educación y Rol del Profesor. En: S.,Yubero, E., Llarrañaga, y J.F., Morales [Coordinadores] (2003). La Sociedad Educadora. Cuenca, España: Ediciones de la Universidad de Castilla-La Mancha. 2003.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Marín</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Ediciones de la Universidad de Castilla-La Mancha</source>
+                    <year>2003</year>
+                    <publisher-loc>Cuenca, España</publisher-loc>
+                    <chapter-title>Función Social de la Educación y Rol del Profesor</chapter-title>
+                    <series>La Sociedad Educadora</series>
+                </element-citation>
+            </ref>
+            <ref id="ref20">
+                <mixed-citation>Ministerio de Educación Pública. Programas de Estudio Matemáticas. I, II y III Ciclos de la Educación General Básica y Ciclo Diversificado. Costa Rica: Autor. 2012.</mixed-citation>
+                <element-citation publication-type="other">
+                    <person-group person-group-type="author">
+                        <collab>Ministerio de Educación Pública</collab>
+                    </person-group>
+                    <source>Programas de Estudio Matemáticas. I, II y III Ciclos de la Educación General Básica y Ciclo Diversificado. Costa Rica</source>
+                    <year>2012</year>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref21">
+                <label>[19]</label>
+                <mixed-citation>[19] Ministerio de Educación Pública. La evaluación formativa. Dirección de Desarrollo Curricular. Departamento de Evaluación de los Aprendizajes. Costa Rica: autor. 2013.</mixed-citation>
+                <element-citation publication-type="other">
+                    <person-group person-group-type="author">
+                        <collab>Ministerio de Educación Pública</collab>
+                    </person-group>
+                    <source>La evaluación formativa. Dirección de Desarrollo Curricular. Departamento de Evaluación de los Aprendizajes. Costa Rica</source>
+                    <year>2013</year>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref22">
+                <label>[20]</label>
+                <mixed-citation>[20] Ministerio de Educación Pública. Orientaciones estratégicas 2015-2018. San José, Costa Rica: Autor. 2014.</mixed-citation>
+                <element-citation publication-type="other">
+                    <person-group person-group-type="author">
+                        <collab>Ministerio de Educación Pública</collab>
+                    </person-group>
+                    <source>Orientaciones estratégicas 2015-2018. San José, Costa Rica</source>
+                    <year>2014</year>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref23">
+                <label>[21]</label>
+                <mixed-citation>[21] Ministerio de Educación Pública. Educar para una nueva ciudadanía. Transformación curricular. Fundamentación pedagógica de la transformación curricular. San José, Costa Rica: Autor. 2015.</mixed-citation>
+                <element-citation publication-type="other">
+                    <person-group person-group-type="author">
+                        <collab>Ministerio de Educación Pública</collab>
+                    </person-group>
+                    <source>Educar para una nueva ciudadanía. Transformación curricular. Fundamentación pedagógica de la transformación curricular. San José, Costa Rica</source>
+                    <year>2015</year>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref24">
+                <label>[22]</label>
+                <mixed-citation>[22] Ministerio de Educación Pública. Indicadores del Sistema Educativo Costarricense 2010 -2020. Costa Rica: autor. 2020.</mixed-citation>
+                <element-citation publication-type="other">
+                    <person-group person-group-type="author">
+                        <collab>Ministerio de Educación Pública</collab>
+                    </person-group>
+                    <source>Indicadores del Sistema Educativo Costarricense 2010 -2020. Costa Rica</source>
+                    <year>2020</year>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref25">
+                <label>[23]</label>
+                <mixed-citation>[23] Ministerio de Educación Pública de la República de Costa Rica. Decreto ejecutivo 40862-MEP: Reglamento de evaluación de los aprendizajes. [Aprobado 12 enero 2018]. 2018.</mixed-citation>
+                <element-citation publication-type="other">
+                    <person-group person-group-type="author">
+                        <collab>Ministerio de Educación Pública de la República de Costa Rica</collab>
+                    </person-group>
+                    <source>Decreto ejecutivo 40862-MEP: Reglamento de evaluación de los aprendizajes</source>
+                    <year>2018</year>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref26">
+                <label>[24]</label>
+                <mixed-citation>[24] Molina, Z. Planeamiento Didáctico. Fundamentos, principios, estrategias y procedimientos para su desarrollo. San José, Costa Rica: Editorial Universidad Estatal a Distancia. 2006.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Molina</surname>
+                            <given-names>Z.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Editorial Universidad Estatal a Distancia</source>
+                    <year>2006</year>
+                    <publisher-loc>San José, Costa Rica</publisher-loc>
+                    <series>Planeamiento Didáctico. Fundamentos, principios, estrategias y procedimientos para su desarrollo</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref27">
+                <label>[25]</label>
+                <mixed-citation>[25] Moreno, T. Evaluación del Aprendizaje y Para el Aprendizaje. México: UNAM. 2016.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Moreno</surname>
+                            <given-names>T.</given-names>
+                        </name>
+                    </person-group>
+                    <source>UNAM</source>
+                    <year>2016</year>
+                    <publisher-loc>México</publisher-loc>
+                    <series>Evaluación del Aprendizaje y Para el Aprendizaje</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref28">
+                <label>[26]</label>
+                <mixed-citation>[26] Pascual, A., Trejo, C.&amp; Martínez, A. Resolución de problemas. En M. Sánchez y A. Martínez (Eds.), Evaluación del y para el Aprendizaje: instrumentos y estrategias. México: UNAM. 2020.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Pascual</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                        <name>
+                            <surname>Trejo</surname>
+                            <given-names>C.</given-names>
+                        </name>
+                        <name>
+                            <surname>Martínez</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <source>UNAM</source>
+                    <year>2020</year>
+                    <publisher-loc>México</publisher-loc>
+                    <chapter-title>Resolución de problemas</chapter-title>
+                    <series>Evaluación del y para el Aprendizaje: instrumentos y estrategias</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref29">
+                <label>[27]</label>
+                <mixed-citation>[27] Perassi, Z. Las prácticas evaluativas de docentes en ejercicio. Escuela “innovadora” vs. Escuela “tradicional”. Alteridad. Revista de Educación, 9(1),44-55. 2014.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Perassi</surname>
+                            <given-names>Z.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Las prácticas evaluativas de docentes en ejercicio. Escuela “innovadora” vs. Escuela “tradicional”</article-title>
+                    <source>Alteridad. Revista de Educación</source>
+                    <year>2014</year>
+                    <volume>9</volume>
+                    <issue>1</issue>
+                    <fpage>44</fpage>
+                    <lpage>55</lpage>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref30">
+                <label>[28]</label>
+                <mixed-citation>[28] Podcamisky, M. El rol desde una perspectiva vincular. Reflexiones, 85(1-2), 179-187.[fecha de Consulta 25 de Agosto de 2019]. ISSN: 1021-1209. 2006.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Podcamisky</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>El rol desde una perspectiva vincular.</article-title>
+                    <source>Reflexiones</source>
+                    <year>2006</year>
+                    <volume>85</volume>
+                    <issue>1-2</issue>
+                    <fpage>179</fpage>
+                    <lpage>187</lpage>
+                    <issn>ISSN: 1021-1209</issn>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref31">
+                <label>[29]</label>
+                <mixed-citation>[29] Polanco, A. La pregunta pedagógica en el nivel inicial. Actualidades Investigativas En Educación, 4(2). 2011.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Polanco</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>La pregunta pedagógica en el nivel inicial</article-title>
+                    <source>Actualidades Investigativas En Educación</source>
+                    <year>2011</year>
+                    <volume>4</volume>
+                    <issue>2</issue>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref32">
+                <label>[30]</label>
+                <mixed-citation>[30] Ríos, D. Sentido, criterios y utilidades de la evaluación del aprendizaje basado en problemas. Educación Médica Superior, 21(3). 2007.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Ríos</surname>
+                            <given-names>D.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Sentido, criterios y utilidades de la evaluación del aprendizaje basado en problemas</article-title>
+                    <source>Educación Médica Superior</source>
+                    <year>2007</year>
+                    <volume>21</volume>
+                    <issue>3</issue>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref33">
+                <label>[31]</label>
+                <mixed-citation>[31] Rodríguez, G., Gil, J.&amp; García, E. Metodología de la investigación cualitativa. Málaga: Aljibe. 1999.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Rodríguez</surname>
+                            <given-names>G.</given-names>
+                        </name>
+                        <name>
+                            <surname>Gil</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                        <name>
+                            <surname>García</surname>
+                            <given-names>E.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Aljibe</source>
+                    <year>1999</year>
+                    <publisher-loc>Málaga</publisher-loc>
+                    <series>Metodología de la investigación cualitativa</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref34">
+                <label>[32]</label>
+                <mixed-citation>[32] Ruiz, Á. Evaluación y Pruebas Nacionales para un Currículo de Matemáticas que enfatiza Capacidades Superiores. México: CIAEM. 2018.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Ruiz</surname>
+                            <given-names>Á.</given-names>
+                        </name>
+                    </person-group>
+                    <source>CIAEM</source>
+                    <year>2018</year>
+                    <publisher-loc>México</publisher-loc>
+                    <series>Evaluación y Pruebas Nacionales para un Currículo de Matemáticas que enfatiza Capacidades Superiores</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref35">
+                <label>[33]</label>
+                <mixed-citation>[33] Santos, M. La resolución de Problemas Matemáticos. Fundamentos cognitivos. México: Trillas. 2014.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Santos</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Trillas</source>
+                    <year>2014</year>
+                    <publisher-loc>México</publisher-loc>
+                    <series>La resolución de Problemas Matemáticos. Fundamentos cognitivos</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref36">
+                <label>[34]</label>
+                <mixed-citation>[34] Segura, M. La función formativa de la evaluación en el trabajo escolar cotidiano. Revista Educación, 42(1), 118–137. 2017.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Segura</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>La función formativa de la evaluación en el trabajo escolar cotidiano</article-title>
+                    <source>Revista Educación</source>
+                    <year>2017</year>
+                    <volume>42</volume>
+                    <issue>1</issue>
+                    <fpage>118</fpage>
+                    <lpage>137</lpage>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref37">
+                <label>[35]</label>
+                <mixed-citation>[35] Serrazina, L. Planicação do ensino e aprendizagem da Matemática. En A Prática dos professores: Planificação e discussão coletiva na sala de aula (pp.9-32). 2017.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Serrazina</surname>
+                            <given-names>L.</given-names>
+                        </name>
+                    </person-group>
+                    <source>A Prática dos professores: Planificação e discussão coletiva na sala de aula</source>
+                    <year>2017</year>
+                    <fpage>9</fpage>
+                    <lpage>32</lpage>
+                    <chapter-title>Planicação do ensino e aprendizagem da Matemática</chapter-title>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref38">
+                <label>[36]</label>
+                <mixed-citation>[36] Trelles, C., Bravo, F.&amp; Barrazueta, J. ¿Cómo evaluar los aprendizajes en matemáticas? Innova Research Journal, 2(6), 35-51. 2017.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Trelles</surname>
+                            <given-names>C.</given-names>
+                        </name>
+                        <name>
+                            <surname>Bravo</surname>
+                            <given-names>F.</given-names>
+                        </name>
+                        <name>
+                            <surname>Barrazueta</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>¿Cómo evaluar los aprendizajes en matemáticas?</article-title>
+                    <source>Innova Research Journal</source>
+                    <year>2017</year>
+                    <volume>2</volume>
+                    <issue>6</issue>
+                    <fpage>35</fpage>
+                    <lpage>51</lpage>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref39">
+                <label>[37]</label>
+                <mixed-citation>[37] Universidad de Costa Rica. Análisis de la propuesta de Programas de Estudio de Matemática para Primaria y Secundaria. Informe para el Consejo Superior de Educación. Facultad de Ciencias, Escuela de Matemática. Autor. 2011.</mixed-citation>
+                <element-citation publication-type="confproc">
+                    <person-group person-group-type="author">
+                        <collab>Universidad de Costa Rica</collab>
+                    </person-group>
+                    <source>Análisis de la propuesta de Programas de Estudio de Matemática para Primaria y Secundaria. Informe para el Consejo Superior de Educación. Facultad de Ciencias, Escuela de Matemática.</source>
+                    <year>2011</year>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560002_ref40">
+                <label>[38]</label>
+                <mixed-citation>[38] Zepeda, S. El fin justifica los medios: intencionalidades de la evaluación. En C. Förster (Editora), El poder de la evaluación en el aula. Mejores decisiones para promover aprendizajes (pp. 95-119). Santiago, Chile: Ediciones Universidad Católica de Chile. 2017.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Zepeda</surname>
+                            <given-names>S.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Ediciones Universidad Católica de Chile</source>
+                    <year>2017</year>
+                    <fpage>95</fpage>
+                    <lpage>119</lpage>
+                    <publisher-loc>Santiago, Chile</publisher-loc>
+                    <chapter-title>El fin justifica los medios: intencionalidades de la evaluación</chapter-title>
+                    <series>El poder de la evaluación en el aula. Mejores decisiones para promover aprendizajes</series>
+                </element-citation>
+            </ref>
+        </ref-list>
+        <app-group>
+            <app id="app2">
+                <title>Apéndice</title>
+                <sec sec-type="materials">
+                    <title>Anexo 1: Guía para la entrevista a docentes</title>
+                    <p>Nombre de la profesora o el profesor:</p>
+                    <p>Fecha de la entrevista:  Hora de inicio:  Hora de finalización</p>
+                    <p>
+                        <list list-type="order">
+                            <list-item>
+                                <p>¿Cuántos años tiene de laborar como docente de secundaria?</p>
+                            </list-item>
+                            <list-item>
+                                <p>De esos años, aproximadamente ¿cuántos años ha trabajado impartiendo lecciones en sétimo año</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cuál es su grado académico?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿De cuál o cuáles universidades obtuvo su título o títulos</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cuántos cursos o capacitaciones relativos a la evaluación de los aprendizajes ha llevado?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Recuerda el tema o los temas centrales de ese o esos cursos o capacitaciones?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Para qué cree que es necesario evaluar?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿A quién se debe evaluar?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cuándo se debe evaluar?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Qué opina sobre la distribución porcentual que propone el MEP? Trabajo cotidiano 45%, Tareas 10%, Pruebas 35% y Asistencia 10%</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Le muestra a las y los estudiantes el o los instrumentos que se utilizarán para valorar su trabajo cotidiano?, ¿ellas y ellos tienen alguna injerencia en su elaboración? Si, no, ¿por que?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Se valora el avance gradual de cada estudiante? Si, no, ¿por qué?, ¿cómo?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Asigna tareas a las y los estudiantes?, ¿Cómo se determina su calificación? ¿de qué forma se hace la devolución?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Hace pruebas cortas (El MEP establece que se pueden hacer de carácter formativo)? si, no, ¿por qué?, ¿para qué?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cómo evalúa el trabajo cotidiano?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿En el curso se proponen proyectos? Si, no, ¿por qué?</p>
+                            </list-item>
+                            <list-item>
+                                <p>El día de la aplicación de la prueba observé que al cabo de la primera lección ya muchos estudiantes habían terminado ¿ese examen se podía planear sólo para una lección?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Para qué y cómo utiliza usted la información que se obtiene de un examen? ¿Del trabajo cotidiano o de una tarea de un estudiante?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Por qué cree que la distribución porcentual para aprobar la materia es mayor en el tercer trimestre</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cree que es posible que un estudiante evalúe el trabajo de otro? Si, no, ¿por qué?</p>
+                            </list-item>
+                            <list-item>
+                                <p>De las siguientes técnicas para recolectar información cuál o cuáles utiliza usted para recolectar información para evaluar a las y los estudiantes:</p>
+                            </list-item>
+                            <list-item>
+                                <p>De los siguientes instrumentos para recolectar información cuál o cuáles utiliza usted para recolectar información para evaluar a las y los estudiantes:</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Qué tipo de ítem es el que debe predominar en los exámenes de matemática? ¿Por qué?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿De qué depende que las y los estudiantes puedan autoevaluarse o coevaluarse (evaluarse entre ellos)?</p>
+                            </list-item>
+                            <list-item>
+                                <p>De los cinco procesos matemáticos que se proponen en el Programa de Estudios de Matemática, describa cómo evalúa usted cada uno de ellos:</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cuántas pruebas escritas aplica cada trimestre? ¿por qué esa cantidad?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Por qué, en la aplicación del examen parcial, estaban dos profesores cuidando el examen? (si la respuesta es "para que no copien", entonces ¿por qué se controla tanto los exámenes y no así el trabajo cotidiano? A fin de cuentas, el trabajo cotidiano tiene más valor porcentual)</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cómo lleva a cabo la evaluación formativa?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cómo cóstruye el planeamiento de calse?, ¿Qué elementos toma en cuenta?</p>
+                            </list-item>
+                        </list>
+                    </p>
+                </sec>
+                <sec sec-type="materials">
+                    <title>Anexo 2: Guía para el grupo focal</title>
+                    <p>Fecha:  Hora de inicio:  Hora de finalización:</p>
+                    <p>Total de participantes:</p>
+                    <p>
+                        <list list-type="order">
+                            <list-item>
+                                <p>¿Cómo les va en el curso de matemática?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Para qué cree que es necesario evaluar?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿A quién se debe evaluar?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cuándo se debe evaluar?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Qué opina sobre la distribución porcentual que propone el MEP?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Al principio del curso lectivo la profesora se tomó un tiempo para explicar a qué se refería cada uno de esos rubros?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Se valora el avance gradual de cada estudiante? Si, no, ¿por qué?, ¿cómo?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Asigna tareas a las y los estudiantes?, ¿Cómo se determina su calificación?, ¿de qué forma se hace la devolución?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cómo evalúa el trabajo cotidiano?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿En el curso se proponen proyectos? Si, no, ¿por qué?</p>
+                            </list-item>
+                            <list-item>
+                                <p>El día de la aplicación de la prueba observé que al cabo de la lección ya muchos estudiantes habían terminado ¿por qué creen que terminaron tan rápido?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Para qué y cómo utiliza usted la información que se obtiene de un examen? ¿Del trabajo cotidiano o de una tarea de un estudiante?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Por qué cree que la distribución porcentual para aprobar la materia es mayor en el tercer trimestre?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cree que es posible que un estudiante evalúe el trabajo de otro? Si, no, ¿por qué? (Recordar que hay estudiantes que le hacen muchas consultas a otros)</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Qué tipo de ítem es el que debe predominar en los exámenes de matemática? ¿Por qué?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿De qué depende que las y los estudiantes puedan autoevaluarse o coevaluarse (evaluarse entre ellos)?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Cuántas pruebas escritas aplica cada trimestre? ¿por qué esa cantidad? ¿Creen que deben haber más o menos?</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿Por qué, en la aplicación del examen parcial, estaban dos profesores cuidando el examen? (si la respuesta es "para que no copien", entonces ¿por qué se controla tanto los exámenes y no así el trabajo cotidiano? A fin de cuentas, el trabajo cotidiano tiene más valor porcentual)</p>
+                            </list-item>
+                            <list-item>
+                                <p>¿De qué depende que ustedes le pregunten algo (dudas) a un compañero o compañera de clase?</p>
+                            </list-item>
+                        </list>
+                    </p>
+                </sec>
+                <sec sec-type="results">
+                    <title>Anexo 3: Fotografía del trabajo cotidiano de una estudiante</title>
+                    <p>
+                        <fig id="gf2">
+                            <caption>
+                                <title>
+                                    Figura 2
+                                </title>
+                                <p>Nota. Fotografía de tarea asignada como trabajo cotidiano de un estudiante del C1 tomada durante las observaciones de clase</p>
+                            </caption>
+                            <graphic xlink:href="607975560002_gf3.png" position="anchor" orientation="portrait"/>
+                            <attrib>Díaz (2021)</attrib>
+                        </fig>
+                    </p>
+                </sec>
+                <sec sec-type="results">
+                    <title>Anexo 4: Fotografía del trabajo realizado en la pizarra del C2</title>
+                    <p>
+                        <fig id="gf3">
+                            <caption>
+                                <title>
+                                    Figura 3
+                                </title>
+                                <p>Fotografía de anotaciones realizadas por la PC2 para apoyar su explicación sobre la resolución de un ejercicio tomada durante las observaciones de clase</p>
+                            </caption>
+                            <graphic xlink:href="607975560002_gf4.png" position="anchor" orientation="portrait"/>
+                            <attrib>Díaz (2021)</attrib>
+                        </fig>
+                    </p>
+                </sec>
+                <sec sec-type="results">
+                    <title>Anexo 5: Fotografía de página del folleto de trabajo</title>
+                    <p>
+                        <fig id="gf4">
+                            <caption>
+                                <title>
+                                    Figura 4
+                                </title>
+                                <p>Fotografía del trabajo realizado por un estudiante C1 durante una de las clases observadas</p>
+                            </caption>
+                            <graphic xlink:href="607975560002_gf5.png" position="anchor" orientation="portrait"/>
+                            <attrib>Díaz (2021)</attrib>
+                        </fig>
+                    </p>
+                </sec>
+            </app>
+        </app-group>
+    </back>
+</article>
