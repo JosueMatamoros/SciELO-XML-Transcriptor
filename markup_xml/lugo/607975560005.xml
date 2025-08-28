@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "https://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<article article-type="editorial" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">redmei</journal-id>
+            <journal-title-group>
+                <journal-title>Revista Digital: Matemática, Educación e Internet</journal-title>
+                <abbrev-journal-title abbrev-type="publisher">Rev. Dig. Mat. Educ. Internet</abbrev-journal-title>
+            </journal-title-group>
+            <issn pub-type="ppub">1659-0643</issn>
+            <publisher>
+                <publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">https://doi.org/10.18845/rdmei.v24i2.6917</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Artículos</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title >Aportes de investigaciones cognitivas a la elaboración de hipermedia para el aprendizaje geométrico</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0009-0006-9325-1061</contrib-id>
+                    <name>
+                        <surname>Lugo</surname>
+                        <given-names>Javier</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="fn" rid="fn4">1</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0000-0002-2373-5558</contrib-id>
+                    <name>
+                        <surname>Falsetti</surname>
+                        <given-names>Marcela</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff2"/>
+                    <xref ref-type="aff" rid="aff3"/>
+                    <xref ref-type="fn" rid="fn5">2</xref>
+                </contrib>
+            </contrib-group>
+            <aff id="aff1">
+                <institution content-type="original">Universidad Nacional de la Matanza. Buenos Aires, Argentina. jlugo@unlam.edu.ar.</institution>
+                <institution content-type="orgname">Universidad Nacional de la Matanza</institution>
+                <country country="AR">Argentina</country>
+                <email>jlugo@unlam.edu.ar</email>
+            </aff>
+            <aff id="aff2">
+                <institution content-type="original">Universidad Nacional de la Matanza. mfalsetti@unlam.edu.ar</institution>
+                <institution content-type="orgname">Universidad Nacional de la Matanza</institution>
+                <country country="AR">Argentina</country>
+                <email>mfalsetti@unlam.edu.ar</email>
+            </aff>
+            <aff id="aff3">
+                <institution content-type="original">Universidad Nacional de General Sarmiento. mfalse@ungs.edu.ar</institution>
+                <institution content-type="orgname">Universidad Nacional de General Sarmiento</institution>
+                <country country="AR">Argentina</country>
+            </aff>
+            <author-notes>
+                <fn id="fn4" fn-type="current-aff">
+                    <label>1</label>
+                    <p>Javier Ignacio Lugo. Profesor adjunto de la Universidad Nacional de La Matanza. Dirección postal: Florencio Varela 1902, San Justo, Buenos Aires, Argentina. Código postal: B1754. Correo electrónico: jlugo@unlam.edu.ar</p>
+                </fn>
+                <fn id="fn5" fn-type="current-aff">
+                    <label>2</label>
+                    <p>Marcela Cristina Falsetti. Profesora titular de la Universidad Nacional de La Matanza y asociada de la Universidad Nacional de General Sarmiento. Dirección postal: Florencio Varela 1902, San Justo, Buenos Aires, Argentina. Código postal: B1754. Correo electrónico: mfalsetti@unlam.edu.ar</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="collection">
+                <season>Mar/Agu</season>
+                <year>2024</year>
+            </pub-date>
+            <volume>24</volume>
+            <issue>2</issue>
+            <fpage>1</fpage>
+            <lpage>14</lpage>
+            <history>
+                <date date-type="received" publication-format="dd mes yyyy">
+                    <day>23</day>
+                    <month>02</month>
+                    <year>2023</year>
+                </date>
+                <date date-type="accepted" publication-format="dd mes yyyy">
+                    <day>15</day>
+                    <month>09</month>
+                    <year>2023</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-year>2024</copyright-year>
+                <copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+                <ali:free_to_read/>
+                <license license-type="open-access" xml:lang="es" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+                    <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                    <license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+                </license>
+            </permissions>
+            <abstract>
+                <title>Resumen</title>
+                <p>En este trabajo se presentan criterios teóricos, basados en investigaciones psico-cognitivas, para construir un dispositivo hipermedia orientado al aprendizaje y la comprensión de contenidos de Geometría Analítica en el nivel universitario. Se integran la Teoría Cognitiva del Aprendizaje Multimedia (Mayer, 2005, 2009) y sus principios de diseño para materiales hipermedia, junto con criterios específicos que han sido establecidos para favorecer la comprensión en Matemática (Sierpinska, 1994). Además, se muestra una implementación de los criterios de diseño en un dispositivo hipermedia, evidenciando cómo estos fueron incorporados. Finalmente, se propone una reflexión sobre la producción de un material hipermedia para el aprendizaje de la Matemática.</p>
+            </abstract>
+            <trans-abstract xml:lang="en">
+                <title>Abstract</title>
+                <p>This paper presents theoretical criteria, based on psycho-cognitive research, to build a hypermedia device oriented to the learning and understanding of Analytic Geometry contents at the university level. The Cognitive Theory of Multimedia Learning (Mayer, 2005, 2009) and its design principles for hypermedia materials are integrated together with specific criteria that have been established to favor understanding in Mathematics (Sierpinska, 1994). In addition, an implementation of the design criteria in a hypermedia device is shown, evidencing how they were incorporated. Finally, a reflection on the production of a hypermedia material for mathematics learning is proposed.</p>
+            </trans-abstract>
+            <kwd-group xml:lang="es">
+                <title>Palabras clave</title>
+                <kwd>Teoría de la comprensión matemática</kwd>
+                <kwd>teoría cognitiva del aprendizaje multimedia</kwd>
+                <kwd>dispositivo didáctico hipermedia</kwd>
+                <kwd>aprendizaje de la Geometría Analítica</kwd>
+                <kwd>matemática universitaria</kwd>
+            </kwd-group>
+            <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Theory of mathematical understanding</kwd>
+                <kwd>cognitive theory of multimedia learning</kwd>
+                <kwd>hypermedia didactic device</kwd>
+                <kwd>learning Analytic Geometry</kwd>
+                <kwd>university mathematics</kwd>
+            </kwd-group>
+            <counts>
+                <fig-count count="8"/>
+                <table-count count="3"/>
+                <equation-count count="0"/>
+                <ref-count count="13"/>
+            </counts>
+        </article-meta>
+    </front>
+    <body>
+        <sec>
+            <title>
+                <bold>Introducción</bold>
+            </title>
+            <p>La realización de recursos didácticos eficientes basados en la tecnología de computadoras e internet es un asunto que ocupa a investigadores y docentes en Educación Matemática. En general, los criterios didácticos están condicionados a las características del software que se utilice para realizar los recursos. En este trabajo, sin estar condicionados a un software específico, se pretende elaborar criterios con sustento teórico que aproveche las investigaciones psico-cognitivas y mostrar cómo los mismos se plasman en el desarrollo y programación de un dispositivo hipermedia orientado al aprendizaje y la comprensión de contenidos de Geometría Analítica para el nivel universitario. El recorrido teórico realizado está basado en diversos trabajos que detallan el uso de principios de diseño para materiales hipermedia, desde el punto de vista cognitivo. Entre las referencias teóricas que se analizan aquí consideramos la Teoría Cognitiva del Aprendizaje Multimedia (TCAM) (Mayer, 2005, 2009), en particular los principios psicológicos del uso de materiales hipermedia que introducen Mayer (2009) y Sorden (2012). Por otro lado, teniendo en cuenta la disciplina, se exhiben criterios elaborados con relación a la comprensión en Matemática (Sierpinska, 1994) que se tuvieron en cuenta también en el diseño del hipermedia. Se exponen las orientaciones de diseño que hemos considerado e implementado para la producción de nuestro dispositivo considerando los aportes del recorrido teórico. Se muestran partes del dispositivo que ilustran cómo los criterios elaborados se pusieron en juego en la creación del material. Se concluye con una reflexión final sobre el diseño y uso de hipermedia para la enseñanza y aprendizaje de la Matemática. Mediante este trabajo se espera aportar una síntesis e integración de teorías de diversa índole, como son la TCAM y la de la comprensión de Sierpinska, para tener en cuenta en el desarrollo de materiales didácticos hipermedia.</p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Estado del arte</bold>
+            </title>
+            <p>Trabajos que consideramos precursores sobre el diseño y uso del hipermedia para el aprendizaje de la Matemática Superior son los de Multisilta (1996) y Pohjolainen, Multisilta &amp; Antchev (1996). En ellos se presentan criterios y características de diseño de una plataforma hipermedia para el aprendizaje del Álgebra matricial, llamada HMLE. Esta plataforma está estructurada considerando las siguientes componentes: hipertextos de contenido matemático, los cuales aparecen a requerimiento del usuario en una ventana emergente, ejercicios tradicionales, ejercicios interactivos con uso de software, un editor simbólico de respuestas, orientaciones, animaciones (rudimentarias) y tutoriales en video de los docentes del curso (videoclips). Para el diseño del hipermedia, los autores optaron por no seguir la estructura de presentación usual de un texto, por secciones y subsecciones que contienen definiciones, axiomas o leyes iniciales de los cuales derivan los teoremas, corolarios, etc. y se definen conceptos más complejos, sino que estructuraron mediante base de datos (database) de: conceptos matemáticos relativos al Álgebra Matricial, teoremas y propiedades, problemas ejercicios y ejemplos. El usuario puede activar una palabra y a partir de ella se abre una ventana con una barra de menú que le indica qué cosas tiene disponibles asociados a esa palabra: definición, ejemplos, ejercicios, programas.</p>
+            <p>En relación con el aprendizaje de la Matemática, en distintos niveles de enseñanza mediante hipermedia, Lehrer, Petrosino, Koehler, Bransford &amp; McClain (1999) detallan algunos principios de diseño a partir de estudiar la forma de integrar el aprendizaje mediado por un material hipermedia con ideas propuestas por teorías cognitivas. Entre ellos se pueden destacar el entrecruzamiento de conceptos, el uso de ejemplos y la implementación de enlaces a anotaciones emergentes (pop-up).</p>
+            <p>Chamoso, Hernádez, López &amp; Rodríguez (2002) presentan el diseño de un hipermedia orientado a la enseñanza y el aprendizaje de distintas estrategias para la resolución de problemas en Matemática en el nivel secundario. Se trata de un material específicamente diseñado para evidenciar y poner en acto las distintas etapas involucradas en la resolución de problemas que describe Polya (1973).</p>
+            <p>Cueli, González-Castro, Krawec, Núñez &amp; González-Pienda (2016) describen el instrumento hipermedia llamado <italic>Hipatia</italic>, orientado a los últimos años del nivel primario. Este material busca impulsar el aprendizaje autorregulado, desarrollar habilidades matemáticas específicas y promover la resolución efectiva de problemas. Mencionan que su diseño responde a la implementación de distintas estrategias orientadas a activar y modificar la cognición, la metacognición y el comportamiento de los estudiantes. Este instrumento contiene ejemplos y explicaciones de los procedimientos necesarios para resolver una determinada labor, resolver las tareas dentro del mismo material y obtener una inmediata devolución de sus respuestas. Los autores describen que dentro del material se presentan dos tipos distintos de evaluación. Una de ellas refiere a preguntas teóricas abiertas, donde los estudiantes tienen que elaborar una respuesta que ponga en juego los conocimientos conceptuales y procedimentales estudiados. El otro tipo de preguntas se trata del estilo de opción múltiple.</p>
+            <p>En Del Río, Búcari y Sanz (2016, 2019) se detalla una revisión bibliográfica sobre trabajos relacionados con el uso de TIC y la implementación de materiales hipermediales para la enseñanza y el aprendizaje de la Matemática. Los autores destacan que en la mayoría de los casos los materiales se enfocan en la visualización gráfica y la exploración dinámica. En otros trabajos, se presentan materiales que apuntan a exhibir ciertos procedimientos o formas de resolución para alguna tarea matemática específica. A su vez, estos autores presentan las características de un material hipermedia diseñado específicamente para su uso durante las clases en un curso de Matemática para ingeniería de la Universidad Nacional de La Plata (Del Río y otros, 2019). Describen que el material está compuesto por definiciones, enunciados de propiedades, teoremas, ejemplos, ejercicios con retroalimentación, y que el inicio de cada tópico se da mediante la presentación de una situación problemática. Además, los autores mencionan que se presentan animaciones, imágenes tridimensionales y applets interactivos.</p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Aspectos teóricos</bold>
+            </title>
+            <p>Un <italic>hipermedia</italic> combina la funcionalidad del <italic>hipertexto</italic> y el <italic>multimedia</italic>. El <italic>hipertexto</italic> es un recurso digital en el que la información (texto escrito, imágenes y/o gráficos estáticos, etc.) se presenta de manera no lineal formando una red de nodos que contienen fragmentos de información interconectados e interrelacionados. El multimedia es un material que integra diferentes formas (medios) de representar la información: textual, gráfica y auditiva.</p>
+            <p>Para el diseño de nuestro dispositivo se tuvieron en cuenta lineamientos y criterios que permiten elaborar un hipermedia orientado al aprendizaje y la comprensión de algún contenido específico. Por un lado, se consideraron los principios propuestos por la Teoría Cognitiva del Aprendizaje Multimedia (TCAM), expuestos en Mayer (2005, 2009) y Sorden (2012). Por otra parte, se elaboraron e implementaron criterios a partir del desarrollo cognitivo, epistemológico y didáctico propuesto por Sierpinska (1994), con relación a la comprensión en Matemática.</p>
+            <p>La TCAM resulta ser un marco de referencia relevante para investigaciones referidas al aprendizaje multimedia debido a que integra adecuadamente fundamentos teóricos que pretenden explicar la forma en que las personas aprenden de texto e imágenes, con la elaboración y puesta en acto de criterios prácticos para el diseño de materiales multimedia orientados al aprendizaje. Esta dualidad se expone en un cuerpo teórico coherente, ya que la elaboración de aquellos criterios, funcionales al diseño de materiales multimedia, son producto de una base de investigaciones científicas con alta evidencia empírica. La TCAM aborda la situación de cómo estructurar prácticas de instrucción multimedia y utilizar estrategias cognitivas más efectivas para ayudar a las personas a alcanzar un aprendizaje eficiente (Sorden, 2012). Por instrucción multimedia se entienden las presentaciones que incluyen palabras e imágenes (multimedia) y que están destinadas a fomentar el aprendizaje (Mayer, 2009).</p>
+            <p>Mayer (2009) orienta la elaboración de materiales multimedia de manera que favorezcan un aprendizaje significativo. Es decir, que el que aprende capte las cuestiones importantes y comprenda la complejidad del tema presentado, mediante la construcción activa de representaciones mentales (verbales y pictóricas) que tengan sentido para él. Según el autor, esto ocurre cuando la persona puede:</p>
+            <p>
+                <list list-type="bullet">
+                    <list-item>
+                        <p>Atender a las distintas partes relevantes de la información presentada visual y auditivamente</p>
+                    </list-item>
+                    <list-item>
+                        <p>Organizar el material en representaciones que sean coherentes</p>
+                    </list-item>
+                    <list-item>
+                        <p>Integrar las representaciones verbales y pictóricas</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>En relación con la comprensión en contextos de aprendizaje multimedia, Mayer (2009), señala que se alcanza cuando el estudiante es capaz de construir una representación mental coherente a partir del material presentado. Destaca que la comprensión se manifiesta en la capacidad de usar la información presente en el material en situaciones novedosas. Además, sostiene que la manera de evaluar la comprensión es mediante tests de transferencia, donde los estudiantes deben resolver problemas que no se expusieron explícitamente en el material, y donde tienen que aplicar lo aprendido a situaciones nuevas. Sin embargo, lo que Mayer (2009) señala en relación con la comprensión se encuadra dentro de un tratamiento cognitivo general, que no especifica ni considera las particularidades, características y dificultades propias que presenta la comprensión de temas matemáticos.</p>
+            <p>Por lo tanto, en cuanto a la comprensión o entendimiento de temas matemáticos hemos considerado el trabajo de Sierpinska (1994), quien aborda en profundidad y discute ampliamente qué es comprender en Matemática. Aquí se tratan aspectos cognitivos junto con aspectos semánticos, epistemológicos y de enseñanza, permitiendo tener así un enfoque integrado sobre las condiciones y componentes de la comprensión en Matemática. Sierpinska (1994) señala que lo que se comprende en Matemática son conceptos, relaciones entre ellos, teoremas, problemas, argumentos, métodos, teorías, símbolos, formalismo matemático, diagramas, gráficos, reglas de construcción del formalismo, de los diagramas y los textos. La comprensión de un asunto matemático se logra cuando es posible relacionarlo mentalmente con algún otro objeto intelectualmente ya construido. Se trata de una experiencia mental, denominada acto de comprensión, que tiene una existencia fugaz, es decir, ocurre en algún momento y se termina rápidamente.</p>
+            <p>Los elementos presentes en un acto de comprensión son el sujeto (la persona que busca entender o comprender), el objeto de comprensión (lo que la persona busca comprender), la base de comprensión (cómo es entendido el objeto) y la operación mental que relaciona el objeto con la base (Sierpinska, 1994). La autora reserva el término proceso de comprensión para la actividad cognitiva que se lleva a cabo en el tiempo, donde los actos de comprensión conforman diferentes pasos en un camino conducido por razonamientos.</p>
+            <p>Gómez (1996) reelabora lo tratado por Sierpinska y clarifica estas ideas:</p>
+            <p>
+                <disp-quote>
+                    <p>comprender es reorganizar nuestras formas de conocimiento de tal forma que estos modelos (estructuras mentales) sean coherentes con las experiencias que vivimos. El sujeto comprende algo (objeto de comprensión) cuando logra relacionarlo con algo contenido en sus estructuras mentales (base de comprensión) a través de una serie de operaciones mentales dentro de un proceso de comprensión compuesto por actos de comprensión que se relacionan entre sí. Algunos de estos actos de comprensión, los significativos, requieren que se reorganicen las estructuras mentales. (p. 3)</p>
+                </disp-quote>
+            </p>
+            <p>Sierpinska (1994) presenta situaciones que ejemplifican cuándo se considera que hubo comprensión en Matemática. Estas situaciones presentan distintos procesos mentales de <italic>identificación, discriminación, generalización y síntesis</italic>. Con la intención de contar con indicadores que den cuenta del proceso de comprensión formulamos con mayor especificidad algunos actos, que responden a los cuatro procesos mentales mencionados:</p>
+            <p>
+                <list list-type="bullet">
+                    <list-item>
+                        <p>La identificación de características propias del objeto definido ya sea declarativamente o por el funcionamiento que tiene en algún contexto. También de sus representaciones. Esta identificación conduce a la diferenciación o integración de la nueva noción respecto de las ya adquiridas.</p>
+                    </list-item>
+                    <list-item>
+                        <p>La identificación de los contextos en los que los objetos, propiedades o procedimientos tienen lugar</p>
+                    </list-item>
+                    <list-item>
+                        <p>El reconocimiento de componentes de un objeto, fenómeno o procedimiento y de las relaciones entre dichas componentes.</p>
+                    </list-item>
+                    <list-item>
+                        <p>El reconocimiento de cuáles de las cosas que se dicen sobre un concepto o procedimiento son correctas o verdaderas y cuales no.</p>
+                    </list-item>
+                    <list-item>
+                        <p>La construcción del sentido y del significado según el contexto o situación gracias al cual el concepto, la noción, la propiedad, el procedimiento o el registro semiótico se sostiene.</p>
+                    </list-item>
+                    <list-item>
+                        <p>El reconocimiento de la red “ecológica” a la cual pertenece el contenido (objeto, relación, propiedad o procedimiento), es decir de que otros contenidos el depende y cuáles son los contenidos que dependen de él.</p>
+                    </list-item>
+                    <list-item>
+                        <p>La explicación de por qué o bajo qué restricciones o hipótesis una condición, propiedad, relación vale o un procedimiento conduce al resultado esperado y por que bajo otras hipótesis o condiciones no se tiene ese “éxito”. Esta explicación subtiende razones o causas, que se constituyen en premisas que forman parte de razonamientos.</p>
+                    </list-item>
+                    <list-item>
+                        <p>La construcción de “representaciones mentales” (enactivas, si son si son acciones; icónicas, si son figuras, dibujos o imágenes; simbólicas, si son palabras o símbolos) que permiten describir en forma aproximada de que se trata el contenido (concepto, procedimiento, propiedad, etc.). </p>
+                    </list-item>
+                    <list-item>
+                        <p>El uso de “facilitadores” construidos con el fin de permitir llegar al resultado, comunicar más eficientemente relaciones y objetos u operar sobre ellos. Esos facilitadores pueden ser construcciones auxiliares, muy usados por ejemplo en Geometría Sintética, o bien los símbolos, como los símbolos algebraicos o los del Calculo infinitesimal, o los diagramas y esquemas, como los ejes cartesianos</p>
+                    </list-item>
+                </list>
+            </p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Principios de la TCAM</bold>
+            </title>
+            <p>En Mayer (2009) se describen tres características fundamentales para tener en cuenta en el diseño del material, que están asociadas al procesamiento cognitivo que se produce durante el aprendizaje:</p>
+            <p>
+                <list list-type="order">
+                    <list-item>
+                        <p>Reducir el procesamiento extraño, entendido como aquel que no resulta útil para el aprendizaje y que ocurre por causa de un diseño confuso.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Gestionar el procesamiento esencial, como aquel que permite representar el material esencial en la memoria de trabajo y que esta determinado por la complejidad intrínseca del material.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Fomentar el procesamiento generativo, referido al procesamiento que busca dar sentido al material esencial y que se puede atribuir al nivel de motivación del alumno.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Para cada una de las acciones mencionadas anteriormente, Mayer (2009) propone un grupo de principios que favorecerían un mejor aprendizaje. Estos principios pueden observarse en las tablas <xref ref-type="table" rid="gt1">1</xref>,                <xref ref-type="table" rid="gt2">2</xref> y <xref ref-type="table" rid="gt3">3</xref>.
+            </p>
+            <p>
+                <table-wrap id="gt1">
+                    <label>Tabla 1</label>
+                    <caption>
+                        <title>Principios asociados a reducir el procesamiento extraño</title>
+                    </caption>
+                    <alt-text>Tabla 1 Principios asociados a reducir el procesamiento extraño</alt-text>
+                    <alternatives>
+                        <graphic xlink:href="607975560005_gt2.png" position="anchor" orientation="portrait"/>
+                        <table id="gt2-526564616c7963">
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;">Coherencia</td>
+                                    <td style="text-align: center;">Excluir palabras, imágenes y sonidos extraños.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Señalización</td>
+                                    <td style="text-align: center;">Agregar señales que resalten el material esencial.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Redundancia</td>
+                                    <td style="text-align: center;">Se aprende mejor de gráficos-narración que de gráficos-narración-texto en pantalla.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Contigüidad espacial</td>
+                                    <td style="text-align: center;">Presentar cerca las palabras e imágenes correspondientes.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Contigüidad temporal</td>
+                                    <td style="text-align: center;">Presentar las palabras e imágenes correspondientes de forma sucesiva (y no secuencial)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </alternatives>
+                    <attrib>Elaboración propia</attrib>
+                </table-wrap>
+            </p>
+            <p>
+                <table-wrap id="gt2">
+                    <label>Tabla 2</label>
+                    <caption>
+                        <title>Principios asociados a gestionar el procesamiento esencial</title>
+                    </caption>
+                    <alt-text>Tabla 2 Principios asociados a gestionar el procesamiento esencial</alt-text>
+                    <alternatives>
+                        <graphic xlink:href="607975560005_gt3.png" position="anchor" orientation="portrait"/>
+                        <table id="gt3-526564616c7963">
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: right;">Segmentación</td>
+                                    <td style="text-align: center;">Presentar el material en “segmentos” en lugar de como unidad.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right;">Pre-entrenamiento</td>
+                                    <td style="text-align: center;">Se aprende mejor si se conocen previamente los nombres y las características de los conceptos principales.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right;">Modalidad</td>
+                                    <td style="text-align: center;">Favorecer gráficos-narración por sobre animación-texto en pantalla.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </alternatives>
+                    <attrib>Elaboración propia</attrib>
+                </table-wrap>
+            </p>
+            <p>
+                <table-wrap id="gt3">
+                    <label>Tabla 3</label>
+                    <caption>
+                        <title>Principios asociados a fomentar el procesamiento generativo.</title>
+                    </caption>
+                    <alt-text>Tabla 3 Principios asociados a fomentar el procesamiento generativo.</alt-text>
+                    <alternatives>
+                        <graphic xlink:href="607975560005_gt4.png" position="anchor" orientation="portrait"/>
+                        <table id="gt4-526564616c7963">
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;">Multimedia</td>
+                                    <td style="text-align: center;">Se aprende mejor desde palabras e imágenes que solo con palabras.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Personalización</td>
+                                    <td style="text-align: center;">Favorecer un uso de lenguaje conversacional por sobre el formal.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">De voz</td>
+                                    <td style="text-align: center;">Favorecer la voz humana por sobre la artificial.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">De imagen</td>
+                                    <td style="text-align: center;">No necesariamente se aprende mejor cuando la imagen del hablante se agrega a la pantalla.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </alternatives>
+                    <attrib>Elaboración propia</attrib>
+                </table-wrap>
+            </p>
+            <p>En un hipermedia, estos principios son aplicables a los distintos módulos multimediales que integran cada nodo, los cuales a su vez se combinan mediante enlaces conformando un sistema informático que debe cumplir las siguientes condiciones: flexibilidad, adaptabilidad, estructura modular, orientación y ayuda, e integración con otros recursos.</p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Diseño en función del marco teórico</bold>
+            </title>
+            <p>El marco teórico presentado anteriormente ofrece lineamientos y orientaciones que debieran considerarse en el diseño de un material hipermedia que pretenda promover el aprendizaje y favorecer la comprensión de contenidos de Matemática. En esta sección se exhibe a través de distintos ejemplos cómo han sido incorporados estos criterios en el desarrollo de un material específico, implementado en una asignatura de Matemática en carreras de ingeniería. Para ver el material completo consultar el link <ext-link ext-link-type="uri" xlink:href="https://geounlam.000webhostapp.com/">https://geounlam.000webhostapp.com/</ext-link>.
+            </p>
+            <p>Según Mayer (2009), el <italic>principio de coherencia</italic> establece que agregar detalles atractivos al material (esto es, información que resulta interesante pero que no es relevante para el contenido del material) puede interferir con el proceso de construcción de conocimiento. En este sentido, se indica que el diseño del material tiene que ser específico y conciso para que el estudiante construya una representación mental coherente, focalizándose en los elementos clave y organizándose mentalmente de manera que tenga sentido. En nuestro caso, y como se muestra en la Figura <xref ref-type="fig" rid="gf1">1</xref>, el material hipermedia atiende a este principio con las siguientes características del diseño general:</p>
+            <p>
+                <list list-type="bullet">
+                    <list-item>
+                        <p>Se destina una zona específica para la presentación del contenido, donde se muestra la información a estudiar.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Se exhiben de forma independiente las distintas barras de navegación del material: menú principal, menú secundario y menú numérico.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>
+                <fig id="gf1">
+                    <label>
+                        <bold>Figura 1</bold>
+                    </label>
+                    <caption>
+                        <title>Ejemplificación del principio de coherencia, identificando los distintos menús</title>
+                    </caption>
+                    <alt-text>Figura 1 Ejemplificación del principio de coherencia, identificando los distintos menús</alt-text>
+                    <graphic xlink:href="607975560005_gf2.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>El menú principal (horizontal) estructura el material de tal forma que el estudiante pueda focalizar y organizar el estudio del contenido de acuerdo con sus intereses. Esto es, si busca un acercamiento general a los temas, si ya cuenta con ciertos conocimientos al respecto y busca profundizarlos o entender por qué ciertas propiedades son válidas, si elige trabajar con ejemplos que le ayuden a estructurar mejor los conocimientos o si desea poner en acción los aprendizajes adquiridos. El menú secundario (lateral) organiza el material según los aspectos fundamentales del contenido, identificados previamente al diseño, y que son las cuestiones que se espera que el estudiante aprenda en su estudio con este hipermedia. Finalmente, se utiliza una barra numérica que permite navegar por las distintas páginas individuales que presentan cada uno de estos aspectos fundamentales.</p>
+            <p>Mayer (2009) también da cuenta del principio de segmentación según el cual, al presentar un material complejo, resulta conveniente estructurarlo en segmentos de información que se muestren secuencialmente, donde el estudiante pueda controlar el ritmo de navegación. El autor explica que según el principio de señalización se aprende mejor cuando se agregan señales que dirijan la atención del que aprende hacia lo más relevante del material dando algunas indicaciones para los distintos tipos de materiales: textual, auditivo o pictórico (Mayer, 2009). Asimismo, se indica que este tipo de señalización debe usarse con moderación, ya que de no ser así el diseño agrega confusión en lugar de dirigir la atención del estudiante.</p>
+            <p>La aplicación de los principios de segmentación y de señalización se puede apreciar en las Figuras <xref ref-type="fig" rid="gf2">2</xref> y 3. Estos principios se han implementado especialmente en aquellas secciones de profundización destinadas a demostrar alguna propiedad.</p>
+            <p>
+                <fig id="gf2">
+                    <label>
+                        <bold>Figura 2</bold>
+                    </label>
+                    <caption>
+                        <title>Ejemplificación del principio de segmentación</title>
+                    </caption>
+                    <alt-text>Figura 2 Ejemplificación del principio de segmentación</alt-text>
+                    <graphic xlink:href="607975560005_gf3.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>
+                <fig id="gf3">
+                    <label>
+                        <bold>Figura 3</bold>
+                    </label>
+                    <caption>
+                        <title>Ejemplificación del principio de señalización</title>
+                    </caption>
+                    <alt-text>Figura 3 Ejemplificación del principio de señalización</alt-text>
+                    <graphic xlink:href="607975560005_gf4.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>En este caso, se realiza una fragmentación por bloques, donde cada uno de ellos contiene uno de los pasos involucrados en la demostración. El estudiante puede poner en pausa la reproducción con el controlador de la esquina derecha, avanzar o retroceder por los diferentes bloques, o bien detener la reproducción y visualizar la demostración de forma completa (segmentación). Cuando es necesario un extenso desarrollo algebraico se ha optado por utilizar una ventana modal para exhibirlo, atenuando el contenido previo de la demostración para que el estudiante focalice su atención únicamente en las manipulaciones algebraicas necesarias.</p>
+            <p>Además, dentro de la ventana modal, se resaltan las expresiones que dan inicio y fin a dicha manipulación, así como también se utilizan colores para ayudar al estudiante a reconocer con facilidad cuáles términos se cancelan (señalización).</p>
+            <p>A continuación, ilustraremos cómo se han utilizado los principios de redundancia, contigüidad espacial y pre-entrenamiento (Mayer, 2009). Según el principio de redundancia, se aprende mejor a partir del uso de gráficos-narración que mediante gráficos-narración-texto en pantalla, ya que se evita una sobrecarga cognitiva en el procesamiento de la información visual. Sin embargo, para el autor existen situaciones adicionales donde no necesariamente se produciría un procesamiento extraño de la información. Entre ellas destacamos a) cuando se presentan etiquetas con pocas palabras colocadas cerca a la parte del gráfico que describen; b) cuando primero se presenta el texto hablado y luego el texto escrito, sin superposición. Asimismo, destaca que el uso de texto redundante en pantalla puede ser útil cuando contiene términos desconocidos o técnicos o cuando los pasajes de texto son largos y complejos. También señala que, si el estudiante tiene control sobre la presentación, los efectos negativos de la redundancia pueden eliminarse.</p>
+            <p>Según el principio de contigüidad espacial los estudiantes aprenden mejor cuando las palabras e imágenes correspondientes se presentan cerca en la pantalla en lugar de estar alejadas unas de otras. Al diseñar un material que presente las palabras y las imágenes de forma integrada, el estudiante puede construir conexiones mentales entre ellos.</p>
+            <p>El principio de pre-entrenamiento refiere a que las personas aprenden más profundamente cuando conocen los nombres y características de los conceptos principales. El autor sostiene que una forma de gestionar el procesamiento esencial para evitar una sobrecarga cognitiva es que el estudiante adquiera conocimientos que le faciliten el procesamiento de la lección multimedia. Esto es, se trata de conocer los nombres y características de los conceptos clave antes de recibir una lección multimedia que los contenga. Este principio coincide con los criterios adoptados por Multisilta (1996) ya explicados en la sección 2.</p>
+            <p>En una concepción constructivista de la enseñanza y el aprendizaje de la Matemática, se dan situaciones donde la construcción del objeto ocurre durante la resolución de un determinado problema, o incluso el objeto a estudiar emerge como parte de la solución de un problema. En estos casos sucede que la definición del objeto y la presentación de su nombre y de su notación ocurren posteriormente. Esta observación invita a ser cautelosos en la implementación de este principio para el diseño de un material hipermedia en Matemática, puesto que no siempre resulta favorable en la construcción de ciertos contenidos, conocer con antelación el nombre del objeto.</p>
+            <p>En los siguientes fragmentos se muestra cómo hemos interpretado el uso de los principios de redundancia, pre-entrenamiento, señalización, contigüidad espacial, junto con sus posibles modificaciones. Las Figuras <xref ref-type="fig" rid="gf4">4</xref>,                <xref ref-type="fig" rid="gf5">5</xref> y <xref ref-type="fig" rid="gf8">6</xref> ejemplifican la aplicación de estos principios en nuestro hipermedia.</p>
+            <p>
+                <fig id="gf4">
+                    <label>
+                        <bold>Figura 4</bold>
+                    </label>
+                    <caption>
+                        <title>Ejemplificación de los principios de redundancia y pre-entrenamiento.</title>
+                    </caption>
+                    <alt-text>Figura 4 Ejemplificación de los principios de redundancia y pre-entrenamiento.</alt-text>
+                    <graphic xlink:href="607975560005_gf5.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>
+                <fig id="gf5">
+                    <label>
+                        <bold>Figura 5</bold>
+                    </label>
+                    <caption>
+                        <title>Ejemplificación de los principios de redundancia y contigüidad espacial</title>
+                    </caption>
+                    <alt-text>Figura 5 Ejemplificación de los principios de redundancia y contigüidad espacial</alt-text>
+                    <graphic xlink:href="607975560005_gf6.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>
+                <fig id="gf8">
+                    <label>
+                        <bold>Figura 6</bold>
+                    </label>
+                    <caption>
+                        <title>Ejemplificación del principio de señalización</title>
+                    </caption>
+                    <alt-text>Figura 6 Ejemplificación del principio de señalización</alt-text>
+                    <graphic xlink:href="607975560005_gf9.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>En este caso, se recurre a la representación gráfica para resaltar cada uno de los elementos principales de una parábola. Estos se van exhibiendo secuencialmente al mismo tiempo que se narra una caracterización de cada objeto y se indica cuáles son sus nombres (redundancia). La presentación temprana del estudio sobre los elementos principales de una parábola permite que el estudiante pueda reconocer los nombres de estos objetos y cómo son definidos antes de estudiar aspectos donde estos elementos ocupan un rol central, tales como ecuaciones, propiedades o aplicaciones (pre-entrenamiento).</p>
+            <p>El texto ubicado en la derecha contiene la información que se narra durante la animación y solo se hace visible cuando esta finaliza o bien cuando el usuario presiona el botón detener, por lo que no se produce una superposición con la narración (redundancia). Con la ubicación del texto a la derecha del gráfico se busca mantener cercanos las palabras que se corresponden con dicha representación (contigüidad espacial).</p>
+            <p>Además, durante la animación, se resaltan cada uno de los elementos principales modificando el tamaño de los objetos y colocando en pantalla el nombre correspondiente, de manera que el estudiante pueda identificar con precisión cuál es el elemento sobre el que está escuchando la caracterización (señalización).</p>
+            <p>En el material diseñado se han utilizado varias animaciones para explicar algunos aspectos del contenido, donde se ha favorecido la utilización de gráficos y narración simultánea (principio de modalidad). Para todos ellos, siempre se ha utilizado voz humana (principio de voz) sin que sea visible la figura del narrador (principio de imagen).</p>
+            <p>Un aspecto importante que aportan materiales hipermedia es la posibilidad de retroalimentación inmediata al finalizar alguna tarea, lo que posibilita un aprendizaje más activo y crítico. En nuestro caso, esto ha sido implementado en dos instancias distintas del material.</p>
+            <sec>
+                <title>
+                    <bold>Secciones orientadas a la presentación del contenido a ser aprendido</bold>
+                </title>
+                <p>Se trata aquí de pequeños fragmentos incorporados junto con la información que se exhibe. Por ejemplo, en Introducción al tema, luego de presentar las definiciones de “distancia entre puntos” y “distancia de un punto a una recta” se muestran algunas preguntas junto con una animación en pausa, controlada por el usuario (ver Figura <xref ref-type="fig" rid="gf9">7</xref>). Al presionar el botón, se muestra la trayectoria del punto P y se reproducen oralmente respuestas para cada una de las preguntas planteadas.</p>
+                <p>
+                    <fig id="gf9">
+                        <label>
+                            <bold>Figura 7</bold>
+                        </label>
+                        <caption>
+                            <title>Fragmento de la sección que presenta el contenido y que muestra la implementación de la retroalimentación</title>
+                        </caption>
+                        <alt-text>Figura 7 Fragmento de la sección que presenta el contenido y que muestra la implementación de la retroalimentación</alt-text>
+                        <graphic xlink:href="607975560005_gf10.png" position="anchor" orientation="portrait"/>
+                        <attrib>Elaboración propia</attrib>
+                    </fig>
+                </p>
+                <p>Con estos interrogantes se busca que el estudiante aplique las definiciones dadas, integrando las perspectivas gráficas y numéricas de la animación. Además, tal como lo propone Sierpinska (1994), se espera que el estudiante identifique el objeto matemático que se está estudiando, esto es, que logre reconocer que el objeto de estudio es un lugar geométrico y que no se trata solo de algunos pocos puntos a analizar.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>
+                <bold>Secciones orientadas a resolución de actividades y evaluación de aprendizajes</bold>
+            </title>
+            <p>Los estudiantes tienen a disposición un recorrido por distintas tareas, de dificultad progresiva y separadas según los aspectos fundamentales del contenido. Estas actividades están diseñadas para que se apliquen los aprendizajes construidos, ya sea en escenarios conocidos por el estudiante (hablamos aquí de ejercicios) o en situaciones nuevas (nos referimos a problemas). En el momento de resolución, luego de completar los datos requeridos por la actividad y presionar el botón corregir, los estudiantes se encuentran frente a una primera devolución. Aquí se exhiben los errores que se hayan podido cometer (de existir alguno) y las respuestas que han sido respondidas correctamente.</p>
+            <p>Por ejemplo, en la Figura 8 se muestra un formulario que los estudiantes deben completar con los diferentes elementos principales de una parábola.</p>
+            <p>
+                <fig id="gf10">
+                    <label>
+                        <bold>Figura 8</bold>
+                    </label>
+                    <caption>
+                        <title>Fragmento de la sección de actividades y que evidencia la implementación de la retroalimentación</title>
+                    </caption>
+                    <alt-text>Figura 8 Fragmento de la sección de actividades y que evidencia la implementación de la retroalimentación</alt-text>
+                    <graphic xlink:href="607975560005_gf11.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Al presionar el botón corregir, se muestra un mensaje con dos alternativas distintas:</p>
+            <p>
+                <list list-type="order">
+                    <list-item>
+                        <p>Si todas las respuestas son correctas, se informa de ello y se indica que se continuara con la próxima actividad, y en caso de ser la última de la sección, se indica que se han completado todas las actividades correspondientes y se sugiere continuar con otra sección.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Si hay algún error, se informa de ello y se indica que las respuestas correctas se mantendrán en el formulario, dejando en blanco aquellas donde sea necesario revisar las respuestas.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>El avance logrado por el estudiante se almacena y se mantiene guardado bajo sesión, de manera que cualquier actividad puede dejarse inconclusa y ser retomada en algún momento posterior.</p>
+            <p>Por último, las actividades que se encuentran en el material han sido cuidadosamente diseñadas para promover la comprensión y favorecer los procesos mentales implicados en estas experiencias: identificación, discriminación, generalización y síntesis (según Sierpinska, 1994). Para evaluar estos procesos, se han tenido en cuenta los indicadores previamente establecidos, los cuales nos ayudan a reconocer el proceso de comprensión.</p>
+            <p>Estas situaciones presentan distintos procesos mentales de identificación, discriminación, generalización y síntesis. Con la intención de contar con indicadores que den cuenta del proceso de comprensión formulamos con mayor especificidad algunos actos, que responden a los cuatro procesos mentales mencionados.</p>
+            <p>Por ejemplo, en la actividad presentada en el último fragmento (Figura <xref ref-type="fig" rid="gf10">8</xref>) los estudiantes tienen que identificar los elementos de una parábola particular a partir de una representación gráfica, lo que requiere que se diferencien sus características propias. Se trata entonces del reconocimiento de componentes de un objeto y de las relaciones entre dichas componentes.</p>
+            <p>En la actividad propuesta del siguiente fragmento, se pretende favorecer la síntesis. Se trata de una actividad de carácter integrador, donde el estudiante tiene que poner en juego distintos conocimientos aprendidos durante el trabajo con el material.</p>
+            <p>De una parábola se conocen los primeros tres coeficientes de su ecuación general, no canónica:<inline-formula>
+                <alternatives>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mml:mi>A</mml:mi>
+                        <mml:mo>=</mml:mo>
+                        <mml:mn>1</mml:mn>
+                    </mml:math>
+                    <graphic xlink:href="607975560005_gi2.png"/>
+                </alternatives>
+            </inline-formula>,            <inline-formula>
+                <alternatives>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mml:mi>B</mml:mi>
+                        <mml:mo>=</mml:mo>
+                        <mml:mo>&#x2212;</mml:mo>
+                        <mml:mn>2</mml:mn>
+                    </mml:math>
+                    <graphic xlink:href="607975560005_gi3.png"/>
+                </alternatives>
+            </inline-formula> y<inline-formula>
+            <alternatives>
+                <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                    <mml:mi>C</mml:mi>
+                    <mml:mo>=</mml:mo>
+                    <mml:mn>1</mml:mn>
+                </mml:math>
+                <graphic xlink:href="607975560005_gi4.png"/>
+            </alternatives>
+        </inline-formula>. Además, se sabe que el punto <inline-formula>
+        <alternatives>
+            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                <mml:mi>H</mml:mi>
+                <mml:mo>=</mml:mo>
+                <mml:mo>(</mml:mo>
+                <mml:mo>&#x2212;</mml:mo>
+                <mml:mn>3</mml:mn>
+                <mml:mo>,</mml:mo>
+                <mml:mo>&#x2212;</mml:mo>
+                <mml:mn>1</mml:mn>
+                <mml:mo>)</mml:mo>
+            </mml:math>
+            <graphic xlink:href="607975560005_gi5.png"/>
+        </alternatives>
+    </inline-formula> pertenece a la parábola, que el vértice es el punto de coordenadas <inline-formula>
+    <alternatives>
+        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+            <mml:mi>V</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:mo>(</mml:mo>
+            <mml:mn>0</mml:mn>
+            <mml:mo>,</mml:mo>
+            <mml:mn>0</mml:mn>
+            <mml:mo>)</mml:mo>
+        </mml:math>
+        <graphic xlink:href="607975560005_gi7.png"/>
+    </alternatives>
+</inline-formula> y que <inline-formula>
+<alternatives>
+    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+        <mml:mi>d</mml:mi>
+        <mml:mo>:</mml:mo>
+        <mml:mi>x</mml:mi>
+        <mml:mo>+</mml:mo>
+        <mml:mi>y</mml:mi>
+        <mml:mo>=</mml:mo>
+        <mml:mfrac>
+            <mml:mn>1</mml:mn>
+            <mml:mn>4</mml:mn>
+        </mml:mfrac>
+    </mml:math>
+    <graphic xlink:href="607975560005_gi8.png"/>
+</alternatives>
+</inline-formula> es su directriz. Graficar la curva</p>
+<p>Durante este procesamiento, los estudiantes tendrán que hallar la ecuación general de una parábola, y para ello es necesario:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+    <p>Reducir el problema a plantear y resolver un sistema de ecuaciones lineales</p>
+</list-item>
+<list-item>
+    <p>Unificar diferentes aspectos estudiados de la parábola para obtener los datos adicionales necesarios para solventar el sistema anterior.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Consideraciones finales</bold>
+</title>
+<p>El aporte de lo presentado es la discusión sobre cómo diseñar un material hipermedia, orientado al aprendizaje y la comprensión de contenidos matemáticos de nivel universitario, considerando los principios multimedia expuestos por la TCAM en conjunción con principios didácticos de la comprensión matemática de Sierpinska (1994).</p>
+<p>La producción de un material hipermedia para el aprendizaje de la Matemática requiere de una base conceptual que estructure adecuadamente lineamientos específicos de diseño. La elaboración de un marco teórico coherente que permita diseñar y construir un hipermedia orientado al aprendizaje y la comprensión de contenidos matemáticos para el nivel universitario resulta fundamental. En este trabajo se expusieron aspectos teóricos que permitieron elaborar un dispositivo en función de criterios cognitivos y didácticos específicos.</p>
+<p>El diseño de nuestro hipermedia estuvo centrado en los procesos cognitivos que, según el marco teórico, el estudiante llevaría a cabo durante su trabajo con el dispositivo. Esto quiere decir que la estructura del material y la organización de este pretenden estar centrados en el estudiante, sus aprendizajes y en su comprensión de los contenidos matemáticos propuestos tratando de que los núcleos intrínsecos de la Matemática, tales como definiciones, teoremas, demostraciones, propiedades, ejemplos, se vayan desarrollando en relación con los procesos de aprendizaje del estudiante y no como eje organizador del material.</p>
+<p>La aplicación de algunos de los principios propuestos por la TCAM debe estar acompañada de un análisis previo que permita establecer su relevancia y su funcionalidad en el marco del aprendizaje de la Matemática. Por ejemplo, aunque el principio de preentrenamiento sostiene que se aprende mejor si se conocen previamente los nombres y las características de los conceptos principales, en Matemática, en ocasiones, la construcción de un objeto matemático y el trabajo con el mismo suceden previo a su definición, a la presentación de su nombre y de su notación, si el enfoque de enseñanza es más constructivista. Esto nos invita a ser cautos en el uso de estos principios para el diseño de un hipermedia para el aprendizaje de la Matemática y a profundizar el análisis de su aplicación, conciliándolos con otros principios didácticos.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>Referencias</title>
+<ref id="redalyc_607975560005_ref3">
+<label>[1]</label>
+<mixed-citation>[1] Chamoso Sáchez, J., Hernádez Encinas, L., López Fernádez, R., &amp; Rodríguez Sánchez, M. (2002). Designing hypermedia tools for solving problems in. Computers &amp; Education, 38(4), 303-307.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+    <name>
+        <surname>Chamoso Sáchez</surname>
+        <given-names>J.</given-names>
+    </name>
+    <name>
+        <surname>Hernádez Encinas</surname>
+        <given-names>L.</given-names>
+    </name>
+    <name>
+        <surname>López Fernádez</surname>
+        <given-names>R.</given-names>
+    </name>
+    <name>
+        <surname>Rodríguez Sánchez</surname>
+        <given-names>M.</given-names>
+    </name>
+</person-group>
+<article-title>Designing hypermedia tools for solving problems in</article-title>
+<source>Computers &amp; Education</source>
+<year>2002</year>
+<volume>38</volume>
+<issue>4</issue>
+<fpage>303</fpage>
+<lpage>307</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref4">
+<label>[2]</label>
+<mixed-citation>[2] Cueli, M., González-Castro, P., Krawec, J., Núñez, J. C., &amp; González-Pienda, J. A. (2016). Hipatia: un entorno de aprendizaje hipermedia en matemáticas. Anales de Psicología/Annals of Psychology, 32(1), 98-105.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+    <name>
+        <surname>Cueli</surname>
+        <given-names>M.</given-names>
+    </name>
+    <name>
+        <surname>González-Castro</surname>
+        <given-names>P.</given-names>
+    </name>
+    <name>
+        <surname>Krawec</surname>
+        <given-names>J.</given-names>
+    </name>
+    <name>
+        <surname>Núñez</surname>
+        <given-names>J. C.</given-names>
+    </name>
+    <name>
+        <surname>González-Pienda</surname>
+        <given-names>J. A.</given-names>
+    </name>
+</person-group>
+<article-title>Hipatia: un entorno de aprendizaje hipermedia en matemáticas.</article-title>
+<source>Anales de Psicología/Annals of Psychology</source>
+<year>2016</year>
+<volume>32</volume>
+<issue>1</issue>
+<fpage>98</fpage>
+<lpage>105</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref5">
+<label>[3]</label>
+<mixed-citation>[3] Del Río, L. S. D., Búcari, N. D., &amp; Sanz, C. V. (2016). Uso de recursos hipermediales para la enseñanza y el aprendizaje de la matemática. En II Congreso Internacional de Enseñanza de las Ciencias y la Matemática. Tandil.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+    <name>
+        <surname>Del Río</surname>
+        <given-names>L. S. D.</given-names>
+    </name>
+    <name>
+        <surname>Búcari</surname>
+        <given-names>N. D.</given-names>
+    </name>
+    <name>
+        <surname>Sanz</surname>
+        <given-names>C. V.</given-names>
+    </name>
+</person-group>
+<source>II Congreso Internacional de Enseñanza de las Ciencias y la Matemática.</source>
+<year>2016</year>
+<conf-loc>Tandil</conf-loc>
+<series>Uso de recursos hipermediales para la enseñanza y el aprendizaje de la matemática</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref6">
+<label>[4]</label>
+<mixed-citation>[4] Del Río, L. S. D., Búcari, N. D., &amp; Sanz, C. V. (2019). Incidencia de un material didáctico hipermedial para la enseñanza y el aprendizaje de la Matemática. Journal of New Approaches in Educational Research, 52-59.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+    <name>
+        <surname>Del Río</surname>
+        <given-names>L. S. D.</given-names>
+    </name>
+    <name>
+        <surname>Búcari</surname>
+        <given-names>N. D.</given-names>
+    </name>
+    <name>
+        <surname>Sanz</surname>
+        <given-names>C. V.</given-names>
+    </name>
+</person-group>
+<article-title>Incidencia de un material didáctico hipermedial para la enseñanza y el aprendizaje de la Matemática</article-title>
+<source>Journal of New Approaches in Educational Research</source>
+<year>2019</year>
+<fpage>52</fpage>
+<lpage>59</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref7">
+<label>[5]</label>
+<mixed-citation>[5] Gómez, P. (1996). Una comprensión de la comprensión en matemáticas. Revista EMA, 1(3), 233-243. Recuperado el 13 de Junio de 2020, de <ext-link ext-link-type="uri" xlink:href="http://funes.uniandes.edu.co/315">http://funes.uniandes.edu.co/315</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+    <name>
+        <surname>Gómez</surname>
+        <given-names>P.</given-names>
+    </name>
+</person-group>
+<article-title>Una comprensión de la comprensión en matemáticas</article-title>
+<source>Revista EMA</source>
+<year>1996</year>
+<volume>1</volume>
+<issue>3</issue>
+<fpage>233</fpage>
+<lpage>243</lpage>
+<comment>
+    <ext-link ext-link-type="uri" xlink:href="http://funes.uniandes.edu.co/315">http://funes.uniandes.edu.co/315</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref8">
+<label>[6]</label>
+<mixed-citation>[6] Mayer, R. E. (2005). Cognitive Theory of Multimedia Learning. In R. E. Mayer (Ed.), The Cambridge Handbook of Multimedia Learning (pp. 31-48). Cambridge University Press.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+    <name>
+        <surname>Mayer</surname>
+        <given-names>R. E.</given-names>
+    </name>
+</person-group>
+<source>The Cambridge Handbook of Multimedia Learning</source>
+<year>2005</year>
+<fpage>31</fpage>
+<lpage>48</lpage>
+<publisher-name>Cambridge University Press.</publisher-name>
+<chapter-title>Cognitive Theory of Multimedia Learning</chapter-title>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref9">
+<label>[7]</label>
+<mixed-citation>[7] Mayer, R. E. (2009). Multimedia Learning. New York: Cambridge University Press.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+    <name>
+        <surname>Mayer</surname>
+        <given-names>R. E.</given-names>
+    </name>
+</person-group>
+<source>New York: Cambridge University Press.</source>
+<year>2009</year>
+<series>Multimedia Learning</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref10">
+<label>[8]</label>
+<mixed-citation>[8] Multisilta, J. (1996). Hypermedia Learning Environment for. Tampere University of Technology.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+    <name>
+        <surname>Multisilta</surname>
+        <given-names>J.</given-names>
+    </name>
+</person-group>
+<source>Tampere University of Technology.</source>
+<year>1996</year>
+<series>Hypermedia Learning Environment for</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref11">
+<label>[9]</label>
+<mixed-citation>[9] Lehrer, R., Petrosino, A., Koehler, M., Bransford, J., &amp; McClain, K. (1999). Hypermedia technologies for case-based teacher education. National Council for Teachers of Mathematics.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+    <name>
+        <surname>Lehrer</surname>
+        <given-names>R.</given-names>
+    </name>
+    <name>
+        <surname>Petrosino</surname>
+        <given-names>A.</given-names>
+    </name>
+    <name>
+        <surname>Koehler</surname>
+        <given-names>M.</given-names>
+    </name>
+    <name>
+        <surname>Bransford</surname>
+        <given-names>J.</given-names>
+    </name>
+    <name>
+        <surname>McClain</surname>
+        <given-names>K.</given-names>
+    </name>
+</person-group>
+<source>National Council for Teachers of Mathematics.</source>
+<year>1999</year>
+<series>Hypermedia technologies for case-based teacher education.</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref12">
+<label>[10]</label>
+<mixed-citation>[10] Pohjolainen, S., Multisilta, J., &amp; Antchev, K. (1996). Matrix algebra with hypermedia. Education and Information Technologies, 1(2), 123-141.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+    <name>
+        <surname>Pohjolainen</surname>
+        <given-names>S.</given-names>
+    </name>
+    <name>
+        <surname>Multisilta</surname>
+        <given-names>J.</given-names>
+    </name>
+    <name>
+        <surname>Antchev</surname>
+        <given-names>K.</given-names>
+    </name>
+</person-group>
+<article-title>Matrix algebra with hypermedia</article-title>
+<source>Education and Information Technologies</source>
+<year>1996</year>
+<volume>1</volume>
+<issue>2</issue>
+<fpage>123</fpage>
+<lpage>141</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref13">
+<label>[11]</label>
+<mixed-citation>[11] Polya, G. (1973). How to solve it. Princeton University Press.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+    <name>
+        <surname>Polya</surname>
+        <given-names>G.</given-names>
+    </name>
+</person-group>
+<source>Princeton University Press.</source>
+<year>1973</year>
+<series>How to solve it</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref14">
+<label>[12]</label>
+<mixed-citation>[12] Sorden, S. D. (2012). The cognitive theory of multimedia learning. In The Handbook of educational theories (pp. 155-168). Charlotte, North Carolina: Information Age Publishing, Inc.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+    <name>
+        <surname>Sorden</surname>
+        <given-names>S. D.</given-names>
+    </name>
+</person-group>
+<source>The Handbook of educational theories</source>
+<year>2012</year>
+<fpage>155</fpage>
+<lpage>168</lpage>
+<publisher-loc>Charlotte, North Carolina</publisher-loc>
+<publisher-name>Information Age Publishing, Inc.</publisher-name>
+<chapter-title>The cognitive theory of multimedia learning.</chapter-title>
+</element-citation>
+</ref>
+<ref id="redalyc_607975560005_ref15">
+<label>[13]</label>
+<mixed-citation>[13] Sierpinska, A. (1994). Understanding in mathematics. London: The Falmer Press.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+    <name>
+        <surname>Sierpinska</surname>
+        <given-names>A.</given-names>
+    </name>
+</person-group>
+<source>The Falmer Press.</source>
+<year>1994</year>
+<publisher-loc>London</publisher-loc>
+<series>Understanding in mathematics.</series>
+</element-citation>
+</ref>
+</ref-list>
+</back>
+</article>

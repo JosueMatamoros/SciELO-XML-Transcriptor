@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "https://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<article article-type="editorial" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">redmei</journal-id>
+            <journal-title-group>
+                <journal-title>Revista Digital: Matemática, Educación e Internet</journal-title>
+                <abbrev-journal-title abbrev-type="publisher">Rev. Dig. Mat. Educ. Internet</abbrev-journal-title>
+            </journal-title-group>
+            <issn pub-type="ppub">1659-0643</issn>
+            <publisher>
+                <publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">https://doi.org/10.18845/rdmei.v24i2.6914</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Didáctica y Software</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title >Introducción a la visualización de datos con ggplot2</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0000-0001-8869-4067</contrib-id>
+                    <name >
+                        <surname>Oviedo Rodríguez</surname>
+                        <given-names>Katalina</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="fn" rid="fn2">1.</xref>
+                    <email>katalina.oviedo.rodriguez@una.ac.cr</email>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0000-0002-5585-8739</contrib-id>
+                    <name >
+                        <surname>Jiménez Oviedo</surname>
+                        <given-names>Byron</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff3"/>
+                    <xref ref-type="fn" rid="fn3">2.</xref>
+                    <email>byron.jimenez.oviedo@una.ac.cr</email>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0000-0002-7864-2391</contrib-id>
+                    <name name-style="western">
+                        <surname>Aguilar Fernández</surname>
+                        <given-names>Eduardo</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff4"/>
+                    <xref ref-type="fn" rid="fn4">3.</xref>
+                    <email>eduardo.aguilar.fernandez@una.cr</email>
+                </contrib>
+            </contrib-group>
+            <aff id="aff1">
+                <institution content-type="original">Universidad Nacional. Heredia, Costa Rica. katalina.oviedo.rodriguez@una.ac.cr</institution>
+                <institution content-type="orgname">Universidad Nacional</institution>
+                <country country="CR">Costa Rica</country>
+            </aff>
+            <aff id="aff3">
+                <institution content-type="original">Universidad Nacional. Heredia, Costa Rica. byron.jimenez.oviedo@una.ac.cr</institution>
+                <institution content-type="orgname">Universidad Nacional.</institution>
+                <country country="CR">Costa Rica</country>
+            </aff>
+            <aff id="aff4">
+                <institution content-type="original">Universidad Nacional. Heredia, Costa Rica. eduardo.aguilar.fernandez@una.cr</institution>
+                <institution content-type="orgname">Universidad Nacional.</institution>
+                <country country="CR">Costa Rica</country>
+            </aff>
+            <author-notes>
+                <fn id="fn2" fn-type="current-aff">
+                    <label>1.</label>
+                    <p>Katalina Oviedo Rodríguez, académica e investigadora de la Universidad Nacional de Costa Rica. Dirección postal: Mercedes Norte, Heredia, Costa Rica. Código postal: 40102. Correo electrónico: katalina.oviedo.rodriguez@una.ac.cr.</p>
+                </fn>
+                <fn id="fn3" fn-type="current-aff">
+                    <label>2.</label>
+                    <p>Byron Jiménez Oviedo, académico e investigador de la Universidad Nacional de Costa Rica. Dirección postal: Mercedes Norte, Heredia, Costa Rica. Código postal: 40102. Correo electrónico: byron.jimenez.oviedo@una.ac.cr</p>
+                </fn>
+                <fn id="fn4" fn-type="current-aff">
+                    <label>3.</label>
+                    <p>Eduardo Aguilar Fernández, académico e investigador de la Universidad Nacional de Costa Rica. Dirección postal: ´ Barva, Heredia. Código postal: 40201. Correo electrónico: eduardo.aguilar.fernandez@una.ac.cr.</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="collection">
+                <season>Mar/Aug</season>
+                <year>2024</year>
+            </pub-date>
+            <volume>24</volume>
+            <issue>2</issue>
+            <fpage>1</fpage>
+            <lpage>23</lpage>
+            <history>
+                <date date-type="received" publication-format="dd mes yyyy">
+                    <day>02</day>
+                    <month>05</month>
+                    <year>2023</year>
+                </date>
+                <date date-type="accepted" publication-format="dd mes yyyy">
+                    <day>20</day>
+                    <month>08</month>
+                    <year>2023</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-year>2024</copyright-year>
+                <copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+                <ali:free_to_read/>
+                <license license-type="open-access" xml:lang="es" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+                    <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                    <license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+                </license>
+            </permissions>
+            <abstract>
+                <title>Resumen</title>
+                <p>En este documento se presenta una recopilación de los principales códigos del paquete ggplot2 de R para representar información de forma gráfica. Los gráficos que aquí se exponen son los que usualmente se estudian en cursos básicos de estadística descriptiva en la educación superior. El objetivo principal es que esta recopilación sirva de guía para que tanto estudiantes como profesores puedan consultar de una manera más sintetizada algunos de los códigos y ambientes que existen para visualizar información de forma gráfica en ggplot2. Las bases de datos utilizadas son de libre acceso y se pueden descargar en R. En este documento se incluyen los enlaces a las mismas, lo que permite que el lector pueda replicar los códigos con estas bases para una mejor comprensión. Se asume que el lector posee un conocimiento básico del lenguaje R y de estadística descriptiva.</p>
+            </abstract>
+            <trans-abstract xml:lang="en">
+                <title>Abstract</title>
+                <p>This document presents a compilation of the main codes of the ggplot2 package of R to present information graphically. The graphs presented here are those that are usually studied in basic descriptive statistics courses in higher education. The main objective is that this collection serves as a guide so that both students and teachers can consult in a more synthesized way some of the codes and environments that exist to visualize information graphically in ggplot2. The databases used are freely accessible and can be downloaded at R. This document includes links to them, which allows the reader to replicate the codes with these databases for a better understanding. It is assumed that the reader has a basic understanding of R language and descriptive statistics.</p>
+            </trans-abstract>
+            <kwd-group xml:lang="es">
+                <title>Palabras clave</title>
+                <kwd>Visualización</kwd>
+                <kwd>datos</kwd>
+                <kwd>gráficos estadísticos</kwd>
+                <kwd>ggplot2</kwd>
+                <kwd>R</kwd>
+            </kwd-group>
+            <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Visualization</kwd>
+                <kwd>data</kwd>
+                <kwd>statistical graphs</kwd>
+                <kwd>ggplot2</kwd>
+                <kwd>R</kwd>
+            </kwd-group>
+            <counts>
+                <fig-count count="27"/>
+                <table-count count="1"/>
+                <equation-count count="0"/>
+                <ref-count count="8"/>
+            </counts>
+        </article-meta>
+    </front>
+    <body>
+        <sec>
+            <title>
+                <bold>Introducción</bold>
+            </title>
+            <p>La visualización de datos y su análisis se consideran procesos de gran importancia en la actualidad, siendo los gráficos una de las representaciones más utilizadas para presentar información estadística. Casanova (2017) señala que la carga heurística que incorporan los gráficos alimenta la conjetura de quien realiza los análisis, lo que facilita la interpretación, la formulación de hipótesis, las conjeturas, las explicaciones, etc. Una buena presentación gráfica es muy valorada (Sevilla, 2005; Wickham, 2016; Wilkinson, 2012), por tal razón es que el profesional actual debe tener las herramientas mínimas para poder desplegar tal análisis de una manera elegante, de fácil interpretación y precisa.</p>
+            <p>En la actualidad, R es uno de los entornos y lenguajes de programación más utilizados para análisis estadístico, minería de datos, modelización estadística y presentación gráfica de la información (Dobrow, 2016; Kabacoff, 2022; Monahan, 2011; Wickham, 2016; Wickham &amp; Grolemund, 2016). Además, es un entorno abierto, libre, gratuito que ha tenido gran aprobación en la academia, en la investigación científica y en el sector empresarial. Uno de los compiladores que se pueden utilizar es RStudio, el cual es utilizado en este documento.</p>
+            <p>Existen distintos programas y lenguajes que permiten realizar análisis estadístico de datos tales como R, Python, Excel, Power BI, SPSS, PSPP, entre otros, pero no es el objetivo de este documento hacer una comparación de estos; sin embargo, es muy deseable que el profesional actual tenga la capacidad de comparar, discernir y seleccionar entre estos según sus necesidades.</p>
+            <p>Este documento tiene como objetivo principal brindar un acercamiento a la representación gráfica de información utilizando el paquete ggplot 2 en R, a partir de los gráficos que generalmente se presentan en un curso universitario de estadística descriptiva, entre ellos: gráficos de barras, circular, de líneas, de cajas y bigotes, histogramas, polígonos de frecuencias y ojivas. Se seleccionaron estos tipos de gráficos con el fin de que el estudiantado universitario que da sus primeros pasos en el ambiente R tenga un acercamiento amigable y útil a ggplot2 y para que pueda aprovecharlo en los cursos o ambientes que lo demanden. Las bases de datos utilizadas contienen datos reales y son de libre acceso.</p>
+            <p>El documento inicia con una introducción sobre el paquete ggplot 2, seguido, se describen las bases de datos utilizadas, luego, se brindan ejemplos de algunos elementos gráficos y finalmente se presenta una descripción detallada de la construcción según cada tipo de gráfico.</p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Paquete ggplot2</bold>
+            </title>
+            <p>El paquete ggplot2  fue creado por Hadley Wickham y fue desarrollado utilizando la gramática de gráficos de Wilkinson (Wickham, 2016). La gramática de gráficos dicta que un gráfico estadístico es una forma de estructurar los datos usando atributos estéticos como color, tamaño, forma (llamados aesthetic attributes) y objetos geométricos como puntos, líneas o barras. Además de transformaciones estadísticas, escalas, coordenadas y el faceting o facetado, lo cual permite visualizar una cierta característica o variable de los datos en subgráficos independientes (Wilkinson, 2012; Wickham, 2016; Teutonico, 2015).</p>
+            <p>Para poder utilizar ggplot2 es necesario realizar su instalación y contar con una versión reciente de R, por ejemplo 3.2.0 en adelante. La versión se puede verificar utilizando el comando <italic>version</italic> en la consola. Luego, una vez que se tenga la versión adecuada, se puede instalar ggplot2 utilizando el comando usual para la instalación de paquetes en R el cual es:</p>
+            <p>install.packages("ggplot2") library(ggplot2)</p>
+            <p>
+                <bold>Bases de datos empleadas</bold>
+            </p>
+            <p>Una base de datos o dataframe es una estructura que sirve para organizar datos. Es como una matriz con la diferencia de que puede tener columnas de diferentes tipos, de modo que en la primera columna se encuentra cada unidad estadística que conforma la población o muestra con la cual se trabaja.</p>
+            <p>Con el fin de facilitar el tratamiento de los gráficos para el lector, se utilizan bases de datos de libre acceso que se pueden obtener del paquete Biostatistics por medio del enlace <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/Biostatistics/index.html">https://cran.r-project.org/web/packages/Biostatistics/index.html</ext-link>, esto pues se quiere enfatizar en la representación gráfica de los datos y que el lector pueda replicar de una manera rápida y sencilla los códigos para la construcción de los diferentes gráficos.</p>
+            <p>El paquete Biostatistics proporciona diferentes bases de datos, en este documento se utiliza la base de datos llamada worldbank que presenta una variedad de medidas geográficas, económicas, ambientales y sociales para 186 países desde el año 2014, recopiladas a partir de datos publicados por World Bank, los cuales se pueden obtener y verificar en la dirección <ext-link ext-link-type="uri" xlink:href="https://www.worldbank.org/en/home">https://www.worldbank.org/en/home</ext-link>. La descripción de las variables que presenta esta base de datos se muestra en la tabla 1.</p>
+            <p>
+                <table-wrap id="gt1">
+                    <label>Tabla 1:</label>
+                    <caption>
+                        <title>Descripción de las variables de la base de datos worldbank</title>
+                    </caption>
+                    <alt-text>Tabla 1: Descripción de las variables de la base de datos worldbank</alt-text>
+                    <alternatives>
+                        <graphic xlink:href="607975560004_gt2.png" position="anchor" orientation="portrait"/>
+                        <table id="gt2-526564616c7963">
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: left;">Climate_region</td>
+                                    <td style="text-align: left;">Factor con niveles Templado o Polar Tropical</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Income_binary</td>
+                                    <td style="text-align: left;">Factor con niveles alta baja</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Country_Name</td>
+                                    <td style="text-align: left;">Nombre del país</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Country_Code</td>
+                                    <td style="text-align: left;">Código de tres letras del país</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Region</td>
+                                    <td style="text-align: left;">Región geográfica</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Income_group</td>
+                                    <td style="text-align: left;">Divide a los países en uno de cuatro grupos de ingresos</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Population</td>
+                                    <td style="text-align: left;">Tamaño de la población</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Land_area</td>
+                                    <td style="text-align: left;">Área del país en \(\mathrm{km}^2\)</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Forest_area</td>
+                                    <td style="text-align: left;">Superficie boscosa como porcentaje de la superficie terrestre</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Precipitation</td>
+                                    <td style="text-align: left;">Precipitación anual en \(\mathrm{mm}\)</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Population_density</td>
+                                    <td style="text-align: left;">Personas por \(\mathrm{km}^2\)</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Capital_lat</td>
+                                    <td style="text-align: left;">Latitud de la capital</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">GNP_per_Cap</td>
+                                    <td style="text-align: left;">Producto Nacional Bruto per cápita en $</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Population_growth</td>
+                                    <td style="text-align: left;">Crecimiento anual de la población en porcentaje</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Cereal_yield</td>
+                                    <td style="text-align: left;">Rendimiento de cereales en \(\mathrm{Kg}\) por \(\mathrm{Ha}\)</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Female_life_expectancy</td>
+                                    <td style="text-align: left;">Esperanza de vida media de las mujeres en años</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Under_5_mortality</td>
+                                    <td style="text-align: left;">Muertes de niños menores de 5 años por 100000</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Renewables</td>
+                                    <td style="text-align: left;">Consumo de energía renovable (porcentaje del consumo total de energía final)</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">CO2</td>
+                                    <td style="text-align: left;">Producción de \(\mathrm{CO}_2\) en toneladas per cápita</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">PM25</td>
+                                    <td style="text-align: left;">Contaminación del aire PM2.5, exposición anual media (microgramos por \(m^3\))</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Women_in_parliament</td>
+                                    <td style="text-align: left;">Porcentaje de escaños ocupados por mujeres en los parlamentos nacionales</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">GINI_index</td>
+                                    <td style="text-align: left;">Índice Gini de desigualdad de la riqueza</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Govt_spend_education</td>
+                                    <td style="text-align: left;">Gasto público en educación, total (porcentaje del PIB)</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">Secondary_school_enrolment</td>
+                                    <td style="text-align: left;">Matricula escolar, secundaria (porcentaje neto)</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: left;">School_gender_parity</td>
+                                    <td style="text-align: left;">Índice de paridad de género para la matrícula escolar</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </alternatives>
+                    <attrib>Elaboración propia</attrib>
+                </table-wrap>
+            </p>
+            <p>Para poder instalar y ver una parte esta base de datos se utiliza el siguiente código.</p>
+            <p>install.packages("Biostatistics") library("Biostatistics") head(worldbank)</p>
+            <p>Para evitar algunos inconvenientes con los datos, ya que esto podría distorsionar el sentido de este documento, se puede omitir algunas de las unidades estadísticas que tiene datos faltantes (NAs) en algunas de las variables que se van a utilizar. Para esto se utiliza lo siguiente.</p>
+            <p>faltantes = is.na(worldbank$Forest_area) | is.na(worldbank$Precipitation)</p>
+            <p>worldbank = subset(worldbank, subset = !faltantes)</p>
+            <p>
+                <bold>Un acercamiento a través de ejemplos</bold>
+            </p>
+            <p>En esta sección es presenta cada parte de la construcción de un gráfico estadístico básico usando ggplot2. Más precisamente, se presentan las tres componentes o capas claves de un gráfico en ggplot2, a saber:</p>
+            <p>
+                <list list-type="order">
+                    <list-item>
+                        <p>Los datos (data): en este caso se trata de la base de datos utilizada</p>
+                    </list-item>
+                    <list-item>
+                        <p>La estética (aesthetics, aes): relaciona las variables deseadas de la base de datos y la forma de percibirla.</p>
+                    </list-item>
+                    <list-item>
+                        <p>La geometría (geom): esta capa indica como se quiere representar cada observación</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Por ejemplo, usando la base worldbank se pueden visualizar las variables Forest_area y Precipitation por medio de un diagrama de dispersión (ver Figura <xref ref-type="fig" rid="gf1">1</xref>).
+            </p>
+            <p>ggplot(data = worldbank, aes(x = Forest_area, y = Precipitation)) + geom_point()</p>
+            <p>
+                <fig id="gf1">
+                    <label>
+                        <bold>Figura 1</bold>
+                    </label>
+                    <caption>
+                        <title>Grafico de dispersión para las variables Forest area y Precipitacion </title>
+                    </caption>
+                    <alt-text>Figura 1 Grafico de dispersión para las variables Forest area y Precipitacion </alt-text>
+                    <graphic xlink:href="607975560004_gf2.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Hasta este momento se tiene la estructura ggplot (datos, aes (x = , y =)), luego, para insertar una nueva capa se utiliza el símbolo "+ ". En el ejemplo anterior se insertó la capa de la geometría, específicamente, se usó puntos (geom_point) para representar el cruce de los valores de las dos variables seleccionadas. Por ejemplo, si se quiere usar la geometría de histograma para la variable Forest_area, la cual tiene una naturaleza continua, se utiliza la geom_histogram y se escribe la siguiente instrucción, la cual permite generar la Figura <xref ref-type="fig" rid="gf2">2</xref>.
+            </p>
+            <p>ggplot(data = worldbank, aes(x = Forest_area)) + geom_histogram()</p>
+            <p>
+                <fig id="gf2">
+                    <label>
+                        <bold>Figura 2</bold>
+                    </label>
+                    <caption>
+                        <title>Histograma para la variable Forest_area</title>
+                    </caption>
+                    <alt-text>Figura 2 Histograma para la variable Forest_area</alt-text>
+                    <graphic xlink:href="607975560004_gf3.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Existen muchas geometrías que se pueden invocar, como líneas, barras, cajas o densidad. Algunas de estas se explicarán más adelante.</p>
+            <p>Por otro lado, aesthetics tiene varios atributos que pueden ser de gran utilidad, por ejemplo, el color, la forma y el tamaño. En el caso del ejemplo de la Figura <xref ref-type="fig" rid="gf1">1</xref> en el cual se graficaron los valores de las variables Forest_area y Precipitacion con puntos, se puede agregar color para cada punto según el clima de la región (ver Figura <xref ref-type="fig" rid="gf3">3</xref>). Una instrucción que permite asignar el color a cada punto es la siguiente:</p>
+            <p>ggplot(data = worldbank, aes(x=Forest_area,y=Precipitation, colour = Climate_region)) + geom_point()</p>
+            <p>
+                <fig id="gf3">
+                    <label>
+                        <bold>Figura 3</bold>
+                    </label>
+                    <caption>
+                        <title>Grafico de dispersión para  Forest_area y Precipitacion, clasificada (color) por clima de la región</title>
+                    </caption>
+                    <alt-text>Figura 3 Grafico de dispersión para  Forest_area y Precipitacion, clasificada (color) por clima de la región</alt-text>
+                    <graphic xlink:href="607975560004_gf4.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Un efecto muy similar se puede obtener utilizando la forma (shape) o el tamaño (size), tal y como se muestra en la Figura <xref ref-type="fig" rid="gf4">4</xref>.
+            </p>
+            <p>ggplot(data = worldbank, aes(x = Forest_area, y = Precipitation, shape = Climate_region)) + geom_point()</p>
+            <p>
+                <fig id="gf4">
+                    <label>
+                        <bold>Figura 4</bold>
+                    </label>
+                    <caption>
+                        <title>Grafico de dispersión para Forest_area y Precipitacion, clasificada (forma) por clima de la región</title>
+                    </caption>
+                    <alt-text>Figura 4 Grafico de dispersión para Forest_area y Precipitacion, clasificada (forma) por clima de la región</alt-text>
+                    <graphic xlink:href="607975560004_gf5.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Es claro que los diferentes atributos se adecuan mejor según el tipo de variable, por ejemplo, se puede utilizar color y forma para variables categóricas y tamaño para variables continuas (ver Figura <xref ref-type="fig" rid="gf5">5</xref>). En el caso de que se quiera un cambio de color de la geometría usada, basta indicarlo dentro de esta capa.</p>
+            <p>ggplot(data = worldbank, aes(x = Forest_area, y = Precipitation, shape = Climate_region)) + geom_point(color = "red")</p>
+            <p>
+                <fig id="gf5">
+                    <label>
+                        <bold>Figura 5</bold>
+                    </label>
+                    <caption>
+                        <title>Grafico de dispersión para Forest_area y Precipitacion, clasificada por clima de la región</title>
+                    </caption>
+                    <alt-text>Figura 5 Grafico de dispersión para Forest_area y Precipitacion, clasificada por clima de la región</alt-text>
+                    <graphic xlink:href="607975560004_gf6.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Se puede observar que solo se ha indicado el color en inglés y en comillas, sin usar aes.</p>
+            <p>Otra forma de agregar categorías adicionales en una gráfica es por medio del comando face_wrap, el cual permite crear gráficos multi-panel, es decir, tablas de gráficos mostrando un subconjunto diferente de los datos (ver Figura <xref ref-type="fig" rid="gf6">6</xref>). Este se agrega como una nueva capa usando el símbolo + y luego se especifíca la variable deseada antecedida del símbolo<inline-formula>
+                <alternatives>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mml:mo>~</mml:mo>
+                    </mml:math>
+                    <graphic xlink:href="607975560004_gi2.png"/>
+                </alternatives>
+            </inline-formula>.
+        </p>
+        <p>ggplot(data = worldbank, aes(x = Forest_area, y = Precipitation)) + geom_point() + facet_wrap(~ Climate_region)</p>
+        <p>
+            <fig id="gf6">
+                <label>
+                    <bold>Figura 6:</bold>
+                </label>
+                <caption>
+                    <title>Grafico de dispersión multi-panel para las variables Forest_area y Precipitacion, clasificada por clima de la región.</title>
+                </caption>
+                <alt-text>Figura 6: Grafico de dispersión multi-panel para las variables Forest_area y Precipitacion, clasificada por clima de la región.</alt-text>
+                <graphic xlink:href="607975560004_gf7.png" position="anchor" orientation="portrait"/>
+                <attrib>Elaboración propia</attrib>
+            </fig>
+        </p>
+        <p>En algunas ocasiones se quiere marcar la tendencia que presentan las variables dentro del gráfico de dispersión. Para realizar esto se puede agregar a dicho gráfico una curva estándar con geom_smooth, la cual es una capa de geometría que ajusta una curva a los datos y despliega el error estándar (ver Figura <xref ref-type="fig" rid="gf7">7</xref>). Este comando tiene varios métodos para calcular la curva. Por ejemplo, si se quiere un modelo lineal se utiliza el siguiente comando.</p>
+        <p>ggplot(data = worldbank, aes(x = Forest_area, y = Precipitation)) + geom_point() + geom_smooth(method = "lm")</p>
+        <p>
+            <fig id="gf7">
+                <label>
+                    <bold>Figura 7</bold>
+                </label>
+                <caption>
+                    <title>Grafico de dispersión para las variables Forest_area y Precipitacion, con línea de tendencia.</title>
+                </caption>
+                <alt-text>Figura 7 Grafico de dispersión para las variables Forest_area y Precipitacion, con línea de tendencia.</alt-text>
+                <graphic xlink:href="607975560004_gf8.png" position="anchor" orientation="portrait"/>
+                <attrib>Elaboración propia</attrib>
+            </fig>
+        </p>
+        <p>Ahora, si se quiere la curva que mejor se ajuste con ciertas ondulaciones se utiliza el método loess donde las ondulaciones se pueden controlar con el parámetro span con valores entre 0 (mayor cantidad de ondulaciones) y 1 (menor cantidad de ondulaciones) (ver Figura <xref ref-type="fig" rid="gf8">8</xref>).
+        </p>
+        <p>ggplot(data = worldbank, aes(x = Forest_area, y = Precipitation)) + geom_point() + geom_smooth(span = 0.3)</p>
+        <p>
+            <fig id="gf8">
+                <label>
+                    <bold>Figura 8:</bold>
+                </label>
+                <caption>
+                    <title>Grafico de dispersión para las variables Forest_area y Precipitacion, con curva de tendencia.</title>
+                </caption>
+                <alt-text>Figura 8: Grafico de dispersión para las variables Forest_area y Precipitacion, con curva de tendencia.</alt-text>
+                <graphic xlink:href="607975560004_gf9.png" position="anchor" orientation="portrait"/>
+                <attrib>Elaboración propia</attrib>
+            </fig>
+        </p>
+        <p>Por defecto, geom_smooth tiene los párametros method = "loess", span = 1 (ver Figura <xref ref-type="fig" rid="gf9">9</xref>).
+        </p>
+        <p>ggplot(data = worldbank, aes(x = Forest_area, y = Precipitation))+ geom_point() + geom_smooth()</p>
+        <p>
+            <fig id="gf9">
+                <label>
+                    <bold>Figura 9:</bold>
+                </label>
+                <caption>
+                    <title>Grafico de dispersión para las variables Forest_area y Precipitacion, con curva (por defecto) de tendencia.</title>
+                </caption>
+                <alt-text>Figura 9: Grafico de dispersión para las variables Forest_area y Precipitacion, con curva (por defecto) de tendencia.</alt-text>
+                <graphic xlink:href="607975560004_gf10.png" position="anchor" orientation="portrait"/>
+                <attrib>Elaboración propia</attrib>
+            </fig>
+        </p>
+        <p>Existen otros métodos como gam y rlm; sin embargo, estos se dejan para que la persona pueda investigar cuando conviene utilizarlos. Por otro lado, si se desea un gráfico con los mínimos detalles y dejando la elección del tipo de gráfico puede utilizarse la graficación rápida usando el comando qplot (ver Figura <xref ref-type="fig" rid="gf10">10</xref>) (la letra q viene de quick que significa rápido).</p>
+        <p>qplot(Forest_area, data = worldbank)</p>
+        <p>
+            <fig id="gf10">
+                <label>
+                    <bold>Figura 10:</bold>
+                </label>
+                <caption>
+                    <title>Histograma para la variable Forest_area.</title>
+                </caption>
+                <alt-text>Figura 10: Histograma para la variable Forest_area.</alt-text>
+                <graphic xlink:href="607975560004_gf11.png" position="anchor" orientation="portrait"/>
+            </fig>
+        </p>
+        <p>Histograma para la variable Forest_area.</p>
+    </sec>
+    <sec>
+        <title>
+            <bold>Gráficos estadísticos</bold>
+        </title>
+        <p>En esta sección se muestra cómo construir algunos de los principales gráficos que se estudian en cursos de estadística básica como el gráfico de barras, de líneas, circular, histogramas ojivas, polígonos de frecuencias y dispersión. Algunos de estos ya se construyeron anteriormente; sin embargo, se presentan a continuación aspectos que permitirán al lector mejorar su presentación.</p>
+        <sec>
+            <title>
+                <bold>Gráfico de Barras</bold>
+            </title>
+            <p>El gráfico de barras se utiliza para presentar frecuencias para una variable discreta o una variable categórica. A continuación se presenta una serie de instrucciones que permiten construir dicho gráfico y a su vez, se aprovecha para introducir nuevos comandos que controlan el aspecto estético por defecto y permiten agregar otros elementos como el título y la fuente.</p>
+            <p>Para construir el gráfico de barras se utiliza la base de datos worldbank y la variable Income_group (ver Figura <xref ref-type="fig" rid="gf11">11</xref>).
+            </p>
+            <p>barras &lt;- ggplot(data = worldbank, aes(Income_group)) + geom_bar()</p>
+            <p>print(barras)</p>
+            <p>
+                <fig id="gf11">
+                    <label>
+                        <bold>Figura 11:</bold>
+                    </label>
+                    <caption>
+                        <title>Gráfico de barras para la variable Income_group</title>
+                    </caption>
+                    <alt-text>Figura 11: Gráfico de barras para la variable Income_group</alt-text>
+                    <graphic xlink:href="607975560004_gf12.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Observe que se ha guardado la información del gráfico en la variable barras a la cual se agregó la geometría requerida. Para poder observar el gráfico, simplemente se usa la función print indicando como argumento el nombre del gráfico.</p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Modificando los ejes</bold>
+            </title>
+            <p>Al desplegar el gráfico, R coloca por defecto algunas etiquetas a los ejes. Para modificar dichas etiquetas se agregan las capas xlab y ylab, indicando entre comillas el nombre que se quiere colocar a cada eje (ver Figura <xref ref-type="fig" rid="gf12">12</xref>).
+            </p>
+            <p>barras + xlab("Grupos de ingresos") + ylab("Cantidad")</p>
+            <p>
+                <fig id="gf12">
+                    <label>
+                        <bold>Figura 12:</bold>
+                    </label>
+                    <caption>
+                        <title>Gráfico de barras para la variable Income_group</title>
+                    </caption>
+                    <alt-text>Figura 12: Gráfico de barras para la variable Income_group</alt-text>
+                    <graphic xlink:href="607975560004_gf13.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Título y fuente</bold>
+            </title>
+            <p>Para colocar un título, un subtítulo (en caso de que sea necesario, por ejemplo una nota introductoria) y la fuente se utiliza el comando labs con los argumentos <italic>title, subtitle y caption</italic>, respectivamente (ver Figura <xref ref-type="fig" rid="gf13">13</xref>).
+            </p>
+            <p>barras + xlab("Grupos de ingresos") + ylab("Cantidad") + labs(title = "Distribución de países según su nivel de ingreso", subtitle = "Año de estudio 2014", caption = "Fuente:wolrdbank")</p>
+            <p>
+                <fig id="gf13">
+                    <label>
+                        <bold>Figura 13:</bold>
+                    </label>
+                    <caption>
+                        <title>Gráfico de barras para la variable Income_group</title>
+                    </caption>
+                    <alt-text>Figura 13: Gráfico de barras para la variable Income_group</alt-text>
+                    <graphic xlink:href="607975560004_gf14.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Para centrar texto, cambiar el tipo, el color y el tamaño de la fuente se utiliza la capa theme y los argumentos <italic>plot.title, plot.subtitle</italic> y <italic>plot.caption</italic>, respectivamente, de la siguiente manera (ver Figura <xref ref-type="fig" rid="gf14">14</xref>).
+            </p>
+            <p>barras + xlab("Grupos de ingresos") + ylab("Cantidad")+ labs(title = "Distribución de países según su nivel de ingreso", subtitle = "Año de estudio 2014", caption = "Fuente:wolrdbank")+ theme(plot.title = element_text(color = "blue", size = 12, face = "bold",hjust = 0.5), plot.subtitle = element_text(color = "#F8766D", hjust = 0.5), plot.caption = element_text(color = "red", face = "italic", hjust = 0))</p>
+            <p>
+                <fig id="gf14">
+                    <label>
+                        <bold>Figura 14</bold>
+                    </label>
+                    <caption>
+                        <title>Grafico de barras con modificaciones de texto para la variable Income_group</title>
+                    </caption>
+                    <alt-text>Figura 14 Grafico de barras con modificaciones de texto para la variable Income_group</alt-text>
+                    <graphic xlink:href="607975560004_gf15.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Entre las opciones que tienen los argumentos de theme están:</p>
+            <p>
+                <list list-type="order">
+                    <list-item>
+                        <p>color: acepta el nombre del color en inglés o su código hexadecimal</p>
+                    </list-item>
+                    <list-item>
+                        <p>hjust (posición): puede colocarse a la izquierda (hjust = 0), centrado (hjust = 0.5) o a la derecha (hjust = 1). O bien, puede ajustarse usando valores entre 0 y 1.</p>
+                    </list-item>
+                    <list-item>
+                        <p>face (fuente): se utiliza para cambiar el tipo de letra mediante los parametros <italic>plain, italic, bold </italic>o<italic> bold.italic</italic>, los cuales deben escribirse entre comillas.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>También puede realizarse la división de texto mediante el uso del comando \n. Si en lugar de barras verticales se quieren barras horizontales se utiliza coord_flip (ver Figura <xref ref-type="fig" rid="gf15">15</xref>).
+            </p>
+            <p>barras + xlab("Grupos de ingresos") + ylab("Cantidad")+ labs(title = "Cantidad  de países según su grupo de ingreso.", subtitle = "Año de estudio 2014", caption = "Fuente:wolrdbank")+ theme(plot.title = element_text(color = "blue", size = 12, face = "bold", hjust = 0.5), plot.caption = element_text(color = "red", face = "italic", hjust = 0)) + coord_flip()</p>
+            <p>Se ha eliminado el subtítulo para simplificar la exposición.</p>
+            <p>
+                <fig id="gf15">
+                    <label>
+                        <bold>Figura 15</bold>
+                    </label>
+                    <caption>
+                        <title>Grafico de barras horizontales para la variable Income_group</title>
+                    </caption>
+                    <alt-text>Figura 15 Grafico de barras horizontales para la variable Income_group</alt-text>
+                    <graphic xlink:href="607975560004_gf16.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Para modificar la estética del gráfico de barras se puede cambiar el tema de colores, el cual es gris por defecto. Esto se puede hacer manualmente o utilizar paletas preestablecidas, las cuales se pueden encontrar por medio del enlace <ext-link ext-link-type="uri" xlink:href="https://r-graph-gallery.com/38-rcolorbrewers-palettes.html">https://r-graph-gallery.com/38-rcolorbrewers-palettes.html</ext-link>. Además, puede modificarse el fondo (backgroud), el contorno del fondo (panel.border) y ordenarse las barras utilizando el paquete forcats y las funciones fct_infreq (para ordenar los datos) y la función fct_rev, la cual invierte el orden en que los datos aparecen (ver Figura <xref ref-type="fig" rid="gf16">16</xref>).
+            </p>
+            <p>library(forcats)</p>
+            <p>ggplot(worldbank,aes(x=fct_rev(fct_infreq(Income_group)),fill=Income_group))+ geom_bar()+ xlab("Grupos de ingresos")+ ylab("Cantidad")+ labs(title = "Cantidad  de países según su grupo de ingreso, 2014",caption = "Fuente:wolrdbank")+ theme( plot.title = element_text(size = 12, face = "bold",hjust = 0.5), plot.caption = element_text(face = "italic",hjust = 0), panel.background = element_rect(fill = "white"), panel.border = element_rect(fill = "transparent",color = 8, size = 2), legend.position = "none")+ coord_flip()+ scale_fill_brewer(palette="Reds")</p>
+            <p>Observe que el argumento legend.position = "none" quita las leyendas.</p>
+            <p>
+                <fig id="gf16">
+                    <label>
+                        <bold>Figura 16</bold>
+                    </label>
+                    <caption>
+                        <title>Gráfico de barras completo para la variable Income_group</title>
+                    </caption>
+                    <alt-text>Figura 16 Gráfico de barras completo para la variable Income_group</alt-text>
+                    <graphic xlink:href="607975560004_gf17.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Gráfico circular </bold>
+            </title>
+            <p>No existe un comando (geom) específico para crear un gráfico circular; sin embargo, para dicha construcción se utiliza el código geom_bar y se hace el cambio de coordenadas rectangulares a polares, con el comando coor_polar. Para ilustrar dicha construcción se calculan primero las proporciones de la variable de la siguiente manera.</p>
+            <p>library(tidyverse)</p>
+            <p>ig &lt;- worldbank %&gt;% group_by(Income_group) %&gt;% summarise(n = n()) %&gt;% mutate(prop = n/sum(n))</p>
+            <p>En el código anterior se ha utilizado la biblioteca tidyverse, la cual es un conjunto de paquetes diseñados para ciencias de datos. Luego se crea un dataframe ig, filtrando (usando el símbolo %&gt;%) la base original worldbank como sigue: primero se agrupa por cada valor único de la variable Income_group, luego se crea un nuevo dataframe con el conteo de cada valor por medio de summarise y, por último, se agrega una nueva columna a la nueva base de datos con mutate y esta nueva columna tiene el porcentaje.</p>
+            <p>print(ig) # A tibble: 4 x 3</p>
+            <p>
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mtable columnalign="left left left">
+                                <mml:mtr>
+                                    <mml:mtd style="border-top:0.06em solid;padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0em;padding-right:0.4em;">
+                                        <mml:mtext>High income</mml:mtext>
+                                    </mml:mtd>
+                                    <mml:mtd style="border-top:0.06em solid;padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0.4em;padding-right:0.4em;">
+                                        <mml:mn>51</mml:mn>
+                                    </mml:mtd>
+                                    <mml:mtd style="border-top:0.06em solid;padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0.4em;padding-right:0em;">
+                                        <mml:mn>0.295</mml:mn>
+                                    </mml:mtd>
+                                </mml:mtr>
+                                <mml:mtr>
+                                    <mml:mtd style="padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0em;padding-right:0.4em;">
+                                        <mml:mtext>Low income</mml:mtext>
+                                    </mml:mtd>
+                                    <mml:mtd style="padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0.4em;padding-right:0.4em;">
+                                        <mml:mn>29</mml:mn>
+                                    </mml:mtd>
+                                    <mml:mtd style="padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0.4em;padding-right:0em;">
+                                        <mml:mn>0.168</mml:mn>
+                                    </mml:mtd>
+                                </mml:mtr>
+                                <mml:mtr>
+                                    <mml:mtd style="padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0em;padding-right:0.4em;">
+                                        <mml:mtext>Lower middle income</mml:mtext>
+                                    </mml:mtd>
+                                    <mml:mtd style="padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0.4em;padding-right:0.4em;">
+                                        <mml:mn>42</mml:mn>
+                                    </mml:mtd>
+                                    <mml:mtd style="padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0.4em;padding-right:0em;">
+                                        <mml:mn>0.243</mml:mn>
+                                    </mml:mtd>
+                                </mml:mtr>
+                                <mml:mtr>
+                                    <mml:mtd style="border-bottom:0.06em solid;padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0em;padding-right:0.4em;">
+                                        <mml:mtext>Upper middle income</mml:mtext>
+                                    </mml:mtd>
+                                    <mml:mtd style="border-bottom:0.06em solid;padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0.4em;padding-right:0.4em;">
+                                        <mml:mn>51</mml:mn>
+                                    </mml:mtd>
+                                    <mml:mtd style="border-bottom:0.06em solid;padding-top:0.5ex;padding-bottom:0.5ex;padding-left:0.4em;padding-right:0em;">
+                                        <mml:mn>0.295</mml:mn>
+                                    </mml:mtd>
+                                </mml:mtr>
+                            </mml:mtable>
+                        </mml:math>
+                        <graphic xlink:href="607975560004_gi3.png"/>
+                    </alternatives>
+                </inline-formula>
+            </p>
+            <p>El lector ya estará acostumbrado a muchos de los comandos que se utilizan, por lo cual se recomienda repasarlos y enfocarse en lo nuevo. Para una construcción básica se tiene el siguiente código (ver Figura <xref ref-type="fig" rid="gf17">17</xref>).
+            </p>
+            <p>ggplot(ig, aes(x = "", y =  prop, fill = Income_group)) + geom_bar(stat = "identity") + labs(title = "Porcentanjes de países \n según su grupo de ingreso, 2014", caption = "Fuente: wolrdbank")+ theme(plot.title = element_text(size = 12, face = "bold", hjust = 0.5), plot.caption = element_text(face = "italic", hjust = 0), panel.background = element_rect(fill = "white"), panel.border = element_rect(fill = "transparent", color = 8, size = 2)) + xlab(NULL) + ylab(NULL) + coord_polar("y") + scale_fill_brewer(palette="Reds")</p>
+            <p>
+                <fig id="gf17">
+                    <label>
+                        <bold>Figura 17</bold>
+                    </label>
+                    <caption>
+                        <title>Gráfico circular para la variable Income_group</title>
+                    </caption>
+                    <alt-text>Figura 17 Gráfico circular para la variable Income_group</alt-text>
+                    <graphic xlink:href="607975560004_gf18.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Antes de mejorar la estética del gráfico circular de la Figura <xref ref-type="fig" rid="gf17">17</xref>, es importante mencionar que en el código aparece la expresión stat = ”identity” en el geom_bar, esto se debe a que geom_bar tiene por defecto stat = ”count”, el cual cuenta los casos que aparecen en cada posición del eje <italic>x</italic>, razón por la que hasta el momento solo se ha colocado una variable con geom_bar. En el caso de que se quiera dar los valores de <italic>y</italic>, se debe indicar esto por medio de stat = ”identity”. Además, en la estética (aes) se ha escrito x =”” para indicar que solo se tendrá una columna y se llenará con los datos de los ingresos por región. Lo anterior también es válido si se quiere un gráfico de barras, para el cual se tiene los valores de <italic>x </italic>y <italic>y</italic>.
+            </p>
+            <p>Ahora, para quitar el fondo gris y las etiquetas que se obtienen por defecto se puede utilizar theme_void. Además, para colocar los porcentajes se usa geom_text (ver Figura <xref ref-type="fig" rid="gf18">18</xref>).
+            </p>
+            <p>ggplot(ig, aes(x = "", y =  prop, fill = Income_group)) + geom_bar(stat = "identity") + labs(title = "Porcentanjes de países \n según su grupo de ingreso, 2014", caption = "Fuente: wolrdbank") + theme_void() + theme(plot.title = element_text(size = 12, face = "bold", hjust = 0.5), plot.caption = element_text(face = "italic", hjust = 0), panel.background = element_rect(fill = "white"), panel.border = element_rect(fill = "transparent", color = 8, size = 2))+ xlab(NULL) + ylab(NULL) + coord_polar("y") + scale_fill_brewer(palette = "Reds") + geom_text(aes(label = paste0(round(prop*100), "%")), position = position_stack(vjust = 0.5))</p>
+            <p>
+                <fig id="gf18">
+                    <label>
+                        <bold>Figura 18</bold>
+                    </label>
+                    <caption>
+                        <title>Gráfico circular para la variable Income_group.</title>
+                    </caption>
+                    <alt-text>Figura 18 Gráfico circular para la variable Income_group.</alt-text>
+                    <graphic xlink:href="607975560004_gf19.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Observe que el theme_void se colocó antes de theme y que se ha realizado una pequeña operación para calcular los porcentajes.</p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Gráfico de líneas</bold>
+            </title>
+            <p>El lector ya puede imaginar cómo es la estructura del código de un gráfico de líneas, para el cual basta con usar geom_line. Se crea un dataframe simple que corresponde al producto interno bruto en millones de euros de Costa Rica y España, desde el año 1999 al año 2021. Estos datos fueron tomados de <ext-link ext-link-type="uri" xlink:href="https://datosmacro.expansion.com/pib">https://datosmacro.expansion.com/pib</ext-link>.
+            </p>
+            <p>Años=c(2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007, 2006, 2005, 2004, 2003, 2002, 2001, 2000, 1999)</p>
+            <p>PIB_anual_CR=c(54428,       54451, 57531, 52833, 53589, 53178, 50866, 39145, 38361, 36738, 30726, 28381, 22068, 20945, 19615, 18092, 16106, 14972, 15278, 17551, 17841, 16251, 13366)</p>
+            <p>PIB_CR_Esp= data.frame( "Años" =Años, "PIB_anual_CR" = PIB_anual_CR) Una vez creado el data_frame, se puede realizar el gráfico de líneas (ver Figura <xref ref-type="fig" rid="gf19">19</xref>) de la siguiente manera.</p>
+            <p>ggplot(data = PIB_CR_Esp, aes(x = Años, y = PIB_anual_CR)) + geom_line() + geom_point() + xlab("Años") + ylab("PIB Anual") + labs(title = "PIB anual de Costa Rica, 1999-2021", caption = "Fuente: Datos.macro.com")+ theme(plot.title = element_text(size = 12, face = "bold", hjust = 0.5), plot.caption = element_text(face = "italic", hjust = 0), panel.background = element_rect(fill = "white"), panel.border = element_rect(fill = "transparent", color = 8, size = 2), legend.position = "none")</p>
+            <p>
+                <fig id="gf19">
+                    <label>
+                        <bold>Figura 19</bold>
+                    </label>
+                    <caption>
+                        <title>Gráfico de líneas para la variable PIB Anual</title>
+                    </caption>
+                    <alt-text>Figura 19 Gráfico de líneas para la variable PIB Anual</alt-text>
+                    <graphic xlink:href="607975560004_gf20.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>También se puede dar énfasis añadiendo la geometría de puntos. En el siguiente código se pueden ver cambios de color, tamaño, tema y etiquetas (ver Figura <xref ref-type="fig" rid="gf20">20</xref>).
+            </p>
+            <p>ggplot(data = PIB_CR_Esp, aes(x = Años, y = PIB_anual_CR)) + geom_line(color = "red", size = 0.7) + geom_point(color = "blue") + xlab("Años") + ylab("PIB Anual") + labs(title = "PIB anual de Costa Rica, 1999-2021", caption = "Fuente: Datos.macro.com") + theme_light() + theme(plot.title = element_text(size = 12, face = "bold", hjust = 0.5), plot.caption = element_text(face = "italic", hjust = 0), panel.background = element_rect(fill = "white"), panel.border = element_rect(fill = "transparent", color = 8, size = 2), legend.position = "none")</p>
+            <p>
+                <fig id="gf20">
+                    <label>
+                        <bold>Figura 20</bold>
+                    </label>
+                    <caption>
+                        <title>Gráfico de líneas con color para la variable PIB Anual. </title>
+                    </caption>
+                    <alt-text>Figura 20 Gráfico de líneas con color para la variable PIB Anual. </alt-text>
+                    <graphic xlink:href="607975560004_gf21.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+        </sec>
+        <sec>
+            <title>
+                <bold> Gráfico de cajas y bigotes</bold>
+            </title>
+            <p>Los gráficos de cajas y bigotes son una manera de mostrar la distribución de una variable continua a través de los cuartiles. Este tipo de gráfico puede dar información sobre la simetría, la variabilidad (cuán estrechos están los datos agrupados), los valores atípicos y la comparación entre magnitudes. Para crear un gráfico de cajas y bigotes (ver Figura <xref ref-type="fig" rid="gf21">21</xref>) se utiliza la geometría geom_boxplot tal y como se muestra a continuación.</p>
+            <p>ggplot(worldbank, aes(Precipitation, Climate_region)) + geom_boxplot(color = "#5499c7", fill = "#D6eaf8", outlier.color = "#f5b7b1")</p>
+            <p>
+                <fig id="gf21">
+                    <label>
+                        <bold>Figura 21</bold>
+                    </label>
+                    <caption>
+                        <title>Gráfico de cajas para las variables Precipitatión y Climate_region</title>
+                    </caption>
+                    <alt-text>Figura 21 Gráfico de cajas para las variables Precipitatión y Climate_region</alt-text>
+                    <graphic xlink:href="607975560004_gf22.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Se puede utilizar geom_jitter para agregar una pequeña variación aleatoria a la posición de los puntos (ancho width y alto height) con el fin de darse una idea de su distribución (ver Figura <xref ref-type="fig" rid="gf22">22</xref>).
+            </p>
+            <p>ggplot(worldbank, aes(Precipitation, Climate_region)) + geom_boxplot(color = "#5499c7", fill = "#D6eaf8", outlier.shape = NA) + geom_jitter(width = 0.1, color = "#5499c7")</p>
+            <p>
+                <fig id="gf22">
+                    <label>
+                        <bold>Figura 22</bold>
+                    </label>
+                    <caption>
+                        <title>Gráfico de cajas con distribución de puntos para las variables Precipitatión y Climate_region</title>
+                    </caption>
+                    <alt-text>Figura 22 Gráfico de cajas con distribución de puntos para las variables Precipitatión y Climate_region</alt-text>
+                    <graphic xlink:href="607975560004_gf23.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Histogramas, polígonos de frecuencia y ojivas</bold>
+            </title>
+            <p>Con el histograma y el polígono de frecuencias se puede visualizar la distribución de una variable continua contando el número de observaciones que se encuentran en las clases previamente determinadas en el eje <italic>x </italic>(bins). La diferencia radica en que el histograma utiliza barras y el polígono de frecuencia utiliza líneas.</p>
+            <p>Tal y como se expuso en la Sección 2.2, para obtener un histograma (ver Figura <xref ref-type="fig" rid="gf23">23</xref>) puede escribirse la siguiente instrucción:</p>
+            <p>ggplot(data = worldbank, aes(x = Forest_area)) + geom_histogram(bins = 10, color = "darkblue",  fill = "lightblue")</p>
+            <p>
+                <fig id="gf23">
+                    <label>
+                        <bold>Figura 23</bold>
+                    </label>
+                    <caption>
+                        <title>Histograma para la variable Forest_area</title>
+                    </caption>
+                    <alt-text>Figura 23 Histograma para la variable Forest_area</alt-text>
+                    <graphic xlink:href="607975560004_gf24.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Si se quiere modificar la estética (ver Figura <xref ref-type="fig" rid="gf24">24</xref>) puede considerarse la misma estructura utilizada en algunos de los apartados anteriores.</p>
+            <p>ggplot(data = worldbank, aes(x=Forest_area)) + geom_histogram(bins = 10, color = "darkblue", fill = "lightblue")   + xlab("Area de bosque") + ylab("Cantidad") + labs(title = "Area de bosque, 2014", caption = "Fuente:wolrdbank") + theme(plot.title = element_text(size = 12, face = "bold", hjust = 0.5), plot.caption = element_text(face = "italic",hjust = 0), panel.background = element_rect(fill = "white"), panel.border = element_blank(), legend.position = "none", axis.line = element_line(color = 'darkblue'))</p>
+            <p>Observe que en el código anterior se ha quitado el borde y luego se le colocado solo el eje <italic>x </italic>y el eje <italic>y</italic>.
+            </p>
+            <p>
+                <fig id="gf24">
+                    <label>
+                        <bold>Figura 24</bold>
+                    </label>
+                    <caption>
+                        <title>Histograma con cambios de estética para la variable Forest_area</title>
+                    </caption>
+                    <alt-text>Figura 24 Histograma con cambios de estética para la variable Forest_area</alt-text>
+                    <graphic xlink:href="607975560004_gf25.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Se puede extraer la información del histograma utilizando el comando ggplot_build.</p>
+            <p>infoHist &lt;- ggplot_build(H) $data $data[[1]] y    count                           x      xmin       xmax      density     ncount   ndensity flipped_aes 1  29    29  0.00000 -5.461437   5.461437 0.0144292321 0.87878788 0.87878788       FALSE 2  32    32 10.92287  5.461437  16.384312 0.0159219113 0.96969697 0.96969697       FALSE 3  21    21 21.84575 16.384312  27.307187 0.0104487543 0.63636364 0.63636364       FALSE 4  33    33 32.76862 27.307187  38.230062 0.0164194710 1.00000000 1.00000000       FALSE 5  24    24 43.69150 38.230062  49.152937 0.0119414335 0.72727273 0.72727273       FALSE 6  19    19 54.61437 49.152937  60.075811 0.0094536348 0.57575758 0.57575758       FALSE 7  15    15 65.53725 60.075811  70.998686 0.0074633959 0.45454545 0.45454545       FALSE 8   6     6 76.46012 70.998686  81.921561 0.0029853584 0.18181818 0.18181818       FALSE 9   4     4 87.38300 81.921561  92.844436 0.0019902389 0.12121212 0.12121212       FALSE 10  1     1 98.30587 92.844436 103.767310 0.0004975597 0.03030303 0.03030303       FALSE PANEL group ymin ymax   colour      fill linewidth linetype alpha 1      1    -1    0   29 darkblue lightblue       0.5        1    NA 2      1    -1    0   32 darkblue lightblue       0.5        1    NA 3      1    -1    0   21 darkblue lightblue       0.5        1    NA 4      1    -1    0   33 darkblue lightblue       0.5        1    NA 5      1    -1    0   24 darkblue lightblue       0.5        1    NA 6      1    -1    0   19 darkblue lightblue       0.5        1    NA 7      1    -1    0   15 darkblue lightblue       0.5        1    NA 8      1    -1    0    6 darkblue lightblue       0.5        1    NA 9      1    -1    0    4 darkblue lightblue       0.5        1    NA 10     1    -1    0    1 darkblue lightblue       0.5        1    NA</p>
+            <p>Esta información puede ser útil para análisis o para ser utilizada en otros gráficos. Por ejemplo, se puede generar un polígono de frecuencias (ver Figura <xref ref-type="fig" rid="gf25">25</xref>) de la siguiente manera.</p>
+            <p>ggplot(data = worldbank, aes(x = Forest_area)) + geom_histogram(bins = 10, color = "darkblue", fill = "lightblue") + xlab("Area de bosque") + ylab("Cantidad") + labs(title = "Area de bosque, 2014", caption = "Fuente: wolrdbank")+ theme(plot.title = element_text(size = 12, face = "bold", hjust = 0.5), plot.caption = element_text(face = "italic", hjust = 0), panel.background = element_rect(fill = "white"), panel.border = element_blank(), legend.position = "none", axis.line = element_line(color = 'darkblue'))</p>
+            <p>
+                <fig id="gf25">
+                    <label>
+                        <bold>Figura 25</bold>
+                    </label>
+                    <caption>
+                        <title>Polígono de frecuencias para la variable Forest_area</title>
+                    </caption>
+                    <alt-text>Figura 25 Polígono de frecuencias para la variable Forest_area</alt-text>
+                    <graphic xlink:href="607975560004_gf26.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Por otro lado, se puede utilizar infoHist en la geometría geom_point para colocar los puntos de interés (ver Figura <xref ref-type="fig" rid="gf26">26</xref>). Es decir, de infoHist$data[[1]] se selecciona <italic>x</italic> y <italic>y</italic>.
+            </p>
+            <p>ggplot() + geom_freqpoly(data= worldbank,aes(x=Forest_area), bins = 10,color= "darkblue") + geom_point(aes(infoHist$data[[1]]$x,infoHist$data[[1]]$y),color="red") + xlab("Area de bosque") + ylab("Cantidad") + labs(title = "Area de bosque, 2014", caption = "Fuente: wolrdbank")+ theme(plot.title = element_text(size = 12, face = "bold", hjust = 0.5), plot.caption = element_text(face = "italic",hjust = 0), panel.background = element_rect(fill = "white"), panel.border = element_blank(), legend.position = "none", axis.line = element_line(color = 'darkblue'))</p>
+            <p>Observe que se han utilizado dos bases de datos, de las cuales se especifican en cada geometría.</p>
+            <p>
+                <fig id="gf26">
+                    <label>
+                        <bold>Figura 26</bold>
+                    </label>
+                    <caption>
+                        <title>Polígono de frecuencias para la variable Forest_area</title>
+                    </caption>
+                    <alt-text>Figura 26 Polígono de frecuencias para la variable Forest_area</alt-text>
+                    <graphic xlink:href="607975560004_gf27.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>Si se consideran las frecuencias acumuladas y se utiliza el polígono de frecuencias para obtener su gráfica, entonces se tendrá la gráfica conocida como ojiva, también llamada polígono de frecuencias acumuladas (nombre más sugestivo) (ver Figura <xref ref-type="fig" rid="gf27">27</xref>). Para acumular el conteo que realiza un histograma o un polígono de frecuencias se utiliza la función cumsum.</p>
+            <p>ggplot() + geom_freqpoly(data = worldbank, aes(x = Forest_area, y = cumsum(..count..)), bins = 10, color = "darkblue") + geom_point(aes(infoHist$data[[1]]$x, cumsum(infoHist$data[[1]]$y)), color = "red") + xlab("Area de bosque") + ylab("Cantidad") + labs(title = "Area acumulada de bosque, 2014", caption = "Fuente: wolrdbank")+ theme(plot.title = element_text(size = 12, face = "bold", hjust = 0.5), plot.caption = element_text(face = "italic",hjust = 0), panel.background = element_rect(fill = "white"), panel.border = element_blank(), legend.position = "none", axis.line = element_line(color = 'darkblue'))</p>
+            <p>
+                <fig id="gf27">
+                    <label>
+                        <bold>Figura 27</bold>
+                    </label>
+                    <caption>
+                        <title>Polígono de frecuencias acumuladas para la variable Forest_area</title>
+                    </caption>
+                    <alt-text>Figura 27 Polígono de frecuencias acumuladas para la variable Forest_area</alt-text>
+                    <graphic xlink:href="607975560004_gf28.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+        </sec>
+    </sec>
+    <sec>
+        <title>
+            <bold>Conclusiones</bold>
+        </title>
+        <p>Actualmente la visualización de datos es una necesidad en muchas áreas, en este sentido el manejo adecuado de un software, por ejemplo R, es indispensable para presentar información estadística.</p>
+        <p>Se considera la necesidad de que este tipo de software sea implementado en cursos de estadística de educación superior, ya que es necesario que el estudiantado desarrolle las habilidades de graficación y otras a través del uso y manipulación del software, siendo el paquete ggplot2 una herramienta muy valiosa, pues permite realizar gráficos de una manera sencilla y con una alta calidad.</p>
+        <p>Además, la formación en el manejo adecuado del lenguaje R le permitirá al estudiantado desenvolverse en diferentes áreas en las cuales deba trabajar con datos estadísticos y visualización de información, por ejemplo, la minería de datos o data mining, la cual está en auge.</p>
+        <p>En este documento presentaron algunos de los gráficos básicos que se estudian en un curso introductorio de estadística descriptiva y algunos de los códigos que ofrece el paquete ggplot2 de R para su representación. El objetivo principal es que lo expuesto en este documento pueda ser utilizado en el estudio de la presentación de información por medio de gráficas, contenido que se estudia en cursos de estadística básica. El fin de esto es que tanto profesores como estudiantes puedan consultar de una manera más sintetizada esta información.</p>
+        <p>Es importante acotar que ggplot2 ofrece gran variedad de códigos, los cuales pueden consultarse en la documentación de este paquete y en diferentes fuentes de internet.</p>
+    </sec>
+</body>
+<back>
+    <ref-list>
+        <title>Referencias</title>
+        <ref id="redalyc_607975560004_ref1">
+            <label>[1]</label>
+            <mixed-citation>[1] Dobrow, R. P. (2016). Introduction to stochastic processes with R. John Wiley &amp; Sons.</mixed-citation>
+            <element-citation publication-type="other">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Dobrow</surname>
+                        <given-names>R. P.</given-names>
+                    </name>
+                </person-group>
+                <source>John Wiley &amp; Sons.</source>
+                <year>2016</year>
+                <series>Introduction to stochastic processes with R.</series>
+            </element-citation>
+        </ref>
+        <ref id="redalyc_607975560004_ref2">
+            <label>[2]</label>
+            <mixed-citation>[2] Kabacoff, R. (2022). R in Action: Data Analysis and Graphics with R and Tidyverse. Simon and Schuster.</mixed-citation>
+            <element-citation publication-type="other">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Kabacoff</surname>
+                        <given-names>R.</given-names>
+                    </name>
+                </person-group>
+                <source>Simon and Schuster</source>
+                <year>2022</year>
+                <series>R in Action: Data Analysis and Graphics with R and Tidyverse</series>
+            </element-citation>
+        </ref>
+        <ref id="redalyc_607975560004_ref3">
+            <label>[3]</label>
+            <mixed-citation>[3] Monahan, J. F. (2011). Numerical methods of statistics. Cambridge University Press.</mixed-citation>
+            <element-citation publication-type="confproc">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Monahan</surname>
+                        <given-names>J. F.</given-names>
+                    </name>
+                </person-group>
+                <source>Cambridge University Press</source>
+                <year>2011</year>
+                <series>Numerical methods of statistics</series>
+            </element-citation>
+        </ref>
+        <ref id="redalyc_607975560004_ref4">
+            <label>[4]</label>
+            <mixed-citation>[4] Sevilla Moróder, J. (2005). Gramática de las gráficas: pistas para mejorar las representaciones de datos. Universidad Pública de Navarra/Nafarroako Unibertsitate Publikoa.</mixed-citation>
+            <element-citation publication-type="other">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Sevilla Moróder</surname>
+                        <given-names>J.</given-names>
+                    </name>
+                </person-group>
+                <source>Universidad Pública de Navarra/Nafarroako Unibertsitate Publikoa</source>
+                <year>2005</year>
+                <series>Gramática de las gráficas: pistas para mejorar las representaciones de datos</series>
+            </element-citation>
+        </ref>
+        <ref id="redalyc_607975560004_ref5">
+            <label>[5] Teutonico, D. (2015). ggplot2 Essentials. Packt Publishing Ltd.</label>
+            <mixed-citation>[5]</mixed-citation>
+            <element-citation publication-type="book">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Teutonico</surname>
+                        <given-names>D.</given-names>
+                    </name>
+                </person-group>
+                <source>Packt Publishing Ltd.</source>
+                <year>2015</year>
+                <series>ggplot2 Essentials</series>
+            </element-citation>
+        </ref>
+        <ref id="redalyc_607975560004_ref6">
+            <label>[6]</label>
+            <mixed-citation>[6] Wickham, H. (2016). Data analysis. ggplot2: elegant graphics for data analysis, 189-201.</mixed-citation>
+            <element-citation publication-type="book">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Wickham</surname>
+                        <given-names>H.</given-names>
+                    </name>
+                </person-group>
+                <source>ggplot2: elegant graphics for data analysis</source>
+                <year>2016</year>
+                <fpage>189</fpage>
+                <lpage>201</lpage>
+                <chapter-title>Data analysis</chapter-title>
+            </element-citation>
+        </ref>
+        <ref id="redalyc_607975560004_ref7">
+            <label>[7]</label>
+            <mixed-citation>[7] Wickham, H., &amp; Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. " O’Reilly Media, Inc."</mixed-citation>
+            <element-citation publication-type="book">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Wickham</surname>
+                        <given-names>H.</given-names>
+                    </name>
+                    <name>
+                        <surname>Grolemund</surname>
+                        <given-names>G.</given-names>
+                    </name>
+                </person-group>
+                <source>O’Reilly Media, Inc.</source>
+                <year>2016</year>
+                <series>R for data science: import, tidy, transform, visualize, and model data</series>
+            </element-citation>
+        </ref>
+        <ref id="redalyc_607975560004_ref8">
+            <label>[8]</label>
+            <mixed-citation>[8] Wilkinson, L. (2012). The grammar of graphics (pp. 375-414). Springer Berlin Heidelberg.</mixed-citation>
+            <element-citation publication-type="book">
+                <person-group person-group-type="author">
+                    <name>
+                        <surname>Wilkinson</surname>
+                        <given-names>L.</given-names>
+                    </name>
+                </person-group>
+                <source>Springer Berlin Heidelberg</source>
+                <year>2012</year>
+                <fpage>375</fpage>
+                <lpage>414</lpage>
+                <series>The grammar of graphics</series>
+            </element-citation>
+        </ref>
+    </ref-list>
+</back>
+</article>

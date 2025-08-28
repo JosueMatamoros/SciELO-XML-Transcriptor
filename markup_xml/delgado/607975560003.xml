@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "https://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<article article-type="editorial" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">redmei</journal-id>
+            <journal-title-group>
+                <journal-title>Revista Digital: Matemática, Educación e Internet</journal-title>
+                <abbrev-journal-title abbrev-type="publisher">Rev. Dig. Mat. Educ. Internet</abbrev-journal-title>
+            </journal-title-group>
+            <issn pub-type="ppub">1659-0643</issn>
+            <publisher>
+                <publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">https://doi.org/10.18845/rdmei.v24i2.6916</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Artículos</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title >Solidos de revolución y TIC en la educación. Evaluación de una propuesta para su enseñanza</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0000-0001-9635-0811</contrib-id>
+                    <name >
+                        <surname>Delgado Navarro</surname>
+                        <given-names>Fabiola</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1"/>
+                    <xref ref-type="fn" rid="fn12">1.</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0000-0001-8715-1925</contrib-id>
+                    <name >
+                        <surname>Cascante Víquez</surname>
+                        <given-names>Luis Diego</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff2"/>
+                    <xref ref-type="fn" rid="fn13">2.</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0000-0001-6608-791X</contrib-id>
+                    <name >
+                        <surname>Ramírez Jiménez</surname>
+                        <given-names>Jeremías</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff3"/>
+                    <xref ref-type="fn" rid="fn15">3.</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0000-0002-3065-8386</contrib-id>
+                    <name>
+                        <surname>Solís Ortega</surname>
+                        <given-names>Rebeca</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff4"/>
+                    <xref ref-type="fn" rid="fn16">4.</xref>
+                </contrib>
+                <contrib contrib-type="author" corresp="no">
+                    <contrib-id contrib-id-type="orcid">0000-0001-6050-5850</contrib-id>
+                    <name >
+                        <surname>Zamora Araya</surname>
+                        <given-names>José Andrey</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff5"/>
+                    <xref ref-type="fn" rid="fn17">5.</xref>
+                </contrib>
+            </contrib-group>
+            <aff id="aff1">
+                <institution content-type="original">Universidad Estatal a Distancia. Heredia, Costa Rica. fdelgado@uned.ac.cr.</institution>
+                <institution content-type="orgname">Universidad Estatal a Distancia</institution>
+                <country country="CR">Costa Rica</country>
+                <email>fdelgado@uned.ac.cr.</email>
+            </aff>
+            <aff id="aff2">
+                <institution content-type="original">Universidad Fidélitas. Heredia, Costa Rica. luis.cascante@ufide.ac.cr</institution>
+                <institution content-type="orgname">Universidad Fidélitas</institution>
+                <country country="CR">Costa Rica</country>
+                <email>luis.cascante@ufide.ac.cr</email>
+            </aff>
+            <aff id="aff3">
+                <institution content-type="original">Universidad Nacional. Heredia, Costa Rica. jeremias.ramirez.jimenez@una.ac.cr</institution>
+                <institution content-type="orgname">Universidad Nacional</institution>
+                <country country="CR">Costa Rica</country>
+                <email>jeremias.ramirez.jimenez@una.ac.cr</email>
+            </aff>
+            <aff id="aff4">
+                <institution content-type="original">Instituto Tecnológico de Costa Rica. Cartago, Costa Rica. rsolis@itcr.ac.cr</institution>
+                <institution content-type="orgname">Instituto Tecnológico de Costa Rica</institution>
+                <country country="CR">Costa Rica</country>
+                <email>rsolis@itcr.ac.cr</email>
+            </aff>
+            <aff id="aff5">
+                <institution content-type="original">Universidad Nacional. Heredia, Costa Rica. jzamo@una.ac.cr</institution>
+                <institution content-type="orgname">Universidad Nacional.</institution>
+                <country country="CR">Costa Rica</country>
+                <email>jzamo@una.ac.cr</email>
+            </aff>
+            <author-notes>
+                <fn id="fn12" fn-type="current-aff">
+                    <label>1.</label>
+                    <p>Fabiola Delgado Navarro. Profesora de la Universidad Estatal a Distancia. Dirección postal: San Pablo, Heredia, Costa Rica. Código postal: 40101. Correo electrónico: fdelgado@uned.ac.cr.</p>
+                </fn>
+                <fn id="fn13" fn-type="current-aff">
+                    <label>2.</label>
+                    <p>Luis Diego Cascante Víquez. Profesor de la Universidad Fidélitas. Dirección postal: Mercedes Norte, Heredia, Costa Rica. Código postal: 40102. Correo: luis.cascante@ufide.ac.cr</p>
+                </fn>
+                <fn id="fn15" fn-type="current-aff">
+                    <label>3.</label>
+                    <p>Jeremías Ramírez Jiménez. Profesor de Matemática de la Universidad Nacional. Dirección postal: San Isidro, Heredia, Costa Rica. Código Postal: 40602. Correo electrónico: jeremias.ramirez.jimenez@una.ac.cr</p>
+                </fn>
+                <fn id="fn16" fn-type="current-aff">
+                    <label>4.</label>
+                    <p>Rebeca Solís Ortega. Profesora de la Escuela de Matemática del Instituto Tecnológico de Costa Rica. Dirección postal: Dulce Nombre, Cartago, Costa Rica. Código postal: 30109. Correo electrónico: rsolis@tec.ac.cr.</p>
+                </fn>
+                <fn id="fn17" fn-type="current-aff">
+                    <label>5.</label>
+                    <p>José Andrey Zamora Araya. Profesor de la Escuela de Matemática de la Universidad Nacional y de la Escuela de Estadística de la Universidad de Costa Rica. Dirección postal Barva de Heredia, Costa Rica. Código postal 86-3000. Correo electrónico jzamo@una.ac.cr</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="collection">
+                <season>Marc/Aug</season>
+                <year>2024</year>
+            </pub-date>
+            <volume>24</volume>
+            <issue>2</issue>
+            <fpage>1</fpage>
+            <lpage>19</lpage>
+            <history>
+                <date date-type="received" publication-format="dd mes yyyy">
+                    <day>30</day>
+                    <month>11</month>
+                    <year>2022</year>
+                </date>
+                <date date-type="accepted" publication-format="dd mes yyyy">
+                    <day>15</day>
+                    <month>08</month>
+                    <year>2023</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-year>2024</copyright-year>
+                <copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+                <ali:free_to_read/>
+                <license license-type="open-access" xml:lang="es" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+                    <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+                    <license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+                </license>
+            </permissions>
+            <abstract>
+                <title>Resumen</title>
+                <p>En este artículo se presenta el diseño y evaluación de una propuesta educativa virtual para el aprendizaje de sólidos de revolución. La propuesta incluyó recursos como videos, prácticas en línea, material de apoyo y un taller para explicar el uso de la plataforma Schoology, GeoGebra y calculadora científica. La efectividad de la propuesta se determinó por medio de un cuasi-experimento cuya variable respuesta fue la puntuación obtenida en el tema de sólidos de revolución. También se aplicó una encuesta a las personas del grupo experimental para conocer su percepción sobre la calidad y pertinencia de la propuesta. Los resultados indican que la propuesta educativa virtual tuvo un efecto positivo tanto en el rendimiento académico, (81.25 puntos en el grupo experimental y 59.4 puntos en el control) como en la percepción del uso de los recursos educativos (90% los recomendaron). En conclusión, el uso de TIC mejoró el rendimiento académico y generó percepciones positivas entre el estudiantado, promoviendo de esta manera un mayor aprendizaje de los contenidos, el cual también puede combinar la enseñanza presencial con el uso de recursos educativos abiertos disponibles en línea.</p>
+            </abstract>
+            <trans-abstract xml:lang="en">
+                <title>Abstract</title>
+                <p>This paper presents the design and assessment of a virtual educational proposal for learning solids of revolution. The proposal included resources such as videos, online practices, support material, and a workshop to explain the use of the Schoology platform, GeoGebra, and a scientific calculator. The effectiveness of the proposal was determined by a quasi-experiment whose response variable was the score obtained in the topic of solids of revolution. A survey was also applied to students in the experimental group to find out their perception of the quality and relevance of the proposal. The results indicate that the virtual educational proposal had a positive effect both on academic performance (81.25 points experimental group and 59.4 points control group) and on the perception of the use of educational resources (90% recommended them). In conclusion, the use of ICT improved academic performance and generated positive perceptions among the student body, thus promoting greater learning of the contents, which can also combine face-to-face teaching with the use of open educational resources available online. <bold>Keywords:</bold> educational research, information and communication technologies, distance education, mathematics.</p>
+            </trans-abstract>
+            <kwd-group xml:lang="es">
+                <title>Palabras clave</title>
+                <kwd>investigación educativa</kwd>
+                <kwd>tecnologías de la información y de la comunicación</kwd>
+                <kwd>enseñanza a distancia</kwd>
+                <kwd>matemática</kwd>
+            </kwd-group>
+            <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>educational research</kwd>
+                <kwd>information and communication technologies</kwd>
+                <kwd>distance education</kwd>
+                <kwd>mathematics</kwd>
+            </kwd-group>
+            <counts>
+                <fig-count count="4"/>
+                <table-count count="5"/>
+                <equation-count count="0"/>
+                <ref-count count="23"/>
+            </counts>
+        </article-meta>
+    </front>
+    <body>
+        <sec>
+            <title>
+                <bold>Introducción</bold>
+            </title>
+            <p>Desde principios del siglo XX, las Tecnologías de la Información y la Comunicación (TIC) han experimentado un constante desarrollo. Aunque las primeras tecnologías que se pueden considerar precursoras de las TIC surgieron a finales del siglo XIX, como la radio y la máquina de escribir, fue a lo largo del siglo XX cuando se produjo un gran avance en esta área (Vidal Puga, 2006). Es hasta en la década de los 80 cuando se comienzan a realizar más investigaciones sobre su uso en la educación (Vidal Puga, 2006).</p>
+            <p>A medida que el uso de las TIC en ambientes de clases se popularizaba, más docentes, investigadores y estudiantes las adoptaban de forma paulatina en sus procesos de enseñanza y aprendizaje. Sin embargo, según Corral y Corral (2020), la pandemia ocasionada por el COVID-19 aceleró de manera significativa este proceso de adopción.</p>
+            <p>Cuando las TIC son incorporadas al salón de clases de manera consciente y planificada, pueden generar beneficios educativos significativos. Según Grisales-Aguirre (2018), algunos de estos beneficios están relacionados con la motivación y con el fomento de un rol más activo del estudiante. Esto se logra, según el autor, gracias a que algunas de estas herramientas permiten experimentar los conceptos a través de simulaciones e instrumentos interactivos. En esta misma línea, Das (2019), afirma que el uso de las TIC fomenta el trabajo colaborativo y el desarrollo del pensamiento crítico y científico, tanto del estudiantado como del cuerpo docente.</p>
+            <p>A pesar de la evidencia que sugiere que las TIC pueden traer beneficios en el proceso de enseñanza y aprendizaje, es importante tener en cuenta que no deben ser consideradas como un sustituto de la labor de las personas profesionales de la educación. Por esta razón, su aplicación debe ser cuidadosamente planificada por el cuerpo docente. Diversos autores como Corral y Corral (2020) y Díaz et al. (2021) han señalado que la improvisación o el uso forzado de las TIC pueden impedir que el proceso de enseñanza y aprendizaje sea óptimo, y que la interacción entre docentes y estudiantes se vea afectada negativamente.</p>
+            <p>Por esta razón, al utilizar las TIC en la práctica docente, es fundamental realizar un planeamiento didáctico adecuado que garantice su integración de forma fluida y natural. Asimismo, tras su implementación, es esencial realizar un análisis para evaluar si su uso ha resultado beneficioso o no en la práctica educativa, esto con el fin de identificar oportunidades de mejora y optimizar el proceso.</p>
+            <p>Siguiendo esta consigna, y de acuerdo con lo planteado por Grisales (2018), quien indica la necesidad de realizar investigaciones sobre el impacto de las TIC en la educación superior, ya que hasta el momento la mayoría de estas se han enfocado en los grados de primaria y secundaria, se ha creado una propuesta educativa virtual que involucra el uso de las TIC para la enseñanza del tema de sólidos de revolución.</p>
+            <p>El tema de sólidos de revolución es parte del programa del curso MAT003 Cálculo II de la Universidad Nacional de Costa Rica, el cual se imparte a estudiantes de diversas carreras universitarias, como lo son Ingeniería en Química Industrial y Economía.</p>
+            <p>El uso de herramientas computacionales para el cálculo de integrales que representan volúmenes y la representación gráfica de regiones en el plano cartesiano puede ser muy útil para ayudar a los estudiantes a comprender y aplicar los conceptos de sólidos de revolución. Estas herramientas pueden facilitar la visualización de los sólidos de revolución y permitir a los estudiantes explorar diferentes ejemplos y casos.</p>
+            <p>La propuesta educativa se basó en el uso de recursos educativos abiertos (REA) que incluyeron videos, prácticas en línea y ejercicios resueltos. Estos materiales se organizaron en la plataforma Schoology, debido a que es un sistema de gestión de aprendizaje gratuito cuando el número de estudiantes es reducido.</p>
+            <p>Asimismo, dado que las personas participantes debían inscribirse para su uso, esto permitía controlar quién ingresaba a la plataforma, de tal forma que solo el estudiantado del grupo experimental tuviera acceso a los videos y materiales didácticos, garantizando así la privacidad y seguridad de los recursos utilizados. Además, la plataforma Schoology cuenta con herramientas de seguimiento y análisis que permitieron al equipo docente evaluar el progreso y desempeño de los estudiantes de manera más eficiente.</p>
+            <p>Además de estos materiales, se planeó un taller en donde se le explicaba al estudiantado como se pueden utilizar los programas matemáticos GeoGebra y Symbolab para la modelación y análisis de diversas características de los sólidos de revolución.</p>
+            <p>Con el fin de evaluar la pertinencia y efectividad de la propuesta, se llevó a cabo una investigación cuantitativa cuyo diseño fue de tipo cuasi experimental de grupos equivalentes en la que se compararon las calificaciones obtenidas por el estudiantado en el segundo examen parcial del curso MAT003, tanto en un grupo experimental como en uno de control. La equivalencia de los grupos en cuanto a rendimiento en matemática se determinó utilizando como base una comparación con las notas finales del curso Cálculo I MAT002, que es el requisito del curso MAT003; dicha comparación no arrojó diferencias significativas entre los grupos. Así, la hipótesis planteada fue que las personas estudiantes que trabajaron con la propuesta educativa virtual tendrían calificaciones más altas o superiores en los ejercicios de sólidos de revolución del primer examen parcial del curso MAT003 en comparación con los que no utilizaron dicha propuesta.</p>
+            <p>Es importante mencionar que esta propuesta fue desarrollada y evaluada durante un período en el que las clases se estaban llevando a cabo de manera remota debido a la suspensión de actividades presenciales a raíz de la emergencia sanitaria causada por el virus de la COVID-19. Además, ambos grupos realizaron la misma prueba bajo las mismas condiciones, pues las evaluaciones se realizaron en cátedra.</p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Uso de las TIC en la educación</bold>
+            </title>
+            <p>Las Tecnologías de la Información y la Comunicación se entienden “como el conjunto de tecnologías que permiten la adquisición, producción, almacenamiento, tratamiento, comunicación, registro y presentación de informaciones, en forma de voz, imágenes y datos contenidos en señales de naturaleza acústica, óptica o electromagnética” (Anzola, 2014, p.74). Estas tecnologías incluyen dispositivos electrónicos, software, aplicaciones, contenido multimedia y más, y se han convertido en una herramienta fundamental en ámbitos tanto académicos como industriales.</p>
+            <p>Por otro lado, de acuerdo con Butcher et al. (2015), los recursos educativos abiertos son aquellos materiales como mapas, libros, videos, aplicaciones multimedia, podcasts y cualquier otro contenido que haya sido diseñado para la enseñanza y el aprendizaje que “esté plenamente disponible para ser usado por educadores y estudiantes, sin que haya necesidad de pagar regalías o derechos de licencia” (p. 5).</p>
+            <p>En el ámbito educativo, los REA y las TIC están estrechamente relacionados, pues las TIC proporcionan herramientas y plataformas para la creación, distribución y uso de los REA, mientras que estos últimos pueden ayudar a integrar las TIC en la enseñanza y el aprendizaje, permitiendo a los estudiantes interactuar con los contenidos de manera más activa y autónoma. Por este motivo, se puede decir que los REA y las TIC son elementos complementarios. Los videos educativos, aplicaciones realizadas con software matemático y el uso de sistemas de gestión de aprendizaje, son ejemplos concretos de cómo los REA y las TIC se complementan entre sí en el ámbito educativo. A continuación, se describirán con más detalle estos tres elementos y su papel en la educación actual.</p>
+            <sec>
+                <title>
+                    <bold>Uso de videos como recursos educativos abiertos</bold>
+                </title>
+                <p>Los videos con fines educativos pueden ser considerados un tipo de REA. Cuando esto pasa, tal y como menciona Rodríguez et al. (2017), se les conoce como videos didácticos. Dichos autores consideran este material muy complejo pues debe “incluir audio, texto e imágenes combinadas en secuencias para transmitir un mensaje informativo” (p. 94). Es importante destacar, que se debe recurrir al uso de las TIC para poder diseñar, crear, editar y publicar este tipo de recursos.</p>
+                <p>Cuando los videos son desarrollados y aplicados adecuadamente en entornos educativos, pueden ofrecer varias ventajas. Por ejemplo, según la investigación de Rodríguez et al. (2017), los videos favorecen una mejor comprensión de los conceptos. Asimismo, Solana et al. (2017) señalan que los videos permiten a los estudiantes detener, analizar y repetir el contenido tantas veces como sea necesario, lo que les permite avanzar a su propio ritmo en los temas tratados. Además, Garcia-Pineda et al. (2020) sostienen que los videos didácticos interactivos permiten mantener la atención de la persona estudiante por “mucho más tiempo y hacen el aprendizaje más activo, ya que en cualquier momento se puede mostrar una pregunta acerca de lo visualizado” (p. 354)</p>
+                <p>Sin embargo, si los videos desarrollados o aplicados en grupos de estudiantes no cumplen con criterios de calidad o no siguen pautas definidas, es posible que no mejoren el proceso de enseñanza y aprendizaje. Es por esta razón que diversos autores, como Guo et al. (2014), Kizilcec et al. (2014), Brame (2016) y Solana et al. (2017), han definido pautas y lineamientos que deben seguir los videos para ser considerados adecuados para su uso en ambientes educativos. A continuación, se presenta un resumen de los principales consejos indicados por dichos autores:</p>
+                <p>
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>Se debe buscar que los videos sean cortos y concisos, por lo que se recomienda que tengan una duración promedio de seis y siete minutos.</p>
+                        </list-item>
+                        <list-item>
+                            <p>Los videos que usan el estilo de “busto parlante” (en donde se visualiza la persona docente por encima de la cintura y hablando directamente a la cámara) tienden a atraer más la atención de los estudiantes.</p>
+                        </list-item>
+                        <list-item>
+                            <p>Utilizar un lenguaje sencillo, donde la persona instructora se  exprese con naturalidad y soltura.</p>
+                        </list-item>
+                        <list-item>
+                            <p>Utilizar materiales de apoyo como presentaciones, pizarras virtuales, animaciones u otros elementos que permitan captar la atención del estudiantado.</p>
+                        </list-item>
+                        <list-item>
+                            <p>Usar algún tipo de señalización para resaltar información importante.</p>
+                        </list-item>
+                        <list-item>
+                            <p>En caso de ser posible, utilizar alguna herramienta que permita realizar preguntas durante el video. De esta forma, se atrae mas la atención del alumnado.</p>
+                        </list-item>
+                    </list>
+                </p>
+            </sec>
+            <sec>
+                <title>
+                    <bold>Papel del Software Matemático en la enseñanza</bold>
+                </title>
+                <p>Maldonado Zuñiga et al. (2020) definen el software educativo como una herramienta capaz de sistematizar los contenidos impartidos en las diferentes asignaturas. Señalan que cuando se utiliza de manera adecuada, esta herramienta puede facilitar una atención diferenciada a cada estudiante, propiciar la interactividad y permitir una retroalimentación rápida que hace que las clases sean amenas y motivadoras.</p>
+                <p>En el caso específico de las matemáticas, Ruiz et al. (2016) señalan que el software matemático desempeña un papel fundamental como herramienta tecnológica, ya que permite la realización de cálculos y simulaciones matemáticas, lo que facilita la comprensión y visualización de temas por parte del estudiantado. Existen varios tipos de software matemático, tal como señala Fahlgren et al. (2021), entre ellos se encuentran: sistemas algebraicos computacionales (CAS por sus siglas en inglés), programas de geometría o matemática dinámica, paquetes de estadística, software de análisis numérico, entre otros. Algunos ejemplos de estos tipos de software son Matlab, R, Octave, Mathematica, Symbolab, Geogebra, Desmos, entre otros.</p>
+                <p>Cada uno de estos programas tiene diferentes funcionalidades y aplicaciones. Para efectos de esta investigación, se utilizaron dos aplicaciones gratuitas: Symbolab para el manejo de problemas algebraicos, y Geogebra para la visualización interactiva de los contenidos elegidos. A continuación, se explica un poco de ellos.</p>
+                <p>Symbolab es una aplicación disponible tanto en navegadores web como en aplicación para dispositivos móviles, fue desarrollada por la compañía EqsQuest Ltd. y publicada en el 2011. Barán et al. (2014) menciona que funciona “como un buscador semántico de fórmulas matemáticas, es decir, entiende el significado de los símbolos introducidos en la consulta” (p. 3). Agustín et al. (2023) indican que esta herramienta puede ser utilizada para resolver problemas de álgebra, cálculo, trigonometría, estadística, matrices y otros más. Además, señalan que el programa es muy intuitivo de utilizar y proporciona una respuesta paso a paso, lo que resulta muy útil para el aprendizaje de las personas.</p>
+                <p>Symbolab ha sido utilizado en varias investigaciones para medir como su uso, debidamente planeado, puede ayudar a mejorar los procesos de enseñanza y aprendizaje. Ejemplo de esto es la investigación realizada por Agustín et al. (2023) en donde se notó una diferencia en el aumento de la capacidad de razonamiento matemático entre los estudiantes que utilizaron Symbolab versus los que no, en actividades de matemática de primer nivel universitario. Por otro lado, Barán et al. (2014) encontraron que el uso adecuado del Symbolab, en el tema de series numéricas, no sólo facilita la comprensión por parte del estudiantado, sino que también favorece el desarrollo de las competencias matemáticas.</p>
+                <p>Por otro lado, Geogebra, tal y como lo mencionan Ziatdinov y Valles (2022), es una aplicación interactiva que permite trabajar temas de diferentes áreas de la matemática como lo son la geometría, el álgebra, la estadística y el cálculo. Posee una interfaz dinámica que permite a las personas visualizar de manera precisa e interactiva su trabajo, modelos y resultados.</p>
+                <p>El uso de Geogebra en la educación ha sido ampliamente estudiado. Por ejemplo, Uwurukundo et al. (2021) realizaron una revisión sistemática de 23 investigaciones sobre el uso de Geogebra en Geometría. Los autores encontraron que en las investigaciones analizadas hubo un efecto positivo en las actitudes de los estudiantes hacia la geometría en términos de interés, compromiso y aprendizaje activo, autoeficacia y autorregulación, y actitudes positivas mejoradas. Además, como dato a considerar, más de la mitad de las investigaciones emplearon un diseño de investigación cuasi-experimental.</p>
+                <p>De manera similar, Muñante-Toledo et al. (2021) realizaron una revisión sistemática para analizar los efectos del uso de Geogebra en las habilidades matemáticas de los estudiantes. Los autores analizaron 17 investigaciones y entre los principales hallazgos se encontró que Geogebra facilita el incremento de las competencias matemáticas de los estudiantes durante su aprendizaje. Esto se debe a que el programa facilita la manipulación y visualización de los contenidos, permitiendo al estudiantado enfocarse en los procedimientos para modelar un problema e interpretar sus soluciones desarrollando su pensamiento crítico.</p>
+                <p>En el contexto de Costa Rica, Ramírez-Santamaría (2020) llevó a cabo un estudio utilizando GeoGebra en 2D y 3D como recurso didáctico para abordar temas relacionados con integración múltiple. Los hallazgos principales revelaron que el uso de GeoGebra tuvo un impacto positivo en la motivación y comprensión de los estudiantes en relación con estos temas.</p>
+                <p>De manera similar, Poveda Fernández y García-Cuéllar (2021) realizaron un análisis para investigar cómo el uso constante de GeoGebra, en el contexto de la resolución de problemas, influyó en un grupo de educadores matemáticos en formación. Los resultados resaltaron que este software se convirtió en una herramienta clave que fomentó nuevas formas de razonamiento a través de la exploración dinámica. Las estrategias de solución empleadas permitieron a los participantes visualizar patrones, formular y validar conjeturas, transitando desde el uso de argumentos visuales o empíricos hasta la construcción de modelos algebraicos o geométricos que establecían conexiones entre conceptos de probabilidad, geometría euclidiana y trigonometría.</p>
+            </sec>
+            <sec>
+                <title>
+                    <bold>Sistemas de Gestión de Aprendizaje como medios para publicar REA</bold>
+                </title>
+                <p>Los sistemas de gestión de aprendizajes (SGA) proporcionan a profesores y estudiantes un ambiente de clase virtual que refuerza los procesos de aprendizaje (Bradley, 2021). Existen muchos SGA disponibles en el mercado, sin embargo, tal y como mencionan Salah y Thabet (2021), no existe uno que sea óptimo y que ofrezca un “paquete todo en uno”, así que cada docente debe analizar los sistemas disponibles y elegir aquel que se adapte a sus necesidades.</p>
+                <p>Particularmente, un SGA que se ha destacado en los últimos años es Schoology. Este sistema es gratuito. Además, tal y como lo menciona Briones et al. (2021), brinda una interfaz amigable con el usuario, la cual tiene diversas herramientas para organizar el contenido de los cursos, realizar evaluaciones en línea, dar retroalimentación a los estudiantes, almacenar contenidos interactivos, entre otras opciones.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>
+                <bold>Contexto del estudio </bold>
+            </title>
+            <p>Existen diversas situaciones que motivan la elaboración e implementación de nuevas propuestas para la Enseñanza de la Matemática, y en este caso particular, para la enseñanza del Cálculo a nivel universitario. No obstante, las dos razones primordiales que sirven de fundamento para esta investigación han sido el rendimiento académico y la motivación del estudiantado.</p>
+            <p>En este caso, se entiende rendimiento académico como la calificación obtenida por cada estudiante en el curso. En la tabla <xref ref-type="table" rid="gt1">1</xref>, se presenta el rendimiento académico de los estudiantes matriculados desde el II Ciclo 2016 hasta el I Ciclo 2020 en el curso MAT003 Cálculo II de la Universidad Nacional de Costa Rica.</p>
+            <p>
+                <table-wrap id="gt1">
+                    <label>Tabla 1:</label>
+                    <caption>
+                        <title>Resultados académicos de los estudiantes matriculados entre II Ciclo 2016 y I Ciclo 2020 en el curso MAT003 Calculo II.</title>
+                    </caption>
+                    <alt-text>Tabla 1: Resultados académicos de los estudiantes matriculados entre II Ciclo 2016 y I Ciclo 2020 en el curso MAT003 Calculo II.</alt-text>
+                    <alternatives>
+                        <graphic xlink:href="607975560003_gt2.png" position="anchor" orientation="portrait"/>
+                        <table id="gt2-526564616c7963">
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;">II 2016</td>
+                                    <td style="text-align: center;">112</td>
+                                    <td style="text-align: center;">13</td>
+                                    <td style="text-align: center;">11,61</td>
+                                    <td style="text-align: center;">67</td>
+                                    <td style="text-align: center;">59,82</td>
+                                    <td style="text-align: center;">32</td>
+                                    <td style="text-align: center;">28,57</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">I 2017</td>
+                                    <td style="text-align: center;">149</td>
+                                    <td style="text-align: center;">20</td>
+                                    <td style="text-align: center;">13,42</td>
+                                    <td style="text-align: center;">75</td>
+                                    <td style="text-align: center;">50,34</td>
+                                    <td style="text-align: center;">54</td>
+                                    <td style="text-align: center;">36,24</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">II 2017</td>
+                                    <td style="text-align: center;">126</td>
+                                    <td style="text-align: center;">11</td>
+                                    <td style="text-align: center;">8,73</td>
+                                    <td style="text-align: center;">56</td>
+                                    <td style="text-align: center;">44,44</td>
+                                    <td style="text-align: center;">59</td>
+                                    <td style="text-align: center;">46,83</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">I 2018</td>
+                                    <td style="text-align: center;">158</td>
+                                    <td style="text-align: center;">13</td>
+                                    <td style="text-align: center;">8,23</td>
+                                    <td style="text-align: center;">86</td>
+                                    <td style="text-align: center;">54,43</td>
+                                    <td style="text-align: center;">59</td>
+                                    <td style="text-align: center;">37,34</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">II 2018</td>
+                                    <td style="text-align: center;">133</td>
+                                    <td style="text-align: center;">53</td>
+                                    <td style="text-align: center;">39,85</td>
+                                    <td style="text-align: center;">33</td>
+                                    <td style="text-align: center;">24,81</td>
+                                    <td style="text-align: center;">47</td>
+                                    <td style="text-align: center;">35,34</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">I 2019</td>
+                                    <td style="text-align: center;">223</td>
+                                    <td style="text-align: center;">62</td>
+                                    <td style="text-align: center;">27,80</td>
+                                    <td style="text-align: center;">49</td>
+                                    <td style="text-align: center;">21,98</td>
+                                    <td style="text-align: center;">112</td>
+                                    <td style="text-align: center;">50,22</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">II 2019</td>
+                                    <td style="text-align: center;">137</td>
+                                    <td style="text-align: center;">28</td>
+                                    <td style="text-align: center;">20,44</td>
+                                    <td style="text-align: center;">51</td>
+                                    <td style="text-align: center;">37,23</td>
+                                    <td style="text-align: center;">58</td>
+                                    <td style="text-align: center;">42,33</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">I 2020</td>
+                                    <td style="text-align: center;">141</td>
+                                    <td style="text-align: center;">3</td>
+                                    <td style="text-align: center;">2,13</td>
+                                    <td style="text-align: center;">14</td>
+                                    <td style="text-align: center;">9,93</td>
+                                    <td style="text-align: center;">124</td>
+                                    <td style="text-align: center;">87,94</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </alternatives>
+                    <attrib>Elaboración propia</attrib>
+                </table-wrap>
+            </p>
+            <p>De acuerdo con los datos de la tabla <xref ref-type="table" rid="gt1">1</xref> se puede notar un bajo rendimiento de los estudiantes, pues hay una aprobación menor al 50% en la mayoría de los ciclos. Adicionalmente, en promedio, un 54,40% de estudiantes no aprobó el curso (desertores y reprobados). Se considera desertor a aquella persona que al finalizar el curso obtiene un promedio de 2 o menos en una escala de 0 a 10. No obstante, para efectos de esta investigación y dado que la nota final del curso se basaba principalmente en tres exámenes, se consideran desertores aquellos estudiantes que se matricularon en el curso, pero no realizaron alguna de las evaluaciones.</p>
+            <p>Por esta razón, se decidió diseñar, desarrollar y aplicar una propuesta educativa virtual que integre el uso de las TIC en este curso, con el objetivo de analizar si su implementación permite mejorar tanto el rendimiento como el interés de los estudiantes matriculados, en particular en el contenido sobre sólidos de revolución. Este tema se seleccionó por su relevancia y porque es el primero que se aborda en el curso, lo que reduce la tasa de deserción en esta etapa.</p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Método</bold>
+            </title>
+            <p>En esta investigación se utilizó una metodología cuasi experimental de tipo cuantitativo para explorar el impacto de la propuesta educativa tanto en las calificaciones como en la actitud estudiantil en el contenido de sólidos de revolución del curso MAT003 Cálculo II de la Universidad Nacional de Costa Rica.</p>
+            <p>La metodología cuasi experimental fue seleccionada debido a que, a diferencia de un experimento verdaderamente aleatorizado, no fue posible asignar aleatoriamente al estudiantado al grupo de control y experimental. Esto se debió a que los y las estudiantes tenían la libertad de matricularse con cualquier profesor y en cualquier horario, lo que dificultaba la creación de grupos homogéneos. No obstante, se seleccionó aleatoriamente uno de ellos para ser el grupo control y el otro el experimental y las lecciones de ambos grupos fueron impartidas por el mismo docente usando una misma metodología de trabajo, pero el grupo experimental tuvo acceso a la propuesta educativa virtual. Además, como se comentó anteriormente, los grupos se pueden considerar equivalentes en cuanto a rendimiento académico, pues sus notas en el curso que es requisito (cálculo I) no son significativamente diferentes.</p>
+            <p>De esta manera, se pudo comparar el rendimiento académico de las personas que tuvieron acceso en la propuesta con el de aquellos que no la recibieron. La metodología cuasi-experimental permitió controlar algunas variables que podrían afectar los resultados, aunque se reconoce que no es tan rigurosa como un experimento verdaderamente aleatorizado. Por ello, se utilizó un diseño cuantitativo (cuasi-experimento) dado que se buscaba recopilar datos numéricos y estadísticos sobre las calificaciones obtenidas por el estudiantado luego de la aplicación de la propuesta.</p>
+            <p>De acuerdo con la metodología y el paradigma escogidos, y teniendo en cuenta que el tema se evaluaba en el segundo examen parcial del curso, se crearon criterios de inclusión y exclusión, con el fin de establecer una muestra homogénea de participantes que cumplan con ciertas características. Estos criterios fueron:</p>
+            <p>
+                <list list-type="bullet">
+                    <list-item>
+                        <p>Criterios de exclusión: no se tomaron en cuenta estudiantes que habían realizado la prueba de reposición del segundo examen parcial. Además, se excluyeron los estudiantes que retiraron o  abandonaron el curso antes de realizar el segundo examen parcial</p>
+                    </list-item>
+                    <list-item>
+                        <p>Criterios de inclusión: se incluyeron en la muestra los estudiantes que habían realizado el segundo examen parcial ordinario del curso y que también habían participado en la propuesta educativa virtual, sin importar si habían asistido o no a clases o si habían participado o no del taller introductorio a la propuesta. Esto se debe a que los estudiantes podían ver las grabaciones de estas en un horario fuera de clases.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Establecer estos criterios permitió obtener una muestra más homogénea de participantes y reducir el impacto de otros factores externos en los resultados de la investigación.</p>
+        </sec>
+        <sec>
+            <title>
+                <bold>Propuesta educativa</bold>
+            </title>
+            <p>En esta sección, se describe la propuesta educativa virtual diseñada para mejorar el aprendizaje del tema de sólidos de revolución, y se explica cómo se aplicó en un contexto de enseñanza remota durante la emergencia sanitaria ocasionada por el virus de la COVID-19. La descripción se divide en dos partes: en primer lugar, se presentará la propuesta educativa en sí misma, que se enfoca en la integración de diferentes REA especialmente diseñados para este tema. En segundo lugar, se detallará cómo se implementó la propuesta en el segundo ciclo de 2020, incluyendo los criterios de inclusión y exclusión utilizados para seleccionar a las personas estudiantes participantes.</p>
+            <sec>
+                <title>
+                    <bold>Descripción de la propuesta</bold>
+                </title>
+                <p>La propuesta educativa virtual diseñada en este estudio se compuso de un conjunto de REA, tales como videos, prácticas en línea y material didáctico, que se utilizaron para enseñar a los estudiantes el cálculo de volúmenes de sólidos de revolución. Adicionalmente, se realizó un taller en el que se le enseñó al estudiantado la utilización de herramientas tecnológicas, como Symbolab, Geogebra y la calculadora científica, para la resolución de problemas asociados a este tema. Un resumen de los componentes de esta propuesta puede observarse en la figura <xref ref-type="fig" rid="gf1">1</xref>.
+                </p>
+                <p>
+                    <fig id="gf1">
+                        <label>
+                            <bold>Figura 1:</bold>
+                        </label>
+                        <caption>
+                            <title>Resumen de la propuesta educativa virtual</title>
+                        </caption>
+                        <alt-text>Figura 1: Resumen de la propuesta educativa virtual</alt-text>
+                        <graphic xlink:href="607975560003_gf7.png" position="anchor" orientation="portrait"/>
+                        <attrib>Elaboración propia</attrib>
+                    </fig>
+                </p>
+                <p>El taller impartido tuvo como objetivo proporcionar al estudiantado herramientas tecnológicas para la resolución de problemas asociados al cálculo de volúmenes de sólidos de revolución. Se enfatiza que, aunque el uso de software como Symbolab, Geogebra y la calculadora científica agilizan los cálculos, la resolución de los problemas requería la comprensión de las técnicas propias del tema por parte de cada estudiante.</p>
+                <p>Por otro lado, se realizaron once videos sobre la resolución de ejercicios enfocados en el cálculo de volúmenes de sólidos de revolución. Estos videos fueron divididos en tres grupos: cuatro para el método de discos, tres para el método de arandelas y cuatro para el método de capas, permitiendo a los y las estudiantes practicar y consolidar su conocimiento en cada uno de los métodos.</p>
+                <p>Los investigadores elaboraron y editaron todos los videos para el estudiantado mediante el uso del software Camtasia 2018. Cada video incluyó un guión como presentación, imágenes gráficas creadas en GeoGebra, audio y notas. Siguiendo las recomendaciones anteriormente citadas sobre la realización de videos, se agregó la imagen del presentador explicando el ejercicio en la parte inferior derecha de cada uno, lo que contribuyó a mejorar la claridad y comprensión de los videos. La duración promedio de cada video fue de seis minutos, y se resolvieron ejercicios de diferentes niveles de dificultad relacionados con el tema.</p>
+                <p>Con relación a las prácticas en línea, se diseñó una serie de preguntas enfocadas en el tema elegido, las cuales se alojaron en la plataforma educativa Schoology. Estas preguntas fueron de selección única y contaban con un tiempo límite para su respuesta. Además, se ofreció a los estudiantes la oportunidad de realizar estas prácticas varias veces para que pudieran reforzar sus conocimientos en el tema. Se crearon un total de cinco prácticas, cada una con cuatro o cinco ejercicios, incluyendo preguntas que solicitaban datos específicos para resolver un problema particular, como la intersección de curvas, radios de los sólidos o el volumen del sólido de revolución.</p>
+                <p>Finalmente, como parte del proyecto, se elaboraron y diseñaron tres materiales didácticos adicionales a los proporcionados por la cátedra del curso. Estos materiales fueron creados con el objetivo de proporcionar a los estudiantes recursos para el aprendizaje del tema de sólidos de revolución. Los materiales incluyeron soluciones detalladas de los 11 ejercicios presentados en los videos educativos. Estos ejercicios abarcaron varios métodos de cálculo, como el método de discos, el método de arandelas y el método de capas. Además, se incluyeron las soluciones de los ejercicios propuestos en la práctica en línea y los planteados durante el taller presencial. Cada ejercicio se abordó paso a paso, explicando los conceptos clave y las estrategias necesarias para resolverlos de manera efectiva.</p>
+                <p>Con el fin de organizar los distintos recursos, se empleó la plataforma Schoology (véase figura <xref ref-type="fig" rid="gf2">2</xref>), donde se dispusieron las actividades correspondientes (las cuales comprendían tres semanas del curso).</p>
+                <p>
+                    <fig id="gf2">
+                        <label>
+                            <bold>Figura 2:</bold>
+                        </label>
+                        <caption>
+                            <title>Organización de los REA en la plataforma Schoology</title>
+                        </caption>
+                        <alt-text>Figura 2: Organización de los REA en la plataforma Schoology</alt-text>
+                        <graphic xlink:href="607975560003_gf3.png" position="anchor" orientation="portrait"/>
+                        <attrib>Elaboración propia</attrib>
+                    </fig>
+                </p>
+            </sec>
+            <sec>
+                <title>
+                    <bold>Aplicación de la propuesta</bold>
+                </title>
+                <p>La propuesta educativa virtual se implementó durante el II ciclo del año 2020. Tanto el grupo control como el experimental estaban inicialmente conformados por 32 estudiantes cada uno. Sin embargo, después de aplicar los criterios de inclusión y exclusión, se obtuvo que para el grupo experimental se tomaron en cuenta los datos de 20 personas, mientras que para el grupo control se consideraron 30 personas. La disminución del grupo experimental se debió a que seis estudiantes no realizaron el cuestionario de análisis final, por lo que se desconoce si hicieron uso de la propuesta. Además, dos estudiantes que realizaron dicho cuestionario no hicieron uso de la plataforma. Si bien se pretendía contar con un número equitativo de participantes en cada grupo, la disparidad en la cantidad de personas fue inevitable debido a factores externos fuera del control del grupo investigador.</p>
+                <p>Antes de aplicar la propuesta educativa, se envió un formulario tanto al grupo experimental como al de control, con el objetivo de verificar que ambos grupos tuvieran características similares y así disminuir la posibilidad de que las diferencias entre ellos se debieran a otros factores. En la tabla <xref ref-type="table" rid="gt2">2</xref> se pueden ver las variables que se analizaron y los resultados obtenidos.</p>
+                <p>
+                    <table-wrap id="gt2">
+                        <label>Tabla 2:</label>
+                        <caption>
+                            <title>Características de las personas estudiantes que participaron en el estudio</title>
+                        </caption>
+                        <alt-text>Tabla 2: Características de las personas estudiantes que participaron en el estudio</alt-text>
+                        <alternatives>
+                            <graphic xlink:href="607975560003_gt3.png" position="anchor" orientation="portrait"/>
+                            <table id="gt3-526564616c7963">
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align: left;">
+                                            <italic>Sexo</italic>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <italic>Grupo experimental</italic>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <italic>%</italic>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <italic>Grupo Control</italic>
+                                        </td>
+                                        <td style="text-align: center;">
+                                            <italic>%</italic>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Mujer</td>
+                                        <td style="text-align: center;">13</td>
+                                        <td style="text-align: center;">46,4</td>
+                                        <td style="text-align: center;">13</td>
+                                        <td style="text-align: center;">54,2</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Hombre</td>
+                                        <td style="text-align: center;">15</td>
+                                        <td style="text-align: center;">53,6</td>
+                                        <td style="text-align: center;">11</td>
+                                        <td style="text-align: center;">45,8</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">
+                                            <italic>¿Posee beca?</italic>
+                                        </td>
+                                        <td style="text-align: center;"/>
+                                        <td style="text-align: center;"/>
+                                        <td style="text-align: center;"/>
+                                        <td style="text-align: center;"/>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Sí posee</td>
+                                        <td style="text-align: center;">9</td>
+                                        <td style="text-align: center;">32,1</td>
+                                        <td style="text-align: center;">10</td>
+                                        <td style="text-align: center;">41,7</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">No posee</td>
+                                        <td style="text-align: center;">19</td>
+                                        <td style="text-align: center;">67,9</td>
+                                        <td style="text-align: center;">14</td>
+                                        <td style="text-align: center;">58,3</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">
+                                            <italic>¿Está repitiendo el curso?</italic>
+                                        </td>
+                                        <td style="text-align: center;"/>
+                                        <td style="text-align: center;"/>
+                                        <td style="text-align: center;"/>
+                                        <td style="text-align: center;"/>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Sí</td>
+                                        <td style="text-align: center;">19</td>
+                                        <td style="text-align: center;">67,9</td>
+                                        <td style="text-align: center;">11</td>
+                                        <td style="text-align: center;">45,8</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">No</td>
+                                        <td style="text-align: center;">9</td>
+                                        <td style="text-align: center;">32,1</td>
+                                        <td style="text-align: center;">13</td>
+                                        <td style="text-align: center;">54,2</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">
+                                            <italic>¿Está trabajando?</italic>
+                                        </td>
+                                        <td style="text-align: center;"/>
+                                        <td style="text-align: center;"/>
+                                        <td style="text-align: center;"/>
+                                        <td style="text-align: center;"/>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Sí</td>
+                                        <td style="text-align: center;">0</td>
+                                        <td style="text-align: center;">0</td>
+                                        <td style="text-align: center;">7</td>
+                                        <td style="text-align: center;">29,2</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">No</td>
+                                        <td style="text-align: center;">28</td>
+                                        <td style="text-align: center;">100</td>
+                                        <td style="text-align: center;">17</td>
+                                        <td style="text-align: center;">70,8</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </alternatives>
+                        <attrib>Elaboración propia</attrib>
+                    </table-wrap>
+                </p>
+                <p>En la tabla <xref ref-type="table" rid="gt2">2</xref>, se evidencia que ambos grupos estaban conformados por la misma cantidad de mujeres, aunque representaban un peso distinto en cada grupo. En el grupo experimental era 46,4% y en el de control era 54,2%, mientras los hombres representaban una diferencia de cuatro personas más en el grupo experimental que en el grupo control. Se observa que, con respecto a la variable beca, existía poca diferencia entre los estudiantes que poseen beca en ambos grupos, lo que muestra una similitud socio económica en ambos grupos.</p>
+                <p>De igual manera, en dos de los grupos se muestra un porcentaje considerable de estudiantes que repitió el curso MAT002 Cálculo I el cual es requisito del curso Cálculo II; no obstante, es mayor el del grupo experimental con 19 estudiantes (67,9%), en comparación con el del grupo control, con 13 estudiantes (45,8%). Asimismo, se determinó que ningún estudiante trabajaban en el grupo experimental mientras que 7 estudiantes (29,2%) del grupo control sí tenían una jornada laboral, lo cual evidencia que, en ambos grupos, la mayoría de los estudiantes no trabajaba.</p>
+                <p>Es importante destacar que la propuesta educativa se aplicó durante el segundo ciclo del año 2020, que abarcó desde agosto hasta diciembre. Durante este periodo, el país estaba atravesando una emergencia sanitaria debido al COVID-19, lo que obligó a que todas las lecciones se impartieran de forma remota. Consciente de esta situación, la Universidad Nacional garantizó que toda la comunidad estudiantil activa tuviera acceso a equipos de cómputo, internet y software necesarios para llevar a cabo su formación. Por tanto, no hubo problemas en cuanto al acceso a los materiales y otros recursos relacionados con esta investigación para el estudiantado.</p>
+            </sec>
+        </sec>
+        <sec>
+            <title>
+                <bold>Resultados</bold>
+            </title>
+            <sec>
+                <title>
+                    <bold>Realización del taller</bold>
+                </title>
+                <p>El taller se desarrolló de forma virtual con la participación de 23 estudiantes del grupo experimental (se debe tener en cuenta que para este punto no se habían aplicado los criterios de exclusión), y tuvo una duración de 40 minutos aproximadamente.</p>
+                <p>Durante el taller se realizó una explicación detallada acerca de la utilización del software Geogebra y Symbolab, así como también el uso de la calculadora científica. Para esto, se utilizó una presentación con la información pertinente y el uso de una tableta graficadora para el desarrollo de los ejercicios. Cabe recalcar que el taller se brindó como herramienta de apoyo antes del segundo examen parcial.</p>
+                <p>En el taller virtual, se llevó a cabo una primera actividad que consistía en resolver el siguiente problema:</p>
+                <p>
+                    <italic>Calcule el volumen del sólido de revolución obtenido al girar la región limitada por las curvas </italic>
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mi>y</mml:mi>
+                                <mml:mo>=</mml:mo>
+                                <mml:msup>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msup>
+                                <mml:mo>&#x2212;</mml:mo>
+                                <mml:mn>3</mml:mn>
+                                <mml:mi>x</mml:mi>
+                            </mml:math>
+                            <graphic xlink:href="607975560003_gi15.png"/>
+                        </alternatives>
+                    </inline-formula>
+                    <italic>, </italic>
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mi>y</mml:mi>
+                                <mml:mo>=</mml:mo>
+                                <mml:mn>3</mml:mn>
+                                <mml:mi>x</mml:mi>
+                            </mml:math>
+                            <graphic xlink:href="607975560003_gi3.png"/>
+                        </alternatives>
+                    </inline-formula>
+                    <italic> , </italic>
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mi>y</mml:mi>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo>=</mml:mo>
+                                <mml:mn>3</mml:mn>
+                            </mml:math>
+                            <graphic xlink:href="607975560003_gi4.png"/>
+                        </alternatives>
+                    </inline-formula>
+                    <italic> que contiene al punto (2,1), alrededor del eje de revolución determinado por la recta </italic>
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mi>x</mml:mi>
+                                <mml:mo>=</mml:mo>
+                                <mml:mo>&#x2212;</mml:mo>
+                                <mml:mn>2</mml:mn>
+                            </mml:math>
+                            <graphic xlink:href="607975560003_gi8.png"/>
+                        </alternatives>
+                    </inline-formula>
+                    <italic>. Use el método de capas.</italic>
+                </p>
+                <p>Para lograr esto, se enseñó a utilizar GeoGebra para graficar las curvas correspondientes y determinar la región encerrada por ellas (ver figura <xref ref-type="fig" rid="gf3">3</xref>). Posteriormente, utilizando el software Symbolab, se calculó la integral definida que surge al plantear la solución del problema. Durante el taller, los investigadores explicaron cómo obtener la integral al observar los datos de las gráficas. Posteriormente, se realizó una segunda actividad utilizando el software GeoGebra. La actividad consistió en determinar la región encerrada entre dos curvas y, mediante las gráficas, explicar cómo obtener el radio mayor y el radio menor, necesarios para plantear la integral correspondiente al volumen en el método de discos. Finalmente, se utilizó la calculadora científica para determinar el valor aproximado de una integral definida correspondiente al volumen del sólido de revolución.</p>
+                <p>
+                    <fig id="gf3">
+                        <label>
+                            <bold>Figura 3</bold>
+                        </label>
+                        <caption>
+                            <title>Taller: Uso del Software Geogebra para la solución de la segunda actividad</title>
+                        </caption>
+                        <alt-text>Figura 3 Taller: Uso del Software Geogebra para la solución de la segunda actividad</alt-text>
+                        <graphic xlink:href="607975560003_gf4.png" position="anchor" orientation="portrait"/>
+                        <attrib>Elaboración propia</attrib>
+                    </fig>
+                </p>
+            </sec>
+            <sec>
+                <title>
+                    <bold>Aplicación del segundo examen parcial</bold>
+                </title>
+                <p>El segundo examen parcial fue realizado por los investigadores y supervisado por el profesor coordinador del curso. Este examen se llevó a cabo virtualmente en el “Aula Virtual", que es un sistema de gestión del aprendizaje basado en Moodle y es el sistema oficial de la Universidad Nacional. La prueba evaluaba exclusivamente el tema de sólidos de revolución y estaba compuesta por cinco preguntas de selección única y una pregunta de desarrollo. Para resolver las preguntas de la prueba, cada estudiante debía utilizar el método de discos o el de capas para determinar el volumen de un sólido, mediante el planteamiento de una integral definida. El ítem de desarrollo de ambos grupos fue revisado por los investigadores, y se utilizó una rúbrica correspondiente a los métodos (capas y discos) que podían utilizar los estudiantes para resolver el ejercicio.</p>
+                <p>Los resultados del examen, tanto para el grupo control como para el experimental, se presentan en la tabla <xref ref-type="table" rid="gt3">3</xref>. En general, se puede observar que el grupo experimental obtuvo mejores resultados. Aunque en ambos grupos la nota máxima obtenida fue 100, en el grupo control la nota mínima fue más baja que la del grupo experimental. Además, tanto la mediana, la media aritmética y la moda fueron superiores en el grupo experimental. Finalmente, se puede observar que el recorrido y la desviación estándar son menores en el grupo experimental.</p>
+                <p>
+                    <table-wrap id="gt3">
+                        <label>Tabla 3:</label>
+                        <caption>
+                            <title>Medidas de posición del segundo examen parcial del curso MAT003 Cálculo del II Ciclo 2020 del grupo experimental y grupo control.</title>
+                        </caption>
+                        <alt-text>Tabla 3: Medidas de posición del segundo examen parcial del curso MAT003 Cálculo del II Ciclo 2020 del grupo experimental y grupo control.</alt-text>
+                        <alternatives>
+                            <graphic xlink:href="607975560003_gt4.png" position="anchor" orientation="portrait"/>
+                            <table id="gt4-526564616c7963">
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align: center;">Mediana</td>
+                                        <td style="text-align: center;">81.25</td>
+                                        <td style="text-align: center;">59.4</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">Media aritmética</td>
+                                        <td style="text-align: center;">79.69</td>
+                                        <td style="text-align: center;">60.3</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">Máximo</td>
+                                        <td style="text-align: center;">100</td>
+                                        <td style="text-align: center;">100</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">Mínimo</td>
+                                        <td style="text-align: center;">37.5</td>
+                                        <td style="text-align: center;">6.3</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">Recorrido</td>
+                                        <td style="text-align: center;">62.5</td>
+                                        <td style="text-align: center;">93.7</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">Moda</td>
+                                        <td style="text-align: center;">100</td>
+                                        <td style="text-align: center;">87.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: center;">Desviación estándar</td>
+                                        <td style="text-align: center;">19.74</td>
+                                        <td style="text-align: center;">26.1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </alternatives>
+                        <attrib>Elaboración propia</attrib>
+                    </table-wrap>
+                </p>
+                <p>Con base en los resultados obtenidos, se puede suponer que la propuesta educativa virtual tuvo un impacto positivo en el aprendizaje de los estudiantes en el tema de sólidos de revolución. Esto se evidencia al notar que el grupo experimental, obtuvo mejores calificaciones en el segundo examen parcial en comparación con el grupo control que no recibió la intervención.</p>
+                <p>En la siguiente sección se realizará un análisis de la hipótesis planteada en la investigación.</p>
+            </sec>
+            <sec>
+                <title>
+                    <bold>Análisis de la hipótesis</bold>
+                </title>
+                <p>Se aplicaron pruebas de hipótesis tomando como referencia un nivel de significancia del 5%, comúnmente usado en estudios del campo educacional, para determinar si los estudiantes que utilizaron la propuesta educativa virtual presentaban un mejor rendimiento académico previo en el curso de MAT002 Cálculo I en comparación con aquellos que no la utilizaron, ya que esta variable podría sesgar los resultados obtenidos. Por ello, la primera hipótesis que se desarrolló fue:</p>
+                <p>
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:msub>
+                                    <mml:mi>H</mml:mi>
+                                    <mml:mn>0</mml:mn>
+                                </mml:msub>
+                            </mml:math>
+                            <graphic xlink:href="607975560003_gi9.png"/>
+                        </alternatives>
+                    </inline-formula>: La mediana en el curso de Cálculo I del grupo experimental es igual a la mediana en el curso de Cálculo I del grupo control.</p>
+                <p>
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:msub>
+                                    <mml:mi>H</mml:mi>
+                                    <mml:mn>1</mml:mn>
+                                </mml:msub>
+                            </mml:math>
+                            <graphic xlink:href="607975560003_gi10.png"/>
+                        </alternatives>
+                    </inline-formula>: La mediana del curso de Cálculo I del grupo experimental es significativamente diferente a la mediana del curso de Cálculo I del grupo control.</p>
+                <p>Para este caso particular, en primer lugar, se verificó el supuesto de normalidad para la distribución de las notas del promedio del curso MAT002, para el estudiantado del grupo experimental y control, con el fin de descartar la fuente de variabilidad de ambos grupos con respecto al rendimiento académico.</p>
+                <p>Antes de presentar los resultados de las pruebas estadísticas realizadas, se presenta la tabla <xref ref-type="table" rid="gt4">4</xref>, que muestra algunas medidas de posición de ambos grupos con respecto al promedio del curso MAT002. Estos datos son fundamentales para el análisis de la primera prueba de hipótesis que se llevó a cabo.</p>
+                <p>
+                    <table-wrap id="gt4">
+                        <label>Tabla 4:</label>
+                        <caption>
+                            <title>Medidas de posición de la nota final del curso MAT002 Cálculo I del grupo experimental y grupo control</title>
+                        </caption>
+                        <alt-text>Tabla 4: Medidas de posición de la nota final del curso MAT002 Cálculo I del grupo experimental y grupo control</alt-text>
+                        <alternatives>
+                            <graphic xlink:href="607975560003_gt5.png" position="anchor" orientation="portrait"/>
+                            <table id="gt5-526564616c7963">
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align: left;">Uso de los videos de sólidos de revolución subidos en la plataforma Schoology.</td>
+                                        <td style="text-align: center;">18</td>
+                                        <td style="text-align: center;">3</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Soluciones claras de los videos.</td>
+                                        <td style="text-align: center;">15</td>
+                                        <td style="text-align: center;">4</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Los videos creados ayudan a comprender mejor el tema de sólidos de revolución.</td>
+                                        <td style="text-align: center;">17</td>
+                                        <td style="text-align: center;">3</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Recomienda el uso de videos didácticos en la enseñanza de la matemática.</td>
+                                        <td style="text-align: center;">19</td>
+                                        <td style="text-align: center;">1</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Los vídeos ayudaron en su rendimiento en el II examen.</td>
+                                        <td style="text-align: center;">17</td>
+                                        <td style="text-align: center;">3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </alternatives>
+                        <attrib>Elaboración propia</attrib>
+                    </table-wrap>
+                </p>
+                <p>Para verificar el supuesto de normalidad se realizó la prueba de Shapiro y Wilks, en la que se concluyó que las notas no tienen una distribución normal p=(0,0045) en relación con las personas del grupo control, mientras que las personas del grupo experimental sí se distribuyen normalmente p=(0,1453). El valor de p-value del grupo experimental descartó usar pruebas paramétricas para comprobar si hay diferencias entre los promedios de los dos grupos.</p>
+                <p>De acuerdo con lo anterior, se usó la prueba de rangos de Wilcoxon para hacer las comparaciones pertinentes de las medianas de ambos grupos. Al hacer la prueba, se concluyó que las notas de los estudiantes del grupo experimental no son diferentes a las del grupo control para MAT002 Cálculo I (p= 0.06929). Como una medida complementaria al valor de p, se determinó el tamaño del efecto, el cual indica la magnitud del efecto que se está aplicando; en este caso, fue un valor de 0.2583, que se considera pequeño según Tomczak y Tomczak (2014). Lo anterior, indica que existía una diferencia pequeña, además, se observó en la prueba de hipótesis que la misma no era significativa.</p>
+                <p>De acuerdo con lo anterior, se pudo inferir que no había evidencia de un mayor rendimiento previo en el curso de Cálculo I, respecto de un grupo sobre otro, previo a realizar el II examen parcial de Cálculo II. En consecuencia, se procedió a contrastar la segunda hipótesis:</p>
+                <p>Los estudiantes que utilizaron la propuesta educativa virtual tienen un mayor rendimiento académico en el segundo examen parcial en comparación con los que no la utilizaron.</p>
+                <p>
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:msub>
+                                    <mml:mi>H</mml:mi>
+                                    <mml:mn>0</mml:mn>
+                                </mml:msub>
+                            </mml:math>
+                            <graphic xlink:href="607975560003_gi12.png"/>
+                        </alternatives>
+                    </inline-formula>: La mediana del segundo examen parcial de Cálculo II del grupo experimental es a lo sumo igual a la mediana del segundo examen parcial de Cálculo II del grupo control.</p>
+                <p>
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:msub>
+                                    <mml:mi>H</mml:mi>
+                                    <mml:mn>1</mml:mn>
+                                </mml:msub>
+                            </mml:math>
+                            <graphic xlink:href="607975560003_gi11.png"/>
+                        </alternatives>
+                    </inline-formula>: La mediana del segundo examen parcial de Cálculo II del grupo experimental es significativamente mayor a la mediana del segundo parcial de Cálculo II del grupo control.</p>
+                <p>Para realizar la segunda prueba estadística se utilizaron los resultados obtenidos en el segundo examen parcial, los cuales se mostraron previamente en la tabla <xref ref-type="table" rid="gt4">4</xref>. Para este caso, se realizó la misma verificación de normalidad, pero ahora con las notas del segundo examen parcial del curso en análisis. Con respecto al grupo control, las calificaciones se distribuyeron normalmente p=(0,3360) mientras que las del grupo experimental no se distribuyeron de manera normal p=(0,0147). Por este motivo, se descartó usar una prueba paramétrica.</p>
+                <p>De acuerdo con lo anterior, la situación fue similar a la ocurrida con las notas finales de MAT002 Cálculo I. Por esta razón se aplicó de nuevo la prueba no paramétrica de Wilcoxon con las notas de los estudiantes de ambos grupos, y se observó que sí hay diferencias significativas entre ambos (p= 0.00909). Esto demostró que hay una diferencia entre la mediana del grupo control y el grupo experimental, a favor del grupo experimental (grupo en que se aplicó la propuesta educativa virtual), todo esto debido a una diferencia entre las medianas de 21.85 puntos porcentuales.</p>
+                <p>En relación con el caso anterior, se determinó nuevamente el tamaño del efecto. El mismo fue de 0.3703, lo cual nos indica un efecto moderado (mediano) según Tomczak y Tomczak (2014). El resultado anterior es significativo, por el valor de p y el tamaño del efecto dado. De acuerdo con la prueba de hipótesis hecha, se obtuvo una evidencia positiva con respecto a la aplicación de la propuesta educativa virtual.</p>
+                <p>Por lo tanto, se concluyó que los estudiantes que utilizaron la propuesta educativa mostraron calificaciones significativamente mayores en los ejercicios del tema sólidos de revolución del segundo examen parcial del curso, en relación con los estudiantes que no la utilizaron.</p>
+            </sec>
+            <sec>
+                <title>
+                    <bold>Percepción del estudiantado sobre la propuesta educativa virtual</bold>
+                </title>
+                <p>Después de que los estudiantes completaran la propuesta educativa y realizaran el segundo examen parcial, se aplicó un segundo cuestionario a los y las participantes del grupo experimental. De las 32 personas matriculadas en este grupo, se obtuvieron datos de 21 estudiantes. El objetivo de este cuestionario era analizar la percepción de cada estudiante sobre la utilidad de la propuesta educativa y su opinión sobre la calidad del material presentado.</p>
+                <p>Los datos del cuestionario fueron obtenidos mediante un formulario de Google, el cual fue completado por cada estudiante durante una sesión sincrónica en la que parte del equipo investigador del proyecto estuvo presente para proporcionar orientación y aclarar cualquier pregunta o inquietud que pudiera surgir.</p>
+                <p>Según los resultados del cuestionario, 21 estudiantes del grupo experimental utilizaron los programas Symbolab y GeoGebra para resolver ejercicios. Asimismo, 18 estudiantes utilizaron las prácticas en línea de la plataforma Schoology, y de ellos, mencionaron que dichas prácticas les ayudaron a prepararse para el segundo examen parcial. Estos datos sugieren que la mayoría de los estudiantes encontraron útiles estos recursos informáticos para comprender el tema de los sólidos de revolución.</p>
+                <p>En la tabla <xref ref-type="table" rid="gt5">5</xref> se presentan las respuestas dadas por los participantes acerca de su percepción de algunas características de los videos realizados. Se puede observar que un buen número de estudiantes (71%) respondieron de forma afirmativa a las cinco preguntas, lo que indica el interés por este tipo de videos y la forma en que ayudan a comprender mejor la materia. Además, un 90 de los participantes dijeron que recomendarían el uso de videos educativos para el estudio de este tema, y el 80.9% indicó que dichos videos les ayudaron a comprender mejor la materia y, por lo tanto, a obtener un mejor rendimiento en el segundo examen. Estos resultados sugieren que el uso de videos generó una percepción positiva por parte de los estudiantes en cuanto al uso de videos educativos para el tema en cuestión.</p>
+                <p>
+                    <table-wrap id="gt5">
+                        <label>Tabla 5:</label>
+                        <caption>
+                            <title>Percepción de algunas características sobre los videos de solidos de revolución</title>
+                        </caption>
+                        <alt-text>Tabla 5: Percepción de algunas características sobre los videos de solidos de revolución</alt-text>
+                        <alternatives>
+                            <graphic xlink:href="607975560003_gt6.png" position="anchor" orientation="portrait"/>
+                            <table id="gt6-526564616c7963">
+                                <tbody>
+                                    <tr>
+                                        <td style="text-align: left;">Uso de los videos de sólidos de revolución subidos en la plataforma Schoology.</td>
+                                        <td style="text-align: center;">18</td>
+                                        <td style="text-align: center;">3</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Soluciones claras de los videos.</td>
+                                        <td style="text-align: center;">15</td>
+                                        <td style="text-align: center;">4</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Los videos creados ayudan a comprender mejor el tema de sólidos de revolución.</td>
+                                        <td style="text-align: center;">17</td>
+                                        <td style="text-align: center;">3</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Recomienda el uso de videos didácticos en la enseñanza de la matemática.</td>
+                                        <td style="text-align: center;">19</td>
+                                        <td style="text-align: center;">1</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align: left;">Los vídeos ayudaron en su rendimiento en el II examen.</td>
+                                        <td style="text-align: center;">17</td>
+                                        <td style="text-align: center;">3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </alternatives>
+                        <attrib>Elaboración propia</attrib>
+                    </table-wrap>
+                </p>
+                <p>Después de analizar los datos sobre la cantidad de visualizaciones de los videos, se encontró que cada estudiante en promedio observó seis de los once videos disponibles. Además, se observó que nueve estudiantes visualizaron más de la mitad de los videos y al menos un estudiante observó la totalidad de los videos. Sin embargo, es importante tener en cuenta que el sistema solo contabilizaba las visualizaciones de los estudiantes que accedían a los videos desde su propia cuenta. En el caso de que varios estudiantes estudiaran juntos y vieran un video en una sola cuenta, el sistema no registraba las visualizaciones adicionales.</p>
+                <p>Se pueden plantear algunas hipótesis respecto a las posibles causas por las cuales algunos estudiantes no vieron todos los videos disponibles. Entre estas hipótesis se encuentran la falta de tiempo, la falta de interés en el tema de los videos no vistos, el ya haber comprendido la materia abordada en los videos faltantes, entre otras. Cabe destacar que la falta de conectividad no se considera como un factor influyente, ya que los estudiantes contaban con acceso a clases y la universidad proporcionó los recursos tecnológicos necesarios para garantizar el acceso a los videos.</p>
+                <p>Es importante destacar que, aunque no todos los estudiantes observaron la totalidad de los videos, la mayoría de ellos, como se mostró anteriormente, informó que los videos que vieron fueron de gran ayuda. Esto sugiere que, aunque no se haya alcanzado una visualización completa de todos los materiales, el uso de videos educativos en el tema en cuestión generó una percepción positiva en cuanto a su utilidad por parte de los estudiantes.</p>
+                <p>En el cuestionario, se incluyó una pregunta sobre la percepción de los estudiantes acerca de la calidad de los videos. A pesar de que los videos fueron diseñados siguiendo las recomendaciones de expertos en el tema, se consideró importante conocer la opinión de la audiencia a la que iban dirigidos. En la figura <xref ref-type="fig" rid="gf4">4</xref> se presentan los resultados obtenidos, donde se puede observar que un 62% de los estudiantes los calificaron como “muy buenos" o “excelentes", lo cual indica que los videos fueron bien recibidos por la mayoría de los estudiantes.</p>
+                <p>
+                    <fig id="gf4">
+                        <label>
+                            <bold>Figura 4:</bold>
+                        </label>
+                        <caption>
+                            <title>Calidad de los videos según los estudiantes</title>
+                        </caption>
+                        <alt-text>Figura 4: Calidad de los videos según los estudiantes</alt-text>
+                        <graphic xlink:href="607975560003_gf5.png" position="anchor" orientation="portrait"/>
+                        <attrib>Elaboración propia</attrib>
+                    </fig>
+                </p>
+            </sec>
+        </sec>
+        <sec>
+            <title>
+                <bold>Discusión</bold>
+            </title>
+            <sec>
+                <title>
+                    <bold>Conclusiones y recomendaciones</bold>
+                </title>
+                <p>La presente investigación buscó realizar y evaluar la aplicación de una propuesta educativa virtual en el aprendizaje del tema de sólidos de revolución en estudiantes universitarios.</p>
+                <p>En relación con el diseño de la propuesta educativa, se desarrollaron diversos recursos educativos abiertos que incluían videos, prácticas en línea y material de apoyo, los cuales fueron diseñados siguiendo las recomendaciones de expertos en la materia. Estos recursos se alojaron en Schoology, un sistema de gestión del aprendizaje. Además de poner estos recursos a disposición de los estudiantes, se realizó un taller en el que se explicó el uso efectivo de las herramientas Schoology, GeoGebra, Symbolab y la calculadora científica para el estudio de temas relacionados con sólidos de revolución.</p>
+                <p>Por otro lado, para evaluar efectividad de la aplicación de la propuesta educativa, se utilizó una metodología cuasi experimental de tipo cuantitativa, en la que se contó con un grupo control y uno experimental. Aunque no se pudo garantizar la aleatoriedad de los grupos, ya que los estudiantes tenían libertad para matricularse en cualquier grupo, se eligieron dos grupos impartidos por el mismo profesor y se determinó aleatoriamente cuál de ellos sería el grupo de control y cuál el experimental. La ventaja de utilizar dos grupos de un mismo profesor es que se garantiza que ambos estén expuestos a la misma metodología de enseñanza, evitando posibles sesgos en cuanto a si la mejora de uno u otro grupo se debe a la propuesta educativa o no. Además, mediante una encuesta inicial, se comprobó que los estudiantes de ambos grupos tenían condiciones académicas y sociales similares.</p>
+                <p>En conjunto con esta metodología se realizaron dos tipos de evaluaciones. En primer lugar, se examinaron las calificaciones obtenidas por el estudiantado en un examen que evaluaba los contenidos de sólidos de revolución, tanto en el grupo control como en el experimental, con el fin de detectar posibles diferencias en el rendimiento académico de ambos grupos. En segundo lugar, se aplicó una encuesta a los estudiantes para conocer su percepción sobre la calidad y pertinencia de la propuesta educativa y si consideran que esta les ayudó o no en su aprendizaje. Los instrumentos fueron validados por dos personas expertas, una de ellas con formación en el área de estadística y otra en el área de matemática, luego de incorporar las sugerencias y cambios fueron aplicados.</p>
+                <p>Los resultados obtenidos permitieron confirmar la hipótesis de investigación, la cual sugiere que los estudiantes que utilizaron la propuesta educativa virtual tuvieron un mejor rendimiento académico en el tema de sólidos de revolución del curso MAT003 Cálculo II en comparación con aquellos que no la utilizaron. Esta hipótesis se vio respaldada por las calificaciones del segundo examen parcial, donde el grupo experimental obtuvo un desempeño académico significativamente mejor que el grupo control, evidenciado por una mediana de 81.25 y 59.4, respectivamente.</p>
+                <p>En cuanto al análisis estadístico, se realizó una prueba de hipótesis para comparar las medianas de los resultados obtenidos por el grupo control y el grupo experimental. Los resultados de la prueba indican que se encontraron diferencias significativas entre ambas medianas después de aplicar la propuesta educativa, lo que sugiere que la propuesta tuvo un efecto positivo en el rendimiento académico de los estudiantes del grupo experimental. Además, se utilizó el cálculo del tamaño del efecto para evaluar la magnitud de la diferencia entre las medianas, y se encontró que el efecto de la propuesta educativa fue moderado, con un valor de 0.3703.</p>
+                <p>Por otro lado, los resultados de la encuesta final indicaron que el estudiantado que participó del grupo experimental tuvo una percepción muy positiva del uso de la propuesta educativa. En efecto, el 90% de los participantes recomendarían el uso de videos educativos para el estudio de este tema, y el 80.9% afirmó que dichos videos les ayudaron a comprender mejor la materia y, por ende, obtener un mejor rendimiento en el segundo examen.</p>
+                <p>Basándose en el estudio realizado, se puede concluir que hay evidencia de que las propuestas educativas bien planificadas que involucran el uso de TIC pueden mejorar el rendimiento académico del estudiantado y generar percepciones positivas entre ellos. En lugar de intentar reemplazar completamente la enseñanza presencial con el aprendizaje en línea, esta investigación promueve la combinación de la enseñanza presencial con el uso de recursos educativos abiertos disponibles en línea, lo que podría traer beneficios al aprendizaje de los estudiantes.</p>
+            </sec>
+        </sec>
+    </body>
+    <back>
+        <ref-list>
+            <title>Referencias</title>
+            <ref id="redalyc_607975560003_ref2">
+                <label>[1]</label>
+                <mixed-citation>[1] Agustin, S. Y., Susilawati, W., &amp; Nuraida, I. (2023). Mathematical reasoning through symbolab match mine learning. In AIP Conference Proceedings (Vol. 2572, No. 1, p. 050006). AIP Publishing LLC. https://doi.org/10.1063/5.0121652.</mixed-citation>
+                <element-citation publication-type="confproc">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Agustin</surname>
+                            <given-names>S. Y.</given-names>
+                        </name>
+                        <name>
+                            <surname>Susilawati</surname>
+                            <given-names>W.</given-names>
+                        </name>
+                        <name>
+                            <surname>Nuraida</surname>
+                            <given-names>I.</given-names>
+                        </name>
+                    </person-group>
+                    <source>AIP Publishing LLC.</source>
+                    <year>2023</year>
+                    <volume>2572</volume>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1063/5.0121652">https://doi.org/10.1063/5.0121652</ext-link>
+                    </comment>
+                    <conf-name>Mathematical reasoning through symbolab match mine learning. In AIP Conference Proceedings</conf-name>
+                    <issue-part>1, p. 050006)</issue-part>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref3">
+                <label>[2]</label>
+                <mixed-citation>[2] Anzola, A. (2014). TIC, corresponsabilidad y desarrollo humano en Venezuela. Generalidades sobre su vinculación y fundamentación constitucional y legal. Teorías, enfoques y aplicaciones en las Ciencias Sociales, 14, 71-81. https://dialnet.unirioja.es/servlet/articulo?codigo=6577532.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Anzola</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>TIC, corresponsabilidad y desarrollo humano en Venezuela. Generalidades sobre su vinculación y fundamentación constitucional y legal</article-title>
+                    <source>Teorías, enfoques y aplicaciones en las Ciencias Sociales</source>
+                    <year>2014</year>
+                    <volume>14</volume>
+                    <fpage>71</fpage>
+                    <lpage>81</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://dialnet.unirioja.es/servlet/articulo?codigo=6577532">https://dialnet.unirioja.es/servlet/articulo?codigo=6577532</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref4">
+                <label>[3]</label>
+                <mixed-citation>[3] Barán, V., Frausin, A., &amp; de los Milagros Gutiérrez, M. (2019). Software tools for teaching numerical series at the university level. In 2019 38th International Conference of the Chilean Computer Science Society (SCCC) (pp. 1-6). IEEE. https://doi.org/10.1109/SCCC49216.2019.8966439.</mixed-citation>
+                <element-citation publication-type="confproc">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Barán</surname>
+                            <given-names>V.</given-names>
+                        </name>
+                        <name>
+                            <surname>Frausin</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                        <name>
+                            <surname>de los Milagros Gutiérrez</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                    </person-group>
+                    <source>IEEE</source>
+                    <year>2019</year>
+                    <fpage>1</fpage>
+                    <lpage>6</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1109/SCCC49216.2019.8966439">https://doi.org/10.1109/SCCC49216.2019.8966439</ext-link>
+                    </comment>
+                    <conf-name>Software tools for teaching numerical series at the university level. In 2019 38th International Conference of the Chilean Computer Science Society (SCCC)</conf-name>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref5">
+                <label>[4]</label>
+                <mixed-citation>[4] Brame, C. J. (2016). Effective educational videos: Principles and guidelines for maximizing student learning from video content. CBE—Life Sciences Education, 15(4), es6. https://doi.org/10.1187/cbe.16-03-0125.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Brame</surname>
+                            <given-names>C. J.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Effective educational videos: Principles and guidelines for maximizing student learning from video content</article-title>
+                    <source>CBE—Life Sciences Education</source>
+                    <year>2016</year>
+                    <volume>15</volume>
+                    <issue>4</issue>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1187/cbe.16-03-0125">https://doi.org/10.1187/cbe.16-03-0125</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref6">
+                <label>[5]</label>
+                <mixed-citation>[5] Butcher, N., Kanwar, A., &amp; Uvalic-Trumbic, S. (2015). Guía básica de recursos educativos abiertos (REA). UNESCO Publishing. https://unesdoc.unesco.org/ark:/48223/pf0000232986.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Butcher</surname>
+                            <given-names>N.</given-names>
+                        </name>
+                        <name>
+                            <surname>Kanwar</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                        <name>
+                            <surname>Uvalic-Trumbic</surname>
+                            <given-names>S.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Guía básica de recursos educativos abiertos (REA)</article-title>
+                    <source>UNESCO Publishing</source>
+                    <year>2015</year>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://unesdoc.unesco.org/ark:/48223/pf0000232986">https://unesdoc.unesco.org/ark:/48223/pf0000232986</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref7">
+                <label>[6]</label>
+                <mixed-citation>[6] Corral, Y y Corral, I. (2020). Una mirada a la educación a distancia y uso de las TICs en tiempos de pandemia. Revista Eduweb, 14(1), 143-150. https://revistaeduweb.org/index.php/eduweb/article/view/14.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Corral</surname>
+                            <given-names>Y</given-names>
+                        </name>
+                        <name>
+                            <surname>Corral</surname>
+                            <given-names>I.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Una mirada a la educación a distancia y uso de las TICs en tiempos de pandemia</article-title>
+                    <source>Revista Eduweb</source>
+                    <year>2020</year>
+                    <volume>14</volume>
+                    <issue>1</issue>
+                    <fpage>143</fpage>
+                    <lpage>150</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://revistaeduweb.org/index.php/eduweb/article/view/14">https://revistaeduweb.org/index.php/eduweb/article/view/14</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref8">
+                <label>[7]</label>
+                <mixed-citation>[7] Das, K. (2019). Role of ICT for Better Mathematics Teaching. Shanlax International Journal of Education, 7(4), 19-28. https://doi.org/10.34293/education.v7i4.641.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Das</surname>
+                            <given-names>K.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Role of ICT for Better Mathematics Teaching</article-title>
+                    <source>Shanlax International Journal of Education</source>
+                    <year>2019</year>
+                    <volume>7</volume>
+                    <issue>4</issue>
+                    <fpage>19</fpage>
+                    <lpage>28</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.34293/education.v7i4.641">https://doi.org/10.34293/education.v7i4.641</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref9">
+                <label>[8]</label>
+                <mixed-citation>[8] Díaz, J., Ruiz, A y Egüez, C. (2021). Impacto de las TIC: desafíos y oportunidades de la Educación Superior frente al COVID-19. Revista Científica UISRAEL, 8(2), 113-134. https://doi.org/10.35290/rcui.v8n2.2021.448.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Díaz</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                        <name>
+                            <surname>Ruiz</surname>
+                            <given-names>A</given-names>
+                        </name>
+                        <name>
+                            <surname>Egüez</surname>
+                            <given-names>C.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Impacto de las TIC: desafíos y oportunidades de la Educación Superior frente al COVID-19</article-title>
+                    <source>Revista Científica UISRAEL</source>
+                    <year>2021</year>
+                    <volume>8</volume>
+                    <issue>2</issue>
+                    <fpage>113</fpage>
+                    <lpage>134</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.35290/rcui.v8n2.2021.448">https://doi.org/10.35290/rcui.v8n2.2021.448</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref10">
+                <label>[9]</label>
+                <mixed-citation>[9] Fahlgren, M., Brunström, M., Dilling, F., Kristinsdóttir, B., Pinkernell, G., &amp; Weigand, H. G. (2021). Technology-rich assessment in mathematics. In Mathematics Education in the Digital Age (pp. 69-83). Routledge.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Fahlgren</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Brunström</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Dilling</surname>
+                            <given-names>F.</given-names>
+                        </name>
+                        <name>
+                            <surname>Kristinsdóttir</surname>
+                            <given-names>B.</given-names>
+                        </name>
+                        <name>
+                            <surname>Pinkernell</surname>
+                            <given-names>G.</given-names>
+                        </name>
+                        <name>
+                            <surname>Weigand</surname>
+                            <given-names>H. G.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Routledge</source>
+                    <year>2021</year>
+                    <fpage>69</fpage>
+                    <lpage>83</lpage>
+                    <series>Technology-rich assessment in mathematics. In Mathematics Education in the Digital Age</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref11">
+                <label>[10]</label>
+                <mixed-citation>[10] Garcia-Pineda, Miguel, Esther De Ves, M. Asunción Castaño, Sandra Roger, Maximo Cobos, Jose M. Claver, Xaro Benavent García, Miguel Arevalillo-Herráez, and Juan Gutierrez-Aguado. (2020). Vídeos interactivos para mejorar el proceso enseñanza-aprendizaje en la generación YouTube. https://rua.ua.es/dspace/bitstream/10045/125240/1/JENUI_2020_050.pdf.</mixed-citation>
+                <element-citation publication-type="other">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Garcia-Pineda</surname>
+                            <given-names>Miguel</given-names>
+                        </name>
+                        <name>
+                            <surname>Esther De Ves</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Castaño</surname>
+                            <given-names>Asunción</given-names>
+                        </name>
+                        <name>
+                            <surname>Roger</surname>
+                            <given-names>Sandra</given-names>
+                        </name>
+                        <name>
+                            <surname>Cobos</surname>
+                            <given-names>Maximo</given-names>
+                        </name>
+                        <name>
+                            <surname>Claver</surname>
+                            <given-names>Jose M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Benavent García</surname>
+                            <given-names>Xaro</given-names>
+                        </name>
+                        <name>
+                            <surname>Arevalillo-Herráez</surname>
+                            <given-names>Miguel</given-names>
+                        </name>
+                        <name>
+                            <surname>Gutierrez-Aguado</surname>
+                            <given-names>Juan</given-names>
+                        </name>
+                    </person-group>
+                    <source>Rua</source>
+                    <year>2020</year>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://rua.ua.es/dspace/bitstream/10045/125240/1/JENUI_2020_050.pdf">https://rua.ua.es/dspace/bitstream/10045/125240/1/JENUI_2020_050.pdf</ext-link>
+                    </comment>
+                    <series>Vídeos interactivos para mejorar el proceso enseñanza-aprendizaje en la generación YouTube</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref12">
+                <label>[11]</label>
+                <mixed-citation>[11] Grisales-Aguirre, A. M. (2018). Uso de recursos TIC en la enseñanza de las matemáticas: retos y perspectivas. Entramado, 14(2), 198-214. https://doi.org/10.18041/1900-3803/entramado.2.4751.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Grisales-Aguirre</surname>
+                            <given-names>A. M.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Uso de recursos TIC en la enseñanza de las matemáticas: retos y perspectivas</article-title>
+                    <source>Entramado</source>
+                    <year>2018</year>
+                    <volume>14</volume>
+                    <issue>2</issue>
+                    <fpage>198</fpage>
+                    <lpage>214</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18041/1900-3803/entramado.2.4751">https://doi.org/10.18041/1900-3803/entramado.2.4751</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref13">
+                <label>[12]</label>
+                <mixed-citation>[12] Guo, P. J., Kim, J., &amp; Rubin, R. (2014). How video production affects student engagement: An empirical study of MOOC videos. In Proceedings of the first ACM conference on Learning@ scale conference (pp. 41-50). https://doi.org/10.1145/2556325.2566239.</mixed-citation>
+                <element-citation publication-type="confproc">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Guo</surname>
+                            <given-names>P. J.</given-names>
+                        </name>
+                        <name>
+                            <surname>Kim</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                        <name>
+                            <surname>Rubin</surname>
+                            <given-names>R.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Proceedings of the first ACM conference on Learning@ scale conference</source>
+                    <year>2014</year>
+                    <fpage>41</fpage>
+                    <lpage>50</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1145/2556325.2566239">https://doi.org/10.1145/2556325.2566239</ext-link>
+                    </comment>
+                    <conf-name>How video production affects student engagement: An empirical study of MOOC videos</conf-name>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref14">
+                <label>[13]</label>
+                <mixed-citation>[13] Kizilcec, R., Papadopoulos, k y Sritanyaratana, L. (2014). Showing Face in Video Instruction: Effects On Information Retention, Visual Attention, and Affect. CHI14 Proceedings of the SIGCHI Conference on Human Factor in Computing Systems (pp.95 - 102) Toronto, Canadá. http://rene.kizilcec.com/wp-content/uploads/2014/01/finalversion2.pdf.</mixed-citation>
+                <element-citation publication-type="confproc">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Kizilcec</surname>
+                            <given-names>R.</given-names>
+                        </name>
+                        <name>
+                            <surname>Papadopoulos</surname>
+                            <given-names>k</given-names>
+                        </name>
+                        <name>
+                            <surname>Sritanyaratana</surname>
+                            <given-names>L.</given-names>
+                        </name>
+                    </person-group>
+                    <source>CHI14 Proceedings of the SIGCHI Conference on Human Factor in Computing Systems</source>
+                    <year>2014</year>
+                    <fpage>95</fpage>
+                    <lpage>102</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="http://rene.kizilcec.com/wp-content/uploads/2014/01/finalversion2.pdf">http://rene.kizilcec.com/wp-content/uploads/2014/01/finalversion2.pdf</ext-link>
+                    </comment>
+                    <conf-loc>Toronto, Canadá</conf-loc>
+                    <series>Showing Face in Video Instruction: Effects On Information Retention, Visual Attention, and Affect</series>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref15">
+                <label>[14]</label>
+                <mixed-citation>[14] Maldonado Zuñiga, K., Vera Velázquez, R., Ponce Delgado, L. M., &amp; Tóala Arias, F. J. (2020). Software educativo y su importancia en el proceso enseñanza-aprendizaje: software educativo y su importancia. UNESUM-Ciencias. Revista Científica Multidisciplinaria. ISSN 2602-8166, 4(1), 123-130. https://doi.org/10.47230/unesum-ciencias.v4.n1.2020.211.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Maldonado Zuñiga</surname>
+                            <given-names>K.</given-names>
+                        </name>
+                        <name>
+                            <surname>Vera Velázquez</surname>
+                            <given-names>R.</given-names>
+                        </name>
+                        <name>
+                            <surname>Ponce Delgado</surname>
+                            <given-names>L. M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Tóala Arias</surname>
+                            <given-names>F. J.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Software educativo y su importancia en el proceso enseñanza-aprendizaje: software educativo y su importancia</article-title>
+                    <source>UNESUM-Ciencias. Revista Científica Multidisciplinaria.</source>
+                    <year>2020</year>
+                    <volume>4</volume>
+                    <issue>1</issue>
+                    <fpage>123</fpage>
+                    <lpage>130</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.47230/unesum-ciencias.v4.n1.2020.211">https://doi.org/10.47230/unesum-ciencias.v4.n1.2020.211</ext-link>
+                    </comment>
+                    <issn>2602-8166</issn>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref16">
+                <label>[15]</label>
+                <mixed-citation>[15] Muñante-Toledo, M. F., Salazar, G. D. C., Rojas-Plasencia, K. M., &amp; Flores, J. M. V. E. (2021). Geogebra Software in Mathematical Skills of High School Students: Systematic Review. Turkish Journal of Computer and Mathematics Education (TURCOMAT), 12(6), 4164-4172. https://www.turcomat.org/index.php/turkbilmat/article/view/8386.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Muñante-Toledo</surname>
+                            <given-names>M. F.</given-names>
+                        </name>
+                        <name>
+                            <surname>Salazar</surname>
+                            <given-names>G. D. C.</given-names>
+                        </name>
+                        <name>
+                            <surname>Rojas-Plasencia</surname>
+                            <given-names>K. M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Flores</surname>
+                            <given-names>J. M. V. E.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Geogebra Software in Mathematical Skills of High School Students: Systematic Review</article-title>
+                    <source>Turkish Journal of Computer and Mathematics Education (TURCOMAT)</source>
+                    <year>2021</year>
+                    <volume>12</volume>
+                    <issue>6</issue>
+                    <fpage>4164</fpage>
+                    <lpage>4172</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://www.turcomat.org/index.php/turkbilmat/article/view/8386">https://www.turcomat.org/index.php/turkbilmat/article/view/8386</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref17">
+                <label>[16]</label>
+                <mixed-citation>[16] Poveda Fernández, W. E., &amp; García-Cuéllar, D. (2021). Estrategias asociadas al uso de GeoGebra en un contexto de resolución de problemas. REMATEC, 16(37), 61–79. https://doi.org/10.37084/REMATEC.1980-3141.2021.n37.p61-79.id2.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Poveda Fernández</surname>
+                            <given-names>W. E.</given-names>
+                        </name>
+                        <name>
+                            <surname>García-Cuéllar</surname>
+                            <given-names>D.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Estrategias asociadas al uso de GeoGebra en un contexto de resolución de problemas</article-title>
+                    <source>REMATEC</source>
+                    <year>2021</year>
+                    <volume>16</volume>
+                    <issue>37</issue>
+                    <fpage>61</fpage>
+                    <lpage>79</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.37084/REMATEC.1980-3141.2021.n37.p61-79.id2">https://doi.org/10.37084/REMATEC.1980-3141.2021.n37.p61-79.id2</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref18">
+                <label>[17]</label>
+                <mixed-citation>[17] Ramírez Santamaría, B. A. . (2020). GeoGebra en 2D y 3D como recurso didáctico en un curso de integración múltiple: una experiencia de enseñanza-aprendizaje: GeoGebra in 2D and 3D as a learning resource in a multi-integration course: a teaching-learning experience. Revista Digital: Matemática, Educación E Internet, 21(1). https://doi.org/10.18845/rdmei.v21i1.5341.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Ramírez Santamaría</surname>
+                            <given-names>B. A.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>GeoGebra en 2D y 3D como recurso didáctico en un curso de integración múltiple: una experiencia de enseñanza-aprendizaje: GeoGebra in 2D and 3D as a learning resource in a multi-integration course: a teaching-learning experience</article-title>
+                    <source>Revista Digital: Matemática, Educación E Internet</source>
+                    <year>2020</year>
+                    <volume>21</volume>
+                    <issue>1</issue>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18845/rdmei.v21i1.5341">https://doi.org/10.18845/rdmei.v21i1.5341</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref19">
+                <label>[18]</label>
+                <mixed-citation>[18] Rodríguez, R., López, B y Mortera, F. (2017). El video como Recurso Educativo Abierto y la enseñanza de Matemáticas. Revista Electrónica de Investigación Educativa, 19(3), 92-100. https://doi.org/10.24320/redie.2017.19.3.936.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Rodríguez</surname>
+                            <given-names>R.</given-names>
+                        </name>
+                        <name>
+                            <surname>López</surname>
+                            <given-names>B</given-names>
+                        </name>
+                        <name>
+                            <surname>Mortera</surname>
+                            <given-names>F.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>El video como Recurso Educativo Abierto y la enseñanza de Matemáticas</article-title>
+                    <source>Revista Electrónica de Investigación Educativa</source>
+                    <year>2017</year>
+                    <volume>19</volume>
+                    <issue>3</issue>
+                    <fpage>92</fpage>
+                    <lpage>100</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.24320/redie.2017.19.3.936">https://doi.org/10.24320/redie.2017.19.3.936</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref20">
+                <label>[19]</label>
+                <mixed-citation>[19] Ruiz, L., Camarena, P., y Del Rivero, S. (2016). Prerrequisitos deficientes con software matemático en conceptos nuevos. Revista Mexicana De Investigación Educativa, 21(69), 349-383. https://comie.org.mx/revista/v2018/rmie/index.php/nrmie/article/view/72.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Ruiz</surname>
+                            <given-names>L.</given-names>
+                        </name>
+                        <name>
+                            <surname>Camarena</surname>
+                            <given-names>P.</given-names>
+                        </name>
+                        <name>
+                            <surname>Del Rivero</surname>
+                            <given-names>S.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Prerrequisitos deficientes con software matemático en conceptos nuevos</article-title>
+                    <source>Revista Mexicana De Investigación Educativa</source>
+                    <year>2016</year>
+                    <volume>21</volume>
+                    <issue>69</issue>
+                    <fpage>349</fpage>
+                    <lpage>383</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://comie.org.mx/revista/v2018/rmie/index.php/nrmie/article/view/72">https://comie.org.mx/revista/v2018/rmie/index.php/nrmie/article/view/72</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref21">
+                <label>[20]</label>
+                <mixed-citation>[20] Solana, P., Martínez, S y Sarmiento I. (2017). Nuevos Enfoques y Experiencias en el Formato Audiovisual para el Desarrollo de MOOCs. España: Universidad de Cantabria, España. https://ceur-ws.org/Vol-1836/4.pdf.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Solana</surname>
+                            <given-names>P.</given-names>
+                        </name>
+                        <name>
+                            <surname>Martínez</surname>
+                            <given-names>S</given-names>
+                        </name>
+                        <name>
+                            <surname>Sarmiento</surname>
+                            <given-names>I.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Nuevos Enfoques y Experiencias en el Formato Audiovisual para el Desarrollo de MOOCs</article-title>
+                    <source>España: Universidad de Cantabria, España</source>
+                    <year>2017</year>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://ceur-ws.org/Vol-1836/4.pdf">https://ceur-ws.org/Vol-1836/4.pdf</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref22">
+                <label>[21]</label>
+                <mixed-citation>[21] Uwurukundo, M. S., Maniraho, J. F., &amp; Tusiime, M. (2021). Effects of GeoGebra on Students’ Attitudes towards Learning Geometry: A Review of Literature. African Journal of Educational Studies in Mathematics and Sciences, 17(2), 127-138. https://www.ajol.info/index.php/ajesms/article/view/226083.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Uwurukundo</surname>
+                            <given-names>M. S.</given-names>
+                        </name>
+                        <name>
+                            <surname>Maniraho</surname>
+                            <given-names>J. F.</given-names>
+                        </name>
+                        <name>
+                            <surname>Tusiime</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Effects of GeoGebra on Students’ Attitudes towards Learning Geometry: A Review of Literature</article-title>
+                    <source>African Journal of Educational Studies in Mathematics and Sciences</source>
+                    <year>2021</year>
+                    <volume>17</volume>
+                    <issue>2</issue>
+                    <fpage>127</fpage>
+                    <lpage>138</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://www.ajol.info/index.php/ajesms/article/view/226083">https://www.ajol.info/index.php/ajesms/article/view/226083</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref23">
+                <label>[22]</label>
+                <mixed-citation>[22] Vidal Puga, M. D. P. (2006). Investigación de las TIC en la educación. RELATEC: Revista Latinoamericana de Tecnología Educativa, 5(2), 539‐552. https://relatec.unex.es/article/view/293/277.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Vidal Puga</surname>
+                            <given-names>M. D. P.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Investigación de las TIC en la educación</article-title>
+                    <source>RELATEC: Revista Latinoamericana de Tecnología Educativa</source>
+                    <year>2006</year>
+                    <volume>5</volume>
+                    <issue>2</issue>
+                    <fpage>539</fpage>
+                    <lpage>552</lpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://relatec.unex.es/article/view/293/277">https://relatec.unex.es/article/view/293/277</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+            <ref id="redalyc_607975560003_ref24">
+                <label>[23]</label>
+                <mixed-citation>[23] Ziatdinov, R., &amp; Valles Jr, J. R. (2022). Synthesis of modeling, visualization, and programming in GeoGebra as an effective approach for teaching and learning STEM topics. Mathematics, 10(3), 398. https://doi.org/10.3390/math10030398.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Ziatdinov</surname>
+                            <given-names>R.</given-names>
+                        </name>
+                        <name>
+                            <surname>Valles Jr</surname>
+                            <given-names>J. R.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Synthesis of modeling, visualization, and programming in GeoGebra as an effective approach for teaching and learning STEM topics</article-title>
+                    <source>Mathematics</source>
+                    <year>2022</year>
+                    <volume>10</volume>
+                    <issue>3</issue>
+                    <fpage>398</fpage>
+                    <comment>
+                        <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/math10030398">https://doi.org/10.3390/math10030398</ext-link>
+                    </comment>
+                </element-citation>
+            </ref>
+        </ref-list>
+        <fn-group>
+            <title>Notas</title>
+            <fn id="fn7" fn-type="other">
+                <label>1.</label>
+                <p>Fabiola Delgado Navarro. Profesora de la Universidad Estatal a Distancia. Dirección postal: San Pablo, Heredia, Costa Rica. Código postal: 40101. Correo electrónico: fdelgado@uned.ac.cr.</p>
+            </fn>
+            <fn id="fn8" fn-type="other">
+                <label>2.</label>
+                <p>Luis Diego Cascante Víquez. Profesor  de la Universidad Fidélitas. Dirección postal: Mercedes Norte, Heredia, Costa Rica. Código postal: 40102. Correo: luis.cascante@ufide.ac.cr</p>
+            </fn>
+            <fn id="fn9" fn-type="other">
+                <label>3.</label>
+                <p>Jeremías Ramírez Jiménez. Profesor de  Matemática de la Universidad Nacional. Dirección postal: San Isidro, Heredia, Costa Rica. Código Postal: 40602. Correo electrónico: jeremias.ramirez.jimenez@una.ac.cr</p>
+            </fn>
+            <fn id="fn10" fn-type="other">
+                <label>4.</label>
+                <p>Rebeca Solís Ortega. Profesora de la Escuela de Matemática del Instituto Tecnológico de Costa Rica. Dirección postal: Dulce Nombre, Cartago, Costa Rica. Código postal: 30109. Correo electrónico: rsolis@tec.ac.cr</p>
+            </fn>
+            <fn id="fn11" fn-type="other">
+                <label>5.</label>
+                <p>José Andrey Zamora Araya. Profesor de la Escuela de Matemática de la Universidad Nacional y de la Escuela de Estadística de la Universidad de Costa Rica. Dirección postal Barva de Heredia, Costa Rica. Código postal 86-3000. Correo electrónico jzamo@una.ac.cr</p>
+            </fn>
+        </fn-group>
+    </back>
+</article>
