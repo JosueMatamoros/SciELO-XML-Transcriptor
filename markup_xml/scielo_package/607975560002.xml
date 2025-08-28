@@ -27,9 +27,9 @@
                 <article-title >Practicas evaluativas de docentes de matemática costarricenses</article-title>
             </title-group>
             <contrib-group>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0003-1852-6599</contrib-id>
-                    <name name-style="western">
+                    <name>
                         <surname>Díaz Gutiérrez</surname>
                         <given-names>Elizabeth</given-names>
                     </name>
@@ -62,6 +62,11 @@
                     <year>2023</year>
                 </date>
             </history>
+            <permissions>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+                    <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License</license-p>
+                </license>
+            </permissions>
             <abstract>
                 <title>Resumen</title>
                 <p>Hace más de una década, en Costa Rica se realizó una reforma educativa que incluyó los Programas de Estudio de Matemática, en estos, la resolución de problemas se concibe como la punta de lanza que debe guiar la mediación pedagógica. La investigación surge por la necesidad de conocer, analizar y comprender las prácticas evaluativas de las personas docentes, a la luz del marco teórico de la propuesta curricular. Este es un estudio cualitativo, donde desde el método fenomenológico se busca un acercamiento a la realidad de las personas participantes y su accionar diario en el campo. Para la recolección de datos se acudió a personas expertas en el área, material documental, docentes de matemática y su respectivo estudiantado.</p>
