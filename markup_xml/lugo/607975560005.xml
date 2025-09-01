@@ -75,7 +75,7 @@
                 </fn>
             </author-notes>
             <pub-date pub-type="collection">
-                <season>Mar/Agu</season>
+                <season>Mar/Aug</season>
                 <year>2024</year>
             </pub-date>
             <volume>24</volume>
@@ -374,7 +374,7 @@
             <p>El menú principal (horizontal) estructura el material de tal forma que el estudiante pueda focalizar y organizar el estudio del contenido de acuerdo con sus intereses. Esto es, si busca un acercamiento general a los temas, si ya cuenta con ciertos conocimientos al respecto y busca profundizarlos o entender por qué ciertas propiedades son válidas, si elige trabajar con ejemplos que le ayuden a estructurar mejor los conocimientos o si desea poner en acción los aprendizajes adquiridos. El menú secundario (lateral) organiza el material según los aspectos fundamentales del contenido, identificados previamente al diseño, y que son las cuestiones que se espera que el estudiante aprenda en su estudio con este hipermedia. Finalmente, se utiliza una barra numérica que permite navegar por las distintas páginas individuales que presentan cada uno de estos aspectos fundamentales.</p>
             <p>
                 <xref ref-type="bibr" rid="ref9">(Mayer, 2009)</xref> también da cuenta del principio de segmentación según el cual, al presentar un material complejo, resulta conveniente estructurarlo en segmentos de información que se muestren secuencialmente, donde el estudiante pueda controlar el ritmo de navegación. El autor explica que según el principio de señalización se aprende mejor cuando se agregan señales que dirijan la atención del que aprende hacia lo más relevante del material dando algunas indicaciones para los distintos tipos de materiales: textual, auditivo o pictórico <xref ref-type="bibr" rid="ref9">(Mayer, 2009)</xref>. Asimismo, se indica que este tipo de señalización debe usarse con moderación, ya que de no ser así el diseño agrega confusión en lugar de dirigir la atención del estudiante.</p>
-            <p>La aplicación de los principios de segmentación y de señalización se puede apreciar en las Figuras <xref ref-type="fig" rid="gf2">2</xref> y 3. Estos principios se han implementado especialmente en aquellas secciones de profundización destinadas a demostrar alguna propiedad.</p>
+            <p>La aplicación de los principios de segmentación y de señalización se puede apreciar en las Figuras <xref ref-type="fig" rid="gf2">2</xref> y <xref ref-type="fig" rid="gf3">3</xref>. Estos principios se han implementado especialmente en aquellas secciones de profundización destinadas a demostrar alguna propiedad.</p>
             <p>
                 <fig id="gf2">
                     <label>
@@ -672,7 +672,12 @@
 </element-citation>
 </ref>
 <ref id="ref5">
-<mixed-citation>Del Río, L. S. D., Búcari, N. D., &amp; Sanz, C. V. (2016). Uso de recursos hipermediales para la enseñanza y el aprendizaje de la matemática. En II Congreso Internacional de Enseñanza de las Ciencias y la Matemática. Tandil.</mixed-citation>
+<mixed-citation>
+    Del Río, L. S. D., Búcari, N. D., &amp; Sanz, C. V. (2016). 
+    Uso de recursos hipermediales para la enseñanza y el aprendizaje de la matemática. 
+    En II Congreso Internacional de Enseñanza de las Ciencias y la Matemática. Tandil.
+</mixed-citation>
+
 <element-citation publication-type="confproc">
 <person-group person-group-type="author">
     <name>
@@ -688,12 +693,15 @@
         <given-names>C. V.</given-names>
     </name>
 </person-group>
-<source>II Congreso Internacional de Enseñanza de las Ciencias y la Matemática.</source>
+<source>Uso de recursos hipermediales para la enseñanza y el aprendizaje de la matemática</source>
 <year>2016</year>
+
+<conf-name>II Congreso Internacional de Enseñanza de las Ciencias y la Matemática</conf-name>
+
 <conf-loc>Tandil</conf-loc>
-<series>Uso de recursos hipermediales para la enseñanza y el aprendizaje de la matemática</series>
 </element-citation>
 </ref>
+
 <ref id="ref6">
 <mixed-citation>Del Río, L. S. D., Búcari, N. D., &amp; Sanz, C. V. (2019). Incidencia de un material didáctico hipermedial para la enseñanza y el aprendizaje de la Matemática. Journal of New Approaches in Educational Research, 52-59.</mixed-citation>
 <element-citation publication-type="journal">
@@ -741,7 +749,11 @@
 </element-citation>
 </ref>
 <ref id="ref11">
-<mixed-citation>Lehrer, R., Petrosino, A., Koehler, M., Bransford, J., &amp; McClain, K. (1999). Hypermedia technologies for case-based teacher education. National Council for Teachers of Mathematics.</mixed-citation>
+<mixed-citation>
+    Lehrer, R., Petrosino, A., Koehler, M., Bransford, J., &amp; McClain, K. (1999). 
+    Hypermedia technologies for case-based teacher education. 
+    En National Council for Teachers of Mathematics.
+</mixed-citation>
 <element-citation publication-type="confproc">
 <person-group person-group-type="author">
     <name>
@@ -765,9 +777,9 @@
         <given-names>K.</given-names>
     </name>
 </person-group>
-<source>National Council for Teachers of Mathematics.</source>
+<source>Hypermedia technologies for case-based teacher education</source>
 <year>1999</year>
-<series>Hypermedia technologies for case-based teacher education.</series>
+<conf-name>National Council for Teachers of Mathematics</conf-name>
 </element-citation>
 </ref>
 <ref id="ref8">
