@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE article
   PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "https://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
-<article article-type="editorial" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
     xmlns:mml="http://www.w3.org/1998/Math/MathML"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
@@ -17,7 +17,7 @@
             </publisher>
         </journal-meta>
         <article-meta>
-            <article-id pub-id-type="doi">https://doi.org/10.18845/rdmei.v24i2.6916</article-id>
+            <article-id pub-id-type="doi">10.18845/rdmei.v24i2.6916</article-id>
             <article-categories>
                 <subj-group subj-group-type="heading">
                     <subject>Artículos</subject>
@@ -27,7 +27,7 @@
                 <article-title >Solidos de revolución y TIC en la educación. Evaluación de una propuesta para su enseñanza</article-title>
             </title-group>
             <contrib-group>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0001-9635-0811</contrib-id>
                     <name >
                         <surname>Delgado Navarro</surname>
@@ -36,7 +36,7 @@
                     <xref ref-type="aff" rid="aff1"/>
                     <xref ref-type="fn" rid="fn12">1.</xref>
                 </contrib>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0001-8715-1925</contrib-id>
                     <name >
                         <surname>Cascante Víquez</surname>
@@ -45,7 +45,7 @@
                     <xref ref-type="aff" rid="aff2"/>
                     <xref ref-type="fn" rid="fn13">2.</xref>
                 </contrib>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0001-6608-791X</contrib-id>
                     <name >
                         <surname>Ramírez Jiménez</surname>
@@ -54,7 +54,7 @@
                     <xref ref-type="aff" rid="aff3"/>
                     <xref ref-type="fn" rid="fn15">3.</xref>
                 </contrib>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0002-3065-8386</contrib-id>
                     <name>
                         <surname>Solís Ortega</surname>
@@ -63,7 +63,7 @@
                     <xref ref-type="aff" rid="aff4"/>
                     <xref ref-type="fn" rid="fn16">4.</xref>
                 </contrib>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0001-6050-5850</contrib-id>
                     <name >
                         <surname>Zamora Araya</surname>
@@ -126,13 +126,13 @@
                 </fn>
             </author-notes>
             <pub-date pub-type="collection">
-                <season>Marc/Aug</season>
+                <season>Mar/Aug</season>
                 <year>2024</year>
             </pub-date>
             <volume>24</volume>
             <issue>2</issue>
-            <fpage>1</fpage>
-            <lpage>19</lpage>
+            <fpage>27</fpage>
+            <lpage>46</lpage>
             <history>
                 <date date-type="received" publication-format="dd mes yyyy">
                     <day>30</day>
@@ -148,10 +148,8 @@
             <permissions>
                 <copyright-year>2024</copyright-year>
                 <copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
-                <ali:free_to_read/>
-                <license license-type="open-access" xml:lang="es" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
-                    <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
-                    <license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+                    <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License</license-p>
                 </license>
             </permissions>
             <abstract>
@@ -187,12 +185,12 @@
     <body>
         <sec>
             <title>
-                <bold>Introducción</bold>
+                Introducción
             </title>
-            <p>Desde principios del siglo XX, las Tecnologías de la Información y la Comunicación (TIC) han experimentado un constante desarrollo. Aunque las primeras tecnologías que se pueden considerar precursoras de las TIC surgieron a finales del siglo XIX, como la radio y la máquina de escribir, fue a lo largo del siglo XX cuando se produjo un gran avance en esta área (Vidal Puga, 2006). Es hasta en la década de los 80 cuando se comienzan a realizar más investigaciones sobre su uso en la educación (Vidal Puga, 2006).</p>
-            <p>A medida que el uso de las TIC en ambientes de clases se popularizaba, más docentes, investigadores y estudiantes las adoptaban de forma paulatina en sus procesos de enseñanza y aprendizaje. Sin embargo, según Corral y Corral (2020), la pandemia ocasionada por el COVID-19 aceleró de manera significativa este proceso de adopción.</p>
-            <p>Cuando las TIC son incorporadas al salón de clases de manera consciente y planificada, pueden generar beneficios educativos significativos. Según Grisales-Aguirre (2018), algunos de estos beneficios están relacionados con la motivación y con el fomento de un rol más activo del estudiante. Esto se logra, según el autor, gracias a que algunas de estas herramientas permiten experimentar los conceptos a través de simulaciones e instrumentos interactivos. En esta misma línea, Das (2019), afirma que el uso de las TIC fomenta el trabajo colaborativo y el desarrollo del pensamiento crítico y científico, tanto del estudiantado como del cuerpo docente.</p>
-            <p>A pesar de la evidencia que sugiere que las TIC pueden traer beneficios en el proceso de enseñanza y aprendizaje, es importante tener en cuenta que no deben ser consideradas como un sustituto de la labor de las personas profesionales de la educación. Por esta razón, su aplicación debe ser cuidadosamente planificada por el cuerpo docente. Diversos autores como Corral y Corral (2020) y Díaz et al. (2021) han señalado que la improvisación o el uso forzado de las TIC pueden impedir que el proceso de enseñanza y aprendizaje sea óptimo, y que la interacción entre docentes y estudiantes se vea afectada negativamente.</p>
+            <p>Desde principios del siglo XX, las Tecnologías de la Información y la Comunicación (TIC) han experimentado un constante desarrollo. Aunque las primeras tecnologías que se pueden considerar precursoras de las TIC surgieron a finales del siglo XIX, como la radio y la máquina de escribir, fue a lo largo del siglo XX cuando se produjo un gran avance en esta área  <xref ref-type="bibr" rid="ref23">(Vidal Puga, 2006)</xref>. Es hasta en la década de los 80 cuando se comienzan a realizar más investigaciones sobre su uso en la educación (Vidal Puga, 2006).</p>
+            <p>A medida que el uso de las TIC en ambientes de clases se popularizaba, más docentes, investigadores y estudiantes las adoptaban de forma paulatina en sus procesos de enseñanza y aprendizaje. Sin embargo, según <xref ref-type="bibr" rid="ref7">Corral y Corral (2020)</xref>, la pandemia ocasionada por el COVID-19 aceleró de manera significativa este proceso de adopción.</p>
+            <p>Cuando las TIC son incorporadas al salón de clases de manera consciente y planificada, pueden generar beneficios educativos significativos. Según <xref ref-type="bibr" rid="ref12">Grisales-Aguirre (2018)</xref>, algunos de estos beneficios están relacionados con la motivación y con el fomento de un rol más activo del estudiante. Esto se logra, según el autor, gracias a que algunas de estas herramientas permiten experimentar los conceptos a través de simulaciones e instrumentos interactivos. En esta misma línea, <xref ref-type="bibr" rid="ref8">Das (2019)</xref>, afirma que el uso de las TIC fomenta el trabajo colaborativo y el desarrollo del pensamiento crítico y científico, tanto del estudiantado como del cuerpo docente.</p>
+            <p>A pesar de la evidencia que sugiere que las TIC pueden traer beneficios en el proceso de enseñanza y aprendizaje, es importante tener en cuenta que no deben ser consideradas como un sustituto de la labor de las personas profesionales de la educación. Por esta razón, su aplicación debe ser cuidadosamente planificada por el cuerpo docente. Diversos autores como <xref ref-type="bibr" rid="ref7">Corral y Corral (2020)</xref> y <xref ref-type="bibr" rid="ref9">Díaz et al. (2021)</xref> han señalado que la improvisación o el uso forzado de las TIC pueden impedir que el proceso de enseñanza y aprendizaje sea óptimo, y que la interacción entre docentes y estudiantes se vea afectada negativamente.</p>
             <p>Por esta razón, al utilizar las TIC en la práctica docente, es fundamental realizar un planeamiento didáctico adecuado que garantice su integración de forma fluida y natural. Asimismo, tras su implementación, es esencial realizar un análisis para evaluar si su uso ha resultado beneficioso o no en la práctica educativa, esto con el fin de identificar oportunidades de mejora y optimizar el proceso.</p>
             <p>Siguiendo esta consigna, y de acuerdo con lo planteado por Grisales (2018), quien indica la necesidad de realizar investigaciones sobre el impacto de las TIC en la educación superior, ya que hasta el momento la mayoría de estas se han enfocado en los grados de primaria y secundaria, se ha creado una propuesta educativa virtual que involucra el uso de las TIC para la enseñanza del tema de sólidos de revolución.</p>
             <p>El tema de sólidos de revolución es parte del programa del curso MAT003 Cálculo II de la Universidad Nacional de Costa Rica, el cual se imparte a estudiantes de diversas carreras universitarias, como lo son Ingeniería en Química Industrial y Economía.</p>
@@ -205,18 +203,18 @@
         </sec>
         <sec>
             <title>
-                <bold>Uso de las TIC en la educación</bold>
+                Uso de las TIC en la educación
             </title>
-            <p>Las Tecnologías de la Información y la Comunicación se entienden “como el conjunto de tecnologías que permiten la adquisición, producción, almacenamiento, tratamiento, comunicación, registro y presentación de informaciones, en forma de voz, imágenes y datos contenidos en señales de naturaleza acústica, óptica o electromagnética” (Anzola, 2014, p.74). Estas tecnologías incluyen dispositivos electrónicos, software, aplicaciones, contenido multimedia y más, y se han convertido en una herramienta fundamental en ámbitos tanto académicos como industriales.</p>
-            <p>Por otro lado, de acuerdo con Butcher et al. (2015), los recursos educativos abiertos son aquellos materiales como mapas, libros, videos, aplicaciones multimedia, podcasts y cualquier otro contenido que haya sido diseñado para la enseñanza y el aprendizaje que “esté plenamente disponible para ser usado por educadores y estudiantes, sin que haya necesidad de pagar regalías o derechos de licencia” (p. 5).</p>
+            <p>Las Tecnologías de la Información y la Comunicación se entienden “como el conjunto de tecnologías que permiten la adquisición, producción, almacenamiento, tratamiento, comunicación, registro y presentación de informaciones, en forma de voz, imágenes y datos contenidos en señales de naturaleza acústica, óptica o electromagnética” <xref ref-type="bibr" rid="ref3">(Anzola, 2014, p.74)</xref>. Estas tecnologías incluyen dispositivos electrónicos, software, aplicaciones, contenido multimedia y más, y se han convertido en una herramienta fundamental en ámbitos tanto académicos como industriales.</p>
+            <p>Por otro lado, de acuerdo con <xref ref-type="bibr" rid="ref6"> Butcher et al. (2015)</xref>, los recursos educativos abiertos son aquellos materiales como mapas, libros, videos, aplicaciones multimedia, podcasts y cualquier otro contenido que haya sido diseñado para la enseñanza y el aprendizaje que “esté plenamente disponible para ser usado por educadores y estudiantes, sin que haya necesidad de pagar regalías o derechos de licencia” (p. 5).</p>
             <p>En el ámbito educativo, los REA y las TIC están estrechamente relacionados, pues las TIC proporcionan herramientas y plataformas para la creación, distribución y uso de los REA, mientras que estos últimos pueden ayudar a integrar las TIC en la enseñanza y el aprendizaje, permitiendo a los estudiantes interactuar con los contenidos de manera más activa y autónoma. Por este motivo, se puede decir que los REA y las TIC son elementos complementarios. Los videos educativos, aplicaciones realizadas con software matemático y el uso de sistemas de gestión de aprendizaje, son ejemplos concretos de cómo los REA y las TIC se complementan entre sí en el ámbito educativo. A continuación, se describirán con más detalle estos tres elementos y su papel en la educación actual.</p>
             <sec>
                 <title>
-                    <bold>Uso de videos como recursos educativos abiertos</bold>
+                    Uso de videos como recursos educativos abiertos
                 </title>
-                <p>Los videos con fines educativos pueden ser considerados un tipo de REA. Cuando esto pasa, tal y como menciona Rodríguez et al. (2017), se les conoce como videos didácticos. Dichos autores consideran este material muy complejo pues debe “incluir audio, texto e imágenes combinadas en secuencias para transmitir un mensaje informativo” (p. 94). Es importante destacar, que se debe recurrir al uso de las TIC para poder diseñar, crear, editar y publicar este tipo de recursos.</p>
-                <p>Cuando los videos son desarrollados y aplicados adecuadamente en entornos educativos, pueden ofrecer varias ventajas. Por ejemplo, según la investigación de Rodríguez et al. (2017), los videos favorecen una mejor comprensión de los conceptos. Asimismo, Solana et al. (2017) señalan que los videos permiten a los estudiantes detener, analizar y repetir el contenido tantas veces como sea necesario, lo que les permite avanzar a su propio ritmo en los temas tratados. Además, Garcia-Pineda et al. (2020) sostienen que los videos didácticos interactivos permiten mantener la atención de la persona estudiante por “mucho más tiempo y hacen el aprendizaje más activo, ya que en cualquier momento se puede mostrar una pregunta acerca de lo visualizado” (p. 354)</p>
-                <p>Sin embargo, si los videos desarrollados o aplicados en grupos de estudiantes no cumplen con criterios de calidad o no siguen pautas definidas, es posible que no mejoren el proceso de enseñanza y aprendizaje. Es por esta razón que diversos autores, como Guo et al. (2014), Kizilcec et al. (2014), Brame (2016) y Solana et al. (2017), han definido pautas y lineamientos que deben seguir los videos para ser considerados adecuados para su uso en ambientes educativos. A continuación, se presenta un resumen de los principales consejos indicados por dichos autores:</p>
+                <p>Los videos con fines educativos pueden ser considerados un tipo de REA. Cuando esto pasa, tal y como menciona <xref ref-type="bibr" rid="ref19">Rodríguez et al. (2017)</xref>, se les conoce como videos didácticos. Dichos autores consideran este material muy complejo pues debe “incluir audio, texto e imágenes combinadas en secuencias para transmitir un mensaje informativo” (p. 94). Es importante destacar, que se debe recurrir al uso de las TIC para poder diseñar, crear, editar y publicar este tipo de recursos.</p>
+                <p>Cuando los videos son desarrollados y aplicados adecuadamente en entornos educativos, pueden ofrecer varias ventajas. Por ejemplo, según la investigación de <xref ref-type="bibr" rid="ref19">Rodríguez et al. (2017)</xref>, los videos favorecen una mejor comprensión de los conceptos. Asimismo, <xref ref-type="bibr" rid="ref21">Solana et al. (2017)</xref> señalan que los videos permiten a los estudiantes detener, analizar y repetir el contenido tantas veces como sea necesario, lo que les permite avanzar a su propio ritmo en los temas tratados. Además, <xref ref-type="bibr" rid="ref11">Garcia-Pineda et al. (2020)</xref> sostienen que los videos didácticos interactivos permiten mantener la atención de la persona estudiante por “mucho más tiempo y hacen el aprendizaje más activo, ya que en cualquier momento se puede mostrar una pregunta acerca de lo visualizado” (p. 354)</p>
+                <p>Sin embargo, si los videos desarrollados o aplicados en grupos de estudiantes no cumplen con criterios de calidad o no siguen pautas definidas, es posible que no mejoren el proceso de enseñanza y aprendizaje. Es por esta razón que diversos autores, como <xref ref-type="bibr" rid="ref13">Guo et al. (2014)</xref>,                    <xref ref-type="bibr" rid="ref14">Kizilcec et al. (2014)</xref>,                    <xref ref-type="bibr" rid="ref5">Brame (2016)</xref> y <xref ref-type="bibr" rid="ref21">Solana et al. (2017)</xref>, han definido pautas y lineamientos que deben seguir los videos para ser considerados adecuados para su uso en ambientes educativos. A continuación, se presenta un resumen de los principales consejos indicados por dichos autores:</p>
                 <p>
                     <list list-type="bullet">
                         <list-item>
@@ -242,22 +240,23 @@
             </sec>
             <sec>
                 <title>
-                    <bold>Papel del Software Matemático en la enseñanza</bold>
+                    Papel del Software Matemático en la enseñanza
                 </title>
-                <p>Maldonado Zuñiga et al. (2020) definen el software educativo como una herramienta capaz de sistematizar los contenidos impartidos en las diferentes asignaturas. Señalan que cuando se utiliza de manera adecuada, esta herramienta puede facilitar una atención diferenciada a cada estudiante, propiciar la interactividad y permitir una retroalimentación rápida que hace que las clases sean amenas y motivadoras.</p>
-                <p>En el caso específico de las matemáticas, Ruiz et al. (2016) señalan que el software matemático desempeña un papel fundamental como herramienta tecnológica, ya que permite la realización de cálculos y simulaciones matemáticas, lo que facilita la comprensión y visualización de temas por parte del estudiantado. Existen varios tipos de software matemático, tal como señala Fahlgren et al. (2021), entre ellos se encuentran: sistemas algebraicos computacionales (CAS por sus siglas en inglés), programas de geometría o matemática dinámica, paquetes de estadística, software de análisis numérico, entre otros. Algunos ejemplos de estos tipos de software son Matlab, R, Octave, Mathematica, Symbolab, Geogebra, Desmos, entre otros.</p>
+                <p>
+                    <xref ref-type="bibr" rid="ref15">Maldonado Zuñiga et al. (2020)</xref> definen el software educativo como una herramienta capaz de sistematizar los contenidos impartidos en las diferentes asignaturas. Señalan que cuando se utiliza de manera adecuada, esta herramienta puede facilitar una atención diferenciada a cada estudiante, propiciar la interactividad y permitir una retroalimentación rápida que hace que las clases sean amenas y motivadoras.</p>
+                <p>En el caso específico de las matemáticas, <xref ref-type="bibr" rid="ref20">Ruiz et al. (2016)</xref> señalan que el software matemático desempeña un papel fundamental como herramienta tecnológica, ya que permite la realización de cálculos y simulaciones matemáticas, lo que facilita la comprensión y visualización de temas por parte del estudiantado. Existen varios tipos de software matemático, tal como señala <xref ref-type="bibr" rid="ref10">Fahlgren et al. (2021)</xref>, entre ellos se encuentran: sistemas algebraicos computacionales (CAS por sus siglas en inglés), programas de geometría o matemática dinámica, paquetes de estadística, software de análisis numérico, entre otros. Algunos ejemplos de estos tipos de software son Matlab, R, Octave, Mathematica, Symbolab, Geogebra, Desmos, entre otros.</p>
                 <p>Cada uno de estos programas tiene diferentes funcionalidades y aplicaciones. Para efectos de esta investigación, se utilizaron dos aplicaciones gratuitas: Symbolab para el manejo de problemas algebraicos, y Geogebra para la visualización interactiva de los contenidos elegidos. A continuación, se explica un poco de ellos.</p>
-                <p>Symbolab es una aplicación disponible tanto en navegadores web como en aplicación para dispositivos móviles, fue desarrollada por la compañía EqsQuest Ltd. y publicada en el 2011. Barán et al. (2014) menciona que funciona “como un buscador semántico de fórmulas matemáticas, es decir, entiende el significado de los símbolos introducidos en la consulta” (p. 3). Agustín et al. (2023) indican que esta herramienta puede ser utilizada para resolver problemas de álgebra, cálculo, trigonometría, estadística, matrices y otros más. Además, señalan que el programa es muy intuitivo de utilizar y proporciona una respuesta paso a paso, lo que resulta muy útil para el aprendizaje de las personas.</p>
-                <p>Symbolab ha sido utilizado en varias investigaciones para medir como su uso, debidamente planeado, puede ayudar a mejorar los procesos de enseñanza y aprendizaje. Ejemplo de esto es la investigación realizada por Agustín et al. (2023) en donde se notó una diferencia en el aumento de la capacidad de razonamiento matemático entre los estudiantes que utilizaron Symbolab versus los que no, en actividades de matemática de primer nivel universitario. Por otro lado, Barán et al. (2014) encontraron que el uso adecuado del Symbolab, en el tema de series numéricas, no sólo facilita la comprensión por parte del estudiantado, sino que también favorece el desarrollo de las competencias matemáticas.</p>
-                <p>Por otro lado, Geogebra, tal y como lo mencionan Ziatdinov y Valles (2022), es una aplicación interactiva que permite trabajar temas de diferentes áreas de la matemática como lo son la geometría, el álgebra, la estadística y el cálculo. Posee una interfaz dinámica que permite a las personas visualizar de manera precisa e interactiva su trabajo, modelos y resultados.</p>
-                <p>El uso de Geogebra en la educación ha sido ampliamente estudiado. Por ejemplo, Uwurukundo et al. (2021) realizaron una revisión sistemática de 23 investigaciones sobre el uso de Geogebra en Geometría. Los autores encontraron que en las investigaciones analizadas hubo un efecto positivo en las actitudes de los estudiantes hacia la geometría en términos de interés, compromiso y aprendizaje activo, autoeficacia y autorregulación, y actitudes positivas mejoradas. Además, como dato a considerar, más de la mitad de las investigaciones emplearon un diseño de investigación cuasi-experimental.</p>
-                <p>De manera similar, Muñante-Toledo et al. (2021) realizaron una revisión sistemática para analizar los efectos del uso de Geogebra en las habilidades matemáticas de los estudiantes. Los autores analizaron 17 investigaciones y entre los principales hallazgos se encontró que Geogebra facilita el incremento de las competencias matemáticas de los estudiantes durante su aprendizaje. Esto se debe a que el programa facilita la manipulación y visualización de los contenidos, permitiendo al estudiantado enfocarse en los procedimientos para modelar un problema e interpretar sus soluciones desarrollando su pensamiento crítico.</p>
-                <p>En el contexto de Costa Rica, Ramírez-Santamaría (2020) llevó a cabo un estudio utilizando GeoGebra en 2D y 3D como recurso didáctico para abordar temas relacionados con integración múltiple. Los hallazgos principales revelaron que el uso de GeoGebra tuvo un impacto positivo en la motivación y comprensión de los estudiantes en relación con estos temas.</p>
-                <p>De manera similar, Poveda Fernández y García-Cuéllar (2021) realizaron un análisis para investigar cómo el uso constante de GeoGebra, en el contexto de la resolución de problemas, influyó en un grupo de educadores matemáticos en formación. Los resultados resaltaron que este software se convirtió en una herramienta clave que fomentó nuevas formas de razonamiento a través de la exploración dinámica. Las estrategias de solución empleadas permitieron a los participantes visualizar patrones, formular y validar conjeturas, transitando desde el uso de argumentos visuales o empíricos hasta la construcción de modelos algebraicos o geométricos que establecían conexiones entre conceptos de probabilidad, geometría euclidiana y trigonometría.</p>
+                <p>Symbolab es una aplicación disponible tanto en navegadores web como en aplicación para dispositivos móviles, fue desarrollada por la compañía EqsQuest Ltd. y publicada en el 2011. <xref ref-type="bibr" rid="ref4">Barán et al. (2014)</xref> menciona que funciona “como un buscador semántico de fórmulas matemáticas, es decir, entiende el significado de los símbolos introducidos en la consulta” (p. 3). <xref ref-type="bibr" rid="ref2">Agustín et al. (2023)</xref> indican que esta herramienta puede ser utilizada para resolver problemas de álgebra, cálculo, trigonometría, estadística, matrices y otros más. Además, señalan que el programa es muy intuitivo de utilizar y proporciona una respuesta paso a paso, lo que resulta muy útil para el aprendizaje de las personas.</p>
+                <p>Symbolab ha sido utilizado en varias investigaciones para medir como su uso, debidamente planeado, puede ayudar a mejorar los procesos de enseñanza y aprendizaje. Ejemplo de esto es la investigación realizada por <xref ref-type="bibr" rid="ref2">Agustín et al. (2023)</xref> en donde se notó una diferencia en el aumento de la capacidad de razonamiento matemático entre los estudiantes que utilizaron Symbolab versus los que no, en actividades de matemática de primer nivel universitario. Por otro lado, <xref ref-type="bibr" rid="ref4">Barán et al. (2014)</xref> encontraron que el uso adecuado del Symbolab, en el tema de series numéricas, no sólo facilita la comprensión por parte del estudiantado, sino que también favorece el desarrollo de las competencias matemáticas.</p>
+                <p>Por otro lado, Geogebra, tal y como lo mencionan <xref ref-type="bibr" rid="ref24">Ziatdinov y Valles (2022)</xref>, es una aplicación interactiva que permite trabajar temas de diferentes áreas de la matemática como lo son la geometría, el álgebra, la estadística y el cálculo. Posee una interfaz dinámica que permite a las personas visualizar de manera precisa e interactiva su trabajo, modelos y resultados.</p>
+                <p>El uso de Geogebra en la educación ha sido ampliamente estudiado. Por ejemplo, <xref ref-type="bibr" rid="ref22">Uwurukundo et al. (2021)</xref> realizaron una revisión sistemática de 23 investigaciones sobre el uso de Geogebra en Geometría. Los autores encontraron que en las investigaciones analizadas hubo un efecto positivo en las actitudes de los estudiantes hacia la geometría en términos de interés, compromiso y aprendizaje activo, autoeficacia y autorregulación, y actitudes positivas mejoradas. Además, como dato a considerar, más de la mitad de las investigaciones emplearon un diseño de investigación cuasi-experimental.</p>
+                <p>De manera similar, <xref ref-type="bibr" rid="ref16">Muñante-Toledo et al. (2021)</xref> realizaron una revisión sistemática para analizar los efectos del uso de Geogebra en las habilidades matemáticas de los estudiantes. Los autores analizaron 17 investigaciones y entre los principales hallazgos se encontró que Geogebra facilita el incremento de las competencias matemáticas de los estudiantes durante su aprendizaje. Esto se debe a que el programa facilita la manipulación y visualización de los contenidos, permitiendo al estudiantado enfocarse en los procedimientos para modelar un problema e interpretar sus soluciones desarrollando su pensamiento crítico.</p>
+                <p>En el contexto de Costa Rica, <xref ref-type="bibr" rid="ref18">Ramírez-Santamaría (2020)</xref> llevó a cabo un estudio utilizando GeoGebra en 2D y 3D como recurso didáctico para abordar temas relacionados con integración múltiple. Los hallazgos principales revelaron que el uso de GeoGebra tuvo un impacto positivo en la motivación y comprensión de los estudiantes en relación con estos temas.</p>
+                <p>De manera similar, <xref ref-type="bibr" rid="ref17">Poveda Fernández y García-Cuéllar (2021)</xref> realizaron un análisis para investigar cómo el uso constante de GeoGebra, en el contexto de la resolución de problemas, influyó en un grupo de educadores matemáticos en formación. Los resultados resaltaron que este software se convirtió en una herramienta clave que fomentó nuevas formas de razonamiento a través de la exploración dinámica. Las estrategias de solución empleadas permitieron a los participantes visualizar patrones, formular y validar conjeturas, transitando desde el uso de argumentos visuales o empíricos hasta la construcción de modelos algebraicos o geométricos que establecían conexiones entre conceptos de probabilidad, geometría euclidiana y trigonometría.</p>
             </sec>
             <sec>
                 <title>
-                    <bold>Sistemas de Gestión de Aprendizaje como medios para publicar REA</bold>
+                    Sistemas de Gestión de Aprendizaje como medios para publicar REA
                 </title>
                 <p>Los sistemas de gestión de aprendizajes (SGA) proporcionan a profesores y estudiantes un ambiente de clase virtual que refuerza los procesos de aprendizaje (Bradley, 2021). Existen muchos SGA disponibles en el mercado, sin embargo, tal y como mencionan Salah y Thabet (2021), no existe uno que sea óptimo y que ofrezca un “paquete todo en uno”, así que cada docente debe analizar los sistemas disponibles y elegir aquel que se adapte a sus necesidades.</p>
                 <p>Particularmente, un SGA que se ha destacado en los últimos años es Schoology. Este sistema es gratuito. Además, tal y como lo menciona Briones et al. (2021), brinda una interfaz amigable con el usuario, la cual tiene diversas herramientas para organizar el contenido de los cursos, realizar evaluaciones en línea, dar retroalimentación a los estudiantes, almacenar contenidos interactivos, entre otras opciones.</p>
@@ -265,7 +264,7 @@
         </sec>
         <sec>
             <title>
-                <bold>Contexto del estudio </bold>
+                Contexto del estudio 
             </title>
             <p>Existen diversas situaciones que motivan la elaboración e implementación de nuevas propuestas para la Enseñanza de la Matemática, y en este caso particular, para la enseñanza del Cálculo a nivel universitario. No obstante, las dos razones primordiales que sirven de fundamento para esta investigación han sido el rendimiento académico y la motivación del estudiantado.</p>
             <p>En este caso, se entiende rendimiento académico como la calificación obtenida por cada estudiante en el curso. En la tabla <xref ref-type="table" rid="gt1">1</xref>, se presenta el rendimiento académico de los estudiantes matriculados desde el II Ciclo 2016 hasta el I Ciclo 2020 en el curso MAT003 Cálculo II de la Universidad Nacional de Costa Rica.</p>
@@ -371,7 +370,7 @@
         </sec>
         <sec>
             <title>
-                <bold>Método</bold>
+                Método
             </title>
             <p>En esta investigación se utilizó una metodología cuasi experimental de tipo cuantitativo para explorar el impacto de la propuesta educativa tanto en las calificaciones como en la actitud estudiantil en el contenido de sólidos de revolución del curso MAT003 Cálculo II de la Universidad Nacional de Costa Rica.</p>
             <p>La metodología cuasi experimental fue seleccionada debido a que, a diferencia de un experimento verdaderamente aleatorizado, no fue posible asignar aleatoriamente al estudiantado al grupo de control y experimental. Esto se debió a que los y las estudiantes tenían la libertad de matricularse con cualquier profesor y en cualquier horario, lo que dificultaba la creación de grupos homogéneos. No obstante, se seleccionó aleatoriamente uno de ellos para ser el grupo control y el otro el experimental y las lecciones de ambos grupos fueron impartidas por el mismo docente usando una misma metodología de trabajo, pero el grupo experimental tuvo acceso a la propuesta educativa virtual. Además, como se comentó anteriormente, los grupos se pueden considerar equivalentes en cuanto a rendimiento académico, pues sus notas en el curso que es requisito (cálculo I) no son significativamente diferentes.</p>
@@ -391,19 +390,19 @@
         </sec>
         <sec>
             <title>
-                <bold>Propuesta educativa</bold>
+                Propuesta educativa
             </title>
             <p>En esta sección, se describe la propuesta educativa virtual diseñada para mejorar el aprendizaje del tema de sólidos de revolución, y se explica cómo se aplicó en un contexto de enseñanza remota durante la emergencia sanitaria ocasionada por el virus de la COVID-19. La descripción se divide en dos partes: en primer lugar, se presentará la propuesta educativa en sí misma, que se enfoca en la integración de diferentes REA especialmente diseñados para este tema. En segundo lugar, se detallará cómo se implementó la propuesta en el segundo ciclo de 2020, incluyendo los criterios de inclusión y exclusión utilizados para seleccionar a las personas estudiantes participantes.</p>
             <sec>
                 <title>
-                    <bold>Descripción de la propuesta</bold>
+                    Descripción de la propuesta
                 </title>
                 <p>La propuesta educativa virtual diseñada en este estudio se compuso de un conjunto de REA, tales como videos, prácticas en línea y material didáctico, que se utilizaron para enseñar a los estudiantes el cálculo de volúmenes de sólidos de revolución. Adicionalmente, se realizó un taller en el que se le enseñó al estudiantado la utilización de herramientas tecnológicas, como Symbolab, Geogebra y la calculadora científica, para la resolución de problemas asociados a este tema. Un resumen de los componentes de esta propuesta puede observarse en la figura <xref ref-type="fig" rid="gf1">1</xref>.
                 </p>
                 <p>
                     <fig id="gf1">
                         <label>
-                            <bold>Figura 1:</bold>
+                            Figura 1:
                         </label>
                         <caption>
                             <title>Resumen de la propuesta educativa virtual</title>
@@ -422,7 +421,7 @@
                 <p>
                     <fig id="gf2">
                         <label>
-                            <bold>Figura 2:</bold>
+                            Figura 2:
                         </label>
                         <caption>
                             <title>Organización de los REA en la plataforma Schoology</title>
@@ -435,7 +434,7 @@
             </sec>
             <sec>
                 <title>
-                    <bold>Aplicación de la propuesta</bold>
+                    Aplicación de la propuesta
                 </title>
                 <p>La propuesta educativa virtual se implementó durante el II ciclo del año 2020. Tanto el grupo control como el experimental estaban inicialmente conformados por 32 estudiantes cada uno. Sin embargo, después de aplicar los criterios de inclusión y exclusión, se obtuvo que para el grupo experimental se tomaron en cuenta los datos de 20 personas, mientras que para el grupo control se consideraron 30 personas. La disminución del grupo experimental se debió a que seis estudiantes no realizaron el cuestionario de análisis final, por lo que se desconoce si hicieron uso de la propuesta. Además, dos estudiantes que realizaron dicho cuestionario no hicieron uso de la plataforma. Si bien se pretendía contar con un número equitativo de participantes en cada grupo, la disparidad en la cantidad de personas fue inevitable debido a factores externos fuera del control del grupo investigador.</p>
                 <p>Antes de aplicar la propuesta educativa, se envió un formulario tanto al grupo experimental como al de control, con el objetivo de verificar que ambos grupos tuvieran características similares y así disminuir la posibilidad de que las diferencias entre ellos se debieran a otros factores. En la tabla <xref ref-type="table" rid="gt2">2</xref> se pueden ver las variables que se analizaron y los resultados obtenidos.</p>
@@ -563,11 +562,11 @@
         </sec>
         <sec>
             <title>
-                <bold>Resultados</bold>
+                Resultados
             </title>
             <sec>
                 <title>
-                    <bold>Realización del taller</bold>
+                    Realización del taller
                 </title>
                 <p>El taller se desarrolló de forma virtual con la participación de 23 estudiantes del grupo experimental (se debe tener en cuenta que para este punto no se habían aplicado los criterios de exclusión), y tuvo una duración de 40 minutos aproximadamente.</p>
                 <p>Durante el taller se realizó una explicación detallada acerca de la utilización del software Geogebra y Symbolab, así como también el uso de la calculadora científica. Para esto, se utilizó una presentación con la información pertinente y el uso de una tableta graficadora para el desarrollo de los ejercicios. Cabe recalcar que el taller se brindó como herramienta de apoyo antes del segundo examen parcial.</p>
@@ -632,7 +631,7 @@
                 <p>
                     <fig id="gf3">
                         <label>
-                            <bold>Figura 3</bold>
+                            Figura 3
                         </label>
                         <caption>
                             <title>Taller: Uso del Software Geogebra para la solución de la segunda actividad</title>
@@ -645,7 +644,7 @@
             </sec>
             <sec>
                 <title>
-                    <bold>Aplicación del segundo examen parcial</bold>
+                    Aplicación del segundo examen parcial
                 </title>
                 <p>El segundo examen parcial fue realizado por los investigadores y supervisado por el profesor coordinador del curso. Este examen se llevó a cabo virtualmente en el “Aula Virtual", que es un sistema de gestión del aprendizaje basado en Moodle y es el sistema oficial de la Universidad Nacional. La prueba evaluaba exclusivamente el tema de sólidos de revolución y estaba compuesta por cinco preguntas de selección única y una pregunta de desarrollo. Para resolver las preguntas de la prueba, cada estudiante debía utilizar el método de discos o el de capas para determinar el volumen de un sólido, mediante el planteamiento de una integral definida. El ítem de desarrollo de ambos grupos fue revisado por los investigadores, y se utilizó una rúbrica correspondiente a los métodos (capas y discos) que podían utilizar los estudiantes para resolver el ejercicio.</p>
                 <p>Los resultados del examen, tanto para el grupo control como para el experimental, se presentan en la tabla <xref ref-type="table" rid="gt3">3</xref>. En general, se puede observar que el grupo experimental obtuvo mejores resultados. Aunque en ambos grupos la nota máxima obtenida fue 100, en el grupo control la nota mínima fue más baja que la del grupo experimental. Además, tanto la mediana, la media aritmética y la moda fueron superiores en el grupo experimental. Finalmente, se puede observar que el recorrido y la desviación estándar son menores en el grupo experimental.</p>
@@ -706,7 +705,7 @@
             </sec>
             <sec>
                 <title>
-                    <bold>Análisis de la hipótesis</bold>
+                    Análisis de la hipótesis
                 </title>
                 <p>Se aplicaron pruebas de hipótesis tomando como referencia un nivel de significancia del 5%, comúnmente usado en estudios del campo educacional, para determinar si los estudiantes que utilizaron la propuesta educativa virtual presentaban un mejor rendimiento académico previo en el curso de MAT002 Cálculo I en comparación con aquellos que no la utilizaron, ya que esta variable podría sesgar los resultados obtenidos. Por ello, la primera hipótesis que se desarrolló fue:</p>
                 <p>
@@ -812,7 +811,7 @@
             </sec>
             <sec>
                 <title>
-                    <bold>Percepción del estudiantado sobre la propuesta educativa virtual</bold>
+                    Percepción del estudiantado sobre la propuesta educativa virtual
                 </title>
                 <p>Después de que los estudiantes completaran la propuesta educativa y realizaran el segundo examen parcial, se aplicó un segundo cuestionario a los y las participantes del grupo experimental. De las 32 personas matriculadas en este grupo, se obtuvieron datos de 21 estudiantes. El objetivo de este cuestionario era analizar la percepción de cada estudiante sobre la utilidad de la propuesta educativa y su opinión sobre la calidad del material presentado.</p>
                 <p>Los datos del cuestionario fueron obtenidos mediante un formulario de Google, el cual fue completado por cada estudiante durante una sesión sincrónica en la que parte del equipo investigador del proyecto estuvo presente para proporcionar orientación y aclarar cualquier pregunta o inquietud que pudiera surgir.</p>
@@ -867,7 +866,7 @@
                 <p>
                     <fig id="gf4">
                         <label>
-                            <bold>Figura 4:</bold>
+                            Figura 4:
                         </label>
                         <caption>
                             <title>Calidad de los videos según los estudiantes</title>
@@ -881,11 +880,11 @@
         </sec>
         <sec>
             <title>
-                <bold>Discusión</bold>
+                Discusión
             </title>
             <sec>
                 <title>
-                    <bold>Conclusiones y recomendaciones</bold>
+                    Conclusiones y recomendaciones
                 </title>
                 <p>La presente investigación buscó realizar y evaluar la aplicación de una propuesta educativa virtual en el aprendizaje del tema de sólidos de revolución en estudiantes universitarios.</p>
                 <p>En relación con el diseño de la propuesta educativa, se desarrollaron diversos recursos educativos abiertos que incluían videos, prácticas en línea y material de apoyo, los cuales fueron diseñados siguiendo las recomendaciones de expertos en la materia. Estos recursos se alojaron en Schoology, un sistema de gestión del aprendizaje. Además de poner estos recursos a disposición de los estudiantes, se realizó un taller en el que se explicó el uso efectivo de las herramientas Schoology, GeoGebra, Symbolab y la calculadora científica para el estudio de temas relacionados con sólidos de revolución.</p>
@@ -901,9 +900,8 @@
     <back>
         <ref-list>
             <title>Referencias</title>
-            <ref id="redalyc_607975560003_ref2">
-                <label>[1]</label>
-                <mixed-citation>[1] Agustin, S. Y., Susilawati, W., &amp; Nuraida, I. (2023). Mathematical reasoning through symbolab match mine learning. In AIP Conference Proceedings (Vol. 2572, No. 1, p. 050006). AIP Publishing LLC. https://doi.org/10.1063/5.0121652.</mixed-citation>
+            <ref id="ref2">
+                <mixed-citation>Agustin, S. Y., Susilawati, W., &amp; Nuraida, I. (2023). Mathematical reasoning through symbolab match mine learning. In AIP Conference Proceedings (Vol. 2572, No. 1, p. 050006). AIP Publishing LLC. https://doi.org/10.1063/5.0121652.</mixed-citation>
                 <element-citation publication-type="confproc">
                     <person-group person-group-type="author">
                         <name>
@@ -929,9 +927,8 @@
                     <issue-part>1, p. 050006)</issue-part>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref3">
-                <label>[2]</label>
-                <mixed-citation>[2] Anzola, A. (2014). TIC, corresponsabilidad y desarrollo humano en Venezuela. Generalidades sobre su vinculación y fundamentación constitucional y legal. Teorías, enfoques y aplicaciones en las Ciencias Sociales, 14, 71-81. https://dialnet.unirioja.es/servlet/articulo?codigo=6577532.</mixed-citation>
+            <ref id="ref3">
+                <mixed-citation>Anzola, A. (2014). TIC, corresponsabilidad y desarrollo humano en Venezuela. Generalidades sobre su vinculación y fundamentación constitucional y legal. Teorías, enfoques y aplicaciones en las Ciencias Sociales, 14, 71-81. https://dialnet.unirioja.es/servlet/articulo?codigo=6577532.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -950,9 +947,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref4">
-                <label>[3]</label>
-                <mixed-citation>[3] Barán, V., Frausin, A., &amp; de los Milagros Gutiérrez, M. (2019). Software tools for teaching numerical series at the university level. In 2019 38th International Conference of the Chilean Computer Science Society (SCCC) (pp. 1-6). IEEE. https://doi.org/10.1109/SCCC49216.2019.8966439.</mixed-citation>
+            <ref id="ref4">
+                <mixed-citation>Barán, V., Frausin, A., &amp; de los Milagros Gutiérrez, M. (2019). Software tools for teaching numerical series at the university level. In 2019 38th International Conference of the Chilean Computer Science Society (SCCC) (pp. 1-6). IEEE. https://doi.org/10.1109/SCCC49216.2019.8966439.</mixed-citation>
                 <element-citation publication-type="confproc">
                     <person-group person-group-type="author">
                         <name>
@@ -978,9 +974,8 @@
                     <conf-name>Software tools for teaching numerical series at the university level. In 2019 38th International Conference of the Chilean Computer Science Society (SCCC)</conf-name>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref5">
-                <label>[4]</label>
-                <mixed-citation>[4] Brame, C. J. (2016). Effective educational videos: Principles and guidelines for maximizing student learning from video content. CBE—Life Sciences Education, 15(4), es6. https://doi.org/10.1187/cbe.16-03-0125.</mixed-citation>
+            <ref id="ref5">
+                <mixed-citation>Brame, C. J. (2016). Effective educational videos: Principles and guidelines for maximizing student learning from video content. CBE—Life Sciences Education, 15(4), es6. https://doi.org/10.1187/cbe.16-03-0125.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -998,9 +993,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref6">
-                <label>[5]</label>
-                <mixed-citation>[5] Butcher, N., Kanwar, A., &amp; Uvalic-Trumbic, S. (2015). Guía básica de recursos educativos abiertos (REA). UNESCO Publishing. https://unesdoc.unesco.org/ark:/48223/pf0000232986.</mixed-citation>
+            <ref id="ref6">
+                <mixed-citation>Butcher, N., Kanwar, A., &amp; Uvalic-Trumbic, S. (2015). Guía básica de recursos educativos abiertos (REA). UNESCO Publishing. https://unesdoc.unesco.org/ark:/48223/pf0000232986.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1024,9 +1018,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref7">
-                <label>[6]</label>
-                <mixed-citation>[6] Corral, Y y Corral, I. (2020). Una mirada a la educación a distancia y uso de las TICs en tiempos de pandemia. Revista Eduweb, 14(1), 143-150. https://revistaeduweb.org/index.php/eduweb/article/view/14.</mixed-citation>
+            <ref id="ref7">
+                <mixed-citation>Corral, Y y Corral, I. (2020). Una mirada a la educación a distancia y uso de las TICs en tiempos de pandemia. Revista Eduweb, 14(1), 143-150. https://revistaeduweb.org/index.php/eduweb/article/view/14.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1050,9 +1043,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref8">
-                <label>[7]</label>
-                <mixed-citation>[7] Das, K. (2019). Role of ICT for Better Mathematics Teaching. Shanlax International Journal of Education, 7(4), 19-28. https://doi.org/10.34293/education.v7i4.641.</mixed-citation>
+            <ref id="ref8">
+                <mixed-citation>Das, K. (2019). Role of ICT for Better Mathematics Teaching. Shanlax International Journal of Education, 7(4), 19-28. https://doi.org/10.34293/education.v7i4.641.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1072,9 +1064,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref9">
-                <label>[8]</label>
-                <mixed-citation>[8] Díaz, J., Ruiz, A y Egüez, C. (2021). Impacto de las TIC: desafíos y oportunidades de la Educación Superior frente al COVID-19. Revista Científica UISRAEL, 8(2), 113-134. https://doi.org/10.35290/rcui.v8n2.2021.448.</mixed-citation>
+            <ref id="ref9">
+                <mixed-citation>Díaz, J., Ruiz, A y Egüez, C. (2021). Impacto de las TIC: desafíos y oportunidades de la Educación Superior frente al COVID-19. Revista Científica UISRAEL, 8(2), 113-134. https://doi.org/10.35290/rcui.v8n2.2021.448.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1102,9 +1093,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref10">
-                <label>[9]</label>
-                <mixed-citation>[9] Fahlgren, M., Brunström, M., Dilling, F., Kristinsdóttir, B., Pinkernell, G., &amp; Weigand, H. G. (2021). Technology-rich assessment in mathematics. In Mathematics Education in the Digital Age (pp. 69-83). Routledge.</mixed-citation>
+            <ref id="ref10">
+                <mixed-citation>Fahlgren, M., Brunström, M., Dilling, F., Kristinsdóttir, B., Pinkernell, G., &amp; Weigand, H. G. (2021). Technology-rich assessment in mathematics. In Mathematics Education in the Digital Age (pp. 69-83). Routledge.</mixed-citation>
                 <element-citation publication-type="book">
                     <person-group person-group-type="author">
                         <name>
@@ -1139,9 +1129,8 @@
                     <series>Technology-rich assessment in mathematics. In Mathematics Education in the Digital Age</series>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref11">
-                <label>[10]</label>
-                <mixed-citation>[10] Garcia-Pineda, Miguel, Esther De Ves, M. Asunción Castaño, Sandra Roger, Maximo Cobos, Jose M. Claver, Xaro Benavent García, Miguel Arevalillo-Herráez, and Juan Gutierrez-Aguado. (2020). Vídeos interactivos para mejorar el proceso enseñanza-aprendizaje en la generación YouTube. https://rua.ua.es/dspace/bitstream/10045/125240/1/JENUI_2020_050.pdf.</mixed-citation>
+            <ref id="ref11">
+                <mixed-citation>Garcia-Pineda, Miguel, Esther De Ves, M. Asunción Castaño, Sandra Roger, Maximo Cobos, Jose M. Claver, Xaro Benavent García, Miguel Arevalillo-Herráez, and Juan Gutierrez-Aguado. (2020). Vídeos interactivos para mejorar el proceso enseñanza-aprendizaje en la generación YouTube. https://rua.ua.es/dspace/bitstream/10045/125240/1/JENUI_2020_050.pdf.</mixed-citation>
                 <element-citation publication-type="other">
                     <person-group person-group-type="author">
                         <name>
@@ -1181,7 +1170,6 @@
                             <given-names>Juan</given-names>
                         </name>
                     </person-group>
-                    <source>Rua</source>
                     <year>2020</year>
                     <comment>
                         <ext-link ext-link-type="uri" xlink:href="https://rua.ua.es/dspace/bitstream/10045/125240/1/JENUI_2020_050.pdf">https://rua.ua.es/dspace/bitstream/10045/125240/1/JENUI_2020_050.pdf</ext-link>
@@ -1189,9 +1177,8 @@
                     <series>Vídeos interactivos para mejorar el proceso enseñanza-aprendizaje en la generación YouTube</series>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref12">
-                <label>[11]</label>
-                <mixed-citation>[11] Grisales-Aguirre, A. M. (2018). Uso de recursos TIC en la enseñanza de las matemáticas: retos y perspectivas. Entramado, 14(2), 198-214. https://doi.org/10.18041/1900-3803/entramado.2.4751.</mixed-citation>
+            <ref id="ref12">
+                <mixed-citation>Grisales-Aguirre, A. M. (2018). Uso de recursos TIC en la enseñanza de las matemáticas: retos y perspectivas. Entramado, 14(2), 198-214. https://doi.org/10.18041/1900-3803/entramado.2.4751.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1211,9 +1198,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref13">
-                <label>[12]</label>
-                <mixed-citation>[12] Guo, P. J., Kim, J., &amp; Rubin, R. (2014). How video production affects student engagement: An empirical study of MOOC videos. In Proceedings of the first ACM conference on Learning@ scale conference (pp. 41-50). https://doi.org/10.1145/2556325.2566239.</mixed-citation>
+            <ref id="ref13">
+                <mixed-citation>Guo, P. J., Kim, J., &amp; Rubin, R. (2014). How video production affects student engagement: An empirical study of MOOC videos. In Proceedings of the first ACM conference on Learning@ scale conference (pp. 41-50). https://doi.org/10.1145/2556325.2566239.</mixed-citation>
                 <element-citation publication-type="confproc">
                     <person-group person-group-type="author">
                         <name>
@@ -1239,9 +1225,13 @@
                     <conf-name>How video production affects student engagement: An empirical study of MOOC videos</conf-name>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref14">
-                <label>[13]</label>
-                <mixed-citation>[13] Kizilcec, R., Papadopoulos, k y Sritanyaratana, L. (2014). Showing Face in Video Instruction: Effects On Information Retention, Visual Attention, and Affect. CHI14 Proceedings of the SIGCHI Conference on Human Factor in Computing Systems (pp.95 - 102) Toronto, Canadá. http://rene.kizilcec.com/wp-content/uploads/2014/01/finalversion2.pdf.</mixed-citation>
+            <ref id="ref14">
+                <mixed-citation>
+                Kizilcec, R., Papadopoulos, K., y Sritanyaratana, L. (2014). 
+                Showing Face in Video Instruction: Effects On Information Retention, Visual Attention, and Affect. 
+                CHI '14 Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (pp. 95-102), 
+                Toronto, Canadá. http://rene.kizilcec.com/wp-content/uploads/2014/01/finalversion2.pdf.
+                </mixed-citation>
                 <element-citation publication-type="confproc">
                     <person-group person-group-type="author">
                         <name>
@@ -1250,14 +1240,15 @@
                         </name>
                         <name>
                             <surname>Papadopoulos</surname>
-                            <given-names>k</given-names>
+                            <given-names>K.</given-names>
                         </name>
                         <name>
                             <surname>Sritanyaratana</surname>
                             <given-names>L.</given-names>
                         </name>
                     </person-group>
-                    <source>CHI14 Proceedings of the SIGCHI Conference on Human Factor in Computing Systems</source>
+                    <source>CHI '14 Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</source>
+                    <conf-name>SIGCHI Conference on Human Factors in Computing Systems</conf-name>
                     <year>2014</year>
                     <fpage>95</fpage>
                     <lpage>102</lpage>
@@ -1268,9 +1259,8 @@
                     <series>Showing Face in Video Instruction: Effects On Information Retention, Visual Attention, and Affect</series>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref15">
-                <label>[14]</label>
-                <mixed-citation>[14] Maldonado Zuñiga, K., Vera Velázquez, R., Ponce Delgado, L. M., &amp; Tóala Arias, F. J. (2020). Software educativo y su importancia en el proceso enseñanza-aprendizaje: software educativo y su importancia. UNESUM-Ciencias. Revista Científica Multidisciplinaria. ISSN 2602-8166, 4(1), 123-130. https://doi.org/10.47230/unesum-ciencias.v4.n1.2020.211.</mixed-citation>
+            <ref id="ref15">
+                <mixed-citation>Maldonado Zuñiga, K., Vera Velázquez, R., Ponce Delgado, L. M., &amp; Tóala Arias, F. J. (2020). Software educativo y su importancia en el proceso enseñanza-aprendizaje: software educativo y su importancia. UNESUM-Ciencias. Revista Científica Multidisciplinaria. ISSN 2602-8166, 4(1), 123-130. https://doi.org/10.47230/unesum-ciencias.v4.n1.2020.211.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1303,9 +1293,8 @@
                     <issn>2602-8166</issn>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref16">
-                <label>[15]</label>
-                <mixed-citation>[15] Muñante-Toledo, M. F., Salazar, G. D. C., Rojas-Plasencia, K. M., &amp; Flores, J. M. V. E. (2021). Geogebra Software in Mathematical Skills of High School Students: Systematic Review. Turkish Journal of Computer and Mathematics Education (TURCOMAT), 12(6), 4164-4172. https://www.turcomat.org/index.php/turkbilmat/article/view/8386.</mixed-citation>
+            <ref id="ref16">
+                <mixed-citation>Muñante-Toledo, M. F., Salazar, G. D. C., Rojas-Plasencia, K. M., &amp; Flores, J. M. V. E. (2021). Geogebra Software in Mathematical Skills of High School Students: Systematic Review. Turkish Journal of Computer and Mathematics Education (TURCOMAT), 12(6), 4164-4172. https://www.turcomat.org/index.php/turkbilmat/article/view/8386.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1337,9 +1326,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref17">
-                <label>[16]</label>
-                <mixed-citation>[16] Poveda Fernández, W. E., &amp; García-Cuéllar, D. (2021). Estrategias asociadas al uso de GeoGebra en un contexto de resolución de problemas. REMATEC, 16(37), 61–79. https://doi.org/10.37084/REMATEC.1980-3141.2021.n37.p61-79.id2.</mixed-citation>
+            <ref id="ref17">
+                <mixed-citation>Poveda Fernández, W. E., &amp; García-Cuéllar, D. (2021). Estrategias asociadas al uso de GeoGebra en un contexto de resolución de problemas. REMATEC, 16(37), 61–79. https://doi.org/10.37084/REMATEC.1980-3141.2021.n37.p61-79.id2.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1363,9 +1351,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref18">
-                <label>[17]</label>
-                <mixed-citation>[17] Ramírez Santamaría, B. A. . (2020). GeoGebra en 2D y 3D como recurso didáctico en un curso de integración múltiple: una experiencia de enseñanza-aprendizaje: GeoGebra in 2D and 3D as a learning resource in a multi-integration course: a teaching-learning experience. Revista Digital: Matemática, Educación E Internet, 21(1). https://doi.org/10.18845/rdmei.v21i1.5341.</mixed-citation>
+            <ref id="ref18">
+                <mixed-citation>Ramírez Santamaría, B. A. . (2020). GeoGebra en 2D y 3D como recurso didáctico en un curso de integración múltiple: una experiencia de enseñanza-aprendizaje: GeoGebra in 2D and 3D as a learning resource in a multi-integration course: a teaching-learning experience. Revista Digital: Matemática, Educación E Internet, 21(1). https://doi.org/10.18845/rdmei.v21i1.5341.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1383,9 +1370,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref19">
-                <label>[18]</label>
-                <mixed-citation>[18] Rodríguez, R., López, B y Mortera, F. (2017). El video como Recurso Educativo Abierto y la enseñanza de Matemáticas. Revista Electrónica de Investigación Educativa, 19(3), 92-100. https://doi.org/10.24320/redie.2017.19.3.936.</mixed-citation>
+            <ref id="ref19">
+                <mixed-citation>Rodríguez, R., López, B y Mortera, F. (2017). El video como Recurso Educativo Abierto y la enseñanza de Matemáticas. Revista Electrónica de Investigación Educativa, 19(3), 92-100. https://doi.org/10.24320/redie.2017.19.3.936.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1413,9 +1399,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref20">
-                <label>[19]</label>
-                <mixed-citation>[19] Ruiz, L., Camarena, P., y Del Rivero, S. (2016). Prerrequisitos deficientes con software matemático en conceptos nuevos. Revista Mexicana De Investigación Educativa, 21(69), 349-383. https://comie.org.mx/revista/v2018/rmie/index.php/nrmie/article/view/72.</mixed-citation>
+            <ref id="ref20">
+                <mixed-citation>Ruiz, L., Camarena, P., y Del Rivero, S. (2016). Prerrequisitos deficientes con software matemático en conceptos nuevos. Revista Mexicana De Investigación Educativa, 21(69), 349-383. https://comie.org.mx/revista/v2018/rmie/index.php/nrmie/article/view/72.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1443,9 +1428,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref21">
-                <label>[20]</label>
-                <mixed-citation>[20] Solana, P., Martínez, S y Sarmiento I. (2017). Nuevos Enfoques y Experiencias en el Formato Audiovisual para el Desarrollo de MOOCs. España: Universidad de Cantabria, España. https://ceur-ws.org/Vol-1836/4.pdf.</mixed-citation>
+            <ref id="ref21">
+                <mixed-citation>Solana, P., Martínez, S y Sarmiento I. (2017). Nuevos Enfoques y Experiencias en el Formato Audiovisual para el Desarrollo de MOOCs. España: Universidad de Cantabria, España. https://ceur-ws.org/Vol-1836/4.pdf.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1469,9 +1453,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref22">
-                <label>[21]</label>
-                <mixed-citation>[21] Uwurukundo, M. S., Maniraho, J. F., &amp; Tusiime, M. (2021). Effects of GeoGebra on Students’ Attitudes towards Learning Geometry: A Review of Literature. African Journal of Educational Studies in Mathematics and Sciences, 17(2), 127-138. https://www.ajol.info/index.php/ajesms/article/view/226083.</mixed-citation>
+            <ref id="ref22">
+                <mixed-citation>Uwurukundo, M. S., Maniraho, J. F., &amp; Tusiime, M. (2021). Effects of GeoGebra on Students’ Attitudes towards Learning Geometry: A Review of Literature. African Journal of Educational Studies in Mathematics and Sciences, 17(2), 127-138. https://www.ajol.info/index.php/ajesms/article/view/226083.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1499,9 +1482,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref23">
-                <label>[22]</label>
-                <mixed-citation>[22] Vidal Puga, M. D. P. (2006). Investigación de las TIC en la educación. RELATEC: Revista Latinoamericana de Tecnología Educativa, 5(2), 539‐552. https://relatec.unex.es/article/view/293/277.</mixed-citation>
+            <ref id="ref23">
+                <mixed-citation>Vidal Puga, M. D. P. (2006). Investigación de las TIC en la educación. RELATEC: Revista Latinoamericana de Tecnología Educativa, 5(2), 539‐552. https://relatec.unex.es/article/view/293/277.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1521,9 +1503,8 @@
                     </comment>
                 </element-citation>
             </ref>
-            <ref id="redalyc_607975560003_ref24">
-                <label>[23]</label>
-                <mixed-citation>[23] Ziatdinov, R., &amp; Valles Jr, J. R. (2022). Synthesis of modeling, visualization, and programming in GeoGebra as an effective approach for teaching and learning STEM topics. Mathematics, 10(3), 398. https://doi.org/10.3390/math10030398.</mixed-citation>
+            <ref id="ref24">
+                <mixed-citation>Ziatdinov, R., &amp; Valles Jr, J. R. (2022). Synthesis of modeling, visualization, and programming in GeoGebra as an effective approach for teaching and learning STEM topics. Mathematics, 10(3), 398. https://doi.org/10.3390/math10030398.</mixed-citation>
                 <element-citation publication-type="journal">
                     <person-group person-group-type="author">
                         <name>
@@ -1531,8 +1512,9 @@
                             <given-names>R.</given-names>
                         </name>
                         <name>
-                            <surname>Valles Jr</surname>
+                            <surname>Valles</surname>
                             <given-names>J. R.</given-names>
+                            <suffix>Jr</suffix>
                         </name>
                     </person-group>
                     <article-title>Synthesis of modeling, visualization, and programming in GeoGebra as an effective approach for teaching and learning STEM topics</article-title>
