@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE article
   PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "https://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
-<article article-type="editorial" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
     xmlns:mml="http://www.w3.org/1998/Math/MathML"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
@@ -17,7 +17,7 @@
             </publisher>
         </journal-meta>
         <article-meta>
-            <article-id pub-id-type="doi">https://doi.org/10.18845/rdmei.v24i2.6914</article-id>
+            <article-id pub-id-type="doi">10.18845/rdmei.v24i2.6914</article-id>
             <article-categories>
                 <subj-group subj-group-type="heading">
                     <subject>Didáctica y Software</subject>
@@ -27,7 +27,7 @@
                 <article-title >Introducción a la visualización de datos con ggplot2</article-title>
             </title-group>
             <contrib-group>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0001-8869-4067</contrib-id>
                     <name >
                         <surname>Oviedo Rodríguez</surname>
@@ -37,7 +37,7 @@
                     <xref ref-type="fn" rid="fn2">1.</xref>
                     <email>katalina.oviedo.rodriguez@una.ac.cr</email>
                 </contrib>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0002-5585-8739</contrib-id>
                     <name >
                         <surname>Jiménez Oviedo</surname>
@@ -47,7 +47,7 @@
                     <xref ref-type="fn" rid="fn3">2.</xref>
                     <email>byron.jimenez.oviedo@una.ac.cr</email>
                 </contrib>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0002-7864-2391</contrib-id>
                     <name name-style="western">
                         <surname>Aguilar Fernández</surname>
@@ -93,8 +93,8 @@
             </pub-date>
             <volume>24</volume>
             <issue>2</issue>
-            <fpage>46</fpage>
-            <lpage>23</lpage>
+            <fpage>47</fpage>
+            <lpage>70</lpage>
             <history>
                 <date date-type="received" publication-format="dd mes yyyy">
                     <day>02</day>
@@ -110,10 +110,8 @@
             <permissions>
                 <copyright-year>2024</copyright-year>
                 <copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
-                <ali:free_to_read/>
-                <license license-type="open-access" xml:lang="es" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
-                    <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
-                    <license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+                    <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License</license-p>
                 </license>
             </permissions>
             <abstract>
@@ -151,19 +149,20 @@
     <body>
         <sec>
             <title>
-                <bold>Introducción</bold>
+                Introducción
             </title>
-            <p>La visualización de datos y su análisis se consideran procesos de gran importancia en la actualidad, siendo los gráficos una de las representaciones más utilizadas para presentar información estadística. Casanova (2017) señala que la carga heurística que incorporan los gráficos alimenta la conjetura de quien realiza los análisis, lo que facilita la interpretación, la formulación de hipótesis, las conjeturas, las explicaciones, etc. Una buena presentación gráfica es muy valorada (Sevilla, 2005; Wickham, 2016; Wilkinson, 2012), por tal razón es que el profesional actual debe tener las herramientas mínimas para poder desplegar tal análisis de una manera elegante, de fácil interpretación y precisa.</p>
-            <p>En la actualidad, R es uno de los entornos y lenguajes de programación más utilizados para análisis estadístico, minería de datos, modelización estadística y presentación gráfica de la información (Dobrow, 2016; Kabacoff, 2022; Monahan, 2011; Wickham, 2016; Wickham &amp; Grolemund, 2016). Además, es un entorno abierto, libre, gratuito que ha tenido gran aprobación en la academia, en la investigación científica y en el sector empresarial. Uno de los compiladores que se pueden utilizar es RStudio, el cual es utilizado en este documento.</p>
+            <p>La visualización de datos y su análisis se consideran procesos de gran importancia en la actualidad, siendo los gráficos una de las representaciones más utilizadas para presentar información estadística. Casanova (2017) señala que la carga heurística que incorporan los gráficos alimenta la conjetura de quien realiza los análisis, lo que facilita la interpretación, la formulación de hipótesis, las conjeturas, las explicaciones, etc. Una buena presentación gráfica es muy valorada ( <xref ref-type="bibr" rid="ref4">Sevilla, 2005</xref>;                <xref ref-type="bibr" rid="ref6">Wickham, 2016</xref>;                <xref ref-type="bibr" rid="ref8">Wilkinson, 2012</xref>), por tal razón es que el profesional actual debe tener las herramientas mínimas para poder desplegar tal análisis de una manera elegante, de fácil interpretación y precisa.</p>
+            <p>En la actualidad, R es uno de los entornos y lenguajes de programación más utilizados para análisis estadístico, minería de datos, modelización estadística y presentación gráfica de la información ( <xref ref-type="bibr" rid="ref1">Dobrow, 2016</xref> ;                <xref ref-type="bibr" rid="ref2">Kabacoff, 2022</xref>;                <xref ref-type="bibr" rid="ref3">Monahan, 2011</xref>;                <xref ref-type="bibr" rid="ref6">Wickham, 2016</xref>;                <xref ref-type="bibr" rid="ref7">Wickham &amp; Grolemund, 2016</xref>). Además, es un entorno abierto, libre, gratuito que ha tenido gran aprobación en la academia, en la investigación científica y en el sector empresarial. Uno de los compiladores que se pueden utilizar es RStudio, el cual es utilizado en este documento.</p>
             <p>Existen distintos programas y lenguajes que permiten realizar análisis estadístico de datos tales como R, Python, Excel, Power BI, SPSS, PSPP, entre otros, pero no es el objetivo de este documento hacer una comparación de estos; sin embargo, es muy deseable que el profesional actual tenga la capacidad de comparar, discernir y seleccionar entre estos según sus necesidades.</p>
             <p>Este documento tiene como objetivo principal brindar un acercamiento a la representación gráfica de información utilizando el paquete ggplot 2 en R, a partir de los gráficos que generalmente se presentan en un curso universitario de estadística descriptiva, entre ellos: gráficos de barras, circular, de líneas, de cajas y bigotes, histogramas, polígonos de frecuencias y ojivas. Se seleccionaron estos tipos de gráficos con el fin de que el estudiantado universitario que da sus primeros pasos en el ambiente R tenga un acercamiento amigable y útil a ggplot2 y para que pueda aprovecharlo en los cursos o ambientes que lo demanden. Las bases de datos utilizadas contienen datos reales y son de libre acceso.</p>
             <p>El documento inicia con una introducción sobre el paquete ggplot 2, seguido, se describen las bases de datos utilizadas, luego, se brindan ejemplos de algunos elementos gráficos y finalmente se presenta una descripción detallada de la construcción según cada tipo de gráfico.</p>
         </sec>
         <sec>
             <title>
-                <bold>Paquete ggplot2</bold>
+                Paquete ggplot2
             </title>
-            <p>El paquete ggplot2  fue creado por Hadley Wickham y fue desarrollado utilizando la gramática de gráficos de Wilkinson (Wickham, 2016). La gramática de gráficos dicta que un gráfico estadístico es una forma de estructurar los datos usando atributos estéticos como color, tamaño, forma (llamados aesthetic attributes) y objetos geométricos como puntos, líneas o barras. Además de transformaciones estadísticas, escalas, coordenadas y el faceting o facetado, lo cual permite visualizar una cierta característica o variable de los datos en subgráficos independientes (Wilkinson, 2012; Wickham, 2016; Teutonico, 2015).</p>
+            <p>El paquete ggplot2  fue creado por Hadley Wickham y fue desarrollado utilizando la gramática de gráficos de Wilkinson <xref ref-type="bibr" rid="ref6">(Wickham, 2016)</xref>. La gramática de gráficos dicta que un gráfico estadístico es una forma de estructurar los datos usando atributos estéticos como color, tamaño, forma (llamados aesthetic attributes) y objetos geométricos como puntos, líneas o barras. Además de transformaciones estadísticas, escalas, coordenadas y el faceting o facetado, lo cual permite visualizar una cierta característica o variable de los datos en subgráficos independientes (<xref ref-type="bibr" rid="ref8">Wilkinson, 2012</xref>;                <xref ref-type="bibr" rid="ref6">Wickham, 2016</xref> ;                <xref ref-type="bibr" rid="ref5">Teutonico, 2015</xref>).
+            </p>
             <p>Para poder utilizar ggplot2 es necesario realizar su instalación y contar con una versión reciente de R, por ejemplo 3.2.0 en adelante. La versión se puede verificar utilizando el comando <italic>version</italic> en la consola. Luego, una vez que se tenga la versión adecuada, se puede instalar ggplot2 utilizando el comando usual para la instalación de paquetes en R el cual es:</p>
             <p>install.packages("ggplot2") library(ggplot2)</p>
             <p>
@@ -171,7 +170,8 @@
             </p>
             <p>Una base de datos o dataframe es una estructura que sirve para organizar datos. Es como una matriz con la diferencia de que puede tener columnas de diferentes tipos, de modo que en la primera columna se encuentra cada unidad estadística que conforma la población o muestra con la cual se trabaja.</p>
             <p>Con el fin de facilitar el tratamiento de los gráficos para el lector, se utilizan bases de datos de libre acceso que se pueden obtener del paquete Biostatistics por medio del enlace <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/Biostatistics/index.html">https://cran.r-project.org/web/packages/Biostatistics/index.html</ext-link>, esto pues se quiere enfatizar en la representación gráfica de los datos y que el lector pueda replicar de una manera rápida y sencilla los códigos para la construcción de los diferentes gráficos.</p>
-            <p>El paquete Biostatistics proporciona diferentes bases de datos, en este documento se utiliza la base de datos llamada worldbank que presenta una variedad de medidas geográficas, económicas, ambientales y sociales para 186 países desde el año 2014, recopiladas a partir de datos publicados por World Bank, los cuales se pueden obtener y verificar en la dirección <ext-link ext-link-type="uri" xlink:href="https://www.worldbank.org/en/home">https://www.worldbank.org/en/home</ext-link>. La descripción de las variables que presenta esta base de datos se muestra en la tabla 1.</p>
+            <p>El paquete Biostatistics proporciona diferentes bases de datos, en este documento se utiliza la base de datos llamada worldbank que presenta una variedad de medidas geográficas, económicas, ambientales y sociales para 186 países desde el año 2014, recopiladas a partir de datos publicados por World Bank, los cuales se pueden obtener y verificar en la dirección <ext-link ext-link-type="uri" xlink:href="https://www.worldbank.org/en/home">https://www.worldbank.org/en/home</ext-link>. La descripción de las variables que presenta esta base de datos se muestra en la tabla <xref ref-type="table" rid="gt1">1</xref>.
+            </p>
             <p>
                 <table-wrap id="gt1">
                     <label>Tabla 1:</label>
@@ -317,7 +317,7 @@
             <p>
                 <fig id="gf1">
                     <label>
-                        <bold>Figura 1</bold>
+                        Figura 1
                     </label>
                     <caption>
                         <title>Grafico de dispersión para las variables Forest area y Precipitacion </title>
@@ -333,7 +333,7 @@
             <p>
                 <fig id="gf2">
                     <label>
-                        <bold>Figura 2</bold>
+                        Figura 2
                     </label>
                     <caption>
                         <title>Histograma para la variable Forest_area</title>
@@ -349,7 +349,7 @@
             <p>
                 <fig id="gf3">
                     <label>
-                        <bold>Figura 3</bold>
+                        Figura 3
                     </label>
                     <caption>
                         <title>Grafico de dispersión para  Forest_area y Precipitacion, clasificada (color) por clima de la región</title>
@@ -365,7 +365,7 @@
             <p>
                 <fig id="gf4">
                     <label>
-                        <bold>Figura 4</bold>
+                        Figura 4
                     </label>
                     <caption>
                         <title>Grafico de dispersión para Forest_area y Precipitacion, clasificada (forma) por clima de la región</title>
@@ -380,7 +380,7 @@
             <p>
                 <fig id="gf5">
                     <label>
-                        <bold>Figura 5</bold>
+                        Figura 5
                     </label>
                     <caption>
                         <title>Grafico de dispersión para Forest_area y Precipitacion, clasificada por clima de la región</title>
@@ -404,7 +404,7 @@
         <p>
             <fig id="gf6">
                 <label>
-                    <bold>Figura 6:</bold>
+                    Figura 6:
                 </label>
                 <caption>
                     <title>Grafico de dispersión multi-panel para las variables Forest_area y Precipitacion, clasificada por clima de la región.</title>
@@ -419,7 +419,7 @@
         <p>
             <fig id="gf7">
                 <label>
-                    <bold>Figura 7</bold>
+                    Figura 7
                 </label>
                 <caption>
                     <title>Grafico de dispersión para las variables Forest_area y Precipitacion, con línea de tendencia.</title>
@@ -435,7 +435,7 @@
         <p>
             <fig id="gf8">
                 <label>
-                    <bold>Figura 8:</bold>
+                    Figura 8:
                 </label>
                 <caption>
                     <title>Grafico de dispersión para las variables Forest_area y Precipitacion, con curva de tendencia.</title>
@@ -451,7 +451,7 @@
         <p>
             <fig id="gf9">
                 <label>
-                    <bold>Figura 9:</bold>
+                    Figura 9:
                 </label>
                 <caption>
                     <title>Grafico de dispersión para las variables Forest_area y Precipitacion, con curva (por defecto) de tendencia.</title>
@@ -466,7 +466,7 @@
         <p>
             <fig id="gf10">
                 <label>
-                    <bold>Figura 10:</bold>
+                    Figura 10:
                 </label>
                 <caption>
                     <title>Histograma para la variable Forest_area.</title>
@@ -479,12 +479,12 @@
     </sec>
     <sec>
         <title>
-            <bold>Gráficos estadísticos</bold>
+            Gráficos estadísticos
         </title>
         <p>En esta sección se muestra cómo construir algunos de los principales gráficos que se estudian en cursos de estadística básica como el gráfico de barras, de líneas, circular, histogramas ojivas, polígonos de frecuencias y dispersión. Algunos de estos ya se construyeron anteriormente; sin embargo, se presentan a continuación aspectos que permitirán al lector mejorar su presentación.</p>
         <sec>
             <title>
-                <bold>Gráfico de Barras</bold>
+                Gráfico de Barras
             </title>
             <p>El gráfico de barras se utiliza para presentar frecuencias para una variable discreta o una variable categórica. A continuación se presenta una serie de instrucciones que permiten construir dicho gráfico y a su vez, se aprovecha para introducir nuevos comandos que controlan el aspecto estético por defecto y permiten agregar otros elementos como el título y la fuente.</p>
             <p>Para construir el gráfico de barras se utiliza la base de datos worldbank y la variable Income_group (ver Figura <xref ref-type="fig" rid="gf11">11</xref>).
@@ -494,7 +494,7 @@
             <p>
                 <fig id="gf11">
                     <label>
-                        <bold>Figura 11:</bold>
+                        Figura 11:
                     </label>
                     <caption>
                         <title>Gráfico de barras para la variable Income_group</title>
@@ -508,7 +508,7 @@
         </sec>
         <sec>
             <title>
-                <bold>Modificando los ejes</bold>
+                Modificando los ejes
             </title>
             <p>Al desplegar el gráfico, R coloca por defecto algunas etiquetas a los ejes. Para modificar dichas etiquetas se agregan las capas xlab y ylab, indicando entre comillas el nombre que se quiere colocar a cada eje (ver Figura <xref ref-type="fig" rid="gf12">12</xref>).
             </p>
@@ -516,7 +516,7 @@
             <p>
                 <fig id="gf12">
                     <label>
-                        <bold>Figura 12:</bold>
+                        Figura 12:
                     </label>
                     <caption>
                         <title>Gráfico de barras para la variable Income_group</title>
@@ -529,7 +529,7 @@
         </sec>
         <sec>
             <title>
-                <bold>Título y fuente</bold>
+                Título y fuente
             </title>
             <p>Para colocar un título, un subtítulo (en caso de que sea necesario, por ejemplo una nota introductoria) y la fuente se utiliza el comando labs con los argumentos <italic>title, subtitle y caption</italic>, respectivamente (ver Figura <xref ref-type="fig" rid="gf13">13</xref>).
             </p>
@@ -537,7 +537,7 @@
             <p>
                 <fig id="gf13">
                     <label>
-                        <bold>Figura 13:</bold>
+                        Figura 13:
                     </label>
                     <caption>
                         <title>Gráfico de barras para la variable Income_group</title>
@@ -553,7 +553,7 @@
             <p>
                 <fig id="gf14">
                     <label>
-                        <bold>Figura 14</bold>
+                        Figura 14
                     </label>
                     <caption>
                         <title>Grafico de barras con modificaciones de texto para la variable Income_group</title>
@@ -584,7 +584,7 @@
             <p>
                 <fig id="gf15">
                     <label>
-                        <bold>Figura 15</bold>
+                        Figura 15
                     </label>
                     <caption>
                         <title>Grafico de barras horizontales para la variable Income_group</title>
@@ -602,7 +602,7 @@
             <p>
                 <fig id="gf16">
                     <label>
-                        <bold>Figura 16</bold>
+                        Figura 16
                     </label>
                     <caption>
                         <title>Gráfico de barras completo para la variable Income_group</title>
@@ -615,7 +615,7 @@
         </sec>
         <sec>
             <title>
-                <bold>Gráfico circular </bold>
+                Gráfico circular 
             </title>
             <p>No existe un comando (geom) específico para crear un gráfico circular; sin embargo, para dicha construcción se utiliza el código geom_bar y se hace el cambio de coordenadas rectangulares a polares, con el comando coor_polar. Para ilustrar dicha construcción se calculan primero las proporciones de la variable de la siguiente manera.</p>
             <p>library(tidyverse)</p>
@@ -683,7 +683,7 @@
             <p>
                 <fig id="gf17">
                     <label>
-                        <bold>Figura 17</bold>
+                        Figura 17
                     </label>
                     <caption>
                         <title>Gráfico circular para la variable Income_group</title>
@@ -701,7 +701,7 @@
             <p>
                 <fig id="gf18">
                     <label>
-                        <bold>Figura 18</bold>
+                        Figura 18
                     </label>
                     <caption>
                         <title>Gráfico circular para la variable Income_group.</title>
@@ -715,7 +715,7 @@
         </sec>
         <sec>
             <title>
-                <bold>Gráfico de líneas</bold>
+                Gráfico de líneas
             </title>
             <p>El lector ya puede imaginar cómo es la estructura del código de un gráfico de líneas, para el cual basta con usar geom_line. Se crea un dataframe simple que corresponde al producto interno bruto en millones de euros de Costa Rica y España, desde el año 1999 al año 2021. Estos datos fueron tomados de <ext-link ext-link-type="uri" xlink:href="https://datosmacro.expansion.com/pib">https://datosmacro.expansion.com/pib</ext-link>.
             </p>
@@ -726,7 +726,7 @@
             <p>
                 <fig id="gf19">
                     <label>
-                        <bold>Figura 19</bold>
+                        Figura 19
                     </label>
                     <caption>
                         <title>Gráfico de líneas para la variable PIB Anual</title>
@@ -742,7 +742,7 @@
             <p>
                 <fig id="gf20">
                     <label>
-                        <bold>Figura 20</bold>
+                        Figura 20
                     </label>
                     <caption>
                         <title>Gráfico de líneas con color para la variable PIB Anual. </title>
@@ -755,14 +755,14 @@
         </sec>
         <sec>
             <title>
-                <bold> Gráfico de cajas y bigotes</bold>
+                 Gráfico de cajas y bigotes
             </title>
             <p>Los gráficos de cajas y bigotes son una manera de mostrar la distribución de una variable continua a través de los cuartiles. Este tipo de gráfico puede dar información sobre la simetría, la variabilidad (cuán estrechos están los datos agrupados), los valores atípicos y la comparación entre magnitudes. Para crear un gráfico de cajas y bigotes (ver Figura <xref ref-type="fig" rid="gf21">21</xref>) se utiliza la geometría geom_boxplot tal y como se muestra a continuación.</p>
             <p>ggplot(worldbank, aes(Precipitation, Climate_region)) + geom_boxplot(color = "#5499c7", fill = "#D6eaf8", outlier.color = "#f5b7b1")</p>
             <p>
                 <fig id="gf21">
                     <label>
-                        <bold>Figura 21</bold>
+                        Figura 21
                     </label>
                     <caption>
                         <title>Gráfico de cajas para las variables Precipitatión y Climate_region</title>
@@ -778,7 +778,7 @@
             <p>
                 <fig id="gf22">
                     <label>
-                        <bold>Figura 22</bold>
+                        Figura 22
                     </label>
                     <caption>
                         <title>Gráfico de cajas con distribución de puntos para las variables Precipitatión y Climate_region</title>
@@ -791,7 +791,7 @@
         </sec>
         <sec>
             <title>
-                <bold>Histogramas, polígonos de frecuencia y ojivas</bold>
+                Histogramas, polígonos de frecuencia y ojivas
             </title>
             <p>Con el histograma y el polígono de frecuencias se puede visualizar la distribución de una variable continua contando el número de observaciones que se encuentran en las clases previamente determinadas en el eje <italic>x </italic>(bins). La diferencia radica en que el histograma utiliza barras y el polígono de frecuencia utiliza líneas.</p>
             <p>Tal y como se expuso en la Sección 2.2, para obtener un histograma (ver Figura <xref ref-type="fig" rid="gf23">23</xref>) puede escribirse la siguiente instrucción:</p>
@@ -799,7 +799,7 @@
             <p>
                 <fig id="gf23">
                     <label>
-                        <bold>Figura 23</bold>
+                        Figura 23
                     </label>
                     <caption>
                         <title>Histograma para la variable Forest_area</title>
@@ -816,7 +816,7 @@
             <p>
                 <fig id="gf24">
                     <label>
-                        <bold>Figura 24</bold>
+                        Figura 24
                     </label>
                     <caption>
                         <title>Histograma con cambios de estética para la variable Forest_area</title>
@@ -833,7 +833,7 @@
             <p>
                 <fig id="gf25">
                     <label>
-                        <bold>Figura 25</bold>
+                        Figura 25
                     </label>
                     <caption>
                         <title>Polígono de frecuencias para la variable Forest_area</title>
@@ -850,7 +850,7 @@
             <p>
                 <fig id="gf26">
                     <label>
-                        <bold>Figura 26</bold>
+                        Figura 26
                     </label>
                     <caption>
                         <title>Polígono de frecuencias para la variable Forest_area</title>
@@ -865,7 +865,7 @@
             <p>
                 <fig id="gf27">
                     <label>
-                        <bold>Figura 27</bold>
+                        Figura 27
                     </label>
                     <caption>
                         <title>Polígono de frecuencias acumuladas para la variable Forest_area</title>
@@ -879,7 +879,7 @@
     </sec>
     <sec>
         <title>
-            <bold>Conclusiones</bold>
+            Conclusiones
         </title>
         <p>Actualmente la visualización de datos es una necesidad en muchas áreas, en este sentido el manejo adecuado de un software, por ejemplo R, es indispensable para presentar información estadística.</p>
         <p>Se considera la necesidad de que este tipo de software sea implementado en cursos de estadística de educación superior, ya que es necesario que el estudiantado desarrolle las habilidades de graficación y otras a través del uso y manipulación del software, siendo el paquete ggplot2 una herramienta muy valiosa, pues permite realizar gráficos de una manera sencilla y con una alta calidad.</p>
@@ -891,9 +891,8 @@
 <back>
     <ref-list>
         <title>Referencias</title>
-        <ref id="redalyc_607975560004_ref1">
-            <label>[1]</label>
-            <mixed-citation>[1] Dobrow, R. P. (2016). Introduction to stochastic processes with R. John Wiley &amp; Sons.</mixed-citation>
+        <ref id="ref1">
+            <mixed-citation>Dobrow, R. P. (2016). Introduction to stochastic processes with R. John Wiley &amp; Sons.</mixed-citation>
             <element-citation publication-type="other">
                 <person-group person-group-type="author">
                     <name>
@@ -906,9 +905,8 @@
                 <series>Introduction to stochastic processes with R.</series>
             </element-citation>
         </ref>
-        <ref id="redalyc_607975560004_ref2">
-            <label>[2]</label>
-            <mixed-citation>[2] Kabacoff, R. (2022). R in Action: Data Analysis and Graphics with R and Tidyverse. Simon and Schuster.</mixed-citation>
+        <ref id="ref2">
+            <mixed-citation>Kabacoff, R. (2022). R in Action: Data Analysis and Graphics with R and Tidyverse. Simon and Schuster.</mixed-citation>
             <element-citation publication-type="other">
                 <person-group person-group-type="author">
                     <name>
@@ -921,24 +919,24 @@
                 <series>R in Action: Data Analysis and Graphics with R and Tidyverse</series>
             </element-citation>
         </ref>
-        <ref id="redalyc_607975560004_ref3">
-            <label>[3]</label>
-            <mixed-citation>[3] Monahan, J. F. (2011). Numerical methods of statistics. Cambridge University Press.</mixed-citation>
-            <element-citation publication-type="confproc">
+        <ref id="ref3">
+            <mixed-citation>
+        Monahan, J. F. (2011). <italic>Numerical methods of statistics</italic>. Cambridge University Press.
+            </mixed-citation>
+            <element-citation publication-type="book">
                 <person-group person-group-type="author">
                     <name>
                         <surname>Monahan</surname>
                         <given-names>J. F.</given-names>
                     </name>
                 </person-group>
-                <source>Cambridge University Press</source>
                 <year>2011</year>
+                <source>Cambridge University Press</source>
                 <series>Numerical methods of statistics</series>
             </element-citation>
         </ref>
-        <ref id="redalyc_607975560004_ref4">
-            <label>[4]</label>
-            <mixed-citation>[4] Sevilla Moróder, J. (2005). Gramática de las gráficas: pistas para mejorar las representaciones de datos. Universidad Pública de Navarra/Nafarroako Unibertsitate Publikoa.</mixed-citation>
+        <ref id="ref4">
+            <mixed-citation>Sevilla Moróder, J. (2005). Gramática de las gráficas: pistas para mejorar las representaciones de datos. Universidad Pública de Navarra/Nafarroako Unibertsitate Publikoa.</mixed-citation>
             <element-citation publication-type="other">
                 <person-group person-group-type="author">
                     <name>
@@ -951,9 +949,10 @@
                 <series>Gramática de las gráficas: pistas para mejorar las representaciones de datos</series>
             </element-citation>
         </ref>
-        <ref id="redalyc_607975560004_ref5">
-            <label>[5] Teutonico, D. (2015). ggplot2 Essentials. Packt Publishing Ltd.</label>
-            <mixed-citation>[5]</mixed-citation>
+        <ref id="ref5">
+            <mixed-citation publication-type="book">
+            Teutonico, D. (2015). <italic>ggplot2 Essentials</italic>. Packt Publishing Ltd.
+            </mixed-citation>
             <element-citation publication-type="book">
                 <person-group person-group-type="author">
                     <name>
@@ -961,14 +960,14 @@
                         <given-names>D.</given-names>
                     </name>
                 </person-group>
-                <source>Packt Publishing Ltd.</source>
                 <year>2015</year>
+                <source>Packt Publishing Ltd.</source>
                 <series>ggplot2 Essentials</series>
             </element-citation>
         </ref>
-        <ref id="redalyc_607975560004_ref6">
-            <label>[6]</label>
-            <mixed-citation>[6] Wickham, H. (2016). Data analysis. ggplot2: elegant graphics for data analysis, 189-201.</mixed-citation>
+
+        <ref id="ref6">
+            <mixed-citation>Wickham, H. (2016). Data analysis. ggplot2: elegant graphics for data analysis, 189-201.</mixed-citation>
             <element-citation publication-type="book">
                 <person-group person-group-type="author">
                     <name>
@@ -983,9 +982,8 @@
                 <chapter-title>Data analysis</chapter-title>
             </element-citation>
         </ref>
-        <ref id="redalyc_607975560004_ref7">
-            <label>[7]</label>
-            <mixed-citation>[7] Wickham, H., &amp; Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. " O’Reilly Media, Inc."</mixed-citation>
+        <ref id="ref7">
+            <mixed-citation>Wickham, H., &amp; Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. " O’Reilly Media, Inc."</mixed-citation>
             <element-citation publication-type="book">
                 <person-group person-group-type="author">
                     <name>
@@ -1002,9 +1000,8 @@
                 <series>R for data science: import, tidy, transform, visualize, and model data</series>
             </element-citation>
         </ref>
-        <ref id="redalyc_607975560004_ref8">
-            <label>[8]</label>
-            <mixed-citation>[8] Wilkinson, L. (2012). The grammar of graphics (pp. 375-414). Springer Berlin Heidelberg.</mixed-citation>
+        <ref id="ref8">
+            <mixed-citation>Wilkinson, L. (2012). The grammar of graphics (pp. 375-414). Springer Berlin Heidelberg.</mixed-citation>
             <element-citation publication-type="book">
                 <person-group person-group-type="author">
                     <name>
