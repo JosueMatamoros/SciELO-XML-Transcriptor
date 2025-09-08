@@ -419,57 +419,53 @@
             <p>ode(y, times, func, parms, method = c("nombre" ),...)</p>
             <p>y sus argumentos se describen en la tabla <xref ref-type="table" rid="gt17">1</xref>.
             </p>
-            <p>
-                <table-wrap id="gt17">
-                    <label>Tabla 1</label>
-                    <caption>
-                        <title>Los argumentos de ode() y su descripción</title>
-                    </caption>
-                    <alt-text>Tabla 1 Los argumentos de ode() y su descripción</alt-text>
-                    <alternatives>
-                        <graphic xlink:href="607975560007_gt18.png" position="anchor" orientation="portrait"/>
-                        <table id="gt18-526564616c7963">
-                            <tbody>
+            <table-wrap id="gt17">
+                <label>Tabla 1</label>
+                <caption>
+                    <title>Los argumentos de ode() y su descripción</title>
+                </caption>
+                <alt-text>Tabla 1 Los argumentos de ode() y su descripción</alt-text>
+                <alternatives>
+                    <graphic xlink:href="607975560007_gt18.png" position="anchor" orientation="portrait"/>
+                    <table id="gt18-526564616c7963">
+                        <tbody>
 
-                                <tr>
-                                    <td style="text-align: left;">y</td>
-                                    <td style="text-align: left;">Define las condiciones iniciales.</td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align: left;">times</td>
-                                    <td style="text-align: left;">Corresponde al intervalo de tiempo durante el cual se corre el proceso.</td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align: left;">func</td>
-                                    <td style="text-align: left;">Es la función R que calcula los valores de las derivadas del sistema de EDO en el instante t y esta función devuelve los valores de la derivada de la función como una lista.</td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align: left;">parms</td>
-                                    <td style="text-align: left;">Define los parámetros utilizados en el sistema de EDO o es NULL en el caso en que el sistema no los posea.</td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align: left;">method</td>
-                                    <td style="text-align: left;">Corresponde al nombre de la rutina de integración a utilizar.</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </alternatives>
-                    <attrib>Elaboración propia</attrib>
-                </table-wrap>
-            </p>
+                            <tr>
+                                <td style="text-align: left;">y</td>
+                                <td style="text-align: left;">Define las condiciones iniciales.</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">times</td>
+                                <td style="text-align: left;">Corresponde al intervalo de tiempo durante el cual se corre el proceso.</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">func</td>
+                                <td style="text-align: left;">Es la función R que calcula los valores de las derivadas del sistema de EDO en el instante t y esta función devuelve los valores de la derivada de la función como una lista.</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">parms</td>
+                                <td style="text-align: left;">Define los parámetros utilizados en el sistema de EDO o es NULL en el caso en que el sistema no los posea.</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">method</td>
+                                <td style="text-align: left;">Corresponde al nombre de la rutina de integración a utilizar.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </alternatives>
+                <attrib>Elaboración propia</attrib>
+            </table-wrap>
             <p>Dos observaciones son necesarias:</p>
-            <p>
-                <list list-type="bullet">
-                    <list-item>
-                        <p>La función func debe definirse al menos con el formato</p>
-                        <p>func = function(times, y, parms)</p>
-                        <p>en el que times es el intervalo de integración, y define las condiciones iniciales y parms es un vector o una lista que contiene los parámetros del sistema</p>
-                    </list-item>
-                    <list-item>
-                        <p>La función ode() utiliza más argumentos de los descritos y los valores que estos toman por defecto son suficientes para nuestros propósitos. Si Ud. desea analizarlos, una vez instalado el paquete deSolve, puede escribir, desde la consola de Rstudio <italic>help(ode)</italic> y oprimir control+ enter con lo cual se despliega una ventana en la que se puede consultar una descripción de cada uno de ellos</p>
-                    </list-item>
-                </list>
-            </p>
+            <list list-type="bullet">
+                <list-item>
+                    <p>La función func debe definirse al menos con el formato</p>
+                    <p>func = function(times, y, parms)</p>
+                    <p>en el que times es el intervalo de integración, y define las condiciones iniciales y parms es un vector o una lista que contiene los parámetros del sistema</p>
+                </list-item>
+                <list-item>
+                    <p>La función ode() utiliza más argumentos de los descritos y los valores que estos toman por defecto son suficientes para nuestros propósitos. Si Ud. desea analizarlos, una vez instalado el paquete deSolve, puede escribir, desde la consola de Rstudio <italic>help(ode)</italic> y oprimir control+ enter con lo cual se despliega una ventana en la que se puede consultar una descripción de cada uno de ellos</p>
+                </list-item>
+            </list>
             <p>Esta función utiliza por defecto un método de integración denominado <bold>lsoda</bold> el cual proporciona resultados apropiados para la mayoría de los casos ya que esta implementación posee la propiedad de intercambiar automáticamente entre problemas rígidos y no rígidos, es decir, el usuario no tiene necesidad de conocer, con anterioridad el tipo de problema que está tratando si no que que el algoritmo selecciona de manera automática el método apropiado a aplicar.</p>
             <p>La sintaxis básica de <bold>lsoda</bold> es semejante a la de <bold>ode</bold>, es decir</p>
             <p>lsoda(y, times, func, parms,...)</p>
@@ -486,33 +482,29 @@
             <p>y oprimiemdo  control+ enter.</p>
             <p>De acuerdo con <xref ref-type="bibr" rid="redalyc_607975560007_ref11">K. Soetaert et al., 2016</xref> la definición en R de un problema de valor inicial requiere de dos etapas básicas que se pueden definir como:</p>
             <p>La <bold>explicitación del modelo</bold>, que, en general, incluye los siguientes pasos:</p>
-            <p>
-                <list list-type="bullet">
-                    <list-item>
-                        <p>La definición de los parámetros del modelo y sus correspondientes valores</p>
-                    </list-item>
-                    <list-item>
-                        <p>La definición de las variables de estado del modelo y de sus condiciones iniciales</p>
-                    </list-item>
-                    <list-item>
-                        <p>La implementación de las ecuaciones del modelo las cuales brindan la razón de cambio de las variables de estado</p>
-                    </list-item>
-                </list>
-            </p>
+            <list list-type="bullet">
+                <list-item>
+                    <p>La definición de los parámetros del modelo y sus correspondientes valores</p>
+                </list-item>
+                <list-item>
+                    <p>La definición de las variables de estado del modelo y de sus condiciones iniciales</p>
+                </list-item>
+                <list-item>
+                    <p>La implementación de las ecuaciones del modelo las cuales brindan la razón de cambio de las variables de estado</p>
+                </list-item>
+            </list>
             <p>La <bold>carga del modelo</bold> que consta de:</p>
-            <p>
-                <list list-type="bullet">
-                    <list-item>
-                        <p>La inclusión de los tiempos en los que se desea conocer los estados de modelo</p>
-                    </list-item>
-                    <list-item>
-                        <p>La integración de las ecuaciones del modelo.</p>
-                    </list-item>
-                    <list-item>
-                        <p>La representación tabular o gráfica de los resultados del mismo</p>
-                    </list-item>
-                </list>
-            </p>
+            <list list-type="bullet">
+                <list-item>
+                    <p>La inclusión de los tiempos en los que se desea conocer los estados de modelo</p>
+                </list-item>
+                <list-item>
+                    <p>La integración de las ecuaciones del modelo.</p>
+                </list-item>
+                <list-item>
+                    <p>La representación tabular o gráfica de los resultados del mismo</p>
+                </list-item>
+            </list>
             <p>El siguiente ejemplo muestra de manera concisa cómo aplicar este esquema para resolver en R el siguiente problema.</p>
             <p>
                 <bold>Ejemplo 1</bold>.                <italic>Resolver en R el problema de valor inicial</italic>
@@ -550,65 +542,59 @@
                 <italic>en el intervalo [0, 1], con paso 0.01, mostrar las primeras 4 iteraciones y construir la gráfica de la solución.</italic>
             </p>
             <p>El código R que resuelve este problema, con las condiciones establecidas, es el siguiente</p>
-            <p>
-                <fig id="gf1">
-                    <label>
+            <fig id="gf1">
+                <label>
                         Fig1
-                    </label>
-                    <graphic xlink:href="607975560007_gf2.png" position="anchor" orientation="portrait"/>
-                    <attrib>Elaboración propia</attrib>
-                </fig>
-            </p>
+                </label>
+                <graphic xlink:href="607975560007_gf2.png" position="anchor" orientation="portrait"/>
+                <attrib>Elaboración propia</attrib>
+            </fig>
             <p># Figura 1 install.packages("deSolve") library(deSolve) Ecu1= function(t, x, parms){ dx = x^2+x*t list(dx)} Cini= 0.1 tiempos =seq(from = 0, to = 1, by = 0.01) solu=ode( y= Cini, times = tiempos, func = Ecu1, parms = NULL) head(solu, n=4) plot(solu, main = " ", lwd = 2, xlab="t", ylab="x(t)", col=c("magenta3"))</p>
             <p>La tabla <xref ref-type="table" rid="gt18">2</xref> muestra los resultados numéricos de las primeras 4 iteraciones.</p>
-            <p>
-                <table-wrap id="gt18">
-                    <label>Tabla 2</label>
-                    <caption>
-                        <title>Primeras 4 iteraciones</title>
-                    </caption>
-                    <alt-text>Tabla 2 Primeras 4 iteraciones</alt-text>
-                    <alternatives>
-                        <graphic xlink:href="607975560007_gt19.png" position="anchor" orientation="portrait"/>
-                        <table id="gt19-526564616c7963">
-                            <tbody>
+            <table-wrap id="gt18">
+                <label>Tabla 2</label>
+                <caption>
+                    <title>Primeras 4 iteraciones</title>
+                </caption>
+                <alt-text>Tabla 2 Primeras 4 iteraciones</alt-text>
+                <alternatives>
+                    <graphic xlink:href="607975560007_gt19.png" position="anchor" orientation="portrait"/>
+                    <table id="gt19-526564616c7963">
+                        <tbody>
 
-                                <tr>
-                                    <td style="text-align: center;">[1,]</td>
-                                    <td style="text-align: center;">0,00</td>
-                                    <td style="text-align: center;">0.1000000</td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align: center;">[2,]</td>
-                                    <td style="text-align: center;">0,01</td>
-                                    <td style="text-align: center;">0.1001051</td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align: center;">[3,]</td>
-                                    <td style="text-align: center;">0,02</td>
-                                    <td style="text-align: center;">0.1002205</td>
-                                </tr>
-                                <tr>
-                                    <td style="text-align: center;">[4,]</td>
-                                    <td style="text-align: center;">0,03</td>
-                                    <td style="text-align: center;">0.1003461</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </alternatives>
-                    <attrib>Elaboración propia</attrib>
-                </table-wrap>
-            </p>
+                            <tr>
+                                <td style="text-align: center;">[1,]</td>
+                                <td style="text-align: center;">0,00</td>
+                                <td style="text-align: center;">0.1000000</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">[2,]</td>
+                                <td style="text-align: center;">0,01</td>
+                                <td style="text-align: center;">0.1001051</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">[3,]</td>
+                                <td style="text-align: center;">0,02</td>
+                                <td style="text-align: center;">0.1002205</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;">[4,]</td>
+                                <td style="text-align: center;">0,03</td>
+                                <td style="text-align: center;">0.1003461</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </alternatives>
+                <attrib>Elaboración propia</attrib>
+            </table-wrap>
             <p>y la figura 1 muestra la gráfica de la solución del problema de valor inicial considerado.</p>
-            <p>
-                <fig id="gf2">
-                    <label>
+            <fig id="gf2">
+                <label>
                         Figura 1
-                    </label>
-                    <graphic xlink:href="607975560007_gf3.png" position="anchor" orientation="portrait"/>
-                    <attrib>Elaboración propia</attrib>
-                </fig>
-            </p>
+                </label>
+                <graphic xlink:href="607975560007_gf3.png" position="anchor" orientation="portrait"/>
+                <attrib>Elaboración propia</attrib>
+            </fig>
             <p>En las siguientes secciones se ilustran algunas de las potencialidades del paquete <bold>deSolve</bold> y la función <bold>ode()</bold> para resolver numéricamente problemas de valor inicial para ecuaciones diferenciales ordinarias, así como para sistemas de ecuaciones diferenciales.</p>
         </sec>
         <sec>
@@ -622,16 +608,14 @@
                 </title>
                 <p>El modelo de crecimiento logístico fue publicado por primera vez por Pierre François Verhulst en 1838 y lo utilizó para describir el crecimiento auto-limitado de una población biológica. Las suposiciones básicas de este modelo son <xref ref-type="bibr" rid="redalyc_607975560007_ref3">Blanchard et al., 1999</xref>:
                 </p>
-                <p>
-                    <list list-type="bullet">
-                        <list-item>
-                            <p>Si la población es pequeña la tasa de crecimiento de la población es proporcional a su tamaño</p>
-                        </list-item>
-                        <list-item>
-                            <p>Si la población es demasiado grande para ser soportada por su entorno y recursos, el tamaño de la población disminuye</p>
-                        </list-item>
-                    </list>
-                </p>
+                <list list-type="bullet">
+                    <list-item>
+                        <p>Si la población es pequeña la tasa de crecimiento de la población es proporcional a su tamaño</p>
+                    </list-item>
+                    <list-item>
+                        <p>Si la población es demasiado grande para ser soportada por su entorno y recursos, el tamaño de la población disminuye</p>
+                    </list-item>
+                </list>
                 <p>Un modelo matemático que recoge estas observaciones está definido por el siguiente problema de valor inicial:</p>
                 <p>
                     <inline-formula>
@@ -746,45 +730,37 @@
                 </p>
                 <p>En esta sección se desarrollan en R las etapas descritas en la sección 2, para resolver numéricamente la modificación de la ecuación logística con las condiciones iniciales consideradas anteriormente para lo cual utilizamos la función <bold>ode()</bold> del paquete <bold>deSolve</bold>, así mismo inicialmente se cargan las librerías internas del paquete.</p>
                 <p>Una vez cargado el paquete <bold>deSolve</bold>, las siguientes líneas muestran cómo se cargan sus librerías y se definen los parámetros del modelo.</p>
-                <p>
-                    <fig id="gf3">
-                        <label>
+                <fig id="gf3">
+                    <label>
                             Fig2
-                        </label>
-                        <graphic xlink:href="607975560007_gf4.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                    </label>
+                    <graphic xlink:href="607975560007_gf4.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
                 <p># Figura 2 # install.packages("deSolve") library(deSolve)  # carga de las librerias # La explicitación del modelo # Vector que contiene los valores de los parámetros params1=c(a=1.5,L=6, K=14)</p>
                 <p>Aquí definimos las condiciones iniciales para el modelo, cada una de ellas como un vector.</p>
-                <p>
-                    <fig id="gf4">
-                        <label>
+                <fig id="gf4">
+                    <label>
                             CondIn
-                        </label>
-                        <graphic xlink:href="607975560007_gf5.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                    </label>
+                    <graphic xlink:href="607975560007_gf5.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
                 <p># Condiciones iniciales cini1=c(3) cini2=c(5) cini3=c(7) cini4=c(9) cini5=c(15) cini6=c(20)</p>
                 <p>La ecuación del modelo se incluye a través de una función con nombre Logis que calcula la razón de cambio de la variable de estado P, la devuelve como una lista y usa como argumentos los tiempos de corrida, la variable de estado y los parámetros.</p>
-                <p>
-                    <fig id="gf5">
-                        <label>
+                <fig id="gf5">
+                    <label>
                             Ecuaciones
-                        </label>
-                        <graphic xlink:href="607975560007_gf6.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                    </label>
+                    <graphic xlink:href="607975560007_gf6.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
                 <p># Ecuaciones # P es la variable de estado Logis= function(t, P, parms) { Salida1=with(as.list(c(P, parms)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(Salida1)}</p>
                 <p>El modelo se corre en el intervalo de tiempo [0,2] con paso 0.1 y se resuelve utilizando la función <bold>ode()</bold> que contiene la rutina <bold>lsoda</bold> como método de integración predeterminado y que tiene como argumentos básicos las condiciones iniciales, el tiempo de corrida, la función Logis y los parámetros.</p>
-                <p>
-                    <fig id="gf6">
-                        <graphic xlink:href="607975560007_gf7.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                <fig id="gf6">
+                    <graphic xlink:href="607975560007_gf7.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
                 <p># La carga del modelo # Tiempos tiempos1=seq(0,2,0.1) # La integración utiliza la función ode. sol1=ode(y=cini1, t=tiempos1, func=Logis, parms=params1) sol2=ode(y=cini2, t=tiempos1, func=Logis, parms=params1) sol3=ode(y=cini3, t=tiempos1, func=Logis, parms=params1) sol4=ode(y=cini4, t=tiempos1, func=Logis, parms=params1) sol5=ode(y=cini5, t=tiempos1, func=Logis, parms=params1) sol6=ode(y=cini6, t=tiempos1, func=Logis, parms=params1)</p>
                 <p>La función <bold>ode()</bold> tiene como salida un objeto de la clase deSolve que es una matriz que contiene los valores de la variable de estado en los tiempos proporcionados. Las primeras 10 iteraciones de este proceso, para la solución, sol1, se obtienen con:</p>
                 <p># La representación tabular head(sol1, n=10)</p>
@@ -860,49 +836,43 @@
                 </p>
                 <p>Las gráficas de las seis soluciones y algunos textos ilustrativos, se obtienen con el siguiente código y se muestran en la figura <xref ref-type="fig" rid="gf8">2</xref>.
                 </p>
-                <p>
-                    <fig id="gf7">
-                        <label>
+                <fig id="gf7">
+                    <label>
                             RepGraf
-                        </label>
-                        <graphic xlink:href="607975560007_gf8.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                    </label>
+                    <graphic xlink:href="607975560007_gf8.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
                 <p># La representación gráfica plot(sol1,sol2,sol3, sol4,sol5, sol6, lwd=2, xlab="t", ylab="P(t)", col=c("red", "green", "blue", "deeppink3", "brown4", "orange"), main=  "Crecimiento logístico modificado") legend("topright",legend=c("P(0)=3", "P(0)=5",  "P(0)=7","P(0)=9", "P(0)=15","P(0)=20"), col=c("red", "green","blue", "deeppink3", "brown4", "orange"), lwd=c(2,2), bg="aliceblue")</p>
-                <p>
-                    <fig id="gf8">
-                        <label>
+                <fig id="gf8">
+                    <label>
                             Figura 2
-                        </label>
-                        <caption>
-                            <title>Simulaciones numéricas del modelo logístico modificado</title>
-                        </caption>
-                        <alt-text>Figura 2 Simulaciones numéricas del modelo logístico modificado</alt-text>
-                        <graphic xlink:href="607975560007_gf9.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                    </label>
+                    <caption>
+                        <title>Simulaciones numéricas del modelo logístico modificado</title>
+                    </caption>
+                    <alt-text>Figura 2 Simulaciones numéricas del modelo logístico modificado</alt-text>
+                    <graphic xlink:href="607975560007_gf9.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
                 <p>Esta gráfica sugiere que si el tamaño de la población inicial de ardillas negras es menor que la dada por el factor de escasez la población tiende a extinguirse, que si la población de ardillas negras está entre el factor de escasez y la capacidad de soporte el tamaño de la población crece acercándose a la capacidad de carga y que si el tamaño de la población es mayor que la capacidad de carga esta disminuye acercándose a este valor.</p>
                 <p>Modificamos el código anterior para incluir las soluciones constantes, P=0, P=6 y P=14, denominadas <bold>Puntos de equilibrio</bold>, así como otras condiciones iniciales.</p>
-                <p>
-                    <fig id="gf9">
-                        <label>
+                <fig id="gf9">
+                    <label>
                             Fig3a
-                        </label>
-                        <graphic xlink:href="607975560007_gf10.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
-                <p>
-                    <fig id="gf10">
-                        <label>
+                    </label>
+                    <graphic xlink:href="607975560007_gf10.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+
+                <fig id="gf10">
+                    <label>
                             fig3b
-                        </label>
-                        <graphic xlink:href="607975560007_gf11.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                    </label>
+                    <graphic xlink:href="607975560007_gf11.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+
                 <p># figura 3 # install.packages("deSolve") library(deSolve) # Solución de la ecuación logística tiempos2=seq(from = 0, to = 3, by = 0.01) param2 = c(a=1.5, L=6, K=14) logis = function(t,y,param){ salida = with(as.list(c(y,param)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(salida)}</p>
                 <p>oncecur=seq(0,20,2)</p>
                 <p>listadatos=lapply(oncecur,function(i){ode(y=c(P=i), times=tiempos2,func=logis,parms = param2)})</p>
@@ -914,19 +884,17 @@
                 <p>install.packages("ggrepel") require(ggrepel)</p>
                 <p># ggplot2 traza el gráfico con etiquetas ggplot(data_label, aes(time, P, group = forcats::fct_inorder(group))) + geom_line(aes(colour= forcats::fct_inorder(group)),size=0.8) + scale_colour_manual(values=cbp2)+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), panel.border = element_rect(colour = "black", size=0.5, fill=NA))+ geom_label_repel(aes(label = label,color=group), nudge_x = -0.15, size=2, label.size=NA, fill="honeydew2", na.rm = TRUE,segment.color=NA) + theme(legend.position = "none") + labs(x = "t", y="P(t)")</p>
                 <p>El proceso anterior genera la gráfica que se muestra en la figura 3. Observe que todas las soluciones cercanas a la solución P=6 se ”alejan" de ella y que, en general, las soluciones "tienden" hacia la solución de equilibrio P=0 o P=14, es decir, P=6 es una fuente y P=0, P=14 son sumideros.</p>
-                <p>
-                    <fig id="gf11">
-                        <label>
+                <fig id="gf11">
+                    <label>
                             Figura 3
-                        </label>
-                        <caption>
-                            <title>Simulaciones numéricas del modelo logístico modificado</title>
-                        </caption>
-                        <alt-text>Figura 3 Simulaciones numéricas del modelo logístico modificado</alt-text>
-                        <graphic xlink:href="607975560007_gf12.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                    </label>
+                    <caption>
+                        <title>Simulaciones numéricas del modelo logístico modificado</title>
+                    </caption>
+                    <alt-text>Figura 3 Simulaciones numéricas del modelo logístico modificado</alt-text>
+                    <graphic xlink:href="607975560007_gf12.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
                 <p>
                     <bold>El sistema de Chen</bold>
                 </p>
@@ -1035,48 +1003,48 @@
                 <p>El siguiente código implementa la descripción realizada en la sección 2, para resolver numéricamente el Sistema de Chen, para lo cual nuevamente se utiliza la función <bold>ode()</bold> del paquete <bold>deSolve</bold>. Siguiendo a <xref ref-type="bibr" rid="redalyc_607975560007_ref13">Sooraksa y Chen, 2018</xref> consideramos los valores de los parámetros a=35, b=3 y c=28 para los cuales se produce <bold>el atractor de Chen</bold>.
                 </p>
                 <p>Con base en lo expuesto en <xref ref-type="bibr" rid="redalyc_607975560007_ref11">K. Soetaert et al., 2016</xref> para construir un gráfico de los resultados numéricos obtenidos es posible utilizar un método diseñado explícitamente para objetos de la clase deSolve, que ordena las figuras en dos filas y dos columnas. En este caso en ellas se presentan las gráficas de las variables dependientes contra la independiente y puesto que queda un espacio en el margen inferior derecho en él, se muestra el gráfico del promedio espacial de la velocidad hidrodinámica contra la diferencia de temperatura entre la corriente ascendente y la descendente, que en este caso corresponde a la proyección del atractor de Chen en el plano xz.</p>
-                <p>
-                    <fig id="gf12">
-                        <label>
+
+                <fig id="gf12">
+                    <label>
                             fig4
-                        </label>
-                        <graphic xlink:href="607975560007_gf13.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                    </label>
+                    <graphic xlink:href="607975560007_gf13.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+
                 <p># Figura 4 # El Sistema de Chen # Las ecuaciones del modelo Chen = function (t, y, parms) { with(as.list(y), { dX = -a * X+a*Y dY = (c-a)*X+c*Y - X*Z dZ =X*Y - b*Z list(c(dX, dY, dZ)) })}</p>
                 <p># Valores de los parámetros y condiciones iniciales param=c(a = 35, b = 3, c = 28) Eini = c(X = -3, Y = 2, Z = 20)</p>
                 <p># la integración se realiza por 100 veces cada 0.001 vez library(deSolve) tiempos = seq(from = 0, to = 100, by = 0.001) salida = ode(y = Eini, times = tiempos, func = Chen, parms = param)</p>
                 <p># La gráfica del modelo plot(salida,xlab="tiempo", col= "blue", lwd = 1) plot(salida[,"X"], salida[,"Z"], col= "red", type = "l", xlab = "X", ylab = "Z", main = "Proyección plano XZ")</p>
                 <p>La gráfica resultante de este proceso se muestra en la figura <xref ref-type="fig" rid="gf13">4</xref>.
                 </p>
-                <p>
-                    <fig id="gf13">
-                        <label>
+
+                <fig id="gf13">
+                    <label>
                             Figura 4
-                        </label>
-                        <caption>
-                            <title>Simulaciones numéricas del sistema de Chen</title>
-                        </caption>
-                        <alt-text>Figura 4 Simulaciones numéricas del sistema de Chen</alt-text>
-                        <graphic xlink:href="607975560007_gf14.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                    </label>
+                    <caption>
+                        <title>Simulaciones numéricas del sistema de Chen</title>
+                    </caption>
+                    <alt-text>Figura 4 Simulaciones numéricas del sistema de Chen</alt-text>
+                    <graphic xlink:href="607975560007_gf14.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+
                 <p>Las siguientes líneas de R, generan una gráfica 3D que ilustra el denominado <bold>Atractor de Chen</bold> y que se muestra en la figura 5.</p>
-                <p>
-                    <fig id="gf14">
-                        <label>
+
+                <fig id="gf14">
+                    <label>
                             Figura 5
-                        </label>
-                        <caption>
-                            <title>Una vista 3d del atractor de Chen</title>
-                        </caption>
-                        <alt-text>Figura 5 Una vista 3d del atractor de Chen</alt-text>
-                        <graphic xlink:href="607975560007_gf15.png" position="anchor" orientation="portrait"/>
-                        <attrib>Elaboración propia</attrib>
-                    </fig>
-                </p>
+                    </label>
+                    <caption>
+                        <title>Una vista 3d del atractor de Chen</title>
+                    </caption>
+                    <alt-text>Figura 5 Una vista 3d del atractor de Chen</alt-text>
+                    <graphic xlink:href="607975560007_gf15.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+
                 <p># Figura 5 # gráfica 3D library(scatterplot3d) scatterplot3d(salida[,-1], type = "l", lwd = 1, xlab = "X", ylab = "Y", zlab = "Z", main = "El atractor de Chen", col.main="red",color=("darkorchid"),box=FALSE, angle=45)</p>
                 <p>En esta sección se ha presentado únicamente una muestra del variado comportamiento que presenta este sistema para diversos valores de sus parámetros, en <xref ref-type="bibr" rid="redalyc_607975560007_ref13">Sooraksa y Chen, 2018</xref> puede encontrarse una descripción más completa de este sistema.</p>
                 <p>
@@ -1162,52 +1130,52 @@
         <p>flowField(func, xlim, ylim, parameters, points, system, add,...)</p>
         <p>y una descripción de sus argumentos se presenta en la tabla <xref ref-type="table" rid="gt21">5</xref>
         </p>
-        <p>
-            <table-wrap id="gt21">
-                <label>Tabla 5</label>
-                <caption>
-                    <title>Los argumentos de flowField() y su descripción</title>
-                </caption>
-                <alt-text>Tabla 5 Los argumentos de flowField() y su descripción</alt-text>
-                <alternatives>
-                    <graphic xlink:href="607975560007_gt22.png" position="anchor" orientation="portrait"/>
-                    <table id="gt22-526564616c7963">
-                        <tbody>
 
-                            <tr>
-                                <td style="text-align: left;">func</td>
-                                <td style="text-align: left;">Es una función, definida en el formato de <bold>deSolve</bold> que calcula la derivada de la EDO que se está analizando.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">xlim</td>
-                                <td style="text-align: left;">Para una ecuación diferencial en dimensión uno proporciona los límites de la variable independiente en la que se trazan los segmentos de recta que reflejan el gradiente. En el caso de un sistema bidimensional establece los límites de la primera variable en la que se deben trazar estos segmentos.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">ylim</td>
-                                <td style="text-align: left;">Para una ecuación diferencial en dimensión uno proporciona los límites de la variable dependiente en la que se trazan los segmentos de recta que reflejan el gradiente. En el caso de un sistema bidimensional establece los límites de la segunda variable en la que se deben trazar estos segmentos.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">parameters</td>
-                                <td style="text-align: left;">Define los parámetros utilizados en el sistema de EDO o es NULL en el caso en que no los contenga.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">points</td>
-                                <td style="text-align: left;">Corresponde a un número que define la densidad de los segmentos que se van a dibujar. Por defecto este número es 11.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">add</td>
-                                <td style="text-align: left;">Es un valor lógico. Si es TRUE el campo vectorial se agrega a un gráfico existente. En caso contrario se crea un nuevo gráfico. Por defecto este valor es TRUE.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">system</td>
-                                <td style="text-align: left;">Corresponde a ”one.dim” o ”two.dim” en dependencia del tipo de sistema que se está analizando. Por defecto es ”two.dim”.</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </alternatives>
-                <attrib>Elaboración propia</attrib>
-            </table-wrap>
-        </p>
+        <table-wrap id="gt21">
+            <label>Tabla 5</label>
+            <caption>
+                <title>Los argumentos de flowField() y su descripción</title>
+            </caption>
+            <alt-text>Tabla 5 Los argumentos de flowField() y su descripción</alt-text>
+            <alternatives>
+                <graphic xlink:href="607975560007_gt22.png" position="anchor" orientation="portrait"/>
+                <table id="gt22-526564616c7963">
+                    <tbody>
+
+                        <tr>
+                            <td style="text-align: left;">func</td>
+                            <td style="text-align: left;">Es una función, definida en el formato de <bold>deSolve</bold> que calcula la derivada de la EDO que se está analizando.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">xlim</td>
+                            <td style="text-align: left;">Para una ecuación diferencial en dimensión uno proporciona los límites de la variable independiente en la que se trazan los segmentos de recta que reflejan el gradiente. En el caso de un sistema bidimensional establece los límites de la primera variable en la que se deben trazar estos segmentos.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">ylim</td>
+                            <td style="text-align: left;">Para una ecuación diferencial en dimensión uno proporciona los límites de la variable dependiente en la que se trazan los segmentos de recta que reflejan el gradiente. En el caso de un sistema bidimensional establece los límites de la segunda variable en la que se deben trazar estos segmentos.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">parameters</td>
+                            <td style="text-align: left;">Define los parámetros utilizados en el sistema de EDO o es NULL en el caso en que no los contenga.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">points</td>
+                            <td style="text-align: left;">Corresponde a un número que define la densidad de los segmentos que se van a dibujar. Por defecto este número es 11.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">add</td>
+                            <td style="text-align: left;">Es un valor lógico. Si es TRUE el campo vectorial se agrega a un gráfico existente. En caso contrario se crea un nuevo gráfico. Por defecto este valor es TRUE.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">system</td>
+                            <td style="text-align: left;">Corresponde a ”one.dim” o ”two.dim” en dependencia del tipo de sistema que se está analizando. Por defecto es ”two.dim”.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </alternatives>
+            <attrib>Elaboración propia</attrib>
+        </table-wrap>
+
         <p>Para la función <italic>nullclines</italic> la sintaxis es:</p>
         <p>nullclines(func, xlim, ylim, parameters, points, system, add,...)</p>
         <p>en ella se observa que su sintaxis coincide con la de la función <italic>flowFields</italic> en consecuencia la interpretación de sus argumentos es exactamente la misma.</p>
@@ -1259,7 +1227,6 @@
         <p>trajectory(func, y0, t.lim, parameters, system, col,...)</p>
         <p>y una descripción de sus argumentos se presenta en la tabla <xref ref-type="table" rid="gt23">7</xref>.
         </p>
-        <table-wrap id="gt23">
             <table-wrap id="gt23">
                 <label>Tabla 7</label>
                 <caption>
@@ -1409,34 +1376,34 @@
                 </inline-formula>
             </p>
             <p>Este es el modelo de la ecuación logística modificada considerada en la subsección 3.1 por lo que como valores de los parámetros consideramos los seleccionados en aquella sección. El código R que genera lo solicitado, es el siguiente</p>
-            <p>
-                <fig id="gf15">
-                    <label>
+
+            <fig id="gf15">
+                <label>
                     fig6
-                    </label>
-                    <graphic xlink:href="607975560007_gf16.png" position="anchor" orientation="portrait"/>
-                    <attrib>Elaboración propia</attrib>
-                </fig>
-            </p>
+                </label>
+                <graphic xlink:href="607975560007_gf16.png" position="anchor" orientation="portrait"/>
+                <attrib>Elaboración propia</attrib>
+            </fig>
+
             <p># figura 6 # install.packages("phaseR") library(phaseR) # Análisis cualitativo de la ecuación logística modificada tiempos2=seq(from = 0, to = 5, by = 0.01) param2 = c(a=1.5, L=6, K=14) logis.mod = function(t,P,param){ salida = with(as.list(c(P,param)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(salida)}</p>
             <p># El campo vectorial logis.mod.flowField = flowField(logis.mod, xlim = c(0, 5), ylim = c(-1, 20), parameters = param2, points = 21, system = "one.dim", add = FALSE, xlab = "t", ylab = "P(t)") grid()</p>
             <p># Las isoclinas nulas logis.mod.nullclines = nullclines(logis.mod, xlim = c(0, 5), ylim = c(-1, 20), parameters = param2, system = "one.dim")</p>
             <p># Trayectorias con diversas condiciones iniciales logis.mod.trajectory = trajectory(logis.mod, y0 = c(1.5, 2.5,7.5, 11.5,15, 18 ), tlim = c(0, 5), parameters = param2, system = "one.dim", col = rep("red", 6))</p>
             <p># Estabilidad de los puntos de equilibrio logis.mod.Estab1=stability(logis.mod,ystar = c(0),parameters = param2,  system = "one.dim") logis.mod.Estab2=stability(logis.mod,ystar = c(6),parameters = param2,  system = "one.dim") logis.mod.Estab3=stability(logis.mod,ystar = c(14),parameters = param2,  system = "one.dim")</p>
             <p>El código anterior genera la gráfica de la figura <xref ref-type="fig" rid="gf16">6</xref> que muestra el campo direccional, las isoclinas nulas y trayectorias para algunas condiciones iniciales.</p>
-            <p>
-                <fig id="gf16">
-                    <label>
+
+            <fig id="gf16">
+                <label>
                     Figura 6
-                    </label>
-                    <caption>
-                        <title>Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</title>
-                    </caption>
-                    <alt-text>Figura 6 Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</alt-text>
-                    <graphic xlink:href="607975560007_gf17.png" position="anchor" orientation="portrait"/>
-                    <attrib>Elaboración propia</attrib>
-                </fig>
-            </p>
+                </label>
+                <caption>
+                    <title>Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</title>
+                </caption>
+                <alt-text>Figura 6 Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</alt-text>
+                <graphic xlink:href="607975560007_gf17.png" position="anchor" orientation="portrait"/>
+                <attrib>Elaboración propia</attrib>
+            </fig>
+
             <p>En cuanto a estabilidad de los puntos de equilibrio los resultados son los siguientes</p>
             <p>discriminant = -1.5, classification = Stable discriminant = 0.85714, classification = Unstable discriminant = -2, classification = Stable</p>
             <p>y que por tanto clasifican a P=6 como una el punto de equilibrio inestable y a P=0 y P=14 como puntos de equilibrio asintóticamente estables.</p>
@@ -1708,17 +1675,14 @@
 <graphic xlink:href="607975560007_gi34.png"/>
 </alternatives>
 </inline-formula> e implementamos el siguiente código, que utiliza la función <bold>ode</bold> y genera las gráficas del desplazamiento y la velocidad en ventanas diferentes.</p>
-<p>
 <fig id="gf17">
 <label>fig7</label>
 <graphic xlink:href="607975560007_gf18.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
 <p># Figura 7 library(deSolve) #Definimos las condiciones iniciales Cini = c(X=1, Y=0) # Definimos los tiempos en los cuales queremos construir la solución tiempos = seq(from=0, to=8, by=0.01) # Definimos los valores de los parámetros del modelo params = c(c=1, b=2) # Definimos la función que expresa nuestro sistema de ecuaciones hooke1= function(t,y,parms){ Salida = with(as.list(c(y,parms)),{ dX = Y dY = -c^2*(X+2*b*X^3) list(c(dX,dY)) }) return(Salida) } # Se llama la función ode para construir la solución Salida= ode(y = Cini, times = tiempos, func = hooke1, parms = params) # Se construye la gráfica de la solución plot(Salida,xlab="tiempo", col="red",type="l")</p>
 <p>Este proceso que proporciona la imagen que se muestra en la figura <xref ref-type="fig" rid="gf18">7</xref>
 </p>
-<p>
 <fig id="gf18">
 <label>
 Figura 7
@@ -1730,19 +1694,15 @@ Figura 7
 <graphic xlink:href="607975560007_gf19.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
 <p>Este gráfico no muestra toda la interacción del sistema, consecuentemente construimos un gráfico más acorde a nuestras necesidades para lo cual generamos, en primer lugar, el gráfico del desplazamiento del resorte y en la misma ventana el de su velocidad.</p>
-<p>
 <fig id="gf19">
 <label>fig8</label>
 <graphic xlink:href="607975560007_gf20.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
 <p># Figura 8 par(mfrow=c(1,1)) # Posicion X contra t plot(Salida[,"time"],Salida[,"X"], ylim=c(-2, max(Salida[ ,"X"], 3)), type="l", col="red", lwd=2, xlab="Tiempo", ylab="", main="Un modelo que generaliza la ley de Hooke") grid() #  velocidad Y contra t lines(Salida[,"time"], Salida[,"Y"], type="l", col="blue", lwd=2) legend("topright", legend=c("Desplazamiento", "Velocidad"), col=c("red", "blue"), lwd=c(2,2), bg="snow1")</p>
 <p>Este proceso que genera la gráfica de la figura <xref ref-type="fig" rid="gf20">8</xref>, la cual sugiere que las soluciones de la ecuación diferencial tienen carácter periódico cómo se verifica teóricamente en <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref>.
 </p>
-<p>
 <fig id="gf20">
 <label>
 Figura 8
@@ -1754,7 +1714,6 @@ Figura 8
 <graphic xlink:href="607975560007_gf21.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
 <p>Una manera diferente de visualizar la dinámica de un sistema autónomo bidimensional, es utilizar el gráfico de las trayectorias en el plano fase, es decir, un gráfico del desplazamiento contra la velocidad, lo cual en R se puede obtener utilizando algunas de las funciones del paquete <bold>phaseR</bold>, ilustramos este hecho a continuación, para lo cual en primera instancia instalamos el correspondiente paquete y activamos sus librerías.</p>
 <p>install.package{"phaseR"} library(phaseR)</p>
 <p>En el caso del resorte duro se demuestra en <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref> que el sistema tiene un único punto de equilibrio en el punto (0,0) y que las trayectorias del sistema corresponden a órbitas cerradas para todo <italic>b&gt;0</italic>, consecuente con este hecho para el análisis de la ecuación seguimos considerando como valores de los parámetros <italic>c=1</italic> y <italic>b=2</italic>.
@@ -1769,7 +1728,6 @@ Figura 8
 </p>
 <p># Figura 9 library(phaseR) Hooke=function(t, y, param){ # Variables x =y[1] y =y[2] # Parámetros c =param[1] b =param[2] # Ecuaciones diferenciales dy =numeric(2) dy[1]=y dy[2]= -c^2*(x+2*b*x^3) list(dy)} # Campo vectorial Hooke.flowField= flowField(Hooke, xlim = c(-3, 5), ylim = c(-12, 12.5), param = c(1, 2), points =21 , add = FALSE) # Isoclinas nulas Hooke.nullclines = nullclines(Hooke, xlim = c(-5, 5), ylim = c(-12, 12.5), param = c(1, 2), points = 500) Cini = matrix(c(1, 2, 1.5, 2, 2.5, 2, 3,5), ncol = 2, nrow = 4, byrow = TRUE) # Curvas solución Hooke.trajectory = trajectory(Hooke, y0 = Cini, tlim= c(0,10), param = c(1, 2), col = rep("red", 4))</p>
 <p>En este proceso produce la gráfica que ilustra la figura <xref ref-type="fig" rid="gf22">9</xref> que verifica que para esta condición inicial y estos valores de los parámetros el sistema posee órbitas cerradas.</p>
-<p>
 <fig id="gf22">
 <label>
 Figura 9
@@ -1781,17 +1739,13 @@ Figura 9
 <graphic xlink:href="607975560007_gf23.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
 <p>El siguiente script utiliza la función <italic>numericalSolution</italic> para graficar en una misma ventana, el desplazamiento y la velocidad contra el tiempo. La gráfica resultante se muestra en la figura 10.</p>
-<p>
 <fig id="gf23">
 <label>fig10</label>
 <graphic xlink:href="607975560007_gf24.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
 <p># Figura 10 Hooke.num.sol= numericalSolution(Hooke, y0 = c(1, 2), tlim=c(0,10), type = "one", parameters = c(1, 2), col = c("red", "green"), ylab = "X, Y", ylim = c(-3, 3)) legend("topright",legend=c("X",  "Y"),col=c("red", "green"), lwd=c(2,2), bg="aliceblue")</p>
-<p>
 <fig id="gf24">
 <label>
 Figura 10
@@ -1803,7 +1757,6 @@ Figura 10
 <graphic xlink:href="607975560007_gf25.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
 <p>Para finalizar esta sección utilizamos la función <italic>stability</italic>, de este paquete, para determinar, la estabilidad del punto de equilibrio en el origen, lo que obtenemos con la siguiente línea.</p>
 <p>Hooke.estabilidad.d=stability(Hooke,ystar=c(0,0),parameters=c(1,2))</p>
 <p>R genera como respuesta la línea siguiente, que nos dice que el punto de equilibrio (0,0) corresponde a un centro como se verifica teóricamente en <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref>.
@@ -1908,16 +1861,14 @@ Figura 10
 </inline-formula>
 </p>
 <p>para el análisis de la ecuación consideramos como valores de los parámetros c=1 y b=-2 e inicialmente una condición inicial en el interior de esta región. En el primer script utilizamos, únicamente con fines ilustrativos, la función <bold>rk</bold> la cual usa directamente la rutina de integración Runge-Kutta5 como un método de integración por defecto y proporciona, en ventanas diferentes, las gráficas del desplazamiento y la velocidad contra el tiempo.</p>
-<p>
 <fig id="gf25">
 <label>fig11</label>
 <graphic xlink:href="607975560007_gf26.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
 <p># Figura 11 library(deSolve) Hooke2 = function(t, x, parms) { Salida1=with(as.list(c(parms, x)),{ dX = Y dY = -c^2*(X+2*b*X^3) list(c(dX, dY)) }) return(Salida1)  } tiempos2 = seq(0, 20, 0.01) params = c(c = 1, b= -2) Cini2 =c(X = 0.3, Y= 0.2) # La función rk usa ode45 como un método por defecto Solucion= rk(y = Cini2, times = tiempos2, func = Hooke2, parms = params) plot(Solucion, xlab="tiempo",col="red",type="l")</p>
 <p>Este código produce la gráfica que se ilustra en la figura <xref ref-type="fig" rid="gf26">11</xref>. Nótese que hemos utilizado como condición inicial el punto (0.3, 0.2) como valores de los parámetros <italic>c=1</italic> y <italic>b=-2</italic> y que esta gráfica sugiere la existencia en el sistema de trayectorias periódicas.</p>
-<p>
+
 <fig id="gf26">
 <label>
 Figura 11
@@ -1929,9 +1880,8 @@ Figura 11
 <graphic xlink:href="607975560007_gf27.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
 <p>Si conservamos los valores de los parámetros, modificamos la condición inicial a (0.7, 0.5), el tiempo al intervalo [0, 1.2] y corremos nuevamente el código anterior, obtenemos la gráfica que se ilustra en la figura <xref ref-type="fig" rid="gf27">12</xref>, la cual nos pone de manifiesto la posibilidad de la existencia de trayectorias no periódicas.</p>
-<p>
+
 <fig id="gf27">
 <label>
 Figura 12
@@ -1943,17 +1893,17 @@ Figura 12
 <graphic xlink:href="607975560007_gf28.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
+
 <p>Si en el caso del resorte suave, utilizamos las funciones <italic>trajectory, flowField</italic> y <italic>nullclines</italic> para generar trayectorias con diversas condiciones iniciales, el campo vectorial y las isoclinas nulas, el código que genera la figura <xref ref-type="fig" rid="gf29">13</xref>, es el siguiente.</p>
-<p>
+
 <fig id="gf28">
 <label>fig13</label>
 <graphic xlink:href="607975560007_gf29.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
+
 <p># Figura 13 library(phaseR) Hooke=function(t, y, parameters){ #variables x =y[1] y =y[2] # parametros c =parameters[1] b =parameters[2] # definimos las ecuaciones diferenciales dy =numeric(2) dy[1]=y dy[2]= -c^2*(x+2*b*x^3) list(dy)} Hooke.flowField= flowField(Hooke, xlim = c(-2, 2), ylim = c(-2, 2), parameters = c(1, -2), points = 21, add = FALSE) Hooke.nullclines= nullclines(Hooke, xlim = c(-2, 2), ylim = c(-2, 2), parameters = c(1, -2), points = 500) Cini=matrix(c(0.1,0, 0.3,0, 0.2,0.1, 0.3, 0.2, -0.2, -0.3,0.2, 0.3,-1,1, 1,-1,-0.8,0.8,0.8,-0.8, -1,1.5,1,-1.5,-1.5,1.5,1.5,-1.5), ncol = 2, nrow = 14, byrow = TRUE) Hooke.trajectory = trajectory(Hooke, y0 = Cini, tlim= c(0,10), parameters = c(1, -2), col = rep("mediumvioletred", 6))</p>
-<p>
+
 <fig id="gf29">
 <label>
 Figura 13
@@ -1965,19 +1915,18 @@ Figura 13
 <graphic xlink:href="607975560007_gf30.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
+
 <p>El siguiente script, genera la gráfica de la figura <xref ref-type="fig" rid="gf31">14</xref>, y codifica dos situaciones. En primer lugar, el desplazamiento y la velocidad contra el tiempo, para la condición inicial (0.3, 0.2) la cual está en una región en la cual existen órbitas periódicas y en segundo lugar, el desplazamiento y la velocidad contra el tiempo, para la condición inicial (0.7, 0.5) que está en una región en la que no existen órbitas periódicas. El script utiliza la función <italic>numericalSolution</italic> del paquete <bold>phaseR</bold>.
 </p>
-<p>
+
 <fig id="gf30">
 <label>fig14</label>
 <graphic xlink:href="607975560007_gf31.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
 <p># figura 14 par(mfrow=c(1,2)) Hooke.num.sol= numericalSolution(Hooke, y0 = c(0.3, 0.2), tlim=c(0,15),type = "one", parameters = c(1, -2), col = c("red", "green"), ylab = "X, Y", xlab = "tiempo", ylim = c(-0.5, 0.5)) legend("topright",legend=c("X", "Y"),col=c("red", "green"), lwd=c(2,2), bg="aliceblue")</p>
 <p>Hooke.num.sol= numericalSolution(Hooke, y0 = c(0.7, 0.5), tlim=c(0,1.5),type = "one", parameters = c(1, -2), col = c("red", "green"), ylab = "X, Y", xlab = "tiempo", ylim = c(0, 10)) legend("topright",legend=c("X", "Y"),col=c("red", "green"), lwd=c(2,2), bg="aliceblue")</p>
-<p>
+
 <fig id="gf31">
 <label>
 Figura 14
@@ -1989,7 +1938,7 @@ Figura 14
 <graphic xlink:href="607975560007_gf33.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
+
 <p>Estas gráficas que nos ilustran, en el caso del resorte suave, la diversidad de comportamiento que pueden tener las trayectorias del modelo que generaliza la ley de Hooke.</p>
 <p>Cerramos esta sección utilizando la función <italic>stability</italic> para determinar la estabilidad de los puntos de equilibrio (0, 0), (1, 0) y (-1, 0).</p>
 <p>Hooke.Estab1=stability(Hooke,ystar = c(0, 0),parameters = c(1, -2)) Hooke.Estab2=stability(Hooke,ystar = c(1, 0),parameters = c(1, -2)) Hooke.Estab3=stability(Hooke,ystar = c(-1,0),parameters = c(1, -2)) líneas de código que dan como resultado</p>
@@ -2002,7 +1951,7 @@ Figura 14
 Conclusiones
 </title>
 <p>En esta sección final se presentan algunos comentarios que complementan lo considerado en el desarrollo de este documento.</p>
-<p>
+
 <list list-type="bullet">
 <list-item>
 <p>El propósito central de este escrito ha sido el de ilustrar la manera de utilizar los paquetes de Solve y phaseR para tratar, desde el punto de vista numérico, problemas de valor inicial para ecuaciones diferenciales ordinarias. A lo largo del mismo, se ha hecho énfasis en este enfoque, sin embargo, no hemos comentado el uso de algunos detalles técnicos, tales como la ubicación de textos, la malla, el color y otros.Esperamos que un análisis de los correspondientes códigos le proporcione una idea de cómo incluirlos. En su defecto, puede consultar la bibliografía; por ejemplo, en <xref ref-type="bibr" rid="redalyc_607975560007_ref14">Wei (2006)</xref> se puede encontrar una lista completa de los colores, o en <xref ref-type="bibr" rid="redalyc_607975560007_ref7">Chang (2018)</xref> se ilustra la forma de utilizar muchos comandos y funciones de R para el manejo de gráficos.</p>
@@ -2021,7 +1970,7 @@ Conclusiones
 </p>
 </list-item>
 </list>
-</p>
+
 </sec>
 </body>
 <back>
