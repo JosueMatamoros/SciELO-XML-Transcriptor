@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE article
   PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "https://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
-<article article-type="editorial" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
     xmlns:mml="http://www.w3.org/1998/Math/MathML"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
@@ -27,7 +27,7 @@
                 <article-title >Los paquetes deSolve y phaseR para la resolución numérica de Ecuaciones Diferenciales Ordinarias con R</article-title>
             </title-group>
             <contrib-group>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0002-5932-5446</contrib-id>
                     <name>
                         <surname>Mosquera López</surname>
@@ -73,10 +73,8 @@
             <permissions>
                 <copyright-year>2024</copyright-year>
                 <copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
-                <ali:free_to_read/>
-                <license license-type="open-access" xml:lang="es" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
-                    <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
-                    <license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+                    <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License</license-p>
                 </license>
             </permissions>
             <abstract>
@@ -116,7 +114,7 @@
     <body>
         <sec>
             <title>
-                <bold>Introducción</bold>
+                Introducción
             </title>
             <p>Gran variedad de problemas importantes y significativos de la biología, la química, la economía, la física y la ingeniería, se pueden modelar, evaluar y resolver en términos de ecuaciones diferenciales. Por ejemplo, las ecuaciones diferenciales pueden utilizarse para tratar problemas sobre crecimiento de poblaciones, desintegración radioactiva, reacciones químicas, transferencia de calor, propagación de ondas, problemas sobre oferta y demanda, meteorología y otros ((Zill, 2001)).</p>
             <p>Usualmente no es posible expresar la solución de estos problemas, mediante una fórmula explícita o implícita, por lo que es necesario recurrir a métodos numéricos para hallar una aproximación a esta solución. En el lenguaje R, de amplia difusión y utilización en la actualidad, se han desarrollado herramientas que permiten resolver numéricamente, problemas de valor inicial para ecuaciones y sistemas de ecuaciones diferenciales mediante procedimientos adecuados.</p>
@@ -396,7 +394,7 @@
         </sec>
         <sec>
             <title>
-                <bold>El paquete deSolve</bold>
+                El paquete deSolve
             </title>
             <p>El paquete <bold>deSolve</bold> fue desarrollado, alrededor del año 2010, por K. Soetaert, R. W. Setzer y T. Petzoldt <xref ref-type="bibr" rid="redalyc_607975560007_ref10">K. Soetaert et al, 2010</xref> y permite resolver problemas de valor inicial para:</p>
             <p>
@@ -425,7 +423,7 @@
                 <table-wrap id="gt17">
                     <label>Tabla 1</label>
                     <caption>
-                        <title>Los argumentos de <bold>ode() </bold>y su descripción</title>
+                        <title>Los argumentos de ode() y su descripción</title>
                     </caption>
                     <alt-text>Tabla 1 Los argumentos de ode() y su descripción</alt-text>
                     <alternatives>
@@ -555,7 +553,7 @@
             <p>
                 <fig id="gf1">
                     <label>
-                        <bold>Fig1</bold>
+                        Fig1
                     </label>
                     <graphic xlink:href="607975560007_gf2.png" position="anchor" orientation="portrait"/>
                     <attrib>Elaboración propia</attrib>
@@ -605,7 +603,7 @@
             <p>
                 <fig id="gf2">
                     <label>
-                        <bold>Figura 1</bold>
+                        Figura 1
                     </label>
                     <graphic xlink:href="607975560007_gf3.png" position="anchor" orientation="portrait"/>
                     <attrib>Elaboración propia</attrib>
@@ -615,12 +613,12 @@
         </sec>
         <sec>
             <title>
-                <bold>Dos aplicaciones del paquete deSolve a problemas de la vida real</bold>
+                Dos aplicaciones del paquete deSolve a problemas de la vida real
             </title>
             <p>En los siguientes ejemplos se ilustra este proceso, el cual utiliza la función <bold>ode()</bold>, del paquete <bold>deSolve</bold>, así como algunas de sus características y opciones.</p>
             <sec>
                 <title>
-                    <bold>Una modificación de la ecuación logística</bold>
+                    Una modificación de la ecuación logística
                 </title>
                 <p>El modelo de crecimiento logístico fue publicado por primera vez por Pierre François Verhulst en 1838 y lo utilizó para describir el crecimiento auto-limitado de una población biológica. Las suposiciones básicas de este modelo son <xref ref-type="bibr" rid="redalyc_607975560007_ref3">Blanchard et al., 1999</xref>:
                 </p>
@@ -751,7 +749,7 @@
                 <p>
                     <fig id="gf3">
                         <label>
-                            <bold>Fig2</bold>
+                            Fig2
                         </label>
                         <graphic xlink:href="607975560007_gf4.png" position="anchor" orientation="portrait"/>
                         <attrib>Elaboración propia</attrib>
@@ -762,7 +760,7 @@
                 <p>
                     <fig id="gf4">
                         <label>
-                            <bold>CondIn</bold>
+                            CondIn
                         </label>
                         <graphic xlink:href="607975560007_gf5.png" position="anchor" orientation="portrait"/>
                         <attrib>Elaboración propia</attrib>
@@ -773,7 +771,7 @@
                 <p>
                     <fig id="gf5">
                         <label>
-                            <bold>Ecuaciones</bold>
+                            Ecuaciones
                         </label>
                         <graphic xlink:href="607975560007_gf6.png" position="anchor" orientation="portrait"/>
                         <attrib>Elaboración propia</attrib>
@@ -865,7 +863,7 @@
                 <p>
                     <fig id="gf7">
                         <label>
-                            <bold>RepGraf</bold>
+                            RepGraf
                         </label>
                         <graphic xlink:href="607975560007_gf8.png" position="anchor" orientation="portrait"/>
                         <attrib>Elaboración propia</attrib>
@@ -875,7 +873,7 @@
                 <p>
                     <fig id="gf8">
                         <label>
-                            <bold>Figura 2</bold>
+                            Figura 2
                         </label>
                         <caption>
                             <title>Simulaciones numéricas del modelo logístico modificado</title>
@@ -890,7 +888,7 @@
                 <p>
                     <fig id="gf9">
                         <label>
-                            <bold>Fig3a</bold>
+                            Fig3a
                         </label>
                         <graphic xlink:href="607975560007_gf10.png" position="anchor" orientation="portrait"/>
                         <attrib>Elaboración propia</attrib>
@@ -899,7 +897,7 @@
                 <p>
                     <fig id="gf10">
                         <label>
-                            <bold>fig3b</bold>
+                            fig3b
                         </label>
                         <graphic xlink:href="607975560007_gf11.png" position="anchor" orientation="portrait"/>
                         <attrib>Elaboración propia</attrib>
@@ -919,7 +917,7 @@
                 <p>
                     <fig id="gf11">
                         <label>
-                            <bold>Figura 3</bold>
+                            Figura 3
                         </label>
                         <caption>
                             <title>Simulaciones numéricas del modelo logístico modificado</title>
@@ -1040,7 +1038,7 @@
                 <p>
                     <fig id="gf12">
                         <label>
-                            <bold>fig4</bold>
+                            fig4
                         </label>
                         <graphic xlink:href="607975560007_gf13.png" position="anchor" orientation="portrait"/>
                         <attrib>Elaboración propia</attrib>
@@ -1055,7 +1053,7 @@
                 <p>
                     <fig id="gf13">
                         <label>
-                            <bold>Figura 4</bold>
+                            Figura 4
                         </label>
                         <caption>
                             <title>Simulaciones numéricas del sistema de Chen</title>
@@ -1069,7 +1067,7 @@
                 <p>
                     <fig id="gf14">
                         <label>
-                            <bold>Figura 5</bold>
+                            Figura 5
                         </label>
                         <caption>
                             <title>Una vista 3d del atractor de Chen</title>
@@ -1168,7 +1166,7 @@
             <table-wrap id="gt21">
                 <label>Tabla 5</label>
                 <caption>
-                    <title>Los argumentos de <bold>flowField() </bold>y su descripción</title>
+                    <title>Los argumentos de flowField() y su descripción</title>
                 </caption>
                 <alt-text>Tabla 5 Los argumentos de flowField() y su descripción</alt-text>
                 <alternatives>
@@ -1217,55 +1215,56 @@
         <p>numericalSolution(func, y0, tlim, type, parameters, col,...)</p>
         <p>y la descripción de sus argumentos se presenta en la tabla <xref ref-type="table" rid="gt22">6</xref>
         </p>
-        <p>
-            <table-wrap id="gt22">
-                <label>Tabla 6</label>
-                <caption>
-                    <title>Los argumentos de <bold>numericalSolution() </bold>y su descripción</title>
-                </caption>
-                <alt-text>Tabla 6 Los argumentos de numericalSolution() y su descripción</alt-text>
-                <alternatives>
-                    <graphic xlink:href="607975560007_gt23.png" position="anchor" orientation="portrait"/>
-                    <table id="gt23-526564616c7963">
-                        <tbody>
+        <table-wrap id="gt22">
+            <label>Tabla 6</label>
+            <caption>
+                <title>Los argumentos de numericalSolution() y su descripción</title>
+            </caption>
+            <alt-text>Tabla 6 Los argumentos de numericalSolution() y su descripción</alt-text>
+            <alternatives>
+                <graphic xlink:href="607975560007_gt23.png" position="anchor" orientation="portrait"/>
+                <table id="gt23-526564616c7963">
+                    <tbody>
 
-                            <tr>
-                                <td style="text-align: left;">func</td>
-                                <td style="text-align: left;">Es una función, definida en el formato de <bold>deSolve</bold> que calcula la derivada de la EDO que se está analizando.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">y0</td>
-                                <td style="text-align: left;">Es un vector numérico en dimensión dos que define la condición inicial.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">tlim</td>
-                                <td style="text-align: left;">Proporciona los límites de la variable independiente para los cuales se traza la gráfica de la solución.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">parameters</td>
-                                <td style="text-align: left;">Define los parámetros utilizados en el sistema de EDO o es NULL en el caso en que no los contenga.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">type</td>
-                                <td style="text-align: left;">Únicamente toma los valores ”one” o ”two”. Si se establece en ”one”, las trayectorias se trazan en el mismo gráfico. Si se establece en ”two”, se trazan en gráficos separados. El valor por defecto es ”one”.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">col</td>
-                                <td style="text-align: left;">Establece los colores de las trayectorias de las variables dependientes. El valor predeterminado es c(”red”, ”blue”).</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </alternatives>
-                <attrib>Elaboración propia</attrib>
-            </table-wrap>
-        </p>
+                        <tr>
+                            <td style="text-align: left;">func</td>
+                            <td style="text-align: left;">Es una función, definida en el formato de <bold>deSolve</bold> que calcula la derivada de la EDO que se está analizando.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">y0</td>
+                            <td style="text-align: left;">Es un vector numérico en dimensión dos que define la condición inicial.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">tlim</td>
+                            <td style="text-align: left;">Proporciona los límites de la variable independiente para los cuales se traza la gráfica de la solución.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">parameters</td>
+                            <td style="text-align: left;">Define los parámetros utilizados en el sistema de EDO o es NULL en el caso en que no los contenga.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">type</td>
+                            <td style="text-align: left;">Únicamente toma los valores ”one” o ”two”. Si se establece en ”one”, las trayectorias se trazan en el mismo gráfico. Si se establece en ”two”, se trazan en gráficos separados. El valor por defecto es ”one”.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">col</td>
+                            <td style="text-align: left;">Establece los colores de las trayectorias de las variables dependientes. El valor predeterminado es c(”red”, ”blue”).</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </alternatives>
+            <attrib>Elaboración propia</attrib>
+        </table-wrap>
         <p>Para la función <italic>trajectory</italic> la sintaxis es:</p>
         <p>trajectory(func, y0, t.lim, parameters, system, col,...)</p>
         <p>y una descripción de sus argumentos se presenta en la tabla <xref ref-type="table" rid="gt23">7</xref>.
         </p>
-        <p>
+        <table-wrap id="gt23">
             <table-wrap id="gt23">
-                <label>Los argumentos trajectory() y su descripción</label>
+                <label>Tabla 7</label>
+                <caption>
+                    <title>Los argumentos trajectory() y su descripción</title>
+                </caption>
                 <alternatives>
                     <graphic xlink:href="607975560007_gt24.png" position="anchor" orientation="portrait"/>
                     <table id="gt24-526564616c7963">
@@ -1300,16 +1299,15 @@
                 </alternatives>
                 <attrib>Elaboración propia</attrib>
             </table-wrap>
-        </p>
-        <p>Para la función <italic>stability</italic> la sintaxis es:</p>
-        <p>stability(func, ystar, parameters, system, summary,...)</p>
-        <p>y una descripción de sus argumentos se presenta en la tabla <xref ref-type="table" rid="gt24">8</xref>
-        </p>
-        <p>
+            <p>Para la función <italic>stability</italic> la sintaxis es:</p>
+            <p>stability(func, ystar, parameters, system, summary,...)</p>
+            <p>y una descripción de sus argumentos se presenta en la tabla <xref ref-type="table" rid="gt24">8</xref>
+            </p>
+
             <table-wrap id="gt24">
                 <label>Tabla 8</label>
                 <caption>
-                    <title>Los argumentos de <bold>stability() </bold>y su descripción</title>
+                    <title>Los argumentos de stability() y su descripción</title>
                 </caption>
                 <alt-text>Tabla 8 Los argumentos de stability() y su descripción</alt-text>
                 <alternatives>
@@ -1342,347 +1340,346 @@
                 </alternatives>
                 <attrib>Elaboración propia</attrib>
             </table-wrap>
-        </p>
-        <p>Cada una de estas funciones posee argumentos adicionales que no son necesarios para nuestros objetivos sin embargo una descripción de estos puede verse en <xref ref-type="bibr" rid="redalyc_607975560007_ref8">Grayling, 2022</xref>.
-        </p>
-        <p>El siguiente ejemplo muestra de manera sintética cómo utilizar algunas de estas funciones para realizar un análisis cualitativo del siguiente problema.</p>
-        <p>
-            <bold>Ejemplo 2</bold>.            <italic>Utilizar R para generar el campo direccional, construir las isoclinas nulas, trayectorias con diversas condiciones iniciales y un análisis de estabilidad para los puntos de equilibrio de ecuación diferencial</italic>
-        </p>
-        <p>
-            <inline-formula>
-                <alternatives>
-                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                        <mml:mrow>
-                            <mml:mfrac>
+            <p>Cada una de estas funciones posee argumentos adicionales que no son necesarios para nuestros objetivos sin embargo una descripción de estos puede verse en <xref ref-type="bibr" rid="redalyc_607975560007_ref8">Grayling, 2022</xref>.
+            </p>
+            <p>El siguiente ejemplo muestra de manera sintética cómo utilizar algunas de estas funciones para realizar un análisis cualitativo del siguiente problema.</p>
+            <p>
+                <bold>Ejemplo 2</bold>.                <italic>Utilizar R para generar el campo direccional, construir las isoclinas nulas, trayectorias con diversas condiciones iniciales y un análisis de estabilidad para los puntos de equilibrio de ecuación diferencial</italic>
+            </p>
+            <p>
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mfrac>
+                                    <mml:mrow>
+                                        <mml:mi>d</mml:mi>
+                                        <mml:mi>P</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mi>d</mml:mi>
+                                        <mml:mi>t</mml:mi>
+                                    </mml:mrow>
+                                </mml:mfrac>
+                                <mml:mo>=</mml:mo>
+                                <mml:mi>a</mml:mi>
+                                <mml:mi>P</mml:mi>
                                 <mml:mrow>
-                                    <mml:mi>d</mml:mi>
-                                    <mml:mi>P</mml:mi>
+                                    <mml:mo form="prefix" fence="true">(</mml:mo>
+                                    <mml:mfrac>
+                                        <mml:mi>P</mml:mi>
+                                        <mml:mi>L</mml:mi>
+                                    </mml:mfrac>
+                                    <mml:mo>-</mml:mo>
+                                    <mml:mn>1</mml:mn>
+                                    <mml:mo form="postfix" fence="true">)</mml:mo>
                                 </mml:mrow>
                                 <mml:mrow>
-                                    <mml:mi>d</mml:mi>
-                                    <mml:mi>t</mml:mi>
+                                    <mml:mo form="prefix" fence="true">(</mml:mo>
+                                    <mml:mn>1</mml:mn>
+                                    <mml:mo>-</mml:mo>
+                                    <mml:mfrac>
+                                        <mml:mi>P</mml:mi>
+                                        <mml:mi>K</mml:mi>
+                                    </mml:mfrac>
+                                    <mml:mo form="postfix" fence="true">)</mml:mo>
                                 </mml:mrow>
-                            </mml:mfrac>
-                            <mml:mo>=</mml:mo>
-                            <mml:mi>a</mml:mi>
-                            <mml:mi>P</mml:mi>
-                            <mml:mrow>
-                                <mml:mo form="prefix" fence="true">(</mml:mo>
-                                <mml:mfrac>
-                                    <mml:mi>P</mml:mi>
-                                    <mml:mi>L</mml:mi>
-                                </mml:mfrac>
-                                <mml:mo>-</mml:mo>
-                                <mml:mn>1</mml:mn>
-                                <mml:mo form="postfix" fence="true">)</mml:mo>
                             </mml:mrow>
-                            <mml:mrow>
-                                <mml:mo form="prefix" fence="true">(</mml:mo>
-                                <mml:mn>1</mml:mn>
-                                <mml:mo>-</mml:mo>
-                                <mml:mfrac>
-                                    <mml:mi>P</mml:mi>
-                                    <mml:mi>K</mml:mi>
-                                </mml:mfrac>
-                                <mml:mo form="postfix" fence="true">)</mml:mo>
-                            </mml:mrow>
-                        </mml:mrow>
-                    </mml:math>
-                    <graphic xlink:href="607975560007_gi21.png"/>
-                </alternatives>
-            </inline-formula>
-        </p>
-        <p>
-            <inline-formula>
-                <alternatives>
-                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                        <mml:mi>P</mml:mi>
-                        <mml:mo>(</mml:mo>
-                        <mml:mn>0</mml:mn>
-                        <mml:mo>)</mml:mo>
-                        <mml:mo>=</mml:mo>
-                        <mml:msub>
+                        </mml:math>
+                        <graphic xlink:href="607975560007_gi21.png"/>
+                    </alternatives>
+                </inline-formula>
+            </p>
+            <p>
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
                             <mml:mi>P</mml:mi>
+                            <mml:mo>(</mml:mo>
                             <mml:mn>0</mml:mn>
-                        </mml:msub>
-                    </mml:math>
-                    <graphic xlink:href="607975560007_gi22.png"/>
-                </alternatives>
-            </inline-formula>
-        </p>
-        <p>Este es el modelo de la ecuación logística modificada considerada en la subsección 3.1 por lo que como valores de los parámetros consideramos los seleccionados en aquella sección. El código R que genera lo solicitado, es el siguiente</p>
-        <p>
-            <fig id="gf15">
-                <label>
-                    <bold>fig6</bold>
-                </label>
-                <graphic xlink:href="607975560007_gf16.png" position="anchor" orientation="portrait"/>
-                <attrib>Elaboración propia</attrib>
-            </fig>
-        </p>
-        <p># figura 6 # install.packages("phaseR") library(phaseR) # Análisis cualitativo de la ecuación logística modificada tiempos2=seq(from = 0, to = 5, by = 0.01) param2 = c(a=1.5, L=6, K=14) logis.mod = function(t,P,param){ salida = with(as.list(c(P,param)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(salida)}</p>
-        <p># El campo vectorial logis.mod.flowField = flowField(logis.mod, xlim = c(0, 5), ylim = c(-1, 20), parameters = param2, points = 21, system = "one.dim", add = FALSE, xlab = "t", ylab = "P(t)") grid()</p>
-        <p># Las isoclinas nulas logis.mod.nullclines = nullclines(logis.mod, xlim = c(0, 5), ylim = c(-1, 20), parameters = param2, system = "one.dim")</p>
-        <p># Trayectorias con diversas condiciones iniciales logis.mod.trajectory = trajectory(logis.mod, y0 = c(1.5, 2.5,7.5, 11.5,15, 18 ), tlim = c(0, 5), parameters = param2, system = "one.dim", col = rep("red", 6))</p>
-        <p># Estabilidad de los puntos de equilibrio logis.mod.Estab1=stability(logis.mod,ystar = c(0),parameters = param2,  system = "one.dim") logis.mod.Estab2=stability(logis.mod,ystar = c(6),parameters = param2,  system = "one.dim") logis.mod.Estab3=stability(logis.mod,ystar = c(14),parameters = param2,  system = "one.dim")</p>
-        <p>El código anterior genera la gráfica de la figura <xref ref-type="fig" rid="gf16">6</xref> que muestra el campo direccional, las isoclinas nulas y trayectorias para algunas condiciones iniciales.</p>
-        <p>
-            <fig id="gf16">
-                <label>
-                    <bold>Figura 6</bold>
-                </label>
-                <caption>
-                    <title>Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</title>
-                </caption>
-                <alt-text>Figura 6 Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</alt-text>
-                <graphic xlink:href="607975560007_gf17.png" position="anchor" orientation="portrait"/>
-                <attrib>Elaboración propia</attrib>
-            </fig>
-        </p>
-        <p>En cuanto a estabilidad de los puntos de equilibrio los resultados son los siguientes</p>
-        <p>discriminant = -1.5, classification = Stable discriminant = 0.85714, classification = Unstable discriminant = -2, classification = Stable</p>
-        <p>y que por tanto clasifican a P=6 como una el punto de equilibrio inestable y a P=0 y P=14 como puntos de equilibrio asintóticamente estables.</p>
+                            <mml:mo>)</mml:mo>
+                            <mml:mo>=</mml:mo>
+                            <mml:msub>
+                                <mml:mi>P</mml:mi>
+                                <mml:mn>0</mml:mn>
+                            </mml:msub>
+                        </mml:math>
+                        <graphic xlink:href="607975560007_gi22.png"/>
+                    </alternatives>
+                </inline-formula>
+            </p>
+            <p>Este es el modelo de la ecuación logística modificada considerada en la subsección 3.1 por lo que como valores de los parámetros consideramos los seleccionados en aquella sección. El código R que genera lo solicitado, es el siguiente</p>
+            <p>
+                <fig id="gf15">
+                    <label>
+                    fig6
+                    </label>
+                    <graphic xlink:href="607975560007_gf16.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p># figura 6 # install.packages("phaseR") library(phaseR) # Análisis cualitativo de la ecuación logística modificada tiempos2=seq(from = 0, to = 5, by = 0.01) param2 = c(a=1.5, L=6, K=14) logis.mod = function(t,P,param){ salida = with(as.list(c(P,param)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(salida)}</p>
+            <p># El campo vectorial logis.mod.flowField = flowField(logis.mod, xlim = c(0, 5), ylim = c(-1, 20), parameters = param2, points = 21, system = "one.dim", add = FALSE, xlab = "t", ylab = "P(t)") grid()</p>
+            <p># Las isoclinas nulas logis.mod.nullclines = nullclines(logis.mod, xlim = c(0, 5), ylim = c(-1, 20), parameters = param2, system = "one.dim")</p>
+            <p># Trayectorias con diversas condiciones iniciales logis.mod.trajectory = trajectory(logis.mod, y0 = c(1.5, 2.5,7.5, 11.5,15, 18 ), tlim = c(0, 5), parameters = param2, system = "one.dim", col = rep("red", 6))</p>
+            <p># Estabilidad de los puntos de equilibrio logis.mod.Estab1=stability(logis.mod,ystar = c(0),parameters = param2,  system = "one.dim") logis.mod.Estab2=stability(logis.mod,ystar = c(6),parameters = param2,  system = "one.dim") logis.mod.Estab3=stability(logis.mod,ystar = c(14),parameters = param2,  system = "one.dim")</p>
+            <p>El código anterior genera la gráfica de la figura <xref ref-type="fig" rid="gf16">6</xref> que muestra el campo direccional, las isoclinas nulas y trayectorias para algunas condiciones iniciales.</p>
+            <p>
+                <fig id="gf16">
+                    <label>
+                    Figura 6
+                    </label>
+                    <caption>
+                        <title>Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</title>
+                    </caption>
+                    <alt-text>Figura 6 Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</alt-text>
+                    <graphic xlink:href="607975560007_gf17.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia</attrib>
+                </fig>
+            </p>
+            <p>En cuanto a estabilidad de los puntos de equilibrio los resultados son los siguientes</p>
+            <p>discriminant = -1.5, classification = Stable discriminant = 0.85714, classification = Unstable discriminant = -2, classification = Stable</p>
+            <p>y que por tanto clasifican a P=6 como una el punto de equilibrio inestable y a P=0 y P=14 como puntos de equilibrio asintóticamente estables.</p>
+        </sec>
     </sec>
-</sec>
-<sec>
-    <title>
-        <bold>Una aplicación del paquete phaseR a un problema de la vida real</bold>
-    </title>
-    <p>En los siguientes ejemplos se ilustra el uso de los paquetes, <bold>deSolve</bold> y <bold>phaseR</bold> los cuales utilizan la función <bold>ode()</bold>, así como algunas de las características y opciones del mismo con una ecuación diferencial de segundo orden no lineal.</p>
     <sec>
         <title>
-            <bold>Un modelo que generaliza la ley de Hooke.</bold>
+        Una aplicación del paquete phaseR a un problema de la vida real
         </title>
-        <p>La <bold>Ley de Hooke</bold> fue formulada en 1768 por Robert Hooke y básicamente establece que:</p>
-        <p>
-            <italic>"La fuerza que devuelve un resorte a su posición de equilibrio es proporcional a la distancia que se desplaza de esta posición"</italic> (            <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref>).
-        </p>
-        <p>Cuando este enunciado se expresa matemáticamente produce una ecuación diferencial lineal de segundo orden que se estudia, usualmente, en un curso básico de ecuaciones diferenciales ordinarias. En este aparte se analiza la ecuación diferencial no lineal</p>
-        <p>
-            <inline-formula>
+        <p>En los siguientes ejemplos se ilustra el uso de los paquetes, <bold>deSolve</bold> y <bold>phaseR</bold> los cuales utilizan la función <bold>ode()</bold>, así como algunas de las características y opciones del mismo con una ecuación diferencial de segundo orden no lineal.</p>
+        <sec>
+            <title>
+            Un modelo que generaliza la ley de Hooke.
+            </title>
+            <p>La <bold>Ley de Hooke</bold> fue formulada en 1768 por Robert Hooke y básicamente establece que:</p>
+            <p>
+                <italic>"La fuerza que devuelve un resorte a su posición de equilibrio es proporcional a la distancia que se desplaza de esta posición"</italic> (                <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref>).
+            </p>
+            <p>Cuando este enunciado se expresa matemáticamente produce una ecuación diferencial lineal de segundo orden que se estudia, usualmente, en un curso básico de ecuaciones diferenciales ordinarias. En este aparte se analiza la ecuación diferencial no lineal</p>
+            <p>
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>m</mml:mi>
+                                <mml:mfrac>
+                                    <mml:mrow>
+                                        <mml:msup>
+                                            <mml:mi>d</mml:mi>
+                                            <mml:mn>2</mml:mn>
+                                        </mml:msup>
+                                        <mml:mi>x</mml:mi>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mi>d</mml:mi>
+                                        <mml:msup>
+                                            <mml:mi>t</mml:mi>
+                                            <mml:mn>2</mml:mn>
+                                        </mml:msup>
+                                    </mml:mrow>
+                                </mml:mfrac>
+                                <mml:mo>+</mml:mo>
+                                <mml:mi>k</mml:mi>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo>+</mml:mo>
+                                <mml:mi>a</mml:mi>
+                                <mml:msup>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>3</mml:mn>
+                                </mml:msup>
+                                <mml:mo>=</mml:mo>
+                                <mml:mn>0</mml:mn>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="607975560007_gi23.png"/>
+                    </alternatives>
+                </inline-formula>
+            </p>
+            <p>que describe el movimiento de un cuerpo de masa m que cuelga de un resorte y fue propuesta en Cerón &amp; Guerrero, 2008 como un modelo que generaliza la ley de Hooke. Físicamente x representa el desplazamiento de un cuerpo de masa m en el extremo del resorte no lineal sin fricción, k es un parámetro positivo que se denomina elasticidad del resorte y cuya rigidez <inline-formula>
                 <alternatives>
                     <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                        <mml:mrow>
-                            <mml:mi>m</mml:mi>
-                            <mml:mfrac>
-                                <mml:mrow>
-                                    <mml:msup>
-                                        <mml:mi>d</mml:mi>
-                                        <mml:mn>2</mml:mn>
-                                    </mml:msup>
-                                    <mml:mi>x</mml:mi>
-                                </mml:mrow>
-                                <mml:mrow>
-                                    <mml:mi>d</mml:mi>
-                                    <mml:msup>
-                                        <mml:mi>t</mml:mi>
-                                        <mml:mn>2</mml:mn>
-                                    </mml:msup>
-                                </mml:mrow>
-                            </mml:mfrac>
-                            <mml:mo>+</mml:mo>
-                            <mml:mi>k</mml:mi>
-                            <mml:mi>x</mml:mi>
-                            <mml:mo>+</mml:mo>
-                            <mml:mi>a</mml:mi>
-                            <mml:msup>
-                                <mml:mi>x</mml:mi>
-                                <mml:mn>3</mml:mn>
-                            </mml:msup>
-                            <mml:mo>=</mml:mo>
-                            <mml:mn>0</mml:mn>
-                        </mml:mrow>
+                        <mml:mi>a</mml:mi>
+                        <mml:mo>&#x2260;</mml:mo>
+                        <mml:mn>0</mml:mn>
                     </mml:math>
-                    <graphic xlink:href="607975560007_gi23.png"/>
+                    <graphic xlink:href="607975560007_gi24.png"/>
                 </alternatives>
-            </inline-formula>
+            </inline-formula> varía con el desplazamiento. Si a&gt;0 la rigidez aumenta con el desplazamiento y se tiene un resorte duro, pero para a&lt;0 la rigidez disminuye con el desplazamiento y se tiene un resorte suave (<xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref>).
         </p>
-        <p>que describe el movimiento de un cuerpo de masa m que cuelga de un resorte y fue propuesta en Cerón &amp; Guerrero, 2008 como un modelo que generaliza la ley de Hooke. Físicamente x representa el desplazamiento de un cuerpo de masa m en el extremo del resorte no lineal sin fricción, k es un parámetro positivo que se denomina elasticidad del resorte y cuya rigidez <inline-formula>
+        <p>La utilización de los paquetes <bold>deSolve</bold> y <bold>PhaseR</bold> para analizar esta ecuación diferencial requiere transformarla en un sistema dos-dimensional de ecuaciones diferenciales; para lo cual utilizamos el cambio de variable <inline-formula>
             <alternatives>
                 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                    <mml:mi>a</mml:mi>
-                    <mml:mo>&#x2260;</mml:mo>
-                    <mml:mn>0</mml:mn>
+                    <mml:mrow>
+                        <mml:mfrac>
+                            <mml:mrow>
+                                <mml:mi>d</mml:mi>
+                                <mml:mi>x</mml:mi>
+                            </mml:mrow>
+                            <mml:mrow>
+                                <mml:mi>d</mml:mi>
+                                <mml:mi>t</mml:mi>
+                            </mml:mrow>
+                        </mml:mfrac>
+                        <mml:mo>=</mml:mo>
+                        <mml:mi>y</mml:mi>
+                    </mml:mrow>
                 </mml:math>
-                <graphic xlink:href="607975560007_gi24.png"/>
+                <graphic xlink:href="607975560007_gi25.png"/>
             </alternatives>
-        </inline-formula> varía con el desplazamiento. Si a&gt;0 la rigidez aumenta con el desplazamiento y se tiene un resorte duro, pero para a&lt;0 la rigidez disminuye con el desplazamiento y se tiene un resorte suave (<xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref>).
+        </inline-formula> con lo que se obtiene el sistema no lineal bidimensional</p>
+    <p>
+        <inline-formula>
+            <alternatives>
+                <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                    <mml:mrow>
+                        <mml:mfrac>
+                            <mml:mrow>
+                                <mml:mi>d</mml:mi>
+                                <mml:mi>x</mml:mi>
+                            </mml:mrow>
+                            <mml:mrow>
+                                <mml:mi>d</mml:mi>
+                                <mml:mi>t</mml:mi>
+                            </mml:mrow>
+                        </mml:mfrac>
+                        <mml:mo>=</mml:mo>
+                        <mml:mi>y</mml:mi>
+                    </mml:mrow>
+                </mml:math>
+                <graphic xlink:href="607975560007_gi26.png"/>
+            </alternatives>
+        </inline-formula>
     </p>
-    <p>La utilización de los paquetes <bold>deSolve</bold> y <bold>PhaseR</bold> para analizar esta ecuación diferencial requiere transformarla en un sistema dos-dimensional de ecuaciones diferenciales; para lo cual utilizamos el cambio de variable <inline-formula>
-        <alternatives>
-            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                <mml:mrow>
-                    <mml:mfrac>
-                        <mml:mrow>
-                            <mml:mi>d</mml:mi>
-                            <mml:mi>x</mml:mi>
-                        </mml:mrow>
-                        <mml:mrow>
-                            <mml:mi>d</mml:mi>
-                            <mml:mi>t</mml:mi>
-                        </mml:mrow>
-                    </mml:mfrac>
-                    <mml:mo>=</mml:mo>
-                    <mml:mi>y</mml:mi>
-                </mml:mrow>
-            </mml:math>
-            <graphic xlink:href="607975560007_gi25.png"/>
-        </alternatives>
-    </inline-formula> con lo que se obtiene el sistema no lineal bidimensional</p>
-<p>
-    <inline-formula>
-        <alternatives>
-            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                <mml:mrow>
-                    <mml:mfrac>
-                        <mml:mrow>
-                            <mml:mi>d</mml:mi>
-                            <mml:mi>x</mml:mi>
-                        </mml:mrow>
-                        <mml:mrow>
-                            <mml:mi>d</mml:mi>
-                            <mml:mi>t</mml:mi>
-                        </mml:mrow>
-                    </mml:mfrac>
-                    <mml:mo>=</mml:mo>
-                    <mml:mi>y</mml:mi>
-                </mml:mrow>
-            </mml:math>
-            <graphic xlink:href="607975560007_gi26.png"/>
-        </alternatives>
-    </inline-formula>
-</p>
-<p>
-    <inline-formula>
-        <alternatives>
-            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                <mml:mrow>
-                    <mml:mfrac>
-                        <mml:mrow>
-                            <mml:mi>d</mml:mi>
-                            <mml:mi>y</mml:mi>
-                        </mml:mrow>
-                        <mml:mrow>
-                            <mml:mi>d</mml:mi>
-                            <mml:mi>t</mml:mi>
-                        </mml:mrow>
-                    </mml:mfrac>
-                    <mml:mo>=</mml:mo>
-                    <mml:mo>-</mml:mo>
-                    <mml:mfrac>
-                        <mml:mi>k</mml:mi>
-                        <mml:mi>m</mml:mi>
-                    </mml:mfrac>
-                    <mml:mi>x</mml:mi>
-                    <mml:mo>-</mml:mo>
-                    <mml:mfrac>
-                        <mml:mi>a</mml:mi>
-                        <mml:mi>m</mml:mi>
-                    </mml:mfrac>
-                    <mml:msup>
+    <p>
+        <inline-formula>
+            <alternatives>
+                <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                    <mml:mrow>
+                        <mml:mfrac>
+                            <mml:mrow>
+                                <mml:mi>d</mml:mi>
+                                <mml:mi>y</mml:mi>
+                            </mml:mrow>
+                            <mml:mrow>
+                                <mml:mi>d</mml:mi>
+                                <mml:mi>t</mml:mi>
+                            </mml:mrow>
+                        </mml:mfrac>
+                        <mml:mo>=</mml:mo>
+                        <mml:mo>-</mml:mo>
+                        <mml:mfrac>
+                            <mml:mi>k</mml:mi>
+                            <mml:mi>m</mml:mi>
+                        </mml:mfrac>
                         <mml:mi>x</mml:mi>
-                        <mml:mn>3</mml:mn>
-                    </mml:msup>
-                </mml:mrow>
+                        <mml:mo>-</mml:mo>
+                        <mml:mfrac>
+                            <mml:mi>a</mml:mi>
+                            <mml:mi>m</mml:mi>
+                        </mml:mfrac>
+                        <mml:msup>
+                            <mml:mi>x</mml:mi>
+                            <mml:mn>3</mml:mn>
+                        </mml:msup>
+                    </mml:mrow>
+                </mml:math>
+                <graphic xlink:href="607975560007_gi27.png"/>
+            </alternatives>
+        </inline-formula>
+    </p>
+    <p>en el cual, llamando <inline-formula>
+        <alternatives>
+            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                <mml:msup>
+                    <mml:mi>c</mml:mi>
+                    <mml:mn>2</mml:mn>
+                </mml:msup>
+                <mml:mo>=</mml:mo>
+                <mml:mfrac>
+                    <mml:mi>k</mml:mi>
+                    <mml:mi>m</mml:mi>
+                </mml:mfrac>
             </mml:math>
-            <graphic xlink:href="607975560007_gi27.png"/>
+            <graphic xlink:href="607975560007_gi29.png"/>
         </alternatives>
-    </inline-formula>
-</p>
-<p>en el cual, llamando <inline-formula>
+    </inline-formula> y <inline-formula>
     <alternatives>
         <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-            <mml:msup>
-                <mml:mi>c</mml:mi>
-                <mml:mn>2</mml:mn>
-            </mml:msup>
+            <mml:mi>b</mml:mi>
             <mml:mo>=</mml:mo>
             <mml:mfrac>
-                <mml:mi>k</mml:mi>
-                <mml:mi>m</mml:mi>
+                <mml:mi>a</mml:mi>
+                <mml:mrow>
+                    <mml:mn>2</mml:mn>
+                    <mml:mi>k</mml:mi>
+                </mml:mrow>
             </mml:mfrac>
+            <mml:mo>&#x2260;</mml:mo>
+            <mml:mn>0</mml:mn>
         </mml:math>
-        <graphic xlink:href="607975560007_gi29.png"/>
+        <graphic xlink:href="607975560007_gi30.png"/>
     </alternatives>
-</inline-formula> y <inline-formula>
-<alternatives>
-    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-        <mml:mi>b</mml:mi>
-        <mml:mo>=</mml:mo>
-        <mml:mfrac>
-            <mml:mi>a</mml:mi>
-            <mml:mrow>
-                <mml:mn>2</mml:mn>
-                <mml:mi>k</mml:mi>
-            </mml:mrow>
-        </mml:mfrac>
-        <mml:mo>&#x2260;</mml:mo>
-        <mml:mn>0</mml:mn>
-    </mml:math>
-    <graphic xlink:href="607975560007_gi30.png"/>
-</alternatives>
 </inline-formula> se puede escribir como</p>
 <p>
 <inline-formula>
-<alternatives>
-    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-            <mml:mfrac>
-                <mml:mrow>
-                    <mml:mi>d</mml:mi>
-                    <mml:mi>x</mml:mi>
-                </mml:mrow>
-                <mml:mrow>
-                    <mml:mi>d</mml:mi>
-                    <mml:mi>t</mml:mi>
-                </mml:mrow>
-            </mml:mfrac>
-            <mml:mo>=</mml:mo>
-            <mml:mi>y</mml:mi>
-        </mml:mrow>
-    </mml:math>
-    <graphic xlink:href="607975560007_gi31.png"/>
-</alternatives>
+    <alternatives>
+        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+            <mml:mrow>
+                <mml:mfrac>
+                    <mml:mrow>
+                        <mml:mi>d</mml:mi>
+                        <mml:mi>x</mml:mi>
+                    </mml:mrow>
+                    <mml:mrow>
+                        <mml:mi>d</mml:mi>
+                        <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                </mml:mfrac>
+                <mml:mo>=</mml:mo>
+                <mml:mi>y</mml:mi>
+            </mml:mrow>
+        </mml:math>
+        <graphic xlink:href="607975560007_gi31.png"/>
+    </alternatives>
 </inline-formula>
 </p>
 <p>
 <inline-formula>
-<alternatives>
-    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-        <mml:mrow>
-            <mml:mfrac>
-                <mml:mrow>
-                    <mml:mi>d</mml:mi>
-                    <mml:mi>y</mml:mi>
-                </mml:mrow>
-                <mml:mrow>
-                    <mml:mi>d</mml:mi>
-                    <mml:mi>t</mml:mi>
-                </mml:mrow>
-            </mml:mfrac>
-            <mml:mo>=</mml:mo>
-            <mml:mo>-</mml:mo>
-            <mml:msup>
-                <mml:mi>c</mml:mi>
-                <mml:mn>2</mml:mn>
-            </mml:msup>
+    <alternatives>
+        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
             <mml:mrow>
-                <mml:mo form="prefix" fence="true">(</mml:mo>
-                <mml:mi>x</mml:mi>
-                <mml:mo>+</mml:mo>
-                <mml:mn>2</mml:mn>
-                <mml:mi>b</mml:mi>
+                <mml:mfrac>
+                    <mml:mrow>
+                        <mml:mi>d</mml:mi>
+                        <mml:mi>y</mml:mi>
+                    </mml:mrow>
+                    <mml:mrow>
+                        <mml:mi>d</mml:mi>
+                        <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                </mml:mfrac>
+                <mml:mo>=</mml:mo>
+                <mml:mo>-</mml:mo>
                 <mml:msup>
-                    <mml:mi>x</mml:mi>
-                    <mml:mn>3</mml:mn>
+                    <mml:mi>c</mml:mi>
+                    <mml:mn>2</mml:mn>
                 </mml:msup>
-                <mml:mo form="postfix" fence="true">)</mml:mo>
+                <mml:mrow>
+                    <mml:mo form="prefix" fence="true">(</mml:mo>
+                    <mml:mi>x</mml:mi>
+                    <mml:mo>+</mml:mo>
+                    <mml:mn>2</mml:mn>
+                    <mml:mi>b</mml:mi>
+                    <mml:msup>
+                        <mml:mi>x</mml:mi>
+                        <mml:mn>3</mml:mn>
+                    </mml:msup>
+                    <mml:mo form="postfix" fence="true">)</mml:mo>
+                </mml:mrow>
             </mml:mrow>
-        </mml:mrow>
-    </mml:math>
-    <graphic xlink:href="607975560007_gi32.png"/>
-</alternatives>
+        </mml:math>
+        <graphic xlink:href="607975560007_gi32.png"/>
+    </alternatives>
 </inline-formula>
 </p>
 <p>
@@ -1691,22 +1688,22 @@
 <p>
 <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón at el (2008)</xref> demuestran que, en el caso del resorte duro, el comportamiento de las trayectorias es independiente del valor de <italic>b</italic>, por ello para considerar este caso, consideramos los valores <inline-formula>
 <alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-    <mml:msup>
-        <mml:mi>c</mml:mi>
-        <mml:mn>2</mml:mn>
-    </mml:msup>
-    <mml:mo>=</mml:mo>
-    <mml:mn>1</mml:mn>
-</mml:math>
-<graphic xlink:href="607975560007_gi33.png"/>
+    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+        <mml:msup>
+            <mml:mi>c</mml:mi>
+            <mml:mn>2</mml:mn>
+        </mml:msup>
+        <mml:mo>=</mml:mo>
+        <mml:mn>1</mml:mn>
+    </mml:math>
+    <graphic xlink:href="607975560007_gi33.png"/>
 </alternatives>
 </inline-formula> y <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-<mml:mi>b</mml:mi>
-<mml:mo>=</mml:mo>
-<mml:mn>2</mml:mn>
+    <mml:mi>b</mml:mi>
+    <mml:mo>=</mml:mo>
+    <mml:mn>2</mml:mn>
 </mml:math>
 <graphic xlink:href="607975560007_gi34.png"/>
 </alternatives>
@@ -1724,7 +1721,7 @@
 <p>
 <fig id="gf18">
 <label>
-<bold>Figura 7</bold>
+Figura 7
 </label>
 <caption>
 <title>A la izquierda, posición y a la derecha, velocidad</title>
@@ -1748,7 +1745,7 @@
 <p>
 <fig id="gf20">
 <label>
-<bold>Figura 8</bold>
+Figura 8
 </label>
 <caption>
 <title>Desplazamiento y velocidad contra tiempo</title>
@@ -1775,7 +1772,7 @@
 <p>
 <fig id="gf22">
 <label>
-<bold>Figura 9</bold>
+Figura 9
 </label>
 <caption>
 <title>Campo direccional, isoclinas nulas y trayectorias, resorte duro</title>
@@ -1797,7 +1794,7 @@
 <p>
 <fig id="gf24">
 <label>
-<bold>Figura 10</bold>
+Figura 10
 </label>
 <caption>
 <title>Desplazamiento y Velocidad contra el tiempo, resorte duro. </title>
@@ -1819,8 +1816,8 @@
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mfenced>
-<mml:mn>0</mml:mn>
-<mml:mn>0</mml:mn>
+    <mml:mn>0</mml:mn>
+    <mml:mn>0</mml:mn>
 </mml:mfenced>
 </mml:math>
 <graphic xlink:href="607975560007_gi35.png"/>
@@ -1829,20 +1826,20 @@
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mrow>
-<mml:mo form="prefix" fence="true">(</mml:mo>
-<mml:mfrac>
-    <mml:mn>1</mml:mn>
-    <mml:msqrt>
-        <mml:mrow>
-            <mml:mo>-</mml:mo>
-            <mml:mn>2</mml:mn>
-            <mml:mi>b</mml:mi>
-        </mml:mrow>
-    </mml:msqrt>
-</mml:mfrac>
-<mml:mo separator="true">,</mml:mo>
-<mml:mn>0</mml:mn>
-<mml:mo form="postfix" fence="true">)</mml:mo>
+    <mml:mo form="prefix" fence="true">(</mml:mo>
+    <mml:mfrac>
+        <mml:mn>1</mml:mn>
+        <mml:msqrt>
+            <mml:mrow>
+                <mml:mo>-</mml:mo>
+                <mml:mn>2</mml:mn>
+                <mml:mi>b</mml:mi>
+            </mml:mrow>
+        </mml:msqrt>
+    </mml:mfrac>
+    <mml:mo separator="true">,</mml:mo>
+    <mml:mn>0</mml:mn>
+    <mml:mo form="postfix" fence="true">)</mml:mo>
 </mml:mrow>
 </mml:math>
 <graphic xlink:href="607975560007_gi36.png"/>
@@ -1853,13 +1850,13 @@
 <mml:mo form="prefix" fence="true">(</mml:mo>
 <mml:mfrac>
 <mml:mrow>
-<mml:mo>&#x2212;</mml:mo>
-<mml:mn>1</mml:mn>
+    <mml:mo>&#x2212;</mml:mo>
+    <mml:mn>1</mml:mn>
 </mml:mrow>
 <mml:msqrt>
-<mml:mo>-</mml:mo>
-<mml:mn>2</mml:mn>
-<mml:mi>b</mml:mi>
+    <mml:mo>-</mml:mo>
+    <mml:mn>2</mml:mn>
+    <mml:mi>b</mml:mi>
 </mml:msqrt>
 </mml:mfrac>
 <mml:mo separator="true">,</mml:mo>
@@ -1877,32 +1874,32 @@
 <mml:mi>D</mml:mi>
 <mml:mo>=</mml:mo>
 <mml:mrow>
-<mml:mo form="prefix" fence="true">{</mml:mo>
-<mml:mo form="prefix" stretchy="false">(</mml:mo>
-<mml:mi>x</mml:mi>
-<mml:mo separator="true">,</mml:mo>
-<mml:mi>y</mml:mi>
-<mml:mo form="postfix" stretchy="false">)</mml:mo>
-<mml:mo lspace="0.22em" rspace="0.22em" stretchy="false">|</mml:mo>
-<mml:mi>|</mml:mi>
-<mml:mi>x</mml:mi>
-<mml:mi>|</mml:mi>
-<mml:mo>&lt;</mml:mo>
-<mml:mfrac>
-    <mml:mn>1</mml:mn>
-    <mml:msqrt>
-        <mml:mrow>
-            <mml:mo>-</mml:mo>
-            <mml:mn>2</mml:mn>
-            <mml:mi>b</mml:mi>
-        </mml:mrow>
-    </mml:msqrt>
-</mml:mfrac>
-<mml:mo separator="true">,</mml:mo>
-<mml:mi>y</mml:mi>
-<mml:mo>&#x2208;</mml:mo>
-<mml:mi>&#x211D;</mml:mi>
-<mml:mo form="postfix" fence="true">}</mml:mo>
+    <mml:mo form="prefix" fence="true">{</mml:mo>
+    <mml:mo form="prefix" stretchy="false">(</mml:mo>
+    <mml:mi>x</mml:mi>
+    <mml:mo separator="true">,</mml:mo>
+    <mml:mi>y</mml:mi>
+    <mml:mo form="postfix" stretchy="false">)</mml:mo>
+    <mml:mo lspace="0.22em" rspace="0.22em" stretchy="false">|</mml:mo>
+    <mml:mi>|</mml:mi>
+    <mml:mi>x</mml:mi>
+    <mml:mi>|</mml:mi>
+    <mml:mo>&lt;</mml:mo>
+    <mml:mfrac>
+        <mml:mn>1</mml:mn>
+        <mml:msqrt>
+            <mml:mrow>
+                <mml:mo>-</mml:mo>
+                <mml:mn>2</mml:mn>
+                <mml:mi>b</mml:mi>
+            </mml:mrow>
+        </mml:msqrt>
+    </mml:mfrac>
+    <mml:mo separator="true">,</mml:mo>
+    <mml:mi>y</mml:mi>
+    <mml:mo>&#x2208;</mml:mo>
+    <mml:mi>&#x211D;</mml:mi>
+    <mml:mo form="postfix" fence="true">}</mml:mo>
 </mml:mrow>
 </mml:mrow>
 </mml:math>
@@ -1923,7 +1920,7 @@
 <p>
 <fig id="gf26">
 <label>
-<bold>Figura 11</bold>
+Figura 11
 </label>
 <caption>
 <title>Posición y Velocidad, resorte suave, Cini= (0.3, 0.2)</title>
@@ -1937,7 +1934,7 @@
 <p>
 <fig id="gf27">
 <label>
-<bold>Figura 12</bold>
+Figura 12
 </label>
 <caption>
 <title>Posición y Velocidad, resorte suave, Cini=(0.7, 0.5)</title>
@@ -1959,7 +1956,7 @@
 <p>
 <fig id="gf29">
 <label>
-<bold>Figura 13</bold>
+Figura 13
 </label>
 <caption>
 <title>Campo direccional, isoclinas nulas y trayectorias, resorte suave.</title>
@@ -1983,7 +1980,7 @@
 <p>
 <fig id="gf31">
 <label>
-<bold>Figura 14</bold>
+Figura 14
 </label>
 <caption>
 <title>Desplazamiento y Velocidad contra el tiempo. Resorte suave: izquierda Cini=(0.3, 0.2), derecha Cini=(0.7, 0.5)</title>
@@ -2002,7 +1999,7 @@
 </sec>
 <sec>
 <title>
-<bold>Conclusiones</bold>
+Conclusiones
 </title>
 <p>En esta sección final se presentan algunos comentarios que complementan lo considerado en el desarrollo de este documento.</p>
 <p>
