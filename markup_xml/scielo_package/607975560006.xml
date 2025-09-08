@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE article
   PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "https://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
-<article article-type="editorial" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
     xmlns:mml="http://www.w3.org/1998/Math/MathML"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
@@ -27,7 +27,7 @@
                 <article-title >Parametrizando ejercicios con Python y LaTeX: una novedosa estrategia para generación de materiales de enseñanza y evaluación en matemáticas</article-title>
             </title-group>
             <contrib-group>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0002-3890-5011</contrib-id>
                     <name name-style="western">
                         <surname>Arroyo Hernández</surname>
@@ -37,7 +37,7 @@
                     <xref ref-type="fn" rid="fn2">1</xref>
                     <email>jorge.arroyo.hernandez@una.ac.cr</email>
                 </contrib>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0002-4244-3737</contrib-id>
                     <name name-style="western">
                         <surname>Mora Mora</surname>
@@ -47,7 +47,7 @@
                     <xref ref-type="fn" rid="fn4">2.</xref>
                     <email>federico.mora.mora@una.ac.cr</email>
                 </contrib>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0003-4961-898X</contrib-id>
                     <name name-style="western">
                         <surname>Trigueros Rodríguez</surname>
@@ -57,7 +57,7 @@
                     <xref ref-type="fn" rid="fn3">3</xref>
                     <email>eithel.trigueros.rodriguez@una.ac.cr</email>
                 </contrib>
-                <contrib contrib-type="author" corresp="no">
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0002-6572-2640</contrib-id>
                     <name name-style="western">
                         <surname>Porras Lizano</surname>
@@ -124,8 +124,8 @@
             </pub-date>
             <volume>24</volume>
             <issue>2</issue>
-            <fpage>1</fpage>
-            <lpage>15</lpage>
+            <fpage>85</fpage>
+            <lpage>100</lpage>
             <history>
                 <date date-type="received" publication-format="dd mes yyyy">
                     <day>01</day>
@@ -141,19 +141,24 @@
             <permissions>
                 <copyright-year>2024</copyright-year>
                 <copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
-                <ali:free_to_read/>
-                <license license-type="open-access" xml:lang="es" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
-                    <ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
-                    <license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+                    <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License</license-p>
                 </license>
             </permissions>
-            <abstract>
-                <title>Resumen</title>
-                <p>En este artículo se presenta una propuesta novedosa para su uso en docencia, que consiste en la construcción de ejercicios generados a partir de una estructura base con parámetros pseudoaleatorios, de manera que al sustituirlos con valores particulares en rangos predeterminados se obtengan múltiples versiones. La elaboración y digitalización de los ítems se apoya en el lenguaje de programación Python y sus bibliotecas Sympy y Numpy; los cuales permiten automatizar la generación de los ejercicios, sus soluciones y los archivos LaTeX. Estos últimos compilados de manera masiva. Entre los principales aportes de este desarrollo se destacan: los listados de ítems de dificultad similar personalizados con retroalimentación para cada estudiante y ahorro de tiempo en horas de docencia.</p>
-            </abstract>
-            <trans-abstract xml:lang="en">
+            <abstract xml:lang="en">
                 <title>Abstract</title>
                 <p>This article presents a novel approach to teaching by generating exercises from a structured base with pseudorandom parameters. By substituting values with individuals in predetermined ranges, multiple versions of exercises can be obtained. The elements are elaborated and digitized using the Python programming language and its Sympy and Numpy libraries, which automate the generation of exercises, their solutions, and the Latex files. These files can then be compiled massively. One of the main contributions of this development is the creation of personalized lists of elements of similar difficulty, each with feedback for individual students. This approach also saves time in teaching hours. <bold>Keywords:</bold> Python, Latex, Parameterizing exercises, Evaluation and teaching of the Mathematics.</p>
+            </abstract>
+            <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Python</kwd>
+                <kwd>LaTeX</kwd>
+                <kwd>Parameterized exercises</kwd>
+                <kwd>Mathematics teaching and assessment</kwd>
+            </kwd-group>
+            <trans-abstract xml:lang="es">
+                <title>Resumen</title>
+                <p>En este artículo se presenta una propuesta novedosa para su uso en docencia, que consiste en la construcción de ejercicios generados a partir de una estructura base con parámetros pseudoaleatorios, de manera que al sustituirlos con valores particulares en rangos predeterminados se obtengan múltiples versiones. La elaboración y digitalización de los ítems se apoya en el lenguaje de programación Python y sus bibliotecas Sympy y Numpy; los cuales permiten automatizar la generación de los ejercicios, sus soluciones y los archivos LaTeX. Estos últimos compilados de manera masiva. Entre los principales aportes de este desarrollo se destacan: los listados de ítems de dificultad similar personalizados con retroalimentación para cada estudiante y ahorro de tiempo en horas de docencia.</p>
             </trans-abstract>
             <kwd-group xml:lang="es">
                 <title>Palabras clave</title>
@@ -173,16 +178,16 @@
     <body>
         <sec>
             <title>
-                <bold>Introducción</bold>
+                Introducción
             </title>
             <p>El continuo avance de la tecnología repercute en todas las actividades del ser humano, entre ellas, la educación formal. Lo anterior provoca nuevos retos y desafíos para el personal académico en su quehacer diario. Por tanto, existe una constante pero imperante necesidad de actualización a su currículum que le permita integrar nuevos elementos a las tareas metodológicas que favorezcan y promuevan nuevas oportunidades de mejora en procesos de mediación y evaluación del conocimiento.</p>
-            <p>En este sentido, los sistemas informáticos proveen una excelente oportunidad. Esto lo reafirman los autores (<xref ref-type="bibr" rid="redalyc_607975560006_ref1">Aguayo, Lizarraga, &amp; Quiñonez, 2021</xref>) quienes indican que la tecnología aplicada a la educación es de gran ayuda para que los estudiantes lleven a cabo un proceso de enseñanza y aprendizaje de una manera favorable, en particular, en el área de educación matemática.</p>
+            <p>En este sentido, los sistemas informáticos proveen una excelente oportunidad. Esto lo reafirman los autores (<xref ref-type="bibr" rid="ref1">Aguayo, Lizarraga, &amp; Quiñonez, 2021</xref>) quienes indican que la tecnología aplicada a la educación es de gran ayuda para que los estudiantes lleven a cabo un proceso de enseñanza y aprendizaje de una manera favorable, en particular, en el área de educación matemática.</p>
             <p>En la actividad sustancial de esta disciplina, existen diversos tipos de ejercicios por medio de los cuales se puede ejemplificar un concepto o resultado. Por ejemplo, los ejercicios aritméticos o algebraicos que, por lo general son muy utilizados en la práctica docente, tanto para la enseñanza como en las evaluaciones.</p>
-            <p>Actualmente existen programas informáticos orientados a la solución de ejercicios matemáticos en línea como Wolfram o Symbolab. Estos son capaces de realizar el cálculo de sus resultados e inclusive desplegar procedimientos de su resolución (<xref ref-type="bibr" rid="redalyc_607975560006_ref4">Jankvist &amp; Misfeldt, 2015</xref>). Este aspecto dificulta la evaluación de los contenidos, debido a que los estudiantes en ocasiones recurren a estas plataformas tecnológicas para resolver las pruebas y compartir los resultados. Esto se agudiza en los casos en los que se aplican evaluaciones sumativas fuera del salón de clase.</p>
+            <p>Actualmente existen programas informáticos orientados a la solución de ejercicios matemáticos en línea como Wolfram o Symbolab. Estos son capaces de realizar el cálculo de sus resultados e inclusive desplegar procedimientos de su resolución (<xref ref-type="bibr" rid="ref4">Jankvist &amp; Misfeldt, 2015</xref>). Este aspecto dificulta la evaluación de los contenidos, debido a que los estudiantes en ocasiones recurren a estas plataformas tecnológicas para resolver las pruebas y compartir los resultados. Esto se agudiza en los casos en los que se aplican evaluaciones sumativas fuera del salón de clase.</p>
             <p>Una estrategia de solución que viene a mitigar esta problemática es la evaluación individual a cada estudiante con diferentes ejercicios. Sin embargo, estas acciones presentan dos dificultades centrales: el tiempo docente de elaboración y validación de los ejercicios y, la homogenización en la dificultad de los mismos. Ambas son enormes desafíos por resolver.</p>
             <p>Debido a lo anterior, en este trabajo se presenta una propuesta novedosa que abre una ventana de nuevas oportunidades de mejora en los procesos educativos, particularmente, en actividades evaluativas formativas y las sumativas. La propuesta consiste en la construcción de evaluaciones que incluyan ejercicios en diferentes versiones generados a partir de valores parametrizables. Estas evaluaciones se construyen mediante el uso lenguajes de programación con acceso a librerías de cálculo simbólico y de edición de texto.</p>
             <p>El objetivo principal en este trabajo es dar a conocer una nueva forma de construcción de materiales interactivos compuestos con listados de ejercicios, donde cada uno de estos es generado con valores aleatorios sustituidos en variables auxiliares denominadas <italic>parámetros</italic>, provocando que de un mismo ejercicio se obtengan múltiples versiones con el mismo nivel de dificultad. Cabe resaltar que los valores aleatorios son obtenidos de la librería <italic>Numpy</italic> que provienen de algoritmos para la generación de números pseudoaleatorios.</p>
-            <p>Esta propuesta se desarrolla con software de libre acceso, por lo que, puede ser explorada por cualquier persona con interés en el aprendizaje de estos entornos. Con esta formulación, se garantiza múltiples ventajas, entre las que se encuentran: la implementación en diversos sistemas operativos, las facilidades de actualización y, acceso a las comunidades virtuales y foros de información en línea (<xref ref-type="bibr" rid="redalyc_607975560006_ref3">Díaz, Harari, &amp; Banchoff Tzancoff, 2005</xref>).
+            <p>Esta propuesta se desarrolla con software de libre acceso, por lo que, puede ser explorada por cualquier persona con interés en el aprendizaje de estos entornos. Con esta formulación, se garantiza múltiples ventajas, entre las que se encuentran: la implementación en diversos sistemas operativos, las facilidades de actualización y, acceso a las comunidades virtuales y foros de información en línea (<xref ref-type="bibr" rid="ref3">Díaz, Harari, &amp; Banchoff Tzancoff, 2005</xref>).
             </p>
             <p>Además, este trabajo está dirigido a un público meta afín a la enseñanza de la matemática, tanto a nivel de educación secundaria como universitaria, en ambientes en los que la opción de la elaboración de prácticas con ejercicios parametrizables pueda ser aplicado. Por otro lado, en el desarrollo teórico y práctico del presente trabajo se utilizan ejercicios parametrizados aplicados como tareas evaluativas en el curso Cálculo Diferencial e Integral de la Universidad Nacional de Costa Rica.</p>
             <p>Se aclara al lector que las competencias deseables para el acceso correcto al conocimiento que se brinda en este documento, es el dominio básico de los lenguajes de edición de texto LaTeX y de programación Python; aunque no es imprescindible. Además, aunque el nivel que complejidad de los ejemplos presentados es básico, este se puede adaptar según las necesidades del lector.</p>
@@ -190,13 +195,13 @@
         </sec>
         <sec>
             <title>
-                <bold>Elaboración de ejercicios </bold>
+                Elaboración de ejercicios 
             </title>
             <p>La elaboración de prácticas con ejercicios parametrizables conlleva un proceso que considera aspectos iniciales en la selección de ejercicios y su digitalización. En las secciones siguientes se abordan en detalle estos elementos. La figura <xref ref-type="fig" rid="gf1">1</xref> esquematiza el orden de estas secciones correspondientes a la secuencia de los procesos en la ejecución de la propuesta.</p>
             <p>
                 <fig id="gf1">
                     <label>
-                        <bold>Figura 1</bold>
+                        Figura 1
                     </label>
                     <caption>
                         <title> Diagrama de proceso de elaboración de prácticas parametrizadas Elaboración propia</title>
@@ -208,7 +213,7 @@
             </p>
             <sec>
                 <title>
-                    <bold>Construcción manual de ejercicios</bold>
+                    Construcción manual de ejercicios
                 </title>
                 <p>En la selección de los ejercicios a parametrizar es indispensable tomar en cuenta consideraciones generales básicas. En primera instancia, es necesario plantear un ejercicio con una estructura base definida y parámetros que puedan ser sustituidos por diferentes valores con el objetivo de conseguir casos particulares del mismo. El análisis de los parámetros y los valores a reemplazar es medular en este proceso pues con ello se evita problemas de indefiniciones y complejidad.</p>
                 <p>Por ejemplo, el siguiente es un límite en una variable con una estructura base apoyada del parámetro <inline-formula>
@@ -336,7 +341,7 @@
 </sec>
 <sec>
     <title>
-        <bold>Digitalización de ejercicios</bold>
+        Digitalización de ejercicios
     </title>
     <p>Después del análisis y la resolución manual de los ejercicios, se continua con el proceso de su digitalización. Para lo anterior, es menester cubrir las siguientes etapas:</p>
     <p>
@@ -356,7 +361,7 @@
     <p>
         <fig id="gf2">
             <label>
-                <bold>Figura 2</bold>
+                Figura 2
             </label>
             <caption>
                 <title>Proceso de creación de archivos con ejercicios parametrizados: el montaje del archivo generador y proceso de compilación masiva</title>
@@ -369,9 +374,9 @@
     <p>Proceso de creación de archivos con ejercicios parametrizados: el montaje del archivo generador y proceso de compilación masiva. Elaboración propia.</p>
     <sec>
         <title>
-            <bold>Creación del archivo .py</bold>
+            Creación del archivo .py
         </title>
-        <p>En este apartado se explica la creación del archivo genérico reutilizable básico para la construcción de prácticas y evaluaciones. Estos archivos son creados a partir de scripts de Python y apoyados de las librerías de código abierto <italic>Sympy</italic> (            <xref ref-type="bibr" rid="redalyc_607975560006_ref5">Lamy, 2013</xref>) y <italic>Numpy</italic> (            <xref ref-type="bibr" rid="redalyc_607975560006_ref2">Bressert, 2012</xref>). La librería <italic>Sympy</italic> es un motor de cálculo algebraico (CAS por sus siglas en inglés) que provee los resultados de operaciones que involucran expresiones algebraicas y vectoriales, expresadas en formato simbólico. En la tabla <xref ref-type="table" rid="gt1">1</xref> se hace una descripción de las áreas temáticas en las que se potencia el uso de la librería <italic>Sympy</italic>. La <italic>Numpy</italic> se enfoca en estructuras de vectores y álgebra líneal.</p>
+        <p>En este apartado se explica la creación del archivo genérico reutilizable básico para la construcción de prácticas y evaluaciones. Estos archivos son creados a partir de scripts de Python y apoyados de las librerías de código abierto <italic>Sympy</italic> (            <xref ref-type="bibr" rid="ref5">Lamy, 2013</xref>) y <italic>Numpy</italic> (            <xref ref-type="bibr" rid="ref2">Bressert, 2012</xref>). La librería <italic>Sympy</italic> es un motor de cálculo algebraico (CAS por sus siglas en inglés) que provee los resultados de operaciones que involucran expresiones algebraicas y vectoriales, expresadas en formato simbólico. En la tabla <xref ref-type="table" rid="gt1">1</xref> se hace una descripción de las áreas temáticas en las que se potencia el uso de la librería <italic>Sympy</italic>. La <italic>Numpy</italic> se enfoca en estructuras de vectores y álgebra líneal.</p>
         <p>El inicio es por medio de la invocación de las librerías <italic>NumPy</italic> y <italic>SymPy</italic>. Esto se realiza a través de la líneas de código:</p>
         <p>import numpy as np</p>
         <p>import sympy as sp</p>
@@ -483,7 +488,7 @@
         <p>
             <fig id="gf3">
                 <label>
-                    <bold>Figura 3</bold>
+                    Figura 3
                 </label>
                 <caption>
                     <title>Diagrama de la constitución del archivo generador de ejercicios</title>
@@ -501,12 +506,12 @@
 </sec>
 <sec>
     <title>
-        <bold>Transcripción de ejercicios a lenguaje Python</bold>
+        Transcripción de ejercicios a lenguaje Python
     </title>
     <p>En las siguientes secciones se presentan ejemplos de parametrizaciones tomando los ejercicios mencionados anteriormente. Para la elaboración de los archivos, primeramente se declara las variables y parámetros a utilizar. Esto se explica en el sección 2.3.1. Posteriormente, en la apartado 2.3.2 se desarrolla un ejemplo con un parámetro. Y en sección 2.3.3, se detalla el proceso a partir de la aleatorización de dos parámetros.</p>
     <sec>
         <title>
-            <bold>Declaración de variables y parámetros en el archivo .py</bold>
+            Declaración de variables y parámetros en el archivo .py
         </title>
         <p>La declaración de variables y parámetros a utilizar se da después del análisis de las restricciones explicado en la sección 2.1 y la elaboración de un archivo generador con base a la figura <xref ref-type="fig" rid="gf3">3</xref>. En este apartado, es importante tener en cuenta que existen dos tipos de variables: las simbólicas y las que se utilicen para sustituir valores numéricos (parámetros). La variable simbólica se declara al inicio del script .py y corresponde a la variable propia de los ejercicios algebraicos. En los ejemplos (<xref ref-type="disp-formula" rid="e1">1</xref>) y (<xref ref-type="disp-formula" rid="e2">2</xref>), la variable simbólica es <italic>x</italic>. En lenguaje Python, su declaración corresponde a:</p>
         <p>x = sp.Symbol('x')</p>
@@ -518,7 +523,7 @@
     </sec>
     <sec>
         <title>
-            <bold>Ejemplo con un parámetro</bold>
+            Ejemplo con un parámetro
         </title>
         <p>Luego de la creación del archivo generador, se lleva a cabo el proceso de digitalización. Este consiste en la transcripción del ejercicio escrito en papel a lenguaje Python. En esta sección se realiza dicho proceso utilizando el ejercicio (<xref ref-type="disp-formula" rid="e1">1</xref>), un parámetro <italic>a</italic> y la variable algebraica <italic>x</italic>.
         </p>
@@ -533,7 +538,7 @@
         <p>
             <fig id="gf4">
                 <label>
-                    <bold>Figura 4</bold>
+                    Figura 4
                 </label>
                 <caption>
                     <title>Salida de tres ejercicios de parametrización el dado en (<xref ref-type="disp-formula" rid="e1">1</xref>) usando distinto valores del parametro <italic>a</italic>.
@@ -548,7 +553,7 @@
     </sec>
     <sec>
         <title>
-            <bold>Ejemplo con dos parámetros</bold>
+            Ejemplo con dos parámetros
         </title>
         <p>Otra alternativa que ofrece esta metodología es el uso de más de un parámetro. En esta sección se utiliza el ejercicio (<xref ref-type="disp-formula" rid="e2">2</xref>) y un tema clásico del curso de cálculo diferencial: análisis de la continuidad en un punto <inline-formula>
             <alternatives>
@@ -632,7 +637,7 @@
 <p>
 <fig id="gf5">
 <label>
-<bold>Figura 5</bold>
+Figura 5
 </label>
 <caption>
 <title>Salida de dos ejercicios parametrizados para los valores de a y b de la función dada en (<xref ref-type="disp-formula" rid="e2">2</xref>).
@@ -644,11 +649,11 @@
 </fig>
 </p>
 <p>Al igual que ocurre en el ejemplo de la sección 2.3.2, ambos ejercicios posee igual nivel de dificultad y es la misma la cantidad de pasos necesarios para obtener la respuesta correcta.</p>
-<p>Una posible variación del ejercicio (<xref ref-type="disp-formula" rid="e2">2</xref>) parametrizando <italic>a </italic>y conservar el otro en forma simbólica <italic>b</italic>. Esta variación hace que el ejercicio incremente su nivel de complejidad pues el análisis del comportamiento <italic>b</italic> está en correspondencia del valor numérico de <italic>a</italic>; por ejemplo, si <italic>a</italic> toma valores negativos o positivos el comportamiento de la continuidad varía. En la figura 6 se muestra dos iteraciones de esta variación.</p>
+<p>Una posible variación del ejercicio (<xref ref-type="disp-formula" rid="e2">2</xref>) parametrizando <italic>a </italic>y conservar el otro en forma simbólica <italic>b</italic>. Esta variación hace que el ejercicio incremente su nivel de complejidad pues el análisis del comportamiento <italic>b</italic> está en correspondencia del valor numérico de <italic>a</italic>; por ejemplo, si <italic>a</italic> toma valores negativos o positivos el comportamiento de la continuidad varía. En la figura <xref ref-type="fig" rid="gf6">6</xref> se muestra dos iteraciones de esta variación.</p>
 <p>
 <fig id="gf6">
 <label>
-<bold>Figura 6</bold>
+Figura 6
 </label>
 <caption>
 <title>Salida de dos ejercicios de parametrización el dado en (<xref ref-type="disp-formula" rid="e2">2</xref>) usando <italic>b </italic>de forma simbólico.</title>
@@ -662,7 +667,7 @@
 </sec>
 <sec>
 <title>
-<bold>Compilado masivo de archivos</bold>
+Compilado masivo de archivos
 </title>
 <p>Los documentos de tarea o exámenes que son generados de formato <bold>tex</bold> se compilan en formato <bold>pdf</bold> en un proceso masivo usando el comando <bold>pdflatex</bold>. El proceso se puede ejecutar en diferentes sistemas operativos. Por ejemplo, en el ambiente <bold>GNU-Linux</bold> se emplea la siguiente línea de código en la terminal de comandos <italic>shell</italic>:
 </p>
@@ -678,7 +683,7 @@
 </sec>
 <sec>
 <title>
-<bold>Conclusiones</bold>
+Conclusiones
 </title>
 <p>En este trabajo se propuso el uso de una nueva estrategia tecnológica en la educación matemática, brindando oportunidades de enriquecimiento de los procesos de enseñanza y aprendizaje. Específicamente, en la construcción de materiales con items parametrizables que sean utilizados en ambientes de aula y, en evaluaciones formativas y sumativas usando las herramientas tecnológicas LaTeX y Python.</p>
 <p>En este sentido, el proceso se podría pensarse como complejo y tedioso debido al uso de estas tecnologías, sin embargo, una vez realizado se garantiza un producto semilla con cuantiosos beneficios en los procesos de evaluación en el desempeño estudiantil. En particular, brinda la oportunidad de la generación de listados de ejercicios personalizados para cada estudiante, incluso, con sus respectivos procedimientos de sus resolución como medio de realimentación.</p>
@@ -692,7 +697,7 @@
 <back>
 <ref-list>
 <title>Referencias</title>
-<ref id="redalyc_607975560006_ref1">
+<ref id="ref1">
 <label>1</label>
 <mixed-citation>Aguayo, R., Lizarraga, C., &amp; Quiñonez, Y. (2021). Evaluación del desempeño académico en entornos virtuales utilizando el modelo PNL. RISTI: Revista Ibérica de Sistemas e Tecnologias de Información, (41), 34–49. https://doi.org/10.17013/risti</mixed-citation>
 <element-citation publication-type="journal">
@@ -721,9 +726,9 @@
 </comment>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560006_ref2">
+<ref id="ref2">
 <label>2</label>
-<mixed-citation>Bressert, E. (2012). SciPy and NumPy: An overview for developers (1st ed.). O \('\) Reilly Media, Inc.</mixed-citation>
+<mixed-citation>Bressert, E. (2012). SciPy and NumPy: An overview for developers (1st ed.). O' Reilly Media, Inc.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -737,7 +742,7 @@
 <series>SciPy and NumPy: An overview for developers</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560006_ref3">
+<ref id="ref3">
 <label>3</label>
 <mixed-citation>Bressert, E. (2012). SciPy and NumPy: An overview for developers (1st ed.). O \('\) Reilly Media, Inc. Díaz, F. J., Harari, V., &amp; Banchoff Tzancoff, C. M. (2005). Ventajas del software libre en las escuelas. I Jornadas de Educación En Informática y TICs En Argentina, 55–59.</mixed-citation>
 <element-citation publication-type="other">
@@ -760,7 +765,7 @@
 <series>Ventajas del software libre en las escuelas</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560006_ref4">
+<ref id="ref4">
 <label>4</label>
 <mixed-citation>Jankvist, U. T., &amp; Misfeldt, M. (2015). CAS-induced difficulties in learning mathematics? For the Learning of Mathematics, 35(1), 15–20.</mixed-citation>
 <element-citation publication-type="journal">
@@ -783,7 +788,7 @@
 <lpage>20</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560006_ref5">
+<ref id="ref5">
 <label>5</label>
 <mixed-citation>Jankvist, U. T., &amp; Misfeldt, M. (2015). CAS-induced difficulties in learning mathematics? For the Learning of Mathematics, 35(1), 15–20. Lamy, R. (2013). Instant SymPy starter (1st ed.). Packt Publishing Ltd.</mixed-citation>
 <element-citation publication-type="book">
@@ -805,7 +810,7 @@
 <title>Apéndice</title>
 <sec>
 <title>
-<bold>Ejemplos</bold>
+Ejemplos
 </title>
 <p>Los ejemplos pueden ser descargados de <ext-link ext-link-type="uri" xlink:href="https://github.com/jorgearr23/python_latex">https://github.com/jorgearr23/python_latex</ext-link>
 </p>
