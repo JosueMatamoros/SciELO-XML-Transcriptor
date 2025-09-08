@@ -334,7 +334,7 @@
 <title>
 Introducción
 </title>
-<p>Nos parece interesante y curioso que proporcionar soluciones a problemas matemáticos con herramientas elementales, como son la geometría analítica y la derivación implícita, permita visualizar aspectos diferentes a los observados con matemáticas más avanzadas. Por ejemplo, en [<xref ref-type="bibr" rid="ref1">1</xref>], utilizando herramientas de matemáticas elementales tales como la desigualdad de Ptolomeo y el problema de Herón, se logra hacer una contribución en el cálculo del rango numérico de ciertos operadores tridiagonales asociados a sucesiones biinfinitas pseudoergódicas. Posteriormente, este estudio derivó en otros trabajos donde se aplicarían técnicas especializadas de la teoría de operadores [<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref4">4</xref>].
+<p>Nos parece interesante y curioso que proporcionar soluciones a problemas matemáticos con herramientas elementales, como son la geometría analítica y la derivación implícita, permita visualizar aspectos diferentes a los observados con matemáticas más avanzadas. Por ejemplo, en &#91;<xref ref-type="bibr" rid="ref1">1</xref>&#93;, utilizando herramientas de matemáticas elementales tales como la desigualdad de Ptolomeo y el problema de Herón, se logra hacer una contribución en el cálculo del rango numérico de ciertos operadores tridiagonales asociados a sucesiones biinfinitas pseudoergódicas. Posteriormente, este estudio derivó en otros trabajos donde se aplicarían técnicas especializadas de la teoría de operadores &#91;<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref4">4</xref>&#93;.
 </p>
 <p>Dos conceptos necesarios en este trabajo son los siguientes. El primero, un subconjunto <inline-formula>
 <alternatives>
@@ -378,7 +378,7 @@ Introducción
 <graphic xlink:href="607975560001_gi16.png"/>
 </alternatives>
 </inline-formula> es el conjunto convexo más pequeño que lo contiene, en ocasiones a la componente convexa se le llama envolvente convexa. En lo sucesivo nos restringiremos al plano euclidiano.</p>
-<p>Las componentes convexas tienen diversas aplicaciones. Por ejemplo, en estadística multivariada es de interés observar la envolvente convexa de los datos que se desean analizar [<xref ref-type="bibr" rid="ref5">5</xref>], incluso algunos lenguajes de programación, como <bold>R</bold>, pueden determinarla con sólo proporcionar los datos de interés [<xref ref-type="bibr" rid="ref6">6</xref>]. En probabilidad aparecen, por ejemplo, en el teorema de Wendel (1962) donde se entrelazan la probabilidad y la geometría, este resultado se ha usado en geometría computacional [<xref ref-type="bibr" rid="ref7">7</xref>]. Precisamente, uno de los principales problemas de la geometría computacional es la elaboración de algoritmos para encontrar envolventes convexas, algoritmos empleados en la creación de ambientes virtuales [<xref ref-type="bibr" rid="ref8">8</xref>]. También se encuentran aplicaciones de las componentes convexas en problemas de optimización, particularmente en la optimización convexa [<xref ref-type="bibr" rid="ref9">9</xref>] y en geometría resulta de interés el análisis de sus propiedades geométricas y topológicas [<xref ref-type="bibr" rid="ref10">10</xref>]. También se aplican en el estudio de la relación de las componentes convexas con el rango numérico de operadores acotados en espacios de Hilbert [<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref11">11</xref>].
+<p>Las componentes convexas tienen diversas aplicaciones. Por ejemplo, en estadística multivariada es de interés observar la envolvente convexa de los datos que se desean analizar &#91;<xref ref-type="bibr" rid="ref5">5</xref>&#93;, incluso algunos lenguajes de programación, como <bold>R</bold>, pueden determinarla con sólo proporcionar los datos de interés &#91;<xref ref-type="bibr" rid="ref6">6</xref>&#93;. En probabilidad aparecen, por ejemplo, en el teorema de Wendel (1962) donde se entrelazan la probabilidad y la geometría, este resultado se ha usado en geometría computacional &#91;<xref ref-type="bibr" rid="ref7">7</xref>&#93;. Precisamente, uno de los principales problemas de la geometría computacional es la elaboración de algoritmos para encontrar envolventes convexas, algoritmos empleados en la creación de ambientes virtuales &#91;<xref ref-type="bibr" rid="ref8">8</xref>&#93;. También se encuentran aplicaciones de las componentes convexas en problemas de optimización, particularmente en la optimización convexa &#91;<xref ref-type="bibr" rid="ref9">9</xref>&#93; y en geometría resulta de interés el análisis de sus propiedades geométricas y topológicas &#91;<xref ref-type="bibr" rid="ref10">10</xref>&#93;. También se aplican en el estudio de la relación de las componentes convexas con el rango numérico de operadores acotados en espacios de Hilbert &#91;<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref11">11</xref>&#93;.
 </p>
 <p>En este trabajo nos interesa la envolvente convexa <inline-formula>
 <alternatives>
@@ -412,7 +412,7 @@ Figura 1:
 <attrib>Elaboración propia</attrib>
 </fig>
 </p>
-<p>En los artículos [<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref11">11</xref>] se demuestra que <inline-formula>
+<p>En los artículos &#91;<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref11">11</xref>&#93; se demuestra que <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mrow>
@@ -496,7 +496,7 @@ Figura 1:
 </mml:math>
 <graphic xlink:href="607975560001_gi28.png"/>
 </alternatives>
-</inline-formula>. Esta caracterización es una ligera variante de la presentada en [<xref ref-type="bibr" rid="ref11">11</xref>]. Nos parece interesante que al analizar el problema de la envolvente convexa <inline-formula>
+</inline-formula>. Esta caracterización es una ligera variante de la presentada en &#91;<xref ref-type="bibr" rid="ref11">11</xref>&#93;. Nos parece interesante que al analizar el problema de la envolvente convexa <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mrow>
@@ -505,7 +505,7 @@ Figura 1:
 </mml:math>
 <graphic xlink:href="607975560001_gi29.png"/>
 </alternatives>
-</inline-formula> con herramientas elementales se han proporcionado algunos nuevos detalles, como son los contraejemplos que se muestran más adelante. Uno pudiera preguntarse si hay otros escenarios en donde la envolvente convexa de dos círculos es la unión de alguna familia de elipses. La respuesta es afirmativa, esto es en vista del teorema 2.8 en [<xref ref-type="bibr" rid="ref2">2</xref>] y el ejemplo 2.10 en [<xref ref-type="bibr" rid="ref4">4</xref>].
+</inline-formula> con herramientas elementales se han proporcionado algunos nuevos detalles, como son los contraejemplos que se muestran más adelante. Uno pudiera preguntarse si hay otros escenarios en donde la envolvente convexa de dos círculos es la unión de alguna familia de elipses. La respuesta es afirmativa, esto es en vista del teorema 2.8 en &#91;<xref ref-type="bibr" rid="ref2">2</xref>&#93; y el ejemplo 2.10 en &#91;<xref ref-type="bibr" rid="ref4">4</xref>&#93;.
 </p>
 <p>Este artículo está dividido en siete secciones. En la sección 2 se presenta a la familia de elipses <inline-formula>
 <alternatives>
@@ -520,7 +520,7 @@ Figura 1:
 <title>
 La familia de elipses
 </title>
-<p>Comencemos definiendo la familia de elipses que motivan este artículo, su definición original está en la Definición 3.1 de [<xref ref-type="bibr" rid="ref2">2</xref>] y en la Definición 1.1 de [<xref ref-type="bibr" rid="ref11">11</xref>]
+<p>Comencemos definiendo la familia de elipses que motivan este artículo, su definición original está en la Definición 3.1 de &#91;<xref ref-type="bibr" rid="ref2">2</xref>&#93; y en la Definición 1.1 de &#91;<xref ref-type="bibr" rid="ref11">11</xref>&#93;
 </p>
 <p>
 <bold>Definición 1</bold>. Para <inline-formula>
@@ -529,12 +529,12 @@ La familia de elipses
 <mml:mrow>
 <mml:mi>&#x3B8;</mml:mi>
 <mml:mo>&#x2208;</mml:mo>
-<mml:mo form="prefix" stretchy="false">[</mml:mo>
+<mml:mo form="prefix" stretchy="false">&#91;</mml:mo>
 <mml:mo>&#x2212;</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
 <mml:mo separator="true">,</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
-<mml:mo form="postfix" stretchy="false">]</mml:mo>
+<mml:mo form="postfix" stretchy="false">&#93;</mml:mo>
 </mml:mrow>
 </mml:math>
 <graphic xlink:href="607975560001_gi33.png"/>
@@ -602,12 +602,12 @@ La familia de elipses
 <mml:mrow>
 <mml:mi>&#x3B8;</mml:mi>
 <mml:mo>&#x2208;</mml:mo>
-<mml:mo form="prefix" stretchy="false">[</mml:mo>
+<mml:mo form="prefix" stretchy="false">&#91;</mml:mo>
 <mml:mo>&#x2212;</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
 <mml:mo separator="true">,</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
-<mml:mo form="postfix" stretchy="false">]</mml:mo>
+<mml:mo form="postfix" stretchy="false">&#93;</mml:mo>
 </mml:mrow>
 </mml:math>
 <graphic xlink:href="607975560001_gi37.png"/>
@@ -852,12 +852,12 @@ La familia de elipses
 <mml:mrow>
 <mml:mi>&#x3B8;</mml:mi>
 <mml:mo>&#x2208;</mml:mo>
-<mml:mo form="prefix" stretchy="false">[</mml:mo>
+<mml:mo form="prefix" stretchy="false">&#91;</mml:mo>
 <mml:mo>&#x2212;</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
 <mml:mo separator="true">,</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
-<mml:mo form="postfix" stretchy="false">]</mml:mo>
+<mml:mo form="postfix" stretchy="false">&#93;</mml:mo>
 </mml:mrow>
 </mml:math>
 <graphic xlink:href="607975560001_gi44.png"/>
@@ -949,7 +949,7 @@ La familia de elipses
 </mml:math>
 <graphic xlink:href="607975560001_gi48.png"/>
 </alternatives>
-</inline-formula> se obtiene en [<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref11">11</xref>], esta es </p>
+</inline-formula> se obtiene en &#91;<xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref11">11</xref>&#93;, esta es </p>
 <p>
 <disp-formula id="e1">
 <label>(1)</label>
@@ -1119,7 +1119,7 @@ La familia de elipses
 <title>
 Elipses con centro en el origen
 </title>
-<p>Antes de continuar, es necesario tener la ecuación general de las elipses con centro en el origen. Un punto (x,y) pertenece a una elipse si la suma de las distancias del punto a cada uno de los focos es igual a la longitud del eje mayor [<xref ref-type="bibr" rid="ref12">12</xref>]. Al considerar elipses con centro en el origen, los focos son diametralmente opuestos respecto al origen, por lo que son de la forma <inline-formula>
+<p>Antes de continuar, es necesario tener la ecuación general de las elipses con centro en el origen. Un punto (x,y) pertenece a una elipse si la suma de las distancias del punto a cada uno de los focos es igual a la longitud del eje mayor &#91;<xref ref-type="bibr" rid="ref12">12</xref>&#93;. Al considerar elipses con centro en el origen, los focos son diametralmente opuestos respecto al origen, por lo que son de la forma <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mrow>
@@ -1496,7 +1496,7 @@ Elipses con centro en el origen
 </mml:math>
 <graphic xlink:href="607975560001_gi67.png"/>
 </alternatives>
-</inline-formula> se reduce al origen (0,0) [<xref ref-type="bibr" rid="ref13">13</xref>].
+</inline-formula> se reduce al origen (0,0) &#91;<xref ref-type="bibr" rid="ref13">13</xref>&#93;.
 </p>
 </sec>
 <sec>
@@ -1856,12 +1856,12 @@ La misma familia de elipses
 <mml:mrow>
 <mml:mi>&#x3B8;</mml:mi>
 <mml:mo>&#x2208;</mml:mo>
-<mml:mo form="prefix" stretchy="false">[</mml:mo>
+<mml:mo form="prefix" stretchy="false">&#91;</mml:mo>
 <mml:mo>&#x2212;</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
 <mml:mo separator="true">,</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
-<mml:mo form="postfix" stretchy="false">]</mml:mo>
+<mml:mo form="postfix" stretchy="false">&#93;</mml:mo>
 </mml:mrow>
 </mml:math>
 <graphic xlink:href="607975560001_gi74.png"/>
@@ -2120,12 +2120,12 @@ Figura 2
 <mml:mrow>
 <mml:mi>&#x3B8;</mml:mi>
 <mml:mo>&#x2208;</mml:mo>
-<mml:mo form="prefix" stretchy="false">[</mml:mo>
+<mml:mo form="prefix" stretchy="false">&#91;</mml:mo>
 <mml:mo>&#x2212;</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
 <mml:mo separator="true">,</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
-<mml:mo form="postfix" stretchy="false">]</mml:mo>
+<mml:mo form="postfix" stretchy="false">&#93;</mml:mo>
 </mml:mrow>
 </mml:math>
 <graphic xlink:href="607975560001_gi89.png"/>
@@ -2206,13 +2206,13 @@ Figura 2
 </alternatives>
 </inline-formula>.
 </p>
-<p>La demostración se puede ver en [<xref ref-type="bibr" rid="ref11">11</xref>], donde el resultado se demuestra, sin pérdida de generalidad, para <inline-formula>
+<p>La demostración se puede ver en &#91;<xref ref-type="bibr" rid="ref11">11</xref>&#93;, donde el resultado se demuestra, sin pérdida de generalidad, para <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mrow>
 <mml:mi>&#x3B8;</mml:mi>
 <mml:mo>&#x2208;</mml:mo>
-<mml:mo form="prefix" stretchy="false">[</mml:mo>
+<mml:mo form="prefix" stretchy="false">&#91;</mml:mo>
 <mml:mo>&#x2212;</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
 <mml:mo lspace="0em" rspace="0em">&#x2044;</mml:mo>
@@ -2221,7 +2221,7 @@ Figura 2
 <mml:mi>&#x3C0;</mml:mi>
 <mml:mo lspace="0em" rspace="0em">&#x2044;</mml:mo>
 <mml:mn>2</mml:mn>
-<mml:mo form="postfix" stretchy="false">]</mml:mo>
+<mml:mo form="postfix" stretchy="false">&#93;</mml:mo>
 </mml:mrow>
 </mml:math>
 <graphic xlink:href="607975560001_gi93.png"/>
@@ -2276,12 +2276,12 @@ Figura 2
 <mml:mrow>
 <mml:mi>&#x3B8;</mml:mi>
 <mml:mo>&#x2208;</mml:mo>
-<mml:mo form="prefix" stretchy="false">[</mml:mo>
+<mml:mo form="prefix" stretchy="false">&#91;</mml:mo>
 <mml:mo>&#x2212;</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
 <mml:mo separator="true">,</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
-<mml:mo form="postfix" stretchy="false">]</mml:mo>
+<mml:mo form="postfix" stretchy="false">&#93;</mml:mo>
 </mml:mrow>
 </mml:math>
 <graphic xlink:href="607975560001_gi98.png"/>
@@ -2311,7 +2311,7 @@ Figura 2
 </alternatives>
 </inline-formula> tiene ecuación de la forma de la ecuación (<xref ref-type="disp-formula" rid="e6">6</xref>).
 </p>
-<p>La recta que pasa por los puntos (-1,1/2) y (1,1/2) es y=1/2. Ya que solo nos interesa la tangencia de la elipse con el segmento que une el punto (-1,1/2) con (1,1/2), sin incluir estos puntos, se puede considerar que ocurre en puntos de la forma (sen(θ),1/2)) para θ∈[−π,π]. Note que (sen(π/2),1/2)) y (sen(-π/2),1/2)) son los puntos extremos del segmento. Fijemos esta θ. Si la elipse y y=1/2 son tangentes, el coeficiente de y de la tangente de la elipse (<xref ref-type="disp-formula" rid="e6">6</xref>) no puede ser cero. Así, la ecuación de la tangente de la elipse queda como</p>
+<p>La recta que pasa por los puntos (-1,1/2) y (1,1/2) es y=1/2. Ya que solo nos interesa la tangencia de la elipse con el segmento que une el punto (-1,1/2) con (1,1/2), sin incluir estos puntos, se puede considerar que ocurre en puntos de la forma (sen(θ),1/2)) para θ∈&#91;−π,π&#93;. Note que (sen(π/2),1/2)) y (sen(-π/2),1/2)) son los puntos extremos del segmento. Fijemos esta θ. Si la elipse y y=1/2 son tangentes, el coeficiente de y de la tangente de la elipse (<xref ref-type="disp-formula" rid="e6">6</xref>) no puede ser cero. Así, la ecuación de la tangente de la elipse queda como</p>
 <p>
 <inline-formula>
 <alternatives>
@@ -3985,7 +3985,7 @@ Contraejemplos
 </alternatives>
 </disp-formula>
 </p>
-<p>Observe que sólo puede ser una elipse si <italic>C&gt;4</italic>  [<xref ref-type="bibr" rid="ref12">12</xref>]. Al restar las ecuaciones (<xref ref-type="disp-formula" rid="e12">8</xref>) y<inline-formula>
+<p>Observe que sólo puede ser una elipse si <italic>C&gt;4</italic>  &#91;<xref ref-type="bibr" rid="ref12">12</xref>&#93;. Al restar las ecuaciones (<xref ref-type="disp-formula" rid="e12">8</xref>) y<inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mrow>
@@ -4356,7 +4356,7 @@ Figura 3
 <mml:mrow>
 <mml:mi>&#x3B8;</mml:mi>
 <mml:mo>&#x2208;</mml:mo>
-<mml:mo form="prefix" stretchy="false">[</mml:mo>
+<mml:mo form="prefix" stretchy="false">&#91;</mml:mo>
 <mml:mo>&#x2212;</mml:mo>
 <mml:mi>&#x3C0;</mml:mi>
 <mml:mo separator="true">,</mml:mo>
@@ -4498,8 +4498,8 @@ Conclusiones
 <ref-list>
 <title>Referencias</title>
 <ref id="ref1">
-<label>[1]</label>
-<mixed-citation>[1] Hernández-Becerra C., Itzá-Ortiz B. A. (2016). “A class of tridiagonal operators associated to some subshifts´´. Open mathematics, vol. 14, 352–360. https://doi.org/10.1515/math-2016-0031</mixed-citation>
+<label>&#91;1&#93;</label>
+<mixed-citation>&#91;1&#93; Hernández-Becerra C., Itzá-Ortiz B. A. (2016). “A class of tridiagonal operators associated to some subshifts´´. Open mathematics, vol. 14, 352–360. https://doi.org/10.1515/math-2016-0031</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -4524,8 +4524,8 @@ Conclusiones
 </ref>
 
 <ref id="ref2">
-<label>[2]</label>
-<mixed-citation>[2] Itzá-Ortíz B. A., Martínez-Avendaño R. A. (2021). “The numerical range of a class of periodic tridiagonal operators”. Linear and multilineal algebra, vol. 69, 786–806. https://doi.org/10.1080/03081087.2019.1706438.</mixed-citation>
+<label>&#91;2&#93;</label>
+<mixed-citation>&#91;2&#93; Itzá-Ortíz B. A., Martínez-Avendaño R. A. (2021). “The numerical range of a class of periodic tridiagonal operators”. Linear and multilineal algebra, vol. 69, 786–806. https://doi.org/10.1080/03081087.2019.1706438.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -4550,8 +4550,8 @@ Conclusiones
 </ref>
 
 <ref id="ref3">
-<label>[3]</label>
-<mixed-citation>[3] Itzá-Ortiz B. A., Martínez-Avendaño R. A., Nakazato H. (2021). “The numerical range of some periodic tridiagonal operators is the convex hull of the numerical ranges of two finite matrices”. Linear and multilinear algebra, vol. 69, 2830-2849. https://doi.org/10.1080/03081087.2021.1957760</mixed-citation>
+<label>&#91;3&#93;</label>
+<mixed-citation>&#91;3&#93; Itzá-Ortiz B. A., Martínez-Avendaño R. A., Nakazato H. (2021). “The numerical range of some periodic tridiagonal operators is the convex hull of the numerical ranges of two finite matrices”. Linear and multilinear algebra, vol. 69, 2830-2849. https://doi.org/10.1080/03081087.2021.1957760</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -4580,8 +4580,8 @@ Conclusiones
 </ref>
 
 <ref id="ref4">
-<label>[4]</label>
-<mixed-citation>[4] Itzá-Ortiz B. A., Martínez-Avendaño R. A., Nakazato H. (2022). “The numerical range of a periodic tridiagonal operator reduces to the numerical range of a finite matrix”. Journal of Mathematical Analysis and Applications, vol. 506, 125713. https://doi.org/10.1016/j.jmaa.2021.125713</mixed-citation>
+<label>&#91;4&#93;</label>
+<mixed-citation>&#91;4&#93; Itzá-Ortiz B. A., Martínez-Avendaño R. A., Nakazato H. (2022). “The numerical range of a periodic tridiagonal operator reduces to the numerical range of a finite matrix”. Journal of Mathematical Analysis and Applications, vol. 506, 125713. https://doi.org/10.1016/j.jmaa.2021.125713</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -4610,8 +4610,8 @@ Conclusiones
 </ref>
 
 <ref id="ref5">
-<label>[5]</label>
-<mixed-citation>[5] Hastie, T., Tibshirani, R., Friedman, J. (2017). The elements of statistical learning. Data mining, inference and prediction. Segunda edución. Springer.</mixed-citation>
+<label>&#91;5&#93;</label>
+<mixed-citation>&#91;5&#93; Hastie, T., Tibshirani, R., Friedman, J. (2017). The elements of statistical learning. Data mining, inference and prediction. Segunda edución. Springer.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -4634,8 +4634,8 @@ Conclusiones
 </element-citation>
 </ref>
 <ref id="ref6">
-<label>[6]</label>
-<mixed-citation>[6] Zelterman, D.(2015). Applied mulltivariate statistics with R. Springer.</mixed-citation>
+<label>&#91;6&#93;</label>
+<mixed-citation>&#91;6&#93; Zelterman, D.(2015). Applied mulltivariate statistics with R. Springer.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -4650,8 +4650,8 @@ Conclusiones
 </ref>
 
 <ref id="ref7">
-<label>[7]</label>
-<mixed-citation>[7] Alon, N., Spencer, J. H. (2016). The probability method. John Wiley &amp; Sons, Inc, Wiley series in discrete mathematics and optimizarion, cuarta edición.</mixed-citation>
+<label>&#91;7&#93;</label>
+<mixed-citation>&#91;7&#93; Alon, N., Spencer, J. H. (2016). The probability method. John Wiley &amp; Sons, Inc, Wiley series in discrete mathematics and optimizarion, cuarta edición.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -4671,8 +4671,8 @@ Conclusiones
 </ref>
 
 <ref id="ref8">
-<label>[8]</label>
-<mixed-citation>[8] Expósito Polo, J. D. (2009). “Estudio y visualización de envolventes convexas y triangulaciones con direcciones restringidas en Geometría Computacional”. Trabajo de fin de carrera, Ingeniería informática, Escuela Politécnica, Universidad de Alcalá, 258p. https://ordend.web.uah.es/files/TFC-TriangulacionesRestringidas-Memoria.pdf.</mixed-citation>
+<label>&#91;8&#93;</label>
+<mixed-citation>&#91;8&#93; Expósito Polo, J. D. (2009). “Estudio y visualización de envolventes convexas y triangulaciones con direcciones restringidas en Geometría Computacional”. Trabajo de fin de carrera, Ingeniería informática, Escuela Politécnica, Universidad de Alcalá, 258p. https://ordend.web.uah.es/files/TFC-TriangulacionesRestringidas-Memoria.pdf.</mixed-citation>
 <element-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -4690,8 +4690,8 @@ Conclusiones
 </ref>
 
 <ref id="ref9">
-<label>[9]</label>
-<mixed-citation>[9] Boyd, S., Vandenberghe, L. (2004). <italic>Convex optimization</italic>. Cambridge University Press.</mixed-citation>
+<label>&#91;9&#93;</label>
+<mixed-citation>&#91;9&#93; Boyd, S., Vandenberghe, L. (2004). <italic>Convex optimization</italic>. Cambridge University Press.</mixed-citation>
 
 <element-citation publication-type="book">
 <person-group person-group-type="author">
@@ -4711,8 +4711,8 @@ Conclusiones
 </ref>
 
 <ref id="ref10">
-<label>[10]</label>
-<mixed-citation>[10] Leonard, E. and Lewis, J. E. (2015). Geometry of Convex Sets. Wiley, New Jersey.</mixed-citation>
+<label>&#91;10&#93;</label>
+<mixed-citation>&#91;10&#93; Leonard, E. and Lewis, J. E. (2015). Geometry of Convex Sets. Wiley, New Jersey.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -4732,8 +4732,8 @@ Conclusiones
 </ref>
 
 <ref id="ref11">
-<label>[11]</label>
-<mixed-citation>[11] Itzá-Ortíz B. A. , Martínez-Avendaño R. A., Nopal-Coello V., Villarroel-Flores R. (2022) “Sobre la igualdad entre la envolvente convexa de dos círculos con la unión de cierta familia de elipses”. Pädi. Boletín científico de ciencias básicas e ingeniería del ICBI, vol. 10, no. especial, 52-58. https://doi.org/10.29057/icbi.v10iEspecial.8444.</mixed-citation>
+<label>&#91;11&#93;</label>
+<mixed-citation>&#91;11&#93; Itzá-Ortíz B. A. , Martínez-Avendaño R. A., Nopal-Coello V., Villarroel-Flores R. (2022) “Sobre la igualdad entre la envolvente convexa de dos círculos con la unión de cierta familia de elipses”. Pädi. Boletín científico de ciencias básicas e ingeniería del ICBI, vol. 10, no. especial, 52-58. https://doi.org/10.29057/icbi.v10iEspecial.8444.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -4767,8 +4767,8 @@ Conclusiones
 </ref>
 
 <ref id="ref12">
-<label>[12]</label>
-<mixed-citation>[12] Lehmann C. H.(2018). Geometría analítica. Limusa, México.</mixed-citation>
+<label>&#91;12&#93;</label>
+<mixed-citation>&#91;12&#93; Lehmann C. H.(2018). Geometría analítica. Limusa, México.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -4784,8 +4784,8 @@ Conclusiones
 </ref>
 
 <ref id="ref13">
-<label>[13]</label>
-<mixed-citation>[13] Spain, B.(1963). Analitycal geometry. The Macmillan company.</mixed-citation>
+<label>&#91;13&#93;</label>
+<mixed-citation>&#91;13&#93; Spain, B.(1963). Analitycal geometry. The Macmillan company.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
