@@ -17,7 +17,7 @@
             </publisher>
         </journal-meta>
         <article-meta>
-            <article-id pub-id-type="doi">https://doi.org/10.18845/rdmei.v24i2.7000</article-id>
+            <article-id pub-id-type="doi">10.18845/rdmei.v24i2.7000</article-id>
             <article-categories>
                 <subj-group subj-group-type="heading">
                     <subject>Didáctica y Software</subject>
@@ -56,8 +56,8 @@
             </pub-date>
             <volume>24</volume>
             <issue>2</issue>
-            <fpage>1</fpage>
-            <lpage>33</lpage>
+            <fpage>100</fpage>
+            <lpage>133</lpage>
             <history>
                 <date date-type="received" publication-format="dd mes yyyy">
                     <day>18</day>
@@ -116,12 +116,13 @@
             <title>
                 Introducción
             </title>
-            <p>Gran variedad de problemas importantes y significativos de la biología, la química, la economía, la física y la ingeniería, se pueden modelar, evaluar y resolver en términos de ecuaciones diferenciales. Por ejemplo, las ecuaciones diferenciales pueden utilizarse para tratar problemas sobre crecimiento de poblaciones, desintegración radioactiva, reacciones químicas, transferencia de calor, propagación de ondas, problemas sobre oferta y demanda, meteorología y otros ((Zill, 2001)).</p>
+            <p>Gran variedad de problemas importantes y significativos de la biología, la química, la economía, la física y la ingeniería, se pueden modelar, evaluar y resolver en términos de ecuaciones diferenciales. Por ejemplo, las ecuaciones diferenciales pueden utilizarse para tratar problemas sobre crecimiento de poblaciones, desintegración radioactiva, reacciones químicas, transferencia de calor, propagación de ondas, problemas sobre oferta y demanda, meteorología y otros  <xref ref-type="bibr" rid="ref15">(Zill, 2001)</xref>.
+            </p>
             <p>Usualmente no es posible expresar la solución de estos problemas, mediante una fórmula explícita o implícita, por lo que es necesario recurrir a métodos numéricos para hallar una aproximación a esta solución. En el lenguaje R, de amplia difusión y utilización en la actualidad, se han desarrollado herramientas que permiten resolver numéricamente, problemas de valor inicial para ecuaciones y sistemas de ecuaciones diferenciales mediante procedimientos adecuados.</p>
-            <p>De acuerdo a (Bologna, 2020), R además de un lenguaje de programación, es un proyecto colaborativo, libre, independiente y de código abierto que evolucionó a partir del lenguaje S, fue creado en 1993 en Nueva Zelanda por Ross Ihaka y Robert Gentleman y está conformado por un conjunto de programas integrados para el manejo de datos, simulaciones, cálculos y aunque usualmente es utilizado para el análisis estadístico sus potencialidades en la investigación son muy amplias.</p>
+            <p>De acuerdo a  <xref ref-type="bibr" rid="ref4">(Bologna, 2020)</xref>, R además de un lenguaje de programación, es un proyecto colaborativo, libre, independiente y de código abierto que evolucionó a partir del lenguaje S, fue creado en 1993 en Nueva Zelanda por Ross Ihaka y Robert Gentleman y está conformado por un conjunto de programas integrados para el manejo de datos, simulaciones, cálculos y aunque usualmente es utilizado para el análisis estadístico sus potencialidades en la investigación son muy amplias.</p>
             <p>En R una de las posibilidades para tratar numéricamente ecuaciones diferenciales ordinarias es el paquete <bold>deSolve</bold> y consecuentemente, uno de los propósitos de este documento es el de ilustrar el uso de rutinas incorporadas en este paquete para resolver numéricamente una ecuación diferencial que modifica, <bold>la ecuación logística</bold> y <bold>el sistema de Chen</bold>.
             </p>
-            <p>El modelo de crecimiento logístico fue considerado por primera vez por Pierre François Verhulst en 1838 para simular el hecho de que una población de pequeño tamaño puede tener tiene inicialmente crecimiento exponencial que se va acercando de manera asintótica a cierto valor, por encima del cual el tamaño de la población decrece hacia el mismo <xref ref-type="bibr" rid="redalyc_607975560007_ref5">Brauer et al., 2008</xref>. Estas suposiciones conducen al siguiente problema de valor inicial</p>
+            <p>El modelo de crecimiento logístico fue considerado por primera vez por Pierre François Verhulst en 1838 para simular el hecho de que una población de pequeño tamaño puede tener tiene inicialmente crecimiento exponencial que se va acercando de manera asintótica a cierto valor, por encima del cual el tamaño de la población decrece hacia el mismo <xref ref-type="bibr" rid="ref5">Brauer et al., 2008</xref>. Estas suposiciones conducen al siguiente problema de valor inicial</p>
             <p>
                 <inline-formula>
                     <alternatives>
@@ -254,7 +255,7 @@
             </p>
             <p>para el cual <italic>L</italic> es una nueva constante. En la subsección 3.1 analizaremos este modelo utilizando el paquete <bold>deSolve</bold>.
             </p>
-            <p>El sistema de Chen es sistema autónomo tridimensional de ecuaciones diferenciales ordinarias que para ciertos valores de sus parámetros exhibe una gran variedad de comportamiento dinámico que incluye caos <xref ref-type="bibr" rid="redalyc_607975560007_ref13">Sooraksa y Chen, 2018</xref>. De manera explícita el sistema de Chen está definido por las siguientes ecuaciones</p>
+            <p>El sistema de Chen es sistema autónomo tridimensional de ecuaciones diferenciales ordinarias que para ciertos valores de sus parámetros exhibe una gran variedad de comportamiento dinámico que incluye caos <xref ref-type="bibr" rid="ref13">Sooraksa y Chen, 2018</xref>. De manera explícita el sistema de Chen está definido por las siguientes ecuaciones</p>
             <p>
                 <inline-formula>
                     <alternatives>
@@ -345,9 +346,9 @@
                 </inline-formula>
             </p>
             <p>donde <italic>a</italic>,                <italic>b </italic>y <italic>c</italic> son parámetros del mismo.</p>
-            <p>En la subsección 3.2 utilizamos <bold>deSolve</bold> para trazar algunas trayectorias de este sistema para el que, siguiendo a <xref ref-type="bibr" rid="redalyc_607975560007_ref13">Sooraksa y Chen, 2018</xref>, seleccionamos aquellos valores de sus parámetros para los cuales el sistema presenta un conjunto de estructura geométrica caótica conocido como el atractor de Chen.</p>
+            <p>En la subsección 3.2 utilizamos <bold>deSolve</bold> para trazar algunas trayectorias de este sistema para el que, siguiendo a <xref ref-type="bibr" rid="ref13">Sooraksa y Chen, 2018</xref>, seleccionamos aquellos valores de sus parámetros para los cuales el sistema presenta un conjunto de estructura geométrica caótica conocido como el atractor de Chen.</p>
             <p>Complementariamente, R también posee el paquete <bold>phaseR</bold>, el cual se puede utilizar para identificar y clasificar los puntos de equilibrio, representar el campo direccional, las isoclinas nulas así como trayectorias con diferentes condiciones iniciales, para ecuaciones diferenciales autónomas en una dimensión y sistemas de ecuaciones diferenciales autónomos en dos dimensiones. De esta manera el segundo objetivo de este documento es el de ilustrar el uso de este paquete con un modelo que permite generalizar la ley de Hooke.</p>
-            <p>La ley de Hooke fue propuesta en el Siglo XVII por R. Hooke y expresa el hecho de que dentro de ciertos límites, la fuerza requerida para estirar un objeto elástico, es directamente proporcional a la longitud del objeto <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón y Guerrero, 2008</xref>. Esta ley se modela a través de una ecuación diferencial lineal de segundo orden y en la subsección 5.1 analizamos, utilizando <bold>phaseR</bold>, la ecuación diferencial ordinaria no lineal que resulta al añadirle a la ecuación que modela la ley de Hooke un término cúbico. De manera explícita la ecuación diferencial resultante es</p>
+            <p>La ley de Hooke fue propuesta en el Siglo XVII por R. Hooke y expresa el hecho de que dentro de ciertos límites, la fuerza requerida para estirar un objeto elástico, es directamente proporcional a la longitud del objeto <xref ref-type="bibr" rid="ref6">Cerón y Guerrero, 2008</xref>. Esta ley se modela a través de una ecuación diferencial lineal de segundo orden y en la subsección 5.1 analizamos, utilizando <bold>phaseR</bold>, la ecuación diferencial ordinaria no lineal que resulta al añadirle a la ecuación que modela la ley de Hooke un término cúbico. De manera explícita la ecuación diferencial resultante es</p>
             <p>
                 <inline-formula>
                     <alternatives>
@@ -396,7 +397,7 @@
             <title>
                 El paquete deSolve
             </title>
-            <p>El paquete <bold>deSolve</bold> fue desarrollado, alrededor del año 2010, por K. Soetaert, R. W. Setzer y T. Petzoldt <xref ref-type="bibr" rid="redalyc_607975560007_ref10">K. Soetaert et al, 2010</xref> y permite resolver problemas de valor inicial para:</p>
+            <p>El paquete <bold>deSolve</bold> fue desarrollado, alrededor del año 2010, por K. Soetaert, R. W. Setzer y T. Petzoldt <xref ref-type="bibr" rid="ref10">K. Soetaert et al, 2010</xref> y permite resolver problemas de valor inicial para:</p>
             <p>
                 <list list-type="bullet">
                     <list-item>
@@ -413,7 +414,7 @@
                     </list-item>
                 </list>
             </p>
-            <p>Este paquete contiene diferentes funciones que resuelven numéricamente problemas de valor inicial para estos tipos de ecuaciones diferenciales, en particular, para ecuaciones diferenciales ordinarias la función que provee una interfaz de carácter más general para la mayor parte de los métodos incorporados es la función <bold>ode()</bold>. El paquete <bold>deSolve</bold> posee 17 rutinas de integración que se pueden llamar a través de esta función o se pueden utilizar de forma independiente <xref ref-type="bibr" rid="redalyc_607975560007_ref12">W. Soetaert y  Petzoldt, s.f.</xref>
+            <p>Este paquete contiene diferentes funciones que resuelven numéricamente problemas de valor inicial para estos tipos de ecuaciones diferenciales, en particular, para ecuaciones diferenciales ordinarias la función que provee una interfaz de carácter más general para la mayor parte de los métodos incorporados es la función <bold>ode()</bold>. El paquete <bold>deSolve</bold> posee 17 rutinas de integración que se pueden llamar a través de esta función o se pueden utilizar de forma independiente <xref ref-type="bibr" rid="ref12">W. Soetaert y  Petzoldt, s.f.</xref>
             </p>
             <p>La sintaxis básica de la función <bold>ode()</bold> es</p>
             <p>ode(y, times, func, parms, method = c("nombre" ),...)</p>
@@ -471,7 +472,7 @@
             <p>lsoda(y, times, func, parms,...)</p>
             <p>y la interpretación de sus opciones coincide con la de los argumentos de dicha función.</p>
             <p>Aunque para cumplir los propósitos de este escrito es suficiente utilizar la función <bold>ode()</bold>, como ilustración de otro método de integración incorporado en el paquete <bold>deSolve</bold>, en la subsección 5.1, para el caso del resorte suave, usaremos la función <bold>rk()</bold> que es una implementación que puede utilizarse para resolver problemas de valor inicial para sistemas de EDO de primer orden no rígidos. La función <bold>rk</bold> es una función de alto nivel que proporciona interfaces a una colección de algoritmos explícitos de un solo paso, de la familia Runge-Kutta con paso de tiempo fijo o variable. La sintaxis de esta función es análoga a la de las funciones <bold>ode()</bold> y <bold>lsoda()</bold> y la interpretación de sus argumentos es exactamente la misma, aunque puede seleccionarse el método utilizar, dentro de la familia de algoritmos Runge-Kutta implementados.</p>
-            <p>Características adicionales de estas funciones pueden verse utilizando la ayuda del paquete <bold>deSolve</bold> a través de Rstudio o en <xref ref-type="bibr" rid="redalyc_607975560007_ref12">W. Soetaert K, Setzer y Petzoldt, s.f.</xref>
+            <p>Características adicionales de estas funciones pueden verse utilizando la ayuda del paquete <bold>deSolve</bold> a través de Rstudio o en <xref ref-type="bibr" rid="ref12">W. Soetaert K, Setzer y Petzoldt, s.f.</xref>
             </p>
             <p>Una vez instalado R y Rstudio, debemos instalar el paquete <bold>deSolve</bold>, una manera de realizar esto es escribir, en la interfaz de Rstudio:</p>
             <p>install.packages("deSolve")</p>
@@ -480,7 +481,7 @@
             <p>que nos pone de manifiesto la instalación exitosa del mismo. Una vez cargado el paquete se requiere activar las librerías internas del mismo, esto se consigue escribiendo en Rstudio</p>
             <p>library(deSolve)</p>
             <p>y oprimiemdo  control+ enter.</p>
-            <p>De acuerdo con <xref ref-type="bibr" rid="redalyc_607975560007_ref11">K. Soetaert et al., 2016</xref> la definición en R de un problema de valor inicial requiere de dos etapas básicas que se pueden definir como:</p>
+            <p>De acuerdo con <xref ref-type="bibr" rid="ref11">K. Soetaert et al., 2016</xref> la definición en R de un problema de valor inicial requiere de dos etapas básicas que se pueden definir como:</p>
             <p>La <bold>explicitación del modelo</bold>, que, en general, incluye los siguientes pasos:</p>
             <list list-type="bullet">
                 <list-item>
@@ -549,7 +550,7 @@
                 <graphic xlink:href="607975560007_gf2.png" position="anchor" orientation="portrait"/>
                 <attrib>Elaboración propia</attrib>
             </fig>
-            <p># Figura 1 install.packages("deSolve") library(deSolve) Ecu1= function(t, x, parms){ dx = x^2+x*t list(dx)} Cini= 0.1 tiempos =seq(from = 0, to = 1, by = 0.01) solu=ode( y= Cini, times = tiempos, func = Ecu1, parms = NULL) head(solu, n=4) plot(solu, main = " ", lwd = 2, xlab="t", ylab="x(t)", col=c("magenta3"))</p>
+            <p>#                <xref ref-type="fig" rid="gf1">Figura 1</xref>  install.packages("deSolve") library(deSolve) Ecu1= function(t, x, parms){ dx = x^2+x*t list(dx)} Cini= 0.1 tiempos =seq(from = 0, to = 1, by = 0.01) solu=ode( y= Cini, times = tiempos, func = Ecu1, parms = NULL) head(solu, n=4) plot(solu, main = " ", lwd = 2, xlab="t", ylab="x(t)", col=c("magenta3"))</p>
             <p>La tabla <xref ref-type="table" rid="gt18">2</xref> muestra los resultados numéricos de las primeras 4 iteraciones.</p>
             <table-wrap id="gt18">
                 <label>Tabla 2</label>
@@ -587,7 +588,7 @@
                 </alternatives>
                 <attrib>Elaboración propia</attrib>
             </table-wrap>
-            <p>y la figura 1 muestra la gráfica de la solución del problema de valor inicial considerado.</p>
+            <p>y la <xref ref-type="fig" rid="gf2">figura 1</xref> muestra la gráfica de la solución del problema de valor inicial considerado.</p>
             <fig id="gf2">
                 <label>
                         Figura 1
@@ -606,7 +607,7 @@
                 <title>
                     Una modificación de la ecuación logística
                 </title>
-                <p>El modelo de crecimiento logístico fue publicado por primera vez por Pierre François Verhulst en 1838 y lo utilizó para describir el crecimiento auto-limitado de una población biológica. Las suposiciones básicas de este modelo son <xref ref-type="bibr" rid="redalyc_607975560007_ref3">Blanchard et al., 1999</xref>:
+                <p>El modelo de crecimiento logístico fue publicado por primera vez por Pierre François Verhulst en 1838 y lo utilizó para describir el crecimiento auto-limitado de una población biológica. Las suposiciones básicas de este modelo son <xref ref-type="bibr" rid="ref3">Blanchard et al., 1999</xref>:
                 </p>
                 <list list-type="bullet">
                     <list-item>
@@ -677,7 +678,7 @@
                     </inline-formula>
                 </p>
                 <p>En él, <italic>a&gt;0</italic> y <italic>K&gt;0</italic> son parámetros característicos del modelo; el valor de <italic>a </italic>se conoce como <bold>la tasa intrínseca de crecimiento</bold>, el valor <italic>k</italic> es <bold>la capacidad de carga del sistema</bold> y representa la población máxima con la que el medio se satura.</p>
-                <p>Autores como <xref ref-type="bibr" rid="redalyc_607975560007_ref3">Blanchard et al., 1999</xref> afirman que existen poblaciones en las que si el número de individuos es elevado, la razón de cambio decrece y puede llegar a ser negativa y si el tamaño de la población es demasiado pequeño esta razón también decrece. Un modelo que incorpora estas observaciones es el siguiente:</p>
+                <p>Autores como <xref ref-type="bibr" rid="ref3">Blanchard et al., 1999</xref> afirman que existen poblaciones en las que si el número de individuos es elevado, la razón de cambio decrece y puede llegar a ser negativa y si el tamaño de la población es demasiado pequeño esta razón también decrece. Un modelo que incorpora estas observaciones es el siguiente:</p>
                 <p>
                     <inline-formula>
                         <alternatives>
@@ -724,7 +725,7 @@
                 </p>
                 <p>en el cual <italic>L</italic> es una constante que se conoce como <bold>el factor de escasez</bold> y <italic>0&lt;L&lt;K</italic>.
                 </p>
-                <p>De acuerdo con <xref ref-type="bibr" rid="redalyc_607975560007_ref3">Blanchard et al., 1999</xref>, la ardilla negra es un pequeño mamífero nativo de las montañas rocallosas cuya población es muy territorial y satisface el modelo de crecimiento logístico modificado; utilizaremos el paquete <bold>deSolve</bold> para analizar el comportamiento de las soluciones del modelo para lo cual, debido a su territorialidad, consideramos una taza intrínseca de crecimiento moderada con valor <italic>a=1.5</italic>,                    <italic>L=6</italic> como valor del factor de escasez y <italic>K=14</italic> como la capacidad de carga del sistema. Adicionalmente consideramos como tamaños iniciales de la población, los valores P(0)=3,P(0)=5,P(0)=7,P(0)=9,P(0)=15 y P(0)=20 que nos permiten sugerir conclusiones acerca del comportamiento de las soluciones del modelo.</p>
+                <p>De acuerdo con <xref ref-type="bibr" rid="ref3">Blanchard et al., 1999</xref>, la ardilla negra es un pequeño mamífero nativo de las montañas rocallosas cuya población es muy territorial y satisface el modelo de crecimiento logístico modificado; utilizaremos el paquete <bold>deSolve</bold> para analizar el comportamiento de las soluciones del modelo para lo cual, debido a su territorialidad, consideramos una taza intrínseca de crecimiento moderada con valor <italic>a=1.5</italic>,                    <italic>L=6</italic> como valor del factor de escasez y <italic>K=14</italic> como la capacidad de carga del sistema. Adicionalmente consideramos como tamaños iniciales de la población, los valores P(0)=3,P(0)=5,P(0)=7,P(0)=9,P(0)=15 y P(0)=20 que nos permiten sugerir conclusiones acerca del comportamiento de las soluciones del modelo.</p>
                 <p>
                     <bold>La implementación en R.</bold>
                 </p>
@@ -737,9 +738,9 @@
                     <graphic xlink:href="607975560007_gf4.png" position="anchor" orientation="portrait"/>
                     <attrib>Elaboración propia</attrib>
                 </fig>
-                <p># Figura 2 # install.packages("deSolve") library(deSolve)  # carga de las librerias # La explicitación del modelo # Vector que contiene los valores de los parámetros params1=c(a=1.5,L=6, K=14)</p>
+                <p>#                    <xref ref-type="fig" rid="gf3"> Figura 2</xref> # install.packages("deSolve") library(deSolve)  # carga de las librerias # La explicitación del modelo # Vector que contiene los valores de los parámetros params1=c(a=1.5,L=6, K=14)</p>
                 <p>Aquí definimos las condiciones iniciales para el modelo, cada una de ellas como un vector.</p>
-                <fig id="gf4">
+                <fig>
                     <label>
                             CondIn
                     </label>
@@ -748,7 +749,7 @@
                 </fig>
                 <p># Condiciones iniciales cini1=c(3) cini2=c(5) cini3=c(7) cini4=c(9) cini5=c(15) cini6=c(20)</p>
                 <p>La ecuación del modelo se incluye a través de una función con nombre Logis que calcula la razón de cambio de la variable de estado P, la devuelve como una lista y usa como argumentos los tiempos de corrida, la variable de estado y los parámetros.</p>
-                <fig id="gf5">
+                <fig>
                     <label>
                             Ecuaciones
                     </label>
@@ -757,7 +758,7 @@
                 </fig>
                 <p># Ecuaciones # P es la variable de estado Logis= function(t, P, parms) { Salida1=with(as.list(c(P, parms)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(Salida1)}</p>
                 <p>El modelo se corre en el intervalo de tiempo [0,2] con paso 0.1 y se resuelve utilizando la función <bold>ode()</bold> que contiene la rutina <bold>lsoda</bold> como método de integración predeterminado y que tiene como argumentos básicos las condiciones iniciales, el tiempo de corrida, la función Logis y los parámetros.</p>
-                <fig id="gf6">
+                <fig>
                     <graphic xlink:href="607975560007_gf7.png" position="anchor" orientation="portrait"/>
                     <attrib>Elaboración propia</attrib>
                 </fig>
@@ -836,7 +837,7 @@
                 </p>
                 <p>Las gráficas de las seis soluciones y algunos textos ilustrativos, se obtienen con el siguiente código y se muestran en la figura <xref ref-type="fig" rid="gf8">2</xref>.
                 </p>
-                <fig id="gf7">
+                <fig >
                     <label>
                             RepGraf
                     </label>
@@ -865,7 +866,7 @@
                     <attrib>Elaboración propia</attrib>
                 </fig>
 
-                <fig id="gf10">
+                <fig>
                     <label>
                             fig3b
                     </label>
@@ -873,7 +874,7 @@
                     <attrib>Elaboración propia</attrib>
                 </fig>
 
-                <p># figura 3 # install.packages("deSolve") library(deSolve) # Solución de la ecuación logística tiempos2=seq(from = 0, to = 3, by = 0.01) param2 = c(a=1.5, L=6, K=14) logis = function(t,y,param){ salida = with(as.list(c(y,param)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(salida)}</p>
+                <p>#                    <xref ref-type="fig" rid="gf9">figura 3</xref> # install.packages("deSolve") library(deSolve) # Solución de la ecuación logística tiempos2=seq(from = 0, to = 3, by = 0.01) param2 = c(a=1.5, L=6, K=14) logis = function(t,y,param){ salida = with(as.list(c(y,param)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(salida)}</p>
                 <p>oncecur=seq(0,20,2)</p>
                 <p>listadatos=lapply(oncecur,function(i){ode(y=c(P=i), times=tiempos2,func=logis,parms = param2)})</p>
                 <p>curvas= rbind(listadatos[[1]],listadatos[[2]],listadatos[[3]], listadatos[[4]],listadatos[[5]],listadatos[[6]], listadatos[[7]],listadatos[[8]],listadatos[[9]], listadatos[[10]],listadatos[[11]])</p>
@@ -883,7 +884,7 @@
                 <p>colcur = c("red","#999999","#E69F00", "red", "deeppink4", "green", "#000000", "red", "#0072B2","#009E73" , "#CC79A7")</p>
                 <p>install.packages("ggrepel") require(ggrepel)</p>
                 <p># ggplot2 traza el gráfico con etiquetas ggplot(data_label, aes(time, P, group = forcats::fct_inorder(group))) + geom_line(aes(colour= forcats::fct_inorder(group)),size=0.8) + scale_colour_manual(values=cbp2)+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), panel.border = element_rect(colour = "black", size=0.5, fill=NA))+ geom_label_repel(aes(label = label,color=group), nudge_x = -0.15, size=2, label.size=NA, fill="honeydew2", na.rm = TRUE,segment.color=NA) + theme(legend.position = "none") + labs(x = "t", y="P(t)")</p>
-                <p>El proceso anterior genera la gráfica que se muestra en la figura 3. Observe que todas las soluciones cercanas a la solución P=6 se ”alejan" de ella y que, en general, las soluciones "tienden" hacia la solución de equilibrio P=0 o P=14, es decir, P=6 es una fuente y P=0, P=14 son sumideros.</p>
+                <p>El proceso anterior genera la gráfica que se muestra en la <xref ref-type="fig" rid="gf11">figura 3</xref>. Observe que todas las soluciones cercanas a la solución P=6 se ”alejan" de ella y que, en general, las soluciones "tienden" hacia la solución de equilibrio P=0 o P=14, es decir, P=6 es una fuente y P=0, P=14 son sumideros.</p>
                 <fig id="gf11">
                     <label>
                             Figura 3
@@ -898,13 +899,13 @@
                 <p>
                     <bold>El sistema de Chen</bold>
                 </p>
-                <p>El concepto de <bold>atractor extraño</bold> surge a raíz de los trabajos de E. Lorenz, quien en 1963, escribió un notable artículo en el cual en un intento, por estudiar la posibilidad de predecir el comportamiento del flujo atmosférico a largo plazo, es decir, conocido el estado del flujo atmosférico en un instante dado determinar su comportamiento en tiempos futuros distantes, simuló experimentalmente el proceso convectivo atmosférico y observó que el flujo resultante podía ser muy irregular con trayectorias no periódicas inestables. Matemáticamente este proceso puede ser descrito utilizando un modelo de Rayleigh - Benard el cual es un sistema de ecuaciones en derivadas parciales que se deduce de las ecuaciones de Navier - Stokes para el que no se conocen soluciones exactas a excepción de las triviales. Suponiendo una expansión de Fourier de cierto tipo Lorenz reduce el sistema de ecuaciones en derivadas parciales a un sistema autónomo de ecuaciones diferenciales ordinarias que se conoce como el sistema de Lorenz <xref ref-type="bibr" rid="redalyc_607975560007_ref9">Mosquera, 1992</xref>.
+                <p>El concepto de <bold>atractor extraño</bold> surge a raíz de los trabajos de E. Lorenz, quien en 1963, escribió un notable artículo en el cual en un intento, por estudiar la posibilidad de predecir el comportamiento del flujo atmosférico a largo plazo, es decir, conocido el estado del flujo atmosférico en un instante dado determinar su comportamiento en tiempos futuros distantes, simuló experimentalmente el proceso convectivo atmosférico y observó que el flujo resultante podía ser muy irregular con trayectorias no periódicas inestables. Matemáticamente este proceso puede ser descrito utilizando un modelo de Rayleigh - Benard el cual es un sistema de ecuaciones en derivadas parciales que se deduce de las ecuaciones de Navier - Stokes para el que no se conocen soluciones exactas a excepción de las triviales. Suponiendo una expansión de Fourier de cierto tipo Lorenz reduce el sistema de ecuaciones en derivadas parciales a un sistema autónomo de ecuaciones diferenciales ordinarias que se conoce como el sistema de Lorenz <xref ref-type="bibr" rid="ref9">Mosquera, 1992</xref>.
                 </p>
-                <p>El Sistema de Lorenz posee dependencia sensitiva con respecto a las condiciones iniciales, consecuentemente exhibe comportamiento caótico y muestra lo que se conoce como un atractor extraño que corresponde, en su diagrama de fase, a una estructura geométrica con forma poco usual en la que las las trayectorias del sistema nunca se cortan y son líneas de longitud infinita encerradas en un área finita, que describen órbitas no periódicas <xref ref-type="bibr" rid="redalyc_607975560007_ref9">Mosquera, 1992</xref>.
+                <p>El Sistema de Lorenz posee dependencia sensitiva con respecto a las condiciones iniciales, consecuentemente exhibe comportamiento caótico y muestra lo que se conoce como un atractor extraño que corresponde, en su diagrama de fase, a una estructura geométrica con forma poco usual en la que las las trayectorias del sistema nunca se cortan y son líneas de longitud infinita encerradas en un área finita, que describen órbitas no periódicas <xref ref-type="bibr" rid="ref9">Mosquera, 1992</xref>.
                 </p>
                 <p>A partir del trabajo de Lorenz se han propuesto varios sistemas de ecuaciones diferenciales que contienen atractores extraños, entre ellos, el atractor de Rossller, el atractor de Chen, el atractor de Chua, el atractor de Liu y otros. En esta sección implementaremos en R el sistema de ecuaciones diferenciales ordinarias que produce <bold>el atractor de Chen</bold>.
                 </p>
-                <p>El sistema de Chen <xref ref-type="bibr" rid="redalyc_607975560007_ref13">Sooraksa y Chen, 2018</xref> fue propuesto en 1999 y puede considerarse como un modelo de clima controlado bajo la perspectiva anticontrol. Desde el punto de vista matemático, es el dual del sistema de Lorenz a través de la inversión en el tiempo y corresponde a un sistema autónomo de ecuaciones diferenciales ordinarias definido por</p>
+                <p>El sistema de Chen <xref ref-type="bibr" rid="ref13">Sooraksa y Chen, 2018</xref> fue propuesto en 1999 y puede considerarse como un modelo de clima controlado bajo la perspectiva anticontrol. Desde el punto de vista matemático, es el dual del sistema de Lorenz a través de la inversión en el tiempo y corresponde a un sistema autónomo de ecuaciones diferenciales ordinarias definido por</p>
                 <p>
                     <inline-formula>
                         <alternatives>
@@ -994,15 +995,15 @@
                         </alternatives>
                     </inline-formula>
                 </p>
-                <p>Las variables <italic>x </italic>y <italic>z</italic> representan, el promedio espacial de la velocidad hidrodinámica y la diferencia de temperatura entre la corriente ascendente y la descendente y la variable <italic>y</italic> el gradiente de temperatura. <italic>a</italic>,                    <italic>b</italic> y <italic>c</italic> son parámetros característicos del sistema y dependiendo de sus valores se tienen diversas situaciones; por ejemplo, de acuerdo a <xref ref-type="bibr" rid="redalyc_607975560007_ref13">Sooraksa y Chen, 2018</xref> con los valores de los parámetros a=35, b=3 y c=28 y las condiciones iniciales x(0)=-3, y(0)=2, z(0)=20 el sistema presenta comportamiento impredecible y se obtiene un conjunto de estructura geométrica caótica que se conoce cómo <bold>el atractor de Chen</bold>.
+                <p>Las variables <italic>x </italic>y <italic>z</italic> representan, el promedio espacial de la velocidad hidrodinámica y la diferencia de temperatura entre la corriente ascendente y la descendente y la variable <italic>y</italic> el gradiente de temperatura. <italic>a</italic>,                    <italic>b</italic> y <italic>c</italic> son parámetros característicos del sistema y dependiendo de sus valores se tienen diversas situaciones; por ejemplo, de acuerdo a <xref ref-type="bibr" rid="ref13">Sooraksa y Chen, 2018</xref> con los valores de los parámetros a=35, b=3 y c=28 y las condiciones iniciales x(0)=-3, y(0)=2, z(0)=20 el sistema presenta comportamiento impredecible y se obtiene un conjunto de estructura geométrica caótica que se conoce cómo <bold>el atractor de Chen</bold>.
                 </p>
                 <p>
                     <bold>La implementación en R. </bold>
                 </p>
                 <p>El sistema de Chen presenta una variada dinámica, sin embargo, presentamos el caso más importante de esta, su atractor extraño.</p>
-                <p>El siguiente código implementa la descripción realizada en la sección 2, para resolver numéricamente el Sistema de Chen, para lo cual nuevamente se utiliza la función <bold>ode()</bold> del paquete <bold>deSolve</bold>. Siguiendo a <xref ref-type="bibr" rid="redalyc_607975560007_ref13">Sooraksa y Chen, 2018</xref> consideramos los valores de los parámetros a=35, b=3 y c=28 para los cuales se produce <bold>el atractor de Chen</bold>.
+                <p>El siguiente código implementa la descripción realizada en la sección 2, para resolver numéricamente el Sistema de Chen, para lo cual nuevamente se utiliza la función <bold>ode()</bold> del paquete <bold>deSolve</bold>. Siguiendo a <xref ref-type="bibr" rid="ref13">Sooraksa y Chen, 2018</xref> consideramos los valores de los parámetros a=35, b=3 y c=28 para los cuales se produce <bold>el atractor de Chen</bold>.
                 </p>
-                <p>Con base en lo expuesto en <xref ref-type="bibr" rid="redalyc_607975560007_ref11">K. Soetaert et al., 2016</xref> para construir un gráfico de los resultados numéricos obtenidos es posible utilizar un método diseñado explícitamente para objetos de la clase deSolve, que ordena las figuras en dos filas y dos columnas. En este caso en ellas se presentan las gráficas de las variables dependientes contra la independiente y puesto que queda un espacio en el margen inferior derecho en él, se muestra el gráfico del promedio espacial de la velocidad hidrodinámica contra la diferencia de temperatura entre la corriente ascendente y la descendente, que en este caso corresponde a la proyección del atractor de Chen en el plano xz.</p>
+                <p>Con base en lo expuesto en <xref ref-type="bibr" rid="ref11">K. Soetaert et al., 2016</xref> para construir un gráfico de los resultados numéricos obtenidos es posible utilizar un método diseñado explícitamente para objetos de la clase deSolve, que ordena las figuras en dos filas y dos columnas. En este caso en ellas se presentan las gráficas de las variables dependientes contra la independiente y puesto que queda un espacio en el margen inferior derecho en él, se muestra el gráfico del promedio espacial de la velocidad hidrodinámica contra la diferencia de temperatura entre la corriente ascendente y la descendente, que en este caso corresponde a la proyección del atractor de Chen en el plano xz.</p>
 
                 <fig id="gf12">
                     <label>
@@ -1012,11 +1013,11 @@
                     <attrib>Elaboración propia</attrib>
                 </fig>
 
-                <p># Figura 4 # El Sistema de Chen # Las ecuaciones del modelo Chen = function (t, y, parms) { with(as.list(y), { dX = -a * X+a*Y dY = (c-a)*X+c*Y - X*Z dZ =X*Y - b*Z list(c(dX, dY, dZ)) })}</p>
+                <p>#                    <xref ref-type="fig" rid="gf12">figura 4</xref># El Sistema de Chen # Las ecuaciones del modelo Chen = function (t, y, parms) { with(as.list(y), { dX = -a * X+a*Y dY = (c-a)*X+c*Y - X*Z dZ =X*Y - b*Z list(c(dX, dY, dZ)) })}</p>
                 <p># Valores de los parámetros y condiciones iniciales param=c(a = 35, b = 3, c = 28) Eini = c(X = -3, Y = 2, Z = 20)</p>
                 <p># la integración se realiza por 100 veces cada 0.001 vez library(deSolve) tiempos = seq(from = 0, to = 100, by = 0.001) salida = ode(y = Eini, times = tiempos, func = Chen, parms = param)</p>
                 <p># La gráfica del modelo plot(salida,xlab="tiempo", col= "blue", lwd = 1) plot(salida[,"X"], salida[,"Z"], col= "red", type = "l", xlab = "X", ylab = "Z", main = "Proyección plano XZ")</p>
-                <p>La gráfica resultante de este proceso se muestra en la figura <xref ref-type="fig" rid="gf13">4</xref>.
+                <p>La gráfica resultante de este proceso se muestra en la <xref ref-type="fig" rid="gf13">figura 4</xref>.
                 </p>
 
                 <fig id="gf13">
@@ -1031,7 +1032,8 @@
                     <attrib>Elaboración propia</attrib>
                 </fig>
 
-                <p>Las siguientes líneas de R, generan una gráfica 3D que ilustra el denominado <bold>Atractor de Chen</bold> y que se muestra en la figura 5.</p>
+                <p>Las siguientes líneas de R, generan una gráfica 3D que ilustra el denominado <bold>Atractor de Chen</bold> y que se muestra en la <xref ref-type="fig" rid="gf14">Figura 5</xref>.
+                </p>
 
                 <fig id="gf14">
                     <label>
@@ -1045,12 +1047,12 @@
                     <attrib>Elaboración propia</attrib>
                 </fig>
 
-                <p># Figura 5 # gráfica 3D library(scatterplot3d) scatterplot3d(salida[,-1], type = "l", lwd = 1, xlab = "X", ylab = "Y", zlab = "Z", main = "El atractor de Chen", col.main="red",color=("darkorchid"),box=FALSE, angle=45)</p>
-                <p>En esta sección se ha presentado únicamente una muestra del variado comportamiento que presenta este sistema para diversos valores de sus parámetros, en <xref ref-type="bibr" rid="redalyc_607975560007_ref13">Sooraksa y Chen, 2018</xref> puede encontrarse una descripción más completa de este sistema.</p>
+                <p>#                    <xref ref-type="fig" rid="gf14">Figura 5</xref> gráfica 3D library(scatterplot3d) scatterplot3d(salida[,-1], type = "l", lwd = 1, xlab = "X", ylab = "Y", zlab = "Z", main = "El atractor de Chen", col.main="red",color=("darkorchid"),box=FALSE, angle=45)</p>
+                <p>En esta sección se ha presentado únicamente una muestra del variado comportamiento que presenta este sistema para diversos valores de sus parámetros, en <xref ref-type="bibr" rid="ref13">Sooraksa y Chen, 2018</xref> puede encontrarse una descripción más completa de este sistema.</p>
                 <p>
                     <bold>El paquete phaseR</bold>
                 </p>
-                <p>El paquete <bold>phaseR</bold> fue desarrollado, alrededor del año 2012, por Michael J. Grayling, Gerhard Burger, Stephen P. Ellner y John M. Guckenheimer y es un paquete R para el análisis cualitativo de sistemas autónomos de ecuaciones diferenciales ordinarias en una y dos dimensiones, para lo cual utiliza el método del plano fase. En la tabla <xref ref-type="table" rid="gt20">4</xref> se muestra una descripción de las funciones incorporadas en este paquete <xref ref-type="bibr" rid="redalyc_607975560007_ref8">Grayling, 2022</xref>.
+                <p>El paquete <bold>phaseR</bold> fue desarrollado, alrededor del año 2012, por Michael J. Grayling, Gerhard Burger, Stephen P. Ellner y John M. Guckenheimer y es un paquete R para el análisis cualitativo de sistemas autónomos de ecuaciones diferenciales ordinarias en una y dos dimensiones, para lo cual utiliza el método del plano fase. En la tabla <xref ref-type="table" rid="gt20">4</xref> se muestra una descripción de las funciones incorporadas en este paquete <xref ref-type="bibr" rid="ref8">Grayling, 2022</xref>.
                 </p>
                 <p>
                     <table-wrap id="gt20">
@@ -1125,7 +1127,7 @@
                 </alternatives>
             </inline-formula>
         </p>
-        <p>De acuerdo a <xref ref-type="bibr" rid="redalyc_607975560007_ref8">Grayling, 2022</xref> presentamos la sintaxis básica de cada una de las funciones del paquete <bold>phaseR()</bold> que utilizaremos en este documento.</p>
+        <p>De acuerdo a <xref ref-type="bibr" rid="ref8">Grayling, 2022</xref> presentamos la sintaxis básica de cada una de las funciones del paquete <bold>phaseR()</bold> que utilizaremos en este documento.</p>
         <p>Para la función <italic>flowField</italic> la sintaxis es:</p>
         <p>flowField(func, xlim, ylim, parameters, points, system, add,...)</p>
         <p>y una descripción de sus argumentos se presenta en la tabla <xref ref-type="table" rid="gt21">5</xref>
@@ -1227,450 +1229,450 @@
         <p>trajectory(func, y0, t.lim, parameters, system, col,...)</p>
         <p>y una descripción de sus argumentos se presenta en la tabla <xref ref-type="table" rid="gt23">7</xref>.
         </p>
-            <table-wrap id="gt23">
-                <label>Tabla 7</label>
-                <caption>
-                    <title>Los argumentos trajectory() y su descripción</title>
-                </caption>
-                <alternatives>
-                    <graphic xlink:href="607975560007_gt24.png" position="anchor" orientation="portrait"/>
-                    <table id="gt24-526564616c7963">
-                        <tbody>
+        <table-wrap id="gt23">
+            <label>Tabla 7</label>
+            <caption>
+                <title>Los argumentos trajectory() y su descripción</title>
+            </caption>
+            <alternatives>
+                <graphic xlink:href="607975560007_gt24.png" position="anchor" orientation="portrait"/>
+                <table id="gt24-526564616c7963">
+                    <tbody>
 
-                            <tr>
-                                <td style="text-align: left;">func</td>
-                                <td style="text-align: left;">Es una función, definida en el formato de <bold>deSolve</bold> que calcula la derivada de la EDO que se está analizando.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">y0</td>
-                                <td style="text-align: left;">Define las condiciones iniciales. Para una EDO en dimensión uno, es un vector numérico que indica una ubicación inicial de la variable dependiente o varias ubicaciones iniciales de la variable independiente. Para un sistema en dimensión dos, puede ser un vector numérico de longitud dos, que refleja la ubicación inicial de las dos variables dependientes o puede ser una matriz numérica donde cada fila refleja una condición inicial. El valor predeterminado es NULL.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">tlim</td>
-                                <td style="text-align: left;">Proporciona el intervalo de valores de la variable independiente para los cuales se construye la gráfica de la solución. Es un vector numérico de longitud dos.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">parameters</td>
-                                <td style="text-align: left;">Define los parámetros utilizados en el sistema de EDO o es NULL en el caso en que no los contenga.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">system</td>
-                                <td style="text-align: left;">Toma dos valores ”one.dim” o ”two.dim” en dependencia del tipo sistema que se está analizando. El valor por defecto es ”two.dim”.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">col</td>
-                                <td style="text-align: left;">Es un vector de caracteres para dar color a las gráficas de las trayectorias y la dimensión del vector debe coincidir con el número de condiciones iniciales. El color por defecto es ”black”.</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </alternatives>
-                <attrib>Elaboración propia</attrib>
-            </table-wrap>
-            <p>Para la función <italic>stability</italic> la sintaxis es:</p>
-            <p>stability(func, ystar, parameters, system, summary,...)</p>
-            <p>y una descripción de sus argumentos se presenta en la tabla <xref ref-type="table" rid="gt24">8</xref>
-            </p>
+                        <tr>
+                            <td style="text-align: left;">func</td>
+                            <td style="text-align: left;">Es una función, definida en el formato de <bold>deSolve</bold> que calcula la derivada de la EDO que se está analizando.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">y0</td>
+                            <td style="text-align: left;">Define las condiciones iniciales. Para una EDO en dimensión uno, es un vector numérico que indica una ubicación inicial de la variable dependiente o varias ubicaciones iniciales de la variable independiente. Para un sistema en dimensión dos, puede ser un vector numérico de longitud dos, que refleja la ubicación inicial de las dos variables dependientes o puede ser una matriz numérica donde cada fila refleja una condición inicial. El valor predeterminado es NULL.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">tlim</td>
+                            <td style="text-align: left;">Proporciona el intervalo de valores de la variable independiente para los cuales se construye la gráfica de la solución. Es un vector numérico de longitud dos.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">parameters</td>
+                            <td style="text-align: left;">Define los parámetros utilizados en el sistema de EDO o es NULL en el caso en que no los contenga.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">system</td>
+                            <td style="text-align: left;">Toma dos valores ”one.dim” o ”two.dim” en dependencia del tipo sistema que se está analizando. El valor por defecto es ”two.dim”.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">col</td>
+                            <td style="text-align: left;">Es un vector de caracteres para dar color a las gráficas de las trayectorias y la dimensión del vector debe coincidir con el número de condiciones iniciales. El color por defecto es ”black”.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </alternatives>
+            <attrib>Elaboración propia</attrib>
+        </table-wrap>
+        <p>Para la función <italic>stability</italic> la sintaxis es:</p>
+        <p>stability(func, ystar, parameters, system, summary,...)</p>
+        <p>y una descripción de sus argumentos se presenta en la tabla <xref ref-type="table" rid="gt24">8</xref>
+        </p>
 
-            <table-wrap id="gt24">
-                <label>Tabla 8</label>
-                <caption>
-                    <title>Los argumentos de stability() y su descripción</title>
-                </caption>
-                <alt-text>Tabla 8 Los argumentos de stability() y su descripción</alt-text>
-                <alternatives>
-                    <graphic xlink:href="607975560007_gt25.png" position="anchor" orientation="portrait"/>
-                    <table id="gt25-526564616c7963">
-                        <tbody>
+        <table-wrap id="gt24">
+            <label>Tabla 8</label>
+            <caption>
+                <title>Los argumentos de stability() y su descripción</title>
+            </caption>
+            <alt-text>Tabla 8 Los argumentos de stability() y su descripción</alt-text>
+            <alternatives>
+                <graphic xlink:href="607975560007_gt25.png" position="anchor" orientation="portrait"/>
+                <table id="gt25-526564616c7963">
+                    <tbody>
 
-                            <tr>
-                                <td style="text-align: left;">func</td>
-                                <td style="text-align: left;">Es una función, definida en el formato de <bold>deSolve</bold> que calcula la derivada de la EDO que se está analizando.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">ystar</td>
-                                <td style="text-align: left;">Corresponde al punto de equilibrio para el cual se desea analizar su estabilidad.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">parameters</td>
-                                <td style="text-align: left;">Define los parámetros utilizados en el sistema de EDO o es NULL en el caso en que no los contenga.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">system</td>
-                                <td style="text-align: left;">Toma dos valores ”one.dim” o ”two.dim” en dependencia del tipo sistema que se está analizando. El valor por defecto es ”two.dim”.</td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: left;">summary</td>
-                                <td style="text-align: left;">Es un valor lógico. Si es TRUE se devuelve un resumen del análisis de la estabilidad del punto de equilibrio. Por defecto este valor es TRUE.</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </alternatives>
-                <attrib>Elaboración propia</attrib>
-            </table-wrap>
-            <p>Cada una de estas funciones posee argumentos adicionales que no son necesarios para nuestros objetivos sin embargo una descripción de estos puede verse en <xref ref-type="bibr" rid="redalyc_607975560007_ref8">Grayling, 2022</xref>.
-            </p>
-            <p>El siguiente ejemplo muestra de manera sintética cómo utilizar algunas de estas funciones para realizar un análisis cualitativo del siguiente problema.</p>
-            <p>
-                <bold>Ejemplo 2</bold>.                <italic>Utilizar R para generar el campo direccional, construir las isoclinas nulas, trayectorias con diversas condiciones iniciales y un análisis de estabilidad para los puntos de equilibrio de ecuación diferencial</italic>
-            </p>
-            <p>
-                <inline-formula>
-                    <alternatives>
-                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                            <mml:mrow>
-                                <mml:mfrac>
-                                    <mml:mrow>
-                                        <mml:mi>d</mml:mi>
-                                        <mml:mi>P</mml:mi>
-                                    </mml:mrow>
-                                    <mml:mrow>
-                                        <mml:mi>d</mml:mi>
-                                        <mml:mi>t</mml:mi>
-                                    </mml:mrow>
-                                </mml:mfrac>
-                                <mml:mo>=</mml:mo>
-                                <mml:mi>a</mml:mi>
-                                <mml:mi>P</mml:mi>
-                                <mml:mrow>
-                                    <mml:mo form="prefix" fence="true">(</mml:mo>
-                                    <mml:mfrac>
-                                        <mml:mi>P</mml:mi>
-                                        <mml:mi>L</mml:mi>
-                                    </mml:mfrac>
-                                    <mml:mo>-</mml:mo>
-                                    <mml:mn>1</mml:mn>
-                                    <mml:mo form="postfix" fence="true">)</mml:mo>
-                                </mml:mrow>
-                                <mml:mrow>
-                                    <mml:mo form="prefix" fence="true">(</mml:mo>
-                                    <mml:mn>1</mml:mn>
-                                    <mml:mo>-</mml:mo>
-                                    <mml:mfrac>
-                                        <mml:mi>P</mml:mi>
-                                        <mml:mi>K</mml:mi>
-                                    </mml:mfrac>
-                                    <mml:mo form="postfix" fence="true">)</mml:mo>
-                                </mml:mrow>
-                            </mml:mrow>
-                        </mml:math>
-                        <graphic xlink:href="607975560007_gi21.png"/>
-                    </alternatives>
-                </inline-formula>
-            </p>
-            <p>
-                <inline-formula>
-                    <alternatives>
-                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                            <mml:mi>P</mml:mi>
-                            <mml:mo>(</mml:mo>
-                            <mml:mn>0</mml:mn>
-                            <mml:mo>)</mml:mo>
-                            <mml:mo>=</mml:mo>
-                            <mml:msub>
-                                <mml:mi>P</mml:mi>
-                                <mml:mn>0</mml:mn>
-                            </mml:msub>
-                        </mml:math>
-                        <graphic xlink:href="607975560007_gi22.png"/>
-                    </alternatives>
-                </inline-formula>
-            </p>
-            <p>Este es el modelo de la ecuación logística modificada considerada en la subsección 3.1 por lo que como valores de los parámetros consideramos los seleccionados en aquella sección. El código R que genera lo solicitado, es el siguiente</p>
-
-            <fig id="gf15">
-                <label>
-                    fig6
-                </label>
-                <graphic xlink:href="607975560007_gf16.png" position="anchor" orientation="portrait"/>
-                <attrib>Elaboración propia</attrib>
-            </fig>
-
-            <p># figura 6 # install.packages("phaseR") library(phaseR) # Análisis cualitativo de la ecuación logística modificada tiempos2=seq(from = 0, to = 5, by = 0.01) param2 = c(a=1.5, L=6, K=14) logis.mod = function(t,P,param){ salida = with(as.list(c(P,param)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(salida)}</p>
-            <p># El campo vectorial logis.mod.flowField = flowField(logis.mod, xlim = c(0, 5), ylim = c(-1, 20), parameters = param2, points = 21, system = "one.dim", add = FALSE, xlab = "t", ylab = "P(t)") grid()</p>
-            <p># Las isoclinas nulas logis.mod.nullclines = nullclines(logis.mod, xlim = c(0, 5), ylim = c(-1, 20), parameters = param2, system = "one.dim")</p>
-            <p># Trayectorias con diversas condiciones iniciales logis.mod.trajectory = trajectory(logis.mod, y0 = c(1.5, 2.5,7.5, 11.5,15, 18 ), tlim = c(0, 5), parameters = param2, system = "one.dim", col = rep("red", 6))</p>
-            <p># Estabilidad de los puntos de equilibrio logis.mod.Estab1=stability(logis.mod,ystar = c(0),parameters = param2,  system = "one.dim") logis.mod.Estab2=stability(logis.mod,ystar = c(6),parameters = param2,  system = "one.dim") logis.mod.Estab3=stability(logis.mod,ystar = c(14),parameters = param2,  system = "one.dim")</p>
-            <p>El código anterior genera la gráfica de la figura <xref ref-type="fig" rid="gf16">6</xref> que muestra el campo direccional, las isoclinas nulas y trayectorias para algunas condiciones iniciales.</p>
-
-            <fig id="gf16">
-                <label>
-                    Figura 6
-                </label>
-                <caption>
-                    <title>Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</title>
-                </caption>
-                <alt-text>Figura 6 Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</alt-text>
-                <graphic xlink:href="607975560007_gf17.png" position="anchor" orientation="portrait"/>
-                <attrib>Elaboración propia</attrib>
-            </fig>
-
-            <p>En cuanto a estabilidad de los puntos de equilibrio los resultados son los siguientes</p>
-            <p>discriminant = -1.5, classification = Stable discriminant = 0.85714, classification = Unstable discriminant = -2, classification = Stable</p>
-            <p>y que por tanto clasifican a P=6 como una el punto de equilibrio inestable y a P=0 y P=14 como puntos de equilibrio asintóticamente estables.</p>
-        </sec>
-    </sec>
-    <sec>
-        <title>
-        Una aplicación del paquete phaseR a un problema de la vida real
-        </title>
-        <p>En los siguientes ejemplos se ilustra el uso de los paquetes, <bold>deSolve</bold> y <bold>phaseR</bold> los cuales utilizan la función <bold>ode()</bold>, así como algunas de las características y opciones del mismo con una ecuación diferencial de segundo orden no lineal.</p>
-        <sec>
-            <title>
-            Un modelo que generaliza la ley de Hooke.
-            </title>
-            <p>La <bold>Ley de Hooke</bold> fue formulada en 1768 por Robert Hooke y básicamente establece que:</p>
-            <p>
-                <italic>"La fuerza que devuelve un resorte a su posición de equilibrio es proporcional a la distancia que se desplaza de esta posición"</italic> (                <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref>).
-            </p>
-            <p>Cuando este enunciado se expresa matemáticamente produce una ecuación diferencial lineal de segundo orden que se estudia, usualmente, en un curso básico de ecuaciones diferenciales ordinarias. En este aparte se analiza la ecuación diferencial no lineal</p>
-            <p>
-                <inline-formula>
-                    <alternatives>
-                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                            <mml:mrow>
-                                <mml:mi>m</mml:mi>
-                                <mml:mfrac>
-                                    <mml:mrow>
-                                        <mml:msup>
-                                            <mml:mi>d</mml:mi>
-                                            <mml:mn>2</mml:mn>
-                                        </mml:msup>
-                                        <mml:mi>x</mml:mi>
-                                    </mml:mrow>
-                                    <mml:mrow>
-                                        <mml:mi>d</mml:mi>
-                                        <mml:msup>
-                                            <mml:mi>t</mml:mi>
-                                            <mml:mn>2</mml:mn>
-                                        </mml:msup>
-                                    </mml:mrow>
-                                </mml:mfrac>
-                                <mml:mo>+</mml:mo>
-                                <mml:mi>k</mml:mi>
-                                <mml:mi>x</mml:mi>
-                                <mml:mo>+</mml:mo>
-                                <mml:mi>a</mml:mi>
-                                <mml:msup>
-                                    <mml:mi>x</mml:mi>
-                                    <mml:mn>3</mml:mn>
-                                </mml:msup>
-                                <mml:mo>=</mml:mo>
-                                <mml:mn>0</mml:mn>
-                            </mml:mrow>
-                        </mml:math>
-                        <graphic xlink:href="607975560007_gi23.png"/>
-                    </alternatives>
-                </inline-formula>
-            </p>
-            <p>que describe el movimiento de un cuerpo de masa m que cuelga de un resorte y fue propuesta en Cerón &amp; Guerrero, 2008 como un modelo que generaliza la ley de Hooke. Físicamente x representa el desplazamiento de un cuerpo de masa m en el extremo del resorte no lineal sin fricción, k es un parámetro positivo que se denomina elasticidad del resorte y cuya rigidez <inline-formula>
+                        <tr>
+                            <td style="text-align: left;">func</td>
+                            <td style="text-align: left;">Es una función, definida en el formato de <bold>deSolve</bold> que calcula la derivada de la EDO que se está analizando.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">ystar</td>
+                            <td style="text-align: left;">Corresponde al punto de equilibrio para el cual se desea analizar su estabilidad.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">parameters</td>
+                            <td style="text-align: left;">Define los parámetros utilizados en el sistema de EDO o es NULL en el caso en que no los contenga.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">system</td>
+                            <td style="text-align: left;">Toma dos valores ”one.dim” o ”two.dim” en dependencia del tipo sistema que se está analizando. El valor por defecto es ”two.dim”.</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;">summary</td>
+                            <td style="text-align: left;">Es un valor lógico. Si es TRUE se devuelve un resumen del análisis de la estabilidad del punto de equilibrio. Por defecto este valor es TRUE.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </alternatives>
+            <attrib>Elaboración propia</attrib>
+        </table-wrap>
+        <p>Cada una de estas funciones posee argumentos adicionales que no son necesarios para nuestros objetivos sin embargo una descripción de estos puede verse en <xref ref-type="bibr" rid="ref8">Grayling, 2022</xref>.
+        </p>
+        <p>El siguiente ejemplo muestra de manera sintética cómo utilizar algunas de estas funciones para realizar un análisis cualitativo del siguiente problema.</p>
+        <p>
+            <bold>Ejemplo 2</bold>.            <italic>Utilizar R para generar el campo direccional, construir las isoclinas nulas, trayectorias con diversas condiciones iniciales y un análisis de estabilidad para los puntos de equilibrio de ecuación diferencial</italic>
+        </p>
+        <p>
+            <inline-formula>
                 <alternatives>
                     <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                        <mml:mi>a</mml:mi>
-                        <mml:mo>&#x2260;</mml:mo>
-                        <mml:mn>0</mml:mn>
-                    </mml:math>
-                    <graphic xlink:href="607975560007_gi24.png"/>
-                </alternatives>
-            </inline-formula> varía con el desplazamiento. Si a&gt;0 la rigidez aumenta con el desplazamiento y se tiene un resorte duro, pero para a&lt;0 la rigidez disminuye con el desplazamiento y se tiene un resorte suave (<xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref>).
-        </p>
-        <p>La utilización de los paquetes <bold>deSolve</bold> y <bold>PhaseR</bold> para analizar esta ecuación diferencial requiere transformarla en un sistema dos-dimensional de ecuaciones diferenciales; para lo cual utilizamos el cambio de variable <inline-formula>
-            <alternatives>
-                <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                    <mml:mrow>
-                        <mml:mfrac>
-                            <mml:mrow>
-                                <mml:mi>d</mml:mi>
-                                <mml:mi>x</mml:mi>
-                            </mml:mrow>
-                            <mml:mrow>
-                                <mml:mi>d</mml:mi>
-                                <mml:mi>t</mml:mi>
-                            </mml:mrow>
-                        </mml:mfrac>
-                        <mml:mo>=</mml:mo>
-                        <mml:mi>y</mml:mi>
-                    </mml:mrow>
-                </mml:math>
-                <graphic xlink:href="607975560007_gi25.png"/>
-            </alternatives>
-        </inline-formula> con lo que se obtiene el sistema no lineal bidimensional</p>
-    <p>
-        <inline-formula>
-            <alternatives>
-                <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                    <mml:mrow>
-                        <mml:mfrac>
-                            <mml:mrow>
-                                <mml:mi>d</mml:mi>
-                                <mml:mi>x</mml:mi>
-                            </mml:mrow>
-                            <mml:mrow>
-                                <mml:mi>d</mml:mi>
-                                <mml:mi>t</mml:mi>
-                            </mml:mrow>
-                        </mml:mfrac>
-                        <mml:mo>=</mml:mo>
-                        <mml:mi>y</mml:mi>
-                    </mml:mrow>
-                </mml:math>
-                <graphic xlink:href="607975560007_gi26.png"/>
-            </alternatives>
-        </inline-formula>
-    </p>
-    <p>
-        <inline-formula>
-            <alternatives>
-                <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                    <mml:mrow>
-                        <mml:mfrac>
-                            <mml:mrow>
-                                <mml:mi>d</mml:mi>
-                                <mml:mi>y</mml:mi>
-                            </mml:mrow>
-                            <mml:mrow>
-                                <mml:mi>d</mml:mi>
-                                <mml:mi>t</mml:mi>
-                            </mml:mrow>
-                        </mml:mfrac>
-                        <mml:mo>=</mml:mo>
-                        <mml:mo>-</mml:mo>
-                        <mml:mfrac>
-                            <mml:mi>k</mml:mi>
-                            <mml:mi>m</mml:mi>
-                        </mml:mfrac>
-                        <mml:mi>x</mml:mi>
-                        <mml:mo>-</mml:mo>
-                        <mml:mfrac>
+                        <mml:mrow>
+                            <mml:mfrac>
+                                <mml:mrow>
+                                    <mml:mi>d</mml:mi>
+                                    <mml:mi>P</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                    <mml:mi>d</mml:mi>
+                                    <mml:mi>t</mml:mi>
+                                </mml:mrow>
+                            </mml:mfrac>
+                            <mml:mo>=</mml:mo>
                             <mml:mi>a</mml:mi>
+                            <mml:mi>P</mml:mi>
+                            <mml:mrow>
+                                <mml:mo form="prefix" fence="true">(</mml:mo>
+                                <mml:mfrac>
+                                    <mml:mi>P</mml:mi>
+                                    <mml:mi>L</mml:mi>
+                                </mml:mfrac>
+                                <mml:mo>-</mml:mo>
+                                <mml:mn>1</mml:mn>
+                                <mml:mo form="postfix" fence="true">)</mml:mo>
+                            </mml:mrow>
+                            <mml:mrow>
+                                <mml:mo form="prefix" fence="true">(</mml:mo>
+                                <mml:mn>1</mml:mn>
+                                <mml:mo>-</mml:mo>
+                                <mml:mfrac>
+                                    <mml:mi>P</mml:mi>
+                                    <mml:mi>K</mml:mi>
+                                </mml:mfrac>
+                                <mml:mo form="postfix" fence="true">)</mml:mo>
+                            </mml:mrow>
+                        </mml:mrow>
+                    </mml:math>
+                    <graphic xlink:href="607975560007_gi21.png"/>
+                </alternatives>
+            </inline-formula>
+        </p>
+        <p>
+            <inline-formula>
+                <alternatives>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mml:mi>P</mml:mi>
+                        <mml:mo>(</mml:mo>
+                        <mml:mn>0</mml:mn>
+                        <mml:mo>)</mml:mo>
+                        <mml:mo>=</mml:mo>
+                        <mml:msub>
+                            <mml:mi>P</mml:mi>
+                            <mml:mn>0</mml:mn>
+                        </mml:msub>
+                    </mml:math>
+                    <graphic xlink:href="607975560007_gi22.png"/>
+                </alternatives>
+            </inline-formula>
+        </p>
+        <p>Este es el modelo de la ecuación logística modificada considerada en la subsección 3.1 por lo que como valores de los parámetros consideramos los seleccionados en aquella sección. El código R que genera lo solicitado, es el siguiente</p>
+
+        <fig id="gf15">
+            <label>
+                    fig6
+            </label>
+            <graphic xlink:href="607975560007_gf16.png" position="anchor" orientation="portrait"/>
+            <attrib>Elaboración propia</attrib>
+        </fig>
+
+        <p>#            <xref ref-type="fig" rid="gf15">figura 6</xref>figura 6 # install.packages("phaseR") library(phaseR) # Análisis cualitativo de la ecuación logística modificada tiempos2=seq(from = 0, to = 5, by = 0.01) param2 = c(a=1.5, L=6, K=14) logis.mod = function(t,P,param){ salida = with(as.list(c(P,param)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(salida)}</p>
+        <p># El campo vectorial logis.mod.flowField = flowField(logis.mod, xlim = c(0, 5), ylim = c(-1, 20), parameters = param2, points = 21, system = "one.dim", add = FALSE, xlab = "t", ylab = "P(t)") grid()</p>
+        <p># Las isoclinas nulas logis.mod.nullclines = nullclines(logis.mod, xlim = c(0, 5), ylim = c(-1, 20), parameters = param2, system = "one.dim")</p>
+        <p># Trayectorias con diversas condiciones iniciales logis.mod.trajectory = trajectory(logis.mod, y0 = c(1.5, 2.5,7.5, 11.5,15, 18 ), tlim = c(0, 5), parameters = param2, system = "one.dim", col = rep("red", 6))</p>
+        <p># Estabilidad de los puntos de equilibrio logis.mod.Estab1=stability(logis.mod,ystar = c(0),parameters = param2,  system = "one.dim") logis.mod.Estab2=stability(logis.mod,ystar = c(6),parameters = param2,  system = "one.dim") logis.mod.Estab3=stability(logis.mod,ystar = c(14),parameters = param2,  system = "one.dim")</p>
+        <p>El código anterior genera la gráfica de la figura <xref ref-type="fig" rid="gf16">6</xref> que muestra el campo direccional, las isoclinas nulas y trayectorias para algunas condiciones iniciales.</p>
+
+        <fig id="gf16">
+            <label>
+                    Figura 6
+            </label>
+            <caption>
+                <title>Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</title>
+            </caption>
+            <alt-text>Figura 6 Campo vectorial, isoclinas nulas, trayectorias de la ecuación logística modificada</alt-text>
+            <graphic xlink:href="607975560007_gf17.png" position="anchor" orientation="portrait"/>
+            <attrib>Elaboración propia</attrib>
+        </fig>
+
+        <p>En cuanto a estabilidad de los puntos de equilibrio los resultados son los siguientes</p>
+        <p>discriminant = -1.5, classification = Stable discriminant = 0.85714, classification = Unstable discriminant = -2, classification = Stable</p>
+        <p>y que por tanto clasifican a P=6 como una el punto de equilibrio inestable y a P=0 y P=14 como puntos de equilibrio asintóticamente estables.</p>
+    </sec>
+</sec>
+<sec>
+    <title>
+        Una aplicación del paquete phaseR a un problema de la vida real
+    </title>
+    <p>En los siguientes ejemplos se ilustra el uso de los paquetes, <bold>deSolve</bold> y <bold>phaseR</bold> los cuales utilizan la función <bold>ode()</bold>, así como algunas de las características y opciones del mismo con una ecuación diferencial de segundo orden no lineal.</p>
+    <sec>
+        <title>
+            Un modelo que generaliza la ley de Hooke.
+        </title>
+        <p>La <bold>Ley de Hooke</bold> fue formulada en 1768 por Robert Hooke y básicamente establece que:</p>
+        <p>
+            <italic>"La fuerza que devuelve un resorte a su posición de equilibrio es proporcional a la distancia que se desplaza de esta posición"</italic> (            <xref ref-type="bibr" rid="ref6">Cerón &amp; Guerrero, 2008</xref>).
+        </p>
+        <p>Cuando este enunciado se expresa matemáticamente produce una ecuación diferencial lineal de segundo orden que se estudia, usualmente, en un curso básico de ecuaciones diferenciales ordinarias. En este aparte se analiza la ecuación diferencial no lineal</p>
+        <p>
+            <inline-formula>
+                <alternatives>
+                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                        <mml:mrow>
                             <mml:mi>m</mml:mi>
-                        </mml:mfrac>
-                        <mml:msup>
+                            <mml:mfrac>
+                                <mml:mrow>
+                                    <mml:msup>
+                                        <mml:mi>d</mml:mi>
+                                        <mml:mn>2</mml:mn>
+                                    </mml:msup>
+                                    <mml:mi>x</mml:mi>
+                                </mml:mrow>
+                                <mml:mrow>
+                                    <mml:mi>d</mml:mi>
+                                    <mml:msup>
+                                        <mml:mi>t</mml:mi>
+                                        <mml:mn>2</mml:mn>
+                                    </mml:msup>
+                                </mml:mrow>
+                            </mml:mfrac>
+                            <mml:mo>+</mml:mo>
+                            <mml:mi>k</mml:mi>
                             <mml:mi>x</mml:mi>
-                            <mml:mn>3</mml:mn>
-                        </mml:msup>
-                    </mml:mrow>
+                            <mml:mo>+</mml:mo>
+                            <mml:mi>a</mml:mi>
+                            <mml:msup>
+                                <mml:mi>x</mml:mi>
+                                <mml:mn>3</mml:mn>
+                            </mml:msup>
+                            <mml:mo>=</mml:mo>
+                            <mml:mn>0</mml:mn>
+                        </mml:mrow>
+                    </mml:math>
+                    <graphic xlink:href="607975560007_gi23.png"/>
+                </alternatives>
+            </inline-formula>
+        </p>
+        <p>que describe el movimiento de un cuerpo de masa m que cuelga de un resorte y fue propuesta en Cerón &amp; Guerrero, 2008 como un modelo que generaliza la ley de Hooke. Físicamente x representa el desplazamiento de un cuerpo de masa m en el extremo del resorte no lineal sin fricción, k es un parámetro positivo que se denomina elasticidad del resorte y cuya rigidez <inline-formula>
+            <alternatives>
+                <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                    <mml:mi>a</mml:mi>
+                    <mml:mo>&#x2260;</mml:mo>
+                    <mml:mn>0</mml:mn>
                 </mml:math>
-                <graphic xlink:href="607975560007_gi27.png"/>
+                <graphic xlink:href="607975560007_gi24.png"/>
             </alternatives>
-        </inline-formula>
+        </inline-formula> varía con el desplazamiento. Si a&gt;0 la rigidez aumenta con el desplazamiento y se tiene un resorte duro, pero para a&lt;0 la rigidez disminuye con el desplazamiento y se tiene un resorte suave (<xref ref-type="bibr" rid="ref6">Cerón &amp; Guerrero, 2008</xref>).
     </p>
-    <p>en el cual, llamando <inline-formula>
+    <p>La utilización de los paquetes <bold>deSolve</bold> y <bold>PhaseR</bold> para analizar esta ecuación diferencial requiere transformarla en un sistema dos-dimensional de ecuaciones diferenciales; para lo cual utilizamos el cambio de variable <inline-formula>
         <alternatives>
             <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-                <mml:msup>
-                    <mml:mi>c</mml:mi>
-                    <mml:mn>2</mml:mn>
-                </mml:msup>
-                <mml:mo>=</mml:mo>
-                <mml:mfrac>
-                    <mml:mi>k</mml:mi>
-                    <mml:mi>m</mml:mi>
-                </mml:mfrac>
-            </mml:math>
-            <graphic xlink:href="607975560007_gi29.png"/>
-        </alternatives>
-    </inline-formula> y <inline-formula>
-    <alternatives>
-        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-            <mml:mi>b</mml:mi>
-            <mml:mo>=</mml:mo>
-            <mml:mfrac>
-                <mml:mi>a</mml:mi>
                 <mml:mrow>
-                    <mml:mn>2</mml:mn>
-                    <mml:mi>k</mml:mi>
+                    <mml:mfrac>
+                        <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>x</mml:mi>
+                        </mml:mrow>
+                        <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                    </mml:mfrac>
+                    <mml:mo>=</mml:mo>
+                    <mml:mi>y</mml:mi>
                 </mml:mrow>
-            </mml:mfrac>
-            <mml:mo>&#x2260;</mml:mo>
-            <mml:mn>0</mml:mn>
-        </mml:math>
-        <graphic xlink:href="607975560007_gi30.png"/>
-    </alternatives>
-</inline-formula> se puede escribir como</p>
+            </mml:math>
+            <graphic xlink:href="607975560007_gi25.png"/>
+        </alternatives>
+    </inline-formula> con lo que se obtiene el sistema no lineal bidimensional</p>
 <p>
-<inline-formula>
-    <alternatives>
-        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-            <mml:mrow>
-                <mml:mfrac>
-                    <mml:mrow>
-                        <mml:mi>d</mml:mi>
-                        <mml:mi>x</mml:mi>
-                    </mml:mrow>
-                    <mml:mrow>
-                        <mml:mi>d</mml:mi>
-                        <mml:mi>t</mml:mi>
-                    </mml:mrow>
-                </mml:mfrac>
-                <mml:mo>=</mml:mo>
-                <mml:mi>y</mml:mi>
-            </mml:mrow>
-        </mml:math>
-        <graphic xlink:href="607975560007_gi31.png"/>
-    </alternatives>
-</inline-formula>
+    <inline-formula>
+        <alternatives>
+            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                <mml:mrow>
+                    <mml:mfrac>
+                        <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>x</mml:mi>
+                        </mml:mrow>
+                        <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                    </mml:mfrac>
+                    <mml:mo>=</mml:mo>
+                    <mml:mi>y</mml:mi>
+                </mml:mrow>
+            </mml:math>
+            <graphic xlink:href="607975560007_gi26.png"/>
+        </alternatives>
+    </inline-formula>
 </p>
 <p>
-<inline-formula>
-    <alternatives>
-        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-            <mml:mrow>
-                <mml:mfrac>
-                    <mml:mrow>
-                        <mml:mi>d</mml:mi>
-                        <mml:mi>y</mml:mi>
-                    </mml:mrow>
-                    <mml:mrow>
-                        <mml:mi>d</mml:mi>
-                        <mml:mi>t</mml:mi>
-                    </mml:mrow>
-                </mml:mfrac>
-                <mml:mo>=</mml:mo>
-                <mml:mo>-</mml:mo>
-                <mml:msup>
-                    <mml:mi>c</mml:mi>
-                    <mml:mn>2</mml:mn>
-                </mml:msup>
+    <inline-formula>
+        <alternatives>
+            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
                 <mml:mrow>
-                    <mml:mo form="prefix" fence="true">(</mml:mo>
+                    <mml:mfrac>
+                        <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>y</mml:mi>
+                        </mml:mrow>
+                        <mml:mrow>
+                            <mml:mi>d</mml:mi>
+                            <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                    </mml:mfrac>
+                    <mml:mo>=</mml:mo>
+                    <mml:mo>-</mml:mo>
+                    <mml:mfrac>
+                        <mml:mi>k</mml:mi>
+                        <mml:mi>m</mml:mi>
+                    </mml:mfrac>
                     <mml:mi>x</mml:mi>
-                    <mml:mo>+</mml:mo>
-                    <mml:mn>2</mml:mn>
-                    <mml:mi>b</mml:mi>
+                    <mml:mo>-</mml:mo>
+                    <mml:mfrac>
+                        <mml:mi>a</mml:mi>
+                        <mml:mi>m</mml:mi>
+                    </mml:mfrac>
                     <mml:msup>
                         <mml:mi>x</mml:mi>
                         <mml:mn>3</mml:mn>
                     </mml:msup>
-                    <mml:mo form="postfix" fence="true">)</mml:mo>
                 </mml:mrow>
-            </mml:mrow>
+            </mml:math>
+            <graphic xlink:href="607975560007_gi27.png"/>
+        </alternatives>
+    </inline-formula>
+</p>
+<p>en el cual, llamando <inline-formula>
+    <alternatives>
+        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+            <mml:msup>
+                <mml:mi>c</mml:mi>
+                <mml:mn>2</mml:mn>
+            </mml:msup>
+            <mml:mo>=</mml:mo>
+            <mml:mfrac>
+                <mml:mi>k</mml:mi>
+                <mml:mi>m</mml:mi>
+            </mml:mfrac>
         </mml:math>
-        <graphic xlink:href="607975560007_gi32.png"/>
+        <graphic xlink:href="607975560007_gi29.png"/>
     </alternatives>
+</inline-formula> y <inline-formula>
+<alternatives>
+    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+        <mml:mi>b</mml:mi>
+        <mml:mo>=</mml:mo>
+        <mml:mfrac>
+            <mml:mi>a</mml:mi>
+            <mml:mrow>
+                <mml:mn>2</mml:mn>
+                <mml:mi>k</mml:mi>
+            </mml:mrow>
+        </mml:mfrac>
+        <mml:mo>&#x2260;</mml:mo>
+        <mml:mn>0</mml:mn>
+    </mml:math>
+    <graphic xlink:href="607975560007_gi30.png"/>
+</alternatives>
+</inline-formula> se puede escribir como</p>
+<p>
+<inline-formula>
+<alternatives>
+    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+        <mml:mrow>
+            <mml:mfrac>
+                <mml:mrow>
+                    <mml:mi>d</mml:mi>
+                    <mml:mi>x</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                    <mml:mi>d</mml:mi>
+                    <mml:mi>t</mml:mi>
+                </mml:mrow>
+            </mml:mfrac>
+            <mml:mo>=</mml:mo>
+            <mml:mi>y</mml:mi>
+        </mml:mrow>
+    </mml:math>
+    <graphic xlink:href="607975560007_gi31.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>
+<inline-formula>
+<alternatives>
+    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+        <mml:mrow>
+            <mml:mfrac>
+                <mml:mrow>
+                    <mml:mi>d</mml:mi>
+                    <mml:mi>y</mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                    <mml:mi>d</mml:mi>
+                    <mml:mi>t</mml:mi>
+                </mml:mrow>
+            </mml:mfrac>
+            <mml:mo>=</mml:mo>
+            <mml:mo>-</mml:mo>
+            <mml:msup>
+                <mml:mi>c</mml:mi>
+                <mml:mn>2</mml:mn>
+            </mml:msup>
+            <mml:mrow>
+                <mml:mo form="prefix" fence="true">(</mml:mo>
+                <mml:mi>x</mml:mi>
+                <mml:mo>+</mml:mo>
+                <mml:mn>2</mml:mn>
+                <mml:mi>b</mml:mi>
+                <mml:msup>
+                    <mml:mi>x</mml:mi>
+                    <mml:mn>3</mml:mn>
+                </mml:msup>
+                <mml:mo form="postfix" fence="true">)</mml:mo>
+            </mml:mrow>
+        </mml:mrow>
+    </mml:math>
+    <graphic xlink:href="607975560007_gi32.png"/>
+</alternatives>
 </inline-formula>
 </p>
 <p>
 <bold>El resorte duro</bold>
 </p>
 <p>
-<xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón at el (2008)</xref> demuestran que, en el caso del resorte duro, el comportamiento de las trayectorias es independiente del valor de <italic>b</italic>, por ello para considerar este caso, consideramos los valores <inline-formula>
+<xref ref-type="bibr" rid="ref6">Cerón at el (2008)</xref> demuestran que, en el caso del resorte duro, el comportamiento de las trayectorias es independiente del valor de <italic>b</italic>, por ello para considerar este caso, consideramos los valores <inline-formula>
 <alternatives>
-    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-        <mml:msup>
-            <mml:mi>c</mml:mi>
-            <mml:mn>2</mml:mn>
-        </mml:msup>
-        <mml:mo>=</mml:mo>
-        <mml:mn>1</mml:mn>
-    </mml:math>
-    <graphic xlink:href="607975560007_gi33.png"/>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+    <mml:msup>
+        <mml:mi>c</mml:mi>
+        <mml:mn>2</mml:mn>
+    </mml:msup>
+    <mml:mo>=</mml:mo>
+    <mml:mn>1</mml:mn>
+</mml:math>
+<graphic xlink:href="607975560007_gi33.png"/>
 </alternatives>
 </inline-formula> y <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-    <mml:mi>b</mml:mi>
-    <mml:mo>=</mml:mo>
-    <mml:mn>2</mml:mn>
+<mml:mi>b</mml:mi>
+<mml:mo>=</mml:mo>
+<mml:mn>2</mml:mn>
 </mml:math>
 <graphic xlink:href="607975560007_gi34.png"/>
 </alternatives>
@@ -1680,7 +1682,7 @@
 <graphic xlink:href="607975560007_gf18.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-<p># Figura 7 library(deSolve) #Definimos las condiciones iniciales Cini = c(X=1, Y=0) # Definimos los tiempos en los cuales queremos construir la solución tiempos = seq(from=0, to=8, by=0.01) # Definimos los valores de los parámetros del modelo params = c(c=1, b=2) # Definimos la función que expresa nuestro sistema de ecuaciones hooke1= function(t,y,parms){ Salida = with(as.list(c(y,parms)),{ dX = Y dY = -c^2*(X+2*b*X^3) list(c(dX,dY)) }) return(Salida) } # Se llama la función ode para construir la solución Salida= ode(y = Cini, times = tiempos, func = hooke1, parms = params) # Se construye la gráfica de la solución plot(Salida,xlab="tiempo", col="red",type="l")</p>
+<p>#<xref ref-type="fig" rid="gf17">Figura 7</xref> library(deSolve) #Definimos las condiciones iniciales Cini = c(X=1, Y=0) # Definimos los tiempos en los cuales queremos construir la solución tiempos = seq(from=0, to=8, by=0.01) # Definimos los valores de los parámetros del modelo params = c(c=1, b=2) # Definimos la función que expresa nuestro sistema de ecuaciones hooke1= function(t,y,parms){ Salida = with(as.list(c(y,parms)),{ dX = Y dY = -c^2*(X+2*b*X^3) list(c(dX,dY)) }) return(Salida) } # Se llama la función ode para construir la solución Salida= ode(y = Cini, times = tiempos, func = hooke1, parms = params) # Se construye la gráfica de la solución plot(Salida,xlab="tiempo", col="red",type="l")</p>
 <p>Este proceso que proporciona la imagen que se muestra en la figura <xref ref-type="fig" rid="gf18">7</xref>
 </p>
 <fig id="gf18">
@@ -1700,8 +1702,8 @@ Figura 7
 <graphic xlink:href="607975560007_gf20.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-<p># Figura 8 par(mfrow=c(1,1)) # Posicion X contra t plot(Salida[,"time"],Salida[,"X"], ylim=c(-2, max(Salida[ ,"X"], 3)), type="l", col="red", lwd=2, xlab="Tiempo", ylab="", main="Un modelo que generaliza la ley de Hooke") grid() #  velocidad Y contra t lines(Salida[,"time"], Salida[,"Y"], type="l", col="blue", lwd=2) legend("topright", legend=c("Desplazamiento", "Velocidad"), col=c("red", "blue"), lwd=c(2,2), bg="snow1")</p>
-<p>Este proceso que genera la gráfica de la figura <xref ref-type="fig" rid="gf20">8</xref>, la cual sugiere que las soluciones de la ecuación diferencial tienen carácter periódico cómo se verifica teóricamente en <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref>.
+<p>#<xref ref-type="fig" rid="gf19">Figura 8</xref> par(mfrow=c(1,1)) # Posicion X contra t plot(Salida[,"time"],Salida[,"X"], ylim=c(-2, max(Salida[ ,"X"], 3)), type="l", col="red", lwd=2, xlab="Tiempo", ylab="", main="Un modelo que generaliza la ley de Hooke") grid() #  velocidad Y contra t lines(Salida[,"time"], Salida[,"Y"], type="l", col="blue", lwd=2) legend("topright", legend=c("Desplazamiento", "Velocidad"), col=c("red", "blue"), lwd=c(2,2), bg="snow1")</p>
+<p>Este proceso que genera la gráfica de la figura <xref ref-type="fig" rid="gf20">8</xref>, la cual sugiere que las soluciones de la ecuación diferencial tienen carácter periódico cómo se verifica teóricamente en <xref ref-type="bibr" rid="ref6">Cerón &amp; Guerrero, 2008</xref>.
 </p>
 <fig id="gf20">
 <label>
@@ -1716,7 +1718,7 @@ Figura 8
 </fig>
 <p>Una manera diferente de visualizar la dinámica de un sistema autónomo bidimensional, es utilizar el gráfico de las trayectorias en el plano fase, es decir, un gráfico del desplazamiento contra la velocidad, lo cual en R se puede obtener utilizando algunas de las funciones del paquete <bold>phaseR</bold>, ilustramos este hecho a continuación, para lo cual en primera instancia instalamos el correspondiente paquete y activamos sus librerías.</p>
 <p>install.package{"phaseR"} library(phaseR)</p>
-<p>En el caso del resorte duro se demuestra en <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref> que el sistema tiene un único punto de equilibrio en el punto (0,0) y que las trayectorias del sistema corresponden a órbitas cerradas para todo <italic>b&gt;0</italic>, consecuente con este hecho para el análisis de la ecuación seguimos considerando como valores de los parámetros <italic>c=1</italic> y <italic>b=2</italic>.
+<p>En el caso del resorte duro se demuestra en <xref ref-type="bibr" rid="ref6">Cerón &amp; Guerrero, 2008</xref> que el sistema tiene un único punto de equilibrio en el punto (0,0) y que las trayectorias del sistema corresponden a órbitas cerradas para todo <italic>b&gt;0</italic>, consecuente con este hecho para el análisis de la ecuación seguimos considerando como valores de los parámetros <italic>c=1</italic> y <italic>b=2</italic>.
 </p>
 <p>El siguiente código nos ilustra, de una manera diferente, el comportamiento del sistema en el plano fase, para el cual graficamos trayectorias con diferentes condiciones iniciales, las isoclinas nulas y el campo direccional.</p>
 <p>
@@ -1726,7 +1728,7 @@ Figura 8
 <attrib>Elaboración propia</attrib>
 </fig>
 </p>
-<p># Figura 9 library(phaseR) Hooke=function(t, y, param){ # Variables x =y[1] y =y[2] # Parámetros c =param[1] b =param[2] # Ecuaciones diferenciales dy =numeric(2) dy[1]=y dy[2]= -c^2*(x+2*b*x^3) list(dy)} # Campo vectorial Hooke.flowField= flowField(Hooke, xlim = c(-3, 5), ylim = c(-12, 12.5), param = c(1, 2), points =21 , add = FALSE) # Isoclinas nulas Hooke.nullclines = nullclines(Hooke, xlim = c(-5, 5), ylim = c(-12, 12.5), param = c(1, 2), points = 500) Cini = matrix(c(1, 2, 1.5, 2, 2.5, 2, 3,5), ncol = 2, nrow = 4, byrow = TRUE) # Curvas solución Hooke.trajectory = trajectory(Hooke, y0 = Cini, tlim= c(0,10), param = c(1, 2), col = rep("red", 4))</p>
+<p>#<xref ref-type="fig" rid="gf21">Figura 9</xref> library(phaseR) Hooke=function(t, y, param){ # Variables x =y[1] y =y[2] # Parámetros c =param[1] b =param[2] # Ecuaciones diferenciales dy =numeric(2) dy[1]=y dy[2]= -c^2*(x+2*b*x^3) list(dy)} # Campo vectorial Hooke.flowField= flowField(Hooke, xlim = c(-3, 5), ylim = c(-12, 12.5), param = c(1, 2), points =21 , add = FALSE) # Isoclinas nulas Hooke.nullclines = nullclines(Hooke, xlim = c(-5, 5), ylim = c(-12, 12.5), param = c(1, 2), points = 500) Cini = matrix(c(1, 2, 1.5, 2, 2.5, 2, 3,5), ncol = 2, nrow = 4, byrow = TRUE) # Curvas solución Hooke.trajectory = trajectory(Hooke, y0 = Cini, tlim= c(0,10), param = c(1, 2), col = rep("red", 4))</p>
 <p>En este proceso produce la gráfica que ilustra la figura <xref ref-type="fig" rid="gf22">9</xref> que verifica que para esta condición inicial y estos valores de los parámetros el sistema posee órbitas cerradas.</p>
 <fig id="gf22">
 <label>
@@ -1745,8 +1747,8 @@ Figura 9
 <graphic xlink:href="607975560007_gf24.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-<p># Figura 10 Hooke.num.sol= numericalSolution(Hooke, y0 = c(1, 2), tlim=c(0,10), type = "one", parameters = c(1, 2), col = c("red", "green"), ylab = "X, Y", ylim = c(-3, 3)) legend("topright",legend=c("X",  "Y"),col=c("red", "green"), lwd=c(2,2), bg="aliceblue")</p>
-<fig id="gf24">
+<p>#<xref ref-type="fig" rid="gf23">Figura 10</xref> Hooke.num.sol= numericalSolution(Hooke, y0 = c(1, 2), tlim=c(0,10), type = "one", parameters = c(1, 2), col = c("red", "green"), ylab = "X, Y", ylim = c(-3, 3)) legend("topright",legend=c("X",  "Y"),col=c("red", "green"), lwd=c(2,2), bg="aliceblue")</p>
+<fig>
 <label>
 Figura 10
 </label>
@@ -1759,7 +1761,7 @@ Figura 10
 </fig>
 <p>Para finalizar esta sección utilizamos la función <italic>stability</italic>, de este paquete, para determinar, la estabilidad del punto de equilibrio en el origen, lo que obtenemos con la siguiente línea.</p>
 <p>Hooke.estabilidad.d=stability(Hooke,ystar=c(0,0),parameters=c(1,2))</p>
-<p>R genera como respuesta la línea siguiente, que nos dice que el punto de equilibrio (0,0) corresponde a un centro como se verifica teóricamente en <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón &amp; Guerrero, 2008</xref>.
+<p>R genera como respuesta la línea siguiente, que nos dice que el punto de equilibrio (0,0) corresponde a un centro como se verifica teóricamente en <xref ref-type="bibr" rid="ref6">Cerón &amp; Guerrero, 2008</xref>.
 </p>
 <p>tr = 0, Delta = 1, discriminant = -4, classification = Centre</p>
 <p>
@@ -1769,8 +1771,16 @@ Figura 10
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mfenced>
-    <mml:mn>0</mml:mn>
-    <mml:mn>0</mml:mn>
+<mml:mtable>
+    <mml:mtr>
+        <mml:mtd>
+            <mml:mn>0</mml:mn>
+        </mml:mtd>
+        <mml:mtd>
+            <mml:mn>0</mml:mn>
+        </mml:mtd>
+    </mml:mtr>
+</mml:mtable>
 </mml:mfenced>
 </mml:math>
 <graphic xlink:href="607975560007_gi35.png"/>
@@ -1779,20 +1789,20 @@ Figura 10
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mrow>
-    <mml:mo form="prefix" fence="true">(</mml:mo>
-    <mml:mfrac>
-        <mml:mn>1</mml:mn>
-        <mml:msqrt>
-            <mml:mrow>
-                <mml:mo>-</mml:mo>
-                <mml:mn>2</mml:mn>
-                <mml:mi>b</mml:mi>
-            </mml:mrow>
-        </mml:msqrt>
-    </mml:mfrac>
-    <mml:mo separator="true">,</mml:mo>
-    <mml:mn>0</mml:mn>
-    <mml:mo form="postfix" fence="true">)</mml:mo>
+<mml:mo form="prefix" fence="true">(</mml:mo>
+<mml:mfrac>
+    <mml:mn>1</mml:mn>
+    <mml:msqrt>
+        <mml:mrow>
+            <mml:mo>-</mml:mo>
+            <mml:mn>2</mml:mn>
+            <mml:mi>b</mml:mi>
+        </mml:mrow>
+    </mml:msqrt>
+</mml:mfrac>
+<mml:mo separator="true">,</mml:mo>
+<mml:mn>0</mml:mn>
+<mml:mo form="postfix" fence="true">)</mml:mo>
 </mml:mrow>
 </mml:math>
 <graphic xlink:href="607975560007_gi36.png"/>
@@ -1803,13 +1813,13 @@ Figura 10
 <mml:mo form="prefix" fence="true">(</mml:mo>
 <mml:mfrac>
 <mml:mrow>
-    <mml:mo>&#x2212;</mml:mo>
-    <mml:mn>1</mml:mn>
+<mml:mo>&#x2212;</mml:mo>
+<mml:mn>1</mml:mn>
 </mml:mrow>
 <mml:msqrt>
-    <mml:mo>-</mml:mo>
-    <mml:mn>2</mml:mn>
-    <mml:mi>b</mml:mi>
+<mml:mo>-</mml:mo>
+<mml:mn>2</mml:mn>
+<mml:mi>b</mml:mi>
 </mml:msqrt>
 </mml:mfrac>
 <mml:mo separator="true">,</mml:mo>
@@ -1818,7 +1828,7 @@ Figura 10
 </mml:math>
 <graphic xlink:href="607975560007_gi37.png"/>
 </alternatives>
-</inline-formula> y puesto que en <xref ref-type="bibr" rid="redalyc_607975560007_ref6">Cerón at el (2008)</xref> se demuestra que el sistema posee órbitas cerradas en la región</p>
+</inline-formula> y puesto que en <xref ref-type="bibr" rid="ref6">Cerón at el (2008)</xref> se demuestra que el sistema posee órbitas cerradas en la región</p>
 <p>
 <inline-formula>
 <alternatives>
@@ -1827,32 +1837,32 @@ Figura 10
 <mml:mi>D</mml:mi>
 <mml:mo>=</mml:mo>
 <mml:mrow>
-    <mml:mo form="prefix" fence="true">{</mml:mo>
-    <mml:mo form="prefix" stretchy="false">(</mml:mo>
-    <mml:mi>x</mml:mi>
-    <mml:mo separator="true">,</mml:mo>
-    <mml:mi>y</mml:mi>
-    <mml:mo form="postfix" stretchy="false">)</mml:mo>
-    <mml:mo lspace="0.22em" rspace="0.22em" stretchy="false">|</mml:mo>
-    <mml:mi>|</mml:mi>
-    <mml:mi>x</mml:mi>
-    <mml:mi>|</mml:mi>
-    <mml:mo>&lt;</mml:mo>
-    <mml:mfrac>
-        <mml:mn>1</mml:mn>
-        <mml:msqrt>
-            <mml:mrow>
-                <mml:mo>-</mml:mo>
-                <mml:mn>2</mml:mn>
-                <mml:mi>b</mml:mi>
-            </mml:mrow>
-        </mml:msqrt>
-    </mml:mfrac>
-    <mml:mo separator="true">,</mml:mo>
-    <mml:mi>y</mml:mi>
-    <mml:mo>&#x2208;</mml:mo>
-    <mml:mi>&#x211D;</mml:mi>
-    <mml:mo form="postfix" fence="true">}</mml:mo>
+<mml:mo form="prefix" fence="true">{</mml:mo>
+<mml:mo form="prefix" stretchy="false">(</mml:mo>
+<mml:mi>x</mml:mi>
+<mml:mo separator="true">,</mml:mo>
+<mml:mi>y</mml:mi>
+<mml:mo form="postfix" stretchy="false">)</mml:mo>
+<mml:mo lspace="0.22em" rspace="0.22em" stretchy="false">|</mml:mo>
+<mml:mi>|</mml:mi>
+<mml:mi>x</mml:mi>
+<mml:mi>|</mml:mi>
+<mml:mo>&lt;</mml:mo>
+<mml:mfrac>
+    <mml:mn>1</mml:mn>
+    <mml:msqrt>
+        <mml:mrow>
+            <mml:mo>-</mml:mo>
+            <mml:mn>2</mml:mn>
+            <mml:mi>b</mml:mi>
+        </mml:mrow>
+    </mml:msqrt>
+</mml:mfrac>
+<mml:mo separator="true">,</mml:mo>
+<mml:mi>y</mml:mi>
+<mml:mo>&#x2208;</mml:mo>
+<mml:mi>&#x211D;</mml:mi>
+<mml:mo form="postfix" fence="true">}</mml:mo>
 </mml:mrow>
 </mml:mrow>
 </mml:math>
@@ -1866,7 +1876,7 @@ Figura 10
 <graphic xlink:href="607975560007_gf26.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-<p># Figura 11 library(deSolve) Hooke2 = function(t, x, parms) { Salida1=with(as.list(c(parms, x)),{ dX = Y dY = -c^2*(X+2*b*X^3) list(c(dX, dY)) }) return(Salida1)  } tiempos2 = seq(0, 20, 0.01) params = c(c = 1, b= -2) Cini2 =c(X = 0.3, Y= 0.2) # La función rk usa ode45 como un método por defecto Solucion= rk(y = Cini2, times = tiempos2, func = Hooke2, parms = params) plot(Solucion, xlab="tiempo",col="red",type="l")</p>
+<p>#<xref ref-type="fig" rid="gf25">Figura 11</xref> library(deSolve) Hooke2 = function(t, x, parms) { Salida1=with(as.list(c(parms, x)),{ dX = Y dY = -c^2*(X+2*b*X^3) list(c(dX, dY)) }) return(Salida1)  } tiempos2 = seq(0, 20, 0.01) params = c(c = 1, b= -2) Cini2 =c(X = 0.3, Y= 0.2) # La función rk usa ode45 como un método por defecto Solucion= rk(y = Cini2, times = tiempos2, func = Hooke2, parms = params) plot(Solucion, xlab="tiempo",col="red",type="l")</p>
 <p>Este código produce la gráfica que se ilustra en la figura <xref ref-type="fig" rid="gf26">11</xref>. Nótese que hemos utilizado como condición inicial el punto (0.3, 0.2) como valores de los parámetros <italic>c=1</italic> y <italic>b=-2</italic> y que esta gráfica sugiere la existencia en el sistema de trayectorias periódicas.</p>
 
 <fig id="gf26">
@@ -1896,7 +1906,7 @@ Figura 12
 
 <p>Si en el caso del resorte suave, utilizamos las funciones <italic>trajectory, flowField</italic> y <italic>nullclines</italic> para generar trayectorias con diversas condiciones iniciales, el campo vectorial y las isoclinas nulas, el código que genera la figura <xref ref-type="fig" rid="gf29">13</xref>, es el siguiente.</p>
 
-<fig id="gf28">
+<fig>
 <label>fig13</label>
 <graphic xlink:href="607975560007_gf29.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
@@ -1924,7 +1934,7 @@ Figura 13
 <graphic xlink:href="607975560007_gf31.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-<p># figura 14 par(mfrow=c(1,2)) Hooke.num.sol= numericalSolution(Hooke, y0 = c(0.3, 0.2), tlim=c(0,15),type = "one", parameters = c(1, -2), col = c("red", "green"), ylab = "X, Y", xlab = "tiempo", ylim = c(-0.5, 0.5)) legend("topright",legend=c("X", "Y"),col=c("red", "green"), lwd=c(2,2), bg="aliceblue")</p>
+<p>#<xref ref-type="fig" rid="gf30">figura 14</xref> par(mfrow=c(1,2)) Hooke.num.sol= numericalSolution(Hooke, y0 = c(0.3, 0.2), tlim=c(0,15),type = "one", parameters = c(1, -2), col = c("red", "green"), ylab = "X, Y", xlab = "tiempo", ylim = c(-0.5, 0.5)) legend("topright",legend=c("X", "Y"),col=c("red", "green"), lwd=c(2,2), bg="aliceblue")</p>
 <p>Hooke.num.sol= numericalSolution(Hooke, y0 = c(0.7, 0.5), tlim=c(0,1.5),type = "one", parameters = c(1, -2), col = c("red", "green"), ylab = "X, Y", xlab = "tiempo", ylim = c(0, 10)) legend("topright",legend=c("X", "Y"),col=c("red", "green"), lwd=c(2,2), bg="aliceblue")</p>
 
 <fig id="gf31">
@@ -1954,7 +1964,7 @@ Conclusiones
 
 <list list-type="bullet">
 <list-item>
-<p>El propósito central de este escrito ha sido el de ilustrar la manera de utilizar los paquetes de Solve y phaseR para tratar, desde el punto de vista numérico, problemas de valor inicial para ecuaciones diferenciales ordinarias. A lo largo del mismo, se ha hecho énfasis en este enfoque, sin embargo, no hemos comentado el uso de algunos detalles técnicos, tales como la ubicación de textos, la malla, el color y otros.Esperamos que un análisis de los correspondientes códigos le proporcione una idea de cómo incluirlos. En su defecto, puede consultar la bibliografía; por ejemplo, en <xref ref-type="bibr" rid="redalyc_607975560007_ref14">Wei (2006)</xref> se puede encontrar una lista completa de los colores, o en <xref ref-type="bibr" rid="redalyc_607975560007_ref7">Chang (2018)</xref> se ilustra la forma de utilizar muchos comandos y funciones de R para el manejo de gráficos.</p>
+<p>El propósito central de este escrito ha sido el de ilustrar la manera de utilizar los paquetes de Solve y phaseR para tratar, desde el punto de vista numérico, problemas de valor inicial para ecuaciones diferenciales ordinarias. A lo largo del mismo, se ha hecho énfasis en este enfoque, sin embargo, no hemos comentado el uso de algunos detalles técnicos, tales como la ubicación de textos, la malla, el color y otros.Esperamos que un análisis de los correspondientes códigos le proporcione una idea de cómo incluirlos. En su defecto, puede consultar la bibliografía; por ejemplo, en <xref ref-type="bibr" rid="ref14">Wei (2006)</xref> se puede encontrar una lista completa de los colores, o en <xref ref-type="bibr" rid="ref7">Chang (2018)</xref> se ilustra la forma de utilizar muchos comandos y funciones de R para el manejo de gráficos.</p>
 </list-item>
 <list-item>
 <p>Al revisar la lista de paquetes que muestra RStudio durante la instalación inicial de R, se observa que los paquetes deSolve, phaseR, scatterplot3d y ggplot2 no están incorporados. Por ello, si desea experimentar con el código de este documento o su propio código para resolver problemas de valor inicial, se sugiere en primera instancia instalarlos y activar sus correspondientes librerías.</p>
@@ -1976,7 +1986,7 @@ Conclusiones
 <back>
 <ref-list>
 <title>Referencias</title>
-<ref id="redalyc_607975560007_ref3">
+<ref id="ref3">
 <label>[1]</label>
 <mixed-citation>[1] Blanchard, P., Devaney, R., &amp; HallL, G. (1999). Ecuaciones Diferenciales. International Thomson Editores, S.A. de C.V.</mixed-citation>
 <element-citation publication-type="book">
@@ -1999,9 +2009,8 @@ Conclusiones
 <series>Ecuaciones Diferenciales</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref4">
-<label>[2]</label>
-<mixed-citation>[2] Bologna, E. (2020).Un recorrido por los métodos cuantitativos en Ciencias Sociales a bordo de R. Prueba de hipótesis: las aplicaciones. https://estadisticacienciassocialesr.rbind.io.</mixed-citation>
+<ref id="ref4">
+<mixed-citation>Bologna, E. (2020). Un recorrido por los métodos cuantitativos en Ciencias Sociales a bordo de R. Prueba de hipótesis: las aplicaciones. https://estadisticacienciassocialesr.rbind.io</mixed-citation>
 <element-citation publication-type="webpage">
 <person-group person-group-type="author">
 <name>
@@ -2009,14 +2018,16 @@ Conclusiones
 <given-names>E.</given-names>
 </name>
 </person-group>
-<source>https://estadisticacienciassocialesr.rbind.io.</source>
 <year>2020</year>
-<series>Un recorrido por los métodos cuantitativos en Ciencias Sociales a bordo de R. Prueba de hipótesis: las aplicaciones.</series>
+<source>Un recorrido por los métodos cuantitativos en Ciencias Sociales a bordo de R. Prueba de hipótesis: las aplicaciones</source>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://estadisticacienciassocialesr.rbind.io">https://estadisticacienciassocialesr.rbind.io</ext-link>
+</comment>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref5">
-<label>[3]</label>
-<mixed-citation>[3] Brauer, F., Van den Driessche, P., Wu, J., &amp; Allen, L. J. (2008). Mathematical epidemiology (Vol. 1945). Springer.</mixed-citation>
+
+<ref id="ref5">
+<mixed-citation>Brauer, F., Van den Driessche, P., Wu, J., &amp; Allen, L. J. (2008). Mathematical epidemiology (Vol. 1945). Springer.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2042,9 +2053,8 @@ Conclusiones
 <series>Mathematical epidemiology</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref6">
-<label>[4]</label>
-<mixed-citation>[4] Cerón, J. &amp; Guerrero, L. (2008). Análisis cualitativo de una generalización de la Ley de Hooke. [Trabajo de grado para optar el título de Licenciado en Matemáticas]. Universidad de Nariño</mixed-citation>
+<ref id="ref6">
+<mixed-citation>Cerón, J. &amp; Guerrero, L. (2008). Análisis cualitativo de una generalización de la Ley de Hooke [Trabajo de grado para optar el título de Licenciado en Matemáticas]. Universidad de Nariño.</mixed-citation>
 <element-citation publication-type="thesis">
 <person-group person-group-type="author">
 <name>
@@ -2056,14 +2066,12 @@ Conclusiones
 <given-names>L.</given-names>
 </name>
 </person-group>
-<article-title>Análisis cualitativo de una generalización de la Ley de Hooke</article-title>
-<source>Universidad de Nariño</source>
 <year>2008</year>
+<source>Análisis cualitativo de una generalización de la Ley de Hooke [Trabajo de grado para optar el título de Licenciado en Matemáticas]. Universidad de Nariño</source>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref7">
-<label>[5]</label>
-<mixed-citation>[5] Chang, W. (2018). R graphics cookbook practical recipes for visualizing data (2nd edition). https : / / r - graphics.org/index.html</mixed-citation>
+<ref id="ref7">
+<mixed-citation>Chang, W. (2018). R graphics cookbook: Practical recipes for visualizing data (2nd edition). https://r-graphics.org/index.html</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2071,14 +2079,15 @@ Conclusiones
 <given-names>W.</given-names>
 </name>
 </person-group>
-<source>https://r-graphics.org/index.html</source>
 <year>2018</year>
-<series>R graphics cookbook practical recipes for visualizing data (2nd edition)</series>
+<source>R graphics cookbook: Practical recipes for visualizing data (2nd edition)</source>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://r-graphics.org/index.html">https://r-graphics.org/index.html</ext-link>
+</comment>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref8">
-<label>[6]</label>
-<mixed-citation>[6] Grayling, M. (2022). Package phaseR: Phase Plane Analysis of One and Two Dimensional Autonomous. (inf.téc.). https://cran.r-project.org/web/packages/phaseR/phaseR.pdf</mixed-citation>
+<ref id="ref8">
+<mixed-citation>Grayling, M. (2022). Package phaseR: Phase Plane Analysis of One and Two Dimensional Autonomous. (inf. téc.). https://cran.r-project.org/web/packages/phaseR/phaseR.pdf</mixed-citation>
 <element-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -2086,17 +2095,15 @@ Conclusiones
 <given-names>M.</given-names>
 </name>
 </person-group>
-<source>CRAN</source>
 <year>2022</year>
+<series>Package phaseR: Phase Plane Analysis of One and Two Dimensional Autonomous. (inf. téc.)</series>
 <comment>
 <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/phaseR/phaseR.pdf">https://cran.r-project.org/web/packages/phaseR/phaseR.pdf</ext-link>
 </comment>
-<series>Package phaseR: Phase Plane Analysis of One and Two Dimensional Autonomous. (inf.téc.)</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref9">
-<label>[7]</label>
-<mixed-citation>[7] Mosquera, S. (1992). El sistema de Lorenz [Tesis de maestría]. Universidad del Valle.</mixed-citation>
+<ref id="ref9">
+<mixed-citation>Mosquera, S. (1992). El sistema de Lorenz [Tesis de maestría]. Universidad del Valle.</mixed-citation>
 <element-citation publication-type="thesis">
 <person-group person-group-type="author">
 <name>
@@ -2104,14 +2111,12 @@ Conclusiones
 <given-names>S.</given-names>
 </name>
 </person-group>
-<article-title>El sistema de Lorenz</article-title>
-<source>Universidad del Valle.</source>
 <year>1992</year>
+<source>El sistema de Lorenz [Tesis de maestría]. Universidad del Valle</source>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref10">
-<label>[8]</label>
-<mixed-citation>[8] Soetaert, K., Petzoldt, T., &amp; R.W., S. (2010). Solving Differential Equations en R: Package deSolve. Journal of Statistical Sotfware, 33(9). https://doi.org/10.18637/jss.v033.i09.</mixed-citation>
+<ref id="ref10">
+<mixed-citation>Soetaert, K., Petzoldt, T., &amp; R.W., S. (2010). Solving Differential Equations en R: Package deSolve. Journal of Statistical Sotfware, 33(9). https://doi.org/10.18637/jss.v033.i09.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2137,9 +2142,8 @@ Conclusiones
 </comment>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref11">
-<label>[9]</label>
-<mixed-citation>[9] Soetaert, K., Petzoldt, T., &amp; W., S. R. (2016). R package deSolve: Solving initial value differential equations in [Internet]. (inf. téc.). http://cran.r-project.org/web/packages/deSolve/vignettes/deSolve.pdf</mixed-citation>
+<ref id="ref11">
+<mixed-citation>Soetaert, K., Petzoldt, T., &amp; W., S. R. (2016). R package deSolve: Solving initial value differential equations in [Internet]. (inf. téc.). http://cran.r-project.org/web/packages/deSolve/vignettes/deSolve.pdf</mixed-citation>
 <element-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -2155,17 +2159,16 @@ Conclusiones
 <given-names>S. R.</given-names>
 </name>
 </person-group>
-<source>CRAN</source>
 <year>2016</year>
+<series>R package deSolve: Solving initial value differential equations in [Internet]. (inf. téc.)</series>
 <comment>
 <ext-link ext-link-type="uri" xlink:href="http://cran.r-project.org/web/packages/deSolve/vignettes/deSolve.pdf">http://cran.r-project.org/web/packages/deSolve/vignettes/deSolve.pdf</ext-link>
 </comment>
-<series>R package deSolve: Solving initial value differential equations in [Internet]. (inf. téc.)</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref12">
-<label>[10]</label>
-<mixed-citation>[10] Soetaert, W., K.and Setzer, &amp; Petzoldt, T. (s.f.). Package deSolve: Solvers for Initial Value Problems of Differential Equations. (inf. téc.). https://cran.r-project.org/web/packages/deSolve/deSolve.pdf</mixed-citation>
+
+<ref id="ref12">
+<mixed-citation>Soetaert, W., K. and Setzer, &amp; Petzoldt, T. (s.f.). Package deSolve: Solvers for Initial Value Problems of Differential Equations. (inf. téc.). https://cran.r-project.org/web/packages/deSolve/deSolve.pdf</mixed-citation>
 <element-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -2173,24 +2176,22 @@ Conclusiones
 <given-names>W.</given-names>
 </name>
 <name>
-<surname>T.</surname>
-<given-names>Petzoldt</given-names>
-</name>
-<name>
-<surname>and Setzer</surname>
+<surname>Setzer</surname>
 <given-names>K.</given-names>
 </name>
+<name>
+<surname>Petzoldt</surname>
+<given-names>T.</given-names>
+</name>
 </person-group>
-<source>CRAN</source>
+<series>Package deSolve: Solvers for Initial Value Problems of Differential Equations. (inf. téc.).</series>
 <comment>
 <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web/packages/deSolve/deSolve.pdf">https://cran.r-project.org/web/packages/deSolve/deSolve.pdf</ext-link>
 </comment>
-<series>Package deSolve: Solvers for Initial Value Problems of Differential Equations. (inf. téc.).</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref13">
-<label>[11]</label>
-<mixed-citation>[11] Sooraksa, P., &amp; Chen, G. (2018). Chen System as a Controlled Weather Model — Physical Principle, Engineering Design and Real Applications. International Journal of Bifurcation and Chaos.</mixed-citation>
+<ref id="ref13">
+<mixed-citation>Sooraksa, P., &amp; Chen, G. (2018). Chen System as a Controlled Weather Model — Physical Principle, Engineering Design and Real Applications. International Journal of Bifurcation and Chaos.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2207,9 +2208,8 @@ Conclusiones
 <year>2018</year>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref14">
-<label>[12]</label>
-<mixed-citation>[12] Wei, Y. (2006). Color in R. (inf. téc.). https://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf.</mixed-citation>
+<ref id="ref14">
+<mixed-citation>Wei, Y. (2006). Color in R. (inf. téc.). https://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf.</mixed-citation>
 <element-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -2217,15 +2217,14 @@ Conclusiones
 <given-names>Y.</given-names>
 </name>
 </person-group>
-<source>Stat.Columbia</source>
 <year>2006</year>
-<comment>https://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf.</comment>
-<series>Color in R. (inf. téc.).</series>
+<source>Color in R. (inf. téc.)</source>
+<comment>Disponible en: https://www.stat.columbia.edu/~tzheng/files/Rcolor.pdf</comment>
 </element-citation>
 </ref>
-<ref id="redalyc_607975560007_ref15">
-<label>[13]</label>
-<mixed-citation>[13] Zill, D. (2001). Ecuaciones diferenciales con aplicaciones de modelado. Thomson Learning.</mixed-citation>
+
+<ref id="ref15">
+<mixed-citation>Zill, D. (2001). Ecuaciones diferenciales con aplicaciones de modelado. Thomson Learning.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
