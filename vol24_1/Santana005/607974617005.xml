@@ -1,0 +1,1840 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml-dtd" href="http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1d3" specific-use="Marcalyc 1.2" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="redalyc">6079</journal-id>
+<journal-title-group>
+<journal-title specific-use="original" xml:lang="en">Revista Digital: Matemática, Educación e Internet</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1659-0643</issn>
+<publisher>
+<publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+<publisher-loc>
+<country>Costa Rica</country>
+<email>revistadigitalmatematica@itcr.ac.cr</email>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="art-access-id" specific-use="redalyc">607974617005</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículos</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title xml:lang="es">Principios matemáticos, nutricionales y didácticos del uso de ecuaciones 3 × 3 con Excel en la formulación de alimentos balanceados y de raciones para animales</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-3503-9162</contrib-id>
+<name name-style="western">
+<surname>Santana Pérez</surname>
+<given-names>Angel Arturo</given-names>
+</name>
+<xref ref-type="aff" rid="aff1"/>
+<email>santana@udg.co.cu</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-7563-5823</contrib-id>
+<name name-style="western">
+<surname>Zamora Regueiro</surname>
+<given-names>Carlos</given-names>
+</name>
+<xref ref-type="aff" rid="aff2"/>
+<email>czamorar@udg.co.cu</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-3940-1026</contrib-id>
+<name name-style="western">
+<surname>Aroche Ginarte</surname>
+<given-names>Roisbel</given-names>
+</name>
+<xref ref-type="aff" rid="aff3"/>
+<email>rarocheg@udg.co.cu</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4505-4438</contrib-id>
+<name name-style="western">
+<surname>Verdecia Acosta</surname>
+<given-names>Danis Manuel</given-names>
+</name>
+<xref ref-type="aff" rid="aff5"/>
+<email>dverdecia@udg.co.cu</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-0956-0245</contrib-id>
+<name name-style="western">
+<surname>Ramírez de la Ribera</surname>
+<given-names>Jorge Luis</given-names>
+</name>
+<xref ref-type="aff" rid="aff6"/>
+<email>jramirezrivera@udg.co.cu</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Universidad de Granma. Grama, Cuba. santana@udg.co.cu</institution>
+<institution content-type="orgname">Universidad de Granma. Grama</institution>
+<country country="CU">Cuba</country>
+</aff>
+<aff id="aff2">
+<institution content-type="original">Universidad de Granma. Grama, Cuba. czamorar@udg.co.cu</institution>
+<institution content-type="orgname">Universidad de Granma. Grama</institution>
+<country country="CU">Cuba</country>
+</aff>
+<aff id="aff3">
+<institution content-type="original">Universidad de Granma. Grama, Cuba. rarocheg@udg.co.cu</institution>
+<institution content-type="orgname">Universidad de Granma. Grama</institution>
+<country country="CU">Cuba</country>
+</aff>
+<aff id="aff5">
+<institution content-type="original">Universidad de Granma. Grama, Cuba. dverdecia@udg.co.cu</institution>
+<institution content-type="orgname">Universidad de Granma. Grama</institution>
+<country country="CU">Cuba</country>
+</aff>
+<aff id="aff6">
+<institution content-type="original">Universidad de Granma. Grama, Cuba. jramirezrivera@udg.co.cu</institution>
+<institution content-type="orgname">Universidad de Granma. Grama, Cuba</institution>
+<country country="CU">Cuba</country>
+</aff>
+<pub-date pub-type="epub-ppub">
+<season>Agosto-Febrero</season>
+<year>2023</year>
+</pub-date>
+<volume>24</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>15</lpage>
+<history>
+<date date-type="received" publication-format="dd mes yyyy">
+<day>18</day>
+<month>03</month>
+<year>2023</year>
+</date>
+<date date-type="accepted" publication-format="dd mes yyyy">
+<day>22</day>
+<month>05</month>
+<year>2023</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2023</copyright-year>
+<copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+<ali:free_to_read/>
+<license xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+<license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract xml:lang="es">
+<title>Resumen</title>
+<p>El empleo de diferentes métodos matemáticos en la formulación de raciones y de alimentos balanceados para animales exige el domino simultáneo de principios matemáticos, de nutrición animal y también de habilidades didácticas para su enseñanza en los instituciones donde se estudian carreras agropecuarias. El presente artículo tiene como objetivo mostrar cómo integrar tales pericias, específicamente en el uso de ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi2.png"/>
+</alternatives>
+</inline-formula> y motivar el uso del Excel para todos estos fines. Desde el punto de vista nutricional se describe cómo considerar las particularidades del valor nutritivo de cada alimento en el planteamiento de las ecuaciones iniciales para lograr los ajustes de las cantidades y/o proporciones de tres nutrientes aportados por ellos a los respectivos requerimientos nutricionales de los animales. Matemáticamente se muestran las posibilidades de estos sistemas de ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi3.png"/>
+</alternatives>
+</inline-formula> y del uso correcto de las unidades de medida para resolver problemas de formulación de dietas animales, cómo plantearlos e implementarlos en Excel por los profesionales vinculados a la alimentación de los animales. Didácticamente se hace un aporte importante pues se muestran dos ejemplos de problemas prácticos y reales para que sean usados en la enseñanza de los sistemas de ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi4.png"/>
+</alternatives>
+</inline-formula> en otros tipos de enseñanza también.</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>The use of different mathematical methods during the process of animal ration and concentrates formulation demands integral skills on animal nutrition, mathematics and didactical abilities during teaching of such methods at the institutions where agricultural careers are taught. This article aims to demonstrate how to integrate such capabilities, specifically on the use of <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi5.png"/>
+</alternatives>
+</inline-formula> equations and to motivate using Excel for that purpose. From the nutritional point of view, it is described how to consider the exactitudes on the nutritive value of each feed in <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi6.png"/>
+</alternatives>
+</inline-formula> system of equations in order to fit the amount and/or proportion of three nutrients to their animal requirements. It was also demonstrated the mathematical possibilities of<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi7.png"/>
+</alternatives>
+</inline-formula> system of equations to solve diet formulation for animals, how to formulate them with Excel by those dealing with animal feeding. Didactically, it was noticeable that two examples of real and practical problems for teaching <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi8.png"/>
+</alternatives>
+</inline-formula> systems of equations were given.</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>sistemas de ecuaciones 3x3</kwd>
+<kwd>matrices</kwd>
+<kwd>alimentación animal</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>3x3 system of equations</kwd>
+<kwd>matrix</kwd>
+<kwd>animal feeding</kwd>
+</kwd-group>
+<counts>
+<fig-count count="6"/>
+<table-count count="8"/>
+<equation-count count="4"/>
+<ref-count count="20"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>
+<bold>Introducción</bold>
+</title>
+<p>Tanto en el proceso de enseñanza de las carreras agropecuarias (ej. zootecnia, agronomía, medicina veterinaria) como en la producción animal como tal se hace el mayor énfasis en la formulación de raciones precisas pues alimentación de los animales que representa, por mucho, la mayor proporción de los costos totales de su producción y porque el camino hacia una producción más competitiva es selectivo y obliga cada día más a las explotaciones a afinar el aspecto alimentario (Heard et al. 2004). La máxima precisión en esta actividad es lograda cuando se brindan a los animales los alimentos que aporten las cantidades y/o proporciones exactas de nutrientes por ellos requeridas diariamente; lo que constituye la esencia de la formulación.</p>
+<p>En los documentos relacionados con la temática se describen mayoritariamente tres métodos matemáticos de formulación de raciones y de mezclas de alimentos: el tanteo o “prueba y error”, el Cuadrado de Pearson, que es un recurso didáctico para usar ecuaciones dobles (Santana et al. 2015) y el sistema de ecuaciones dobles como tal (Trujillo-Figueroa, 1987; Church, 1991; Ensminger et al., 1991; Gupta y Chandan, 2013; Nasseri y Darvishi, 2016).</p>
+<p>La aplicación de la matemática es una herramienta poderosa con la cual se puede contextualizar mejor los modelos económico-nutricionales. Sin embargo, debe ser usada en un contexto biológico por lo que es necesario poseer sólidos conocimientos de la nutrición animal para tomar acertadas decisiones (Nabasirye et al. 2011) y poder convertir oportunamente un problema nutricional en un problema matemático.</p>
+<p>En la actualidad quien posea una computadora con cualquier versión de Microsoft Office dispone de Excel y si tiene responsabilidades prácticas o en la enseñanza de la formulación de raciones y de alimentos balanceados para los animales se puede servir de este para ajustar las necesidades de los animales en tres nutrientes con tres alimentos; todo ello sin costo adicional en la adquisición de los caros software especializados, con los datos de sus propios alimentos y animales y ajustados al problema práctico específico que posee.</p>
+<p>La creación de sólidas bases matemáticas para resolver estos tipos de problemas en las entidades educativas universitarias y de niveles medios (ej. donde se estudien carreras de perfil agropecuario) depende de la eficiencia de la didáctica en el planteamiento y soluciones a ecuaciones lineales mediante problemas prácticos de la vida real, que permitan plantear y resolver los problemas presentados, transformándolos en ecuaciones y afianzando sus competencias asertivamente, según concluye Cedeño-Loor (2017). También Flotts et al. (2016) han referido deficiencias como la insuficiente capacidad para aplicar los conocimientos matemáticos a situaciones reales.</p>
+<p>Por todo el anterior análisis, en el presente artículo se tiene como objetivo mostrar cómo integrar aspectos básicos de nutrición animal, de matemática y de didáctica en el uso de ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi9.png"/>
+</alternatives>
+</inline-formula> en la formulación de raciones y alimentos balanceados para animales y así motivar el uso del Excel. Para este fin se destacan los puntos débiles y fuertes, los cuidados, alcance matemático e implicaciones nutricionales del empleo de dichas ecuaciones para ajustar simultáneamente tres nutrientes con tres alimentos por la regla de Cramer, y que, al mismo tiempo sirva de ejemplo práctico y motivacional para la enseñanza de ecuaciones de tres incógnitas en los niveles previos de educación.</p>
+</sec>
+<sec>
+<title>
+<bold>Antecedentes y supuestos</bold>
+</title>
+<p>El uso de ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>2</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>2</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi10.png"/>
+</alternatives>
+</inline-formula> en la formulación de alimentos balanceados y de raciones para los animales ha sido ampliamente descrito en la literatura especializada (Trujillo-Figueroa, 1987; Church 1991; Ensminger et al. 1991; Gupta y Chandan 2013; Santana et al. 2015; Nasseri y Darvishi 2016) y permite ajustar dos nutrientes de los varios que necesita un animal, con dos alimentos, de los muchos que se pueden emplear en una ración. Por tanto usar sistemas que permitan hacer lo mismo pero con tres ecuaciones es un paso de avance importante en la precisión de las fórmulas.</p>
+<p>Los autores del presente artículo proponen que para formular una mezcla de alimentos y/o una ración para animales mediante el planteamiento y solución de sistema <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi12.png"/>
+</alternatives>
+</inline-formula>, se basa en los siguientes requisitos estratégicos y necesarios, de los cuales no existen referencias previas:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Primero: Se debe disponer de tres alimentos que no posean limitantes nutricionales para los animales, porque las proporciones y/o cantidades resultantes son números reales y serán obtenidas única y exactamente por criterios matemáticos</p>
+</list-item>
+<list-item>
+<p>Segundo: Si se desean usar otros alimentos adicionales que posean limitantes nutricionales, se deben establecer sus niveles de inclusión previamente y completar con los tres deseados las proporciones y/o cantidades de nutrientes que no aportan los primeros a las necesidades de los animales.</p>
+</list-item>
+<list-item>
+<p>Tercero: Unos de los tres alimentos seleccionados para plantear las ecuaciones deben poseer concentraciones de nutrientes superiores y otros dos inferiores a las deseadas, o dos superiores y uno por debajo de lo deseado.</p>
+</list-item>
+<list-item>
+<p>Cuarto: En la formulación de mezclas (balanceados), como la sumatoria de las proporciones de los alimentos a usar obligatoriamente tiene que ser necesariamente 100%, entonces se ajustaran dos nutrientes únicamente, más la citada sumatoria.</p>
+</list-item>
+<list-item>
+<p>Quinto: En la formulación de raciones, como la sumatoria de las cantidades de alimentos (o de materia seca, MS) no tiene que ser necesariamente una cantidad exacta, es posible ajustar tres nutrientes o dos nutrientes y la MS.</p>
+</list-item>
+</list>
+</p>
+<p>Desde el punto de vista matemático, es indudable que el método de las ecuaciones triples es más difícil que otros métodos manuales (Prueba y error, Pearson, ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>2</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>2</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi13.png"/>
+</alternatives>
+</inline-formula>, pues requiere dominio del trabajo con las ecuaciones y cierto grado de abstracción para plantearlas; sin embargo, luego de alguna práctica es posible aplicarlo con rapidez cuando no se posee una microcomputadora; pero teniéndola y el Office instalado, es fácil y rápido encontrar la solución con Excel pues el comando “MDETERM” calcula el determinante de una matriz definida. La resolución manual de los determinantes de matrices se puede ampliar consultando a Varela, Suárez, Castro y Baldoquín (1986) Garth (2002) y Kolman (2006), entre otros muchos textos básicos del tema.</p>
+</sec>
+<sec>
+<title>
+<bold>Diseño de la Investigación</bold>
+</title>
+<p>Como método empírico, se realizó un análisis documental para el estudio de la bibliografía especializada sobre el tema, principalmente mediante búsquedas en la Internet y empleando el módulo de “Advanced Search de Google” teniendo como criterio de búsqueda las palabras claves mencionadas (Sistemas de ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi14.png"/>
+</alternatives>
+</inline-formula>, matrices, alimentación animal) y los principales vocablos técnicos relacionados con la formulación de balanceados y raciones para los animales (formulación, raciones, nutrientes, métodos, requerimientos nutritivos, alimentos) así como con el uso y enseñanza de los sistemas de ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi15.png"/>
+</alternatives>
+</inline-formula> (didáctica, matemática, enseñanza, conocimiento, competencias).</p>
+<p>Para evaluar la propuesta diseñada también se entrevistaron a 17 colegas de centros universitarios de Cuba (departamentos agropecuarios y de ciencias básicas de la Universidad de Granma, Universidad de Guantánamo, Universidad de Camagüey), a 16 ingenieros zootecnistas y/o médicos veterinarios vinculados a la producción animal de la Provincia Granma, a cinco profesores de centros politécnicos de nivel medio y también a 11 criadores de animales que poseen nivel superior (ingenieros o médicos veterinarios), con los cuales se realizaron entrevistas no estructuradas e interrogaron sobre las posibles ventajas y desventajas de la metodología de ajuste de las raciones y de alimentos balanceados con empleo de ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi16.png"/>
+</alternatives>
+</inline-formula>. Se tuvo siempre presente la recomendaciones, cuidados y principios para aplicar esta herramienta de investigación cualitativa (Denzin y Lincoln, 2005 y Vargas, 2012); así, los criterios de inclusión de los informantes fueron por su nivel de formación académica y por poseer vínculos directos con los aspectos centrales de la propuesta, es decir lo nutricional, lo matemático y lo didáctico.</p>
+</sec>
+<sec>
+<title>
+<bold>Ejemplos prácticos</bold>
+</title>
+<sec>
+<title>
+<bold>Primer ejemplo: Formulación de mezclas de alimento</bold>
+</title>
+<p>Se desea formular un balanceado para cerdos en crecimiento (30-50 kg de peso) con los cinco alimentos y requerimientos de la Tabla <xref ref-type="table" rid="gt1">1</xref>.</p>
+<p>
+<table-wrap id="gt1">
+<label>Tabla 1</label>
+<caption>
+<title>
+<bold>Tabla 1</bold>
+</title>
+</caption>
+<alt-text>Tabla 1 Tabla 1</alt-text>
+<alternatives>
+<graphic xlink:href="607974617005_gt2.png" position="anchor" orientation="portrait"/>
+<table id="gt2-526564616c7963">
+<tbody>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">MS</td>
+<td style="text-align: center;">PB</td>
+<td style="text-align: center;">PB</td>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">(Mcal/kg)<sup>1</sup>
+</td>
+<td style="text-align: center;">%Máx.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Harina de Pescado</td>
+<td style="text-align: center;">91,63</td>
+<td style="text-align: center;">61,1</td>
+<td style="text-align: center;">2,845</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr>
+<td style="text-align: center;">Harina de Yuca</td>
+<td style="text-align: center;">87,67</td>
+<td style="text-align: center;">2,47</td>
+<td style="text-align: center;">3,02</td>
+<td style="text-align: center;">30</td>
+</tr>
+<tr>
+<td style="text-align: center;">Polvo de Arroz</td>
+<td style="text-align: center;">89,03</td>
+<td style="text-align: center;">13,24</td>
+<td style="text-align: center;">3,111</td>
+<td style="text-align: center;">40</td>
+</tr>
+<tr>
+<td style="text-align: center;">Maíz</td>
+<td style="text-align: center;">87,11</td>
+<td style="text-align: center;">8,26</td>
+<td style="text-align: center;">3,34</td>
+<td style="text-align: center;">65</td>
+</tr>
+<tr>
+<td style="text-align: center;">Soya</td>
+<td style="text-align: center;">88,59</td>
+<td style="text-align: center;">45,3</td>
+<td style="text-align: center;">3,154</td>
+<td style="text-align: center;">25</td>
+</tr>
+<tr>
+<td style="text-align: center;">Requerimientos</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">15,8</td>
+<td style="text-align: center;">3,23</td>
+<td style="text-align: center;"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Rostagno et al. 2005</attrib>
+<table-wrap-foot>
+<fn-group>
+<fn id="fn1" fn-type="other">
+<label>1</label>
+<p>Se usara la EM expresada en Mcal/kg porque así aparece en las tablas de referencia</p>
+</fn>
+</fn-group>
+</table-wrap-foot>
+</table-wrap>
+</p>
+<p>Se recomienda la realización de los siguientes pasos (los cuatro primeros se resumen en la Tabla <xref ref-type="table" rid="gt2">2</xref>):</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>Establecer las proporciones de los dos alimentos con limitantes nutricionales (Harina de pescado, 0, 05 y Harina de yuca, 0, 15) y calcular sus aportes parciales a la mezcla, multiplicando estas proporciones por su respectivo contenido de MS, proteína bruta (P B) y energía metabolizable (EM) de la Tabla 1. Nótese que se van a usar cinco ingredientes, por tanto se ha de establecer la inclusión de dos y dejar tres (Maíz, MA; Polvo de Arroz, P A; y Soya, SO) para completar los nutrientes mediante el uso de las ecuaciones. Esta proporción puede ser en porcentaje o en base a 1, pero para facilitar los cálculos se hará en base a 1 y luego se expresará en porcentaje que es como se expresa la fórmula final.</p>
+</list-item>
+<list-item>
+<p>Calcular los aportes nutritivos parciales (subtotal) de estos dos ingredientes de la mezcla.</p>
+</list-item>
+<list-item>
+<p>Comparar con los requerimientos nutricionales.</p>
+</list-item>
+<list-item>
+<p>Calcular la diferencia, que serían los aportes nutricionales a obtener con los otros tres alimentos (Maíz, MA; Polvo de Arroz, PA; y Soya, SO).</p>
+</list-item>
+<list-item>
+<p>Ajustar la diferencia con los tres alimentos restantes.</p>
+</list-item>
+<list-item>
+<p>Realizar el balance final.</p>
+</list-item>
+</list>
+</p>
+<p>
+<table-wrap id="gt2">
+<label>Tabla 2</label>
+<caption>
+<title>
+<bold>Tabla 2</bold>
+</title>
+</caption>
+<alt-text>Tabla 2 Tabla 2</alt-text>
+<alternatives>
+<graphic xlink:href="607974617005_gt3.png" position="anchor" orientation="portrait"/>
+<table id="gt3-526564616c7963">
+<tbody>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;">
+<italic>Fórmula</italic>
+</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">MS</td>
+<td style="text-align: center;">PB</td>
+<td style="text-align: center;">EM</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pasos</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">Proporción</td>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">Mcal/kg</td>
+</tr>
+<tr>
+<td style="text-align: center;" rowspan="2">1</td>
+<td style="text-align: center;">H. Pescado</td>
+<td style="text-align: center;">5,00</td>
+<td style="text-align: center;">0,050</td>
+<td style="text-align: center;">4,582</td>
+<td style="text-align: center;">3,055</td>
+<td style="text-align: center;">0,142</td>
+</tr>
+<tr>
+<td style="text-align: center;">H. Yuca</td>
+<td style="text-align: center;">15,00</td>
+<td style="text-align: center;">0,150</td>
+<td style="text-align: center;">13,151</td>
+<td style="text-align: center;">0,371</td>
+<td style="text-align: center;">0,453</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Subtotal</td>
+<td style="text-align: center;">20,00</td>
+<td style="text-align: center;">0,200</td>
+<td style="text-align: center;">17,732</td>
+<td style="text-align: center;">3,426</td>
+<td style="text-align: center;">0,595</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Requerimiento</td>
+<td style="text-align: center;">100,0</td>
+<td style="text-align: center;">1,000</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">15,800</td>
+<td style="text-align: center;">3,230</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Diferencia</td>
+<td style="text-align: center;">80,00</td>
+<td style="text-align: center;">0,800</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">12,375</td>
+<td style="text-align: center;">2,635</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>El paso 5 consiste en resolver el sistema de ecuaciones para ajustar las partes restantes (diferencia, de la Tabla <xref ref-type="table" rid="gt2">2</xref>) de la proporción de ingredientes 0,80 o 80%, la PB (12,375 unidades porcentuales) y la EM (2,635 Mcal/0,80 kg) con los tres alimentos (variables) y sus respectivas concentraciones de nutrientes, que serán los coeficientes de las variables. Se plantea entonces:</p>
+<p>
+<disp-formula id="e2">
+<label/>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">     <mml:mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0em 2em 0em 2em 0em 2em 0em 2em 0em 2em 0em">         <mml:mtr>             <mml:mtd>             </mml:mtd>             <mml:mtd>                 <mml:mtext>Para la</mml:mtext>                 <mml:mi>P</mml:mi>                 <mml:mi>B</mml:mi>             </mml:mtd>         </mml:mtr>         <mml:mtr>             <mml:mtd>             </mml:mtd>             <mml:mtd>                 <mml:mtext>Para la</mml:mtext>                 <mml:mi>E</mml:mi>                 <mml:mi>M</mml:mi>             </mml:mtd>         </mml:mtr>         <mml:mtr>             <mml:mtd>             </mml:mtd>             <mml:mtd>                 <mml:mtext>Para la proporcion</mml:mtext>             </mml:mtd>         </mml:mtr>     </mml:mtable>     <mml:mrow>         <mml:mo>{</mml:mo>         <mml:mtable columnalign="center center center" rowspacing="4pt" columnspacing="1em">             <mml:mtr>                 <mml:mtd>                     <mml:mn>13</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>24</mml:mn>                     <mml:mi>P</mml:mi>                     <mml:mi>A</mml:mi>                     <mml:mo>+</mml:mo>                     <mml:mn>8</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>26</mml:mn>                     <mml:mi>M</mml:mi>                     <mml:mi>A</mml:mi>                     <mml:mo>+</mml:mo>                     <mml:mn>45</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>32</mml:mn>                     <mml:mi>S</mml:mi>                     <mml:mi>O</mml:mi>                 </mml:mtd>                 <mml:mtd>                     <mml:mo>=</mml:mo>                     <mml:mn>12</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>375</mml:mn>                 </mml:mtd>             </mml:mtr>             <mml:mtr>                 <mml:mtd>                     <mml:mn>3</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>111</mml:mn>                     <mml:mi>P</mml:mi>                     <mml:mi>A</mml:mi>                     <mml:mo>+</mml:mo>                     <mml:mn>3</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>34</mml:mn>                     <mml:mi>M</mml:mi>                     <mml:mi>A</mml:mi>                     <mml:mo>+</mml:mo>                     <mml:mn>3</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>154</mml:mn>                     <mml:mi>S</mml:mi>                     <mml:mi>O</mml:mi>                 </mml:mtd>                 <mml:mtd>                     <mml:mo>=</mml:mo>                     <mml:mn>2</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>635</mml:mn>                 </mml:mtd>             </mml:mtr>             <mml:mtr>                 <mml:mtd>                     <mml:mi>P</mml:mi>                     <mml:mi>A</mml:mi>                     <mml:mo>+</mml:mo>                     <mml:mi>M</mml:mi>                     <mml:mi>A</mml:mi>                     <mml:mo>+</mml:mo>                     <mml:mi>S</mml:mi>                     <mml:mi>O</mml:mi>                 </mml:mtd>                 <mml:mtd>                     <mml:mo>=</mml:mo>                     <mml:mn>0</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>800</mml:mn>                 </mml:mtd>             </mml:mtr>         </mml:mtable>         <mml:mo fence="true" stretchy="true"></mml:mo>     </mml:mrow> </mml:math>
+<graphic xlink:href="607974617005_ee3.png"/>
+</alternatives>
+</disp-formula>
+</p>
+<p>En este momento es importante saber que quien está realizando esta operación con Excel gana mucho tiempo porque las matrices que se planteen se resuelven rápidamente, pero para quien lo hace manualmente es necesario hacer una apreciación preliminar de si es posible que tenga solución o no el sistema de ecuaciones propuesto. Para ello, una guía inicial es transformar la diferencia que se debe ajustar a la misma unidad de medida en que se encuentra cada uno de los nutrientes (PB y EM) en la Tabla <xref ref-type="table" rid="gt1">1</xref> de la composición de los alimentos, pues restan 12,375 unidades porcentuales de PB en 80 partes de la mezcla, no en 100 y este nutriente se expresa en porcentaje (%). De igual manera restan 2,63 Mcal en 0,8 partes, no en 1 y la EM se expresa en Mcal/kg. Por tanto se necesita saber 12,375 en 80, cuánto significa en 100 (o sea en %) y se resuelve 12,375x100/80 o lo que es lo mismo 12,375/0,80 y se obtiene que esa diferencia es similar a 15,468% de PB. Igual se procede para la EM, 2,63/0,80 es 3,293 Mcal/kg.</p>
+<p>Este paso intermedio es necesario porque, como se había planteado anteriormente, tiene solución positiva el sistema de ecuaciones si “Unos de los tres alimentos seleccionados para plantear las ecuaciones deben poseer concentraciones de nutrientes superiores y otros inferiores a las deseadas”. El principio de esta condición es el mismo que se demuestra en el uso del Cuadro de Pearson o de las análogas ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>2</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>2</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi17.png"/>
+</alternatives>
+</inline-formula> (Santana et al. 2015).</p>
+<p>Efectivamente, si se compara la composición de los alimentos con la diferencia, ahora expresada en concentración 15,468% de PB y 3,293 Mcal/kg de EM) dos de los tres alimentos poseen o bien superior o inferior a la diferencia, su concentración de estos dos nutrientes. Si los tres tuvieran una concentración superior o inferior a la diferencia, entonces matemáticamente podría existir solución, pero nutricionalmente no, porque una de las variables resultaría negativa al final de los cálculos y la cantidad o proporción de un alimento es un número real que no toma nunca valores negativos.</p>
+<p>La base matemática de esta condición “a punta de dedo” de que uno de los dos alimentos debe poseer una concentración del nutriente a ajustar por encima de la necesidad y los otros dos por debajo, o a la inversa uno por debajo y dos por encima se debe a que para obtener una solución donde las tres variables resulten ser positivas la misma debe estar ubicada en el primer octante de un sistema con tres variables <italic>X, Y, Z</italic> cuyos valores (que serán las proporciones de los tres alimentos) al ser multiplicados por sus respectivos coeficientes y sumados resulten en la necesidad de los tres nutrientes a ajustar.</p>
+<p>El término “a punta de dedo” se brinda porque no es absolutamente cierto que siempre que se cumpla esta condición las variables van a ser positivas pues por ejemplo en el presente ejemplo si hubiera que ajustar 15,468% de PB con dos alimentos con 45% y 30% de PB y el otro 13,24%; ya una variable resulta ser negativa. Porque 13,24% está cercano al 15 necesario y los otros dos están muy por encima de este último.</p>
+<p>Con este paso suponemos que el sistema de matrices tiene solución con números positivos. Se procede a calcular el determinante (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi18.png"/>
+</alternatives>
+</inline-formula>) de la matriz General (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi20.png"/>
+</alternatives>
+</inline-formula>), con los coeficientes iniciales de las variables del sistema de ecuaciones  planteado. Tal y como se muestra a continuación.</p>
+<p>
+<disp-formula id="e3">
+<label/>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">     <mml:mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0em 2em 0em 2em 0em 2em 0em 2em 0em 2em 0em">         <mml:mtr>             <mml:mtd>             </mml:mtd>             <mml:mtd>                 <mml:mi mathvariant="normal">&#x394;</mml:mi>                 <mml:mi>G</mml:mi>                 <mml:mo>=</mml:mo>                 <mml:mrow>                     <mml:mo>|</mml:mo>                     <mml:mtable columnalign="center center center" rowspacing="4pt" columnspacing="1em">                         <mml:mtr>                             <mml:mtd>                                 <mml:mn>13</mml:mn>                                 <mml:mo>,</mml:mo>                                 <mml:mn>24</mml:mn>                             </mml:mtd>                             <mml:mtd>                                 <mml:mn>8</mml:mn>                                 <mml:mo>,</mml:mo>                                 <mml:mn>26</mml:mn>                             </mml:mtd>                             <mml:mtd>                                 <mml:mn>45</mml:mn>                                 <mml:mo>,</mml:mo>                                 <mml:mn>32</mml:mn>                             </mml:mtd>                         </mml:mtr>                         <mml:mtr>                             <mml:mtd>                                 <mml:mn>3</mml:mn>                                 <mml:mo>,</mml:mo>                                 <mml:mn>111</mml:mn>                             </mml:mtd>                             <mml:mtd>                                 <mml:mn>3</mml:mn>                                 <mml:mo>,</mml:mo>                                 <mml:mn>34</mml:mn>                             </mml:mtd>                             <mml:mtd>                                 <mml:mn>3</mml:mn>                                 <mml:mo>,</mml:mo>                                 <mml:mn>154</mml:mn>                             </mml:mtd>                         </mml:mtr>                         <mml:mtr>                             <mml:mtd>                                 <mml:mn>1</mml:mn>                             </mml:mtd>                             <mml:mtd>                                 <mml:mn>1</mml:mn>                             </mml:mtd>                             <mml:mtd>                                 <mml:mn>1</mml:mn>                             </mml:mtd>                         </mml:mtr>                     </mml:mtable>                     <mml:mo>|</mml:mo>                 </mml:mrow>             </mml:mtd>         </mml:mtr>         <mml:mtr>             <mml:mtd>             </mml:mtd>             <mml:mtd>                 <mml:mi></mml:mi>                 <mml:mo>=</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>13</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>24</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>34</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>                 <mml:mo>+</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>45</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>32</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>111</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>                 <mml:mo>+</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>8</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>26</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>154</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>                 <mml:mo>&#x2212;</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>45</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>32</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>34</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>             </mml:mtd>         </mml:mtr>         <mml:mtr>             <mml:mtd>             </mml:mtd>             <mml:mtd>                 <mml:mstyle scriptlevel="0">                     <mml:mspace width="1em"></mml:mspace>                 </mml:mstyle>                 <mml:mo>&#x2212;</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>111</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>8</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>26</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>                 <mml:mo>&#x2212;</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>13</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>24</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>154</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>             </mml:mtd>         </mml:mtr>         <mml:mtr>             <mml:mtd>             </mml:mtd>             <mml:mtd>                 <mml:mi></mml:mi>                 <mml:mo>=</mml:mo>                 <mml:mo>&#x2212;</mml:mo>                 <mml:mn>7</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>560</mml:mn>             </mml:mtd>         </mml:mtr>     </mml:mtable> </mml:math>
+<graphic xlink:href="607974617005_ee4.png"/>
+</alternatives>
+</disp-formula>
+</p>
+<p>Aquí es importante recordar la manera en que se resuelven estas matrices por la Regla de Sarrus para el determinante de orden 3, o regla para obtener los productos positivos y los productos negativos. Como se muestra a continuación:</p>
+<p>
+<fig id="gf5">
+<graphic xlink:href="607974617005_gf4.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<disp-formula id="e4">
+<label/>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">     <mml:mtable rowspacing="3pt" columnspacing="1em">         <mml:mtr>             <mml:mtd>                 <mml:mi mathvariant="normal">&#x394;</mml:mi>                 <mml:mi>G</mml:mi>                 <mml:mo>=</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>13</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>24</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>34</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>                 <mml:mo>+</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>45</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>32</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>111</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>                 <mml:mo>+</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>8</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>26</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>154</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>             </mml:mtd>         </mml:mtr>         <mml:mtr>             <mml:mtd>                 <mml:mo>&#x2212;</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>45</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>32</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>34</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>                 <mml:mo>&#x2212;</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>111</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>8</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>26</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>                 <mml:mo>&#x2212;</mml:mo>                 <mml:mo stretchy="false">(</mml:mo>                 <mml:mn>13</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>24</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>3</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>154</mml:mn>                 <mml:mo>&#xD7;</mml:mo>                 <mml:mn>1</mml:mn>                 <mml:mo stretchy="false">)</mml:mo>                 <mml:mo>=</mml:mo>                 <mml:mo>&#x2212;</mml:mo>                 <mml:mn>7</mml:mn>                 <mml:mo>,</mml:mo>                 <mml:mn>560</mml:mn>             </mml:mtd>         </mml:mtr>     </mml:mtable> </mml:math>
+<graphic xlink:href="607974617005_ee5.png"/>
+</alternatives>
+</disp-formula>
+</p>
+<p>De la misma manera se procede a calcular los determinantes de las matrices que permiten calcular los valores específicos de <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi23.png"/>
+</alternatives>
+</inline-formula> para cada uno de los tres alimentos (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi24.png"/>
+</alternatives>
+</inline-formula>
+<italic>PA,</italic>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi25.png"/>
+</alternatives>
+</inline-formula>
+<italic>MA </italic>y<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi26.png"/>
+</alternatives>
+</inline-formula>
+<italic>SO</italic>) y luego la proporción de cada alimento en la mezcla pues la proporción de <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>P</mml:mi> <mml:mi>A</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>P</mml:mi> <mml:mi>A</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> </mml:math>
+<graphic xlink:href="607974617005_gi27.png"/>
+</alternatives>
+</inline-formula>, así como la proporción de <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>M</mml:mi> <mml:mi>A</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>M</mml:mi> <mml:mi>A</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> </mml:math>
+<graphic xlink:href="607974617005_gi28.png"/>
+</alternatives>
+</inline-formula> y la de<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>S</mml:mi> <mml:mi>O</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>S</mml:mi> <mml:mi>O</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> </mml:math>
+<graphic xlink:href="607974617005_gi29.png"/>
+</alternatives>
+</inline-formula>. Por razones de espacio no se desarrolla todo el proceso de cálculo sino que se brinda el resultado final directo.</p>
+<p>La matriz para calcular<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi31.png"/>
+</alternatives>
+</inline-formula>PA se formará sustituyendo los coeficientes de <italic>PA </italic>(13.24 , 3.111 y 1) por los términos independientes del sistema de ecuaciones (12.375, 2.635 y 0.8) y se mantienen los otros coeficientes; o sea:</p>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>P</mml:mi> <mml:mi>A</mml:mi> <mml:mo>=</mml:mo> <mml:mrow> <mml:mo>|</mml:mo> <mml:mtable columnalign="center center center" rowspacing="4pt" columnspacing="1em"> <mml:mtr> <mml:mtd> <mml:mn>12</mml:mn> <mml:mo>,</mml:mo> <mml:mn>375</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>8</mml:mn> <mml:mo>,</mml:mo> <mml:mn>26</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>45</mml:mn> <mml:mo>,</mml:mo> <mml:mn>32</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>2</mml:mn> <mml:mo>,</mml:mo> <mml:mn>635</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>3</mml:mn> <mml:mo>,</mml:mo> <mml:mn>34</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>3</mml:mn> <mml:mo>,</mml:mo> <mml:mn>154</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>0</mml:mn> <mml:mo>,</mml:mo> <mml:mn>80</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>1</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>1</mml:mn> </mml:mtd> </mml:mtr> </mml:mtable> <mml:mo>|</mml:mo> </mml:mrow> <mml:mo>=</mml:mo> <mml:mo>&#x2212;</mml:mo> <mml:mn>0</mml:mn> <mml:mo>,</mml:mo> <mml:mn>299</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi32.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>Entonces <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>P</mml:mi> <mml:mi>A</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>P</mml:mi> <mml:mi>A</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mo>&#x2212;</mml:mo> <mml:mn>0</mml:mn> <mml:mo>,</mml:mo> <mml:mn>299</mml:mn> </mml:mrow> <mml:mrow> <mml:mo>&#x2212;</mml:mo> <mml:mn>7</mml:mn> <mml:mo>,</mml:mo> <mml:mn>56</mml:mn> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mn>0</mml:mn> <mml:mo>,</mml:mo> <mml:mn>040</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi33.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>El mismo procedimiento se aplica para resolver las proporciones de los otros dos alimentos. Para el maíz MA se tiene:</p>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>M</mml:mi> <mml:mi>A</mml:mi> <mml:mo>=</mml:mo> <mml:mrow> <mml:mo>|</mml:mo> <mml:mtable columnalign="center center center" rowspacing="4pt" columnspacing="1em"> <mml:mtr> <mml:mtd> <mml:mn>13</mml:mn> <mml:mo>,</mml:mo> <mml:mn>24</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>12</mml:mn> <mml:mo>,</mml:mo> <mml:mn>375</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>45</mml:mn> <mml:mo>,</mml:mo> <mml:mn>32</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>3</mml:mn> <mml:mo>,</mml:mo> <mml:mn>111</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>2</mml:mn> <mml:mo>,</mml:mo> <mml:mn>635</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>3</mml:mn> <mml:mo>,</mml:mo> <mml:mn>154</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>1</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>0</mml:mn> <mml:mo>,</mml:mo> <mml:mn>8</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>1</mml:mn> </mml:mtd> </mml:mtr> </mml:mtable> <mml:mo>|</mml:mo> </mml:mrow> <mml:mo>=</mml:mo> <mml:mo>&#x2212;</mml:mo> <mml:mn>4</mml:mn> <mml:mo>,</mml:mo> <mml:mn>613</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi34.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>Entonces  <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>M</mml:mi> <mml:mi>A</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>M</mml:mi> <mml:mi>A</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mo>&#x2212;</mml:mo> <mml:mn>4</mml:mn> <mml:mo>,</mml:mo> <mml:mn>613</mml:mn> </mml:mrow> <mml:mrow> <mml:mo>&#x2212;</mml:mo> <mml:mn>7</mml:mn> <mml:mo>,</mml:mo> <mml:mn>56</mml:mn> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mn>0</mml:mn> <mml:mo>,</mml:mo> <mml:mn>610</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi35.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>Para la soya (SO) se tiene:</p>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>S</mml:mi> <mml:mi>O</mml:mi> <mml:mo>=</mml:mo> <mml:mrow> <mml:mo>|</mml:mo> <mml:mtable columnalign="center center center" rowspacing="4pt" columnspacing="1em"> <mml:mtr> <mml:mtd> <mml:mn>13</mml:mn> <mml:mo>,</mml:mo> <mml:mn>24</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>8</mml:mn> <mml:mo>,</mml:mo> <mml:mn>26</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>12</mml:mn> <mml:mo>,</mml:mo> <mml:mn>375</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>3</mml:mn> <mml:mo>,</mml:mo> <mml:mn>111</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>3</mml:mn> <mml:mo>,</mml:mo> <mml:mn>34</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>2</mml:mn> <mml:mo>,</mml:mo> <mml:mn>635</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>1</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>1</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>0</mml:mn> <mml:mo>,</mml:mo> <mml:mn>8</mml:mn> </mml:mtd> </mml:mtr> </mml:mtable> <mml:mo>|</mml:mo> </mml:mrow> <mml:mo>=</mml:mo> <mml:mo>&#x2212;</mml:mo> <mml:mn>1</mml:mn> <mml:mo>,</mml:mo> <mml:mn>136</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi36.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>Entonces <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>S</mml:mi> <mml:mi>O</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>S</mml:mi> <mml:mi>O</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mo>&#x2212;</mml:mo> <mml:mn>1</mml:mn> <mml:mo>,</mml:mo> <mml:mn>136</mml:mn> </mml:mrow> <mml:mrow> <mml:mo>&#x2212;</mml:mo> <mml:mn>7</mml:mn> <mml:mo>,</mml:mo> <mml:mn>56</mml:mn> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mn>0</mml:mn> <mml:mo>,</mml:mo> <mml:mn>150</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi37.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>De esta manera se obtienen las proporciones en que han de incluirse <italic>PA</italic>, <italic>MA </italic>y <italic>SO</italic> (paso 5) con las cuales quedan exactamente ajustadas la PB (12,375) y la EM (2,635) faltantes de los requerimientos nutritivos, así como que la suma de ellos tres sea la proporción restante (0,80), valores que sumados a los aportes de los dos alimentos fijados previamente (Harina de pescado y de Yuca) totalizan exactamente los requerimientos iniciales de la mezcla, como aparece resumido en la Tabla <xref ref-type="table" rid="gt4">3</xref>.</p>
+<p>
+<table-wrap id="gt4">
+<label>Tabla 3</label>
+<caption>
+<title>
+<bold>Tabla 3</bold>
+</title>
+</caption>
+<alt-text>Tabla 3 Tabla 3</alt-text>
+<alternatives>
+<graphic xlink:href="607974617005_gt5.png" position="anchor" orientation="portrait"/>
+<table id="gt5-526564616c7963">
+<tbody>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;">
+<italic>Fórmula</italic>
+</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">MS</td>
+<td style="text-align: center;">PB</td>
+<td style="text-align: center;">EM</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pasos</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">Proporción</td>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">(Mcal/kg)</td>
+</tr>
+<tr>
+<td style="text-align: center;" rowspan="2">1</td>
+<td style="text-align: center;">H. Pescado</td>
+<td style="text-align: center;">5,00</td>
+<td style="text-align: center;">0,050</td>
+<td style="text-align: center;">4,582</td>
+<td style="text-align: center;">3,055</td>
+<td style="text-align: center;">0,142</td>
+</tr>
+<tr>
+<td style="text-align: center;">H. Yuca</td>
+<td style="text-align: center;">15,00</td>
+<td style="text-align: center;">0,150</td>
+<td style="text-align: center;">13,151</td>
+<td style="text-align: center;">0,371</td>
+<td style="text-align: center;">0,453</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Subtotal</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">0,200</td>
+<td style="text-align: center;">17,732</td>
+<td style="text-align: center;">3,426</td>
+<td style="text-align: center;">0,595</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Requerimiento</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">1,000</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">15,8</td>
+<td style="text-align: center;">3,23</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Diferencia</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">0,800</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">12,375</td>
+<td style="text-align: center;">2,635</td>
+</tr>
+<tr>
+<td style="text-align: center;" rowspan="3">5</td>
+<td style="text-align: center;">P. Arroz</td>
+<td style="text-align: center;">4,00</td>
+<td style="text-align: center;">0,040</td>
+<td style="text-align: center;">3,516</td>
+<td style="text-align: center;">0,523</td>
+<td style="text-align: center;">0,123</td>
+</tr>
+<tr>
+<td style="text-align: center;">Maíz</td>
+<td style="text-align: center;">61,0</td>
+<td style="text-align: center;">0,610</td>
+<td style="text-align: center;">53,155</td>
+<td style="text-align: center;">5,040</td>
+<td style="text-align: center;">2,038</td>
+</tr>
+<tr>
+<td style="text-align: center;">Soya</td>
+<td style="text-align: center;">15,0</td>
+<td style="text-align: center;">0,150</td>
+<td style="text-align: center;">13,316</td>
+<td style="text-align: center;">6,812</td>
+<td style="text-align: center;">0,474</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">100,0</td>
+<td style="text-align: center;">1,000</td>
+<td style="text-align: center;">87,72</td>
+<td style="text-align: center;">15,80</td>
+<td style="text-align: center;">3,23</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">Requerimientos</td>
+<td style="text-align: center;">100,0</td>
+<td style="text-align: center;">1,000</td>
+<td style="text-align: center;">15,8</td>
+<td style="text-align: center;">3,23</td>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Balance</td>
+<td style="text-align: center;">0,00</td>
+<td style="text-align: center;">0,00</td>
+<td style="text-align: center;">0,00</td>
+<td style="text-align: center;">0,00</td>
+<td style="text-align: center;"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>La fórmula del balanceado sería: Harina de pescado 5%, Harina de yuca 15%, Polvo de arroz 4,00%, Maíz 60,91% y Soya 15,01%, combinación que contiene 87,72% de MS y las deseadas densidades de 15,80% de PB y 3,23 Mcal/kg de EM).</p>
+<p>La solución en Excel se obtiene simplemente programando las celdas para que realicen los cálculos hechos hasta aquí manualmente. A partir de la creación de la base de datos donde se posee la composición de los alimentos y los requerimientos de la mezcla (Figura <xref ref-type="fig" rid="gf1">1</xref>) se programan las celdas correspondientes en otra tabla para que se calcule el parámetro deseado (por razones de espacio se muestra en la Figura <xref ref-type="fig" rid="gf2">2</xref>) así el aporte de PB de la Harina de pescado es D13=C4*B13, como muestra la fórmula de cálculo de la celda D13 y el aporte de la EM es E13=D4*B13. De la misma manera se realiza para todos los alimentos (proporción del alimento multiplicada por el contenido del nutriente en cuestión).</p>
+<p>
+<fig id="gf1">
+<label>Figura 1</label>
+<caption>
+<title>
+<bold>Figura 1</bold>
+</title>
+<p>Ejemplo de los datos iniciales</p>
+</caption>
+<alt-text>Figura 1 Figura 1</alt-text>
+<graphic xlink:href="607974617005_gf2.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf2">
+<label>Figura 2</label>
+<caption>
+<title>
+<bold>Figura 2</bold>
+</title>
+<p>Realización del balance parcial (diferencia)</p>
+</caption>
+<alt-text>Figura 2 Figura 2</alt-text>
+<graphic xlink:href="607974617005_gf3.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>Para crear las matrices y resolverlas con <bold>MDETERM</bold>, una propuesta sería como se muestra en la Figura <xref ref-type="fig" rid="gf3">3</xref>; así la matriz del Polvo de Arroz <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi67.png"/>
+</alternatives>
+</inline-formula>PA, celda K8 se calcula con MDETERM(H7:J9), de igual forma se procede en todos los casos: (celda K12) <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi68.png"/>
+</alternatives>
+</inline-formula>MA=MDETERM(H11:J13), (celda K20)SO=MDETERM(H19:J21) y primeramente, la matriz del sistema inicial de ecuaciones, (celda L3) <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi70.png"/>
+</alternatives>
+</inline-formula>G=MDETERM(H2:J4). Todo para luego calcular los valores de las proporciones de cada una de las variables, o sea <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>P</mml:mi> <mml:mi>A</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>P</mml:mi> <mml:mi>A</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> </mml:math>
+<graphic xlink:href="607974617005_gi42.png"/>
+</alternatives>
+</inline-formula> (celda L8=K8/L3),<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>M</mml:mi> <mml:mi>A</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>M</mml:mi> <mml:mi>A</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> </mml:math>
+<graphic xlink:href="607974617005_gi43.png"/>
+</alternatives>
+</inline-formula>(L12=K12/L3) y <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>S</mml:mi> <mml:mi>O</mml:mi> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>S</mml:mi> <mml:mi>O</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> </mml:math>
+<graphic xlink:href="607974617005_gi44.png"/>
+</alternatives>
+</inline-formula>(L20 = K20/L3), como se muestra en la Figura <xref ref-type="fig" rid="gf3">3</xref>. Con estas proporciones y la composición de cada uno de los ingredientes se calculan sus aportes de MS, PB y EM, los cuales sumados a los de los dos alimentos ya fijados previamente (Harina de yuca y Harina de pescado) han de completar las necesidades totales, lo que constituiría el paso 5. La Figura <xref ref-type="fig" rid="gf4">4</xref> representa cómo en una tabla de formulación práctica se ejecutan lo seis pasos propuestos inicialmente en la metodología de cálculo, desde 1. Establecer las proporciones de los dos alimentos con limitantes nutricionales hasta 6. Realizar el balance final.</p>
+<p>
+<fig id="gf3">
+<label>Figura 3</label>
+<caption>
+<title>
+<bold>Figura 3</bold>
+</title>
+<p>Tabulación de las matrices, su solución (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi45.png"/>
+</alternatives>
+</inline-formula>) y los cálculos de las proporciones de cada alimento (PA, MA y SO)<sup>
+<xref ref-type="fn" rid="fn10">2</xref>
+</sup>
+</p>
+</caption>
+<alt-text>Figura 3 Figura 3</alt-text>
+<graphic xlink:href="607974617005_gf5.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf4">
+<label>Figura 4</label>
+<caption>
+<title>
+<bold>Figura 4</bold>
+</title>
+<p>Proporciones de los tres alimentos restantes, aportes parciales y totales a la mezcla y balance final obtenidos en la hoja de Excel.<sup>
+<xref ref-type="fn" rid="fn11">3</xref>
+</sup>
+</p>
+</caption>
+<alt-text>Figura 4 Figura 4</alt-text>
+<graphic xlink:href="607974617005_gf6.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>Justo aquí es importante motivar en el sentido de que cuando se ha creado una base de datos para ajustar la sumatoria de las proporciones de todos los alimentos (a 100%) y las necesidades de la PB y la EM (a los requerimientos nutricionales) con tres alimentos fijando previamente las proporciones de los otros que se encuentran disponibles, que puede ser ninguno, uno, o varios, en realidad el trabajo sólo estaría en decidir las proporciones de estos últimos hasta que con las ecuaciones se ajuste la sumatoria a las necesidades. Lógicamente ninguna proporción debe resultar negativa, lo que sí es posible matemáticamente.</p>
+<p>Finalmente se obtiene la misma fórmula del balanceado, que expresada en porcentaje es 5% de Harina de Pescado, 15% de Harina de Yuca, 4,07% de Polvo de Arroz, 61,02% de Maíz y 15,03% de Soya. La fórmula obtenida satisface las condiciones nutricionales exigidas (requerimientos) de 15,8% de PB y 3,23 Mcal/kg de EM, más la condición de que la sumatoria de los porcentajes de inclusión de los alimentos sea 100%.</p>
+</sec>
+<sec>
+<title>
+<bold>Segundo ejemplo: Formulación de una ración para vacas</bold>
+</title>
+<p>Una ración es la cantidad de alimentos que se suministra a un animal para satisfacer sus necesidades nutritivas diarias y difiere de la formulación de una mezcla industrial de alimentos (balanceado) en que se trata de calcular cantidades de alimentos, no proporciones de estos en base a 100% como en la mezcla.</p>
+<p>En este segundo ejemplo se desea formular una ración para vacas lactantes donde se dispone de cinco alimentos y su valor nutritivo (Tabla <xref ref-type="table" rid="gt5">4</xref>) y se conocen de antemano las cantidades a ofertar de dos alimentos que son el Pasto estrella (24,25 kg), determinado por su disponibilidad en las áreas de pastoreo, y del concentrado (1,516 kg) a suministrar en el ordeño que fue prefijado, y se pretende ajustar entonces las cantidades de nutrientes que restan usando los otros tres que han de ser ofrecidos en los comederos. Se tienen los datos del valor nutritivo de los alimentos (<italic>EM</italic>, <italic>PB</italic>, Calcio (<italic>Ca</italic>) y Fósforo (<italic>P</italic>)) y los requerimientos nutritivos de los animales (Tabla <xref ref-type="table" rid="gt6">5</xref>).</p>
+<p>
+<table-wrap id="gt5">
+<label>Tabla 4</label>
+<caption>
+<title>
+<bold>Tabla 4</bold>
+</title>
+</caption>
+<alt-text>Tabla 4 Tabla 4</alt-text>
+<alternatives>
+<graphic xlink:href="607974617005_gt6.png" position="anchor" orientation="portrait"/>
+<table id="gt6-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;" rowspan="2">Alimentos</td>
+<td style="text-align: center;">MS</td>
+<td style="text-align: center;">EM</td>
+<td style="text-align: center;">PB</td>
+<td style="text-align: center;">Ca</td>
+<td style="text-align: center;">P</td>
+</tr>
+<tr>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">(MJ/kg)</td>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">(%)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pasto Estrella<sup>
+<xref ref-type="fn" rid="fn12">4</xref>
+</sup>
+</td>
+<td style="text-align: center;">26,80</td>
+<td style="text-align: center;">9,037</td>
+<td style="text-align: center;">11,00</td>
+<td style="text-align: center;">0,50</td>
+<td style="text-align: center;">0,30</td>
+</tr>
+<tr>
+<td style="text-align: center;">Concentrado comercial</td>
+<td style="text-align: center;">86,10</td>
+<td style="text-align: center;">10,79</td>
+<td style="text-align: center;">16,90</td>
+<td style="text-align: center;">0,63</td>
+<td style="text-align: center;">0,57</td>
+</tr>
+<tr>
+<td style="text-align: center;">Miel de caña</td>
+<td style="text-align: center;">73,90</td>
+<td style="text-align: center;">11,72</td>
+<td style="text-align: center;">5,60</td>
+<td style="text-align: center;">0,73</td>
+<td style="text-align: center;">0,07</td>
+</tr>
+<tr>
+<td style="text-align: center;">Forraje de King Grass<sup>
+<xref ref-type="fn" rid="fn13">5</xref>
+</sup>
+</td>
+<td style="text-align: center;">19,70</td>
+<td style="text-align: center;">8,661</td>
+<td style="text-align: center;">5,36</td>
+<td style="text-align: center;">0,51</td>
+<td style="text-align: center;">0,14</td>
+</tr>
+<tr>
+<td style="text-align: center;">Follaje de Leucaena<sup>
+<xref ref-type="fn" rid="fn14">6</xref>
+</sup>
+</td>
+<td style="text-align: center;">30,00</td>
+<td style="text-align: center;">9,414</td>
+<td style="text-align: center;">20,00</td>
+<td style="text-align: center;">0,23</td>
+<td style="text-align: center;">0,025</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>
+<table-wrap id="gt6">
+<label>Tabla 5</label>
+<caption>
+<title>
+<bold>Tabla 5</bold>
+</title>
+</caption>
+<alt-text>Tabla 5 Tabla 5</alt-text>
+<alternatives>
+<graphic xlink:href="607974617005_gt7.png" position="anchor" orientation="portrait"/>
+<table id="gt7-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">CMS<sup>8</sup>
+</td>
+<td style="text-align: center;">EM</td>
+<td style="text-align: center;">PB</td>
+<td style="text-align: center;">Ca</td>
+<td style="text-align: center;">P</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">(kg)</td>
+<td style="text-align: center;">(MJ)</td>
+<td style="text-align: center;">(g)</td>
+<td style="text-align: center;">(g)</td>
+<td style="text-align: center;">(g)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">13,05</td>
+<td style="text-align: center;">124,0</td>
+<td style="text-align: center;">1334</td>
+<td style="text-align: center;">46,60</td>
+<td style="text-align: center;">34,25</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>Es preciso siempre realizar una estimación del CMS, en primer lugar para tener una referencia aproximada de cuánta MS puede consumir cada animal, y en segundo lugar como guía para que los requerimientos nutricionales, que están en términos cuantitativos MJ y g por día), se puedan expresar en unidades cualitativas iguales a las usadas en la tabla de composición de los alimentos (MJ/kg y % en base seca) y se puedan tomar decisiones previas acerca del uso de los alimentos.</p>
+<p>Para esta estimación se puede usar cualquier variante, generalmente ecuaciones de predicción que poseen variables niveles de precisión, pues en el proceso de formulación de raciones y en la alimentación práctica de los animales el CMS es particularmente importante porque a partir de ello se establece la cantidad de nutrientes disponibles para la producción y la salud del animal y el cálculo de la cantidad real o estimada de MS es necesario para la formulación de las dietas y para prevenir tanto la subalimentación como la sobrealimentación de los animales (NRC 2001). No obstante, se considera que el consumo de materia seca es el área de mayor incertidumbre en la formulación de raciones, aunque se “acepta” que por alguna parte hay que comenzar (Webster, 1987; Tamminga y Hof, 2000).</p>
+<p>El principio de la formulación de raciones usando ecuaciones triples es igual que el de la formulación de las mezclas que se analizó anteriormente, es decir, sería fijar previamente las cantidades de algunos alimentos (excepto tres), calcular sus aportes a la ración, comparar con los requerimientos de nutrientes, obtener las cantidades de nutrientes que restan y ajustar estas con los tres alimentos dejados “libres” para ello. Pero, cuando se hace en términos cuantitativos, o sea determinando las cantidades de alimentos necesarias para suplir las cantidades de nutrientes requeridas, se hace necesario hacer algunos cambios en el planteamiento de las ecuaciones. Sin embargo, se posee la ventaja de que se pueden ajustar ciertamente tres nutrientes, no dos nutrientes más la suma de las proporciones de los alimentos como en la formulación de balanceados; esto se debe a que en las raciones la suma de las cantidades de MS no tiene necesariamente que ser la estimada a consumir por el animal.</p>
+<p>Véase en la Tabla <xref ref-type="table" rid="gt7">6</xref> que una vez conocidas las cantidades de Pasto Estrella (24,25 kg) y del Concentrado (1,516 kg), calculados sus aportes nutritivos a la ración (teniendo en cuenta su composición), sumados sus aportes parciales y comparados con los requerimientos; se obtiene la diferencia que es necesario ajustar con los otros tres alimentos restantes.</p>
+<p>
+<table-wrap id="gt7">
+<label>Figura 6</label>
+<caption>
+<title>
+<bold>Figura 6</bold>
+</title>
+</caption>
+<alt-text>Figura 6 Figura 6</alt-text>
+<alternatives>
+<graphic xlink:href="607974617005_gt8.png" position="anchor" orientation="portrait"/>
+<table id="gt8-526564616c7963">
+<tbody>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">Cantidad</td>
+<td style="text-align: center;">MS</td>
+<td style="text-align: center;">EM</td>
+<td style="text-align: center;">PB</td>
+<td style="text-align: center;">Ca</td>
+<td style="text-align: center;">P</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">(kg)</td>
+<td style="text-align: center;">(kg)</td>
+<td style="text-align: center;">(MJ)</td>
+<td style="text-align: center;">(g)</td>
+<td style="text-align: center;">(g)</td>
+<td style="text-align: center;">(g)</td>
+</tr>
+<tr>
+<td style="text-align: center;">P. Estrella</td>
+<td style="text-align: center;">24,25</td>
+<td style="text-align: center;">6,499</td>
+<td style="text-align: center;">58,731</td>
+<td style="text-align: center;">714,890</td>
+<td style="text-align: center;">32,495</td>
+<td style="text-align: center;">19,497</td>
+</tr>
+<tr>
+<td style="text-align: center;">Concentrado</td>
+<td style="text-align: center;">1,516</td>
+<td style="text-align: center;">1,305</td>
+<td style="text-align: center;">14,084</td>
+<td style="text-align: center;">2420,592</td>
+<td style="text-align: center;">8,223</td>
+<td style="text-align: center;">7,440</td>
+</tr>
+<tr>
+<td style="text-align: center;">Aporte parcial</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">7,804</td>
+<td style="text-align: center;">72,815</td>
+<td style="text-align: center;">935,482</td>
+<td style="text-align: center;">40,718</td>
+<td style="text-align: center;">26,937</td>
+</tr>
+<tr>
+<td style="text-align: center;">Requerimientos</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">13,05</td>
+<td style="text-align: center;">124,0</td>
+<td style="text-align: center;">1334,0</td>
+<td style="text-align: center;">46,60</td>
+<td style="text-align: center;">34,25</td>
+</tr>
+<tr>
+<td style="text-align: center;">Diferencia</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">5,246</td>
+<td style="text-align: center;">51,18</td>
+<td style="text-align: center;">398,518</td>
+<td style="text-align: center;">5,882</td>
+<td style="text-align: center;">7,313</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>Se realiza en este paso un cálculo adicional (Tabla <xref ref-type="table" rid="gt8">7</xref>) para revelar si con los tres alimentos restantes se podría ajustar la ración, según establece el tercer requisito propuesto. Para ello se determina la concentración en base a la MS, de la EM (MJ/kg) y la PB, Ca y P en porcentaje.</p>
+<p>
+<table-wrap id="gt8">
+<label>Tabla 7</label>
+<caption>
+<title>
+<bold>Tabla 7</bold>
+</title>
+</caption>
+<alt-text>Tabla 7 Tabla 7</alt-text>
+<alternatives>
+<graphic xlink:href="607974617005_gt9.png" position="anchor" orientation="portrait"/>
+<table id="gt9-526564616c7963">
+<tbody>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">MS</td>
+<td style="text-align: center;">EM</td>
+<td style="text-align: center;">PB</td>
+<td style="text-align: center;">Ca</td>
+<td style="text-align: center;">P</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">(kg)</td>
+<td style="text-align: center;">(MJ)</td>
+<td style="text-align: center;">(g)</td>
+<td style="text-align: center;">(g)</td>
+<td style="text-align: center;">(g)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Diferencia en cantidad</td>
+<td style="text-align: center;">5,246</td>
+<td style="text-align: center;">51,18</td>
+<td style="text-align: center;">398,518</td>
+<td style="text-align: center;">5,882</td>
+<td style="text-align: center;">7,313</td>
+</tr>
+<tr>
+<td style="text-align: center;">Diferencia en Densidad</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">(MJ/kg)</td>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">(%)</td>
+<td style="text-align: center;">(%)</td>
+</tr>
+<tr>
+<td style="text-align: center;">(en la MS)</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">9,757</td>
+<td style="text-align: center;">7,597</td>
+<td style="text-align: center;">0,112</td>
+<td style="text-align: center;">0,139</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>Como se aprecia, al comparar los valores de la densidad de nutrientes en la diferencia (Tabla <xref ref-type="table" rid="gt8">7</xref>) con los de la Tabla <xref ref-type="table" rid="gt5">4</xref> de la composición de los alimentos, para la EM del King Grass, Leucaena y Miel, así como la PB de estos con la que se necesita (9,757 MJ/kg MS y 7,597%, respectivamente), se puede asegurar que se cumple con la exigencia (requisito) de que en algunos haya más y en otros menos concentración de ambos nutrientes que la necesaria. Entonces las ecuaciones se podrían plantear con los tres alimentos para ajustar EM, PB y la MS de una vez, así como EM, PB y P. En cambio, no se podría plantear una ecuación para ajustar el Ca pues los tres alimentos poseen concentraciones de este (0.73 , 0.51 y 0,23%) que son superiores a la necesidad (0,112%), esto permite asegurar que ajustando exactamente EM, PB y P habrá también un balance positivo en el Ca.</p>
+<p>Debido a que el CMS no es necesario que resulte ajustado, se plantea a continuación el sistema de ecuaciones para ajustar EM, PB y P.</p>
+<p>Es aquí donde es necesario establecer la segunda diferencia del sistema de ecuaciones en comparación con el planteado para la formulación de mezclas en base a porcentaje. Se trata de que los nutrientes que se deseen ajustar y que se expresan en % (PB, Ca y P) deben ser transformados a g/kg. El sistema de ecuaciones a resolver sería:</p>
+<p>
+<disp-formula id="e6">
+<label/>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">     <mml:mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0em 2em 0em 2em 0em 2em 0em 2em 0em 2em 0em">         <mml:mtr>             <mml:mtd>             </mml:mtd>             <mml:mtd>                 <mml:mtext>Para la</mml:mtext>                 <mml:mi>E</mml:mi>                 <mml:mi>M</mml:mi>             </mml:mtd>         </mml:mtr>         <mml:mtr>             <mml:mtd>             </mml:mtd>             <mml:mtd>                 <mml:mtext>Para la</mml:mtext>                 <mml:mi>P</mml:mi>                 <mml:mi>B</mml:mi>             </mml:mtd>         </mml:mtr>         <mml:mtr>             <mml:mtd>             </mml:mtd>             <mml:mtd>                 <mml:mtext>Para P</mml:mtext>             </mml:mtd>         </mml:mtr>     </mml:mtable>     <mml:mrow>         <mml:mo>{</mml:mo>         <mml:mtable columnalign="center center center" rowspacing="4pt" columnspacing="1em">             <mml:mtr>                 <mml:mtd>                     <mml:mtext>11, 72 Miel + 8, 661 King + 9, 414 Leuc</mml:mtext>                 </mml:mtd>                 <mml:mtd>                     <mml:mo>=</mml:mo>                     <mml:mn>51</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>18</mml:mn>                 </mml:mtd>             </mml:mtr>             <mml:mtr>                 <mml:mtd>                     <mml:mtext>56 Miel + 53, 6 King + 200 Leuc</mml:mtext>                 </mml:mtd>                 <mml:mtd>                     <mml:mo>=</mml:mo>                     <mml:mn>398</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>5</mml:mn>                 </mml:mtd>             </mml:mtr>             <mml:mtr>                 <mml:mtd>                     <mml:mtext>0, 7 Miel + 1, 4 King + 0, 25 Leuc</mml:mtext>                 </mml:mtd>                 <mml:mtd>                     <mml:mo>=</mml:mo>                     <mml:mn>7</mml:mn>                     <mml:mo>,</mml:mo>                     <mml:mn>313</mml:mn>                 </mml:mtd>             </mml:mtr>         </mml:mtable>         <mml:mo fence="true" stretchy="true"></mml:mo>     </mml:mrow> </mml:math>
+<graphic xlink:href="607974617005_ee6.png"/>
+</alternatives>
+</disp-formula>
+</p>
+<p>Ya el resto de los cálculos manuales y con Excel es igual al descrito en la primera parte de este reporte para la formulación de balanceados, pero que por razones de espacio no se describirán los cálculos manuales.</p>
+<p>Las matrices para los cálculos manuales serían:</p>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> <mml:mo>=</mml:mo> <mml:mrow> <mml:mo>|</mml:mo> <mml:mtable columnalign="center center center" rowspacing="4pt" columnspacing="1em"> <mml:mtr> <mml:mtd> <mml:mn>11</mml:mn> <mml:mo>,</mml:mo> <mml:mn>72</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>8</mml:mn> <mml:mo>,</mml:mo> <mml:mn>661</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>9</mml:mn> <mml:mo>,</mml:mo> <mml:mn>414</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>56</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>53</mml:mn> <mml:mo>,</mml:mo> <mml:mn>6</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>200</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>0,7</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>1</mml:mn> <mml:mo>,</mml:mo> <mml:mn>4</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>0,25</mml:mn> </mml:mtd> </mml:mtr> </mml:mtable> <mml:mo>|</mml:mo> </mml:mrow> <mml:mo>=</mml:mo> <mml:mo>&#x2212;</mml:mo> <mml:mn>1648</mml:mn> <mml:mo>,</mml:mo> <mml:mn>4217</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi48.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>Miel</mml:mi> <mml:mo>=</mml:mo> <mml:mrow> <mml:mo>|</mml:mo> <mml:mtable columnalign="center center center" rowspacing="4pt" columnspacing="1em"> <mml:mtr> <mml:mtd> <mml:mn>51</mml:mn> <mml:mo>,</mml:mo> <mml:mn>18</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>8</mml:mn> <mml:mo>,</mml:mo> <mml:mn>661</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>9</mml:mn> <mml:mo>,</mml:mo> <mml:mn>414</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>398, 5</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>53</mml:mn> <mml:mo>,</mml:mo> <mml:mn>6</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>200</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>7,313</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>1</mml:mn> <mml:mo>,</mml:mo> <mml:mn>4</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>0,25</mml:mn> </mml:mtd> </mml:mtr> </mml:mtable> <mml:mo>|</mml:mo> </mml:mrow> <mml:mo>=</mml:mo> <mml:mo>&#x2212;</mml:mo> <mml:mn>&#x2212;277</mml:mn> <mml:mo>,</mml:mo> <mml:mn>8605</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi49.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>King</mml:mi> <mml:mo>=</mml:mo> <mml:mrow> <mml:mo>|</mml:mo> <mml:mtable columnalign="center center center" rowspacing="4pt" columnspacing="1em"> <mml:mtr> <mml:mtd> <mml:mn>11</mml:mn> <mml:mo>,</mml:mo> <mml:mn>72</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>51</mml:mn> <mml:mo>,</mml:mo> <mml:mn>18</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>9</mml:mn> <mml:mo>,</mml:mo> <mml:mn>414</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>56</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>398, 5</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>200</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>0</mml:mn> <mml:mo>,</mml:mo> <mml:mn>7</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>7,313</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>0,25</mml:mn> </mml:mtd> </mml:mtr> </mml:mtable> <mml:mo>|</mml:mo> </mml:mrow> <mml:mo>=</mml:mo> <mml:mo>&#x2212;</mml:mo> <mml:mn>8296</mml:mn> <mml:mo>,</mml:mo> <mml:mn>1257</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi50.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>Leuc</mml:mi> <mml:mo>=</mml:mo> <mml:mrow> <mml:mo>|</mml:mo> <mml:mtable columnalign="center center center" rowspacing="4pt" columnspacing="1em"> <mml:mtr> <mml:mtd> <mml:mn>11</mml:mn> <mml:mo>,</mml:mo> <mml:mn>72</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>8</mml:mn> <mml:mo>,</mml:mo> <mml:mn>661</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>51</mml:mn> <mml:mo>,</mml:mo> <mml:mn>18</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>56</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>53</mml:mn> <mml:mo>,</mml:mo> <mml:mn>6</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>398, 5</mml:mn> </mml:mtd> </mml:mtr> <mml:mtr> <mml:mtd> <mml:mn>0,7</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>1</mml:mn> <mml:mo>,</mml:mo> <mml:mn>4</mml:mn> </mml:mtd> <mml:mtd> <mml:mn>7, 313</mml:mn> </mml:mtd> </mml:mtr> </mml:mtable> <mml:mo>|</mml:mo> </mml:mrow> <mml:mo>=</mml:mo> <mml:mo>&#x2212;</mml:mo> <mml:mn>983</mml:mn> <mml:mo>,</mml:mo> <mml:mn>317</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi52.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>Se obtienen entonces los kg de MS de la Miel<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>Miel</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi>&#x2212;277.8605</mml:mi> </mml:mrow> <mml:mrow> <mml:mi>&#x2212;1648.4217</mml:mi> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mn>0.16856</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi53.png"/>
+</alternatives>
+</inline-formula>; los kg de MS de King grass <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>King</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi>&#x2212;8296.1257</mml:mi> </mml:mrow> <mml:mrow> <mml:mi>&#x2212;1648.4217</mml:mi> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mn>5.03277</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi54.png"/>
+</alternatives>
+</inline-formula> y los kg de MS de Leucaena serán obtenidos como<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>Leuc</mml:mi> </mml:mrow> <mml:mrow> <mml:mi mathvariant="normal">&#x394;</mml:mi> <mml:mi>G</mml:mi> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mfrac> <mml:mrow> <mml:mi>&#x2212;983.3176</mml:mi> </mml:mrow> <mml:mrow> <mml:mi>&#x2212;1648.4217</mml:mi> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mn>0.59652</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi55.png"/>
+</alternatives>
+</inline-formula>; que serán las cantidades que garantizan que se suplan las diferencias de EM, PB y P simultáneamente como se muestra en el balance final de la Tabla <xref ref-type="table" rid="gt9">8</xref>. Por otra parte, la Figura 5 muestra la creación de las matrices en la formulación de la raciones, de la misma manera que la Figura <xref ref-type="fig" rid="gf3">3</xref> lo representó para la formulación de la mezclas industriales.</p>
+<p>
+<table-wrap id="gt9">
+<label>Tabla 8</label>
+<caption>
+<title>
+<bold>Tabla 8</bold>
+</title>
+</caption>
+<alt-text>Tabla 8 Tabla 8</alt-text>
+<alternatives>
+<graphic xlink:href="607974617005_gt10.png" position="anchor" orientation="portrait"/>
+<table id="gt10-526564616c7963">
+<tbody>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">Cantidad</td>
+<td style="text-align: center;">MS</td>
+<td style="text-align: center;">EM</td>
+<td style="text-align: center;">PB</td>
+<td style="text-align: center;">Ca</td>
+<td style="text-align: center;">P</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">(kg)</td>
+<td style="text-align: center;">(kg)</td>
+<td style="text-align: center;">(MJ)</td>
+<td style="text-align: center;">(g)</td>
+<td style="text-align: center;">(g)</td>
+<td style="text-align: center;">(g)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Pasto Estrella</td>
+<td style="text-align: center;">24,25</td>
+<td style="text-align: center;">6,499</td>
+<td style="text-align: center;">58,731</td>
+<td style="text-align: center;">714,890</td>
+<td style="text-align: center;">32,495</td>
+<td style="text-align: center;">19,497</td>
+</tr>
+<tr>
+<td style="text-align: center;">Concentrado</td>
+<td style="text-align: center;">1,516</td>
+<td style="text-align: center;">1,305</td>
+<td style="text-align: center;">14,084</td>
+<td style="text-align: center;">2420,592</td>
+<td style="text-align: center;">8,223</td>
+<td style="text-align: center;">7,440</td>
+</tr>
+<tr>
+<td style="text-align: center;">Subtotal</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">7,804</td>
+<td style="text-align: center;">72,81</td>
+<td style="text-align: center;">935,482</td>
+<td style="text-align: center;">40,718</td>
+<td style="text-align: center;">26,94</td>
+</tr>
+<tr>
+<td style="text-align: center;">Req. Nutritivos</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">13,050</td>
+<td style="text-align: center;">124,0</td>
+<td style="text-align: center;">1334</td>
+<td style="text-align: center;">46,60</td>
+<td style="text-align: center;">34,25</td>
+</tr>
+<tr>
+<td style="text-align: center;">Diferencia</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">5,246</td>
+<td style="text-align: center;">51,18</td>
+<td style="text-align: center;">398,5</td>
+<td style="text-align: center;">5,882</td>
+<td style="text-align: center;">7,313</td>
+</tr>
+<tr>
+<td style="text-align: center;">Miel de caña</td>
+<td style="text-align: center;">0,228</td>
+<td style="text-align: center;">0,169</td>
+<td style="text-align: center;">1,976</td>
+<td style="text-align: center;">9,439</td>
+<td style="text-align: center;">1,230</td>
+<td style="text-align: center;">0,118</td>
+</tr>
+<tr>
+<td style="text-align: center;">Forraje de King Grass</td>
+<td style="text-align: center;">25,547</td>
+<td style="text-align: center;">5,033</td>
+<td style="text-align: center;">43,589</td>
+<td style="text-align: center;">269,756</td>
+<td style="text-align: center;">25,667</td>
+<td style="text-align: center;">7,046</td>
+</tr>
+<tr>
+<td style="text-align: center;">Follaje de Leucaena</td>
+<td style="text-align: center;">1,988</td>
+<td style="text-align: center;">0,597</td>
+<td style="text-align: center;">5,616</td>
+<td style="text-align: center;">119,304</td>
+<td style="text-align: center;">1,372</td>
+<td style="text-align: center;">0,149</td>
+</tr>
+<tr>
+<td style="text-align: center;">Total de la ración</td>
+<td style="text-align: center;">53,530</td>
+<td style="text-align: center;">13,602</td>
+<td style="text-align: center;">123,995</td>
+<td style="text-align: center;">1333,982</td>
+<td style="text-align: center;">68,988</td>
+<td style="text-align: center;">34,250</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="2">Requerimientos nutritivos</td>
+<td style="text-align: center;">13,050</td>
+<td style="text-align: center;">124,0</td>
+<td style="text-align: center;">1334</td>
+<td style="text-align: center;">46,60</td>
+<td style="text-align: center;">34,25</td>
+</tr>
+<tr>
+<td style="text-align: center;">Balance final</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;">0,00</td>
+<td style="text-align: center;">0,00</td>
+<td style="text-align: center;">22,39</td>
+<td style="text-align: center;">0,00</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>
+<fig id="gf6">
+<label>Figura 5</label>
+<caption>
+<title>
+<bold>Figura 5</bold>
+</title>
+<p>Tabulación de las matrices, su solución (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi mathvariant="normal">&#x394;</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi57.png"/>
+</alternatives>
+</inline-formula>) y los cálculos de las proporciones de cada alimento (Miel, King y Leuc)<sup>
+<xref ref-type="fn" rid="fn17">9</xref>
+</sup>
+</p>
+</caption>
+<alt-text>Figura 5 Figura 5</alt-text>
+<graphic xlink:href="607974617005_gf8.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>La ración final queda formada por 24,25 kg de Pasto estrella, 1,516 kg de Concentrado, 1,637 kg de Miel, 17,73 kg de Forraje de King Grass y 2,393 kg de Follaje de Leucaena, cantidades que ajustan con exactitud la EM, PB y P.</p>
+<p>Los resultados de las entrevistas a colegas de varias instituciones universitarias del país, a profesionales del ramo en unidades de producción, así como a criadores de animales a pequeña escala con nivel educacional suficiente y en todos los casos fueron manifiestas las gratitudes por la propuesta y se pudo constatar algunas regularidades en las opiniones:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Los colegas técnicos apoyan totalmente la propuesta por su valor práctico porque ya se trata del uso exacto de tres alimentos para ajustar tres nutrientes y por su valor instructivo y didáctico pues en ninguno de los textos clásicos de formulación de raciones y mezclas de alimentos se explica este método, sino que se limitan hasta dos alimentos para dos nutrientes (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>2</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>2</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi58.png"/>
+</alternatives>
+</inline-formula>).</p>
+</list-item>
+<list-item>
+<p>Para los profesores de matemática, sabiendo que es una de las asignaturas de mayor dificultad para los estudiantes y por la poca frecuencia con que se realizan ejercicios teóricos con problemas reales de la practica en los niveles de enseñanza previa a la universidad, estos dos ejemplos tienen mucho valor didáctico para que se aprenda también a convertir un problema practico a uno de ecuaciones lineales.</p>
+</list-item>
+<list-item>
+<p>La mayor duda surgió por parte de los criadores de animales en el sentido que en la práctica ningún productor realizaría los cálculos manuales por razones de tiempo, en cambio sí es muy importante la propuesta para que ellos puedan crear sus propias hojas de cálculos, según sus particularidades, en Excel. Lo que implica equipo de computo y dominio mínimo del Excel.</p>
+</list-item>
+</list>
+</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Conclusiones</bold>
+</title>
+<p>Se demuestran las ventajas y cuidados de la propuesta de emplear ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi59.png"/>
+</alternatives>
+</inline-formula> como herramienta matemática para formular rápidamente mezclas de alimentos y/o raciones para animales por métodos manuales o con Excel. Tal propuesta puede contribuir a la alimentación precisa de los animales y con posibilidades de resolver problemas propios de las condiciones específicas de las entidades interesadas, y que sean capaces de transformar sus problemas a sistemas de ecuaciones. Para ello sólo es necesaria la creación de habilidades en el planteamiento del sistema inicial teniendo cuidados al seleccionar los alimentos a partir de la comparación de las necesidades a suplir vs. la composición química de los alimentos, y al expresar los valores de esta en unidades de medidas correctas.</p>
+<p>Resulta también positivo el aporte de la propuesta descrita en el apoyo a la enseñanza de ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi60.png"/>
+</alternatives>
+</inline-formula> pues se brindan dos ejemplos de problemas prácticos que se pueden solucionar con estas.</p>
+</sec>
+<sec>
+<title>
+<bold>Recomendaciones</bold>
+</title>
+<p>A partir de todo lo propuesto y concluido, es factible recomendar para los encargados de la alimentación de los animales que deseen resolver problemas propios de sus haciendas, sin necesidad de usar Softwares sofisticados, elaborar sus propias hojas de cálculos en Excel y ajustar sus raciones o balanceados con ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi66.png"/>
+</alternatives>
+</inline-formula>(método matricial) con los principios y detalles que se explican en el presente artículo. También, está disponible un ejemplo real, práctico y detallado para ser empleado en la motivación y enseñanza del trabajo con ecuaciones <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mn>3</mml:mn> <mml:mo>&#xD7;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617005_gi64.png"/>
+</alternatives>
+</inline-formula> en los niveles universitarios y medios de la educación.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>Referencias</title>
+<ref id="redalyc_607974617005_ref2">
+<label>[1]</label>
+<mixed-citation>[1] Cedeño-Loor, F.O. (2017). Importancia del método de resolución de problemas con ejemplo de la vida diaria en el aprendizaje de matemática en los estudiantes del nivel I de la Universidad Técnica de Manabí– Ecuador, 2015. Tesis doctoral. Lima – Perú. 2017.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Cedeño-Loor</surname>
+<given-names>F.O.</given-names>
+</name>
+</person-group>
+<source>Tesis doctoral. Lima – Perú</source>
+<year>2017</year>
+<comment content-type="degree">Importancia del método de resolución de problemas con ejemplo de la vida diaria en el aprendizaje de matemática en los estudiantes del nivel I de la Universidad Técnica de Manabí– Ecuador, 2015</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref3">
+<label>[2]</label>
+<mixed-citation>[2] Church, D.C. (1991). Livestock feeds and feeding. Third edition. Prentice-Hall Editions. USA.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Church</surname>
+<given-names>D.C.</given-names>
+</name>
+</person-group>
+<source>Prentice-Hall Editions. USA</source>
+<year>1991</year>
+<series>Livestock feeds and feeding. Third edition</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref4">
+<label>[3]</label>
+<mixed-citation>[3] Denzin, N. K., y Lincoln, Y. S. (2005). The Sage Handbook of Qualitative Research. London, Inglaterra: Sage. P. 643-648.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Denzin</surname>
+<given-names>N. K.</given-names>
+</name>
+<name>
+<surname>Lincoln</surname>
+<given-names>Y. S.</given-names>
+</name>
+</person-group>
+<source>London, Inglaterra: Sage. P.</source>
+<year>2005</year>
+<fpage>643</fpage>
+<lpage>648</lpage>
+<series>The Sage Handbook of Qualitative Research</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref5">
+<label>[4]</label>
+<mixed-citation>[4] Ensminger, M.E. Oldfield, J.E., y Heinemann, W.W. (1991). Feeds and Nutrition. Second Edition. The Ensmimger Publishing Co. California. USA.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Ensminger</surname>
+<given-names>M.E.</given-names>
+</name>
+<name>
+<surname>Oldfield</surname>
+<given-names>J.E.</given-names>
+</name>
+<name>
+<surname>Heinemann</surname>
+<given-names>W.W.</given-names>
+</name>
+</person-group>
+<source>The Ensmimger Publishing Co. California. USA.</source>
+<year>1991</year>
+<series>Feeds and Nutrition. Second Edition</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref6">
+<label>[5]</label>
+<mixed-citation>[5] Flotts, M., Manzi, J., Jiménez, D., Abarzúa, A., Cayuman, C., y García, M. (2016). Informe de resultados TERCE. Logros del aprendizaje. Santiago de Chile: Oficina Regional de Educación para América Latina y el Caribe. Recuperado de: http://repositorio.minedu.gob.pe/handle/123456789/3771.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Flotts</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Manzi</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Jiménez</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Abarzúa</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Cayuman</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>García</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>Informe de resultados TERCE. Logros del aprendizaje</article-title>
+<source>Santiago de Chile: Oficina Regional de Educación para América Latina y el Caribe</source>
+<year>2016</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://repositorio.minedu.gob.pe/handle/123456789/3771">http://repositorio.minedu.gob.pe/handle/123456789/3771</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref7">
+<label>[6]</label>
+<mixed-citation>[6] García Trujillo, R., y Cáceres, O. (1984). Nuevos sistemas para expresar el valor nutritivo de los alimentos y el requerimiento y racionamiento de los rumiantes. Edit. EEPF “Indio Hatuey”, Matanzas. Cuba.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>García Trujillo</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Cáceres</surname>
+<given-names>O.</given-names>
+</name>
+</person-group>
+<source>Edit. EEPF “Indio Hatuey”</source>
+<year>1984</year>
+<publisher-loc>Matanzas. Cuba.</publisher-loc>
+<series>Nuevos sistemas para expresar el valor nutritivo de los alimentos y el requerimiento y racionamiento de los rumiantes.</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref8">
+<label>[7]</label>
+<mixed-citation>[7] Garth, W. (2002). Algebra lineal con aplicaciones. Cuarta Edición. Editorial McGraw-Hill.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Garth</surname>
+<given-names>W.</given-names>
+</name>
+</person-group>
+<source>Editorial McGraw-Hill.</source>
+<year>2002</year>
+<edition>Cuarta Edición</edition>
+<series>Algebra lineal con aplicaciones</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref9">
+<label>[8]</label>
+<mixed-citation>[8] Gupta, R., y Chandan, M. (2013). Use of controlled random search technique for global optimization in animal diet problem. International Journal of Emerging Technology and Advanced Engineering, 3(2), 284-284.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gupta</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Chandan</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>Use of controlled random search technique for global optimization in animal diet problem</article-title>
+<source>International Journal of Emerging Technology and Advanced Engineering</source>
+<year>2013</year>
+<volume>3</volume>
+<issue>2</issue>
+<fpage>284</fpage>
+<lpage>284</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref10">
+<label>[9]</label>
+<mixed-citation>[9] Heard, J.W., Cohen, D.C., Doyle, P.T., Wales, W.J. y Stockdale, C. R. (2004). Diet Check—a tactical decision support tool for feeding decisions with grazing dairy cows. Animal Feed Science and Technology.112:177.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Heard</surname>
+<given-names>J.W.</given-names>
+</name>
+<name>
+<surname>Cohen</surname>
+<given-names>D.C.</given-names>
+</name>
+<name>
+<surname>Doyle</surname>
+<given-names>P.T.</given-names>
+</name>
+<name>
+<surname>Wales</surname>
+<given-names>W.J.</given-names>
+</name>
+<name>
+<surname>Stockdale</surname>
+<given-names>C. R.</given-names>
+</name>
+</person-group>
+<article-title>Diet Check—a tactical decision support tool for feeding decisions with grazing dairy cows</article-title>
+<source>Animal Feed Science and Technology</source>
+<year>2004</year>
+<fpage>112</fpage>
+<lpage>177</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref11">
+<label>[10]</label>
+<mixed-citation>[10] Kolman, B. (2006). Algebra lineal. Editorial Pearson. 8va Edición. 760 p.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Kolman</surname>
+<given-names>B.</given-names>
+</name>
+</person-group>
+<source>Editorial Pearson</source>
+<year>2006</year>
+<fpage>760</fpage>
+<edition>8va Edición</edition>
+<series>Algebra lineal</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref12">
+<label>[11]</label>
+<mixed-citation>[11] Nabasirye, M., Mugisha, J.Y.T., Tibayungwa, F., y Kyarisiima, C. C. (2011). Optimization of input in animal production: A linear programming approach to the ration formulation problem. International Research Journal of Agricultural Science and Soil Science. 1(7), 221-226.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Nabasirye</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Mugisha</surname>
+<given-names>J.Y.T.</given-names>
+</name>
+<name>
+<surname>Tibayungwa</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Kyarisiima</surname>
+<given-names>C. C.</given-names>
+</name>
+</person-group>
+<article-title>Optimization of input in animal production: A linear programming approach to the ration formulation problem</article-title>
+<source>International Research Journal of Agricultural Science and Soil Science.</source>
+<year>2011</year>
+<volume>1</volume>
+<issue>7</issue>
+<fpage>221</fpage>
+<lpage>226</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref13">
+<label>[12]</label>
+<mixed-citation>[12] Nasseri, S.H., Darvishi, D. (2016). Animal diet formulation with floating price. Iranian Journal of Optimization. 8(2), 101-110.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Nasseri</surname>
+<given-names>S.H.</given-names>
+</name>
+<name>
+<surname>Darvishi</surname>
+<given-names>D.</given-names>
+</name>
+</person-group>
+<article-title>Animal diet formulation with floating price</article-title>
+<source>Iranian Journal of Optimization.</source>
+<year>2016</year>
+<volume>8</volume>
+<issue>2</issue>
+<fpage>101</fpage>
+<lpage>110</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref14">
+<label>[13]</label>
+<mixed-citation>[13] NRC (2001). Nutrient Requirements of Dairy Cattle: Seventh Revised Edition, 2001 Subcommittee on Dairy Cattle Nutrition, Committee on Animal Nutrition, National Research Council. USA. ISBN: 0-309-51521-1.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<collab>NRC</collab>
+</person-group>
+<source>Subcommittee on Dairy Cattle Nutrition, Committee on Animal Nutrition, National Research Council</source>
+<year>2001</year>
+<series>Nutrient Requirements of Dairy Cattle: Seventh Revised Edition, 2001</series>
+<isbn>0-309-51521-1</isbn>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref15">
+<label>[14]</label>
+<mixed-citation>[14] Rostagno, H.S. (2005). Tablas Brasileñas para Aves y Cerdos - Composición de Alimentos y Requerimientos Nutricionales. 2da Edición. - Viçosa : UFV; Brasil.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Rostagno</surname>
+<given-names>H.S.</given-names>
+</name>
+</person-group>
+<source>Viçosa : UFV; Brasil</source>
+<year>2005</year>
+<edition>2da Edición</edition>
+<series>Tablas Brasileñas para Aves y Cerdos - Composición de Alimentos y Requerimientos Nutricionales</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref16">
+<label>[15]</label>
+<mixed-citation>[15] Santana, A.A., Pernía, L.A., y Santana, D.A., (2015). Historical, mathematical and nutritional bases of Pearson Square as a fit method for ruminant rations. Cuban Journal of Agricultural Science, 49(3), 279-288.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Santana</surname>
+<given-names>A.A.</given-names>
+</name>
+<name>
+<surname>Pernía</surname>
+<given-names>L.A.</given-names>
+</name>
+<name>
+<surname>Santana</surname>
+<given-names>D.A.</given-names>
+</name>
+</person-group>
+<article-title>Historical, mathematical and nutritional bases of Pearson Square as a fit method for ruminant rations</article-title>
+<source>Cuban Journal of Agricultural Science</source>
+<year>2015</year>
+<volume>49</volume>
+<issue>3</issue>
+<fpage>279</fpage>
+<lpage>288</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref17">
+<label>[16]</label>
+<mixed-citation>[16] Tamminga, S., y Hof, G. (2000). Feeding Systems and Feed Evaluation Models. Feeding Systems for Dairy Cows. CAB International. United Kingdom.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Tamminga</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Hof</surname>
+<given-names>G.</given-names>
+</name>
+</person-group>
+<source>CAB International. United Kingdom</source>
+<year>2000</year>
+<series>Feeding Systems and Feed Evaluation Models. Feeding Systems for Dairy Cows</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref18">
+<label>[17]</label>
+<mixed-citation>[17] Trujillo-Figueroa, V. (1987). Métodos matemáticos en la nutrición animal. Editorial McGraw-Hill. México.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Trujillo-Figueroa</surname>
+<given-names>V.</given-names>
+</name>
+</person-group>
+<source>Editorial McGraw-Hill</source>
+<year>1987</year>
+<publisher-loc>México</publisher-loc>
+<series>Métodos matemáticos en la nutrición animal</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref19">
+<label>[18]</label>
+<mixed-citation>[18] Varela, M.V., Suárez, L., Castro, M. &amp; Baldoquín, G. (1986). Álgebra lineal. Edit. Pueblo y Educación. La Habana. Cuba.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Varela</surname>
+<given-names>M.V.</given-names>
+</name>
+<name>
+<surname>Suárez</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Castro</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Baldoquín</surname>
+<given-names>G.</given-names>
+</name>
+</person-group>
+<source>Edit. Pueblo y Educación</source>
+<year>1986</year>
+<publisher-loc>La Habana. Cuba.</publisher-loc>
+<series>Álgebra lineal</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref20">
+<label>[19]</label>
+<mixed-citation>[19] Vargas, I. (2012). La entrevista en la investigación cualitativa: nuevas tendencias y retos. Revista Calidad en la Educación Superior. 3(1). Mayo. 119-139</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Vargas</surname>
+<given-names>I.</given-names>
+</name>
+</person-group>
+<article-title>La entrevista en la investigación cualitativa: nuevas tendencias y retos.</article-title>
+<source>Revista Calidad en la Educación Superior</source>
+<year>2012</year>
+<month>05</month>
+<volume>3</volume>
+<issue>1</issue>
+<fpage>119</fpage>
+<lpage>139</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617005_ref21">
+<label>[20]</label>
+<mixed-citation>[20] Webster, J. (1987). Understanding the dairy cow. BSP Professional Books. Printed in Great Britain by Billing and Sons Ltd. Worcester. United Kingdom.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Webster</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<source>BSP Professional Books. Printed in Great Britain by Billing and Sons Ltd. Worcester</source>
+<year>1987</year>
+<publisher-loc>United Kingdom</publisher-loc>
+<series>Understanding the dairy cow.</series>
+</element-citation>
+</ref>
+</ref-list>
+<fn-group>
+<title>Notas</title>
+<fn id="fn10" fn-type="other">
+<label>2</label>
+<p>Nota: Intencionalmente se muestra el cursor en las celdas para apreciar también cómo se calcula y en color rojo las necesidades a ajustar.</p>
+</fn>
+<fn id="fn11" fn-type="other">
+<label>3</label>
+<p>Nota: las pequeñas diferencias en algunos valores se deben al configurar los números con no mas tres dígitos decimales. Nótese que en los cálculos de las matrices (Figura <xref ref-type="fig" rid="gf3">3</xref>) aparecen los valores con todos sus dígitos.</p>
+</fn>
+<fn id="fn12" fn-type="other">
+<label>4</label>
+<p>Cynodon nlemfluensis</p>
+</fn>
+<fn id="fn13" fn-type="other">
+<label>5</label>
+<p>Cenchrus purpureus</p>
+</fn>
+<fn id="fn14" fn-type="other">
+<label>6</label>
+<p>Leucaena leucocephala</p>
+</fn>
+<fn id="fn15" fn-type="other">
+<label>7</label>
+<p>Por conceptos de mantenimiento, producción de leche y la calidad del pasto, también según las tablas de García Trujillo y Cáceres (1984)</p>
+</fn>
+<fn id="fn16" fn-type="other">
+<label>8</label>
+<p>El Consumo de Materia Seca (CMS) por los animales se estimó según la fórmula 1, de McCullough (1971) citado por Trujillo-Figueroa (1987):</p>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>CMS(kg) = 5, 830 + 0, 008P + 0, 359L + 4, 719G &#x2212; 0, 028C</mml:mi> </mml:math>
+<graphic xlink:href="607974617005_gi46.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>Donde: P = Peso vivo del animal (kg), L = Producción diaria de Leche (kg), G = Ganancia diaria de peso (kg) y C = Porcentaje del concentrado en la ración (%).</p>
+</fn>
+<fn id="fn17" fn-type="other">
+<label>9</label>
+<p>Nota: Intencionalmente se muestra el cursor en las celdas para apreciar también cómo se calcula y en color rojo las necesidades a ajustar.</p>
+</fn>
+</fn-group>
+</back>
+</article>

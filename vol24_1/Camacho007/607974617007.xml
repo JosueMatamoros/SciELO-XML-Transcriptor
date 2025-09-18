@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml-dtd" href="http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1d3" specific-use="Marcalyc 1.2" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="redalyc">6079</journal-id>
+<journal-title-group>
+<journal-title specific-use="original" xml:lang="en">Revista Digital: Matemática, Educación e Internet</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1659-0643</issn>
+<publisher>
+<publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+<publisher-loc>
+<country>Costa Rica</country>
+<email>revistadigitalmatematica@itcr.ac.cr</email>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="art-access-id" specific-use="redalyc">607974617007</article-id>
+<article-id pub-id-type="doi">https://doi.org/10.18845/rdmei.v24i1.6828</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículos</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title xml:lang="es">Un proyecto para fortalecer la enseñanza de las Matemáticas a nivel bachillerato en tiempos del Covid-19</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1172-0797</contrib-id>
+<name name-style="western">
+<surname>Camacho Medina</surname>
+<given-names>José de Jesús</given-names>
+</name>
+<xref ref-type="aff" rid="aff1"/>
+<email>pepe9mx@yahoo.com.mx</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Sociedad Científica Fresnillense A.C. Fresnillo, Zacatecas, México. pepe9mx@yahoo.com.mx</institution>
+<institution content-type="orgname">Sociedad Científica Fresnillense A.C. Fresnillo</institution>
+<country country="MX">México</country>
+</aff>
+<pub-date pub-type="epub-ppub">
+<season>Agosto-Febrero</season>
+<year>2023</year>
+</pub-date>
+<volume>24</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>20</lpage>
+<history>
+<date date-type="received" publication-format="dd mes yyyy">
+<day>20</day>
+<month>07</month>
+<year>2022</year>
+</date>
+<date date-type="accepted" publication-format="dd mes yyyy">
+<day>30</day>
+<month>06</month>
+<year>2023</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2023</copyright-year>
+<copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+<ali:free_to_read/>
+<license xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+<license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract xml:lang="es">
+<title>Resumen</title>
+<p>La pandemia del Covid-19 trajo consigo un cambio radical en el mundo en lo que concierne a la educación. El sector educativo se vio en la necesidad de adaptarse a un esquema de enseñanza virtual, en ese sentido, surge un nuevo reto para los docentes de Matemáticas. El presente trabajo se fundamenta en la experiencia de un profesor de bachillerato originario de la ciudad de Fresnillo, Zacatecas, México; el cual explora una solución al reto de fortalecer y complementar el estudio de las matemáticas en un modelo de aprendizaje a distancia. Se propone un proyecto basado en la creación e implementación de material didáctico audiovisual cuya funcionalidad se viene evaluando desde el mes de agosto de 2020.</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>The Covid-19 pandemic brought with it a radical change in the world as far as education is concerned. The educational sector saw the need to adapt a virtual teaching scheme, in this sense; a new challenge arises for Mathematics teachers. This work is based on the experience of a high school teacher from the city of Fresnillo, Zacatecas, Mexico who explores a solution to the challenge of strengthening and complementing the study of mathematics in a distance learning model. A project based on the creation and implementation of audiovisual didactic material is proposed whose functionality has been evaluated since August 2020.</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>Matemática educativa</kwd>
+<kwd>educación virtual</kwd>
+<kwd>estrategias tecnológicas</kwd>
+<kwd>aportes para la enseñanza de la Matemática</kwd>
+<kwd>proyecto didáctico remoto</kwd>
+<kwd>Covid-19</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>educational Mathematics</kwd>
+<kwd>virtual education</kwd>
+<kwd>technological strategies</kwd>
+<kwd>contributions for the teaching of Mathematics</kwd>
+<kwd>remote didactic project</kwd>
+<kwd>Covid-19</kwd>
+</kwd-group>
+<counts>
+<fig-count count="10"/>
+<table-count count="4"/>
+<equation-count count="0"/>
+<ref-count count="28"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>
+<bold>Introducción</bold>
+</title>
+<p>El día 11 de marzo de 2020; la organización mundial de la salud (OMS) declara el Covid-19 como pandemia (Galindo, 2021). De esta forma en México, durante el mes marzo de 2020; la Secretaría de Educación Pública emite una serie de acuerdos que promueven la suspensión de clases en todas las escuelas del país como medida para disminuir la propagación de la enfermedad (Zorrilla, 2021). Así mismo la secretaría de salud extiende un llamado a su población de “quedarse en casa” y salir únicamente por actividades esenciales debido al incremento de contagios. La educación virtual o a distancia es el modelo de enseñanza que ha tomado relevancia en el mundo debido a la pandemia del Covid – 19. Cabezas (2020), menciona que este escenario ha colocado a los docentes y alumnos en una adaptación donde se ha sustituido el aula por los recursos tecnológicos. Sánchez (2020) señala que décadas atrás, la educación virtual era vista con escepticismo, y hoy, ha cobrado mayor preponderancia y actualmente es una de las modalidades que se suma al servicio educativo de muchos países. Este cambio radical nos sitúa en el contexto de la enseñanza de una de las áreas más importantes: las Matemáticas, y a su vez nos hace plantear: ¿Cómo adecuar la enseñanza de esta materia en este escenario?</p>
+<p>Sánchez (2020), afirma que enseñar matemáticas de modo presencial ya era todo un reto, y en el modelo de la educación virtual, es aún más, pues el docente ha tenido que desarrollar o adquirir competencias digitales. Por lo tanto, lograr los aprendizajes esperados en los estudiantes con el uso de las herramientas tecnológicas, presenta tres desafíos: diseño de enseñanza, rol del docente y contexto.</p>
+<p>Curichumbi (2021), comenta que la realidad que hoy enfrenta la educación en el mundo en esta etapa virtual; requiere de nuevas estrategias de enseñanza para una buena adaptación del currículo de matemáticas. En ese sentido; es fundamental el uso adecuado de la tecnología y la mediación del docente para favorecer el aprendizaje en los estudiantes.</p>
+<p>El propósito de este artículo es presentar los resultados obtenidos tras aplicar un recurso didáctico basado en las tecnologías de la información y comunicación para fortalecer, promover y complementar el aprendizaje de las Matemáticas a nivel bachillerato en tiempos del Covid – 19. El proyecto se ha implementado desde agosto de 2020 a diciembre de 2022, y tuvo por objetivo evaluar la funcionalidad que producen los vídeos educativos y su concentración en un canal de Matemáticas, en los estudiantes de la Preparatoria y Academia Comercial “Remington” de la ciudad de Fresnillo, Zacatecas, México.</p>
+</sec>
+<sec>
+<title>
+<bold>Planteamiento del problema de investigación</bold>
+</title>
+<sec>
+<title>
+<bold>Problemática</bold>
+</title>
+<p>La Preparatoria y Academia Comercial “Remington” es una institución educativa de nivel medio superior ubicada en la ciudad de Fresnillo Zacatecas México. Ofrece la modalidad de Bachillerato General con una carrera de Contador Privado que se desarrolla en tres años (seis semestres).</p>
+<p>En lo que respecta al área de Matemáticas; sigue los lineamientos de la Dirección General de Bachillerato de la Secretaría de Educación Pública de México, y en tres años se deben cursar las materias que se muestran en la Tabla <xref ref-type="table" rid="gt1">1</xref>.</p>
+<p>
+<table-wrap id="gt1">
+<label>Tabla 1</label>
+<caption>
+<title>
+<bold>Tabla 1</bold>
+</title>
+</caption>
+<alt-text>Tabla 1 Tabla 1</alt-text>
+<alternatives>
+<graphic xlink:href="607974617007_gt2.png" position="anchor" orientation="portrait"/>
+<table id="gt2-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;">Primero</td>
+<td style="text-align: center;">Matemáticas I</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">Segundo</td>
+<td style="text-align: center;">Matemáticas II</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr>
+<td style="text-align: center;">Tercero</td>
+<td style="text-align: center;">Matemáticas III</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">Cuarto</td>
+<td style="text-align: center;">Matemáticas IV</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">Quinto</td>
+<td style="text-align: center;">Cálculo Diferencial</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">Quinto</td>
+<td style="text-align: center;">Probabilidad y Estadística I</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sexto</td>
+<td style="text-align: center;">Cálculo Integral</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sexto</td>
+<td style="text-align: center;">Probabilidad y Estadística II</td>
+<td style="text-align: center;">3</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>En marzo de 2020, se suspendieron las clases presenciales en la Preparatoria y Academia Comercial “Remington”, así como en las escuelas de todos los niveles educativos de la República Mexicana; por las disposiciones emitidas por la Secretaría de Educación Pública en acuerdo con el gobierno del país, debido al incremento de contagios por la enfermedad Covid-19.</p>
+<p>En ese sentido y por motivos de la contingencia sanitaria, la educación en México, como en otras partes del mundo, se ve obligada a pasar a un esquema de enseñanza informático. A partir del 20 de abril de 2020; la Secretaria de Educación Pública de México comienza a desplegar en su territorio el programa “Aprende en Casa” para educación básica y media superior, el cual integra una serie de recursos y materiales transmitidos por televisión y en línea.</p>
+<p>Las escuelas de México recurren adicionalmente a otras herramientas y recursos tecnológicos para fortalecer esta etapa de educación virtual, particularmente hacen uso de plataformas digitales como: Zoom Meeting, Moodle, Skype, Google Meeting, Google Classroom, Edmodo, WhatsApp y el correo electrónico. Lo anterior propició que los maestros se vieran en la necesidad de adecuar sus métodos de enseñanza y recursos didácticos en una nueva experiencia de aprendizaje en línea y adquirir capacidades digitales (De la Cruz y Ruiz, 2020).</p>
+<p>Para dar seguimiento y conclusión al semestre: enero - julio de 2020, la dirección de la Preparatoria y Academia Comercial “Remington”; toma la decisión de que las clases en línea sean trabajadas por medio de las plataformas: Zoom Meeting, Google Classroom y WhatsApp.</p>
+<p>Es ahí donde surge un desafío para todos los maestros de la citada institución educativa, particularmente para el titular del área de Matemáticas: diseñar un esquema de enseñanza para un modelo de educación virtual, que permita proveer de más recursos a los estudiantes a través de las herramientas tecnológicas, pues estas constituyen, un apoyo para su aprendizaje. Plasencia y Beltrán (2016) afirman, además, que la tecnología es un medio de motivación.</p>
+<p>Según Miranda (2018): ” Las causas asociadas al abandono escolar en la educación media superior en México son diversas, y entre ellas se identifica el bajo desempeño académico debido a factores asociados con prácticas pedagógicas inadecuadas” (pp. 6 - 10). Por otro lado, Coronel (2013), parafrasea al pedagogo Edgar Dale al describir una de las causas del fracaso escolar: “Uno de los principales motivos por los cuales la educación fracasa es la metodología que utiliza “(p. 2).</p>
+<p>Al concluir el semestre enero - julio de 2020, el cual se desarrolló bajo la modalidad virtual a partir del mes de abril; se realiza una reflexión sobre la experiencia docente en cuestiones de la actividad pedagógica y diversificación de estrategias didácticas en lo que respecta a los procesos de enseñanza y aprendizaje de la materia de Matemáticas en la Preparatoria y Academia Comercial “Remington”; y se identifica la siguiente problemática: se detectaron dificultades en el aprendizaje y asimilación de diversos contenidos; se identificó la necesidad de contar con material educativo adecuado a las exigencias propias de la modalidad para fortalecer y complementar los procesos de enseñanza y aprendizaje; de proveer al estudiante de un recurso didáctico adicional acorde al contexto y desarrollo de las clases, y a la dinámica del docente.</p>
+<p>Lo anterior encuentra respaldo por las inquietudes registradas de una cantidad considerable de estudiantes de los distintos semestres; quienes exponen comentarios sobre la necesidad de contar con recursos didácticos adicionales y materiales complementarios para el aprendizaje de los distintos tópicos de Matemáticas. A continuación, se pone en evidencia algunos planteamientos:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>“Una consulta Maestro, donde encuentro vídeos que tengan ejemplos del cálculo de integrales definidas, he consultado algunos de internet, pero me confunden un poco” (E. Ramírez, comunicación personal, 12 de mayo, 2020).</p>
+</list-item>
+<list-item>
+<p>“Profesor, tiene vídeos con ejercicios donde apliquemos las razones trigonométricas, he visto que en YouTube hay mucho material, pero no les entiendo a la mayoría y son de larga duración” (C. Barrón, comunicación personal, 21 de abril, 2020).</p>
+</list-item>
+<list-item>
+<p>“Maestro, algún material en donde vengan ejercicios de los que estamos viendo sobre la regla de Ruffini, he visto vídeos en algunos canales de internet, pero son extensos y me pierdo, tienen mucha publicidad” (O. Aviña, comunicación personal, 27 de abril, 2020).</p>
+</list-item>
+<list-item>
+<p>“Algún lugar en línea donde pueda ver explicaciones breves de ejercicios sobre la composición de funciones, he visitado sitios con explicaciones de profesores de otros países, pero su lenguaje y explicación me confunden un poco” (F. Arellano, comunicación personal, 26 de marzo, 2020).</p>
+</list-item>
+<list-item>
+<p>“Disculpe, un sitio en internet que me recomiende donde pueda ver vídeos con explicaciones simples, que no sean tan engorrosas sobre operaciones entre funciones” (I. Martínez, comunicación personal, 27 de marzo, 2020).</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Pregunta de investigación</bold>
+</title>
+<p>El problema de investigación surge en el ámbito de un esquema de enseñanza virtual ante la dificultad que presentan los alumnos de la Preparatoria “Remington” respecto a la comprensión de contenidos matemáticos durante el periodo abril de 2020 - julio de 2020. Se identifica la falta de recursos didácticos o materiales educativos, específicos al desarrollo de las clases, contexto y dinámica del docente; que promuevan y fortalezcan los procesos de enseñanza y aprendizaje.</p>
+<p>Para el semestre agosto de 2020 - diciembre de 2020; las autoridades educativas de México anuncian que las actividades en las escuelas seguirían operando bajo la modalidad en línea debido a la contingencia sanitaria. En ese contexto, la pregunta que guío el presente trabajo de investigación se enuncia a continuación:</p>
+<p>
+<italic>¿Cómo fortalecer y promover el aprendizaje de los distintos temas de matemáticas que se abordarán en todos los semestres de bachillerato bajo un modelo de enseñanza virtual en la Preparatoria y Academia Comercial “Remington”?</italic>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Objetivo general</bold>
+</title>
+<p>Se pretende diseñar una propuesta educativa basada en el desarrollo y aplicación de un recurso didáctico adicional y complementario, para las clases virtuales o remotas de la Preparatoria y Academia Comercial “Remington”; que sea capaz de promover la comprensión de los distintos temas de Matemáticas, y aumente la motivación en los alumnos de los distintos grados académicos para el semestre agosto - diciembre de 2020.</p>
+<p>Para lograr el objetivo general, se han planteado los siguientes objetivos específicos:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Identificar las dificultades y necesidades que los estudiantes presentaron en relación a la asimilación y comprensión de contenidos matemáticos bajo un esquema de educación a distancia en el periodo: abril - julio de 2020.</p>
+</list-item>
+<list-item>
+<p>Analizar la estrategia metodológica, el enfoque pedagógico y los recursos didácticos empleados, así como el rendimiento académico de los alumnos del semestre: enero - julio de 2020.</p>
+</list-item>
+<list-item>
+<p>Realizar una revisión de literatura sobre los recursos didácticos empleados, así como el rendimiento académico de los alumnos del semestre: enero - julio de 2020.</p>
+</list-item>
+<list-item>
+<p>Crear el recurso didáctico tomando en cuenta los aportes y aspectos que ofrecen las investigaciones educativas.</p>
+</list-item>
+<list-item>
+<p>Implementar el recurso didáctico en las clases virtuales de Matemáticas a partir del semestre agosto - diciembre de 2020.</p>
+</list-item>
+<list-item>
+<p>Diseñar y aplicar una encuesta para que los estudiantes describan su experiencia educativa y resultados en torno al uso de material didáctico desarrollado.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Hipótesis</bold>
+</title>
+<p>Si se integra e implementa una propuesta de enseñanza basada en la aplicación de recursos didácticos tecnológicos; que atienda las investigaciones en educación, entonces se promoverá en cierta medida, la comprensión de contenidos matemáticos en los alumnos de la Preparatoria y Academia Comercial “Remington”.</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Referentes teóricos y antecedentes</bold>
+</title>
+<sec>
+<title>
+<bold>La tecnología en la vida diaria y en la educación</bold>
+</title>
+<p>La sociedad actual está inmersa en la era de las tecnologías de la información y la comunicación. El avance científico y tecnológico conlleva a cambios que alcanzan a todos los ámbitos de la actividad humana como afirma Marqués (2012).</p>
+<p>Rizzo y Pérez (2018), mencionan que el uso de la tecnología en la vida diaria es parte fundamental, más aún si se trata de la educación. Plascencia y Beltrán (2016) comentan, sobre la creencia que persiste de que las tecnologías de la información y la comunicación (también denominadas Tics) han contribuido al mejoramiento de la sociedad aportando con nuevas oportunidades para acceder a un mundo globalizado, y que, además, son capaces de brindar un beneficio en materia educativa al extender el ámbito de estudio más allá de los límites físicos de la educación tradicional.</p>
+<p>Según Pineda (como se cita en Camacho y Camacho, 2020), las computadoras y los medios de comunicación e información han creado una magnífica mancuerna alrededor de internet, este vocablo ha pasado a ser un sinónimo de consultar, socializar, trabajar, comunicar, compartir, controlar, vender, comprar, etc.</p>
+<p>Mañas (2013) afirma que las diversas investigaciones y estudios sobre las Tics, de entre los que destacan los hechos por Artigue, Hollebrands y Santos - Trigo (2011), justifican su uso en las aulas debido a los beneficios que aportan en los procesos de enseñanza y aprendizaje. Así también Pérez (2010), expresa que de entre las ventajas que aportan las Tics en la educación se encuentran “la formación de entornos más flexibles, mayor cantidad de recursos, interactividad y la eliminación de las barreras espaciales y temporales” (p.2).</p>
+<p>En lo que respecta al campo de las Matemáticas; Caraballo y González (2014), señalan que la incorporación de tecnología informática en esta área cubre la necesidad de poner a disposición de docentes y estudiantes nuevas herramientas que faciliten la enseñanza y el aprendizaje de conceptos y contenidos, ya que se resuelven problemas y se contribuye a desarrollar nuevas capacidades cognitivas.</p>
+<p>Ramírez (2019), refiere que el uso de las tecnologías de la información da cabida al desarrollo de actividades innovadoras en los procesos de enseñanza y aprendizaje de las matemáticas, ya que propicia nuevas experiencias de formación, también alude a las investigaciones de Andrade y Montecino (2011) sobre si se utilizan nuevas estrategias de enseñanza y aprendizaje que estén apoyadas de los recursos tecnológicos.</p>
+<p>Aunado a ello, Del Río (2016), afirma que existen recursos informáticos que permiten graficar con facilidad; por ende el tipo de representaciones matemáticas que se obtienen por medio de programas y herramientas computacionales superan el carácter pasivo que poseen las representaciones tradicionales.</p>
+<p>Los beneficios de las Tics no son la solución definitiva a los problemas de la enseñanza y aprendizaje de las Matemáticas, pero si constituyen una herramienta didáctica poderosa y para la cual se necesita de docentes proactivos y reformadores que le den un uso adecuado a tal recurso. La utilización de recursos informáticos debe regirse bajo una planificación acertada por parte del maestro, cualquier alumno puede obtener beneficios del uso de herramientas informáticas que se puedan manipular, esto con el fin de poner al alcance modelos visuales que le darán respaldo al razonamiento matemático y a la capacidad de resolución de problemas (Ramírez, 2019).</p>
+<p>Gómez y Macedo (2010), expresan puntos fundamentales sobre el uso de las tecnologías de la información y comunicación (Tics) en la educación:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Los docentes deben adquirir nuevas estrategias de enseñanza que permitan desarrollar capacidades y habilidades en los alumnos, es fundamental el uso de herramientas tecnológicas.</p>
+</list-item>
+<list-item>
+<p>Los recursos tecnológicos deben usarse como apoyo para el aprendizaje académico, así como para la adquisición y desarrollo de competencias específicas en TIC. No debe planificarse su uso como una acción paralela a los procesos de enseñanza habitual; se debe integrar.</p>
+</list-item>
+<list-item>
+<p>La capacitación permanente de los docentes debe ser pertinente con el área que enseña y con el contexto en que se desenvuelve; las escuelas deben contemplar dentro del currículo a la tecnología como parte del aprendizaje.</p>
+</list-item>
+<list-item>
+<p>Lo relevante debe ser siempre lo educativo, no lo tecnológico</p>
+</list-item>
+<list-item>
+<p>Es el método o estrategia didáctica, junto con la planeación de lo que promueve el aprendizaje (pp. 15 - 16).</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Los materiales y recursos didácticos</bold>
+</title>
+<p>Según UNESCO, los materiales didácticos hacen referencia a aquellos medios y recursos que facilitan la enseñanza y el aprendizaje dentro de un contexto educativo, además apoyan el aprendizaje de los estudiantes y son aquellos con los que el estudiante interactúa en forma directa como parte de su proceso de construcción de conocimientos y que son concebidos, desde el mismo proceso de diseño, para sostener, apoyar, guiar y orientar los procesos de aprendizaje (Antonio, 2020). Bautista, et al. (2014), expresan que el término de material didáctico se utiliza para referirse a los recursos que los profesores emplean para apoyar su clase.</p>
+<p>Por otro lado, Vargas (2017) expresa, que se entiende por recurso didáctico al conjunto de medios materiales que intervienen y facilitan los procesos de enseñanza y aprendizaje. Estos materiales pueden ser tanto físicos como virtuales, asumen como condición, despertar el interés de los estudiantes, adecuarse a las características físicas y psíquicas de los mismos, además que facilitan la actividad docente al servir de guía; asimismo, tienen la gran virtud de adecuarse a cualquier tipo de contenido. Entre las funciones que tienen los recursos didácticos se encuentran: “Proporcionar información, cumplir un objetivo, guiar el proceso de enseñanza y aprendizaje, contextualizar a los estudiantes, que sea factible la comunicación entre docentes y alumnos, acercar las ideas a los sentidos, motivar a los estudiantes” (p. 2).</p>
+<p>Antonio (2020), cita a diversos autores respecto a los recursos didácticos: De acuerdo con Edel y Guerra (2010), los materiales son un medio educativo y, en un sentido amplio, se entienden como cualquier instrumento u objeto que pueda servir como recurso para que, mediante su manipulación, observación o lectura, ofrezcan oportunidades de aprender algo o bien con su uso se intervenga en el desarrollo de alguna función de la enseñanza. Los materiales comunican contenidos para su aprendizaje y pueden servir para estimular los procesos de enseñanza y aprendizaje, total o parcialmente. Para Moya (2017), los recursos didácticos se clasifican en recursos educativos didácticos y recursos educativos informáticos, y encontramos a: Textos impresos, material audiovisual, tableros didácticos, nuevas tecnologías de la información y comunicación y finalmente Martínez (2010), expresa que los recursos didácticos en educación a distancia se concentran en las categorías que describe la Tabla <xref ref-type="table" rid="gt2">2</xref>.</p>
+<p>
+<table-wrap id="gt2">
+<label>Tabla 2</label>
+<caption>
+<title>
+<bold>Tabla 2</bold>
+</title>
+</caption>
+<alt-text>Tabla 2 Tabla 2</alt-text>
+<alternatives>
+<graphic xlink:href="607974617007_gt3.png" position="anchor" orientation="portrait"/>
+<table id="gt3-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;">Libros</td>
+<td style="text-align: center;">Programas de Radio</td>
+<td style="text-align: center;">Videos</td>
+<td style="text-align: center;">CD’S</td>
+<td style="text-align: center;">Tecnologías de la información y comunicación</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Textos</td>
+<td style="text-align: center;">Podcast</td>
+<td style="text-align: center;">Video conferencia</td>
+<td style="text-align: center;">Redes Locales</td>
+<td style="text-align: center;">Internet</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Guías Programadas</td>
+<td style="text-align: center;">Audio conferencia</td>
+<td style="text-align: center;">Televisión</td>
+<td style="text-align: center;">Computadora más software herramienta</td>
+<td style="text-align: center;">Correo Electrónico</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Manuales</td>
+<td style="text-align: center;">Teléfono</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;">Computadora más software tutorial y sistema</td>
+<td style="text-align: center;">Foros de Discusión</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Unidades Didácticas</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;">Chat</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Fotografías</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Láminas</td>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>Vargas (2017) menciona, que la elaboración de los recursos en el contexto educativo debe desarrollarse de manera coordinada entre docentes y estudiantes e identificando las necesidades de la materia, estos recursos educativos didácticos coadyuvarán a los procesos de enseñanza y aprendizaje y que además se requiere del compromiso de los docentes y la actualización sobre el manejo de las nuevas Tecnologías de información y Comunicación.</p>
+<p>Bautista et al. (2014) afirman, que adaptarse a los planes de estudios y elaborar un excelente material didáctico para cumplir con los objetivos de los procesos de enseñanza y aprendizaje planteados en clase, no es una tarea fácil, y exponen que los profesores deben tener materiales didácticos innovadores en donde se incorporen recursos tecnológicos, pues estos traen consigo nuevas oportunidades para el entorno educativo y despiertan el interés y la motivación entre los estudiantes. El docente debe ser original en el entendido de anular lo tradicional, ser creativo, auténtico e innovador.</p>
+</sec>
+<sec>
+<title>
+<bold>Los videos educativos</bold>
+</title>
+<p>Según Jiménez (2019), el vídeo educativo es un recurso didáctico que favorece el aprendizaje en los estudiantes, facilita el proceso de enseñanza del docente, no reemplaza el trabajo del maestro, pero sí contribuye a que el alumno pueda acceder al conocimiento y además es una herramienta que motiva a los estudiantes por su propia naturaleza multimedia. Su clasificación abarca las siguientes categorías:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Documental: Es un medio que usa material actual y toma la forma que el autor le dé, posee elementos como la grabación de acción, material de stock, entrevistas, representaciones fieles y precisas de situaciones del pasado, títulos, encabezados, caricaturas, animaciones y gráficos en general, fotos inmóviles, pantalla en blanco, sonido sincronizado, música, silencio, efectos de sonido, narración. Este vídeo cumple con etapas de preproducción, la producción y la posproducción; se caracteriza por su formato descriptivo que busca registrar la vida del ser humano y crear conciencia en el mismo, además tiene la capacidad de profundizar un tema específico y para que sea efectivo requiere de una buena narración.</p>
+</list-item>
+<list-item>
+<p>Narrativo. Tiene la capacidad de contar historias mediante la sucesión de imágenes y sonidos, organiza los contenidos de forma metódica y sistemática.</p>
+</list-item>
+<list-item>
+<p>Mono conceptual. Transmite conceptos de muy corta duración y su enfoque es presentar un determinado concepto</p>
+</list-item>
+<list-item>
+<p>Temático. Muestra temas específicos donde el contenido es enlazado con la historia. Es usado para transmitir y reforzar los conocimientos de los estudiantes y su duración es de máximo 10 minutos.</p>
+</list-item>
+<list-item>
+<p>Motivador. Se encarga de despertar el interés de la audiencia</p>
+</list-item>
+</list>
+</p>
+<p>De los vídeos educativos se afirma que si se desea que su uso sea efectivo dentro de la enseñanza; estos deben reunir una serie de aspectos o características (Jiménez, 2019, p. 25):</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>El contenido.</p>
+</list-item>
+<list-item>
+<p>La intervención y actitud del docente.</p>
+</list-item>
+<list-item>
+<p>La potencialidad del video radica en su capacidad expresiva para transmitir contenido educativo mediante elementos audiovisuales.</p>
+</list-item>
+<list-item>
+<p>Una duración no tan extensa (los videos educativos cortos retienen más la atención del estudiante y permiten la transmisión de los contenidos deseados).</p>
+</list-item>
+<list-item>
+<p>El enfoque pedagógico.</p>
+</list-item>
+</list>
+</p>
+<p>Por otra parte García (2014) expresa, que el video con fines didácticos constituye una excelente vía para el logro de aprendizajes significativos sin dejar a un lado la guía y orientación del docente durante los procesos de enseñanza y aprendizaje, tal y como se muestra en la tabla <xref ref-type="table" rid="gt3">3</xref>. Además, tiene múltiples funciones como: “Transmitir información, motivar, proveer de conocimiento, evaluar los conocimientos y habilidades alcanzadas por los estudiantes, formar al cuerpo docente, son un recurso para la investigación educativa y funge como instrumento de comunicación y alfabetización icónica de los estudiantes” (p. 23).</p>
+<p>
+<table-wrap id="gt3">
+<label>Tabla 3</label>
+<caption>
+<title>
+<bold>Tabla 3</bold>
+</title>
+</caption>
+<alt-text>Tabla 3 Tabla 3</alt-text>
+<alternatives>
+<graphic xlink:href="607974617007_gt4.png" position="anchor" orientation="portrait"/>
+<table id="gt4-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: left;">Incluye la posibilidad de múltiples observaciones y múltiples observadores.</td>
+<td style="text-align: left;">Diagnosticar y caracterizar a sus estudiantes.</td>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;"/>
+</tr>
+<tr>
+<td style="text-align: left;">La fusión con otros medios tales como la televisión, el cine y el multimedia.</td>
+<td style="text-align: left;">Analizar los objetivos de la asignatura.</td>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;"/>
+</tr>
+<tr>
+<td style="text-align: left;">La facilidad de uso y su versatilidad.</td>
+<td style="text-align: left;">Formular el o los objetivos que se quieren alcanzar.</td>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;"/>
+</tr>
+<tr>
+<td style="text-align: left;">Se pueden utilizar en diferentes niveles educativos.</td>
+<td style="text-align: left;">Observar previamente el material.</td>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;">Elaborar la guía didáctica.</td>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;"/>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;">Planificar las actividades a desarrollar antes, durante y después del video.</td>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;"/>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;">Determinar otras fuentes de información.</td>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;"/>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;">Planificar la integración de los conocimientos con otras asignaturas y disciplinas.</td>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;"/>
+</tr>
+<tr>
+<td style="text-align: left;"/>
+<td style="text-align: left;">Se pueden utilizar en diferentes niveles educativos.</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Sobre los videos tutorial de Matemática alojados en sitios de internet</bold>
+</title>
+<p>Rivadeneira (2013) comenta que el éxito en la enseñanza de la Matemática se basa en la interacción alumno-maestro. Por lo tanto, se requiere de metodologías y estrategias dinámicas que hagan uso de las herramientas que hoy existen gracias a la tecnología. En particular, afirma que la utilización de videos alojados en plataformas como YouTube es un apoyo de gran importancia en los procesos de enseñanza y aprendizaje de la Matemática. Sugiere que estos cambios en la predisposición y en la forma de estudiar esta ciencia conllevan a un mejor rendimiento académico. Rivadeneira (2013) expresa que en el sitio de internet "YouTube" se pueden encontrar videos tipo tutorial de temáticas específicas para aprender matemáticas. Estos videos han sido desarrollados por docentes de diferentes partes del mundo y permiten al estudiante observar un contenido desde diferentes enfoques. Dentro de los canales educativos que cuentan con gran popularidad, se puede encontrar a "JulioProfe" de Julio Ríos (<ext-link ext-link-type="uri" xlink:href="https://www.youtube.com/@julioprofe">https://www.youtube.com/@julioprofe</ext-link>) y "math2me" de Jose Andalón y María González (<ext-link ext-link-type="uri" xlink:href="https://www.youtube.com/@math2me">https://www.youtube.com/@math2me</ext-link>).</p>
+<p>Roque (2020) menciona, que los vídeos tutoriales de plataformas como YouTube se han convertido en una herramienta de aprendizaje autónomo que promueve el pensamiento reflexivo en los estudiantes; no sustituyen al docente, sin embargo, enriquecen el abanico de estímulos para promover el aprendizaje. Este tipo de recursos debe ser aprovechado como un complemento o apoyo para las actividades escolares, pues se puede implementar en todo momento, lugar y las veces que se requiera, se recomienda que los profesores de cada materia sean quienes creen sus vídeos o recomendar algunos de los tantos que existen en esa plataforma y concluye “Se deben tomar en cuenta criterios relacionados con la calidad didáctica y la duración (de tres a ocho minutos” (Roque, 2020, p.17).</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Métodos</bold>
+</title>
+<p>El tema principal de este trabajo, se centra en la propuesta de crear vídeos educativos de los diversos temas de Matemática y distintos grados académicos; para implementarlos como un recurso didáctico en un modelo de educación a distancia llevado a cabo por la Preparatoria y Academia Comercial “Remington” de la ciudad de Fresnillo, Zacatecas, México. Se toma en consideración los aspectos mencionados por Bautista et al (2014), García (2014), Jiménez (2019), Rivadeneira (2013), Roque (2020) y Vargas (2017), bajo la hipótesis de que su uso e implementación puede beneficiar, fortalecer y complementar el aprendizaje de los estudiantes respecto al área de las Matemáticas.</p>
+<p>La investigación tiene un enfoque cualitativo, ya que es una actividad orientada a la descripción de un fenómeno educativo (Bisquerra, 2009), siendo este el análisis y reflexión a partir de la implementación y aplicación de los videos educativos como recurso didáctico. El propósito es describir su funcionalidad en un modelo de educación virtual debido a la pandemia del Covid-19.</p>
+<p>En la primera fase se utilizó una bitácora para registrar los comentarios y planteamientos de los estudiantes, en el periodo: abril de 2020 - julio de 2020; en lo que respecta a las necesidades de contar con recursos didácticos adicionales para fortalecer su aprendizaje, así como de las dificultades que tuvieron en cuanto la asimilación de contenidos matemáticos.</p>
+<p>En la segunda fase se analizó la estrategia metodológica y los recursos didácticos empleados por el docente, así como el rendimiento académico. Se hizo una revisión de la literatura mostrando un contexto general del uso de las tecnologías de la información y comunicación en la educación.</p>
+<p>En una tercera fase, bajo la pregunta: ¿Cuál será el recurso didáctico más adecuado para un esquema de educación a distancia que permita fortalecer y complementar el estudio de las Matemáticas durante el semestre agosto - diciembre de 2020?</p>
+<p>Tomando en cuenta el modelo de la educación a distancia, la experiencia del semestre anterior y el enfoque pedagógico; se opta por la creación de vídeos educativos debido a su versatilidad, ya que se pueden reutilizar y reproducir las veces que sea necesario, se conservan e intercambian con facilidad, la información y el mensaje permanecen y esto permite reforzar el conocimiento, tienen un carácter motivacional, incrementan la calidad de la información y dan paso a una edición apropiada para una narración educativa, tal como lo sugieren las investigaciones de Bautista et al (2014), García (2014), Jiménez (2019), Rivadeneira (2013), Roque (2020) y Vargas (2017).</p>
+<p>Como resultado de las anteriores fases; los vídeos educativos se vienen aplicando desde agosto de 2020 a diciembre de 2022, en las clases virtuales de Matemáticas que se imparten en todos los semestres en la Preparatoria y Academia Comercial “Remington” de la ciudad de Fresnillo, Zacatecas, México, esto, bajo la orientación y mediación del docente.</p>
+<p>Con el propósito de evaluar la funcionalidad de los vídeos realizados, tal como lo sugiere Bisquerra (2009) para las investigaciones de enfoque cualitativo, y describir la aceptación y experiencia de los estudiantes; se utiliza el instrumento de recolección de datos: “Encuesta sobre los vídeos educativos del canal de Matemáticas El Profe Camacho". El cuestionario se ha diseñado a través de un formulario electrónico (Google Forms) con un formato de seis preguntas cerradas, y una pregunta de tipo abierta tal como se muestra en la Tabla <xref ref-type="table" rid="gt4">4</xref>. Según Meneses (2016), son muchas las virtudes que nos aportan las preguntas cerradas: “El fácil tratamiento de la información, la precisión con la que los participantes informan, la reducción de errores de comprensión sobre la pregunta, y el control sobre la dispersión que podría hacer inviable el tratamiento significativo de las respuestas”.</p>
+<p>
+<table-wrap id="gt4">
+<label>Tabla 4</label>
+<caption>
+<title>
+<bold>Tabla 4</bold>
+</title>
+</caption>
+<alt-text>Tabla 4 Tabla 4</alt-text>
+<alternatives>
+<graphic xlink:href="607974617007_gt5.png" position="anchor" orientation="portrait"/>
+<table id="gt5-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;" rowspan="3">Pregunta 1</td>
+<td style="text-align: center;" rowspan="3">¿Al consultar los vídeos educativos siente que mejoró su comprensión en algún o algunos temas de Matemáticas?</td>
+<td style="text-align: center;">Sí</td>
+<td style="text-align: center;">74</td>
+</tr>
+<tr>
+<td style="text-align: center;">En parte</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">No</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;" rowspan="3">Pregunta 2</td>
+<td style="text-align: center;" rowspan="3">¿Se tuvo mejoras en sus calificaciones o en el rendimiento académico gracias a la consulta de los vídeos educativos?</td>
+<td style="text-align: center;">Sí</td>
+<td style="text-align: center;">60</td>
+</tr>
+<tr>
+<td style="text-align: center;">En parte</td>
+<td style="text-align: center;">15</td>
+</tr>
+<tr>
+<td style="text-align: center;">No</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;" rowspan="6">Pregunta 3</td>
+<td style="text-align: center;" rowspan="6">¿Los vídeos educativos del canal de Matemáticas “El Profe Camacho" despejaron sus dudas?</td>
+<td style="text-align: center;">Sí</td>
+<td style="text-align: center;">46</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sí, con el refuerzo del docente</td>
+<td style="text-align: center;" rowspan="2">25</td>
+</tr>
+<tr>
+<td style="text-align: center;">No, se ocupó de la intervención del docente</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Alta</td>
+<td style="text-align: center;">60</td>
+</tr>
+<tr>
+<td style="text-align: center;">Media</td>
+<td style="text-align: center;">15</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;">Baja</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;" rowspan="4">Pregunta 5</td>
+<td style="text-align: center;" rowspan="4">De acuerdo con su experiencia, ¿Qué le parece el proyecto del canal “El Profe Camacho” como sitio que alberga vídeos educativos para fortalecer el aprendizaje de las Matemáticas?</td>
+<td style="text-align: center;">Excelente</td>
+<td style="text-align: center;">59</td>
+</tr>
+<tr>
+<td style="text-align: center;">Bueno</td>
+<td style="text-align: center;">16</td>
+</tr>
+<tr>
+<td style="text-align: center;">Regular</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Deficiente</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;" rowspan="2">Pregunta 6</td>
+<td style="text-align: center;" rowspan="2">¿Recomendaría el canal de Matemáticas “El Profe Camacho" con algún conocido o familiar?</td>
+<td style="text-align: center;">Sí</td>
+<td style="text-align: center;">75</td>
+</tr>
+<tr>
+<td style="text-align: center;">No</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Pregunta 7</td>
+<td style="text-align: center;">Escriba una opinión sobre los vídeos educativos.</td>
+<td style="text-align: center;" colspan="2">Pregunta abierta</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Resultados</bold>
+</title>
+<sec>
+<title>
+<bold>El proyecto</bold>
+</title>
+<p>Los vídeos con las explicaciones de los distintos temas de Matemáticas, se desarrollaron mediante un programa multimedia de la paquetería de Microsoft Office: “Power Point”. Su grabación se realizó mediante la aplicación zoom; ateniendo a los aspectos y recomendaciones que los vídeos educativos deben tener para su uso efectivo, tal como se describe en las investigaciones de Bautista et al (2014), García (2014), Jiménez (2019), Rivadeneira (2013), Roque (2020) y Vargas (2017), y además, se tomó en cuenta la especificación del plan y temporalización del vídeo didáctico, la documentación, el guion y la producción que Castaño y Romero sugieren para la producción de un medio, según citan Morales y Guzmán (2014).</p>
+<p>La implementación de este recurso educativo, se dio durante el desarrollo del semestre agosto - diciembre de 2020 al semestre agosto – diciembre de 2022, en las clases en línea de la Preparatoria y Academia Comercial “Remington”, a la fecha, se viene evaluando su funcionalidad.</p>
+<p>Los vídeos educativos son de tipo narrativo y temático, tienen una duración promedio de 3 - 4 minutos, y ofrecen un entorno visual amigable e interactivo con elementos multimedia. Durante su reproducción encontramos tres etapas:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Introducción. Saludo y presentación del tema que se quiere abordar</p>
+</list-item>
+<list-item>
+<p>Desarrollo. Explicación concisa de algún contenido matemático donde se trabajan entre uno y dos ejemplos (un poco de teoría y practica).</p>
+</list-item>
+<list-item>
+<p>Cierre. Palabras de despedida y agradecimiento.</p>
+</list-item>
+</list>
+</p>
+<p>Debido a la considerable cantidad de vídeos educativos elaborados, se decidió albergar todo este material didáctico en internet, y aprovechar las ventajas que ofrecen las tecnologías de la información y comunicación. Para ello se crea un canal de Matemáticas abierto y gratuito en las plataformas de Facebook y YouTube, el cual lleva por nombre “El Profe Camacho”, y en donde se almacenan todos los vídeos educativos creados para ponerlos al alcance de los estudiantes de la Preparatoria y Academia Comercial “Remington”, y de cualquier persona del mundo que tenga acceso a internet y que ocupe de fortalecer y complementar el estudio de las Matemáticas tal como se aprecia en las figuras <xref ref-type="fig" rid="gf2">1</xref> y <xref ref-type="fig" rid="gf3">2</xref>.</p>
+<p>
+<fig id="gf2">
+<label>Figura 1</label>
+<caption>
+<title>Pantalla de un vídeo educativo "Calcular el límite de una función mediante una tabla de valores"</title>
+</caption>
+<alt-text>Figura 1 Pantalla de un vídeo educativo "Calcular el límite de una función mediante una tabla de valores"</alt-text>
+<graphic xlink:href="607974617007_gf12.png" position="anchor" orientation="portrait"/>
+<attrib> Imagen obtenida del canal “El Profe Camacho”.</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf3">
+<label>Figura 2</label>
+<caption>
+<title>Pantalla de un vídeo educativo "Representación de una función en sus formas verbal algebraica tabla parejas ordenadas y gráfica"</title>
+</caption>
+<alt-text>Figura 2 Pantalla de un vídeo educativo "Representación de una función en sus formas verbal algebraica tabla parejas ordenadas y gráfica"</alt-text>
+<graphic xlink:href="607974617007_gf13.png" position="anchor" orientation="portrait"/>
+<attrib>Imagen obtenida ´ del canal “El Profe Camacho”.</attrib>
+</fig>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Sitio para el aprendizaje de las matemáticas “El Profe Camacho”</bold>
+</title>
+<p>En las plataformas de YouTube y Facebook; se encuentra el canal “El Profe Camacho”, el cual viene operando desde el mes de agosto de 2020. Actualmente el espacio cuenta con aproximadamente 270 vídeos educativos sobre matemáticas, principalmente para el nivel de bachillerato.</p>
+<p>En la plataforma de YouTube, actualmente el canal cuenta con 1030 suscriptores y alrededor de 190,000 visualizaciones de los materiales educativos, tal y como se muestra en las figuras <xref ref-type="fig" rid="gf5">3</xref> y <xref ref-type="fig" rid="gf6">4</xref>. Los principales países de consulta son México, Colombia, Perú, Chile, Bolivia, Panamá, Nicaragua, Venezuela, Honduras, Costa Rica, Estados Unidos, Guatemala, Ecuador, España, Argentina y El Salvador. La dirección del canal es: <ext-link ext-link-type="uri" xlink:href="https://www.youtube.com/@elprofecamacho5731">https://www.youtube.com/@elprofecamacho5731</ext-link>.</p>
+<p>
+<fig id="gf5">
+<label>Figura 3</label>
+<caption>
+<title>Apariencia del canal de Matemáticas "El Profe Camacho" en la plataforma de YouTube</title>
+</caption>
+<alt-text>Figura 3 Apariencia del canal de Matemáticas "El Profe Camacho" en la plataforma de YouTube</alt-text>
+<graphic xlink:href="607974617007_gf14.png" position="anchor" orientation="portrait"/>
+<attrib>Imagen obtenida del canal “El Profe Camacho”.</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf6">
+<label>Figura 4</label>
+<caption>
+<title>Información del canal de Matemáticas "El Profe Camacho" en la plataforma de YouTube</title>
+</caption>
+<alt-text>Figura 4 Información del canal de Matemáticas "El Profe Camacho" en la plataforma de YouTube</alt-text>
+<graphic xlink:href="607974617007_gf16.png" position="anchor" orientation="portrait"/>
+<attrib>Imagen obtenida del canal “El Profe Camacho”.</attrib>
+</fig>
+</p>
+<p>En la plataforma de Facebook hasta el 10 de julio de 2023; se cuenta con alrededor de 3000 suscriptores, y aproximadamente 150,000 visualizaciones de los materiales educativos, tal y como se muestra en la figura <xref ref-type="fig" rid="gf7">5</xref>. Siendo los principales países de consulta: México, Colombia, Perú, Estados Unidos, Guatemala, Bolivia, Ecuador, España, Argentina y el Salvador. La dirección del canal es: <ext-link ext-link-type="uri" xlink:href="https://www.facebook.com/elprofecamacho">https://www.facebook.com/elprofecamacho</ext-link>
+</p>
+<p>
+<fig id="gf7">
+<label>Figura 5</label>
+<caption>
+<title>Apariencia del canal de Matemáticas "El Profe Camacho" en la plataforma de Facebook</title>
+</caption>
+<alt-text>Figura 5 Apariencia del canal de Matemáticas "El Profe Camacho" en la plataforma de Facebook</alt-text>
+<graphic xlink:href="607974617007_gf17.png" position="anchor" orientation="portrait"/>
+<attrib>Imagen obtenida de la página “El Profe Camacho”.</attrib>
+</fig>
+</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Aplicación del Instrumento de Investigación</bold>
+</title>
+<p>Al aplicar el instrumento de investigación “Encuesta sobre los vídeos educativos del canal de Matemáticas El Profe Camacho” a 75 estudiantes (80.64% de la población), se encontraron aspectos muy importantes que se ofrecen en forma de síntesis.</p>
+<p>El gráfico de resultados correspondiente a las preguntas 1 y 2 se ilustra en la figura <xref ref-type="fig" rid="gf8">6</xref>, y muestra que 74 estudiantes (98.66%), consideran que la consulta de vídeos educativos sí les permitió mejorar su comprensión sobre algún o algunos temas de Matemáticas. Un estudiante (1.333%), mencionan que en parte. Por otro lado, 60 alumnos (80%) concluyen que sí tuvieron mejoras en su rendimiento escolar gracias a la consulta de los vídeos educativos y los 15 alumnos restantes (20%), afirman que en parte.</p>
+<p>
+<fig id="gf8">
+<label>Figura 6</label>
+<caption>
+<title>Gráfico de resultados de las preguntas 1 y 2</title>
+</caption>
+<alt-text>Figura 6 Gráfico de resultados de las preguntas 1 y 2</alt-text>
+<graphic xlink:href="607974617007_gf18.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>Los resultados de la pregunta 3 se ilustran en la figura <xref ref-type="fig" rid="gf9">7</xref>, y revelan que 46 alumnos (61.33%) expresan que los vídeos educativos sí despejaron todas sus dudas. 25 alumnos (33.33%) concluyen que los vídeos educativos si despejaron todas sus dudas, pero con el refuerzo del docente, y finalmente 4 alumnos (5.333%) consideran que necesitaron de la intervención del docente.</p>
+<p>
+<fig id="gf9">
+<label>Figura 7</label>
+<caption>
+<title>Gráfico de resultados de la pregunta 3</title>
+</caption>
+<alt-text>Figura 7 Gráfico de resultados de la pregunta 3</alt-text>
+<graphic xlink:href="607974617007_gf20.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>Los resultados de la pregunta 4 se observan en la figura <xref ref-type="fig" rid="gf10">8</xref>, y evidencian que 60 alumnos (80%), consideran que los vídeos educativos son de alta calidad en cuanto a su capacidad por transmitir algún contenido, el tiempo de duración, los elementos multimedia, la voz y el diseño. 15 alumnos (20%) concluyen que su calidad es media, y ningún estudiante expresa que sean de baja calidad en cuanto a los parámetros mencionados.</p>
+<p>
+<fig id="gf10">
+<label>Figura 8</label>
+<caption>
+<title>Gráfico de resultados de la pregunta 4</title>
+</caption>
+<alt-text>Figura 8 Gráfico de resultados de la pregunta 4</alt-text>
+<graphic xlink:href="607974617007_gf21.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>El gráfico de los resultados de la pregunta 5 se ilustra en la figura <xref ref-type="fig" rid="gf11">9</xref>, y revela que 59 alumnos (78.66%) expresan que el proyecto basado en la creación e implementación de los vídeos educativos les parece excelente. 16 alumnos (21.33%) concluyen que es bueno. No se registran casos que indiquen que el proyecto les parezca regular o deficiente.</p>
+<p>
+<fig id="gf11">
+<label>Figura 9</label>
+<caption>
+<title>Gráfico de resultados de la pregunta 5</title>
+</caption>
+<alt-text>Figura 9 Gráfico de resultados de la pregunta 5</alt-text>
+<graphic xlink:href="607974617007_gf22.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>Los resultados de la pregunta 6 se ilustran en la figura <xref ref-type="fig" rid="gf12">10</xref>, y concluyen que los 75 alumnos (100% del total de encuestados) expresaron que sí recomendarían los vídeos educativos del proyecto.</p>
+<p>
+<fig id="gf12">
+<label>Figura 10</label>
+<caption>
+<title>Gráfico de resultados de la pregunta 6</title>
+</caption>
+<alt-text>Figura 10 Gráfico de resultados de la pregunta 6</alt-text>
+<graphic xlink:href="607974617007_gf23.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>En cuanto a la pregunta 7, que consiste en escribir una opinión sobre el proyecto de los vídeos educativos. Se obtuvieron entre otras, las siguientes respuestas:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>“Son bastante concretos y claros, son un buen apoyo a la hora de de consultar dudas” (L. Ramos, comunicación personal, 3 de diciembre, 2020).</p>
+</list-item>
+<list-item>
+<p>“La verdad son muy buenos, yo los consulto cada que tengo alguna duda acerca del tema, y sí, noto mejorías cuando realizo ejercicios (L. Hernández, comunicación personal, 3 de diciembre, 2020). </p>
+</list-item>
+<list-item>
+<p>"Realmente se me hacen de muy buena calidad, ya que explica de una forma muy sencilla, deja todo muy claro" (A. Vázquez, comunicación personal, 3 de diciembre, 2020).</p>
+</list-item>
+<list-item>
+<p>"Me gustan porque me ayudan a resolver mis dudas o cuando se me atora algún ejercicio, me ayudan mucho a recordar" (J. Muñoz, comunicación personal, 10 de diciembre, 2020).</p>
+</list-item>
+<list-item>
+<p>"Me sirven mucho al momento de tener una duda cuando estoy haciendo algún ejercicio y me agrada cómo explica las cosas de manera muy ordenada" (A. Quintero, comunicación personal, 3 de diciembre, 2020).</p>
+</list-item>
+<list-item>
+<p>"Para mí es un canal muy bueno porque desde que empezó hasta la fecha he consultado sus videos para sacarme de dudas y reforzar mi conocimiento en la materia. Con los videos estudio para mis exámenes, lo recomiendo ampliamente" (R. Montoya, comunicación personal, 14 de octubre, 2021).</p>
+<p>"Se expresa muy bien, ya que tiene conocimiento sobre los temas que se abordan, y con los varios ejemplos refuerza la explicación y se le entiende mejor" (A. Rodríguez, comunicación personal, 14 de octubre, 2021).</p>
+</list-item>
+<list-item>
+<p>"Se me hacen una forma muy fácil de abordar los temas, ya que rápido se logra la comprensión y no es tan tedioso, pues los vídeos son de poca duración" (E. Correa, comunicación personal, 14 de octubre, 2021).</p>
+</list-item>
+<list-item>
+<p>"Son muy buenos ya que pude entender varios temas como las fracciones, graficar en el plano cartesiano, aplicar la regla de tres, entre otros. Si ayudan mucho junto con la explicación del docente" (E. Montoya, comunicación personal, 14 de octubre, 2021).</p>
+</list-item>
+<list-item>
+<p>"En mi opinión, son videos educativos excelentes ya que en cada uno de ellos nos plantean un problema y después va resolviéndolo paso a paso, con diferentes ejemplos. Además, la calidad de sus videos es muy buena tanto en sonido como en lo visual. Esto influye en que el alumno o la persona interesada en aprender vea todo más claro y pueda comprender mejor el problema. Es un proyecto muy bueno con el fin de ayudar a cualquier persona" (S. Martínez, comunicación personal, 14 de octubre, 2021).</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Conclusiones</bold>
+</title>
+<p>En este trabajo se presenta una experiencia educativa a partir de la creación e implementación de material didáctico audiovisual para el área de las matemáticas a nivel bachillerato, en un modelo de educación a distancia. Se obtienen las siguientes conclusiones:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Las investigaciones sobre recursos didácticos de Bautista et al. (2014), García (2014), Jiménez (2019), Rivadeneira (2013), Roque (2020) y Vargas (2017) tienen total validez en el contexto de un modelo de educación a distancia.</p>
+</list-item>
+<list-item>
+<p>La mayoría de los estudiantes encuentran que los vídeos educativos implementados en el aula virtual favorecieron y promovieron su aprendizaje en el área de las matemáticas. Se atendieron demandas particulares, por lo que la hipótesis planteada en este trabajo es aceptada.</p>
+</list-item>
+<list-item>
+<p>Se infiere a partir de los resultados que existe un alto grado de aceptabilidad respecto al uso de vídeos educativos como recurso didáctico para el área de las Matemáticas en un escenario de educación virtual. La encuesta muestra opiniones favorables respecto a la propuesta del docente.</p>
+</list-item>
+<list-item>
+<p>Los estudiantes encuestados expresaron que los vídeos educativos favorecieron su aprendizaje y comprensión de los distintos contenidos matemáticos abordados en clase. Se identifica una disminución considerable de dudas, y a su vez, afirmaron mejoras en su rendimiento académico.</p>
+</list-item>
+<list-item>
+<p>En general, los alumnos consideran que los vídeos educativos son de buena calidad, cuyas explicaciones son claras y concretas, lo cual despierta su motivación e interés. Esto nos permite concluir que se trata de un recurso didáctico de gran apoyo que debe tomarse en cuenta dentro de una estrategia pedagógica en el área de las Matemáticas para el nivel de bachillerato, atendiendo a los criterios que exponen las investigaciones de Bautista et al. (2014), García (2014), Jiménez (2019), Rivadeneira (2013), Roque (2020) y Vargas (2017).</p>
+</list-item>
+<list-item>
+<p>La aplicación de los vídeos educativos en un escenario virtual nos permite observar la funcionalidad de este tipo de recurso didáctico; ya que se promueven y fortalecen los procesos de enseñanza y aprendizaje de las Matemáticas. Esto sin dejar a un lado la mediación del docente dentro del proceso pedagógico. La presencia del maestro es necesaria y fundamental, el recurso didáctico no le sustituye, sino que funge como un complemento o apoyo para el logro de objetivos.</p>
+</list-item>
+<list-item>
+<p>La encuesta revela lo expuesto por Jiménez (2020): los vídeos educativos de tipo narrativo y temático, con alta potencia expresiva, elementos multimedia y de corta duración, son una herramienta didáctica que facilita la comprensión de los temas y mantiene el interés de los estudiantes durante su reproducción.</p>
+</list-item>
+<list-item>
+<p>La pandemia del Covid-19 trajo consigo nuevos desafíos en el sector de la educación. Es necesario que los docentes reflexionen sobre las nuevas oportunidades que se han presentado en torno al uso de recursos tecnológicos para lograr el aprendizaje en los estudiantes mediante el diseño de estrategias y recursos didácticos. Es de suma importancia que adecuen su pedagogía a escenarios virtuales de enseñanza, a modelos educativos informáticos. Por ello, se recomienda que los maestros adquieran competencias digitales mediante la realización de cursos, talleres, seminarios y prácticas, con el firme objetivo de innovar su quehacer pedagógico.</p>
+</list-item>
+</list>
+</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>Referencias</title>
+<ref id="redalyc_607974617007_ref1">
+<label>[1]</label>
+<mixed-citation>[1] Antonio, T. (2020). Importancia de los materiales y recursos didácticos. Universidad Autónoma Benito Juárez de Oaxaca, México. Sistema de Educación a distancia. http://cecad-uabjo.mx/recursos_didaacticos.pdf.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Antonio</surname>
+<given-names>T.</given-names>
+</name>
+</person-group>
+<article-title>Importancia de los materiales y recursos didácticos.</article-title>
+<source>Universidad Autónoma Benito Juárez de Oaxaca, México. Sistema de Educación a distancia.</source>
+<year>2020</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://cecad-uabjo.mx/recursos_didaacticos.pdf">http://cecad-uabjo.mx/recursos_didaacticos.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref2">
+<label>[2]</label>
+<mixed-citation>[2] Bautista, M., Martínez, A., Hiracheta, R. (2014). El uso de material didáctico y las tecnologías de información y comunicación (Tics) para mejorar el alcance académico. Ciencia y Tecnología, 14, 2014, pp. 183-194 ISSN 1850-0870.Universidad Autónoma de Nuevo León, México. https://doi.org/10.18682/cyt.v1i14.217.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bautista</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Martínez</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Hiracheta</surname>
+<given-names>R.</given-names>
+</name>
+</person-group>
+<article-title>El uso de material didáctico y las tecnologías de información y comunicación (Tics) para mejorar el alcance académico</article-title>
+<source>Universidad Autónoma de Nuevo León</source>
+<year>2014</year>
+<volume>14</volume>
+<fpage>183</fpage>
+<lpage>194</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18682/cyt.v1i14.217">https://doi.org/10.18682/cyt.v1i14.217</ext-link>
+</comment>
+<issn>1850-0870</issn>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref3">
+<label>[3]</label>
+<mixed-citation>[3] Bisquerra, R. (2009). Metodología de la Investigación Educativa Segunda Edición. Madrid: La Muralla.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Bisquerra</surname>
+<given-names>R.</given-names>
+</name>
+</person-group>
+<source>Madrid: La Muralla.</source>
+<year>2009</year>
+<chapter-title>Metodología de la Investigación Educativa Segunda Edición.</chapter-title>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref4">
+<label>[4]</label>
+<mixed-citation>[4] Cabezas, L. (2020). Propuesta didáctica de Matemáticas durante la pandemia del Covid -19. Universidad de Almería. http://repositorio.ual.es/handle/10835/10080.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Cabezas</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<article-title>Propuesta didáctica de Matemáticas durante la pandemia del Covid -19</article-title>
+<source>Universidad de Almería</source>
+<year>2020</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://repositorio.ual.es/handle/10835/10080">http://repositorio.ual.es/handle/10835/10080</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref5">
+<label>[5]</label>
+<mixed-citation>[5] Camacho, J., Camacho, O. (2020). Dos Científicos bajo un fresno: un viaje a la ciencia en doce escritos. Ebook de Google Play, México. https://books.google.com.mx/books?id=EKzpDwAAQBAJ.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Camacho</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Camacho</surname>
+<given-names>O.</given-names>
+</name>
+</person-group>
+<source>Ebook de Google Play, México.</source>
+<year>2020</year>
+<chapter-title>Dos Científicos bajo un fresno: un viaje a la ciencia en doce escritos</chapter-title>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://books.google.com.mx/books?id=EKzpDwAAQBAJ">https://books.google.com.mx/books?id=EKzpDwAAQBAJ</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref6">
+<label>[6]</label>
+<mixed-citation>[6] Caraballo, H., González, Z. (2014). Incorporación de software educativo al aula. Entornos colaborativos locales. Congreso de Tecnología en Educación y Educación en Tecnología, Universidad Nacional de la Plata, Argentina. https://core.ac.uk/download/pdf/296369504.pdf.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Caraballo</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>González</surname>
+<given-names>Z.</given-names>
+</name>
+</person-group>
+<source>Congreso de Tecnología en Educación y Educación en Tecnología, Universidad Nacional de la Plata, Argentina.</source>
+<year>2014</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://core.ac.uk/download/pdf/296369504.pdf">https://core.ac.uk/download/pdf/296369504.pdf</ext-link>
+</comment>
+<series>Incorporación de software educativo al aula. Entornos colaborativos locales</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref7">
+<label>[7]</label>
+<mixed-citation>[7] Coronel, J. (2013). Aplicación de un prototipo de Dominó para la enseñanza y aprendizaje de las identidades trigonométricas. Universidad Popular del Cesar Agua Chica Colombia. https://acofipapers.org/index.php/eiei/article/download/1415/1420.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Coronel</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<source>Universidad Popular del Cesar Agua Chica Colombia.</source>
+<year>2013</year>
+<comment>https://acofipapers.org/index.php/eiei/article/download/1415/1420</comment>
+<series>Aplicación de un prototipo de Dominó para la enseñanza y aprendizaje de las identidades trigonométricas</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref8">
+<label>[8]</label>
+<mixed-citation>[8] Curichumbi, D. E. (2021). Nuevas formas de enseñanza de las Matemáticas adoptadas por los docentes de la Carrera de Pedagogía de las Ciencias Experimentales en época del Covid – 19. Universidad Nacional de Chimborazo, Ecuador. http://dspace.unach.edu.ec/handle/51000/7773.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Curichumbi</surname>
+<given-names>D. E.</given-names>
+</name>
+</person-group>
+<source>Universidad Nacional de Chimborazo, Ecuador</source>
+<year>2021</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://dspace.unach.edu.ec/handle/51000/7773">http://dspace.unach.edu.ec/handle/51000/7773</ext-link>
+</comment>
+<series>Nuevas formas de enseñanza de las Matemáticas adoptadas por los docentes de la Carrera de Pedagogía de las Ciencias Experimentales en época del Covid – 19</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref9">
+<label>[9] De la Cruz, G. Y Ruiz, E. (2020). Educación y Pandemia. Instituto de investigaciones sobre la universidad y la educación. Universidad Nacional Autónoma de México. https://www.iisue.unam.mx/investigacion/textos/educacion_pandemia.pdf.</label>
+<mixed-citation>[9]</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>De la Cruz</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Ruiz</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<source>Universidad Nacional Autónoma de México</source>
+<year>2020</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.iisue.unam.mx/investigacion/textos/educacion_pandemia.pdf">https://www.iisue.unam.mx/investigacion/textos/educacion_pandemia.pdf</ext-link>
+</comment>
+<series>Educación y Pandemia. Instituto de investigaciones sobre la universidad y la educación</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref10">
+<label>[10]</label>
+<mixed-citation>[10] Del Río, L. (2016). Enseñar y aprender cálculo con ayuda de la vista gráfica 3D de GeoGebra. Revista digital: Matemática, Educación e Internet 17(1), 1-13. https://doi.org/10.18845/rdmei.v17i1.2739.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Del Río</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<article-title>Enseñar y aprender cálculo con ayuda de la vista gráfica 3D de GeoGebra</article-title>
+<source>Revista digital: Matemática, Educación e Internet</source>
+<year>2016</year>
+<volume>17</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>13</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18845/rdmei.v17i1.2739">https://doi.org/10.18845/rdmei.v17i1.2739</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref11">
+<label>[11]</label>
+<mixed-citation>[11] Galindo, C. M. (2021). La organización Mundial de la salud declaró el coronavirus como una pandemia. Educación en la Pandemia: ¿Cómo abordar esta emergencia sin precedentes? Universidad Nacional Autónoma de México. Escuela Nacional de Trabajo Social. https://www.trabajosocial.unam.mx/politicasocial/material/Salud/2020/salud_mar_f_oms_declara_pandemia.pdf.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Galindo</surname>
+<given-names>C. M.</given-names>
+</name>
+</person-group>
+<source>Universidad Nacional Autónoma de México. Escuela Nacional de Trabajo Social.</source>
+<year>2021</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.trabajosocial.unam.mx/politicasocial/material/Salud/2020/salud_mar_f_oms_declara_pandemia.pdf">https://www.trabajosocial.unam.mx/politicasocial/material/Salud/2020/salud_mar_f_oms_declara_pandemia.pdf</ext-link>
+</comment>
+<series>La organización Mundial de la salud declaró el coronavirus como una pandemia. Educación en la Pandemia: ¿Cómo abordar esta emergencia sin precedentes?</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref12">
+<label>[12]</label>
+<mixed-citation>[12] García, M. (2014). García Matamoros, M. A., (2014). Uso Instruccional del video didáctico. Revista de Investigación, 38(81), 43-67. https://www.redalyc.org/articulo.oa?id=376140396002</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>García</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>García Matamoros</surname>
+<given-names>M. A.</given-names>
+</name>
+</person-group>
+<article-title>Uso Instruccional del video didáctico</article-title>
+<source>Revista de Investigación</source>
+<year>2014</year>
+<volume>38</volume>
+<issue>81</issue>
+<fpage>43</fpage>
+<lpage>67</lpage>
+<comment>https://www.redalyc.org/articulo.oa?id=376140396002</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref13">
+<label>[13]</label>
+<mixed-citation>[13] Gómez, L., Macedo, J. (2010). Importancia de las Tic en la educación básica regular. Investigación. Facultad de Educación de la Universidad Nacional Mayor de San Marcos, Perú. https://revistasinvestigacion.unmsm.edu.pe/index.php/educa/article/download/4776/3850</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gómez</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Macedo</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Importancia de las Tic en la educación básica regular. Investigación</article-title>
+<source>Facultad de Educación de la Universidad Nacional Mayor de San Marcos, Perú.</source>
+<year>2010</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://revistasinvestigacion.unmsm.edu.pe/index.php/educa/article/download/4776/3850">https://revistasinvestigacion.unmsm.edu.pe/index.php/educa/article/download/4776/3850</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref14">
+<label>[14]</label>
+<mixed-citation>[14] Jiménez, T. (2019). Los videos educativos como recurso didáctico para la enseñanza del idioma inglés. Universidad Andina Simón Bolívar. Unidad Educativa Saint Patrick School, Ecuador. https://repositorio.uasb.edu.ec/bitstream/10644/6988/1/T2994-MIE-Jimenez-Los%20videos.pdf.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Jiménez</surname>
+<given-names>T.</given-names>
+</name>
+</person-group>
+<article-title>Los videos educativos como recurso didáctico para la enseñanza del idioma inglés. Universidad Andina Simón Bolívar</article-title>
+<source>Unidad Educativa Saint Patrick School, Ecuador.</source>
+<year>2019</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://repositorio.uasb.edu.ec/bitstream/10644/6988/1/T2994-MIE-Jimenez-Los%20videos.pdf">https://repositorio.uasb.edu.ec/bitstream/10644/6988/1/T2994-MIE-Jimenez-Los%20videos.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref15">
+<label>[15]</label>
+<mixed-citation>[15] Mañas, J. (2013). Utilización de las Tic en el aula: GeoGebra y Wiris. Master en Profesorado de Educación. Universidad de Almería, España. https://repositorio.ual.es/bitstream/handle/10835/2289/Trabajo.pdf.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Mañas</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Utilización de las Tic en el aula: GeoGebra y Wiris</article-title>
+<source>Universidad de Almería, España</source>
+<year>2013</year>
+<comment>https://repositorio.ual.es/bitstream/handle/10835/2289/Trabajo.pdf</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref16">
+<label>[16]</label>
+<mixed-citation>[16] Marqués, P. (2012). Impacto de las Tic en la educación: funciones y limitaciones. Entornos colaborativos locales. Departamento de Pedagogía Aplicada. Universidad Autónoma de Barcelona, España. https://www.3ciencias.com/wp-content/uploads/2013/01/impacto-de-las-tic.pdf.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Marqués</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<article-title>Impacto de las Tic en la educación: funciones y limitaciones. Entornos colaborativos locales.</article-title>
+<source>Departamento de Pedagogía Aplicada. Universidad Autónoma de Barcelona, España.</source>
+<year>2012</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.3ciencias.com/wp-content/uploads/2013/01/impacto-de-las-tic.pdf">https://www.3ciencias.com/wp-content/uploads/2013/01/impacto-de-las-tic.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref17">
+<label>[17]</label>
+<mixed-citation>[17] Meneses, J. (2016). El Cuestionario. Universitat Oberta de Catalunya. https://femrecerca.cat/meneses/publication/cuestionario/cuestionario.pdf.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Meneses</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<source>El Cuestionario. Universitat Oberta de Catalunya.</source>
+<year>2016</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://femrecerca.cat/meneses/publication/cuestionario/cuestionario.pdf">https://femrecerca.cat/meneses/publication/cuestionario/cuestionario.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref18">
+<label>[18]</label>
+<mixed-citation>[18] Miranda, F. (2018). Abandono escolar en educación media superior: conocimiento y aportaciones de política pública. Revista electrónica de Educación: Sinéctica. ITESO, México. https://doi.org/10.31391/S2007-7033(2018)0051-010.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Miranda</surname>
+<given-names>F.</given-names>
+</name>
+</person-group>
+<article-title>Abandono escolar en educación media superior: conocimiento y aportaciones de política pública.</article-title>
+<source>Revista electrónica de Educación: Sinéctica. ITESO, México.</source>
+<year>2018</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31391/S2007-7033(2018)0051-010">https://doi.org/10.31391/S2007-7033(2018)0051-010</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref19">
+<label>[19]</label>
+<mixed-citation>[19] Pérez, S. (2010). La importancia de las TIC en la escuela. Revista digital para profesionales de la enseñanza. Federación de Andalucía, España. https://www.feandalucia.ccoo.es/andalucia/docu/p5sd7083.pdf</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Pérez</surname>
+<given-names>S.</given-names>
+</name>
+</person-group>
+<article-title>La importancia de las TIC en la escuela</article-title>
+<source>Revista digital para profesionales de la enseñanza. Federación de Andalucía, España.</source>
+<year>2010</year>
+<comment>https://www.feandalucia.ccoo.es/andalucia/docu/p5sd7083.pdf</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref20">
+<label>[20]</label>
+<mixed-citation>[20] Plascencia, T., Beltrán, A. (2016). El uso de las Tics como herramienta de aprendizaje para alumnos de nivel superior. Universidad Autónoma de Nayarit, México. https://www.ecorfan.org/proceedings/CDU_XI/</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Plascencia</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Beltrán</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>El uso de las Tics como herramienta de aprendizaje para alumnos de nivel superior.</article-title>
+<source>Universidad Autónoma de Nayarit, México.</source>
+<year>2016</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.ecorfan.org/proceedings/CDU_XI/">https://www.ecorfan.org/proceedings/CDU_XI/</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref21">
+<label>[21]</label>
+<mixed-citation>[21] Ramírez, B. (2019). GeoGebra en 2D y 3D como recurso didáctico en un curso de integración múltiple: una experiencia de enseñanza-aprendizaje. Revista digital: Matemática, Educación e Internet. Escuela de Matemática, Costa Rica. https://doi.org/10.18845/rdmei.v21i1.5341.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ramírez</surname>
+<given-names>B.</given-names>
+</name>
+</person-group>
+<article-title>GeoGebra en 2D y 3D como recurso didáctico en un curso de integración múltiple: una experiencia de enseñanza-aprendizaje.</article-title>
+<source>Revista digital: Matemática, Educación e Internet. Escuela de Matemática, Costa Rica.</source>
+<year>2019</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18845/rdmei.v21i1.5341">https://doi.org/10.18845/rdmei.v21i1.5341</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref22">
+<label>[22]</label>
+<mixed-citation>[22] Rivadeneira, F. Y. (2013). Los canales de Matemáticas de YouTube y su aporte en el proceso de enseñanza aprendizaje. Unidad Educativa Cristo, Ecuador. https://core.ac.uk/download/pdf/328836451.pdf.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Rivadeneira</surname>
+<given-names>F. Y.</given-names>
+</name>
+</person-group>
+<article-title>Los canales de Matemáticas de YouTube y su aporte en el proceso de enseñanza aprendizaje.</article-title>
+<source>Unidad Educativa Cristo, Ecuador.</source>
+<year>2013</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://core.ac.uk/download/pdf/328836451.pdf">https://core.ac.uk/download/pdf/328836451.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref23">
+<label>[23]</label>
+<mixed-citation>[23] Rizzo, F., Pérez, A. (2018). Importancia del uso de las Tics en los docentes. Espirales revista multidisciplinaria de investigación. Ecuador. https://www.revistaespirales.com/index.php/es/article/view/393/324.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rizzo</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Pérez</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>Importancia del uso de las Tics en los docentes</article-title>
+<source>Espirales revista multidisciplinaria de investigación. Ecuador.</source>
+<year>2018</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.revistaespirales.com/index.php/es/article/view/393/324">https://www.revistaespirales.com/index.php/es/article/view/393/324</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref24">
+<label>[24]</label>
+<mixed-citation>[24] Sánchez, C. I. (2020). Herramientas tecnológicas en la enseñanza de las matemáticas durante la pandemia Covid - 19. Universidad César Vallejo, Perú. https://dx.doi.org/10.21503/hamu.v7i2.2132.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Sánchez</surname>
+<given-names>C. I.</given-names>
+</name>
+</person-group>
+<article-title>Herramientas tecnológicas en la enseñanza de las matemáticas durante la pandemia Covid - 19.</article-title>
+<source>Universidad César Vallejo, Perú.</source>
+<year>2020</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://dx.doi.org/10.21503/hamu.v7i2.2132">https://dx.doi.org/10.21503/hamu.v7i2.2132</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref25">
+<label>[25]</label>
+<mixed-citation>[25] Morales, R., Guzmán, T. (2014). El vídeo como recurso didáctico para reforzar el conocimiento. Memoria del Encuentro Internacional de educación a distancia. https://doi.org/10.13140/RG.2.1.3144.7521.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Morales</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Guzmán</surname>
+<given-names>T.</given-names>
+</name>
+</person-group>
+<source>Memoria del Encuentro Internacional de educación a distancia.</source>
+<year>2014</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.13140/RG.2.1.3144.7521">https://doi.org/10.13140/RG.2.1.3144.7521</ext-link>
+</comment>
+<series>El vídeo como recurso didáctico para reforzar el conocimiento.</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref26">
+<label>[26]</label>
+<mixed-citation>[26] Roque, E. (2020). Tutoriales de YouTube como estrategia de aprendizaje no formal en estudiantes universitarios. Revista iberoamericana para la investigación y el desarrollo educativo, vol. 11, núm. 21, ISSN 2007-7467. Universidad del Valle de Atemajac, México. https://doi.org/10.23913/ride.v11i21.797.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Roque</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>Tutoriales de YouTube como estrategia de aprendizaje no formal en estudiantes universitarios.</article-title>
+<source>Revista iberoamericana para la investigación y el desarrollo educativo</source>
+<year>2020</year>
+<volume>11</volume>
+<issue>21</issue>
+<comment>https://doi.org/10.23913/ride.v11i21.797</comment>
+<issn>2007-7467</issn>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref27">
+<label>[27]</label>
+<mixed-citation>[27] Vargas, G. (2017). Recursos educativos didácticos en el proceso de enseñanza-aprendizaje. Revista "Cuadernos" Vol. 58(1), 2017. Coordinación de unidad de educación virtual, facultad de medicina, U.M.S.A. http://www.scielo.org.bo/pdf/chc/v58n1/v58n1_a11.pdf.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Vargas</surname>
+<given-names>G.</given-names>
+</name>
+</person-group>
+<article-title>Recursos educativos didácticos en el proceso de enseñanza-aprendizaje.</article-title>
+<source>Revista "Cuadernos". Coordinación de unidad de educación virtual, facultad de medicina, U.M.S.A.</source>
+<year>2017</year>
+<volume>58</volume>
+<issue>1</issue>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.scielo.org.bo/pdf/chc/v58n1/v58n1_a11.pdf">http://www.scielo.org.bo/pdf/chc/v58n1/v58n1_a11.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617007_ref28">
+<label>[28]</label>
+<mixed-citation>[28] Zorrilla, A. M. (2021). La Educación en la Pandemia: ¿Cómo abordar esta emergencia sin precedentes? Universidad Nacional Autónoma de México. Instituto de Investigaciones Jurídicas. https://archivos.juridicas.unam.mx/www/bjv/libros/13/6466/4.pdf.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Zorrilla</surname>
+<given-names>A. M.</given-names>
+</name>
+</person-group>
+<article-title>La Educación en la Pandemia: ¿Cómo abordar esta emergencia sin precedentes?</article-title>
+<source>Universidad Nacional Autónoma de México. Instituto de Investigaciones Jurídicas.</source>
+<year>2021</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://archivos.juridicas.unam.mx/www/bjv/libros/13/6466/4.pdf">https://archivos.juridicas.unam.mx/www/bjv/libros/13/6466/4.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+</ref-list>
+</back>
+</article>

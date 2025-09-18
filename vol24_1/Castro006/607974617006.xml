@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml-dtd" href="http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1d3" specific-use="Marcalyc 1.2" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="redalyc">6079</journal-id>
+<journal-title-group>
+<journal-title specific-use="original" xml:lang="en">Revista Digital: Matemática, Educación e Internet</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1659-0643</issn>
+<publisher>
+<publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+<publisher-loc>
+<country>Costa Rica</country>
+<email>revistadigitalmatematica@itcr.ac.cr</email>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="art-access-id" specific-use="redalyc">607974617006</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículos</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title xml:lang="es">Estudio de la ansiedad matemática en estudiantes de precálculo matriculados en el I Cuatrimestre 2022 bajo modalidad educativa mixta</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-4464-8541</contrib-id>
+<name name-style="western">
+<surname>Castro Méndez</surname>
+<given-names>Didier Alberto</given-names>
+</name>
+<xref ref-type="aff" rid="aff1"/>
+<email>dcastro@ulacit.ac.cr</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Universidad Latinoamericana de Ciencia y Tecnología. San José. Costa Rica. dcastro@ulacit.ac.cr</institution>
+<institution content-type="orgname">Universidad Latinoamericana de Ciencia y Tecnología</institution>
+<country country="CR">Costa Rica</country>
+</aff>
+<pub-date pub-type="epub-ppub">
+<season>Agosto-Febrero</season>
+<year>2023</year>
+</pub-date>
+<volume>24</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>12</lpage>
+<history>
+<date date-type="received" publication-format="dd mes yyyy">
+<day>26</day>
+<month>09</month>
+<year>2022</year>
+</date>
+<date date-type="accepted" publication-format="dd mes yyyy">
+<day>23</day>
+<month>05</month>
+<year>2023</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2023</copyright-year>
+<copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+<ali:free_to_read/>
+<license xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+<license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract xml:lang="es">
+<title>Resumen</title>
+<p>La presente investigación muestra los resultados del nivel de ansiedad matemática en estudiantes del curso de precálculo de la Universidad Latinoamericana de Ciencia y Tecnología (ULACIT). La muestra estuvo constituida por 237 estudiantes matriculados en el primer cuatrimestre del 2022 bajo modalidad educativa mixta (cursos ofertados de manera presencial y virtual) esto por los protocolos establecidos ante la alerta sanitaria originada por la COVID 19. La ansiedad matemática es un estado afectivo donde existe la carencia de estabilidad y comodidad que presenta un individuo ante situaciones donde se relacione la matemática (Pérez – Tyteca et al., 2013). Con ello, se planteó la pregunta de investigación ¿Cuál es el nivel de ansiedad matemática que muestran los estudiantes de precálculo en el primer cuatrimestre del 2022? A su vez, tuvo como objetivo estudiar el nivel de ansiedad matemática de los estudiantes de precálculo matriculados dicho periodo lectivo, así como analizar las diferencias significativas según sexo y modalidad de estudio. Los resultados obtenidos no muestran diferencias estadísticamente significativas en el nivel de ansiedad matemática en relación con el sexo, pero sí con relación a la modalidad educativa donde los estudiantes virtuales presentan mayor ansiedad matemática.</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>This research shows the results of the level of mathematical anxiety in students of the pre-calculus course at the Latin American University of Science and Technology (ULACIT). The sample was constituted by 237 students enrolled in the first quarter of 2022 under mixed educational modality (courses offered in person and virtually) due to the protocols established before the health alert originated by COVID 19. Mathematical anxiety is an affective state where there is a lack of stability and comfort presented by an individual in situations where mathematics is related (Pérez - Tyteca et al., 2013). With this, the research question was posed: What is the level of mathematical anxiety shown by precalculus students in the first quarter of 2022? In turn, the objective was to study the level of mathematical anxiety of precalculus students enrolled in that academic period, as well as to analyze the significant differences according to sex and mode of study. The results obtained do not show statistically significant differences in the level of mathematical anxiety in relation to sex, but they do show significant differences in relation to the educational modality where virtual students present greater mathematical anxiety.</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>ansiedad matemática</kwd>
+<kwd>COVID 19</kwd>
+<kwd>Matemática educativa</kwd>
+<kwd>Precálculo</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>mathematics anxiety</kwd>
+<kwd>COVID 19</kwd>
+<kwd>Educational mathematics</kwd>
+<kwd>Precalculus</kwd>
+</kwd-group>
+<counts>
+<fig-count count="0"/>
+<table-count count="8"/>
+<equation-count count="0"/>
+<ref-count count="29"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>
+<bold>Introducción</bold>
+</title>
+<p>Gómez (2000) establece que muchos investigadores han profundizado sobre la influencia de los factores afectivos en la enseñanza de la matemática, por lo que en la última década se ha generado un incremento de investigaciones en esta área. A nivel nacional se destacan diversos investigadores, entre ellos Agüero et al. (2017) que han generado una línea de investigación sólida en relación con la ansiedad matemática, la autoconfianza matemática y la actitud hacia la utilidad matemática debido a las dificultades que presentan los discentes en los procesos de enseñanza aprendizaje de dicha asignatura. Estos mismos autores establecen que las mujeres muestran un mayor promedio de ansiedad matemática.</p>
+<p>Por otra parte, Gómez- Chacón (2010) indica que la comunidad educativa es consciente del impacto de los factores afectivos y emocionales en el proceso de enseñanza y aprendizaje de las matemáticas, por lo tanto, en los últimos años, el número de trabajos que profundizan la influencia de las matemáticas ha aumentado.</p>
+<p>Ahora, no existe una definición clara con respecto a la ansiedad matemática y a lo largo de más de cuarenta años, se han formulado varias definiciones, entre ellas, se citan la de algunos autores:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Tobias (1978, como se citó en Martínez et al, 2014): "la ansiedad matemática se manifiesta como aquellos sentimientos de tensión, desvalimiento, indefensión y desorden mental que una persona sufre cuando es instada a manipular números o resolver problemas de Matemáticas”(p.155).</p>
+</list-item>
+<list-item>
+<p>Hembree (1990, como se citó en Pérez-Tyteca et al, 2011): la ansiedad corresponde a “un estado de animo sustentado por cualidades como miedo y terror. Esta emoción es desagradable, y posee como características especiales sentimientos de inseguridad e impotencia ante situaciones de peligro” (p.33).</p>
+</list-item>
+<list-item>
+<p>Clark y Beck (2012): la ansiedad se origina a partir del cómo se procesa la información ante una situación de riesgo</p>
+</list-item>
+<list-item>
+<p>Pérez-Tyteca et al. (2013): la ansiedad matemática corresponde a un estado afectivo donde existe la carencia de estabilidad y comodidad que presente un individuo ante situaciones donde se relacione la matemática.</p>
+</list-item>
+</list>
+</p>
+<p>Con ello, para efectos de este estudio se tomó la definición brindada anteriormente por Pérez-Tyteca et al. (2013). La ansiedad matemática sigue siendo un constructo relevante en la actualidad a pesar de que se ha trabajado a lo largo de más de cuatro décadas donde se han realizado diversas investigaciones y se ha consolidado una línea de investigación bastante sólida. A partir del 2003 la Organización para la Cooperación y el Desarrollo Económicos (OCDE) realiza la inclusión de este constructo socioafectivo en las pruebas PISA donde se evidencia inseguridades y ruptura de la zona de confort de cada estudiante al enfrentarse a las matemáticas (Pérez-Tyteca, et al., 2013).</p>
+<p>Manay (2009, como se citó en Lamas, 2015) establece que sí existe una relación estadísticamente significativa entre la ansiedad y el rendimiento académico y esta tiende a aumentar cuando los procesos de enseñanza aprendizaje tienden a ser monótonos y rudimentarios. Diversos investigadores entre ellos Aiken (1970) y Reyes (1984) establecen que los altos niveles ansiedad matemática se relacionan directamente con un bajo rendimiento y este influye directamente en la elección de la carrera universitaria, pues el discente buscará una cuyo plan de estudios, tenga la menor cantidad de materias relacionadas a dicha asignatura (Pérez-Tyteca y Castro, 2011).</p>
+<p>En el contexto universitario costarricense, Espinoza y Delgado (2015) realizaron un estudio sobre la ansiedad matemática en estudiantes de primer año de la Universidad Nacional de Costa Rica. Donde se observó que la ansiedad matemática en el curso de Matemática General es muy baja al principio, pero muy alta al final del semestre. A su vez, se encontró que las mujeres presentan mayores niveles de ansiedad matemática. Además, concluyeron que a mayor ansiedad matemática del estudiante, es menor el éxito académico del estudiante en la universidad.</p>
+<p>Delgado et al. (2017) muestran resultados similares en su investigación sobre la ansiedad matemática en estudiantes universitarios de Costa Rica. Donde encontraron diferencias significativas de la ansiedad matemática en relación con el sexo, donde las mujeres mostraron mayor nivel de esta variable.</p>
+<p>La investigación realizada por Rodríguez y Pérez (2015) determinó que el 38.4% de los estudiantes universitarios de ciencias empresariales presentaban niveles altos de ansiedad matemática. Los autores establecen que "la ansiedad matemática es un problema significativo en el ámbito universitario y que se necesita una intervención efectiva para mejorar el rendimiento académico de los estudiantes" (p. 28). Lo anterior concuerda con González, et al. (2018) donde establecen que la ansiedad matemática está relacionada directamente con el rendimiento académico en matemáticas y que los estudiantes con niveles más altos de ansiedad matemática tienden a evitar las tareas de matemáticas.</p>
+<p>Seguidamente, Castro y Ramírez (2019) encontraron en Colombia que el 51.6% de los estudiantes de ingeniería encuestados tienen niveles altos ansiedad matemática. Los autores indican que "se necesitan estrategias educativas específicas para abordar la ansiedad matemática entre los estudiantes de ingeniería de Colombia"(p. 7). Juncos y Castro (2019) examinaron la relación entre la ansiedad matemática y el rendimiento académico en estudiantes de ingeniería en Chile. Los autores determinaron que "la ansiedad matemática se relaciona negativamente con el rendimiento académico en matemáticas" (p. 18). Además, la investigación establece que "los estudiantes con altos niveles de ansiedad matemática tienen menos confianza en sus habilidades matemáticas y evitan hacer la tarea de matemáticas" (p. 18).</p>
+<p>En relación a la modalidad educativa también existen investigaciones que abordan diferencias en el nivel promedio de ansiedad matemática en el campo universitario. Barros, et al.(2020) examinaron la ansiedad matemática entre estudiantes universitarios que participaban en clases presenciales y virtuales durante la pandemia de COVID-19. Los autores encontraron que "los estudiantes que asistían a clases virtuales tenían niveles más altos de ansiedad matemática que los que asistieron a clases presenciales" (p. 209). A su vez, establecen que "la falta de interacción social y los sentimientos de aislamiento que experimentan los estudiantes en las clases virtuales pueden aumentar la ansiedad matemática" (p. 210).</p>
+<p>Bajo la misma premisa anterior, Contreras, et al. (2021) establecen que los estudiantes universitarios de matemáticas que participaban en clases presenciales tenían niveles más altos de ansiedad matemática que los que participaban en clases virtuales. Los autores sugirieron que "las aulas virtuales pueden reducir la ansiedad matemática de los estudiantes y darles más control y autonomía en su aprendizaje" (p. 17).</p>
+<p>Esta investigación aporta a la sociedad costarricense más datos en relación con la ansiedad matemática en estudiantes universitarios y encuentra una fuerte conexión con diversos investigadores de la región en dichos constructos que intervienen directamente en los procesos de enseñanza aprendizaje de la matemática.</p>
+<p>El problema de este estudio se planteó a través de la siguiente pregunta:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>¿Cuál es el nivel de ansiedad matemática que muestran los estudiantes de precálculo en el primer cuatrimestre del 2022</p>
+</list-item>
+</list>
+</p>
+<p>A su vez, de dicha problemática se derivan los siguientes subproblemas:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>¿Existen diferencias estadísticamente significativas en el nivel de la ansiedad matemática que muestran los estudiantes, según el sexo?</p>
+</list-item>
+<list-item>
+<p>¿Existen diferencias estadísticamente significativas en el nivel de la ansiedad matemática que muestran los estudiantes, según la modalidad educativa?</p>
+</list-item>
+</list>
+</p>
+<p>El objetivo general de este estudio fue estudiar el nivel de ansiedad matemática de los estudiantes de precálculo matriculados en el primer cuatrimestre del 2022 de la ULACIT; con los propósitos específicos de determinar si existen diferencias estadísticamente significativas en el nivel de ansiedad matemática que manifiestan los discentes, según el sexo y la modalidad educativa.</p>
+</sec>
+<sec>
+<title>
+<bold>Metodología</bold>
+</title>
+<p>La investigación es de enfoque cuantitativo específicamente de tipo descriptiva (Hernández et al., 2006) ya que se especificaron propiedades, características y rasgos importantes del fenómeno que se analizó. La población de estudio estuvo constituida por la totalidad de estudiantes de precálculo a saber, 455 de dicho centro educativo universitario matriculados para el primer cuatrimestre de 2022. La muestra se integró en a la mitad del cuatrimestre con el total de discentes que llenaron la encuesta en línea en el plazo establecido para un total de 237.</p>
+<p>Las variables utilizadas en la investigación fueron las siguientes: sexo, modalidad educativa y ansiedad matemática, cuya definición conceptual y operativa se muestra en la Tabla <xref ref-type="table" rid="gt1">1</xref>.</p>
+<p>
+<table-wrap id="gt1">
+<label>Tabla 1</label>
+<caption>
+<title>
+<bold>Tabla 1</bold>
+</title>
+</caption>
+<alt-text>Tabla 1 Tabla 1</alt-text>
+<alternatives>
+<graphic xlink:href="607974617006_gt2.png" position="anchor" orientation="portrait"/>
+<table id="gt2-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;">Sexo.</td>
+<td style="text-align: center;">Corresponde a la condición de masculino o femenino.</td>
+<td style="text-align: center;">Según el que el discente indique en el formulario.</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Modalidad educativa.</td>
+<td style="text-align: center;">Modalidad en el que matriculó el curso de precálculo, a saber, presencial o virtual. Se define modalidad presencial como "la interacción directa entre estudiantes y docentes en un entorno físico compartido, lo que permite la comunicación en tiempo real y promueve la participación activa de los estudiantes" (García, 2018, p. 25) y la modalidad virtual que "se basa en el uso de tecnologías de la información y la comunicación para superar las barreras físicas y permitir la interacción entre estudiantes y docentes sin la necesidad de estar en un mismo lugar" (López, 2020, p. 12)</td>
+<td style="text-align: center;">Según el que el discente indique en el formulario.</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Ansiedad matemática</td>
+<td style="text-align: center;">Corresponde a la ausencia de confort que presenta el individuo cuando se enfrenta a situaciones que estén relacionadas directamente con matemática.</td>
+<td style="text-align: center;">Puntaje obtenido por el discente mediante la aplicación de la Escala de ansiedad matemática de Fennema y Sherman (1976).</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>Como instrumento de medición se utilizó la escala de Fennema y Sherman (1976) “Escala de Ansiedad Matemática”, por haber sido validada a lo largo de más de cuarenta años y ajustarse a los conceptos de la investigación. Dicho instrumento consiste en un cuestionario tipo Likert integrado por 12 ítems, los cuales se muestran a continuación:</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>La matemática no me asusta.</p>
+</list-item>
+<list-item>
+<p>No me molestaría tomar más cursos de matemática.</p>
+</list-item>
+<list-item>
+<p>Usualmente no me ha preocupado el ser capaz de resolver problemas matemáticos</p>
+</list-item>
+<list-item>
+<p>Nunca me he puesto nervioso(a) en un examen de matemática</p>
+</list-item>
+<list-item>
+<p>Usualmente he sentido tranquilidad en los exámenes de matemática</p>
+</list-item>
+<list-item>
+<p>Usualmente he sentido tranquilidad en las clases de matemática</p>
+</list-item>
+<list-item>
+<p>La matemática usualmente me hace sentir con incomodidad y nervioso(a)</p>
+</list-item>
+<list-item>
+<p>La matemática me hace sentir con incomodidad, cansancio, irritabilidad e impaciencia</p>
+</list-item>
+<list-item>
+<p>Me da un sentimiento de impotencia el no poder esforzarme cuando pienso en tratar problemas difíciles de matemática</p>
+</list-item>
+<list-item>
+<p>Mi mente se queda en blanco y no soy capaz de pensar claramente cuando trabajo las matemáticas</p>
+</list-item>
+<list-item>
+<p>Un examen de matemática me asustaría.</p>
+</list-item>
+<list-item>
+<p>La matemática me hace sentir con incomodad y confusión.</p>
+</list-item>
+</list>
+</p>
+<p>Para cada uno de los ítems de la escala, existen 5 posibilidades de respuesta que van desde “Totalmente de acuerdo” a “Totalmente en desacuerdo”, con la opción neutra “Indeciso”. La recolección de los datos se realizó mediante la aplicación del instrumento de medición, utilizando la plataforma Google Forms. Dicho formulario se aplicó a los 14 grupos de precálculo ofertados en el primer cuatrimestre del 2022 a la mitad de dicho periodo lectivo. Es importante recalcar que dicha aplicación se realizó tanto en clases presenciales y virtuales debido a los protocolos establecidos gubernamentales e institucionales ante la COVID – 19.</p>
+<p>Para estudiar la confiabilidad del instrumento (entendida como la fiabilidad de la escala) se aplicó la técnica “Alfa de Cronbach”, estableciendo 0.8 como valor mínimo adecuado (Cea, 1999). Como parte del estudio de la validez de la escala se calculó el índice de discriminación de los ítems, para asegurar que tengan capacidad de diferenciar a los estudiantes que obtienen puntajes altos de los que logran puntajes bajos. Para dicha discriminación se utilizaron los parámetros establecidos por Lozano y de la Fuente (2009) que se muestran en la Tabla <xref ref-type="table" rid="gt2">2</xref>.</p>
+<p>
+<table-wrap id="gt2">
+<label>Tabla 2</label>
+<caption>
+<title>
+<bold>Tabla 2</bold>
+</title>
+</caption>
+<alt-text>Tabla 2 Tabla 2</alt-text>
+<alternatives>
+<graphic xlink:href="607974617006_gt3.png" position="anchor" orientation="portrait"/>
+<table id="gt3-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;">Igual o mayor que 0.40</td>
+<td style="text-align: center;">El ítem discrimina muy bien.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Entre 0.30 y 0.39</td>
+<td style="text-align: center;">El ítem discrimina bien.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Entre 0.20 y 0.29</td>
+<td style="text-align: center;">El ítem discrimina poco.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Entre 0.10 y 0.19</td>
+<td style="text-align: center;">Ítem límite, se debe mejorar.</td>
+</tr>
+<tr>
+<td style="text-align: center;">Menor de 0.10</td>
+<td style="text-align: center;">El ítem carece de utilidad para discriminar.</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>Además, se desarrolló un estudio de la unidimensionalidad utilizando el análisis factorial, por ser esta la técnica más utilizada para estos propósitos (Jiménez y Montero, 2012), verificando el cumplimiento de al menos uno de los siguientes criterios, previo cálculo del índice Kayser-Meyer-Olkin (KMO) y de esfericidad de Bartlet:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Helsie (1985, como se citó en Burga, 2005) establece que la estructura de un factor dominante tras el análisis de los autovalores es: <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mfrac> <mml:mrow> <mml:msub> <mml:mn>&#x3BB;</mml:mn> <mml:mn>1</mml:mn> </mml:msub> <mml:mo>&#x2212;</mml:mo> <mml:msub> <mml:mn>&#x3BB;</mml:mn> <mml:mn>2</mml:mn> </mml:msub> </mml:mrow> <mml:mrow> <mml:msub> <mml:mn>&#x3BB;</mml:mn> <mml:mn>2</mml:mn> </mml:msub> <mml:mo>&#x2212;</mml:mo> <mml:msub> <mml:mn>&#x3BB;</mml:mn> <mml:mn>3</mml:mn> </mml:msub> </mml:mrow> </mml:mfrac> <mml:mo>&gt;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617006_gi2.png"/>
+</alternatives>
+</inline-formula>
+</p>
+</list-item>
+<list-item>
+<p>El primer factor explica el 40% de la varianza (Carmines y y Zeller, 1979, como se cito en Burga, 2005).</p>
+</list-item>
+<list-item>
+<p>El primer factor explica el 30% de la varianza y el segundo menos del 10 % (Céspedes et al., 2011 y Montero y Jiménez, 2012).</p>
+</list-item>
+<list-item>
+<p>Existencia de un codo después del primer autovalor en el gráfico de sedimentación (Céspedes et al., 2011).</p>
+</list-item>
+</list>
+</p>
+<p>Seguidamente para el estudio de la hipótesis en relación a las diferencias significativas en el nivel promedio de ansiedad matemática, según el sexo (Hipótesis 1) y por modalidad educativa (Hipótesis 2) se utilizó la "prueba t de Student", verificando antes que se cumpla la normalidad de los datos y la homogeneidad de las varianzas. En el caso que dicho resultado origine una diferencia estadísticamente significativa se procede al cálculo del Delta de Cohen, para la interpretación de la magnitud de los tamaños del efecto medidos por la "d de Cohen" se utiliza la siguiente escala: alrededor de 0.20, diferencia pequeña, alrededor de 0.50, diferencia moderada y 0.80 o más, diferencia grande (Morales, 2008 y Ripoll, 2011).</p>
+</sec>
+<sec>
+<title>
+<bold>Análisis de resultados</bold>
+</title>
+<sec>
+<title>
+<bold>Estadísticos descriptivos</bold>
+</title>
+<p>La muestra obtenida corresponde a 237 estudiantes los cuales se distribuyen de la siguiente manera según el sexo y la modalidad educativa que se muestran en las Tablas <xref ref-type="table" rid="gt3">3</xref> y <xref ref-type="table" rid="gt4">4</xref>.</p>
+<p>
+<table-wrap id="gt3">
+<label>Tabla 3</label>
+<caption>
+<title>
+<bold>Tabla 3</bold>
+</title>
+</caption>
+<alt-text>Tabla 3 Tabla 3</alt-text>
+<alternatives>
+<graphic xlink:href="607974617006_gt4.png" position="anchor" orientation="portrait"/>
+<table id="gt4-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;">Masculino</td>
+<td style="text-align: center;">133</td>
+<td style="text-align: center;">56.10</td>
+</tr>
+<tr>
+<td style="text-align: center;">Femenino</td>
+<td style="text-align: center;">104</td>
+<td style="text-align: center;">43.90</td>
+</tr>
+<tr>
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">237</td>
+<td style="text-align: center;">100</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>
+<table-wrap id="gt4">
+<label>Tabla 4</label>
+<caption>
+<title>
+<bold>Tabla 4</bold>
+</title>
+</caption>
+<alt-text>Tabla 4 Tabla 4</alt-text>
+<alternatives>
+<graphic xlink:href="607974617006_gt5.png" position="anchor" orientation="portrait"/>
+<table id="gt5-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;">Virtual</td>
+<td style="text-align: center;">107</td>
+<td style="text-align: center;">45.1</td>
+</tr>
+<tr>
+<td style="text-align: center;">Presencial</td>
+<td style="text-align: center;">130</td>
+<td style="text-align: center;">54.9</td>
+</tr>
+<tr>
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">237</td>
+<td style="text-align: center;">100</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Clasificación del nivel de ansiedad matemática</bold>
+</title>
+<p>El nivel medio de ansiedad matemática es de 48.64 con una desviación estándar de 7.78, por lo que es mayor que el promedio de la escala <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mo>(</mml:mo> <mml:mtext>T</mml:mtext> <mml:mo>(</mml:mo> <mml:mn>236</mml:mn> <mml:mo>)</mml:mo> <mml:mo>=</mml:mo> <mml:mn>96.76</mml:mn> <mml:mo>,</mml:mo> <mml:mtext>p</mml:mtext> <mml:mo>&lt;</mml:mo> <mml:mn>0.05</mml:mn> <mml:mo>)</mml:mo> </mml:mrow> </mml:math>
+<graphic xlink:href="607974617006_gi3.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>Así, se tiene que los estudiantes de la muestra presentan un nivel de ansiedad matemática alto en comparación con la media, lo que indica que se sienten excesivamente ansiosos.</p>
+<p>Seguidamente, sobre el nivel de ansiedad matemática se clasificó en cinco categorías: muy bajo, bajo, medio, alto y muy alto, se realizó una clasificación de la muestra como se observa en la Tabla <xref ref-type="table" rid="gt5">5</xref>.</p>
+<p>
+<table-wrap id="gt5">
+<label>Tabla 5</label>
+<caption>
+<title>
+<bold>Tabla 5</bold>
+</title>
+</caption>
+<alt-text>Tabla 5 Tabla 5</alt-text>
+<alternatives>
+<graphic xlink:href="607974617006_gt6.png" position="anchor" orientation="portrait"/>
+<table id="gt6-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;">Muy bajo</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Bajo</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">1.69</td>
+</tr>
+<tr>
+<td style="text-align: center;">Medio</td>
+<td style="text-align: center;">29</td>
+<td style="text-align: center;">12.24</td>
+</tr>
+<tr>
+<td style="text-align: center;">Alto</td>
+<td style="text-align: center;">125</td>
+<td style="text-align: center;">52.74</td>
+</tr>
+<tr>
+<td style="text-align: center;">Muy alto</td>
+<td style="text-align: center;">79</td>
+<td style="text-align: center;">33.33</td>
+</tr>
+<tr>
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">237</td>
+<td style="text-align: center;">100</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>De los datos mostrados anteriormente se establece que el 86.07% de los estudiantes de la muestra presentan niveles de ansiedad matemática alto y muy alto.</p>
+</sec>
+<sec>
+<title>
+<bold>Resultados asociados al instrumento</bold>
+</title>
+<sec>
+<title>
+<bold>Índice de discriminación de los ítems</bold>
+</title>
+<p>La Tabla <xref ref-type="table" rid="gt6">6</xref> muestra los índices de discriminación de los ítems de la escala correspondiente a la variable en estudio.</p>
+<p>
+<table-wrap id="gt6">
+<label>Tabla 6</label>
+<caption>
+<title>
+<bold>Tabla 6</bold>
+</title>
+</caption>
+<alt-text>Tabla 6 Tabla 6</alt-text>
+<alternatives>
+<graphic xlink:href="607974617006_gt7.png" position="anchor" orientation="portrait"/>
+<table id="gt7-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;">Ítem 1</td>
+<td style="text-align: center;">0.687</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 2</td>
+<td style="text-align: center;">0.691</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 3</td>
+<td style="text-align: center;">0.602</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 4</td>
+<td style="text-align: center;">0.642</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 5</td>
+<td style="text-align: center;">0.659</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 6</td>
+<td style="text-align: center;">0.622</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 7</td>
+<td style="text-align: center;">0.641</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 8</td>
+<td style="text-align: center;">0.712</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 9</td>
+<td style="text-align: center;">0.741</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 10</td>
+<td style="text-align: center;">0.715</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 11</td>
+<td style="text-align: center;">0.497</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ítem 12</td>
+<td style="text-align: center;">0.651</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>De la Tabla <xref ref-type="table" rid="gt6">6</xref> se puede establecer que todos los ítems discriminan muy bien pues todos son mayores a 0.40, esto según la clasificación establecida por Lozano y De la Fuente (2009). Así, para los demás análisis se contemplarán todos los ítems.</p>
+</sec>
+<sec>
+<title>
+<bold>Confiabilidad del instrumento</bold>
+</title>
+<p>El alfa de Cronbach para este caso es de 0.910 por lo cual la escala relacionada a la actitud hacia la utilidad de la matemática muestra una adecuada confiabilidad según el criterio de Cea (1999).</p>
+</sec>
+<sec>
+<title>
+<bold>Unidimensionalidad del instrumento</bold>
+</title>
+<p>Para mostrar la razonabilidad de aplicar el análisis factorial se procede a calcular el coeficiente KMO y de esfericidad de Bartlett. La Tabla <xref ref-type="table" rid="gt7">7</xref> muestra dichos resultados para la ansiedad matemática.</p>
+<p>
+<table-wrap id="gt7">
+<label>Tabla 7</label>
+<caption>
+<title>
+<bold>Tabla 7</bold>
+</title>
+</caption>
+<alt-text>Tabla 7 Tabla 7</alt-text>
+<alternatives>
+<graphic xlink:href="607974617006_gt8.png" position="anchor" orientation="portrait"/>
+<table id="gt8-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">
+<italic>Chi-cuadrado aproximado</italic>
+</td>
+<td style="text-align: center;">
+<italic>Gl</italic>
+</td>
+<td style="text-align: center;">
+<italic>Significancia</italic>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.929</td>
+<td style="text-align: center;">1411.225</td>
+<td style="text-align: center;">66</td>
+<td style="text-align: center;">0.000</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>De la Tabla 7 se puede obtener que el KMO es de 0.929 por lo que indica una excelente adecuación muestral. A su vez, el valor de <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>p</mml:mi> <mml:mo>&lt;</mml:mo> <mml:mn>0.001</mml:mn> </mml:math>
+<graphic xlink:href="607974617006_gi4.png"/>
+</alternatives>
+</inline-formula> en el índice de Bartlett también establece que es factible desarrollar un análisis factorial para estos datos.</p>
+<p>La Tabla <xref ref-type="table" rid="gt8">8</xref> brinda los resultados del análisis factorial para la variable en estudio:</p>
+<p>
+<table-wrap id="gt8">
+<label>Tabla 8</label>
+<caption>
+<title>
+<bold>Tabla 8</bold>
+</title>
+</caption>
+<alt-text>Tabla 8 Tabla 8</alt-text>
+<alternatives>
+<graphic xlink:href="607974617006_gt9.png" position="anchor" orientation="portrait"/>
+<table id="gt9-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;">
+<italic>Total</italic>
+</td>
+<td style="text-align: center;">
+<italic>% de varianza</italic>
+</td>
+<td style="text-align: center;">
+<italic>% acumulado</italic>
+</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">6.253</td>
+<td style="text-align: center;">52.105</td>
+<td style="text-align: center;">52.105</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0.958</td>
+<td style="text-align: center;">7.986</td>
+<td style="text-align: center;">60.091</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0.765</td>
+<td style="text-align: center;">6.375</td>
+<td style="text-align: center;">66.466</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">0.660</td>
+<td style="text-align: center;">5.503</td>
+<td style="text-align: center;">71.970</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">0.626</td>
+<td style="text-align: center;">5.218</td>
+<td style="text-align: center;">77.188</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">0.548</td>
+<td style="text-align: center;">4.567</td>
+<td style="text-align: center;">81.755</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">0.469</td>
+<td style="text-align: center;">3.908</td>
+<td style="text-align: center;">85.663</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">0.416</td>
+<td style="text-align: center;">3.464</td>
+<td style="text-align: center;">89.126</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">0.368</td>
+<td style="text-align: center;">3.067</td>
+<td style="text-align: center;">92.193</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">0.341</td>
+<td style="text-align: center;">2.843</td>
+<td style="text-align: center;">95.037</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">0.328</td>
+<td style="text-align: center;">2.733</td>
+<td style="text-align: center;">97.769</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">0.268</td>
+<td style="text-align: center;">2.231</td>
+<td style="text-align: center;">100</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>A continuación, se realiza el análisis de los criterios que evidencian la unidimensionalidad del instrumento, para ello solo es necesario que al menos uno de ellos se cumpla para evidenciar dicha unidimensionalidad, note que:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Aplicando el criterio de Helsie (1985, como se citó en Burga,</p>
+<p>2005) establece que la estructura de un factor dominante tras el análisis de autovalores es: <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mfrac> <mml:mrow> <mml:msub> <mml:mn>&#x3BB;</mml:mn> <mml:mn>1</mml:mn> </mml:msub> <mml:mo>&#x2212;</mml:mo> <mml:msub> <mml:mn>&#x3BB;</mml:mn> <mml:mn>2</mml:mn> </mml:msub> </mml:mrow> <mml:mrow> <mml:msub> <mml:mn>&#x3BB;</mml:mn> <mml:mn>2</mml:mn> </mml:msub> <mml:mo>&#x2212;</mml:mo> <mml:msub> <mml:mn>&#x3BB;</mml:mn> <mml:mn>3</mml:mn> </mml:msub> </mml:mrow> </mml:mfrac> <mml:mo>=</mml:mo> <mml:mn>27.43</mml:mn> <mml:mo>&gt;</mml:mo> <mml:mn>3</mml:mn> </mml:math>
+<graphic xlink:href="607974617006_gi5.png"/>
+</alternatives>
+</inline-formula>
+</p>
+</list-item>
+<list-item>
+<p>El primer factor explica el 52.10% de la varianza total (Carmines y Zeller, 1979, como se cito en Burga, 2005)</p>
+</list-item>
+</list>
+</p>
+<p>De lo expuesto en los puntos anteriores observe que se cumplen 2 criterios por lo que se concluye que el instrumento utilizado en este estudio evidencia unidimensionalidad.</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Contraste de hipótesis</bold>
+</title>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>Contraste hipótesis 1</bold>: Para el contraste de la primer hipótesis, se comparó la media observada de los hombres (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>M</mml:mi> <mml:mo>=</mml:mo> <mml:mn>48.68</mml:mn> <mml:mo>,</mml:mo> <mml:mi>SD</mml:mi> <mml:mo>=</mml:mo> <mml:mn>7.248</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="607974617006_gi6.png"/>
+</alternatives>
+</inline-formula>) con la media de las mujeres (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>M</mml:mi> <mml:mo>=</mml:mo> <mml:mn>48.60</mml:mn> <mml:mo>,</mml:mo> <mml:mi>SD</mml:mi> <mml:mo>=</mml:mo> <mml:mn>8.359</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="607974617006_gi7.png"/>
+</alternatives>
+</inline-formula>), y no se encontró una diferencia estadísticamente significativa (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>t</mml:mi> <mml:mo>(</mml:mo> <mml:mn>0.79</mml:mn> <mml:mo>)</mml:mo> <mml:mo>=</mml:mo> <mml:mn>0.937</mml:mn> <mml:mo>,</mml:mo> <mml:mi>p</mml:mi> <mml:mo>&gt;</mml:mo> <mml:mn>0.05</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="607974617006_gi8.png"/>
+</alternatives>
+</inline-formula>). Es decir, se acepta la hipótesis nula por lo tanto no existen diferencias estadísticamente significativas en el nivel de “ansiedad matemática”, según el sexo.</p>
+</list-item>
+<list-item>
+<p>Contraste hipótesis 2: Para el contraste de la segunda hipótesis, se comparó la media de la modalidad virtual (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>M</mml:mi> <mml:mo>=</mml:mo> <mml:mn>50.01</mml:mn> <mml:mo>,</mml:mo> <mml:mi>SD</mml:mi> <mml:mo>=</mml:mo> <mml:mn>7.488</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="607974617006_gi9.png"/>
+</alternatives>
+</inline-formula>) con la media de la modalidad presencial (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>M</mml:mi> <mml:mo>=</mml:mo> <mml:mn>47.52</mml:mn> <mml:mo>,</mml:mo> <mml:mi>SD</mml:mi> <mml:mo>=</mml:mo> <mml:mn>7.788</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="607974617006_gi11.png"/>
+</alternatives>
+</inline-formula>), y se encontró una diferencia estadísticamente significativa de tamaño mediano (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>t</mml:mi> <mml:mo>(</mml:mo> <mml:mn>2.496</mml:mn> <mml:mo>)</mml:mo> <mml:mo>=</mml:mo> <mml:mn>0.013</mml:mn> <mml:mo>,</mml:mo> <mml:mi>p</mml:mi> <mml:mo>&lt;</mml:mo> <mml:mn>0.05</mml:mn> <mml:mo>,</mml:mo> <mml:mi>d</mml:mi> <mml:mo>=</mml:mo> <mml:mn>0.32</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="607974617006_gi12.png"/>
+</alternatives>
+</inline-formula>). Es decir, se rechaza la hipótesis nula por lo tanto sí existen diferencias estadísticamente significativas en el nivel de “ansiedad matemática”, según la modalidad educativa, donde los estudiantes de la modalidad virtual presentan mayor ansiedad.</p>
+</list-item>
+</list>
+</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Discusión de resultados y conclusiones</bold>
+</title>
+<p>Este estudio se encauzó en el constructo de la ansiedad matemática en los estudiantes de precálculo matriculados en el I cuatrimestre del 2022, cuyo objetivo general correspondió a medir el nivel de ansiedad matemática de dichos discentes y establecer si existen diferencias estadísticamente significativas en el promedio de la variable según el sexo y la modalidad educativa.</p>
+<p>Los resultados obtenidos establecen que un 86.07% de los estudiantes muestran un nivel de ansiedad alto y muy alto. Lo anterior, concuerda con diversas investigaciones entre ellas, la de Rodríguez y Pérez (2015) donde establecen que más de un 30% de los estudiantes de ciencias empresariales presentaban niveles altos de ansiedad matemática. Al igual que Castro y Ramírez (2019) donde más de la mitad de los discentes de su estudio poseían en promedios elevados de dicha variable. Por otra parte, Agüero et al. (2017) a pesar de que desarrollan su estudio en secundaria establecen que el nivel de ansiedad matemática aumenta conforme el estudiante va aprobando cada año escolar, por lo que existe una conexión inminente entre ambas etapas escolares en relación a este factor afectivo.</p>
+<p>El análisis de datos evidenció que no existen diferencias estadísticamente significativas con respecto al nivel promedio de la ansiedad matemática, según el sexo. Esto concuerda con diversas investigaciones donde se afirma que no existen resultados concluyentes con relación al sexo y la variable en estudio, puesto que las mujeres tienden a responder los instrumentos de medida con mayor honestidad sobre sus experiencias con relación a la variable en estudio que los hombres (Pérez- Tyteca et al., 2013).</p>
+<p>Por otra parte, dicho análisis sí evidenció, que existen diferencias estadísticamente significativas de dicha variable con relación a la modalidad educativa, donde los estudiantes que matricularon el curso virtual demuestran un nivel mayor de ansiedad matemática. Este resultado contrasta con los resultados de Barros, et al. (2020) y Contreras, et al. (2021) pues en ambos estudios se determinó que los discentes que poseen mayor ansiedad matemática son lo que asisten de manera presencial. Este contraste de resultados podría atribuirse a diversas causas, como las características atribuidas a cada uno de los discentes que conforman la muestra, el contexto educativo, el cambio abrupto de los procesos de enseñanza aprendizaje dados por la COVID 19 y los protocolos establecidos para el regreso a la presencialidad.</p>
+<p>Los hallazgos obtenidos en esta investigación poseen implicaciones directas para los profesionales de la educación universitaria y los estudiantes. En este caso los profesionales de la educación deben de establecer estrategias para ambos modelos educativos de tal manera que los procesos de enseñanza aprendizaje beneficien a los discentes a manejar su frustración y ansiedad hacia la asignatura, además, originar un ambiente de confianza con ello, la actitud hacia la utilidad de la matemática genere un mayor acercamiento a carreras STEM.</p>
+<p>Además, los resultados sugieren, al menos, dos líneas de investigación:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Explicar por qué tiende a aumentar el nivel de ansiedad matemática cuando los estudiantes matriculan un curso de manera virtual en relación a la modalidad presencial.</p>
+</list-item>
+<list-item>
+<p>Profundizar en la relación de la educación diversificada con los primeros cursos de matemática universitaria y sus factores socio afectivos como herencia a una nueva etapa escolar y la elección a carreras STEM.</p>
+</list-item>
+</list>
+</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>Referencias</title>
+<ref id="redalyc_607974617006_ref1">
+<label>[1]</label>
+<mixed-citation>[1] Agüero, E., Meza, L. G., Suárez, Z. y Schmidt, S. (2017). Estudio de la ansiedad matemática en la educación media costarricense. Revista Electrónica de Investigación Educativa, 19(1), 35-45. http://redie.uabc.mx/redie/article/view/849.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Agüero</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Meza</surname>
+<given-names>L. G.</given-names>
+</name>
+<name>
+<surname>Suárez</surname>
+<given-names>Z.</given-names>
+</name>
+<name>
+<surname>Schmidt</surname>
+<given-names>S.</given-names>
+</name>
+</person-group>
+<article-title>Estudio de la ansiedad matemática en la educación media costarricense</article-title>
+<source>Revista Electrónica de Investigación Educativa</source>
+<year>2017</year>
+<volume>19</volume>
+<issue>1</issue>
+<fpage>35</fpage>
+<lpage>45</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://redie.uabc.mx/redie/article/view/849">http://redie.uabc.mx/redie/article/view/849</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref2">
+<label>[2]</label>
+<mixed-citation>[2] Aiken, L. (1970). Attitudes toward mathematics. Review of Educational Research, 551-596. https://doi.org/10.3102/00346543040004551.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Aiken</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<article-title>Attitudes toward mathematics</article-title>
+<source>Review of Educational Research</source>
+<year>1970</year>
+<fpage>551</fpage>
+<lpage>596</lpage>
+<comment>https://doi.org/10.3102/00346543040004551.</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref3">
+<label>[3]</label>
+<mixed-citation>[3] Barros, D., Andrade, F., y Ferreira, F. (2020). Ansiedade matemática de universitários em contexto de pandemia: aulas presenciais versus virtuais. Revista de Ciências Exatas e Tecnologia, 7(3), 208-218.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Barros</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Andrade</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Ferreira</surname>
+<given-names>F.</given-names>
+</name>
+</person-group>
+<article-title>Ansiedade matemática de universitários em contexto de pandemia: aulas presenciais versus virtuais</article-title>
+<source>Revista de Ciências Exatas e Tecnologia</source>
+<year>2020</year>
+<volume>7</volume>
+<issue>3</issue>
+<fpage>208</fpage>
+<lpage>218</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref4">
+<label>[4]</label>
+<mixed-citation>[4] Burga, A. (2005). La unidimensionalidad de un instrumento de medición: perspectiva factorial. Ministerio de Educación.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Burga</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<source>Ministerio de Educación</source>
+<year>2005</year>
+<series>La unidimensionalidad de un instrumento de medición: perspectiva factorial</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref5">
+<label>[5]</label>
+<mixed-citation>[5] Castro, J., y Ramírez, J.(2019). Niveles de ansiedad matemática en estudiantes universitarios de ingeniería. Revista de Investigación Académica, 37, 1-8.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Castro</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Ramírez</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Niveles de ansiedad matemática en estudiantes universitarios de ingeniería</article-title>
+<source>Revista de Investigación Académica</source>
+<year>2019</year>
+<volume>37</volume>
+<fpage>1</fpage>
+<lpage>8</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref6">
+<label>[6]</label>
+<mixed-citation>[6] Cea, M.A. (1999) Metodología cuantitativa: estrategias y técnicas de investigación social. Síntesis.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Cea</surname>
+<given-names>M.A.</given-names>
+</name>
+</person-group>
+<source>Unlp</source>
+<year>1999</year>
+<series>Metodología cuantitativa: estrategias y técnicas de investigación social. Síntesis</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref7">
+<label>[7]</label>
+<mixed-citation>[7] Clark, D. A. y Beck, A. T. (2012). Terapia cognitiva para trastornos de ansiedad. Bilbao: Desclée de Brouwer.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Clark</surname>
+<given-names>D. A.</given-names>
+</name>
+<name>
+<surname>Beck</surname>
+<given-names>A. T.</given-names>
+</name>
+</person-group>
+<source>Bilbao: Desclée de Brouwer.</source>
+<year>2012</year>
+<series>Terapia cognitiva para trastornos de ansiedad</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref8">
+<label>[8]</label>
+<mixed-citation>[8] Céspedes, Y., Cortés, R. y Madrigal, M. (2011). Validación de un instrumento para medir la percepción de la calidad de los servicios farmacéuticos del Sistema Público de Salud de Costa Rica. Revista Costarricense de Salud Pública (20), 75-82. http://www.scielo.sa.cr/pdf/rcsp/v20n2/art2v20n2.pdf.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Céspedes</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>Cortés</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Madrigal</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>Validación de un instrumento para medir la percepción de la calidad de los servicios farmacéuticos del Sistema Público de Salud de Costa Rica</article-title>
+<source>Revista Costarricense de Salud Pública</source>
+<year>2011</year>
+<issue>20</issue>
+<fpage>75</fpage>
+<lpage>82</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.scielo.sa.cr/pdf/rcsp/v20n2/art2v20n2.pdf">http://www.scielo.sa.cr/pdf/rcsp/v20n2/art2v20n2.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref9">
+<label>[9]</label>
+<mixed-citation>[9] Contreras, J., Peña, M., y Guevara, C. (2021). Ansiedad matemática en estudiantes universitarios: un análisis comparativo de clases presenciales y virtuales. Revista de Investigación Académica, 56, 1-19.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Contreras</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Peña</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Guevara</surname>
+<given-names>C.</given-names>
+</name>
+</person-group>
+<article-title>Ansiedad matemática en estudiantes universitarios: un análisis comparativo de clases presenciales y virtuales</article-title>
+<source>Revista de Investigación Académica</source>
+<year>2021</year>
+<volume>56</volume>
+<fpage>1</fpage>
+<lpage>19</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref10">
+<label>[10]</label>
+<mixed-citation>[10] Delgado, I., Espinoza, J. y Fonseca, J. (2017). Ansiedad matemática en estudiantes universitarios de Costa Rica y su relación con el rendimiento académico y variables sociodemográficas. Propósitos y Representaciones, 5(1), 275 - 324. http://dx.doi.org/10.20511/pyr2017.v5n1.148.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Delgado</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>Espinoza</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Fonseca</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Ansiedad matemática en estudiantes universitarios de Costa Rica y su relación con el rendimiento académico y variables sociodemográficas</article-title>
+<source>Propósitos y Representaciones</source>
+<year>2017</year>
+<volume>5</volume>
+<issue>1</issue>
+<fpage>275</fpage>
+<lpage>324</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.20511/pyr2017.v5n1.148">http://dx.doi.org/10.20511/pyr2017.v5n1.148</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref11">
+<label>[11]</label>
+<mixed-citation>[11] Espinoza-González, J., y Delgado-Monge, I. C. (2015). Ansiedad matemática en estudiantes de primer año de la Universidad Nacional de Costa Rica. Universidad en Diálogo: Revista de Extensión, 5(2), 207-217</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Espinoza-González</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Delgado-Monge</surname>
+<given-names>I. C.</given-names>
+</name>
+</person-group>
+<article-title>Ansiedad matemática en estudiantes de primer año de la Universidad Nacional de Costa Rica</article-title>
+<source>Universidad en Diálogo: Revista de Extensión</source>
+<year>2015</year>
+<volume>5</volume>
+<issue>2</issue>
+<fpage>207</fpage>
+<lpage>217</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref12">
+<label>[12]</label>
+<mixed-citation>[12] Fennema, E., y Sherman, J. A. (1976). Fennema-Sherman mathematics attitudes scales: Instruments designed to measure attitudes toward the learning of mathematics by females and males. Journal for research in Mathematics Education, 7(5), 324-326. https://doi.org/10.2307/748467.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fennema</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Sherman</surname>
+<given-names>J. A.</given-names>
+</name>
+</person-group>
+<article-title>Fennema-Sherman mathematics attitudes scales: Instruments designed to measure attitudes toward the learning of mathematics by females and males</article-title>
+<source>Journal for research in Mathematics Education</source>
+<year>1976</year>
+<volume>7</volume>
+<issue>5</issue>
+<fpage>324</fpage>
+<lpage>326</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/748467">https://doi.org/10.2307/748467</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref13">
+<label>[13]</label>
+<mixed-citation>[13] García, A. (2018). Modalidades educativas: Presencial y virtual. Revista de Investigación en Educación, 12(1), 23-36.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>García</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>Modalidades educativas: Presencial y virtual</article-title>
+<source>Revista de Investigación en Educación</source>
+<year>2018</year>
+<volume>12</volume>
+<issue>1</issue>
+<fpage>23</fpage>
+<lpage>36</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref14">
+<label>[14]</label>
+<mixed-citation>[14] Gómez, I. (2000). Matemática emocional. Los afectos en el aprendizaje matemático. Narcea S.A.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Gómez</surname>
+<given-names>I.</given-names>
+</name>
+</person-group>
+<source>Narcea S.A.</source>
+<year>2000</year>
+<series>Matemática emocional. Los afectos en el aprendizaje matemático</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref15">
+<label>[15]</label>
+<mixed-citation>[15] Gómez-Chacón, I. (2010). Actitudes de los estudiantes en el aprendizaje de la matemática con tecnología. Enseñanza de las ciencias, 28(2), 227–244. http://eprints.ucm.es/21500/1/IGomez1.pdf.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gómez-Chacón</surname>
+<given-names>I.</given-names>
+</name>
+</person-group>
+<article-title>Actitudes de los estudiantes en el aprendizaje de la matemática con tecnología</article-title>
+<source>Enseñanza de las ciencias</source>
+<year>2010</year>
+<volume>28</volume>
+<issue>2</issue>
+<fpage>227</fpage>
+<lpage>244</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://eprints.ucm.es/21500/1/IGomez1.pdf">http://eprints.ucm.es/21500/1/IGomez1.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref16">
+<label>[16]</label>
+<mixed-citation>[16] González-Brignardello, M., González-Silva, M., y González-Silva, R. A. (2018). Anxiety and performance in mathematical activities of undergraduate students in health sciences. Revista Latinoamericana de Psicología, 50(1), 1-9.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>González-Brignardello</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>González-Silva</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>González-Silva</surname>
+<given-names>R. A.</given-names>
+</name>
+</person-group>
+<article-title>Anxiety and performance in mathematical activities of undergraduate students in health sciences</article-title>
+<source>Revista Latinoamericana de Psicología</source>
+<year>2018</year>
+<volume>50</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>9</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref17">
+<label>[17]</label>
+<mixed-citation>[17] Hernández, R., Fernández, C. y Baptista, P. (2006). Metodología de la investigación. Mcgraw Hill.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Hernández</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Fernández</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Baptista</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<source>Mcgraw Hill</source>
+<year>2006</year>
+<series>Metodología de la investigación</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref18">
+<label>[18]</label>
+<mixed-citation>[18]Jiménez, K. y Montero, E. (2012). Aplicación del modelo de Rasch, en el análisis psicométrico de una prueba de diagnóstico en matemática. Revista digital Matemática, Educación e Internet, 13(1), 1-23.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Jiménez</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Montero</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>Aplicación del modelo de Rasch, en el análisis psicométrico de una prueba de diagnóstico en matemática</article-title>
+<source>Revista digital Matemática, Educación e Internet</source>
+<year>2012</year>
+<volume>13</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>23</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref19">
+<label>[19]</label>
+<mixed-citation>[19] Juncos, L., y Castro, J. F. (2019). Ansiedad matemática y rendimiento académico en estudiantes universitarios de ingeniería. Revista Internacional de Investigación en Educación Superior, 5(1), 1-23.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Juncos</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Castro</surname>
+<given-names>J. F.</given-names>
+</name>
+</person-group>
+<article-title>Ansiedad matemática y rendimiento académico en estudiantes universitarios de ingeniería</article-title>
+<source>Revista Internacional de Investigación en Educación Superior</source>
+<year>2019</year>
+<volume>5</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>23</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref20">
+<label>[20]</label>
+<mixed-citation>[20] Lamas, H. (2015). Sobre el rendimiento escolar. Propósitos y Representaciones, 3(1), 313-386. https://doi.org/10.20511/pyr2015.v3n1.74.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Lamas</surname>
+<given-names>H.</given-names>
+</name>
+</person-group>
+<article-title>Sobre el rendimiento escolar.</article-title>
+<source>Propósitos y Representaciones</source>
+<year>2015</year>
+<volume>3</volume>
+<issue>1</issue>
+<fpage>313</fpage>
+<lpage>386</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.20511/pyr2015.v3n1.74">https://doi.org/10.20511/pyr2015.v3n1.74</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref21">
+<label>[21]</label>
+<mixed-citation>[21] López, M. (2020). Educación virtual: características y potencialidades. Revista Internacional de Tecnología, Conocimiento y Sociedad, 8(2), 10-25.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>López</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>Educación virtual: características y potencialidades</article-title>
+<source>Revista Internacional de Tecnología, Conocimiento y Sociedad</source>
+<year>2020</year>
+<volume>8</volume>
+<issue>2</issue>
+<fpage>10</fpage>
+<lpage>25</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref22">
+<label>[22]</label>
+<mixed-citation>[22] Lozano, L. y De la Fuente- Solana, E. (2009). Diseño y validación de cuestionarios. Manual básico para la realización de tesinas, tesis y trabajos de investigación. Editorial EOS.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Lozano</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>De la Fuente- Solana</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<source>Editorial EOS</source>
+<year>2009</year>
+<series>Diseño y validación de cuestionarios. Manual básico para la realización de tesinas, tesis y trabajos de investigación</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref23">
+<label>[23]</label>
+<mixed-citation>[23] Martínez, R., y Checa, A. (2014). ¿ Tienen ansiedad hacia las matemáticas los futuros matemáticos?. Profesorado. Revista de Currículum y Formación de Profesorado, 18(2), 153-170.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Martínez</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Checa</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>¿ Tienen ansiedad hacia las matemáticas los futuros matemáticos?. Profesorado.</article-title>
+<source>Revista de Currículum y Formación de Profesorado</source>
+<year>2014</year>
+<volume>18</volume>
+<issue>2</issue>
+<fpage>153</fpage>
+<lpage>170</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref24">
+<label>[24]</label>
+<mixed-citation>[24] Pérez-Tyteca, P. y Castro, E. (2011). La ansiedad Matemática y su red de influencias en la elección de carrera Universitaria. En Marín, Margarita; Fernández, Gabriel; Blanco, Lorenzo J.; Palarea, María Mercedes (Eds.), Investigación en Educación Matemática XV. Ciudad Real: Sociedad Española de Investigación en Educación Matemática, SEIEM.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Pérez-Tyteca</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Castro</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<source>Investigación en Educación Matemática XV. Ciudad Real: Sociedad Española de Investigación en Educación Matemática, SEIEM.</source>
+<year>2011</year>
+<series>La ansiedad Matemática y su red de influencias en la elección de carrera Universitaria</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref25">
+<label>[25]</label>
+<mixed-citation>[25] Pérez-Tyteca, P., Castro, E., Rico, L. y Castro E. (2011). Ansiedad matemática, género y ramas de conocimiento en alumnos universitarios. Enseñanza de las Ciencias, 29 (2), 237-250.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Pérez-Tyteca</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Castro</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Rico</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Castro</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>Ansiedad matemática, género y ramas de conocimiento en alumnos universitarios.</article-title>
+<source>Enseñanza de las Ciencias</source>
+<year>2011</year>
+<volume>29</volume>
+<issue>2</issue>
+<fpage>237</fpage>
+<lpage>250</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref26">
+<label>[26]</label>
+<mixed-citation>[26] Pérez-Tyteca, P. (2012). La ansiedad matemática como centro de un modelo causal predictivo de la elección de carreras. (Tesis doctoral) Universidad de Granada.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Pérez-Tyteca</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<source>Universidad de Granada</source>
+<year>2012</year>
+<comment content-type="degree">La ansiedad matemática como centro de un modelo causal predictivo de la elección de carreras</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref27">
+<label>[27]</label>
+<mixed-citation>[27] Pérez-Tyteca, P., Monje, J. y Castro, E. (2013). Afecto y matemáticas. Diseño de una entrevista para acceder a los sentimientos de alumnos adolescentes. Avances de Investigación en Educación Matemática, 4, 65-82.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Pérez-Tyteca</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Monje</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Castro</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>Afecto y matemáticas. Diseño de una entrevista para acceder a los sentimientos de alumnos adolescentes</article-title>
+<source>Avances de Investigación en Educación Matemática</source>
+<year>2013</year>
+<volume>4</volume>
+<fpage>65</fpage>
+<lpage>82</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref28">
+<label>[28]</label>
+<mixed-citation>[28] Reyes, L. (1984). Affective variables and mathematics education. The Elementary School Journal, 84(5), 558-581. https://doi.org/10.1086/461384.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Reyes</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<article-title>Affective variables and mathematics education</article-title>
+<source>The Elementary School Journal</source>
+<year>1984</year>
+<volume>84</volume>
+<issue>5</issue>
+<fpage>558</fpage>
+<lpage>581</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1086/461384">https://doi.org/10.1086/461384</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617006_ref29">
+<label>[29]</label>
+<mixed-citation>[29] Rodríguez, M. C., y Pérez, D. R. (2015). Ansiedad matemática en estudiantes universitarios de ciencias económicas y empresariales. Cogent Education, 2(1), 1-32.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rodríguez</surname>
+<given-names>M. C.</given-names>
+</name>
+<name>
+<surname>Pérez</surname>
+<given-names>D. R.</given-names>
+</name>
+</person-group>
+<article-title>Ansiedad matemática en estudiantes universitarios de ciencias económicas y empresariales</article-title>
+<source>Cogent Education</source>
+<year>2015</year>
+<volume>2</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>32</lpage>
+</element-citation>
+</ref>
+</ref-list>
+</back>
+</article>

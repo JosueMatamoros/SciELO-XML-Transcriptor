@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml-dtd" href="http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1d3" specific-use="Marcalyc 1.2" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="redalyc">6079</journal-id>
+<journal-title-group>
+<journal-title specific-use="original" xml:lang="en">Revista Digital: Matemática, Educación e Internet</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1659-0643</issn>
+<publisher>
+<publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+<publisher-loc>
+<country>Costa Rica</country>
+<email>revistadigitalmatematica@itcr.ac.cr</email>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="art-access-id" specific-use="redalyc">607974617003</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Didáctica y Software.</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title xml:lang="es">Interactividad en tareas matemáticas con GeoGebra</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-6707-9089</contrib-id>
+<name name-style="western">
+<surname>Favieri</surname>
+<given-names>Adriana</given-names>
+</name>
+<xref ref-type="aff" rid="aff1"/>
+<email>afavieri@unlam.edu.ar</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-9650-5019</contrib-id>
+<name name-style="western">
+<surname>Williner</surname>
+<given-names>Betina</given-names>
+</name>
+<xref ref-type="aff" rid="aff3"/>
+<email>bwilliner@unlam.edu.ar</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Universidad Nacional de La Matanza. San Justo. afavieri@unlam.edu.ar</institution>
+<institution content-type="orgname">Universidad Nacional de La Matanza. San Justo.</institution>
+<country country="AR">Argentina</country>
+</aff>
+<aff id="aff3">
+<institution content-type="original">Universidad Nacional de La Matanza. San Justo.  bwilliner@unlam.edu.ar</institution>
+<institution content-type="orgname">Universidad Nacional de La Matanza. San Justo.</institution>
+<country country="AR">Argentina</country>
+</aff>
+<pub-date pub-type="epub-ppub">
+<season>Agosto-Febrero</season>
+<year>2023</year>
+</pub-date>
+<volume>24</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>19</lpage>
+<history>
+<date date-type="received" publication-format="dd mes yyyy">
+<day>08</day>
+<month>11</month>
+<year>2022</year>
+</date>
+<date date-type="accepted" publication-format="dd mes yyyy">
+<day>01</day>
+<month>04</month>
+<year>2023</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2023</copyright-year>
+<copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+<ali:free_to_read/>
+<license xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+<license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract xml:lang="es">
+<title>Resumen</title>
+<p>Se presenta el diseño de tareas de matemáticas con uso del software GeoGebra para la enseñanza de Análisis Matemático I, en carreras de ingeniería. El objetivo principal es lograr que el alumno use el software sin la orientación del docente. Se intenta que el estudiante ante un problema, ejercicio o concepto teórico, por sí mismo (sin una guía del profesor) realice acciones con GeoGebra que le permitan resolver ese ejercicio o comprender mejor ese concepto. Así se considera necesario emplear el software de manera gradual en las clases para incorporar tanto conceptos propios de la asignatura como su uso. Se delimitaron aspectos teóricos sobre el diseño poniendo énfasis en la interacción GeoGebra-alumno, lo que permitió categorizarlas. Se incluyen ejemplos detallados de cada una de ellas. Se concluye con algunas consideraciones sobre las tareas diseñadas, la conveniencia de contar con una categorización acorde a la interacción del alumno con el software, la manera crítica de usarlo para lograr que los alumnos también adquieran habilidades vinculadas a justificaciones, fundamentaciones y desarrollos analíticos.</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>GeoGebra software is used to design mathematical tasks for Mathematical Analysis I classes in engineering. An important goal is to get students to use the software without teacher guidance. Students are expected to use GeoGebra independently (without teacher guidance) to solve a problem, perform an exercise, or better understand a theoretical concept. In order to integrate both the concepts of the subject and the use of the software, it is considered necessary to use the software gradually in the classroom. Theoretical aspects of the design were narrowed down, focusing on the interaction between GeoGebra and the students. As a result, mathematical tasks were categorized. Each example is explained in detail. The conclusion refers to some considerations about the designed tasks, the appropriateness of the categorization according to the students’ interaction with the software, and the critical way to use them to ensure that students also acquire skills in reasoning, foundations, and analytical development.</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>GeoGebra</kwd>
+<kwd>interactividad</kwd>
+<kwd>tareas matemáticas</kwd>
+<kwd>Análisis Matemático I</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>GeoGebra</kwd>
+<kwd>interactivity</kwd>
+<kwd>math tasks</kwd>
+<kwd>Calculus I</kwd>
+</kwd-group>
+<counts>
+<fig-count count="7"/>
+<table-count count="5"/>
+<equation-count count="0"/>
+<ref-count count="11"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>
+<bold>Introducción</bold>
+</title>
+<p>El uso de herramientas tecnológicas como teléfonos inteligentes, tabletas y computadoras es una característica de estos tiempos. La gran mayoría de la población, y en especial la estudiantil, usa dispositivos móviles para comunicarse, recrearse, sacar fotos, leer, acceder a redes sociales y navegar por internet. En cuanto al ámbito educativo, la tecnología ha llegado de diferentes maneras: plataformas digitales, MOOCS, softwares específicos, aplicaciones, aulas virtuales, correctores de ortografía, traductores, sitios con recursos didácticos, videos tutoriales, entre otros. Entre estas múltiples funciones se cuenta, en el aula de matemática, con programas de geometría dinámica. Un ejemplo de éstos es GeoGebra, uno de los más usados en las instituciones educativas dado que es libre, gratuito y se adapta a varias áreas de la matemática desde niveles iniciales hasta universitarios. Además, cuenta con una trayectoria de investigación con resultados positivos, algunos de los cuales se exponen a continuación.</p>
+<p>Rojas-Bello (2020) realizó una experiencia didáctica mediante actividades con lápiz y papel y uso de GeoGebra en la asignatura Geometría III en la carrera Licenciatura en Matemática en República Dominicana. Observó que la posibilidad que da el software para manipular los datos iniciales de los problemas permitió crear nuevas familias de objetos geométricos, ilustrando mejor algunos conceptos. Si bien se obtuvo buena participación, motivación de los estudiantes y apropiación de conocimientos geométricos tratados, recomienda focalizar las instrucciones del GeoGebra en las actividades para poder organizarlas en un tiempo pertinente en las clases.</p>
+<p>Por su parte, Ramírez (2021) expone una experiencia sobre el uso de GeoGebra para estudiar temas relacionados con integración múltiple con alumnos de la carrera de Bachillerato y Licenciatura de la Enseñanza de la Matemática en la Universidad de Costa Rica. En las clases el profesor explicaba la teoría y daba ejemplos, en cuya solución, en la mayoría de los casos, se acudía al uso de GeoGebra. De igual manera, los educandos debían resolver ejercicios, interpretando la resolución por medio de los gráficos hechos en el software para posteriormente revisar las respuestas en conjunto. El autor analizo las producciones de las tres pruebas parciales de evaluación del curso ya que el estudiante podía recurrir al uso del programa. Entre las conclusiones, señalo que el uso del software beneficia la motivación y el interés e inclusive puede mejorar la comprensión de forma significativa y consecuentemente optimizar el rendimiento académico. Indicó que el docente es el responsable de diseñar las situaciones didácticas más convenientes para optimizar el uso de GeoGebra (o cualquier otro paquete computacional) y así aprovechar sus potencialidades.</p>
+<p>Campos Nava et al. (2021) usaron GeoGebra con alumnos de álgebra lineal implementando una actividad con matrices y determinantes con el objetivo de identificar patrones y crear conjeturas. Si bien los autores no muestran resultados de aprendizaje, en sus conclusiones indican que, para el diseño de actividades, el docente puede recurrir a la combinación de elementos de fuentes diversas como históricas y epistemológicas y considerar las potencialidades de la herramienta tecnológica.</p>
+<p>Por último, se menciona la revisión que realizaron Wassie y Zergaw (2018) sobre aproximadamente 90 investigaciones sobre el uso de GeoGebra a nivel mundial. Entre las conclusiones principales se destacan que el software mejora el interés de los estudiantes y permite diferentes aprendizajes, que tiene la capacidad de hacer que los conceptos sean más claros, tangibles y comprensibles. A su vez permite gráficos dinámicos además de estáticos, favorece la visualización de figuras en 3D. El docente puede presentar ideas para que los alumnos investiguen, deduzcan patrones y prueben conjeturas. En todos los casos, el papel del profesor es vital y se debe tener cuidado al diseñar el tipo de actividades a realizar.</p>
+<p>Esta exposición de antecedentes tiene como objetivo mostrar todas las ventajas sobre la incorporación de GeoGebra en las clases y a su vez dejar a la luz ciertas cuestiones que se necesitan profundizar como, por ejemplo, sobre el diseño de cierto tipo de tareas, lo que se explica en el apartado siguiente.</p>
+<sec>
+<title>
+<bold>Planteamiento del problema</bold>
+</title>
+<p>En la cátedra de Análisis Matemático I de carreras de ingeniería de la Universidad Nacional de La Matanza, Argentina, se realizaron diversas investigaciones sobre el uso del software GeoGebra en el aula obteniéndose resultados similares a los mostrados y quedando abierta la línea de investigación sobre diseño de tareas.</p>
+<p>En la actualidad se estudia sobre la elaboración de tareas convenientes para que el estudiante incorpore el uso de GeoGebra a su actividad matemática habitual. Se pretende que el alumno no solo conozca el software y realice algunas acciones propuestas por las tareas dadas, sino que sea capaz de hacer un uso activo del mismo. Se intenta que el estudiante ante un problema, ejercicio o concepto teórico, por sí mismo (sin una guía del profesor) realice acciones con GeoGebra que le permitan resolver ese ejercicio o comprender mejor ese concepto. De esta manera se considera que es necesario emplear el software de forma gradual en las clases para incorporar tanto conceptos propios de la asignatura como su uso.</p>
+<p>Se muestra en este artículo una propuesta de diseño de tres tareas con distinta complejidad y diferente uso del software en cada una de ellas. Se concluye con algunas consideraciones sobre las tareas diseñadas y recomendaciones sobre su implementación.</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Marco teórico</bold>
+</title>
+<sec>
+<title>
+<bold>Actividades matemáticas realizadas con tecnología </bold>
+</title>
+<p>Arcavi y Hadas (2002) son referentes teóricos sobre actividades matemáticas con uso de tecnología. Los autores plantean que dichas actividades deben promover procesos como los de visualización, experimentación, sorpresa, retroalimentación y necesidad de argumentar y probar. Sostienen que la visualización se refiere a la habilidad de representar, transformar, comunicar, argumentar, explicar un hecho a partir de lo observable por ejemplo en un gráfico. Vinculan la experimentación con las facilidades que algunas herramientas tecnológicas permiten, por ejemplo, el uso de entornos dinámicos que proponen diferentes posibilidades de solución a una situación propuesta. Explican que la sorpresa se refiere a las respuestas rápidas que los estudiantes dan a ciertos problemas que luego no coinciden con las posibilidades de otras soluciones que pueden explorarse haciendo uso de la tecnología. Indican que la retroalimentación se puede lograr cuando, por ejemplo, se comparan resultados o cuando se reformulan procesos en los cuales la expectativa inicial no coincide con los resultados obtenidos. Expresan que la necesidad de argumentar y probar puede darse cuando el alumno explica a través de palabras que un resultado no se ajusta el contexto de un problema.</p>
+</sec>
+<sec>
+<title>
+<bold>Sobre el software GeoGebra</bold>
+</title>
+<p>GeoGebra es uno de los programas de geometría dinámica, de código abierto más utilizados en todos los niveles educativos (Campos Nava y Torres Rodríguez, 2018). Es posible trabajar con conceptos de geometría, álgebra, estadística y cálculo a través de hojas de cálculo y gráficos, con la posibilidad de utilizar acciones dinámicas.  Es de uso sencillo y tiene la posibilidad de crear materiales de aprendizaje interactivos. Además, cuenta con una comunidad de millones de usuarios en casi todos los países del mundo que comparten recursos y experiencia para apoyar la educación en ciencia, tecnología, ingeniería y matemáticas (GeoGebra, s.f.). Ofrece una gama de aplicaciones móviles gratuitas para IOS, Android, Windows, Mac, Chromebook y Linux, lo que permite su uso en una amplia gama de dispositivos.</p>
+</sec>
+<sec>
+<title>
+<bold>Tareas matemáticas con incorporación de GeoGebra </bold>
+</title>
+<p>Las tareas son uno de los recursos más importantes que tiene el profesor para lograr que los alumnos entiendan los conceptos matemáticos (Campos Nava y Torres Rodríguez, 2018). Sosa et al (2008) sugieren que para diseñar tareas con software es conveniente aprovechar las posibilidades de usar tablas, crear gráficos, construir funciones y verificar cálculos; de tal manera que los alumnos puedan experimentar con los objetos matemáticos, analizando las propiedades y características de diferentes situaciones. Estos autores también aconsejan incentivar el uso de múltiples registros de representación semiótica de un mismo objeto matemático y facilitar el proceso de visualización matemática, fomentar la experimentación y exploración, y luego arribar a conclusiones, establecer conjeturas y generar argumentos.</p>
+<p>Entre las conclusiones de uno de los grupos del CIEM (Muñoz-Escolano, 2016) sobre tareas con GeoGebra se recomienda que tengan dos momentos: el primero exploratorio para favorecer la comprensión de la tarea y la aplicación eficaz de la técnica; y un momento posterior que consista en la resolución con lápiz y papel para favorecer la consolidación de la técnica y los procesos de instrumentalización.</p>
+<p>Fiallo y Parada (2014) explican la reinterpretación de las fases de aprendizaje del modelo de Van Hiele que dieron lugar a pautas para el diseño de tareas con GeoGebra:</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>Fase de información y exploración libre: al inicio de la actividad se plantea el problema para que el estudiante lo trate de resolver sin el uso del software (de manera individual o grupal). La idea es que el alumno trabaje con sus conocimientos previos para resolver el problema de manera intuitiva y logre aproximarse a la solución.</p>
+</list-item>
+<list-item>
+<p>Fase de socialización de los resultados obtenidos: los estudiantes comunican sus soluciones a todo el grupo, aclaran dudas, corrigen errores, y se promueve la necesidad de ofrecer una solución matemática válida al problema planteado.</p>
+</list-item>
+<list-item>
+<p>Fase de exploración dirigida: se parte de la exploración de un archivo de GeoGebra para que, a través de la exploración y de la orientación guiada por preguntas, el estudiante, usando las diferentes herramientas del software, vaya encontrando respuestas al problema, plantee conjeturas y justifique matemáticamente los resultados visualizados en las diferentes representaciones que ofrece el software: grafica, algebraica, hoja de cálculo.</p>
+</list-item>
+<list-item>
+<p>Fase de explicitación: se debate lo que cada uno hizo con orientación del profesor de tal manera que se llegue a la construcción del conocimiento que es el objetivo de la actividad.</p>
+</list-item>
+<list-item>
+<p>Orientación libre: se plantea un nuevo problema en el que el estudiante tiene que aplicar lo que aprendió, pero no de manera mecánica.</p>
+</list-item>
+</list>
+</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Método</bold>
+</title>
+<sec>
+<title>
+<bold>Delimitación de aspectos teóricos</bold>
+</title>
+<p>Conforme a las posturas teóricas previamente expuestas se adaptaron definiciones y se precisaron otros aspectos. Se propone una definición de tareas de matemática con uso de software GeoGebra, estableciéndose sus características, fases y acciones. A continuación, se establece una categorización de dichas tareas.</p>
+<sec>
+<title>
+<bold>Tareas de Matemática con uso de software GeoGebra</bold>
+</title>
+<p>Al resolver problemas o analizar conceptos matemáticos con la incorporación de GeoGebra se trabaja en diferentes entornos. Uno de ellos es el tecnológico, que se refiere a los comandos e ingresos en el software. Otro es el entorno de lápiz y papel o pizarrón, según lo realicen los alumnos o el docente respectivamente, que incluye las notas escritas, argumentos teóricos y/o demostraciones.</p>
+<p>A partir de la postura de Arcavi y Hadas (2002) se define Tareas de Matemática con uso de software GeoGebra (TMGG) a aquellas actividades matemáticas en las que se utilizan tanto el entorno tecnológico como el de lápiz y papel (o pizarrón), con el fin de facilitar procesos de visualización, experimentación, sorpresa, retroalimentación y necesidad de argumentar y/o formalizar lo realizado.</p>
+</sec>
+<sec>
+<title>
+<bold>Características de las tareas de matemática con uso de software GeoGebra</bold>
+</title>
+<p>Se considera que las tareas tienen que incluir:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Objetivos: se debe indicar con que propósito se utilizará el software. Por ejemplo, para mostrar conceptos, introducir temas, presentar comandos o, si se pretende que el alumno infiera relaciones entre objetos matemáticos o descubra propiedades.</p>
+</list-item>
+<list-item>
+<p>Nivel de interacción del alumno con GeoGebra: se considera interacción al conjunto de acciones llevadas a cabo por el estudiante cuando utiliza el software. Esta puede ser desde niveles nulos, en los cuales solo el profesor lo utiliza (desde su computadora, por ejemplo) y comparte con los alumnos lo que hace, hasta una interacción plena que puede ser con o sin guía del docente.</p>
+</list-item>
+<list-item>
+<p>Acciones para realizar en entorno de lápiz y papel o pizarrón: es preciso que haya un ida y vuelta entre el trabajo en los dos entornos. El tecnológico facilita la visualización de conceptos, relaciones, propiedades, pero la fundamentación, justificación analítica o formalización de conceptos, es preciso realizarla en el de lápiz y papel o en el pizarrón, según corresponda. </p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Fases de las tareas de matemática con uso de software GeoGebra</bold>
+</title>
+<p>Para este trabajo, inspirados en las fases del modelo de Van Hiele y las recomendaciones de CIEM (2016), se optó por incluir las siguientes (no necesariamente todas en la misma tarea):</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Fase de información y exposición: momento en el cual el docente expone contenidos, tanto en el pizarrón como en el software, muestra comandos e indica su utilidad.</p>
+</list-item>
+<list-item>
+<p>Fase de exploración dirigida: aquella en la cual el docente va guiando al alumno sobre las acciones a realizar usando GeoGebra y sus cuadernos.</p>
+</list-item>
+<list-item>
+<p>Fase de exploración libre: momento en el cual el alumno explora GeoGebra sin guía del docente. Es conveniente que trabajen en grupo de manera tal que puedan discutir que comandos o acciones resultarían mas adecuados para lo que están resolviendo.</p>
+</list-item>
+<list-item>
+<p>Fase de formalización: momento en el cual el docente resume todo lo trabajado con GeoGebra formalizando conceptos, propiedades o relaciones y utilizando la escritura matemática correcta.</p>
+</list-item>
+<list-item>
+<p>Fase de fundamentación: momento de la actividad en la cual los alumnos deben argumentar las conclusiones a las que llegaron utilizando GeoGebra y justificar analíticamente los resultados.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Acciones de las tareas de matemática con uso de software GeoGebra</bold>
+</title>
+<p>Las acciones se refieren a las labores que se realizan en los diferentes entornos en los que se trabaja.</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Ficha técnica para el diseño de tareas de matemática con uso de GeoGebra </bold>
+</title>
+<p>Con el fin de facilitar el diseño de cada tipo de tarea se elaboró la denominada Ficha Técnica para el diseño de TMGG que se muestra en la tabla <xref ref-type="table" rid="gt1">1</xref>.</p>
+<p>
+<table-wrap id="gt6">
+<label>Tabla</label>
+<caption>
+<title>Ficha técnica para el diseño de TMGG</title>
+</caption>
+<alt-text>Tabla  Ficha técnica para el diseño de TMGG</alt-text>
+<alternatives>
+<graphic xlink:href="607974617003_gt3.png" position="anchor" orientation="portrait"/>
+<table id="gt3-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: center;" colspan="2">Características</td>
+</tr>
+<tr>
+<td style="text-align: center;">Objetivos</td>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Nivel de interacción del alumno con GeoGebra</td>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Ítems para realizar en lápiz y papel o pizarrón</td>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="2">Fases</td>
+</tr>
+<tr>
+<td style="text-align: center;">Información y exposición</td>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Exploración dirigida</td>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Exploración libre</td>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Formalización</td>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;">Fundamentación</td>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="2">Acciones</td>
+</tr>
+<tr>
+<td style="text-align: center;" colspan="2">En esta sección describimos todo lo que hace el docente, los comandos que usa y lo que escribe y formaliza en el pizarrón</td>
+</tr>
+<tr>
+<td style="text-align: center;">En GeoGebra</td>
+<td style="text-align: center;">En el pizarrón y/o cuadernos</td>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+<tr>
+<td style="text-align: center;"/>
+<td style="text-align: center;"/>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>
+<table-wrap id="gt1">
+<label>Tabla 1</label>
+<caption>
+<title>Ficha técnica para el diseño de TMGG.</title>
+</caption>
+<alt-text>Tabla 1 Ficha técnica para el diseño de TMGG.</alt-text>
+<graphic xlink:href="607974617003_gt2.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Categorización de tareas de matemática con uso de software GeoGebra</bold>
+</title>
+<p>Se crearon tres categorías de tareas con un orden creciente de interacción del alumno con GeoGebra. Las denominamos TMGG sin interacción, TMGG con interacción guiada y TMGG con interacción libre.</p>
+<sec>
+<title>Tareas de Matemática con uso de software GeoGebra sin interacción (TMGGSI)</title>
+<p>Son aquellas tareas en las cuales el docente, usando su computadora o dispositivo electrónico y los televisores disponibles en las aulas, o en clases virtuales, expone los temas específicos de la asignatura con inclusión de GeoGebra, realizando acciones tanto en el software como en el pizarrón. El objetivo es introducir temas, conceptos o relaciones entre objetos matemáticos utilizando el programa de manera conjunta con el pizarrón. El profesor muestra el uso de comandos necesarios para el tema elegido a la vez que guía a los alumnos con preguntas sobre lo visto. La interacción del alumno con GeoGebra es nula, es el docente quien lo usa, dirige la clase e invita a los alumnos a realizar acciones en entorno de lápiz y papel. Los ítems para realizar en el pizarrón corresponden a anotaciones para resumir lo realizado y a la formalización de los conceptos, interpretación geométrica o propiedad estudiada. Ejemplos de temas que podrían desarrollarse con este tipo de tareas son: definición de función continua en un punto, orden de contacto entre dos curvas, sumas de Riemman, entre otros.</p>
+</sec>
+<sec>
+<title>Tareas de Matemática con uso de software GeoGebra con interacción guiada (TMGGIG)</title>
+<p>Son las tareas en las cuales se usa tanto el entorno tecnológico como el de lápiz y papel durante las clases. El docente ensena diferentes comandos y herramientas a la par de contenidos matemáticos específicos y los alumnos usan la aplicación GeoGebra en sus celulares acorde a la guía del profesor y luego les solicita que extraigan conclusiones o realicen alguna conjetura. A continuación, se hace una puesta en común y, si es necesario, se formalizan contenidos. La interacción del alumno con GeoGebra es alta pero guiada por el docente. Los ítems para realizar en el entorno de lápiz y papel corresponden a la generalización de las propiedades vistas utilizando lenguaje matemático apropiado, tanto en los cuadernos de los alumnos como en el pizarrón. Ejemplos de contenidos que podrían realizarse en estas tareas son: estudio de las características principales de funciones sencillas, exploración de traslación de funciones, resolución de ejercicio de interpretación geométrica de la derivada, entre otros.</p>
+</sec>
+<sec>
+<title>Tareas de Matemática con uso de software GeoGebra con Interacción Libre (TMGGIL)</title>
+<p>Son las tareas realizadas exclusivamente por los alumnos, generalmente en grupos. Son domiciliarias con plazo de entrega de una semana. El objetivo es que los alumnos puedan resolver algún ejercicio específico, buscar patrones o relaciones y justificar analíticamente lo realizado. La interacción del alumno con GeoGebra es alta y libre, sin intervención del docente. También implica acciones en lápiz y papel para realizar justificaciones analíticas sobre lo realizado con el software. Ejemplos de temas para este tipo de tareas: estudio de las asíntotas de una función racional de acuerdo con la variación de un parámetro, análisis de la continuidad de una función definida por intervalos acorde a la variación de parámetros, estudio de funciones, entre otros. </p>
+</sec>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Resultados</bold>
+</title>
+<sec>
+<title>
+<bold>Ejemplos de las tareas de matemática con uso de software GeoGebra</bold>
+</title>
+<p>A modo de aclaración, cada una de las tres categorías de las TMGG puede usarse en cualquier momento del desarrollo de las clases, esta elección queda a cargo del docente del curso. A continuación, se muestran ejemplos de cada una de las categorías.</p>
+<sec>
+<title>
+<bold>Ejemplo de tarea de matemática con uso de software GeoGebra sin interacción</bold>
+</title>
+<p>Esta tarea, que se muestra en la tabla <xref ref-type="table" rid="gt5">2</xref>, requiere que se haya trabajado previamente ingreso de funciones en GeoGebra, creación y uso de deslizadores y los comandos de límite.</p>
+<p>Tema para desarrollar: definición de continuidad de una función en un punto</p>
+<p>
+<table-wrap id="gt5">
+<label>Tabla 2</label>
+<caption>
+<title>Ejemplo de TMGG sin interacción</title>
+</caption>
+<alt-text>Tabla 2 Ejemplo de TMGG sin interacción</alt-text>
+<graphic xlink:href="607974617003_gt8.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>
+<fig id="gf2">
+<caption>
+<title>Continuación tabla 2</title>
+</caption>
+<graphic xlink:href="607974617003_gf3.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf3">
+<caption>
+<title>Continuación tabla 2</title>
+</caption>
+<graphic xlink:href="607974617003_gf4.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf4">
+<caption>
+<title>Continuación tabla 2</title>
+</caption>
+<graphic xlink:href="607974617003_gf5.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Ejemplo de tarea de matemática con uso de software GeoGebra con interacción guiada</bold>
+</title>
+<p>En la tarea que se encuentra en la tabla <xref ref-type="table" rid="gt3">3</xref> se enseña el ingreso de funciones y puntos, configuración de ellos, y el comando “Resuelve”.</p>
+<p>
+<table-wrap id="gt3">
+<label>Tabla 3</label>
+<caption>
+<title>Ejemplo de TMGG con interacción guiada</title>
+</caption>
+<alt-text>Tabla 3 Ejemplo de TMGG con interacción guiada</alt-text>
+<graphic xlink:href="607974617003_gt9.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>
+<fig id="gf5">
+<caption>
+<title>Continuación tabla 3</title>
+</caption>
+<graphic xlink:href="607974617003_gf6.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf6">
+<caption>
+<title>Continuación tabla 3</title>
+</caption>
+<graphic xlink:href="607974617003_gf7.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf7">
+<caption>
+<title>Continuación tabla 3</title>
+</caption>
+<graphic xlink:href="607974617003_gf8.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf8">
+<caption>
+<title>Continuación tabla 3</title>
+</caption>
+<graphic xlink:href="607974617003_gf9.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Ejemplo de tarea de matemática con uso de software GeoGebra con interacción libre</bold>
+</title>
+<p>La tarea que se muestra en la tabla 4 está pensada para realizarse luego de estudiar las unidades de funciones y límites. Es para resolver en grupos de tres o cuatro alumnos con una semana de plazo para su entrega. No se sugiere qué comandos utilizar.</p>
+<p>
+<table-wrap id="gt4">
+<label>Tabla 4</label>
+<caption>
+<title>Ejemplo de TMGG con interacción libre</title>
+</caption>
+<alt-text>Tabla 4 Ejemplo de TMGG con interacción libre</alt-text>
+<graphic xlink:href="607974617003_gt10.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+</sec>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Conclusiones</bold>
+</title>
+<p>La metodología de trabajo permite establecer una definición precisa sobre tareas de matemática con uso de software GeoGebra, con sus características propias, fases claras y acciones a realizar tanto con el software como en lápiz y papel. Se considera necesaria la combinación de los dos entornos, ya que el primero se relaciona con la exploración y el segundo con la justificación y la fundamentación de lo realizado. No sólo es esperable que los alumnos incorporen una herramienta informática sino también que adquieran habilidades vinculadas a justificaciones, fundamentaciones y desarrollos analíticos ya que esto les permitirá alcanzar un pensamiento crítico.</p>
+<p>Un aspecto para resaltar es el conocimiento cabal del software por parte del docente, por lo menos en los temas en los que lo va a utilizar. Esto tiene el fin de establecer si los resultados obtenidos son esperables o si se produce algún inconveniente como lo visto en el cálculo de los intervalos de positividad y negatividad de una función definida por partes y en el ejemplo en el cual la ordenada al origen era <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>y</mml:mi> <mml:mo>=</mml:mo> <mml:mn>0</mml:mn> </mml:math>
+<graphic xlink:href="607974617003_gi2.png"/>
+</alternatives>
+</inline-formula> y al buscar las raíces se obtenía que no existían. Estas paradojas funcionan como disparadores de discusiones ricas que pueden hacerse en las clases, no solo para reforzar los contenidos teóricos, sino también para usar el software de manera crítica, analizando los resultados obtenidos.</p>
+<p>Resta implementar este tipo de tareas y analizar resultados para saber si se logra el objetivo planteado: que el alumno incorpore esta herramienta tan valiosa para su aprendizaje sin necesidad de que el profesor se lo indique.</p>
+</sec>
+<sec>
+<title>
+<bold>Recomendaciones</bold>
+</title>
+<p>Para utilizar estas tareas en clases, se sugiere comenzar con TMGGSI pues de esta manera el alumno puede observar el software y sus potencialidades concentrándose en los contenidos matemáticos y sin pasar por períodos de adaptación al mismo. Luego, se podrían utilizar las TMGGIG para que el alumno ya interactúe con el programa y el docente lo guíe y lo asista. Por último, las TMGGIL es donde los alumnos ponen en juego lo que aprendieron, su creatividad y formas propias de exploración del software para resolver el problema propuesto en la tarea.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>Referencias</title>
+<ref id="redalyc_607974617003_ref3">
+<label>[1]</label>
+<mixed-citation>[1] Arcavi, A., y Hadas, N. . (2000). Computer Mediated Learning: An Example of an Approach. Computer Mediated Learning: An Example of an ApprInternational Journal of Computers for Mathematical Learning, 5, 25–45. https://doi.org/10.1023/A:1009841817245.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Arcavi</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Hadas</surname>
+<given-names>N.</given-names>
+</name>
+</person-group>
+<article-title>Computer Mediated Learning: An Example of an Approach. Computer Mediated Learning: An Example of an ApprInternational</article-title>
+<source>Journal of Computers for Mathematical Learning</source>
+<year>2020</year>
+<volume>5</volume>
+<fpage>25</fpage>
+<lpage>45</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1023/A:1009841817245">https://doi.org/10.1023/A:1009841817245</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617003_ref4">
+<label>[2]</label>
+<mixed-citation>[2] Campos Nava, M. Torres Rodríguez, A. y Morales Maure, L. (2021). Geogebra como medio para identificar patrones en la clase de álgebra lineal: una propuesta concreta. Universidad y Sociedad, 13(2).</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Campos Nava</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Torres Rodríguez</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Morales Maure</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<article-title>Geogebra como medio para identificar patrones en la clase de álgebra lineal: una propuesta concreta</article-title>
+<source>Universidad y Sociedad</source>
+<year>2021</year>
+<volume>13</volume>
+<issue>2</issue>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617003_ref5">
+<label>[3]</label>
+<mixed-citation>[3] Campos Nava, M. y Torres Rodríguez, A. (2018). Diseño de Tareas de Aprendizaje Matemático con GeoGebra: Mecanismos Articulados. Pädi. Boletín Científico del Instituto de Ciencias Básicas e Ingeniería, 10, 80-85.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Campos Nava</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Torres Rodríguez</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>Diseño de Tareas de Aprendizaje Matemático con GeoGebra: Mecanismos Articulados</article-title>
+<source>Boletín Científico del Instituto de Ciencias Básicas e Ingeniería</source>
+<year>2018</year>
+<volume>10</volume>
+<fpage>80</fpage>
+<lpage>85</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617003_ref6">
+<label>[4]</label>
+<mixed-citation>[4] Fiallo, J. y Parada, S. (2014). Curso de precálculo apoyado en el uso de GeoGebra para el desarrollo del pensamiento variacional. Revista Científica, 20, 56-71.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fiallo</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Parada</surname>
+<given-names>S.</given-names>
+</name>
+</person-group>
+<article-title>Curso de precálculo apoyado en el uso de GeoGebra para el desarrollo del pensamiento variacional</article-title>
+<source>Revista Científica</source>
+<year>2014</year>
+<volume>20</volume>
+<fpage>56</fpage>
+<lpage>71</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617003_ref7">
+<label>[5]</label>
+<mixed-citation>[5] GeoGebra. (s.f.). ¿Qué es GeoGebra? Recuperado el 6 de febrero de 2023, de https://www.geogebra.org/about</mixed-citation>
+<element-citation publication-type="webpage">
+<article-title>¿Qué es GeoGebra?</article-title>
+<source>GeoGebra</source>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.geogebra.org/about">https://www.geogebra.org/about</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617003_ref8">
+<label>[6]</label>
+<mixed-citation>[6] Muñoz-Escolano, J. (2016). Crónica del encuentro: Enseñar matemáticas con GeoGebra: retos, roles, resultados. Revista Suma, 81. Obtenido de Muñoz Escolano, J. (2016). Crónica del encuentro: Enseñar matemáticas con GeoGebra: retos, roles, resultados. Muñoz Escolano, J. (2016). https://revistasuma.fespm.es/sites/revistasuma.fespm.es/IMG/pdf/s81-secretos_geogebra.pdf.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Muñoz-Escolano</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Crónica del encuentro: Enseñar matemáticas con GeoGebra: retos, roles, resultados</article-title>
+<source>Revista Suma</source>
+<year>2016</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://revistasuma.fespm.es/sites/revistasuma.fespm.es/IMG/pdf/s81-secretos_geogebra.pdf">https://revistasuma.fespm.es/sites/revistasuma.fespm.es/IMG/pdf/s81-secretos_geogebra.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617003_ref9">
+<label>[7]</label>
+<mixed-citation>[7] Muñoz-Escolano, J. (2016). Crónica del encuentro: Enseñar matemáticas con GeoGebra: retos, roles, resultados. Revista Suma, 81.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Muñoz-Escolano</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Crónica del encuentro: Enseñar matemáticas con GeoGebra: retos, roles, resultados</article-title>
+<source>Revista Suma</source>
+<year>2016</year>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617003_ref10">
+<label>[8]</label>
+<mixed-citation>[8] Ramírez, B. (2021). GeoGebra en 2D y 3D como recurso didáctico en un curso de integración múltiple: una experiencia de enseñanza-aprendizaje. Revista digital Matemática, Educación e Internet, 21(1), 1-17.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ramírez</surname>
+<given-names>B.</given-names>
+</name>
+</person-group>
+<article-title>GeoGebra en 2D y 3D como recurso didáctico en un curso de integración múltiple: una experiencia de enseñanza-aprendizaje</article-title>
+<source>Revista digital Matemática, Educación e Internet</source>
+<year>2021</year>
+<volume>21</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>17</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617003_ref11">
+<label>[9]</label>
+<mixed-citation>[9] Rojas-Bello, R. (2020). Introducción del GeoGebra en el proceso de enseñanza–aprendizaje de Geometría a docentes en formación. TRECIE. Revista Caribeña De Investigación Educativa, 4(1), 124-134. https://doi.org/10.32541/recie.2020.v4i1.pp124-134.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rojas-Bello</surname>
+<given-names>R.</given-names>
+</name>
+</person-group>
+<article-title>Introducción del GeoGebra en el proceso de enseñanza–aprendizaje de Geometría a docentes en formación. TRECIE.</article-title>
+<source>Revista Caribeña De Investigación Educativa</source>
+<year>2020</year>
+<volume>4</volume>
+<issue>1</issue>
+<fpage>124</fpage>
+<lpage>134</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.32541/recie.2020.v4i1.pp124-134">https://doi.org/10.32541/recie.2020.v4i1.pp124-134</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617003_ref12">
+<label>[10]</label>
+<mixed-citation>[10] Sosa, L., Aparicio, E. y Tuyub, J. (2008). Diseño de actividades de matemáticas con uso de tecnología. Acta Latinoamericana de Matemática Educativa, 21 (págs. 1036-1045). México: Comité Latinoamericano de Matemática Educativa.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Sosa</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Aparicio</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Tuyub</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<source>Comité Latinoamericano de Matemática Educativa.</source>
+<year>2008</year>
+<fpage>1036</fpage>
+<lpage>1045</lpage>
+<conf-name>Acta Latinoamericana de Matemática Educativa</conf-name>
+<conf-loc>México</conf-loc>
+<series>Diseño de actividades de matemáticas con uso de tecnología</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607974617003_ref13">
+<label>[11]</label>
+<mixed-citation>[11] Wassie, Y y Zergaw, G. (2018). Capabilities and Contributions of the Dynamic Math Software, GeoGebra—A Review. North American GeoGebra Journal, 7(1), 68-86.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Wassie</surname>
+<given-names>Y</given-names>
+</name>
+<name>
+<surname>Zergaw</surname>
+<given-names>G.</given-names>
+</name>
+</person-group>
+<article-title>Capabilities and Contributions of the Dynamic Math Software, GeoGebra—A Review</article-title>
+<source>North American GeoGebra Journal</source>
+<year>2018</year>
+<volume>7</volume>
+<issue>1</issue>
+<fpage>68</fpage>
+<lpage>86</lpage>
+</element-citation>
+</ref>
+</ref-list>
+</back>
+</article>
