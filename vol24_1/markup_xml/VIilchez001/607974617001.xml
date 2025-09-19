@@ -25,8 +25,8 @@
             </article-categories>
             <title-group>
                 <article-title >Generación de código para la elaboración de preguntas tipo cloze en Moodle usando Wolfram Mathematica</article-title>
-                <trans-title-group>
-                    <trans-title xml:lang="en">Mathematica Code generation for creating cloze questions in Moodle using  Wolfram Mathematica</trans-title>
+                <trans-title-group xml:lang="en">
+                    <trans-title>Mathematica Code generation for creating cloze questions in Moodle using  Wolfram Mathematica</trans-title>
                 </trans-title-group>
             </title-group>
             <contrib-group>
@@ -129,7 +129,7 @@
 <body>
 <sec>
     <title>
-        <bold>Introducción</bold>
+        Introducción
     </title>
     <p>La construcción de preguntas tipo <italic>cloze</italic> dentro de la plataforma de aprendizaje <italic>Moodle</italic> puede tornarse una tarea tediosa y difícil dependiendo del tipo de pregunta que se desee desarrollar y la cantidad de distractores a incluir. En este sentido, emplear directamente los cuestionarios y facilidades de edición que ofrece <italic>Moodle</italic> para la creación de evaluaciones <italic>online</italic>, podría ocasionar saturación en el docente al traducirse en procesos lentos y abrumadores (Izquierdo et al, 2021).</p>
     <p>Lo anterior ha derivado en la aparición de distintas herramientas que tienen como objetivo la generación automática de cuestionarios o código para la construcción de preguntas con respuestas <italic>incrustadas .cloze</italic>), buscando como eje central la automatización en su diseño (Calvo et al, 2016).</p>
@@ -141,18 +141,17 @@
 </sec>
 <sec>
     <title>
-        <bold>Instalación del paquete “<italic>
-            <bold>Incrustada</bold>
-        </italic>”
-    </bold>
-</title>
-<p>En esta sección se explica la instalación del paquete “<italic>
+       Instalación del paquete “
+            Incrustada
+        ”
+    </title>
+    <p>En esta sección se explica la instalación del paquete “<italic>
+        <bold>Incrustada</bold>
+    </italic>”. Conforme se hace la exposición, se emplearán fichas que consignan (y algunas veces amplían) lo más importante de lo expuesto. Además de esto, para cada comando o proceso importante, se incluyen vídeos explicativos con el objetivo de facilitar el uso del paquete. La idea es brindar un recurso sencillo al que el lector puede echar mano para futuras consultas.</p>
+<p>“    <italic>
+        <bold>Incrustada</bold>
+    </italic>” permite al usuario generar el código asociado a distintos tipos de respuesta <italic>cloze</italic> dentro de las preguntas de un cuestionario en un aula virtual <italic>Moodle</italic>. La práctica de elaborar evaluaciones de corrección automática se ha venido extendiendo desde hace algunos años y de alguna manera se han corroborado sus ventajas optimizando el tiempo del profesor y contribuyendo con una mayor objetividad en la revisión de pruebas escritas (Melchor et al, 2017). De allí que el paquete “<italic>
     <bold>Incrustada</bold>
-</italic>”. Conforme se hace la exposición, se emplearán fichas que consignan (y algunas veces amplían) lo más importante de lo expuesto. Además de esto, para cada comando o proceso importante, se incluyen vídeos explicativos con el objetivo de facilitar el uso del paquete. La idea es brindar un recurso sencillo al que el lector puede echar mano para futuras consultas.</p>
-<p>“<italic>
-    <bold>Incrustada</bold>
-</italic>” permite al usuario generar el código asociado a distintos tipos de respuesta <italic>cloze</italic> dentro de las preguntas de un cuestionario en un aula virtual <italic>Moodle</italic>. La práctica de elaborar evaluaciones de corrección automática se ha venido extendiendo desde hace algunos años y de alguna manera se han corroborado sus ventajas optimizando el tiempo del profesor y contribuyendo con una mayor objetividad en la revisión de pruebas escritas (Melchor et al, 2017). De allí que el paquete “<italic>
-<bold>Incrustada</bold>
 </italic>”, proporciona un aporte docente importante, al automatizar la generación de código para crear preguntas con respuestas <italic>incrustadas</italic> de: despliegue (explicaremos esto más adelante), falso y verdadero, selección única y múltiple, respuesta corta y tablas <italic>HTML</italic> con respuestas desplegadas, de complete o su combinación.</p>
 <p>El paquete de software “<italic>
 <bold>Incrustada</bold>
@@ -168,7 +167,7 @@
 <bold>Incrustada</bold>
 </italic>” ya habiendo descomprimido el archivo “<bold>Incrustada.m</bold>”, se realiza en  <bold>Wolfram Mathematica</bold> desde el menú <italic>Archivo/Instalar</italic>.
 </p>
-<p>Esto abre la ventana mostrada en la figura 1. Luego, en “<bold>Fuente</bold>” se carga el archivo “<bold>Incrustada.m</bold>” y finalmente se presiona el botón “<bold>Aceptar</bold>”. Si se desea cargar la librería “<italic>
+<p>Esto abre la ventana mostrada en la  <xref ref-type="fig" rid="gf1">figura 1</xref>. Luego, en “<bold>Fuente</bold>” se carga el archivo “<bold>Incrustada.m</bold>” y finalmente se presiona el botón “<bold>Aceptar</bold>”. Si se desea cargar la librería “<italic>
 <bold>Incrustada</bold>
 </italic>”, se debe ejecutar en un cuaderno de  <bold>Mathematica</bold> lo siguiente:</p>
 <p>
@@ -181,7 +180,7 @@
 <p>
 <fig id="gf1">
 <label>
-<bold>Figura 1</bold>
+Figura 1
 </label>
 <caption>
 <title>Instalación del paquete “Incrustada”</title>
@@ -241,8 +240,7 @@
 </sec>
 <sec>
 <title>
-<bold>Conversión a <bold>LaTeX</bold> de <italic>Moodle</italic>
-</bold>
+Conversión a LaTeX de Moodle
 </title>
 <p>El manejo de código <bold>LaTeX</bold> dentro de la plataforma de aprendizaje <italic>Moodle</italic> para crear enunciados en un cuestionario <italic>online</italic>, puede implicar un conocimiento previo sobre el uso de este sistema de composición de textos de alta calidad tipográfica, que algunas veces no se tiene o se posee parcialmente por parte del profesor, dificultando la edición y diseño de las evaluaciones requeridas. Pensando en estas posibles limitaciones, se elaboró, dentro del paquete “<italic>
 <bold>Incrustada</bold>
@@ -275,10 +273,10 @@
 <p>
 <fig id="gf2">
 <label>
-<bold>Figura 2</bold>
+Figura 2
 </label>
 <caption>
-<title>Creación de una pregunta tipo <italic>cloze</italic>. 
+<title>Creación de una pregunta tipo cloze. 
 </title>
 </caption>
 <alt-text>Figura 2 Creación de una pregunta tipo cloze. </alt-text>
@@ -511,10 +509,10 @@
 <p>Finalmente, se vuelve a pegar en <italic>Moodle</italic> lo copiado en el <italic>clipboard</italic>. El resultado del proceso se visualiza en la figura <xref ref-type="fig" rid="gf28">8</xref>.
 </p>
 <p>El lector debe notar que la opción “dolar -&gt;True” de “ToLatex”, sustituye lo símbolos  “\(” y “\)” por “$$”. Lo anterior, puede ser de mucha utilidad pues en algunas versiones de la plataforma de aprendizaje <italic>Moodle</italic>, se requiere el empleo de “$$” en la apertura y cierre de una expresión matemática, pues de lo contrario no es reconocida por el sistema.</p>
-<p>
+
 <fig id="gf3">
 <label>
-<bold>Figura 3</bold>
+Figura 3
 </label>
 <caption>
 <title>Texto simple</title>
@@ -523,11 +521,11 @@
 <graphic xlink:href="607974617001_gf4.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
-<p>
+
+
 <fig id="gf4">
 <label>
-<bold>Figura 4:</bold>
+Figura 4:
 </label>
 <caption>
 <title>Texto simple y matemático</title>
@@ -536,11 +534,11 @@
 <graphic xlink:href="607974617001_gf5.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia.</attrib>
 </fig>
-</p>
-<p>
+
+
 <fig id="gf5">
 <label>
-<bold>Figura 5</bold>
+Figura 5
 </label>
 <caption>
 <title>Opción de respuesta para guardar cambios</title>
@@ -549,11 +547,11 @@
 <graphic xlink:href="607974617001_gf7.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia.</attrib>
 </fig>
-</p>
-<p>
+
+
 <fig id="gf6">
 <label>
-<bold>Figura 6</bold>
+Figura 6
 </label>
 <caption>
 <title>Vista previa</title>
@@ -562,11 +560,11 @@
 <graphic xlink:href="607974617001_gf8.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia.</attrib>
 </fig>
-</p>
-<p>
+
+
 <fig id="gf7">
 <label>
-<bold>Figura 7</bold>
+Figura 7
 </label>
 <caption>
 <title>Confirmación de guardado</title>
@@ -575,21 +573,21 @@
 <graphic xlink:href="607974617001_gf9.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia.</attrib>
 </fig>
-</p>
-<p>
+
+
 <fig id="gf28">
 <label>
-<bold>Figura 8</bold>
+Figura 8
 </label>
 <caption>
-<title>Uso del comando “<bold>ToLatex</bold>”
+<title>Uso del comando “ToLatex”
 </title>
 </caption>
 <alt-text>Figura 8 Uso del comando “ToLatex”</alt-text>
 <graphic xlink:href="607974617001_gf10.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
+
 <p>
 <bold>Nota</bold>. En adelante no se detallará tanto el proceso de pegado y vista previa (ver Fig. <xref ref-type="fig" rid="gf4">4</xref>) dentro de <italic>Moodle</italic> cuando se empleen los comandos del paquete “<italic>
 <bold>Incrustada</bold>
@@ -929,7 +927,7 @@
 <p>
 <fig id="gf29">
 <label>
-<bold>Figura 9</bold>
+Figura 9
 </label>
 <caption>
 <title>Salida en Moodle del ejemplo 2</title>
@@ -945,7 +943,7 @@
 </sec>
 <sec>
 <title>
-<bold>Respuesta desplegada</bold>
+Respuesta desplegada
 </title>
 <p>Una respuesta desplegada consiste en un combo de opciones que el alumno tendrá a su disposición para escoger una única posibilidad de contestación. En la figura <xref ref-type="fig" rid="gf6">6</xref> se mostró, por ejemplo, una respuesta desplegada con un <bold>Falso-Verdadero</bold>. La construcción de este tipo de pregunta <italic>cloze</italic> se automatiza utilizando el comando “<bold>Desplegada</bold>” del paquete “<italic>
 <bold>Incrustada</bold>
@@ -1204,7 +1202,7 @@
 <p>
 <fig id="gf30">
 <label>
-<bold>Figura 10</bold>
+Figura 10
 </label>
 <caption>
 <title>Salida en Moodle del ejemplo 3. </title>
@@ -1347,7 +1345,7 @@
 <p>
 <fig id="gf31">
 <label>
-<bold>Figura 11</bold>
+Figura 11
 </label>
 <caption>
 <title>Salida en Moodle del ejemplo 4.</title>
@@ -1381,10 +1379,10 @@
 <bold>Nota 3</bold>. En el ejemplo 5 es importante destacar que cuando se usaron las instrucciones “<bold>ToLatex</bold>” y “<bold>Desplegada</bold>” dentro del “<bold>Table</bold>”, a sus argumentos se les aplicó la sentencia “<bold>Evaluate</bold>”. Esto siempre hay que realizarlo en los comandos “<bold>ToLatex</bold>” y “<bold>Desplegada</bold>” (y otros del paquete “<italic>
 <bold>Incrustada</bold>
 </italic>”), cuando sus parámetros no son pasados de forma directa, sino que provienen de alguna otra ejecución en  <bold>Wolfram</bold>. Lo descrito, ocurre, pues “<bold>ToLatex</bold>” y “<bold>Desplegada</bold>” por defecto no evalúan expresiones.</p>
-<p>
+
 <fig id="gf8">
 <label>
-<bold>Figura 12</bold>
+Figura 12
 </label>
 <caption>
 <title>Copiado sin formato de una celda</title>
@@ -1393,11 +1391,11 @@
 <graphic xlink:href="607974617001_gf21.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia.</attrib>
 </fig>
-</p>
-<p>
+
+
 <fig id="gf32">
 <label>
-<bold>Figura 13</bold>
+Figura 13
 </label>
 <caption>
 <title>Salida en <italic>Moodle</italic> del ejemplo 5</title>
@@ -1406,14 +1404,14 @@
 <graphic xlink:href="607974617001_gf22.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
+
 <p>Se recomienda estudiar el siguiente vídeo para una mejor comprensión del tema:</p>
 <p>
 <bold>Video 7</bold>. Solución del ejemplo 5 https://youtu.be/-Fz8ciHkFdE</p>
 </sec>
 <sec>
 <title>
-<bold>Respuesta falso-verdadero</bold>
+Respuesta falso-verdadero
 </title>
 <p>En el paquete “<italic>
 <bold>Incrustada</bold>
@@ -1431,11 +1429,11 @@
 <p>
 <bold>Out[ ] =</bold>
 </p>
-<p>
+
 <fig id="gf41">
 <graphic xlink:href="607974617001_gf45.png" position="anchor" orientation="portrait"/>
 </fig>
-</p>
+
 <p>Ilustraremos el uso de “<bold>FV</bold>” mediante algunos ejemplos que se presentan a continuación.</p>
 <p>
 <bold>Ejemplo 6</bold>. La función “<bold>EsPrimo</bold>” creada con <bold>Wolfram Language</bold>, construye el código <italic>Moodle</italic> de una pregunta <italic>incrustada</italic> de <bold>Falso-Verdadero</bold> que determina si el número “<bold>n</bold>” pasado como parámetro es o no un número primo. Empleando “<bold>EsPrimo</bold>”, construya diez ítems eligiendo de manera pseudoaleatoria números enteros en el rango de 1 a 1000.</p>
@@ -1457,10 +1455,10 @@
 </p>
 <p>{¿Es \({\displaystyle{914}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}, ¿Es \({\displaystyle{67}}\) un número primo?: {1:MCS:~=Verdadero#Excelente~Falso#}, ¿Es \({\displaystyle{103}}\) un número primo?: {1:MCS:~=Verdadero#Excelente~Falso#}, ¿Es \({\displaystyle{448}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}, ¿Es \({\displaystyle{858}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}, ¿Es \({\displaystyle{499}}\) un número primo?: {1:MCS:~=Verdadero#Excelente~Falso#}, ¿Es \({\displaystyle{811}}\) un número primo?: {1:MCS:~=Verdadero#Excelente~Falso#}, ¿Es \({\displaystyle{200}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}, ¿Es \({\displaystyle{210}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}, ¿Es \({\displaystyle{838}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}}</p>
 <p>Al igual que lo señalado en el ejemplo 5, en esta salida se debe dar clic derecho en la celda y elegir “<bold>Copiar como/Texto sin formato</bold>” para luego pegar en el espacio de edición de la pregunta dentro de la plataforma <italic>Moodle</italic>. La figura <xref ref-type="fig" rid="gf9">14</xref> muestra la salida resultante. En este ejercicio, de forma semejante al ejemplo 5, el usuario podrá obtener una nueva lista de ítems, probablemente distintos, al volver a ejecutar el <bold> In[ ]</bold> sin realizar ningún cambio.</p>
-<p>
+
 <fig id="gf9">
 <label>
-<bold>Figura 14</bold>
+Figura 14
 </label>
 <caption>
 <title>Salida en <italic>Moodle</italic> del ejemplo 6.</title>
@@ -1469,14 +1467,14 @@
 <graphic xlink:href="607974617001_gf23.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
+
 <p>Se recomienda estudiar el siguiente vídeo para una mejor comprensión del tema:</p>
 <p>
 <bold>Video 8</bold>. Solución del ejemplo 6 https://youtu.be/a81_Td-UVq0</p>
 </sec>
 <sec>
 <title>
-<bold>Respuesta opción única y múltiple</bold>
+Respuesta opción única y múltiple
 </title>
 <p>En el paquete de software “<italic>
 <bold>Incrustada</bold>
@@ -1494,11 +1492,11 @@
 <p>
 <bold>Out[ ] =</bold>
 </p>
-<p>
+
 <fig id="gf42">
 <graphic xlink:href="607974617001_gf46.png" position="anchor" orientation="portrait"/>
 </fig>
-</p>
+
 <p>Consideremos algunos ejemplos de uso.</p>
 <p>
 <bold>Ejemplo 7</bold>. Construya la pregunta tipo <italic>cloze</italic> en <italic>Moodle</italic> mostrada en la figura <xref ref-type="fig" rid="gf10">15</xref>.
@@ -1568,16 +1566,6 @@
 </alternatives>
 </inline-formula> y <inline-formula>
 <alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-<mml:mglyph style="border:1px;" width="0.66em" height="1em"></mml:mglyph>
-<mml:mn>8</mml:mn>
-<mml:mo>&gt;</mml:mo>
-<mml:msqrt>
-<mml:mn>1</mml:mn>
-<mml:mn>2</mml:mn>
-<mml:mn>8</mml:mn>
-</mml:msqrt>
-</mml:math>
 <graphic xlink:href="607974617001_gi172.png"/>
 </alternatives>
 </inline-formula>. Como consecuencia en el software  <bold>Mathematica.</bold>
@@ -1761,10 +1749,10 @@ También, la propiedad “<bold>multiple -&gt;True</bold>” del comando “<bol
 <p>
 <fig id="gf10">
 <label>
-<bold>Figura 15</bold>
+Figura 15
 </label>
 <caption>
-<title>Pregunta del ejemplo 7 a diseñar en <italic>Moodle</italic>
+<title>Pregunta del ejemplo 7 a diseñar en Moodle
 </title>
 </caption>
 <alt-text>Figura 15 Pregunta del ejemplo 7 a diseñar en Moodle</alt-text>
@@ -1772,10 +1760,10 @@ También, la propiedad “<bold>multiple -&gt;True</bold>” del comando “<bol
 <attrib>Elaboración propia</attrib>
 </fig>
 </p>
-<p>
+
 <fig id="gf11">
 <label>
-<bold>Figura 16</bold>
+Figura 16
 </label>
 <caption>
 <title>Errores al pegar lo copiado en el clipboard.</title>
@@ -1784,11 +1772,11 @@ También, la propiedad “<bold>multiple -&gt;True</bold>” del comando “<bol
 <graphic xlink:href="607974617001_gf25.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
-<p>
+
+
 <fig id="gf12">
 <label>
-<bold>Figura 17</bold>
+Figura 17
 </label>
 <caption>
 <title>Pregunta con opción de respuesta múltiple</title>
@@ -1797,7 +1785,7 @@ También, la propiedad “<bold>multiple -&gt;True</bold>” del comando “<bol
 <graphic xlink:href="607974617001_gf26.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-</p>
+
 <p>Se recomienda estudiar el siguiente vídeo para una mejor comprensión del tema:</p>
 <p>
 <bold>Video 9</bold>. Solución del ejemplo 7 https://youtu.be/g7M4ILtuRX4</p>
@@ -1840,19 +1828,19 @@ También, la propiedad “<bold>multiple -&gt;True</bold>” del comando “<bol
 </p>
 <p>{1:MRS:~=\({\displaystyle{\quad \left\{{\}\right\\}\}\}\)#Excelente ~=\({\displaystyle{\quad \left\{{\sigma_0\}\right\\}\}\}\)#Excelente ~=\({\displaystyle{\quad \left\{{\sigma_1\}\right\\}\}\}\)#Excelente ~=\({\displaystyle{\quad \left\{{\sigma_2\}\right\\}\}\}\)#Excelente ~=\({\displaystyle{\quad \left\{{\sigma_3\}\right\\}\}\}\)#Excelente ~=\({\displaystyle{\quad \left\{{\sigma_0, \sigma_1\}\right\\}\}\}\)#Excelente ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_2\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_1, \sigma_2\}\right\\}\}\}\)# ~\({\displaystyle{\quad\left\{{\sigma_1, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_2, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_1, \sigma_2\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_1, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_2, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_1, \sigma_2, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_1, \sigma_2, \sigma_3\}\right\\}\}\}\)#}</p>
 <p>En la figura <xref ref-type="fig" rid="gf13">18</xref> se visualiza parte de la pregunta generada por la plataforma de aprendizaje <italic>Moodle</italic>, al pegar directamente lo copiado por <bold>Mathematica</bold> en el <italic>clipboard</italic>. Cabe destacar que, la propiedad “<bold>conjunto -&gt;True</bold>” ha permitido en este caso, devolver cada opción de respuesta como un conjunto. Si se hubiera prescindido de ella, las respuestas se mostrarían sin las llaves de apertura y cierre.</p>
-<p>
+
 <fig id="gf13">
 <label>
-<bold>Figura 18</bold>
+Figura 18
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 8</title>
+<title>Salida en Moodle del ejemplo 8</title>
 </caption>
 <alt-text>Figura 18 Salida en Moodle del ejemplo 8</alt-text>
 <graphic xlink:href="607974617001_gf27.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia.</attrib>
 </fig>
-</p>
+
 <p>Se recomienda estudiar el siguiente vídeo para una mejor comprensión del tema:</p>
 <p>
 <bold>Video 10</bold>. Solución del ejemplo 8 https://youtu.be/lVdeSW-ckAE</p>
@@ -1874,26 +1862,26 @@ También, la propiedad “<bold>multiple -&gt;True</bold>” del comando “<bol
 </p>
 <p>{Una función cuya derivada es \({\displaystyle{-2^{6 x+7}\log (8)}}\) corresponde a: {1:MCVS:~=\({ \displaystyle{\quad -8^{2 x+2\}\}\}\)#Excelente ~\({\displaystyle{\quad 10^{5 x+18\}\}\}\)# ~\({\displaystyle{\quad 13^{6 x-2\}\}\}\)# ~\({\displaystyle{\quad 14^{4 x+11\}\}\}\)# ~\({\displaystyle{ \quad 15^{-20 x-17\}\}\}\)# ~\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#},Una función cuya derivada es \({\displaystyle{2^{4 x+13} 7^{4 x+11}\log (14)}}\) corresponde a: {1:MCVS:~=\({\displaystyle{\quad 14^{4 x+11\}\}\}\)#Excelente ~\({\displaystyle{\quad -8^{2 x+2\}\}\}\)# ~\({\displaystyle{\quad 10^{5 x+18\}\}\}\)# ~\({\displaystyle{\quad 13^{6 x-2\}\}\}\)# ~\({\displaystyle{\quad 15^{-20 x-17\}\}\}\)# ~\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#},Una función cuya derivada es \({\displaystyle{2^{5 x+18} 5^{5 x+19}\log (10)}}\) corresponde a: {1:MCVS:~=\({\displaystyle{\quad 10^{5 x+18\}\}\}\)#Excelente ~\({\displaystyle{\quad -8^{2 x+2\}\}\}\)# ~\({\displaystyle{\quad 13^{6 x-2\}\}\}\)# ~\({\displaystyle{\quad 14^{4 x+11\}\}\}\)# ~\({\displaystyle{\quad 15^{-20 x-17\}\}\}\)# ~\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#},Una función cuya derivada es \({\displaystyle{-4 3^{- 20 x-17} 5^{-20 x-16}\log (15)}}\) corresponde a: {1:MCVS:~=\({\displaystyle{\quad 15^{-20 x17\}\}\}\)#Excelente ~\({\displaystyle{\quad -8^{2 x+2\}\}\}\)# ~\({\displaystyle{\quad 10^{5 x+18\}\}\}\)# ~\({\displaystyle{\quad 13^{6 x-2\}\}\}\)# ~\({\displaystyle{\quad 14^{4 x+11\}\}\}\)# ~\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#},Una función cuya derivada es \ ({\displaystyle{-5 4^{40 x-5}\log (16)}}\) corresponde a: {1:MCVS:~=\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#Excelente ~\({\displaystyle{\quad -8^{2 x+2\}\}\}\)# ~\({\displaystyle{\quad 10^{5 x+18\}\}\}\)# ~\({\displaystyle{\quad 13^{6 x-2\}\}\}\)# ~\({\displaystyle{\quad 14^{4 x+11\}\}\}\)# ~\({\displaystyle{\quad 15^{-20 x-17\}\}\}\)#},Una función cuya derivada es \({\displaystyle{6\13^{6 x-2}\log (13)}}\) corresponde a: {1:MCVS:~=\({\displaystyle{\ quad 13^{6 x-2\}\}\}\)#Excelente ~\({\displaystyle{\quad -8^{2 x+2\}\}\}\)# ~\({\displaystyle{\quad 10^{5 x+18\}\}\}\)# ~\({\displaystyle{\quad 14^{4 x+11\}\}\}\)# ~\({\displaystyle{\quad 15^{-20 x-17\}\}\}\)# ~\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#}}</p>
 <p>En la figura <xref ref-type="fig" rid="gf14">19</xref> aparece una parte de las preguntas de selección única generadas mediante el código anterior, copiando sin formato el contenido de la celda de salida. Además, una explicación más amplia sobre el código utilizado en este ejercicio, se puede consultar en el video 11.</p>
-<p>
+
 <fig id="gf14">
 <label>
-<bold>Figura 19</bold>
+Figura 19
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 9</title>
+<title>Salida en Moodle del ejemplo 9</title>
 </caption>
 <alt-text>Figura 19 Salida en Moodle del ejemplo 9</alt-text>
 <graphic xlink:href="607974617001_gf28.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia.</attrib>
 </fig>
-</p>
+
 <p>Se recomienda estudiar el siguiente vídeo para una mejor comprensión del tema:</p>
 <p>
 <bold>Video 11</bold>. Solución del ejemplo 9 https://youtu.be/Es4LjrbPK58</p>
 </sec>
 <sec>
 <title>
-<bold>Respuesta corta</bold>
+Respuesta corta
 </title>
 <p>Una respuesta corta es un campo de texto en el que el usuario puede ingresar por teclado la respuesta a la pregunta del enunciado. La respuesta que se espera es de tipo literal, o más específicamente alfanumérica. Por esta razón es recomendable prestar especial atención al uso de mayúsculas y minúsculas.</p>
 <p>La sentencia “<bold>ShortAnswer</bold>” del paquete “<italic>
@@ -2125,10 +2113,10 @@ También, la propiedad “<bold>multiple -&gt;True</bold>” del comando “<bol
 <p>
 <fig id="gf16">
 <label>
-<bold>Figura 20</bold>
+Figura 20
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 10.</title>
+<title>Salida en Moodle del ejemplo 10.</title>
 </caption>
 <alt-text>Figura 20 Salida en Moodle del ejemplo 10.</alt-text>
 <graphic xlink:href="607974617001_gf29.png" position="anchor" orientation="portrait"/>
@@ -2166,10 +2154,10 @@ En la subfigura <xref ref-type="fig" rid="gf18">21.b</xref> se visualiza el uso 
 <p>
 <fig id="gf18">
 <label>
-<bold>Figura 21</bold>
+Figura 21
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 11.</title>
+<title>Salida en Moodle del ejemplo 11.</title>
 </caption>
 <alt-text>Figura 21 Salida en Moodle del ejemplo 11.</alt-text>
 <graphic xlink:href="607974617001_gf31.png" position="anchor" orientation="portrait"/>
@@ -2186,20 +2174,33 @@ En la subfigura <xref ref-type="fig" rid="gf18">21.b</xref> se visualiza el uso 
 <mml:mi>A</mml:mi>
 <mml:mo>=</mml:mo>
 <mml:mfenced open="{" close="}">
+<mml:mrow>
 <mml:mn>2</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>4</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>6</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>8</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>10</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>12</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>14</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>16</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>18</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>20</mml:mn>
+</mml:mrow>
 </mml:mfenced>
 </mml:math>
+
 <graphic xlink:href="607974617001_gi60.png"/>
 </alternatives>
+
 </inline-formula>se defina una relación binaria pseudoaleatoria, tal que <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -2335,7 +2336,7 @@ En la subfigura <xref ref-type="fig" rid="gf18">21.b</xref> se visualiza el uso 
 <p>
 <fig id="gf19">
 <label>
-<bold>Figura 22</bold>
+Figura 22
 </label>
 <caption>
 <title>Salida en Moodle del ejemplo 12</title>
@@ -2440,10 +2441,10 @@ En la subfigura <xref ref-type="fig" rid="gf18">21.b</xref> se visualiza el uso 
 <p>
 <fig id="gf20">
 <label>
-<bold>Figura 23</bold>
+Figura 23
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 13</title>
+<title>Salida en Moodle del ejemplo 13</title>
 </caption>
 <alt-text>Figura 23 Salida en Moodle del ejemplo 13</alt-text>
 <graphic xlink:href="607974617001_gf33.png" position="anchor" orientation="portrait"/>
@@ -2458,13 +2459,21 @@ En la subfigura <xref ref-type="fig" rid="gf18">21.b</xref> se visualiza el uso 
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mfenced open="{" close="}">
+<mml:mrow>
 <mml:mn>6</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>7</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>5</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>2</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>4</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>1</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>3</mml:mn>
+</mml:mrow>
 </mml:mfenced>
 </mml:math>
 <graphic xlink:href="607974617001_gi76.png"/>
@@ -2491,10 +2500,10 @@ En la subfigura <xref ref-type="fig" rid="gf18">21.b</xref> se visualiza el uso 
 <p>
 <fig id="gf21">
 <label>
-<bold>Figura 24</bold>
+Figura 24
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 14</title>
+<title>Salida en Moodle del ejemplo 14</title>
 </caption>
 <alt-text>Figura 24 Salida en Moodle del ejemplo 14</alt-text>
 <graphic xlink:href="607974617001_gf34.png" position="anchor" orientation="portrait"/>
@@ -2536,7 +2545,7 @@ En la subfigura <xref ref-type="fig" rid="gf18">21.b</xref> se visualiza el uso 
 <p>
 <fig id="gf22">
 <label>
-<bold>Figura 25</bold>
+Figura 25
 </label>
 <caption>
 <title>Salida en Moodle del ejemplo 15</title>
@@ -2552,8 +2561,8 @@ En la subfigura <xref ref-type="fig" rid="gf18">21.b</xref> se visualiza el uso 
 </sec>
 <sec>
 <title>
-<bold>Tabla <italic>HTLM</italic>
-</bold>
+Tabla HTLM
+
 </title>
 <p>En distintos tipos de ítems, el profesor podría tener la necesidad de crear como respuesta una matriz o una tabla donde el estudiante incorpore en cada una de sus entradas, un valor correspondiente a una operación o a un proceso. El comando “<bold>TablaHTML</bold>” cubre esta demanda, al recibir como parámetro una matriz y devolver con esa misma estructura (añadiendo encabezados si se desea), una serie de entradas con opciones de respuesta desplegada, de complete o una combinación pseudoaleatoria entre ambas. Explicamos esto en la siguiente ficha:</p>
 <p>
@@ -2588,10 +2597,10 @@ En la subfigura <xref ref-type="fig" rid="gf18">21.b</xref> se visualiza el uso 
 <p>
 <fig id="gf33">
 <label>
-<bold>Figura 26</bold>
+Figura 26
 </label>
 <caption>
-<title>Entorno “<bold>HTML</bold>” en <italic>Moodle</italic>
+<title>Entorno “HTML” en Moodle
 </title>
 </caption>
 <alt-text>Figura 26 Entorno “HTML” en Moodle</alt-text>
@@ -2653,10 +2662,10 @@ Cabe mencionar que, el software <bold>Mathematica</bold> elige de forma pseudoal
 <p>
 <fig id="gf23">
 <label>
-<bold>Figura 27</bold>
+Figura 27
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 16 con opciones de respuesta desplegadas</title>
+<title>Salida en Moodle del ejemplo 16 con opciones de respuesta desplegadas</title>
 </caption>
 <alt-text>Figura 27 Salida en Moodle del ejemplo 16 con opciones de respuesta desplegadas</alt-text>
 <graphic xlink:href="607974617001_gf38.png" position="anchor" orientation="portrait"/>
@@ -2666,10 +2675,10 @@ Cabe mencionar que, el software <bold>Mathematica</bold> elige de forma pseudoal
 <p>
 <fig id="gf24">
 <label>
-<bold>Figura 28</bold>
+Figura 28
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 16 con opciones de respuesta mixtas</title>
+<title>Salida en Moodle del ejemplo 16 con opciones de respuesta mixtas</title>
 </caption>
 <alt-text>Figura 28 Salida en Moodle del ejemplo 16 con opciones de respuesta mixtas</alt-text>
 <graphic xlink:href="607974617001_gf37.png" position="anchor" orientation="portrait"/>
@@ -2703,10 +2712,10 @@ Cabe mencionar que, el software <bold>Mathematica</bold> elige de forma pseudoal
 <p>
 <fig id="gf25">
 <label>
-<bold>Figura 29</bold>
+Figura 29
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 17</title>
+<title>Salida en Moodle del ejemplo 17</title>
 </caption>
 <alt-text>Figura 29 Salida en Moodle del ejemplo 17</alt-text>
 <graphic xlink:href="607974617001_gf40.png" position="anchor" orientation="portrait"/>
@@ -3019,10 +3028,10 @@ No se socializan en este documento las salidas de estos <bold> In[ ]</bold> por 
 <p>
 <fig id="gf27">
 <label>
-<bold>Figura 30</bold>
+Figura 30
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 18: tabla con encabezados</title>
+<title>Salida en Moodle del ejemplo 18: tabla con encabezados</title>
 </caption>
 <alt-text>Figura 30 Salida en Moodle del ejemplo 18: tabla con encabezados</alt-text>
 <graphic xlink:href="0_gf41.png" position="anchor" orientation="portrait"/>
@@ -3032,10 +3041,10 @@ No se socializan en este documento las salidas de estos <bold> In[ ]</bold> por 
 <p>
 <fig id="gf34">
 <label>
-<bold>Figura 31</bold>
+Figura 31
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 18: tabla con el conjunto potencia como distractor</title>
+<title>Salida en Moodle del ejemplo 18: tabla con el conjunto potencia como distractor</title>
 </caption>
 <alt-text>Figura 31 Salida en Moodle del ejemplo 18: tabla con el conjunto potencia como distractor</alt-text>
 <graphic xlink:href="607974617001_gf53.png" position="anchor" orientation="portrait"/>
@@ -3045,10 +3054,10 @@ No se socializan en este documento las salidas de estos <bold> In[ ]</bold> por 
 <p>
 <fig id="gf35">
 <label>
-<bold>Figura 32</bold>
+Figura 32
 </label>
 <caption>
-<title>Salida en <italic>Moodle</italic> del ejemplo 18: tabla con distractores personalizados</title>
+<title>Salida en Moodle del ejemplo 18: tabla con distractores personalizados</title>
 </caption>
 <alt-text>Figura 32 Salida en Moodle del ejemplo 18: tabla con distractores personalizados</alt-text>
 <graphic xlink:href="607974617001_gf54.png" position="anchor" orientation="portrait"/>
@@ -3061,7 +3070,7 @@ No se socializan en este documento las salidas de estos <bold> In[ ]</bold> por 
 </sec>
 <sec>
 <title>
-<bold>Conclusiones</bold>
+Conclusiones
 </title>
 <p>El paquete de software “<italic>
 <bold>Incrustada</bold>
@@ -3082,7 +3091,7 @@ No se socializan en este documento las salidas de estos <bold> In[ ]</bold> por 
 <back>
 <ref-list>
 <title>
-<bold>Bibliografía</bold>
+Bibliografía
 </title>
 <ref id="redalyc_607974617001_ref1">
 <label>[1]</label>
@@ -3151,7 +3160,7 @@ No se socializan en este documento las salidas de estos <bold> In[ ]</bold> por 
 </name>
 </person-group>
 <article-title>Nuevos módulos de Moodle para la personalización de ejercicios</article-title>
-<source>Revista del Congrés Internacional de Docència Universitària i Innovació UI)</source>
+<source>Revista del Congrés Internacional de Docència Universitària i Innovació UI</source>
 <year>2012</year>
 </element-citation>
 </ref>
