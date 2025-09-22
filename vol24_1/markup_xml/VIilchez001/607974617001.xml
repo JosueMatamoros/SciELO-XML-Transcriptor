@@ -59,7 +59,7 @@
                 <email>delagarita@gmail.com</email>
             </aff>
             <pub-date pub-type="collection">
-                <season>Aug-Feb</season>
+                <season>Aug/Feb</season>
                 <year>2023</year>
             </pub-date>
             <volume>24</volume>
@@ -131,9 +131,9 @@
     <title>
         Introducción
     </title>
-    <p>La construcción de preguntas tipo <italic>cloze</italic> dentro de la plataforma de aprendizaje <italic>Moodle</italic> puede tornarse una tarea tediosa y difícil dependiendo del tipo de pregunta que se desee desarrollar y la cantidad de distractores a incluir. En este sentido, emplear directamente los cuestionarios y facilidades de edición que ofrece <italic>Moodle</italic> para la creación de evaluaciones <italic>online</italic>, podría ocasionar saturación en el docente al traducirse en procesos lentos y abrumadores (Izquierdo et al, 2021).</p>
-    <p>Lo anterior ha derivado en la aparición de distintas herramientas que tienen como objetivo la generación automática de cuestionarios o código para la construcción de preguntas con respuestas <italic>incrustadas .cloze</italic>), buscando como eje central la automatización en su diseño (Calvo et al, 2016).</p>
-    <p>Una de las dificultades principales en este tipo de aplicaciones, se ha circunscrito en la fiscalización minuciosa que demandan, con la finalidad de garantizar una revisión automática correcta por parte de la plataforma de aprendizaje <italic>Moodle</italic>. Esto puede consumir un tiempo excesivo al profesor en el marco de una labor exhaustiva de comprobación de resultados (Mateo et al, 2012). Es debido a todo esto que los autores del presente trabajo tomaron la decisión de crear un paquete de software para la generación automática de código en el diseño de preguntas con respuestas <italic>incrustadas</italic> (o <italic>anidadas</italic>), utilizando como recurso de incubación el conocido software comercial  <bold>Wolfram Mathematica</bold>.
+    <p>La construcción de preguntas tipo <italic>cloze</italic> dentro de la plataforma de aprendizaje <italic>Moodle</italic> puede tornarse una tarea tediosa y difícil dependiendo del tipo de pregunta que se desee desarrollar y la cantidad de distractores a incluir. En este sentido, emplear directamente los cuestionarios y facilidades de edición que ofrece <italic>Moodle</italic> para la creación de evaluaciones <italic>online</italic>, podría ocasionar saturación en el docente al traducirse en procesos lentos y abrumadores (<xref ref-type="bibr" rid="ref2">Izquierdo et al, 2021</xref>).</p>
+    <p>Lo anterior ha derivado en la aparición de distintas herramientas que tienen como objetivo la generación automática de cuestionarios o código para la construcción de preguntas con respuestas <italic>incrustadas .cloze</italic>), buscando como eje central la automatización en su diseño (<xref ref-type="bibr" rid="ref1">Calvo et al, 2016</xref>).</p>
+    <p>Una de las dificultades principales en este tipo de aplicaciones, se ha circunscrito en la fiscalización minuciosa que demandan, con la finalidad de garantizar una revisión automática correcta por parte de la plataforma de aprendizaje <italic>Moodle</italic>. Esto puede consumir un tiempo excesivo al profesor en el marco de una labor exhaustiva de comprobación de resultados (<xref ref-type="bibr" rid="ref3">Mateo et al, 2012</xref>). Es debido a todo esto que los autores del presente trabajo tomaron la decisión de crear un paquete de software para la generación automática de código en el diseño de preguntas con respuestas <italic>incrustadas</italic> (o <italic>anidadas</italic>), utilizando como recurso de incubación el conocido software comercial  <bold>Wolfram Mathematica</bold>.
     </p>
     <p>
         <bold>Mathematica</bold> brinda la ventaja al usuario de aprovechar todas sus potencialidades de cálculo numérico y simbólico, además, de su lenguaje de programación. Estas facultades bien canalizadas, podrían facilitar al docente la elaboración de las respuestas correctas y sus distractores cuando se diseñan preguntas tipo <italic>cloze</italic>. La idea de integrar gran parte del proceso de diseño de un cuestionario <italic>online</italic> de <italic>Moodle</italic> en el entorno provisto por  <bold>Wolfram Mathematica</bold>, toma mucha valía, al combinar potentes herramientas de cálculo/programación con la posibilidad de transferir los resultados conferidos en opciones de respuesta a preguntas dentro de la plataforma <italic>Moodle</italic>.
@@ -150,7 +150,7 @@
     </italic>”. Conforme se hace la exposición, se emplearán fichas que consignan (y algunas veces amplían) lo más importante de lo expuesto. Además de esto, para cada comando o proceso importante, se incluyen vídeos explicativos con el objetivo de facilitar el uso del paquete. La idea es brindar un recurso sencillo al que el lector puede echar mano para futuras consultas.</p>
 <p>“    <italic>
         <bold>Incrustada</bold>
-    </italic>” permite al usuario generar el código asociado a distintos tipos de respuesta <italic>cloze</italic> dentro de las preguntas de un cuestionario en un aula virtual <italic>Moodle</italic>. La práctica de elaborar evaluaciones de corrección automática se ha venido extendiendo desde hace algunos años y de alguna manera se han corroborado sus ventajas optimizando el tiempo del profesor y contribuyendo con una mayor objetividad en la revisión de pruebas escritas (Melchor et al, 2017). De allí que el paquete “<italic>
+    </italic>” permite al usuario generar el código asociado a distintos tipos de respuesta <italic>cloze</italic> dentro de las preguntas de un cuestionario en un aula virtual <italic>Moodle</italic>. La práctica de elaborar evaluaciones de corrección automática se ha venido extendiendo desde hace algunos años y de alguna manera se han corroborado sus ventajas optimizando el tiempo del profesor y contribuyendo con una mayor objetividad en la revisión de pruebas escritas (<xref ref-type="bibr" rid="ref4">Melchor et al, 2017</xref>). De allí que el paquete “<italic>
     <bold>Incrustada</bold>
 </italic>”, proporciona un aporte docente importante, al automatizar la generación de código para crear preguntas con respuestas <italic>incrustadas</italic> de: despliegue (explicaremos esto más adelante), falso y verdadero, selección única y múltiple, respuesta corta y tablas <italic>HTML</italic> con respuestas desplegadas, de complete o su combinación.</p>
 <p>El paquete de software “<italic>
@@ -219,7 +219,7 @@ Figura 1
 <bold> Out [ ] =</bold>
 </p>
 <p>
-<fig id="gf38">
+<fig>
 <graphic xlink:href="607974617001_gf42.png" position="anchor" orientation="portrait"/>
 </fig>
 </p>
@@ -261,7 +261,7 @@ Conversión a LaTeX de Moodle
 <bold>Out[ ] =</bold>
 </p>
 <p>
-<fig id="gf39">
+<fig>
 <graphic xlink:href="607974617001_gf43.png" position="anchor" orientation="portrait"/>
 </fig>
 </p>
@@ -269,7 +269,7 @@ Conversión a LaTeX de Moodle
 <p>
 <bold>Ficha 3</bold> (Creación en <italic>Moodle</italic> de preguntas con respuestas <italic>anidadas</italic>).
 </p>
-<p>Dentro de la plataforma de aprendizaje y al ingresar a “<bold>Banco de preguntas</bold>”, se presiona el botón “<bold>Crear una nueva pregunta</bold>”, esto abre la ventana mostrada en la figura 2, donde se selecciona “<bold>Respuestas anidadas (Cloze)</bold>”. Posteriormente, se inicia el proceso de edición añadiendo un nombre a la pregunta y el enunciado correspondiente.</p>
+<p>Dentro de la plataforma de aprendizaje y al ingresar a “<bold>Banco de preguntas</bold>”, se presiona el botón “<bold>Crear una nueva pregunta</bold>”, esto abre la ventana mostrada en la <xref ref-type="fig" rid="gf2">figura 2</xref>, donde se selecciona “<bold>Respuestas anidadas (Cloze)</bold>”. Posteriormente, se inicia el proceso de edición añadiendo un nombre a la pregunta y el enunciado correspondiente.</p>
 <p>
 <fig id="gf2">
 <label>
@@ -923,7 +923,7 @@ Figura 8
 <bold>Out[ ] =</bold>
 </p>
 <p>\({\displaystyle{\left. \begin{array}{c|ccc} \sigma &amp; x &amp; y &amp; z \\\hline w &amp; 1 &amp; 2 &amp; 3 \\ h &amp; 4 &amp; 5 &amp; 6 \\ l &amp; 7 &amp; 8 &amp; 9 \\ \end{array} \right. }}\)</p>
-<p>Con todo ello se aclara, de acuerdo a lo compartido en la figura 9, que el atributo “<bold>conjunto -&gt;True</bold>” construye un conjunto con el argumento de “<bold>ToLatex</bold>”, “<bold>matriz -&gt;True</bold>” resuelve el código correspondiente a una matriz en <bold>LaTeX</bold> y “<bold>tabla -&gt;True</bold>” genera una tabla.</p>
+<p>Con todo ello se aclara, de acuerdo a lo compartido en la <xref ref-type="fig" rid="gf29">figura 9</xref>, que el atributo “<bold>conjunto -&gt;True</bold>” construye un conjunto con el argumento de “<bold>ToLatex</bold>”, “<bold>matriz -&gt;True</bold>” resuelve el código correspondiente a una matriz en <bold>LaTeX</bold> y “<bold>tabla -&gt;True</bold>” genera una tabla.</p>
 <p>
 <fig id="gf29">
 <label>
@@ -962,7 +962,7 @@ Respuesta desplegada
 <bold>Out[ ] =</bold>
 </p>
 <p>
-<fig id="gf40">
+<fig>
 <graphic xlink:href="607974617001_gf44.png" position="anchor" orientation="portrait"/>
 </fig>
 </p>
@@ -1430,7 +1430,7 @@ Respuesta falso-verdadero
 <bold>Out[ ] =</bold>
 </p>
 
-<fig id="gf41">
+<fig>
 <graphic xlink:href="607974617001_gf45.png" position="anchor" orientation="portrait"/>
 </fig>
 
@@ -1493,7 +1493,7 @@ Respuesta opción única y múltiple
 <bold>Out[ ] =</bold>
 </p>
 
-<fig id="gf42">
+<fig >
 <graphic xlink:href="607974617001_gf46.png" position="anchor" orientation="portrait"/>
 </fig>
 
@@ -1501,71 +1501,42 @@ Respuesta opción única y múltiple
 <p>
 <bold>Ejemplo 7</bold>. Construya la pregunta tipo <italic>cloze</italic> en <italic>Moodle</italic> mostrada en la figura <xref ref-type="fig" rid="gf10">15</xref>.
 </p>
-<p>Al observar el enunciado y las respuestas compartidas en la figura <xref ref-type="fig" rid="gf10">15</xref>, se aprecia que las opciones correctas son:<inline-formula>
+<p>Al observar el enunciado y las respuestas compartidas en la figura <xref ref-type="fig" rid="gf10">15</xref>, se aprecia que las opciones correctas son:
+<inline-formula>
 <alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-<mml:mn>1</mml:mn>
-<mml:mo>&#x2265;</mml:mo>
-<mml:msqrt>
-<mml:msup>
-<mml:mfenced>
-<mml:mn>-1</mml:mn>
-</mml:mfenced>
-<mml:mn>2</mml:mn>
-</mml:msup>
-</mml:msqrt>
-</mml:math>
-<graphic xlink:href="607974617001_gi167.png"/>
-</alternatives>
-</inline-formula>,<inline-formula>
-<alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-<mml:mn>2</mml:mn>
-<mml:mo>&lt;</mml:mo>
-<mml:msqrt>
-<mml:mn>6</mml:mn>
-</mml:msqrt>
-</mml:math>
-<graphic xlink:href="607974617001_gi168.png"/>
-</alternatives>
-</inline-formula> y <inline-formula>
-<alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-<mml:mn>3</mml:mn>
-<mml:mo>&#x2265;</mml:mo>
-<mml:msqrt>
-<mml:mn>0</mml:mn>
-</mml:msqrt>
-</mml:math>
-<graphic xlink:href="607974617001_gi169.png"/>
-</alternatives>
-</inline-formula>. Además, los distractores de la pregunta corresponden a: <inline-formula>
-<alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<mml:math>
 <mml:mn>4</mml:mn>
 <mml:mo>&gt;</mml:mo>
 <mml:msqrt>
-<mml:mn>1</mml:mn>
-<mml:mn>0</mml:mn>
-<mml:mn>0</mml:mn>
+<mml:mn>100</mml:mn>
 </mml:msqrt>
 </mml:math>
 <graphic xlink:href="607974617001_gi170.png"/>
 </alternatives>
-</inline-formula>,<inline-formula>
+</inline-formula>
+
+<inline-formula>
 <alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<mml:math>
 <mml:mn>7</mml:mn>
 <mml:mo>&lt;</mml:mo>
 <mml:msqrt>
-<mml:mn>1</mml:mn>
-<mml:mn>0</mml:mn>
+<mml:mn>10</mml:mn>
 </mml:msqrt>
 </mml:math>
 <graphic xlink:href="607974617001_gi171.png"/>
 </alternatives>
-</inline-formula> y <inline-formula>
+</inline-formula>
+
+<inline-formula>
 <alternatives>
+<mml:math>
+<mml:mn>5</mml:mn>
+<mml:mo>&ge;</mml:mo>
+<mml:msqrt>
+<mml:mn>25</mml:mn>
+</mml:msqrt>
+</mml:math>
 <graphic xlink:href="607974617001_gi172.png"/>
 </alternatives>
 </inline-formula>. Como consecuencia en el software  <bold>Mathematica.</bold>
@@ -1616,36 +1587,31 @@ Respuesta opción única y múltiple
 <bold>}, {4 &gt; </bold>
 <inline-formula>
 <alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<mml:math>
 <mml:msqrt>
-<mml:mn>1</mml:mn>
-<mml:mn>0</mml:mn>
-<mml:mn>0</mml:mn>
+<mml:mn>100</mml:mn>
 </mml:msqrt>
 </mml:math>
 <graphic xlink:href="607974617001_gi178.png"/>
 </alternatives>
-</inline-formula>,<bold>  7 &lt;</bold>
-<bold/>
+</inline-formula>,
+<bold>7 &lt;</bold>
 <inline-formula>
 <alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<mml:math>
 <mml:msqrt>
-<mml:mn>1</mml:mn>
-<mml:mn>0</mml:mn>
+<mml:mn>10</mml:mn>
 </mml:msqrt>
 </mml:math>
 <graphic xlink:href="607974617001_gi179.png"/>
 </alternatives>
-</inline-formula>
-<bold>, 8 &gt;</bold>
+</inline-formula>,
+<bold>8 &gt;</bold>
 <inline-formula>
 <alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<mml:math>
 <mml:msqrt>
-<mml:mn>1</mml:mn>
-<mml:mn>2</mml:mn>
-<mml:mn>8</mml:mn>
+<mml:mn>128</mml:mn>
 </mml:msqrt>
 </mml:math>
 <graphic xlink:href="607974617001_gi180.png"/>
@@ -1692,6 +1658,7 @@ Respuesta opción única y múltiple
 </alternatives>
 </inline-formula>
 <bold>, 3 &gt;=</bold>
+
 <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -1707,9 +1674,7 @@ Respuesta opción única y múltiple
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msqrt>
-<mml:mn>1</mml:mn>
-<mml:mn>0</mml:mn>
-<mml:mn>0</mml:mn>
+<mml:mn>100</mml:mn>
 </mml:msqrt>
 </mml:math>
 <graphic xlink:href="607974617001_gi185.png"/>
@@ -1720,8 +1685,7 @@ Respuesta opción única y múltiple
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msqrt>
-<mml:mn>1</mml:mn>
-<mml:mn>0</mml:mn>
+<mml:mn>10</mml:mn>
 </mml:msqrt>
 </mml:math>
 <graphic xlink:href="607974617001_gi186.png"/>
@@ -1732,9 +1696,7 @@ Respuesta opción única y múltiple
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msqrt>
-<mml:mn>1</mml:mn>
-<mml:mn>2</mml:mn>
-<mml:mn>8</mml:mn>
+<mml:mn>128</mml:mn>
 </mml:msqrt>
 </mml:math>
 <graphic xlink:href="607974617001_gi187.png"/>
@@ -1901,7 +1863,7 @@ Respuesta corta
 <bold>Out[ ] =</bold>
 </p>
 <p>
-<fig id="gf44">
+<fig>
 <graphic xlink:href="607974617001_gf47.png" position="anchor" orientation="portrait"/>
 </fig>
 </p>
@@ -2084,17 +2046,15 @@ Respuesta corta
 <p>Al evaluar \({\displaystyle{\frac{x^2+6 x-9}{x^3+2 x^2-6 x+1}}}\) en \({\displaystyle{0}}\) se obtiene como resultado: {1:SA:~=-9#Excelente}</p>
 <p>Ahora, si de forma más general, se desea un ítem de evaluación para la expresión algebraica fraccionaria en un valor entero de <bold>
 <italic>x</italic>
-</bold> pseudoaleatorio, con<inline-formula>
+</bold> pseudoaleatorio, con <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mo>-</mml:mo>
-<mml:mn>2</mml:mn>
-<mml:mn>0</mml:mn>
-<mml:mo>&#x2264;</mml:mo>
+<mml:mn>20</mml:mn>
+<mml:mo>&le;</mml:mo>
 <mml:mi>x</mml:mi>
-<mml:mo>&#x2264;</mml:mo>
-<mml:mn>2</mml:mn>
-<mml:mn>0</mml:mn>
+<mml:mo>&le;</mml:mo>
+<mml:mn>20</mml:mn>
 </mml:math>
 <graphic xlink:href="607974617001_gi191.png"/>
 </alternatives>
@@ -2350,7 +2310,7 @@ Figura 22
 <p>
 <bold>Video 14</bold>. Solución del ejemplo 12 https://youtu.be/WuKBGn9aL5s</p>
 <p>
-<bold>Nota:</bold> El paquete de software “<bold>VilCretas</bold>” está disponible en la dirección <italic>URL</italic>:<ext-link ext-link-type="uri" xlink:href="https://www.escinf.una.ac.cr/discretas/Archivos/Packages/VilCretas.rar">https://www.escinf.una.ac.cr/discretas/Archivos/Packages/VilCretas.rar</ext-link>. Además, en Vílchez (2018) se ofrece un texto que describe todas las funcionalidades de los diferentes comandos que se incluyen en “<bold>VilCretas</bold>”, en caso de que el lector tenga interés de conocer más a profundidad esta herramienta.</p>
+<bold>Nota:</bold> El paquete de software “<bold>VilCretas</bold>” está disponible en la dirección <italic>URL</italic>:<ext-link ext-link-type="uri" xlink:href="https://www.escinf.una.ac.cr/discretas/Archivos/Packages/VilCretas.rar">https://www.escinf.una.ac.cr/discretas/Archivos/Packages/VilCretas.rar</ext-link>. Además, en <xref ref-type="bibr" rid="ref5">Vílchez (2018)</xref> se ofrece un texto que describe todas las funcionalidades de los diferentes comandos que se incluyen en “<bold>VilCretas</bold>”, en caso de que el lector tenga interés de conocer más a profundidad esta herramienta.</p>
 <p>
 <bold>Respuesta corta numérica</bold>
 </p>
@@ -2369,7 +2329,7 @@ Figura 22
 <bold>Out[ ] =</bold>
 </p>
 <p>
-<fig id="gf45">
+<fig>
 <graphic xlink:href="607974617001_gf48.png" position="anchor" orientation="portrait"/>
 </fig>
 </p>
@@ -2579,7 +2539,7 @@ Tabla HTLM
 <bold>Out[ ] =</bold>
 </p>
 <p>
-<fig id="gf46">
+<fig>
 <graphic xlink:href="607974617001_gf50.png" position="anchor" orientation="portrait"/>
 </fig>
 </p>
@@ -2741,7 +2701,7 @@ Figura 29
 <bold>Out =</bold>
 </p>
 <p>
-<fig id="gf26">
+<fig>
 <graphic xlink:href="607974617001_gf51.png" position="anchor" orientation="portrait"/>
 </fig>
 </p>
@@ -2823,96 +2783,116 @@ Figura 29
 </p>
 <p>
 <bold>Matriz =</bold>
+
+
 <inline-formula>
-<alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-<mml:mfenced>
-<mml:mtable>
-<mml:mtr>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s3</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-<mml:mn>s1</mml:mn>
-<mml:mn>s2</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-</mml:mtr>
-<mml:mtr>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s1</mml:mn>
-<mml:mn>s2</mml:mn>
-<mml:mn>s3</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s1</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-</mml:mtr>
-<mml:mtr>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-<mml:mn>s1</mml:mn>
-<mml:mn>s3</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-<mml:mn>s2</mml:mn>
-<mml:mn>s3</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s1</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-</mml:mtr>
-<mml:mtr>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s1</mml:mn>
-<mml:mn>s3</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s2</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-<mml:mn>s1</mml:mn>
-<mml:mn>s2</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-</mml:mtr>
-</mml:mtable>
-</mml:mfenced>
-</mml:math>
-<graphic xlink:href="607974617001_gi98.png"/>
-</alternatives>
+  <alternatives>
+    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+      <mml:mfenced>
+        <mml:mtable>
+
+          <mml:mtr>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s3</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s1</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s2</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+          </mml:mtr>
+
+          <mml:mtr>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s1</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s2</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s3</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s1</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+          </mml:mtr>
+
+          <mml:mtr>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s1</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s3</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s2</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s3</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s1</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+          </mml:mtr>
+
+          <mml:mtr>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s1</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s3</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s2</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s1</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s2</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+          </mml:mtr>
+
+        </mml:mtable>
+      </mml:mfenced>
+    </mml:math>
+    <graphic xlink:href="607974617001_gi98.png"/>
+  </alternatives>
 </inline-formula>
+
+
 <bold>;</bold>
 </p>
 <p>
@@ -2921,101 +2901,117 @@ Figura 29
 <p>
 <bold/>
 Se aclara al lector que la sentencia “<bold>Subsets</bold>” de <bold>Mathematica</bold>, calcula el <italic>conjunto potencia</italic> de {s0, s1, s2, s3}.</p>
-<p>En la figura 32, por otra parte, se está haciendo uso del atributo “distractores” para personalizar los distractores de las entradas en la primera fila de la tabla “HTML”, como: {{},{s0},{s1},{s2},{s3}}, {{s2,s3},{s0,s1,s2}} y {{s1,s2,s3},{s0,s1,s2,s3}}, respectivamente. A pesar de haber incluido el conjunto {s0} como distractor del primer campo de la tabla “HTML”, en realidad {s0} es la respuesta correcta de dicha entrada, en este sentido, el software lo detecta automáticamente y excluye a {s0} como una opción incorrecta. El código de  Wolfram que facilita la elaboración del ítem así descrito, se comparte a continuación:</p>
+<p>En la <xref ref-type="fig" rid="gf35">figura 32</xref>, por otra parte, se está haciendo uso del atributo “distractores” para personalizar los distractores de las entradas en la primera fila de la tabla “HTML”, como: {{},{s0},{s1},{s2},{s3}}, {{s2,s3},{s0,s1,s2}} y {{s1,s2,s3},{s0,s1,s2,s3}}, respectivamente. A pesar de haber incluido el conjunto {s0} como distractor del primer campo de la tabla “HTML”, en realidad {s0} es la respuesta correcta de dicha entrada, en este sentido, el software lo detecta automáticamente y excluye a {s0} como una opción incorrecta. El código de  Wolfram que facilita la elaboración del ítem así descrito, se comparte a continuación:</p>
 <p>
 <bold>In[ ] :=</bold>
 </p>
 <p>
 <bold>Matriz =</bold>
 <inline-formula>
-<alternatives>
-<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
-<mml:mfenced>
-<mml:mtable>
-<mml:mtr>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s3</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-<mml:mn>s1</mml:mn>
-<mml:mn>s2</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-</mml:mtr>
-<mml:mtr>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s1</mml:mn>
-<mml:mn>s2</mml:mn>
-<mml:mn>s3</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s1</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-</mml:mtr>
-<mml:mtr>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-<mml:mn>s1</mml:mn>
-<mml:mn>s3</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-<mml:mn>s2</mml:mn>
-<mml:mn>s3</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s1</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-</mml:mtr>
-<mml:mtr>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s1</mml:mn>
-<mml:mn>s3</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s2</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-<mml:mtd>
-<mml:mfenced open="{" close="}">
-<mml:mn>s0</mml:mn>
-<mml:mn>s1</mml:mn>
-<mml:mn>s2</mml:mn>
-</mml:mfenced>
-</mml:mtd>
-</mml:mtr>
-</mml:mtable>
-</mml:mfenced>
-</mml:math>
-<graphic xlink:href="607974617001_gi99.png"/>
-</alternatives>
+  <alternatives>
+    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+      <mml:mfenced>
+        <mml:mtable>
+
+          <mml:mtr>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s3</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s1</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s2</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+          </mml:mtr>
+
+          <mml:mtr>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s1</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s2</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s3</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s1</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+          </mml:mtr>
+
+          <mml:mtr>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s1</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s3</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s2</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s3</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s1</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+          </mml:mtr>
+
+          <mml:mtr>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s1</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s3</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s2</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+            <mml:mtd>
+              <mml:mfenced open="{" close="}">
+                <mml:mi>s0</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s1</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>s2</mml:mi>
+              </mml:mfenced>
+            </mml:mtd>
+          </mml:mtr>
+
+        </mml:mtable>
+      </mml:mfenced>
+    </mml:math>
+    <graphic xlink:href="607974617001_gi99.png"/>
+  </alternatives>
 </inline-formula>
 <bold>;</bold>
 </p>
@@ -3093,9 +3089,8 @@ Conclusiones
 <title>
 Bibliografía
 </title>
-<ref id="redalyc_607974617001_ref1">
-<label>[1]</label>
-<mixed-citation>[1] Calvo, M., Miñarro, A. &amp; Vegas, E. (2-3 de junio de 2016). <italic>Generación de cuestionarios Moodle con R+exams+Sweave</italic>. VII Jornadas de Enseñanza y Aprendizaje de la Estadística y la Investigación Operativa. Universidad de Barcelona, España.</mixed-citation>
+<ref id="ref1">
+<mixed-citation>Calvo, M., Miñarro, A. &amp; Vegas, E. (2-3 de junio de 2016). <italic>Generación de cuestionarios Moodle con R+exams+Sweave</italic>. VII Jornadas de Enseñanza y Aprendizaje de la Estadística y la Investigación Operativa. Universidad de Barcelona, España.</mixed-citation>
 <element-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -3115,35 +3110,42 @@ Bibliografía
 <year>2016</year>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617001_ref2">
-<label>[2]</label>
-<mixed-citation>[2] Izquierdo, R., García, C., Latorre, P. &amp; Barbero, J. (2021). Generación automática de preguntas cloze para cuestionarios Moodle sobre análisis léxico. <italic>Actas de las Jenui, 6</italic>, 163-170.</mixed-citation>
-<element-citation publication-type="confproc">
-<person-group person-group-type="author">
-<name>
-<surname>Izquierdo</surname>
-<given-names>R.</given-names>
-</name>
-<name>
-<surname>García</surname>
-<given-names>C.</given-names>
-</name>
-<name>
-<surname>Latorre</surname>
-<given-names>P.</given-names>
-</name>
-<name>
-<surname>Barbero</surname>
-<given-names>J.</given-names>
-</name>
-</person-group>
-<source>Actas de las Jenui</source>
-<year>2021</year>
-</element-citation>
+<ref id="ref2">
+  <mixed-citation>
+    Izquierdo, R., García, C., Latorre, P. &amp; Barbero, J. (2021). 
+    Generación automática de preguntas cloze para cuestionarios Moodle sobre análisis léxico. 
+    <italic>Actas de las Jenui, 6</italic>, 163-170.
+  </mixed-citation>
+
+  <element-citation publication-type="confproc">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Izquierdo</surname>
+        <given-names>R.</given-names>
+      </name>
+      <name>
+        <surname>García</surname>
+        <given-names>C.</given-names>
+      </name>
+      <name>
+        <surname>Latorre</surname>
+        <given-names>P.</given-names>
+      </name>
+      <name>
+        <surname>Barbero</surname>
+        <given-names>J.</given-names>
+      </name>
+    </person-group>
+
+    <conf-name>Actas de las Jenui</conf-name>
+    <year>2021</year>
+    <source>Actas de las Jenui</source>
+    <fpage>163</fpage>
+    <lpage>170</lpage>
+  </element-citation>
 </ref>
-<ref id="redalyc_607974617001_ref3">
-<label>[3]</label>
-<mixed-citation>[3] Mateo, J., Olivé, C. &amp; Puigjaner, D. (2012). Nuevos módulos de Moodle para la personalización de ejercicios. <italic>Revista del Congrés Internacional de Docència Universitària i Innovació (CIDUI), 1</italic>(1), 1-17.</mixed-citation>
+<ref id="ref3">
+<mixed-citation>Mateo, J., Olivé, C. &amp; Puigjaner, D. (2012). Nuevos módulos de Moodle para la personalización de ejercicios. <italic>Revista del Congrés Internacional de Docència Universitària i Innovació (CIDUI), 1</italic>(1), 1-17.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -3160,35 +3162,41 @@ Bibliografía
 </name>
 </person-group>
 <article-title>Nuevos módulos de Moodle para la personalización de ejercicios</article-title>
-<source>Revista del Congrés Internacional de Docència Universitària i Innovació UI</source>
+<source>Revista del Congrés Internacional de Docència Universitària i Innovació (CIDUI), 1</source>
 <year>2012</year>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617001_ref4">
-<label>[4]</label>
-<mixed-citation>[4] Melchor, E., Mihi, A. &amp; Barbosa, D. (2017). Aplicación del Aprendizaje Basado en Problemas en el entorno Moodle para valorar e interpretar datos numéricos. En Escobar, J. (Ed.), <italic>XXII Congreso Internacional sobre Educación Bimodal “Competencias Digitales, Innovación y Prospectiva”</italic> (pp. 190-206). Colombia: Corporación Centro Internacional de Marketing Territorial para la Educación y el Desarrollo.</mixed-citation>
-<element-citation publication-type="book">
-<person-group person-group-type="author">
-<name>
-<surname>Melchor</surname>
-<given-names>E.</given-names>
-</name>
-<name>
-<surname>Mihi</surname>
-<given-names>A.</given-names>
-</name>
-<name>
-<surname>Barbosa</surname>
-<given-names>D.</given-names>
-</name>
-</person-group>
-<source>XXII Congreso Internacional sobre Educación Bimodal “Competencias Digitales Innovación y Prospectiva”</source>
-<year>2017</year>
-</element-citation>
+<ref id="ref4">
+  <mixed-citation>
+    Melchor, E., Mihi, A. &amp; Barbosa, D. (2017). Aplicación del Aprendizaje Basado en Problemas en el entorno Moodle para valorar e interpretar datos numéricos.
+    En Escobar, J. (Ed.), 
+    <italic>XXII Congreso Internacional sobre Educación Bimodal “Competencias Digitales, Innovación y Prospectiva”</italic> (pp. 190-206).
+    Colombia: Corporación Centro Internacional de Marketing Territorial para la Educación y el Desarrollo.
+  </mixed-citation>
+
+  <element-citation publication-type="book">
+    <person-group person-group-type="author">
+      <name>
+        <surname>Melchor</surname>
+        <given-names>E.</given-names>
+      </name>
+      <name>
+        <surname>Mihi</surname>
+        <given-names>A.</given-names>
+      </name>
+      <name>
+        <surname>Barbosa</surname>
+        <given-names>D.</given-names>
+      </name>
+    </person-group>
+
+    <source>XXII Congreso Internacional sobre Educación Bimodal “Competencias Digitales, Innovación y Prospectiva”</source>
+    <year>2017</year>
+  </element-citation>
 </ref>
-<ref id="redalyc_607974617001_ref5">
-<label>[5]</label>
-<mixed-citation>[5] Vílchez, E. (2018). <italic>Matemática discreta a través del uso del paquete Vilcretas</italic>. Costa Rica: Revista digital Matemática, Educación e Internet. Recuperado de <ext-link ext-link-type="uri" xlink:href="https://tecdigital.tec.ac.cr/servicios/revistamatematica/Libros/RevistaDigital_Vilcretas_V18_n2_2018/RevistaDigital_Vilchez_V18_n2_2018.pdf">https://tecdigital.tec.ac.cr/servicios/revistamatematica/Libros/RevistaDigital_Vilcretas_V18_n2_2018/RevistaDigital_Vilchez_V18_n2_2018.pdf</ext-link>.
+
+<ref id="ref5">
+<mixed-citation>Vílchez, E. (2018). <italic>Matemática discreta a través del uso del paquete Vilcretas</italic>. Costa Rica: Revista digital Matemática, Educación e Internet. Recuperado de <ext-link ext-link-type="uri" xlink:href="https://tecdigital.tec.ac.cr/servicios/revistamatematica/Libros/RevistaDigital_Vilcretas_V18_n2_2018/RevistaDigital_Vilchez_V18_n2_2018.pdf">https://tecdigital.tec.ac.cr/servicios/revistamatematica/Libros/RevistaDigital_Vilcretas_V18_n2_2018/RevistaDigital_Vilchez_V18_n2_2018.pdf</ext-link>.
 </mixed-citation>
 <element-citation publication-type="webpage">
 <person-group person-group-type="author">
