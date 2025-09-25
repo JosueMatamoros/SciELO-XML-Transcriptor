@@ -171,10 +171,10 @@
 <bold>Incrustada</bold>
 </italic>”, se debe ejecutar en un cuaderno de  <bold>Mathematica</bold> lo siguiente:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>Quiet[« Incrustada‘] </bold>
+<bold>Quiet&#91;« Incrustada‘&#93; </bold>
 </p>
 <p> Adicionalmente, si el usuario requiere actualizar el paquete “Incrustada” debe pegar en el explorador la dirección: “%userprofile%\AppData\Roaming\Mathematica\Applications” y en la carpeta que se abre, sustituir el archivo “<bold>Incrustada.m</bold>” (se recomienda ver el video 1).</p>
 <p>
@@ -192,16 +192,16 @@ Figura 1
 </p>
 <p>Un primer comando de uso general del paquete “<italic>
 <bold>Incrustada</bold>
-</italic>” lo constituye “<bold>Incrustada[ ]</bold>” que retorna una descripción breve sobre la finalidad de este recurso. El usuario puede comprobar si instaló correctamente el paquete de software, al ejecutar:</p>
+</italic>” lo constituye “<bold>Incrustada&#91; &#93;</bold>” que retorna una descripción breve sobre la finalidad de este recurso. El usuario puede comprobar si instaló correctamente el paquete de software, al ejecutar:</p>
 <p>
-<bold> In[]:=</bold>
+<bold> In&#91;&#93;:=</bold>
 </p>
 <p>
-<bold>Incrustada[ ]</bold>
+<bold>Incrustada&#91; &#93;</bold>
 </p>
 <p>Lo que produce como salida:</p>
 <p>
-<bold> Out[]=</bold>
+<bold> Out&#91;&#93;=</bold>
 </p>
 <p>Incrustada es un paquete que permite generar respuestas tipo «incrustada» dentro de un cuestionario en un aula virtual de Moodle. <bold>Es importante señalar al usuario que la salida de cada invocación en los comandos se copia directamente en la memoria temporal, sin embargo, si al pegar en Moodle no se generan bien las opciones de respuesta, se recomienda dar clic derecho a la celda de salida y copiar sin formato, para luego pegar en Moodle</bold>. Autores: Enrique Vílchez Quesada y Juan Félix Ávila Herrera.</p>
 <p>
@@ -210,13 +210,13 @@ Figura 1
 </italic>” cuentan con una ayuda para el usuario, colocando un signo de pregunta hacia abajo seguido del nombre del comando. </p>
 <p>Por ejemplo, al correr:</p>
 <p>
-<bold> In[ ] : =</bold>
+<bold> In&#91; &#93; : =</bold>
 </p>
 <p>
 <bold>?Incrustada</bold>
 </p>
 <p>
-<bold> Out [ ] =</bold>
+<bold> Out &#91; &#93; =</bold>
 </p>
 <p>
 <fig>
@@ -252,13 +252,13 @@ Conversión a LaTeX de Moodle
 <bold>Incrustada</bold>
 </italic>” convierte expresiones escritas en un cuaderno de  <bold>Wolfram Mathematica</bold> a código <bold>LaTeX</bold> de la plataforma <italic>Moodle</italic>. La ayuda de esta instrucción en  <bold>Wolfram</bold> nos brinda una descripción sobre su uso y opciones disponibles:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>?ToLatex</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>
 <fig>
@@ -409,13 +409,13 @@ Figura 2
 </p>
 <p>Ahora, para construir la primera de las expresiones matemáticas del enunciado, se ejecuta en un cuaderno de <bold>Wolfram</bold> lo siguiente: </p>
 <p>
-<bold>In[ ] : =</bold>
+<bold>In&#91; &#93; : =</bold>
 </p>
 <p>
-<bold>ToLatex[Sqrt[x^2/(x^3 + 2 x - 1)]&lt;x - 9]</bold>
+<bold>ToLatex&#91;Sqrt&#91;x^2/(x^3 + 2 x - 1)&#93;&lt;x - 9&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>\({\displaystyle{\sqrt{\frac{x^2}{x^3+2 x-1}}&lt;x-9}}\)</p>
 <p>La salida arrojada por el programa se copia automáticamente en la memoria temporal o portapapeles del ordenador (clipboard en inglés), por lo que, el usuario solo debe dirigirse al cuadro de edición de la pregunta en Moodle y efectuar un pegado (clic derecho o Control + v en Windows). Este proceso se exhibe en la figura <xref ref-type="fig" rid="gf4">4</xref>. Los cambios sólo se guardarán cuando la pregunta contenga alguna opción de respuesta. Para este efecto, se incluirá un Falso-Verdadero sin ningún contexto en el enunciado, sólo con el objetivo de que la herramienta permita generar una vista previa. En la figura <xref ref-type="fig" rid="gf5">5</xref> se ha incorporado el código “{1:MCS:=Falso#ExcelenteVerdadero#}” que agrega un combo con las opciones “Falso” y “Verdadero”, siendo en este caso, “Falso” la respuesta supuestamente correcta.</p>
@@ -425,10 +425,10 @@ Figura 2
 <p>De manera análoga, para incluir las otras expresiones matemáticas del enunciado, el usuario debe correr en <bold>Mathematica.</bold>
 </p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>ToLatex[</bold>
+<bold>ToLatex&#91;</bold>
 <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -449,19 +449,19 @@ Figura 2
 <graphic xlink:href="607974617001_gi105.png"/>
 </alternatives>
 </inline-formula>
-<bold>] </bold>
+<bold>&#93; </bold>
 </p>
 <p>
-<bold>Out[ ] = </bold>
+<bold>Out&#91; &#93; = </bold>
 </p>
 <p>\({\displaystyle{\int_0^1 x\, dx}}\)</p>
 <p>Y luego, pega lo copiado al portapapeles directamente en el campo de edición de la pregunta en <italic>Moodle</italic>. Además, en <bold>Wolfram</bold>:
 </p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>ToLatex [ </bold>
+<bold>ToLatex &#91; </bold>
 <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -503,7 +503,7 @@ Figura 2
 </inline-formula>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>$${\displaystyle{\sum_{i=1}^{n-9} \prod_{j=6}^{i+6}\frac{j}{j+1}}}$$</p>
 <p>Finalmente, se vuelve a pegar en <italic>Moodle</italic> lo copiado en el <italic>clipboard</italic>. El resultado del proceso se visualiza en la figura <xref ref-type="fig" rid="gf28">8</xref>.
@@ -604,12 +604,12 @@ Figura 8
 <list list-type="order">
 <list-item>
 <p>
-<bold>ToLatex[{(x - 8)/(Sqrt[x] + 9), {m, “ con ” m&gt;= 0}, {x^2/(x^3 + 2 x - 1)}, {k}}, conjunto -&gt;True].</bold>
+<bold>ToLatex&#91;{(x - 8)/(Sqrt&#91;x&#93; + 9), {m, “ con ” m&gt;= 0}, {x^2/(x^3 + 2 x - 1)}, {k}}, conjunto -&gt;True&#93;.</bold>
 </p>
 </list-item>
 <list-item>
 <p>
-<bold>ToLatex[</bold>
+<bold>ToLatex&#91;</bold>
 <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -677,12 +677,12 @@ Figura 8
 <graphic xlink:href="607974617001_gi10.png"/>
 </alternatives>
 </inline-formula>
-<bold> , matriz -&gt;True]. </bold>
+<bold> , matriz -&gt;True&#93;. </bold>
 </p>
 </list-item>
 <list-item>
 <p>
-<bold>ToLatex[ </bold>
+<bold>ToLatex&#91; </bold>
 <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -750,7 +750,7 @@ Figura 8
 <graphic xlink:href="607974617001_gi11.png"/>
 </alternatives>
 </inline-formula>
-<bold> , tabla -&gt;True].</bold>
+<bold> , tabla -&gt;True&#93;.</bold>
 </p>
 </list-item>
 </list>
@@ -758,20 +758,20 @@ Figura 8
 <p>En  <bold>Wolfram Mathematica.</bold>
 </p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>ToLatex[{(x - 8)/(Sqrt[x] + 9), {m, “ con ” m&gt;= 0}, {x^2/(x^3 + 2 x - 1)}, {k}}, conjunto -&gt;True]</bold>
+<bold>ToLatex&#91;{(x - 8)/(Sqrt&#91;x&#93; + 9), {m, “ con ” m&gt;= 0}, {x^2/(x^3 + 2 x - 1)}, {k}}, conjunto -&gt;True&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>\({\displaystyle{\left\{\frac{x-8}{\sqrt{x}+9},\left\{{m,\text{ con } m\geq 0}\right\},\left\{{\frac{x^2}{x^3+2 x-1}}\right\},\left\{{k}\right\}\right\}}}\)</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>ToLatex[</bold>
+<bold>ToLatex&#91;</bold>
 <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -839,17 +839,17 @@ Figura 8
 <graphic xlink:href="607974617001_gi12.png"/>
 </alternatives>
 </inline-formula>
-<bold> , matriz -&gt;True]</bold>
+<bold> , matriz -&gt;True&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>\({\displaystyle{\left( \begin{array}{cccc} \sigma &amp; x &amp; y &amp; z \\ w &amp; 1 &amp; 2 &amp; 3 \\ h &amp; 4 &amp; 5 &amp; 6 \\ l &amp; 7 &amp; 8 &amp; 9 \\ \end{array} \right) }}\</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>ToLatex[ </bold>
+<bold>ToLatex&#91; </bold>
 <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -917,10 +917,10 @@ Figura 8
 <graphic xlink:href="607974617001_gi13.png"/>
 </alternatives>
 </inline-formula>
-<bold> , tabla -&gt;True]</bold>
+<bold> , tabla -&gt;True&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>\({\displaystyle{\left. \begin{array}{c|ccc} \sigma &amp; x &amp; y &amp; z \\\hline w &amp; 1 &amp; 2 &amp; 3 \\ h &amp; 4 &amp; 5 &amp; 6 \\ l &amp; 7 &amp; 8 &amp; 9 \\ \end{array} \right. }}\)</p>
 <p>Con todo ello se aclara, de acuerdo a lo compartido en la <xref ref-type="fig" rid="gf29">figura 9</xref>, que el atributo “<bold>conjunto -&gt;True</bold>” construye un conjunto con el argumento de “<bold>ToLatex</bold>”, “<bold>matriz -&gt;True</bold>” resuelve el código correspondiente a una matriz en <bold>LaTeX</bold> y “<bold>tabla -&gt;True</bold>” genera una tabla.</p>
@@ -953,13 +953,13 @@ Respuesta desplegada
 </p>
 <p> La instrucción “Desplegada” automatiza la elaboración de una serie de respuestas en formato desplegado. La ayuda del comando en Mathematica ofrece un panorama sobre su empleabilidad:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>?Desplegada</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>
 <fig>
@@ -1155,48 +1155,48 @@ Respuesta desplegada
 </p>
 <p>El código solicitado se genera automáticamente en <bold>Wolfram</bold> al ejecutar:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>Desplegada[{x^2 + x, x^3, x^4, Sqrt[x], Sin[x]}, {x^5, x^6}] </bold>
+<bold>Desplegada&#91;{x^2 + x, x^3, x^4, Sqrt&#91;x&#93;, Sin&#91;x&#93;}, {x^5, x^6}&#93; </bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
-<p>{1:MCS:~=x^2 + x#Excelente~=x^3#Excelente~=x^4#Excelente~=Sqrt[x]#Excelente~=Sin[x] #Excelente~x^5#~x^6#}</p>
+<p>{1:MCS:~=x^2 + x#Excelente~=x^3#Excelente~=x^4#Excelente~=Sqrt&#91;x&#93;#Excelente~=Sin&#91;x&#93; #Excelente~x^5#~x^6#}</p>
 <p>
 <bold>Nota.</bold> Es importante indicar que las opciones de respuestas son acomodadas aleatoriamente.</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>Desplegada[{a[n] == n^2, a[n] == n^2 + 2, a[n] == n^2 + n}, {a[n] == 5 n, a[n] == 6 n - 9}]</bold>
+<bold>Desplegada&#91;{a&#91;n&#93; == n^2, a&#91;n&#93; == n^2 + 2, a&#91;n&#93; == n^2 + n}, {a&#91;n&#93; == 5 n, a&#91;n&#93; == 6 n - 9}&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
-<p>{1:MCS:~=a[n] = n^2#Excelente~=a[n] = n^2 + 2#Excelente~=a[n] = n^2 + n#Excelente~a[n] = 5*n#~a[n] = 6*n - 9#}</p>
+<p>{1:MCS:~=a&#91;n&#93; = n^2#Excelente~=a&#91;n&#93; = n^2 + 2#Excelente~=a&#91;n&#93; = n^2 + n#Excelente~a&#91;n&#93; = 5*n#~a&#91;n&#93; = 6*n - 9#}</p>
 <p>
-<bold> In[ ] :=</bold>
-</p>
-<p>
-<bold>Desplegada[{x&gt;=4, z&lt;=3, Sum[i, {i, 1, n}]}, {y&lt;9, b&gt;9}]</bold>
+<bold> In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
-</p>
-<p>{1:MCS:~=x&gt;=4#Excelente~=z&lt;=3#Excelente~=Sum[i, {i, 1, n\}]#Excelente~y&lt;9#~b&gt;9#}</p>
-<p>
-<bold>In[ ] :=</bold>
+<bold>Desplegada&#91;{x&gt;=4, z&lt;=3, Sum&#91;i, {i, 1, n}&#93;}, {y&lt;9, b&gt;9}&#93;</bold>
 </p>
 <p>
-<bold>Desplegada[{x&gt;=4, z&lt;=3, Sum[i, {i, 1, n}]}, {y&lt;9, b&gt;9}, evaluar -&gt;True]</bold>
+<bold>Out&#91; &#93; =</bold>
+</p>
+<p>{1:MCS:~=x&gt;=4#Excelente~=z&lt;=3#Excelente~=Sum&#91;i, {i, 1, n\}&#93;#Excelente~y&lt;9#~b&gt;9#}</p>
+<p>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Desplegada&#91;{x&gt;=4, z&lt;=3, Sum&#91;i, {i, 1, n}&#93;}, {y&lt;9, b&gt;9}, evaluar -&gt;True&#93;</bold>
+</p>
+<p>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>{1:MCS:~=x&gt;=4#Excelente~=z&lt;=3#Excelente~=(n*(1 + n))/2#Excelente~y&lt;9#~b&gt;9#}</p>
-<p>En la figura <xref ref-type="fig" rid="gf30">10</xref> se muestran las distintas formas de respuesta con formato desplegado, al pegar cada vez en el área de edición de la pregunta en Moodle (una por cada  <bold>Out[ ]</bold> obtenido). Cabe destacar que el “<bold>=</bold>” no se puede utilizar directamente en la instrucción “<bold>Desplegada</bold>” (lo mismo sucede con otros comandos de “<bold>
+<p>En la figura <xref ref-type="fig" rid="gf30">10</xref> se muestran las distintas formas de respuesta con formato desplegado, al pegar cada vez en el área de edición de la pregunta en Moodle (una por cada  <bold>Out&#91; &#93;</bold> obtenido). Cabe destacar que el “<bold>=</bold>” no se puede utilizar directamente en la instrucción “<bold>Desplegada</bold>” (lo mismo sucede con otros comandos de “<bold>
 <italic>Incrustada</italic>
 </bold>”), en su lugar, se emplea el “<bold>==</bold>”. También, se observa que el atributo “<bold>evaluar -&gt;True</bold>” literalmente permite que  Wolfram Mathematica evalúe cada una de las opciones de respuesta. En este ejercicio se facilitó el cálculo de la sumatoria a través de una fórmula.</p>
 <p>
@@ -1320,24 +1320,24 @@ Figura 10
 </inline-formula>
 </p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>Subsets[{s0, s1, s2, s3}]</bold>
+<bold>Subsets&#91;{s0, s1, s2, s3}&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>{{}, {s0}, {s1}, {s2}, {s3}, {s0, s1}, {s0, s2}, {s0, s3}, {s1, s2}, {s1, s3}, {s2, s3}, {s0, s1, s2}, {s0, s1, s3}, {s0, s2, s3}, {s1, s2, s3}, {s0, s1, s2, s3}}</p>
 <p>Por otra parte, al querer los primeros seis subconjuntos anteriores como las opciones de respuesta correcta, en el software se procede como sigue:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>Desplegada[{{}, {s0}, {s1}, {s2}, {s3}, {s0, s1}}, {{s0, s2}, {s0, s3}, {s1, s2}, {s1, s3}, {s2, s3}, {s0, s1, s2}, {s0, s1, s3}, {s0, s2, s3}, {s1, s2, s3}, {s0, s1, s2, s3}}]</bold>
+<bold>Desplegada&#91;{{}, {s0}, {s1}, {s2}, {s3}, {s0, s1}}, {{s0, s2}, {s0, s3}, {s1, s2}, {s1, s3}, {s2, s3}, {s0, s1, s2}, {s0, s1, s3}, {s0, s2, s3}, {s1, s2, s3}, {s0, s1, s2, s3}}&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>{1:MCS:~={\}#Excelente~={s0\}#Excelente~={s1\}#Excelente~={s2\}#Excelente~={s3\}#Excelente~={s0, s1\}#Excelente~{s0, s2\}#~{s0, s3\}#~{s1, s2\}#~{s1, s3\}#~{s2, s3\}#~{s0, s1, s2\}#~{s0, s1, s3\} #~{s0, s2, s3\}#~{s1, s2, s3\}#~{s0, s1, s2, s3\}#}</p>
 <p>En la figura <xref ref-type="fig" rid="gf31">11</xref> se comparte el resultado de este código en <italic>Moodle</italic>.
@@ -1361,20 +1361,20 @@ Figura 11
 <p>
 <bold>Ejemplo 5</bold>. La función “<bold>PolinomiosFactorizables</bold>” construye “<bold>n</bold>” polinomios factorizados de grado menor o igual a “<bold>m</bold>”. Utilizando esta función genere cinco ítems pseudoaleatorios para escoger de manera desplegada la factorización de un polinomio de grado menor o igual a 4.</p>
 <p>
-<bold>PolinomiosFactorizables[n_, m_] := If[IntegerQ[n] &amp;&amp; IntegerQ[m], If[n&gt;= 3 &amp;&amp; m&gt;= 2, Module[{Conjunto = Range[10 n], Valores, polinomios = {}, i}, Valores = RandomSample[Conjunto, RandomInteger[{2, m}]]; For[i = 1, i &lt;= n, polinomios = Append[polinomios, Expand[Product[x - i, {i, Valores}]]]; Conjunto = Complement[Conjunto, Valores]; Valores = RandomSample[Conjunto, RandomInteger[{2, m}]]; i++]; Factor /@ polinomios]]] </bold>
+<bold>PolinomiosFactorizables&#91;n_, m_&#93; := If&#91;IntegerQ&#91;n&#93; &amp;&amp; IntegerQ&#91;m&#93;, If&#91;n&gt;= 3 &amp;&amp; m&gt;= 2, Module&#91;{Conjunto = Range&#91;10 n&#93;, Valores, polinomios = {}, i}, Valores = RandomSample&#91;Conjunto, RandomInteger&#91;{2, m}&#93;&#93;; For&#91;i = 1, i &lt;= n, polinomios = Append&#91;polinomios, Expand&#91;Product&#91;x - i, {i, Valores}&#93;&#93;&#93;; Conjunto = Complement&#91;Conjunto, Valores&#93;; Valores = RandomSample&#91;Conjunto, RandomInteger&#91;{2, m}&#93;&#93;; i++&#93;; Factor /@ polinomios&#93;&#93;&#93; </bold>
 </p>
 <p>En  <bold>Mathematica</bold> el siguiente “<bold>Table</bold>” resuelve lo indicado en el enunciado de este ejercicio:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>polinomios = PolinomiosFactorizables[5, 4]; Table[Row[{“Al factorizar ”, ToLatex[Evaluate[Expand[i]]], “, se obtiene: ”, Desplegada[Evaluate[{i}], Evaluate@Complement[polinomios, {i}]]}], {i, polinomios}]</bold>
+<bold>polinomios = PolinomiosFactorizables&#91;5, 4&#93;; Table&#91;Row&#91;{“Al factorizar ”, ToLatex&#91;Evaluate&#91;Expand&#91;i&#93;&#93;&#93;, “, se obtiene: ”, Desplegada&#91;Evaluate&#91;{i}&#93;, Evaluate@Complement&#91;polinomios, {i}&#93;&#93;}&#93;, {i, polinomios}&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>{Al factorizar \({\displaystyle{x^2-60 x+756}}\), se obtiene: {1:MCS:~=(-42 + x)*(-18 + x)#Excelente~(- 49 + x)*(-32 + x)#~(-43 + x)*(-16 + x)*(-15 + x)*(-8 + x)#~(-33 + x)*(-22 + x)*(-5 + x)#~(-50 + x)*(-23 + x)*(-3 + x)#},Al factorizar \({\displaystyle{x^3-76 x^2+1369 x-3450}}\), se obtiene: {1:MCS:~=(-50 + x)*(-23 + x)*(-3 + x)#Excelente~(-49 + x)*(-32 + x)#~(-42 + x)*(-18 + x)#~(-43 + x)*(-16 + x)*(-15 + x)*(-8 + x)#~(-33 + x)*(-22 + x)*(-5 + x)#},Al factorizar \({\displaystyle{x^2-81 x+1568}}\), se obtiene: {1:MCS:~=(-49 + x)*(-32 + x)#Excelente~(-42 + x)*(-18 + x)#~(-43 + x)*(-16 + x)*(-15 + x)*(-8 + x)#~(-33 + x)*(-22 + x)*(-5 + x)#~(-50 + x)*(-23 + x)*(-3 + x)#},Al factorizar \({\displaystyle{x^4-82 x^3+2165 x^2-22904 x+82560}}\), se obtiene: {1:MCS:~=(-43 + x)*(-16 + x)*(-15 + x)*(-8 + x)#Excelente~(-49 + x)*(-32 + x)#~(-42 + x)*(-18 + x)#~(-33 + x)*(-22 + x)*(-5 + x)#~(-50 + x)*(-23 + x)*(-3 + x)#},Al factorizar \({\displaystyle{x^3-60 x^2+1001 x-3630}}\), se obtiene: {1:MCS:~=(-33 + x)*(-22 + x)*(-5 + x)#Excelente~(-49 + x)*(-32 + x)#~(-42 + x)*(-18 + x)#~(-43 + x)*(-16 + x)*(-15 + x)*(-8 + x)#~(-50 + x)*(-23 + x)*(-3 + x)#}}</p>
-<p>Una explicación más detallada sobre el código expuesto, se puede consultar en el video 7. Por otra parte, en el <bold> Out[ ]</bold> se hace necesario antes de pegar en la plataforma <italic>Moodle</italic>, dar clic derecho en la celda de salida y escoger “<bold>Copiar como/Texto sin formato</bold>” (ver figura <xref ref-type="fig" rid="gf8">12</xref>). Esto es indispensable pues al ejecutarse varias veces la instrucción “<bold>Desplegada</bold>”, en el <italic>clipboard</italic> del ordenador se copiará la última invocación de esa sentencia y ese copiado automático no incluye todos los ítems de interés. En la figura <xref ref-type="fig" rid="gf32">13</xref> se comparte la salida proporcionada por la plataforma <italic>Moodle</italic>. El lector puede comprobar que cada vez que se ejecuta el <bold> In[ ]</bold> anterior, obtendrá una nueva lista con cinco ítems, probablemente distintos, al ser el <bold> Out[ ]</bold> pseudoaleatorio.</p>
+<p>Una explicación más detallada sobre el código expuesto, se puede consultar en el video 7. Por otra parte, en el <bold> Out&#91; &#93;</bold> se hace necesario antes de pegar en la plataforma <italic>Moodle</italic>, dar clic derecho en la celda de salida y escoger “<bold>Copiar como/Texto sin formato</bold>” (ver figura <xref ref-type="fig" rid="gf8">12</xref>). Esto es indispensable pues al ejecutarse varias veces la instrucción “<bold>Desplegada</bold>”, en el <italic>clipboard</italic> del ordenador se copiará la última invocación de esa sentencia y ese copiado automático no incluye todos los ítems de interés. En la figura <xref ref-type="fig" rid="gf32">13</xref> se comparte la salida proporcionada por la plataforma <italic>Moodle</italic>. El lector puede comprobar que cada vez que se ejecuta el <bold> In&#91; &#93;</bold> anterior, obtendrá una nueva lista con cinco ítems, probablemente distintos, al ser el <bold> Out&#91; &#93;</bold> pseudoaleatorio.</p>
 <p>
 <bold>Nota 3</bold>. En el ejemplo 5 es importante destacar que cuando se usaron las instrucciones “<bold>ToLatex</bold>” y “<bold>Desplegada</bold>” dentro del “<bold>Table</bold>”, a sus argumentos se les aplicó la sentencia “<bold>Evaluate</bold>”. Esto siempre hay que realizarlo en los comandos “<bold>ToLatex</bold>” y “<bold>Desplegada</bold>” (y otros del paquete “<italic>
 <bold>Incrustada</bold>
@@ -1421,13 +1421,13 @@ Respuesta falso-verdadero
 </p>
 <p>La sentencia “<bold>FV</bold>” genera el código para obtener una respuesta de <bold>Falso-Verdadero</bold> en un formato desplegado. En  <bold>Mathematica</bold> la ayuda del comando retorna lo siguiente:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>?FV</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 
 <fig>
@@ -1438,23 +1438,23 @@ Respuesta falso-verdadero
 <p>
 <bold>Ejemplo 6</bold>. La función “<bold>EsPrimo</bold>” creada con <bold>Wolfram Language</bold>, construye el código <italic>Moodle</italic> de una pregunta <italic>incrustada</italic> de <bold>Falso-Verdadero</bold> que determina si el número “<bold>n</bold>” pasado como parámetro es o no un número primo. Empleando “<bold>EsPrimo</bold>”, construya diez ítems eligiendo de manera pseudoaleatoria números enteros en el rango de 1 a 1000.</p>
 <p>
-<bold>EsPrimo[n_] := If[PrimeQ[n], FV[1], FV[0]] </bold>
+<bold>EsPrimo&#91;n_&#93; := If&#91;PrimeQ&#91;n&#93;, FV&#91;1&#93;, FV&#91;0&#93;&#93; </bold>
 </p>
 <p>En  <bold>Wolfram Mathematica</bold> se puede recurrir al uso del comando “<bold>Table</bold>” para resolver el presente ejemplo:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>EsPrimo[n_] := If[PrimeQ[n], FV[1], FV[0]]</bold>
+<bold>EsPrimo&#91;n_&#93; := If&#91;PrimeQ&#91;n&#93;, FV&#91;1&#93;, FV&#91;0&#93;&#93;</bold>
 </p>
 <p>
-<bold>Table[Row[{“Es ”, ToLatex[Evaluate@i], “ un número primo?: ”, EsPrimo[i]}], {i, RandomSample[Range[1000], 10]}]</bold>
+<bold>Table&#91;Row&#91;{“Es ”, ToLatex&#91;Evaluate@i&#93;, “ un número primo?: ”, EsPrimo&#91;i&#93;}&#93;, {i, RandomSample&#91;Range&#91;1000&#93;, 10&#93;}&#93;</bold>
 </p>
 <p>
-<bold> Out[ ] =</bold>
+<bold> Out&#91; &#93; =</bold>
 </p>
 <p>{¿Es \({\displaystyle{914}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}, ¿Es \({\displaystyle{67}}\) un número primo?: {1:MCS:~=Verdadero#Excelente~Falso#}, ¿Es \({\displaystyle{103}}\) un número primo?: {1:MCS:~=Verdadero#Excelente~Falso#}, ¿Es \({\displaystyle{448}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}, ¿Es \({\displaystyle{858}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}, ¿Es \({\displaystyle{499}}\) un número primo?: {1:MCS:~=Verdadero#Excelente~Falso#}, ¿Es \({\displaystyle{811}}\) un número primo?: {1:MCS:~=Verdadero#Excelente~Falso#}, ¿Es \({\displaystyle{200}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}, ¿Es \({\displaystyle{210}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}, ¿Es \({\displaystyle{838}}\) un número primo?: {1:MCS:~=Falso#Excelente~Verdadero#}}</p>
-<p>Al igual que lo señalado en el ejemplo 5, en esta salida se debe dar clic derecho en la celda y elegir “<bold>Copiar como/Texto sin formato</bold>” para luego pegar en el espacio de edición de la pregunta dentro de la plataforma <italic>Moodle</italic>. La figura <xref ref-type="fig" rid="gf9">14</xref> muestra la salida resultante. En este ejercicio, de forma semejante al ejemplo 5, el usuario podrá obtener una nueva lista de ítems, probablemente distintos, al volver a ejecutar el <bold> In[ ]</bold> sin realizar ningún cambio.</p>
+<p>Al igual que lo señalado en el ejemplo 5, en esta salida se debe dar clic derecho en la celda y elegir “<bold>Copiar como/Texto sin formato</bold>” para luego pegar en el espacio de edición de la pregunta dentro de la plataforma <italic>Moodle</italic>. La figura <xref ref-type="fig" rid="gf9">14</xref> muestra la salida resultante. En este ejercicio, de forma semejante al ejemplo 5, el usuario podrá obtener una nueva lista de ítems, probablemente distintos, al volver a ejecutar el <bold> In&#91; &#93;</bold> sin realizar ningún cambio.</p>
 
 <fig id="gf9">
 <label>
@@ -1484,13 +1484,13 @@ Respuesta opción única y múltiple
 </p>
 <p>La ayuda de esta instrucción en  <bold>Mathematica</bold> proporciona una explicación precisa sobre su funcionamiento:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>?SMOption</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 
 <fig >
@@ -1542,10 +1542,10 @@ Respuesta opción única y múltiple
 </inline-formula>. Como consecuencia en el software  <bold>Mathematica.</bold>
 </p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>SMOption[{1 &gt;= </bold>
+<bold>SMOption&#91;{1 &gt;= </bold>
 <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -1617,20 +1617,20 @@ Respuesta opción única y múltiple
 <graphic xlink:href="607974617001_gi180.png"/>
 </alternatives>
 </inline-formula>
-<bold>}, latex -&gt;True]</bold>
+<bold>}, latex -&gt;True&#93;</bold>
 </p>
 <p>
-<bold>Out[ ]=</bold>
+<bold>Out&#91; &#93;=</bold>
 </p>
 <p>{1:MCVS:~=\({\displaystyle{\quad 1 \geq \sqrt{(-1)^2\}\}\}\)#Excelente~=\({\displaystyle{\quad 2 &lt; \sqrt{6\}\}\}\)#Excelente~=\({\displaystyle{\quad 3 \geq \sqrt{0\}\}\}\)#Excelente~\({\displaystyle{ \quad 4 &gt; \sqrt{100\}\}\}\)#~\({\displaystyle{\quad 7 &lt; \sqrt{10\}\}\}\)#~\({\displaystyle{\quad 8 &gt; \sqrt{128\}\}\}\)#}</p>
 <p>Se advierte al lector que al pegar lo copiado automáticamente en el portapapeles dentro de la plataforma <italic>Moodle</italic>, se despliega la pregunta con algunos errores, tal y como se muestra en la figura <xref ref-type="fig" rid="gf11">16</xref>. La ayuda del comando “<bold>Incrustada</bold>” señala con claridad que: “<bold>si al pegar en Moodle no se generan bien las opciones de respuesta, se recomienda dar clic derecho a la celda de salida y copiar sin formato</bold>”, es decir, cuando se presentan este tipo de errores, se debe copiar sin formato el código retornado en  <bold>Wolfram Mathematica</bold> (tal y como se explicó en el ejemplo 5), para posteriormente pegar en <italic>Moodle</italic>.
 </p>
-<p>Por otra parte, si la pregunta incrustada de este ejercicio se hubiese deseado con un formato horizontal, a la instrucción “SMOption” solo se le añade el atributo “horizontal -&gt;True”, quedando el  In[ ], como sigue a continuación:</p>
+<p>Por otra parte, si la pregunta incrustada de este ejercicio se hubiese deseado con un formato horizontal, a la instrucción “SMOption” solo se le añade el atributo “horizontal -&gt;True”, quedando el  In&#91; &#93;, como sigue a continuación:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>SMOption[{1 &gt;= </bold>
+<bold>SMOption&#91;{1 &gt;= </bold>
 <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -1702,7 +1702,7 @@ Respuesta opción única y múltiple
 <graphic xlink:href="607974617001_gi187.png"/>
 </alternatives>
 </inline-formula>
-<bold>}, latex -&gt;True, horizontal -&gt;True]</bold>
+<bold>}, latex -&gt;True, horizontal -&gt;True&#93;</bold>
 </p>
 <p>
 <bold/>
@@ -1780,13 +1780,13 @@ Figura 17
 </alternatives>
 </inline-formula> y emplear la sentencia “<bold>SMOption</bold>” con los atributos “<bold>latex -&gt;True</bold>”, “<bold>conjunto -&gt;True</bold>” y “<bold>multiple -&gt;True</bold>”, se obtiene:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>SMOption[</bold>{{}, {σ0}, {σ1}, {σ2}, {σ3}, {σ0,σ1}}, {{σ0,σ2}, {σ0,σ3}, {σ1,σ2}, {σ1,σ3}, {σ2,σ3}, {σ0,σ1,σ2}, {σ0,σ1,σ3}, {σ0,σ2,σ3}, {σ1,σ2,σ3}, {σ0,σ1,σ2,σ3}<bold>}, latex -&gt;True, conjunto -&gt;True, multiple -&gt;True]</bold>
+<bold>SMOption&#91;</bold>{{}, {σ0}, {σ1}, {σ2}, {σ3}, {σ0,σ1}}, {{σ0,σ2}, {σ0,σ3}, {σ1,σ2}, {σ1,σ3}, {σ2,σ3}, {σ0,σ1,σ2}, {σ0,σ1,σ3}, {σ0,σ2,σ3}, {σ1,σ2,σ3}, {σ0,σ1,σ2,σ3}<bold>}, latex -&gt;True, conjunto -&gt;True, multiple -&gt;True&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>{1:MRS:~=\({\displaystyle{\quad \left\{{\}\right\\}\}\}\)#Excelente ~=\({\displaystyle{\quad \left\{{\sigma_0\}\right\\}\}\}\)#Excelente ~=\({\displaystyle{\quad \left\{{\sigma_1\}\right\\}\}\}\)#Excelente ~=\({\displaystyle{\quad \left\{{\sigma_2\}\right\\}\}\}\)#Excelente ~=\({\displaystyle{\quad \left\{{\sigma_3\}\right\\}\}\}\)#Excelente ~=\({\displaystyle{\quad \left\{{\sigma_0, \sigma_1\}\right\\}\}\}\)#Excelente ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_2\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_1, \sigma_2\}\right\\}\}\}\)# ~\({\displaystyle{\quad\left\{{\sigma_1, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_2, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_1, \sigma_2\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_1, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_2, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_1, \sigma_2, \sigma_3\}\right\\}\}\}\)# ~\({\displaystyle{\quad \left\{{\sigma_0, \sigma_1, \sigma_2, \sigma_3\}\right\\}\}\}\)#}</p>
 <p>En la figura <xref ref-type="fig" rid="gf13">18</xref> se visualiza parte de la pregunta generada por la plataforma de aprendizaje <italic>Moodle</italic>, al pegar directamente lo copiado por <bold>Mathematica</bold> en el <italic>clipboard</italic>. Cabe destacar que, la propiedad “<bold>conjunto -&gt;True</bold>” ha permitido en este caso, devolver cada opción de respuesta como un conjunto. Si se hubiera prescindido de ella, las respuestas se mostrarían sin las llaves de apertura y cierre.</p>
@@ -1809,18 +1809,18 @@ Figura 18
 <p>
 <bold>Ejemplo 9</bold>. El programa “<bold>FuncionesAleatorias</bold>” elaborado en <bold>Wolfram Language</bold>, construye “<bold>m</bold>” funciones pseudoaleatorias y sus derivadas, de cuatro tipos: si “<bold>n=1</bold>” las funciones son polinomiales, si “<bold>n=2</bold>” son trigonométricas con seno o coseno, si “<bold>n=3</bold>” las funciones retornadas son exponenciales (en un sentido no estricto) y si “<bold>n=4</bold>” son algebraicas fraccionarias. Elabore seis ítems pseudoaleatorios de preguntas <italic>incrustadas</italic> de selección única, donde se solicite como respuesta una función cuya derivada forma parte del enunciado.</p>
 <p>
-<bold>FuncionesAleatorias[n_, m_] := If[IntegerQ[n] &amp;&amp; IntegerQ[m], If[1 &lt;= n &lt;= 4 &amp;&amp; m &gt;= 1, Module[{funciones, fun1, fun2, fun3, fun4, i}, fun1[] := Sum[RandomChoice[{-1, 1}] RandomInteger[{2, 20}] x^j, {j, 0, RandomInteger[{3, 5}]}]; fun2[] := If[RandomInteger[] == 0, RandomChoice[{-1, 1}] RandomInteger[{2, 20}] Sin[RandomChoice[{-1, 1}] RandomInteger[{2, 20}] x + RandomInteger[{-20, 20}]], RandomChoice[{-1, 1}] RandomInteger[{2, 20}] Cos[RandomChoice[{-1, 1}] RandomInteger[{2, 20}] x + RandomInteger[{-20, 20}]]]; fun3[] := RandomChoice[{-1, 1}] RandomInteger[{2, 20}]^(RandomChoice[{-1, 1}] RandomInteger[{2, 20}] x + RandomInteger[{-20, 20}]); fun4[] := Sum[RandomChoice[{-1, 1}] RandomInteger[{2, 20}] x^j, {j, 0, RandomInteger[{3, 5}]}]/Sum[RandomChoice[{-1, 1}] RandomInteger[{2, 20}] x^j, {j, 0, RandomInteger[{3, 5}]}]; If[n == 1, funciones = Table[fun1[], m], If[n == 2, funciones = Table[fun2[], m], funciones = If[n == 3, Table[fun3[], m], If[n == 4, funciones = Table[fun4[], m]]]]]; {funciones, D[funciones, x]}]]]</bold>
+<bold>FuncionesAleatorias&#91;n_, m_&#93; := If&#91;IntegerQ&#91;n&#93; &amp;&amp; IntegerQ&#91;m&#93;, If&#91;1 &lt;= n &lt;= 4 &amp;&amp; m &gt;= 1, Module&#91;{funciones, fun1, fun2, fun3, fun4, i}, fun1&#91;&#93; := Sum&#91;RandomChoice&#91;{-1, 1}&#93; RandomInteger&#91;{2, 20}&#93; x^j, {j, 0, RandomInteger&#91;{3, 5}&#93;}&#93;; fun2&#91;&#93; := If&#91;RandomInteger&#91;&#93; == 0, RandomChoice&#91;{-1, 1}&#93; RandomInteger&#91;{2, 20}&#93; Sin&#91;RandomChoice&#91;{-1, 1}&#93; RandomInteger&#91;{2, 20}&#93; x + RandomInteger&#91;{-20, 20}&#93;&#93;, RandomChoice&#91;{-1, 1}&#93; RandomInteger&#91;{2, 20}&#93; Cos&#91;RandomChoice&#91;{-1, 1}&#93; RandomInteger&#91;{2, 20}&#93; x + RandomInteger&#91;{-20, 20}&#93;&#93;&#93;; fun3&#91;&#93; := RandomChoice&#91;{-1, 1}&#93; RandomInteger&#91;{2, 20}&#93;^(RandomChoice&#91;{-1, 1}&#93; RandomInteger&#91;{2, 20}&#93; x + RandomInteger&#91;{-20, 20}&#93;); fun4&#91;&#93; := Sum&#91;RandomChoice&#91;{-1, 1}&#93; RandomInteger&#91;{2, 20}&#93; x^j, {j, 0, RandomInteger&#91;{3, 5}&#93;}&#93;/Sum&#91;RandomChoice&#91;{-1, 1}&#93; RandomInteger&#91;{2, 20}&#93; x^j, {j, 0, RandomInteger&#91;{3, 5}&#93;}&#93;; If&#91;n == 1, funciones = Table&#91;fun1&#91;&#93;, m&#93;, If&#91;n == 2, funciones = Table&#91;fun2&#91;&#93;, m&#93;, funciones = If&#91;n == 3, Table&#91;fun3&#91;&#93;, m&#93;, If&#91;n == 4, funciones = Table&#91;fun4&#91;&#93;, m&#93;&#93;&#93;&#93;&#93;; {funciones, D&#91;funciones, x&#93;}&#93;&#93;&#93;</bold>
 </p>
 <p>
 <bold>Solución:</bold> En el software  <bold>Wolfram Mathematica</bold> recurriendo a las sentencias “<bold>FuncionesAleatorias</bold>” y “<bold>SMOption</bold>”, una posible solución de este ejemplo es la siguiente:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>funciones = FuncionesAleatorias[RandomChoice[Range[4]], 6]; Table[Column[{Row[{“Una función cuya derivada es ”, ToLatex[Evaluate@funciones[[2]] [[i]]], “ corresponde a: ”}], SMOption[Evaluate@{funciones[[1, i]]}, Evaluate@Complement[funciones[[1]], {funciones[[1, i]]}], latex -&gt;True]}], {i, Length[funciones[[1]]]}] </bold>
+<bold>funciones = FuncionesAleatorias&#91;RandomChoice&#91;Range&#91;4&#93;&#93;, 6&#93;; Table&#91;Column&#91;{Row&#91;{“Una función cuya derivada es ”, ToLatex&#91;Evaluate@funciones&#91;&#91;2&#93;&#93; &#91;&#91;i&#93;&#93;&#93;, “ corresponde a: ”}&#93;, SMOption&#91;Evaluate@{funciones&#91;&#91;1, i&#93;&#93;}, Evaluate@Complement&#91;funciones&#91;&#91;1&#93;&#93;, {funciones&#91;&#91;1, i&#93;&#93;}&#93;, latex -&gt;True&#93;}&#93;, {i, Length&#91;funciones&#91;&#91;1&#93;&#93;&#93;}&#93; </bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>{Una función cuya derivada es \({\displaystyle{-2^{6 x+7}\log (8)}}\) corresponde a: {1:MCVS:~=\({ \displaystyle{\quad -8^{2 x+2\}\}\}\)#Excelente ~\({\displaystyle{\quad 10^{5 x+18\}\}\}\)# ~\({\displaystyle{\quad 13^{6 x-2\}\}\}\)# ~\({\displaystyle{\quad 14^{4 x+11\}\}\}\)# ~\({\displaystyle{ \quad 15^{-20 x-17\}\}\}\)# ~\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#},Una función cuya derivada es \({\displaystyle{2^{4 x+13} 7^{4 x+11}\log (14)}}\) corresponde a: {1:MCVS:~=\({\displaystyle{\quad 14^{4 x+11\}\}\}\)#Excelente ~\({\displaystyle{\quad -8^{2 x+2\}\}\}\)# ~\({\displaystyle{\quad 10^{5 x+18\}\}\}\)# ~\({\displaystyle{\quad 13^{6 x-2\}\}\}\)# ~\({\displaystyle{\quad 15^{-20 x-17\}\}\}\)# ~\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#},Una función cuya derivada es \({\displaystyle{2^{5 x+18} 5^{5 x+19}\log (10)}}\) corresponde a: {1:MCVS:~=\({\displaystyle{\quad 10^{5 x+18\}\}\}\)#Excelente ~\({\displaystyle{\quad -8^{2 x+2\}\}\}\)# ~\({\displaystyle{\quad 13^{6 x-2\}\}\}\)# ~\({\displaystyle{\quad 14^{4 x+11\}\}\}\)# ~\({\displaystyle{\quad 15^{-20 x-17\}\}\}\)# ~\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#},Una función cuya derivada es \({\displaystyle{-4 3^{- 20 x-17} 5^{-20 x-16}\log (15)}}\) corresponde a: {1:MCVS:~=\({\displaystyle{\quad 15^{-20 x17\}\}\}\)#Excelente ~\({\displaystyle{\quad -8^{2 x+2\}\}\}\)# ~\({\displaystyle{\quad 10^{5 x+18\}\}\}\)# ~\({\displaystyle{\quad 13^{6 x-2\}\}\}\)# ~\({\displaystyle{\quad 14^{4 x+11\}\}\}\)# ~\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#},Una función cuya derivada es \ ({\displaystyle{-5 4^{40 x-5}\log (16)}}\) corresponde a: {1:MCVS:~=\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#Excelente ~\({\displaystyle{\quad -8^{2 x+2\}\}\}\)# ~\({\displaystyle{\quad 10^{5 x+18\}\}\}\)# ~\({\displaystyle{\quad 13^{6 x-2\}\}\}\)# ~\({\displaystyle{\quad 14^{4 x+11\}\}\}\)# ~\({\displaystyle{\quad 15^{-20 x-17\}\}\}\)#},Una función cuya derivada es \({\displaystyle{6\13^{6 x-2}\log (13)}}\) corresponde a: {1:MCVS:~=\({\displaystyle{\ quad 13^{6 x-2\}\}\}\)#Excelente ~\({\displaystyle{\quad -8^{2 x+2\}\}\}\)# ~\({\displaystyle{\quad 10^{5 x+18\}\}\}\)# ~\({\displaystyle{\quad 14^{4 x+11\}\}\}\)# ~\({\displaystyle{\quad 15^{-20 x-17\}\}\}\)# ~\({\displaystyle{\quad -16^{20 x-3\}\}\}\)#}}</p>
 <p>En la figura <xref ref-type="fig" rid="gf14">19</xref> aparece una parte de las preguntas de selección única generadas mediante el código anterior, copiando sin formato el contenido de la celda de salida. Además, una explicación más amplia sobre el código utilizado en este ejercicio, se puede consultar en el video 11.</p>
@@ -1854,13 +1854,13 @@ Respuesta corta
 </p>
 <p>“<bold>ShortAnswer</bold>” permite la elaboración de preguntas con respuesta corta en <italic>Moodle</italic>, facilitando una distinción (si se requiere) entre letras mayúsculas y minúsculas. En el software  <bold>Wolfram Mathematica</bold> la ayuda de “<bold>ShortAnswer</bold>” retorna lo siguiente:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>?ShortAnswer</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>
 <fig>
@@ -1999,10 +1999,10 @@ Respuesta corta
 </p>
 <p>Se procederá usando el atributo “<bold>evaluar -&gt;True</bold>”, veamos:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>Column[{Row[{“Al evaluar ”, ToLatex[ </bold>
+<bold>Column&#91;{Row&#91;{“Al evaluar ”, ToLatex&#91; </bold>
 <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -2038,10 +2038,10 @@ Respuesta corta
 </alternatives>
 </inline-formula>
 <bold/>
-<bold>], “ en ”, ToLatex[0], “ se obtiene como resultado: ”, ShortAnswer[{-9/1}, evaluar -&gt;True]}]}]</bold>
+<bold>&#93;, “ en ”, ToLatex&#91;0&#93;, “ se obtiene como resultado: ”, ShortAnswer&#91;{-9/1}, evaluar -&gt;True&#93;}&#93;}&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>Al evaluar \({\displaystyle{\frac{x^2+6 x-9}{x^3+2 x^2-6 x+1}}}\) en \({\displaystyle{0}}\) se obtiene como resultado: {1:SA:~=-9#Excelente}</p>
 <p>Ahora, si de forma más general, se desea un ítem de evaluación para la expresión algebraica fraccionaria en un valor entero de <bold>
@@ -2060,16 +2060,16 @@ Respuesta corta
 </alternatives>
 </inline-formula>, en <bold>Wolfram Mathematica</bold> una posible resolución es la que se detalla como sigue:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>y = RandomInteger[{-20, 20}]; Column[{Row[{“Al evaluar ”, ToLatex[(x^2 + 6 x - 9)/(x^3 + 2 x^2 - 6 x + 1)], “ en ”, ToLatex[Evaluate@y], “ se obtiene como resultado: ”, ShortAnswer[Evaluate@Numerator[{(x^2 + 6 x - 9)/(x^3 + 2 x^2 - 6 x + 1) /. x -&gt;y}]]/ShortAnswer[Evaluate@Denominator[{(x^2 + 6 x - 9)/(x^3 + 2 x^2 - 6 x + 1) /. x -&gt;y}]]}]}]</bold>
+<bold>y = RandomInteger&#91;{-20, 20}&#93;; Column&#91;{Row&#91;{“Al evaluar ”, ToLatex&#91;(x^2 + 6 x - 9)/(x^3 + 2 x^2 - 6 x + 1)&#93;, “ en ”, ToLatex&#91;Evaluate@y&#93;, “ se obtiene como resultado: ”, ShortAnswer&#91;Evaluate@Numerator&#91;{(x^2 + 6 x - 9)/(x^3 + 2 x^2 - 6 x + 1) /. x -&gt;y}&#93;&#93;/ShortAnswer&#91;Evaluate@Denominator&#91;{(x^2 + 6 x - 9)/(x^3 + 2 x^2 - 6 x + 1) /. x -&gt;y}&#93;&#93;}&#93;}&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>Al evaluar \({\displaystyle{\frac{x^2+6 x-9}{x^3+2 x^2-6 x+1}}}\) en \({\displaystyle{3}}\) se obtiene como resultado: ({1:SA:~=9#Excelente})/({1:SA:~=14#Excelente}) </p>
-<p>Una explicación complementaria se puede obtener del video 12. En la figura <xref ref-type="fig" rid="gf16">20</xref> se exhibe la salida de la plataforma <italic>Moodle</italic> al copiar sin formato las celdas <bold> Out[ ]</bold> y pegar en el espacio de edición de la pregunta. En la subfigura <xref ref-type="fig" rid="gf16">20.a</xref> aparece el ítem de evaluación en   y en la subfigura <xref ref-type="fig" rid="gf16">20.b</xref> el ítem de evaluación pseudoaleatorio.</p>
+<p>Una explicación complementaria se puede obtener del video 12. En la figura <xref ref-type="fig" rid="gf16">20</xref> se exhibe la salida de la plataforma <italic>Moodle</italic> al copiar sin formato las celdas <bold> Out&#91; &#93;</bold> y pegar en el espacio de edición de la pregunta. En la subfigura <xref ref-type="fig" rid="gf16">20.a</xref> aparece el ítem de evaluación en   y en la subfigura <xref ref-type="fig" rid="gf16">20.b</xref> el ítem de evaluación pseudoaleatorio.</p>
 <p>
 <fig id="gf16">
 <label>
@@ -2090,23 +2090,23 @@ Figura 20
 <bold>Ejemplo 11</bold>. Construya una pregunta de respuesta corta donde el usuario debe ingresar el nombre de un país de <italic>Asia del Este</italic>.
 </p>
 <p>
-<bold>Mathematica</bold> cuenta con la instrucción “<bold>CountryData</bold>” que permite trabajar con datos reales de diversos países del mundo. Si a esa sentencia se le pasa como parámetro el <italic>string</italic> “<bold>EastAsia</bold>” devuelve la lista (en inglés) de todos los países pertenecientes a esa región geográfica. En general, “<bold>CountryData</bold>” soporta cualquiera de las regiones obtenidas mediante la ejecución de “<bold>CountryData["Groups"]</bold>”. En este ejemplo, por lo tanto, una eventual solución corresponde a:</p>
+<bold>Mathematica</bold> cuenta con la instrucción “<bold>CountryData</bold>” que permite trabajar con datos reales de diversos países del mundo. Si a esa sentencia se le pasa como parámetro el <italic>string</italic> “<bold>EastAsia</bold>” devuelve la lista (en inglés) de todos los países pertenecientes a esa región geográfica. En general, “<bold>CountryData</bold>” soporta cualquiera de las regiones obtenidas mediante la ejecución de “<bold>CountryData&#91;"Groups"&#93;</bold>”. En este ejemplo, por lo tanto, una eventual solución corresponde a:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>Column[{Row[{“Ingrese el nombre de un país de Asia del Este (ponga el nombre en inglés y no deje espacios en blanco): ”, ShortAnswer[Evaluate@ToExpression[ Table[i[[2]], {i, CountryData[“EastAsia”]}]]]}]}] </bold>
+<bold>Column&#91;{Row&#91;{“Ingrese el nombre de un país de Asia del Este (ponga el nombre en inglés y no deje espacios en blanco): ”, ShortAnswer&#91;Evaluate@ToExpression&#91; Table&#91;i&#91;&#91;2&#93;&#93;, {i, CountryData&#91;“EastAsia”&#93;}&#93;&#93;&#93;}&#93;}&#93; </bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>Ingrese el nombre de un país de Asia del Este (ponga el nombre en inglés y no deje espacios en blanco): {1:SA:~=China#Excelente~=HongKong#Excelente~=Japan#Excelente~=Macau#Excelente~=Mongolia #Excelente~=NorthKorea#Excelente~=SouthKorea#Excelente~=Taiwan#Excelente}</p>
-<p>En la figura <xref ref-type="fig" rid="gf18">21</xref> se muestra la pregunta generada en <italic>Moodle</italic>. Tal y como allí se comparte, <italic>Moodle</italic> ha aceptado como respuesta correcta la palabra “hOnGkOnG” (ver subfigura <xref ref-type="fig" rid="gf18">21.a</xref>) evidenciando que la plataforma ignora una distinción entre el uso de letras mayúsculas y minúsculas. Si se desea restringir las respuestas del usuario respetando las letras mayúsculas y minúsculas en los nombres, tal y como fueron pasados al comando “<bold>ShortAnswer</bold>”, se debe utilizar el atributo “<bold>UpperLower -&gt;True</bold>”. En dicho caso, el <bold> In[ ]</bold> de este ejemplo, quería de la forma:</p>
+<p>En la figura <xref ref-type="fig" rid="gf18">21</xref> se muestra la pregunta generada en <italic>Moodle</italic>. Tal y como allí se comparte, <italic>Moodle</italic> ha aceptado como respuesta correcta la palabra “hOnGkOnG” (ver subfigura <xref ref-type="fig" rid="gf18">21.a</xref>) evidenciando que la plataforma ignora una distinción entre el uso de letras mayúsculas y minúsculas. Si se desea restringir las respuestas del usuario respetando las letras mayúsculas y minúsculas en los nombres, tal y como fueron pasados al comando “<bold>ShortAnswer</bold>”, se debe utilizar el atributo “<bold>UpperLower -&gt;True</bold>”. En dicho caso, el <bold> In&#91; &#93;</bold> de este ejemplo, quería de la forma:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>Column[{Row[{“Ingrese el nombre de un país de Asia del Este (ponga el nombre en inglés y no deje espacios en blanco): ”, ShortAnswer[Evaluate@ToExpression[ Table[i[[2]], {i, CountryData[“EastAsia”]}]], UpperLower -&gt;True]}]}]</bold>
+<bold>Column&#91;{Row&#91;{“Ingrese el nombre de un país de Asia del Este (ponga el nombre en inglés y no deje espacios en blanco): ”, ShortAnswer&#91;Evaluate@ToExpression&#91; Table&#91;i&#91;&#91;2&#93;&#93;, {i, CountryData&#91;“EastAsia”&#93;}&#93;&#93;, UpperLower -&gt;True&#93;}&#93;}&#93;</bold>
 </p>
 <p>
 <bold/>
@@ -2269,19 +2269,19 @@ Figura 21
 <p>
 <bold>Solución: </bold>Una posible solución de este ejercicio se comparte mediante el código que prosigue:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>«VilCretas‘</bold>
 </p>
 <p>
-<bold>A = Range[2, 20, 2]; Criterios = {a - b &gt;= 5, a - b &lt;= 5, Mod[a - b, 5] == 0, Mod[a - b, 5] != 0, a^2 + b^2 &lt;= 9, a^2 + b^2 &gt;= 9}; Criterio = RandomChoice[Criterios]; R = {RelBin[ToString[Criterio], A, A], A}; Column[{Row[{StringTemplate[“Considere la relación binaria ` ` definida sobre el conjunto ` `=”][ToLatex[R], ToLatex[A]], ToLatex[Evaluate[R[[2]]], conjunto -&gt;True], “, tal que: ”, ToLatex[Evaluate[aRb ⇔ Criterio]], “.”}], Row[{StringTemplate[“Un par ordenado de ` ` es (use llaves en lugar de paréntesis redondos): ”][ToLatex[R]], ShortAnswer[Evaluate@R[[1]]], “.”}], Row[{StringTemplate[“La cardinalidad de ` ` corresponde a: ”][ToLatex[R]], ShortAnswer[{Evaluate@Length[R[[1]]]}], “.”}]}] </bold>
+<bold>A = Range&#91;2, 20, 2&#93;; Criterios = {a - b &gt;= 5, a - b &lt;= 5, Mod&#91;a - b, 5&#93; == 0, Mod&#91;a - b, 5&#93; != 0, a^2 + b^2 &lt;= 9, a^2 + b^2 &gt;= 9}; Criterio = RandomChoice&#91;Criterios&#93;; R = {RelBin&#91;ToString&#91;Criterio&#93;, A, A&#93;, A}; Column&#91;{Row&#91;{StringTemplate&#91;“Considere la relación binaria ` ` definida sobre el conjunto ` `=”&#93;&#91;ToLatex&#91;R&#93;, ToLatex&#91;A&#93;&#93;, ToLatex&#91;Evaluate&#91;R&#91;&#91;2&#93;&#93;&#93;, conjunto -&gt;True&#93;, “, tal que: ”, ToLatex&#91;Evaluate&#91;aRb ⇔ Criterio&#93;&#93;, “.”}&#93;, Row&#91;{StringTemplate&#91;“Un par ordenado de ` ` es (use llaves en lugar de paréntesis redondos): ”&#93;&#91;ToLatex&#91;R&#93;&#93;, ShortAnswer&#91;Evaluate@R&#91;&#91;1&#93;&#93;&#93;, “.”}&#93;, Row&#91;{StringTemplate&#91;“La cardinalidad de ` ` corresponde a: ”&#93;&#91;ToLatex&#91;R&#93;&#93;, ShortAnswer&#91;{Evaluate@Length&#91;R&#91;&#91;1&#93;&#93;&#93;}&#93;, “.”}&#93;}&#93; </bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>Considere la relación binaria ({\displaystyle{R}}\) definida sobre el conjunto \({\displaystyle{A}}\)= \({\displaystyle{\left\{2, 4, 6, 8, 10, 12, 14, 16, 18, 20\right\}}}\), tal que: \({\displaystyle{\text{aRb} \Leftrightarrow a^2+b^2\leq 9}}\). Un par ordenado de \({\displaystyle{R}}\) es (use llaves en lugar de paréntesis redondos): {1:SA:~={2, 2\}#Excelente~={2, 4\}#Excelente~={2, 6\}#Excelente~={4, 2\}#Excelente~={4, 4\} #Excelente~={6, 2\}#Excelente~={2,2\}#Excelente~={2,4\}#Excelente~={2,6\}#Excelente~={4,2\} #Excelente~={4,4\} #Excelente~={6,2\}#Excelente}. La cardinalidad de \({\displaystyle{R}}\) corresponde a: {1:SA:~=6#Excelente}</p>
-<p>En la figura <xref ref-type="fig" rid="gf19">22</xref> aparece lo devuelto por la plataforma de aprendizaje, al copiar sin formato la celda del <bold> Out[ ]</bold> anterior y pegar en el espacio de edición de la pregunta en <italic>Moodle</italic>. Naturalmente, esta salida es pseudoaletaoria por lo que el lector podría obtener otro resultado al ejecutar el <bold> In[ ]</bold>.
+<p>En la figura <xref ref-type="fig" rid="gf19">22</xref> aparece lo devuelto por la plataforma de aprendizaje, al copiar sin formato la celda del <bold> Out&#91; &#93;</bold> anterior y pegar en el espacio de edición de la pregunta en <italic>Moodle</italic>. Naturalmente, esta salida es pseudoaletaoria por lo que el lector podría obtener otro resultado al ejecutar el <bold> In&#91; &#93;</bold>.
 </p>
 <p>También, es importante señalar que el comando “<bold>ShortAnswer</bold>” cuando recibe como argumento expresiones donde es posible eliminar espacios en blanco, automáticamente elimina esos espacios y crea éstas nuevas opciones de respuesta, agregándolas a la lista empleada por “<bold>ShortAnswer</bold>”. En este ejemplo, “<bold>ShortAnswer</bold>” realizó la eliminación de los espacios en blanco en cada uno de los pares ordenados de la relación binaria <inline-formula>
 <alternatives>
@@ -2291,7 +2291,7 @@ Figura 21
 <graphic xlink:href="607974617001_gi69.png"/>
 </alternatives>
 </inline-formula> obtenidos mediante la instrucción “<bold>RelBin</bold>” y los incluyó en las opciones de respuesta.</p>
-<p>Se aclara además, que la sentencia “<bold>RelBin</bold>” forma parte de otra librería llamada “<bold>VilCretas</bold>” que fue diseñada por uno de los autores del presente trabajo. Como se visualiza en el <bold> In[]</bold> de este ejercicio, “<bold>RelBin</bold>” toma como parámetros la o las condiciones de construcción de la relación binaria y los conjuntos sobre los cuáles se define, para retornar los pares ordenados que la conforman.</p>
+<p>Se aclara además, que la sentencia “<bold>RelBin</bold>” forma parte de otra librería llamada “<bold>VilCretas</bold>” que fue diseñada por uno de los autores del presente trabajo. Como se visualiza en el <bold> In&#91;&#93;</bold> de este ejercicio, “<bold>RelBin</bold>” toma como parámetros la o las condiciones de construcción de la relación binaria y los conjuntos sobre los cuáles se define, para retornar los pares ordenados que la conforman.</p>
 <p>Si el lector lo desea, puede emplear el video 14 con el objetivo de mejorar su comprensión sobre el código utilizado para resolver este ejercicio.</p>
 <p>
 <fig id="gf19">
@@ -2320,13 +2320,13 @@ Figura 22
 </p>
 <p>“<bold>ShortNumerical</bold>” crea el código para una pregunta tipo <italic>cloze</italic> donde la respuesta es un número, al cuál es factible, definir un grado de precisión. <bold>Mathematica</bold> nos permite ver la descripción de uso de este comando, mediante la ayuda de la sentencia:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>?ShortNumerical</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>
 <fig>
@@ -2354,16 +2354,16 @@ Figura 22
 </alternatives>
 </inline-formula>. Si a esta función se le pasan parámetros pseudoaleatorios se consigue lo solicitado en este ejercicio, veamos:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>funCuadra[a_, b_, c_] := {{a, b, c}, {-b/(2 a), -((b^2 - 4 a c)/(4 a))} // N, {0, c} // N} funcion = funCuadra[RandomChoice[{-1, 1}] RandomInteger[{1, 20}], RandomInteger[{-20, 20}], RandomInteger[{-20, 20}]]; Column[{StringTemplate[“Determine las coordenadas del vértice y la intersección con el eje ` ` de la función cuadrática ` ` ` ` ` `. Use valores con decimales si corresponde.”][ToLatex[y], ToLatex[f[x]], ToLatex[“=”], ToLatex[Evaluate[funcion[[1, 1]] x^2 + funcion[[1, 2]] x + funcion[[1, 3]]]]], Row[{StringTemplate[“Vértice: ` ` ”][ToLatex[“(”]], ShortNumerical[{Evaluate@funcion[[2, 1]]}, precision -&gt;0.2], “,”, ShortNumerical[{Evaluate@funcion[[2, 2]]}, precision -&gt;0.2], StringTemplate[“ ` ` ”][ToLatex[“)”]]}], Row[{StringTemplate[“Intersección con el eje ` `: ` ` ”][ToLatex[y], ToLatex[“(”]], ShortNumerical[{0}], “,”, ShortNumerical[{Evaluate@funcion[[3, 2]]}, precision -&gt;0.2], StringTemplate[“ ` ` ”][ToLatex[“)”]]}]}] </bold>
+<bold>funCuadra&#91;a_, b_, c_&#93; := {{a, b, c}, {-b/(2 a), -((b^2 - 4 a c)/(4 a))} // N, {0, c} // N} funcion = funCuadra&#91;RandomChoice&#91;{-1, 1}&#93; RandomInteger&#91;{1, 20}&#93;, RandomInteger&#91;{-20, 20}&#93;, RandomInteger&#91;{-20, 20}&#93;&#93;; Column&#91;{StringTemplate&#91;“Determine las coordenadas del vértice y la intersección con el eje ` ` de la función cuadrática ` ` ` ` ` `. Use valores con decimales si corresponde.”&#93;&#91;ToLatex&#91;y&#93;, ToLatex&#91;f&#91;x&#93;&#93;, ToLatex&#91;“=”&#93;, ToLatex&#91;Evaluate&#91;funcion&#91;&#91;1, 1&#93;&#93; x^2 + funcion&#91;&#91;1, 2&#93;&#93; x + funcion&#91;&#91;1, 3&#93;&#93;&#93;&#93;&#93;, Row&#91;{StringTemplate&#91;“Vértice: ` ` ”&#93;&#91;ToLatex&#91;“(”&#93;&#93;, ShortNumerical&#91;{Evaluate@funcion&#91;&#91;2, 1&#93;&#93;}, precision -&gt;0.2&#93;, “,”, ShortNumerical&#91;{Evaluate@funcion&#91;&#91;2, 2&#93;&#93;}, precision -&gt;0.2&#93;, StringTemplate&#91;“ ` ` ”&#93;&#91;ToLatex&#91;“)”&#93;&#93;}&#93;, Row&#91;{StringTemplate&#91;“Intersección con el eje ` `: ` ` ”&#93;&#91;ToLatex&#91;y&#93;, ToLatex&#91;“(”&#93;&#93;, ShortNumerical&#91;{0}&#93;, “,”, ShortNumerical&#91;{Evaluate@funcion&#91;&#91;3, 2&#93;&#93;}, precision -&gt;0.2&#93;, StringTemplate&#91;“ ` ` ”&#93;&#91;ToLatex&#91;“)”&#93;&#93;}&#93;}&#93; </bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>Determine las coordenadas del vértice y la intersección con el eje \({\displaystyle{y}}\) de la función cuadrática \({\displaystyle{f(x)}}\)\({\displaystyle{=}}\)\({\displaystyle{7 x^2+4 x-17}}\). Use valores con decimales si corresponde. Vértice: \({\displaystyle{(}}\){1:NUMERICAL:~=-0.2857142857142857:0.2#Excelente}, {1:NUMERICAL:~=-17.571428571428573:0.2#Excelente}\({\displaystyle{)}}\) Intersección con el eje \({\displaystyle{y}}\): \({\displaystyle{(}}\){1:NUMERICAL:~=0:0#Excelente}, {1:NUMERICAL:~=-17.:0.2#Excelente}\({\displaystyle{)}}\)</p>
-<p>En la figura <xref ref-type="fig" rid="gf20">23</xref> se muestra la salida del <bold> Out[ ]</bold> anterior en la plataforma <italic>Moodle</italic>. El <bold> Out[ ]</bold> es pseudoaleatorio por lo que podría implicar obtener un resultado distinto.</p>
+<p>En la figura <xref ref-type="fig" rid="gf20">23</xref> se muestra la salida del <bold> Out&#91; &#93;</bold> anterior en la plataforma <italic>Moodle</italic>. El <bold> Out&#91; &#93;</bold> es pseudoaleatorio por lo que podría implicar obtener un resultado distinto.</p>
 <p>Se aclara al lector además, el significado de definir una precisión de “0.2” dentro de la plataforma de aprendizaje <italic>Moodle</italic>. Este valor permite que el sistema tome como correctas cualquier respuesta <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -2443,20 +2443,20 @@ Figura 23
 <p>
 <bold>Solución: </bold>Una manera de resolver este ejercicio en  <bold>Wolfram Mathematica</bold>, se exhibe a continuación:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>«VilCretas‘</bold>
 </p>
 <p>
-<bold>grafo = GrafoRandomConexo[7, 7] aristas = ListaAristas[grafo]; ParesToShortNumerical[Pares_] := Module[{NuevosPares = {}, i, par}, For[i = 1, i &lt;= Length[Pares], par = Pares[[i]]; NuevosPares = Append[NuevosPares,{ShortNumerical[Evaluate[{par[[1]]}]], ShortNumerical[Evaluate[{par[[2]]}]]}]; i++]; NuevosPares] BA = ParesToShortNumerical[Sort /@ BuscarPrimeroAncho[grafo, orden -&gt;{6, 7, 5, 2, 4, 1, 3}]]; BL = ParesToShortNumerical[Sort /@ BuscarPrimeroLargo[grafo, orden -&gt;{6, 7, 5, 2, 4, 1, 3}]]; Column[{Row[{StringTemplate[“Aplique los algoritmos “buscar primero a lo ancho” y “buscar primero a lo largo” sobre el grafo conexo con el conjunto de aristas ` ` ` ` ` ` ”][ToLatex[A], ToLatex[“=”], ToLatex[Evaluate@aristas, conjunto -&gt;True]], StringTemplate[“, usando el orden ` `. Escriba los nodos de cada lado de menor a mayor, por ejemplo, si la arista a incluir es ` `, se debe ingresar como ` `.”][ToLatex[{6, 7, 5, 2, 4, 1, 3}, conjunto -&gt;True], ToLatex[{7, 4}, conjunto -&gt;True], ToLatex[{4, 7}, conjunto -&gt;True]]}], Row[{“Buscar primero a lo ancho: ”, BA}], Row[{“Buscar primero a lo largo: ”, BL}]}]</bold>
+<bold>grafo = GrafoRandomConexo&#91;7, 7&#93; aristas = ListaAristas&#91;grafo&#93;; ParesToShortNumerical&#91;Pares_&#93; := Module&#91;{NuevosPares = {}, i, par}, For&#91;i = 1, i &lt;= Length&#91;Pares&#93;, par = Pares&#91;&#91;i&#93;&#93;; NuevosPares = Append&#91;NuevosPares,{ShortNumerical&#91;Evaluate&#91;{par&#91;&#91;1&#93;&#93;}&#93;&#93;, ShortNumerical&#91;Evaluate&#91;{par&#91;&#91;2&#93;&#93;}&#93;&#93;}&#93;; i++&#93;; NuevosPares&#93; BA = ParesToShortNumerical&#91;Sort /@ BuscarPrimeroAncho&#91;grafo, orden -&gt;{6, 7, 5, 2, 4, 1, 3}&#93;&#93;; BL = ParesToShortNumerical&#91;Sort /@ BuscarPrimeroLargo&#91;grafo, orden -&gt;{6, 7, 5, 2, 4, 1, 3}&#93;&#93;; Column&#91;{Row&#91;{StringTemplate&#91;“Aplique los algoritmos “buscar primero a lo ancho” y “buscar primero a lo largo” sobre el grafo conexo con el conjunto de aristas ` ` ` ` ` ` ”&#93;&#91;ToLatex&#91;A&#93;, ToLatex&#91;“=”&#93;, ToLatex&#91;Evaluate@aristas, conjunto -&gt;True&#93;&#93;, StringTemplate&#91;“, usando el orden ` `. Escriba los nodos de cada lado de menor a mayor, por ejemplo, si la arista a incluir es ` `, se debe ingresar como ` `.”&#93;&#91;ToLatex&#91;{6, 7, 5, 2, 4, 1, 3}, conjunto -&gt;True&#93;, ToLatex&#91;{7, 4}, conjunto -&gt;True&#93;, ToLatex&#91;{4, 7}, conjunto -&gt;True&#93;&#93;}&#93;, Row&#91;{“Buscar primero a lo ancho: ”, BA}&#93;, Row&#91;{“Buscar primero a lo largo: ”, BL}&#93;}&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>Aplique los algoritmos “buscar primero a lo ancho” y “buscar primero a lo largo” sobre el grafo conexo con el conjunto de aristas \({\displaystyle{A}}\)\({\displaystyle{=}}\)\({\displaystyle{\left\{\left\{{1, 4}\right\},\left\{{1, 6}\right\},\left\{{1, 7}\right\},\left\{{2, 5}\right\},\left\{{3, 5}\right\},\left\{{4, 5}\right\}, \left\{{5, 7}\right\}\right\}}}\), usando el orden \({\displaystyle{\left\{6,7,5,2,4,1,3\right\}}}\). Escriba los nodos de cada lado de menor a mayor, por ejemplo, si la arista a incluir es \({\displaystyle{\left\{7,4\right\}}}\), se debe ingresar como\({\displaystyle{\left\{4,7\right\}}}\). Buscar primero a lo ancho: {{{1:NUMERICAL:~=1:0#Excelente}, {1:NUMERICAL:~=6:0#Excelente}}, {{1:NUMERICAL:~=1:0#Excelente}, {1:NUMERICAL:~=7:0#Excelente}}, {{1:NUMERICAL:~=1:0#Excelente}, {1:NUMERICAL:~=4:0#Excelente}}, {{1:NUMERICAL:~=5:0#Excelente}, {1:NUMERICAL:~=7:0#Excelente}}, {{1:NUMERICAL:~=2:0#Excelente}, {1:NUMERICAL:~=5:0#Excelente}}, {{1:NUMERICAL:~=3:0#Excelente}, {1:NUMERICAL:~=5:0#Excelente}}} Buscar primero a lo largo: {{{1:NUMERICAL:~=1:0#Excelente}, {1:NUMERICAL:~=6:0#Excelente}}, {{1:NUMERICAL:~=1:0#Excelente}, {1:NUMERICAL:~=7:0#Excelente}}, {{1:NUMERICAL:~=5:0#Excelente}, {1:NUMERICAL:~=7:0#Excelente}},{{1:NUMERICAL:~=2:0#Excelente}, {1:NUMERICAL:~=5:0#Excelente}}, {{1:NUMERICAL:~=4:0#Excelente}, {1:NUMERICAL:~=5:0#Excelente}}, {{1:NUMERICAL:~=3:0#Excelente}, {1:NUMERICAL:~=5:0#Excelente}}}</p>
 <p>La figura <xref ref-type="fig" rid="gf21">24</xref> comparte lo generado por <italic>Moodle</italic> al emplear el código de la salida anterior.</p>
-<p>En el <bold> In[ ]</bold> se han utilizado las instrucciones del paquete “<bold>VilCretas</bold>”: “<bold>GrafoRandomConexo</bold>”, “<bold>ListaAristas</bold>”, “<bold>BuscarPrimeroAncho</bold>” y “<bold>BuscarPrimeroLargo</bold>”. Se recuerda al lector, que ya se había hecho mención a la librería “<bold>VilCretas</bold>”, en el ejemplo 12. Si el usuario requiere una explicación más profunda sobre el código usado aquí, se sugiere visualizar el video 16.</p>
+<p>En el <bold> In&#91; &#93;</bold> se han utilizado las instrucciones del paquete “<bold>VilCretas</bold>”: “<bold>GrafoRandomConexo</bold>”, “<bold>ListaAristas</bold>”, “<bold>BuscarPrimeroAncho</bold>” y “<bold>BuscarPrimeroLargo</bold>”. Se recuerda al lector, que ya se había hecho mención a la librería “<bold>VilCretas</bold>”, en el ejemplo 12. Si el usuario requiere una explicación más profunda sobre el código usado aquí, se sugiere visualizar el video 16.</p>
 <p>
 <fig id="gf21">
 <label>
@@ -2478,9 +2478,9 @@ Figura 24
 <p>El programa “<bold>HallarCateto</bold>” expuesto a continuación, automatiza la elaboración de “<bold>n</bold>” ítems según la naturaleza del presente ejercicio. En  <bold>Wolfram Mathematica:</bold>
 </p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
-<p>HallarCateto[n_] := Module[{cat = RandomChoice[Range[1, 10 n]], hip = RandomChoice[Range[11 n, 20 n]], ValoresUsados1 = {}, ValoresUsados2 = {}, ValoresNoUsados1 = Range[1, 10 n], ValoresNoUsados2 = Range[11 n, 20 n], i, Items = {}}, ValoresUsados1 = Union[ValoresUsados1, {cat}]; ValoresUsados2 = Union[ValoresUsados2, {hip}]; ValoresNoUsados1 = Complement[ValoresNoUsados1, ValoresUsados1]; ValoresNoUsados2 = Complement[ValoresNoUsados2, ValoresUsados2]; For[i = 1, i &lt;= n, Items = Append[Items, Row[{StringTemplate[“En un triángulo rectángulo se sabe que la longitud de la hipotenusa es ` ` y que la longitud de uno de sus catetos es ` `. Determine la longitud del otro cateto: ”][ToLatex[Evaluate@hip], ToLatex[Evaluate@cat]], ShortNumerical[{Evaluate@N[ <inline-formula>
+<p>HallarCateto&#91;n_&#93; := Module&#91;{cat = RandomChoice&#91;Range&#91;1, 10 n&#93;&#93;, hip = RandomChoice&#91;Range&#91;11 n, 20 n&#93;&#93;, ValoresUsados1 = {}, ValoresUsados2 = {}, ValoresNoUsados1 = Range&#91;1, 10 n&#93;, ValoresNoUsados2 = Range&#91;11 n, 20 n&#93;, i, Items = {}}, ValoresUsados1 = Union&#91;ValoresUsados1, {cat}&#93;; ValoresUsados2 = Union&#91;ValoresUsados2, {hip}&#93;; ValoresNoUsados1 = Complement&#91;ValoresNoUsados1, ValoresUsados1&#93;; ValoresNoUsados2 = Complement&#91;ValoresNoUsados2, ValoresUsados2&#93;; For&#91;i = 1, i &lt;= n, Items = Append&#91;Items, Row&#91;{StringTemplate&#91;“En un triángulo rectángulo se sabe que la longitud de la hipotenusa es ` ` y que la longitud de uno de sus catetos es ` `. Determine la longitud del otro cateto: ”&#93;&#91;ToLatex&#91;Evaluate@hip&#93;, ToLatex&#91;Evaluate@cat&#93;&#93;, ShortNumerical&#91;{Evaluate@N&#91; <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msqrt>
@@ -2495,12 +2495,12 @@ Figura 24
 </mml:math>
 <graphic xlink:href="607974617001_gi192.png"/>
 </alternatives>
-</inline-formula>  ]}, precision -&gt;0.2]}]]; cat = RandomChoice[ValoresNoUsados1]; hip = RandomChoice[ValoresNoUsados2]; ValoresUsados1 = Union[ValoresUsados1, {cat}]; ValoresUsados2 = Union[ValoresUsados2, {hip}]; ValoresNoUsados1 = Complement[ValoresNoUsados1, ValoresUsados1]; ValoresNoUsados2 = Complement[ValoresNoUsados2, ValoresUsados2]; i++]; Items] HallarCateto[5]</p>
+</inline-formula>  &#93;}, precision -&gt;0.2&#93;}&#93;&#93;; cat = RandomChoice&#91;ValoresNoUsados1&#93;; hip = RandomChoice&#91;ValoresNoUsados2&#93;; ValoresUsados1 = Union&#91;ValoresUsados1, {cat}&#93;; ValoresUsados2 = Union&#91;ValoresUsados2, {hip}&#93;; ValoresNoUsados1 = Complement&#91;ValoresNoUsados1, ValoresUsados1&#93;; ValoresNoUsados2 = Complement&#91;ValoresNoUsados2, ValoresUsados2&#93;; i++&#93;; Items&#93; HallarCateto&#91;5&#93;</p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>{En un triángulo rectángulo se sabe que la longitud de la hipotenusa es \({\displaystyle{92}}\) y que la longitud de uno de sus catetos es \({\displaystyle{13}}\). Determine la longitud del otro cateto: {1:NUMERICAL:~=91.0768905925098:0.2#Excelente},En un triángulo rectángulo se sabe que la longitud de la hipotenusa es \({\displaystyle{57}}\) y que la longitud de uno de sus catetos es \ ({\displaystyle{32}}\). Determine la longitud del otro cateto: {1:NUMERICAL:~=47.169905660283014:0.2#Excelente},En un triángulo rectángulo se sabe que la longitud de la hipotenusa es\({\displaystyle{95}}\) y que la longitud de uno de sus catetos es \({\displaystyle{9}}\). Determine la longitud del otro cateto: {1:NUMERICAL:~=94.57272334029511:0.2#Excelente},En un triángulo rectángulo se sabe que la longitud de la hipotenusa es \({\displaystyle{98}}\) y que la longitud de uno de sus catetos es \({\displaystyle{29}}\). Determine la longitud del otro cateto: {1:NUMERICAL:~=93.61089680160104:0.2#Excelente},En un triángulo rectángulo se sabe que la longitud de la hipotenusa es \({\displaystyle{60}}\) y que la longitud de uno de sus catetos es \({\displaystyle{4}}\). Determine la longitud del otro cateto: {1:NUMERICAL:~=59.86651818838306:0.2#Excelente}} </p>
-<p>En la figura <xref ref-type="fig" rid="gf22">25</xref> aparecen los cinco ítems correspondientes a la salida arrojada por la función “<bold>HallarCateto</bold>”. Se sugiere consultar el video 17, para recibir una explicación más minuciosa sobre el código de “<bold>HallarCateto</bold>” y su <bold> Out[ ]</bold>.
+<p>En la figura <xref ref-type="fig" rid="gf22">25</xref> aparecen los cinco ítems correspondientes a la salida arrojada por la función “<bold>HallarCateto</bold>”. Se sugiere consultar el video 17, para recibir una explicación más minuciosa sobre el código de “<bold>HallarCateto</bold>” y su <bold> Out&#91; &#93;</bold>.
 </p>
 <p>
 <fig id="gf22">
@@ -2530,13 +2530,13 @@ Tabla HTLM
 </p>
 <p>Al emplear la ayuda de la instrucción “<bold>TablaHTML</bold>” en el software <bold>Wolfram Mathematica</bold>, se especifican sus características de uso:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>?TablaHTML</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>
 <fig>
@@ -2590,16 +2590,16 @@ Figura 26
 </p>
 <p>El siguiente código de  <bold>Wolfram Language</bold> brinda una forma de resolución para el presente ejercicio:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>«VilCretas‘</bold>
 </p>
 <p>
-<bold>A=RandomInteger[{0,1},{5,5}]; B=RandomInteger[{0,1},{5,5}]; F=RandomInteger[{0,1},{5,5}]; Matriz=InterseccionBooleana[ProductoBooleano[Transpose[A], ComplementoBooleano[UnionBooleana[B, F][[1]]][[1]]][[1]], F]; StringTemplate[“La solución de la operación ` ` ` ` ` ` ` ` ` ` con ` ` ` ` ` `, ` ` ` ` ` ` y ` ` ` ` ` `, corresponde a: ”][ToLatex[“(”],ToLatex[ ], ToLatex[“)”],ToLatex[“∧”], ToLatex[F], ToLatex[A], ToLatex[“=”], ToLatex[Evaluate@A, matriz-&gt;True], ToLatex[B], ToLatex[“=”], ToLatex[Evaluate@B, matriz-&gt;True], ToLatex[F], ToLatex[“=”], ToLatex[Evaluate@F,matriz-&gt;True]] TablaHTML[Matriz[[1]]]</bold>
+<bold>A=RandomInteger&#91;{0,1},{5,5}&#93;; B=RandomInteger&#91;{0,1},{5,5}&#93;; F=RandomInteger&#91;{0,1},{5,5}&#93;; Matriz=InterseccionBooleana&#91;ProductoBooleano&#91;Transpose&#91;A&#93;, ComplementoBooleano&#91;UnionBooleana&#91;B, F&#93;&#91;&#91;1&#93;&#93;&#93;&#91;&#91;1&#93;&#93;&#93;&#91;&#91;1&#93;&#93;, F&#93;; StringTemplate&#91;“La solución de la operación ` ` ` ` ` ` ` ` ` ` con ` ` ` ` ` `, ` ` ` ` ` ` y ` ` ` ` ` `, corresponde a: ”&#93;&#91;ToLatex&#91;“(”&#93;,ToLatex&#91; &#93;, ToLatex&#91;“)”&#93;,ToLatex&#91;“∧”&#93;, ToLatex&#91;F&#93;, ToLatex&#91;A&#93;, ToLatex&#91;“=”&#93;, ToLatex&#91;Evaluate@A, matriz-&gt;True&#93;, ToLatex&#91;B&#93;, ToLatex&#91;“=”&#93;, ToLatex&#91;Evaluate@B, matriz-&gt;True&#93;, ToLatex&#91;F&#93;, ToLatex&#91;“=”&#93;, ToLatex&#91;Evaluate@F,matriz-&gt;True&#93;&#93; TablaHTML&#91;Matriz&#91;&#91;1&#93;&#93;&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>La solución de la operación \({\displaystyle{(}}\)\({\displaystyle{A^t \odot \overline{B \lor F}}}\) \({\displaystyle{)}}\) \({\displaystyle{\land}}\) \({\displaystyle{F}}\) con \({\displaystyle{A}}\)\({\displaystyle{=}}\)\({\displaystyle{\left( \begin{array}{ccccc} 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 1 &amp; 1 &amp; 1 \\ 0 &amp; 0 &amp; 1 &amp; 0 &amp; 0 \\ 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\ \end{array} \right) }}\), \({\displaystyle{B}}\)\({\displaystyle{=}}\)\({\displaystyle{\left( \begin{array}{ccccc} 0 &amp; 1 &amp; 1 &amp; 0 &amp; 1 \\ 1 &amp; 0 &amp; 1 &amp; 1 &amp; 1 \\ 0 &amp; 1 &amp; 1 &amp; 0 &amp; 1 \\ 1 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 0 &amp; 0 &amp; 1 \\ \end{array} \right) }}\) y \({\displaystyle{F}}\)\({\displaystyle{=}}\)\({\displaystyle{\left( \begin{array}{ccccc} 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\ 1 &amp; 0 &amp; 1 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1 \\ \end{array} \right) }}\), corresponde a:</p>
 <p>&lt;table border=1&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;{1:MCS:~=1#Excelente~0#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=1#Excelente~0#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt;&lt;td&gt;{1:MCS:~=0#Excelente~1#}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;</p>
@@ -2609,10 +2609,10 @@ Figura 26
 </p>
 <p>Por otra parte, en la figura <xref ref-type="fig" rid="gf23">27</xref> se visualiza que el comando “<bold>TablaHTML</bold>”, construye por defecto una tabla de respuestas <italic>incrustadas</italic> del tipo desplegada, sin embargo, también ofrece la posibilidad de facilitar las opciones de respuesta como un complete o una combinación entre éstas y las de despliegue. Para ello, se usan los atributos: “<bold>completar -&gt;True</bold>”, o bien, “<bold>mixta -&gt;True</bold>”, respectivamente. En la figura <xref ref-type="fig" rid="gf24">28</xref> se aprecia la salida en <italic>Moodle</italic> al emplear “<bold>mixta -&gt;True</bold>” en el comando “<bold>TablaHTML</bold>”, quedando la entrada en <bold>Wolfram Mathematica</bold> de la siguiente manera:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>TablaHTML[Matriz[[1]], mixta -&gt;True]</bold>
+<bold>TablaHTML&#91;Matriz&#91;&#91;1&#93;&#93;, mixta -&gt;True&#93;</bold>
 </p>
 <p>
 <bold/>
@@ -2655,13 +2655,13 @@ Figura 28
 <p>
 <bold>Solución: </bold>En  <bold>Mathematica</bold> se puede proceder como sigue a continuación:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
-<bold>A = RandomInteger[{1,100}, {5,5}]; B = RandomInteger[{1,100}, {5,5}]; F = RandomInteger[{1,100}, {5,5}]; Matriz = Inverse[A] . (2 F - B) // N; StringTemplate[“La solución de la ecuación ` ` ` ` ` ` ` ` ` ` ` `, corresponde a: ”][ToLatex[Evaluate@A, matriz -&gt;True], ToLatex[X], ToLatex[“+”], ToLatex[Evaluate@B, matriz -&gt;True], ToLatex[“= 2”], ToLatex[Evaluate@F, matriz -&gt;True]] TablaHTML[Matriz] </bold>
+<bold>A = RandomInteger&#91;{1,100}, {5,5}&#93;; B = RandomInteger&#91;{1,100}, {5,5}&#93;; F = RandomInteger&#91;{1,100}, {5,5}&#93;; Matriz = Inverse&#91;A&#93; . (2 F - B) // N; StringTemplate&#91;“La solución de la ecuación ` ` ` ` ` ` ` ` ` ` ` `, corresponde a: ”&#93;&#91;ToLatex&#91;Evaluate@A, matriz -&gt;True&#93;, ToLatex&#91;X&#93;, ToLatex&#91;“+”&#93;, ToLatex&#91;Evaluate@B, matriz -&gt;True&#93;, ToLatex&#91;“= 2”&#93;, ToLatex&#91;Evaluate@F, matriz -&gt;True&#93;&#93; TablaHTML&#91;Matriz&#93; </bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>34 &amp; 13 &amp; 66 &amp; 8 &amp; 38 \\3 &amp; 90 &amp; 52 &amp; 67 &amp; 66 \\69 &amp; 70 &amp; 35 &amp; 84 &amp; 89 \\84 &amp; 34 &amp; 49 &amp; 68 &amp; 28 \\55 &amp; 79 &amp; 51 &amp; 51 &amp; 2 \\\end{array}\right)}}\) \({\displaystyle{\text{= 2}}}\) \({\displaystyle{\left(\begin{array}{ccccc}69 &amp; 98 &amp; 14 &amp; 62 &amp; 1 \\6 &amp; 91 &amp; 2 &amp; 19 &amp; 91 \\85 &amp; 100 &amp; 27 &amp; 75 &amp; 28 \\99 &amp; 23 &amp; 83 &amp; 28 &amp; 40 \\34 &amp; 67 &amp; 50 &amp; 28 &amp; 85 \\\end{array}\right)}}\), corresponde a:&lt;table border=1&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;{1:MCS:~=1.86061324919953#Excelente~-2.3074825281791362#~-1.767357386781813#~-1.6907983625258587#~-1.5741102607042836#~-1.2974922087699596#~-1.0297753370117995#~-0.6552562825699857#~-0.49232575717891464#~-0.35609661523750563#~-0.1141155853339721#~-0.05484034444281641#~0.007505196601663488#~0.2665670256754285#~0.33999773573627934#~0.68512673469574#~0.73623959808436#~0.9763569626679812#~1.0644327563057767#~1.4573924491141539#~1.5219397415687315#~1.7324137860764768#~1.8356660411278056#~2.649459775649581#~2.8016632071100727#}&lt;/td&gt; ···&lt;td&gt;{1:MCS:~=2.8016632071100727#Excelente~-2.3074825281791362#~-1.767357386781813#~-1.6907983625258587#~-1.5741102607042836#~-1.2974922087699596#~-1.0297753370117995#~-0.6552562825699857#~-0.49232575717891464#~-0.35609661523750563#~-0.1141155853339721#~-0.05484034444281641#~0.007505196601663488#~0.2665670256754285#~0.33999773573627934#~0.68512673469574#~0.73623959808436#~0.9763569626679812#~1.0644327563057767#~1.4573924491141539#~1.5219397415687315#~1.7324137860764768#~1.8356660411278056#~1.86061324919953#~2.649459775649581#}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;</p>
 <p>La salida no se muestra por completo dado su considerable tamaño. En este ejemplo, se desea dejar en evidencia la eficiencia de cálculo del software  Wolfram Mathematica en la creación de ítems incrustados. Si no se hubiese contado con Mathematica, el cálculo de la solución de la ecuación matricial <bold>
@@ -2689,13 +2689,13 @@ Figura 29
 <bold>Ejemplo 18</bold>. Elabore una pregunta <italic>incrustada</italic> que muestre el diagrama de transición de un autómata de estado finito no determinístico con cuatro estados y tres símbolos de entrada, donde se solicite como respuesta su función de estado siguiente.</p>
 <p>En el paquete de software “<bold>VilCretas</bold>” se cuenta con el comando “<bold>AutomataNDRandom</bold>” cuya competencia consiste en generar el diagrama de transición de un autómata pseudoaleatorio de estado finito no determinístico, con “.” estados y “.” símbolos de entrada. En <bold>Mathematica</bold>, al correr esta instrucción se obtiene:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>«VilCretas‘</bold>
 </p>
 <p>
-<bold>AutomataNDRandom[4, 3]</bold>
+<bold>AutomataNDRandom&#91;4, 3&#93;</bold>
 </p>
 <p>
 <bold>Out =</bold>
@@ -2705,20 +2705,20 @@ Figura 29
 <graphic xlink:href="607974617001_gf51.png" position="anchor" orientation="portrait"/>
 </fig>
 </p>
-<p>La salida es pseudoaleatoria, por lo que si el lector corre el mismo <bold> In[ ]</bold>, muy probablemente obtendrá un diagrama de transición distinto. También, la sentencia “<bold>AutomataNDRandom</bold>” almacena automáticamente el autómata construido en la variable “<bold>G</bold>”.
+<p>La salida es pseudoaleatoria, por lo que si el lector corre el mismo <bold> In&#91; &#93;</bold>, muy probablemente obtendrá un diagrama de transición distinto. También, la sentencia “<bold>AutomataNDRandom</bold>” almacena automáticamente el autómata construido en la variable “<bold>G</bold>”.
 </p>
 <p>En el paquete “<bold>VilCretas</bold>”, a su vez, se cuenta con la sentencia “<bold>ComponentesAutomata</bold>” que devuelve las cinco componentes de un autómata pasado como parámetro, es decir: el conjunto de estados, el conjunto de símbolos de entrada, el estado inicial, la función de transición de estados (que corresponde a la respuesta que el alumno debe proporcionar en este ítem) y el conjunto de estados aceptados. Como se requiere la función de transición de estados con el objetivo de pasar luego esta matriz al comando “<bold>TablaHTML</bold>”, se hace indispensable recurrir al uso de “<bold>ComponentesAutomata</bold>” empleando como argumento la variable “<bold>G</bold>”, veamos:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
-<p>ComponentesAutomata[G /. Thread[{σ0, σ1, σ2, σ3} -&gt;{s0, s1, s2, s3}]]</p>
+<p>ComponentesAutomata&#91;G /. Thread&#91;{σ0, σ1, σ2, σ3} -&gt;{s0, s1, s2, s3}&#93;&#93;</p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>Estados: {s0, s1, s2, s3} Sı́mbolos de entrada: {a, b, c} Estado inicial: s2 Estados aceptados: {s0, s3}</p>
 <p>a b cs0 {s0} {s3} {s0,s1,s2}s1 {s1,s2,s3} {s0} {s1}s2 {s0,s1,s3} {s0,s2,s3} {s1}s3 {s1,s3} {s2} {s0,s1,s2} </p>
 <p>Función de transición de estados con otro formato: {{s0, a, {s0}}, {s0, b, {s3}}, {s0, c, {s0, s1, s2}}, {s1, a, {s1, s2, s3}}, {s1, b, {s0}}, {s1, c, {s1}}, {s2, a, {s0, s1, s3}}, {s2, b, {s0, s2, s3}}, {s2, c, {s1}}, {s3, a, {s1, s3}}, {s3, b, {s2}}, {s3, c, {s0, s1, s2}}}</p>
-<p>Previamente se señaló que la instrucción “<bold>Desplegada</bold>” no acepta subíndices en sus parámetros, de forma similar, la sentencia “<bold>TablaHTML</bold>” tampoco lo hace, razón por la cual, en el <bold> In[ ]</bold> precedido se están sustituyendo los estados “<inline-formula>
+<p>Previamente se señaló que la instrucción “<bold>Desplegada</bold>” no acepta subíndices en sus parámetros, de forma similar, la sentencia “<bold>TablaHTML</bold>” tampoco lo hace, razón por la cual, en el <bold> In&#91; &#93;</bold> precedido se están sustituyendo los estados “<inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msub>
@@ -2761,25 +2761,25 @@ Figura 29
 </inline-formula>” por “s0”, “s1”, “s2” y “s3”, respectivamente. Ahora, se pasará a la instrucción “<bold>TablaHTML</bold>” la matriz estado siguiente retornada por “<bold>ComponentesAutomata</bold>”:
 </p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>Matriz = </bold>
 </p>
 <p>
-<bold>TablaHTML[Matriz, encabezados -&gt;{{s0, s1, s2, s3}, {a, b, c}}]</bold>
+<bold>TablaHTML&#91;Matriz, encabezados -&gt;{{s0, s1, s2, s3}, {a, b, c}}&#93;</bold>
 </p>
 <p>
-<bold>Out[ ] =</bold>
+<bold>Out&#91; &#93; =</bold>
 </p>
 <p>&lt;table border=1&gt; &lt;tbody&gt; &lt;tr&gt; &lt;td&gt;\({\displaystyle{\text{}}}\)&lt;/td&gt; &lt;td&gt;\({\displaystyle{a}}\)&lt;/td&gt;&lt;td&gt;\({\displaystyle{b}}\)&lt;/td&gt; &lt;td&gt;\({\displaystyle{c}}\)&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt;&lt;td&gt;\({\displaystyle{\text{s0}}}\)&lt;/td&gt; &lt;td&gt;{1:MCS: ~={s0\}#Excelente~{s1\}#~{s2\}#~{s3\}#~{s1, s3\}#~{s0, s1, s2\}#~{s0, s1, s3\}#~{s0, s2, s3\}#~{s1, s2, s3\}#}&lt;/td&gt;&lt;td&gt;{1:MCS: ~={s3\}#Excelente~{s0\}#~{s1\}#~{s2\}#~{s1, s3\}#~{s0, s1, s2\}#~{s0, s1, s3\}#~{s0, s2, s3\}#~{s1, s2, s3\}#}&lt;/td&gt; &lt;td&gt;{1:MCS: ~={s0, s1, s2\}#Excelente~{s0\}#~{s1\}#~{s2\}#~{s3\}#~{s1, s3\}#~{s0, s1, s3\}#~{s0, s2, s3\}#~{s1, s2, s3\}#}&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt;&lt;td&gt;\({\displaystyle{\text{s1}}}\)&lt;/td&gt; &lt;td&gt;{1:MCS: ~={s1, s2, s3\}#Excelente~{s0\}#~{s1\}#~{s2\}#~{s3\}#~{s1, s3\}#~{s0, s1, s2\}#~{s0, s1, s3\}#~{s0, s2, s3\}#}&lt;/td&gt; &lt;td&gt;{1:MCS: ~={s0\}#Excelente~{s1\}#~{s2\}#~{s3\}#~{s1, s3\}#~{s0, s1, s2\}#~{s0, s1, s3\}#~{s0, s2, s3\}#~{s1, s2, s3\}#}&lt;/td&gt;&lt;td&gt;{1:MCS: ~={s1\}#Excelente~{s0\}#~{s2\}#~{s3\}#~{s1, s3\}#~{s0, s1, s2\}#~{s0, s1, s3\}#~{s0, s2, s3\}#~{s1, s2, s3\}#}&lt;/td&gt; &lt;/tr&gt; &lt;tr&gt; &lt;td&gt;\({\displaystyle{\text{s2}}}\)&lt;/td&gt; &lt;td&gt;{1:MCS:~={s0, s1, s3\}#Excelente~{s0\}#~{s1\}#~{s2\}#~{s3\}#~{s1, s3\}#~{s0, s1, s2\}#~{s0, s2, s3\}#~{s1, s2, s3\}#}&lt;/td&gt; &lt;td&gt;{1:MCS: ~={s0, s2, s3\}#Excelente~{s0\}#~{s1\}#~{s2\}#~{s3\}#~{s1, s3\}#~{s0, s1, s2\}#~{s0, s1, s3\}#~{s1, s2, s3\}#}&lt;/td&gt; &lt;td&gt;{1:MCS: ~={s1\}#Excelente~{s0\}#~{s2\}#~{s3\}#~{s1, s3\}#~{s0, s1, s2\}#~{s0, s1, s3\}#~{s0, s2, s3\}#~{s1, s2, s3\}#}&lt;/td&gt;&lt;/tr&gt; &lt;tr&gt; &lt;td&gt;\({\displaystyle{\text{s3}}}\)&lt;/td&gt; &lt;td&gt;{1:MCS: ~={s1, s3\}#Excelente~{s0\}#~{s1\}#~{s2\}#~{s3\}#~{s0, s1, s2\}#~{s0, s1, s3\}#~{s0, s2, s3\}#~{s1, s2, s3\}#}&lt;/td&gt; &lt;td&gt;{1:MCS: ~={s2\}#Excelente~{s0\}#~{s1\}#~{s3\}#~{s1, s3\}#~{s0, s1, s2\}#~{s0, s1, s3\}#~{s0, s2, s3\}#~{s1, s2, s3\}#}&lt;/td&gt; &lt;td&gt;{1:MCS: ~={s0, s1, s2\}#Excelente~{s0\}#~{s1\}#~{s2\}#~{s3\}#~{s1, s3\}#~{s0, s1, s3\}#~{s0, s2, s3\}#~{s1, s2, s3\}#}&lt;/td&gt; &lt;/tr&gt; &lt;/tbody&gt; &lt;/table&gt;</p>
 <p>El atributo “<bold>encabezados -&gt;{{s0, s1, s2, s3}, {a, b, c}}</bold>” agrega a la tabla “<bold>HTML</bold>” encabezados en las filas y las columnas. La figura <xref ref-type="fig" rid="gf27">30</xref> muestra el ítem en la plataforma <italic>Moodle</italic>. El enunciado de la pregunta y la imagen del diagrama de transición del autómata se incluyeron de manera manual en <italic>Moodle</italic>, sin haber <italic>copiado/pegado</italic> nada desde  <bold>Mathematica</bold>.
 </p>
 <p>Otras propiedades interesantes del comando “<bold>TablaHTML</bold>” son: “<bold>distractor</bold>” y “<bold>distractores</bold>”. La primera permite especificar una lista con los distractores que utilizarán todas las respuestas desplegadas de la tabla “<bold>HTML</bold>”. La segunda brinda la posibilidad de personalizar esos distractores a emplear, pero de una manera individual para cada entrada de la tabla correspondiente.</p>
-<p>En la figura <xref ref-type="fig" rid="gf34">31</xref> se visualiza el ítem de este ejercicio, donde se están produciendo como distractores todos los subconjuntos de {s0, s1, s2, s3} (conocido como el <italic>conjunto potencia</italic>). Para ello, se utilizó el siguiente <bold> In[ ]</bold> en  <bold>Wolfram Mathematica.</bold>
+<p>En la figura <xref ref-type="fig" rid="gf34">31</xref> se visualiza el ítem de este ejercicio, donde se están produciendo como distractores todos los subconjuntos de {s0, s1, s2, s3} (conocido como el <italic>conjunto potencia</italic>). Para ello, se utilizó el siguiente <bold> In&#91; &#93;</bold> en  <bold>Wolfram Mathematica.</bold>
 </p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>Matriz =</bold>
@@ -2896,14 +2896,14 @@ Figura 29
 <bold>;</bold>
 </p>
 <p>
-<bold>TablaHTML[Matriz, encabezados -&gt;{{s0, s1, s2, s3}, {a, b, c}}, distractor -&gt;{Subsets[{s0, s1, s2, s3}]}]</bold>
+<bold>TablaHTML&#91;Matriz, encabezados -&gt;{{s0, s1, s2, s3}, {a, b, c}}, distractor -&gt;{Subsets&#91;{s0, s1, s2, s3}&#93;}&#93;</bold>
 </p>
 <p>
 <bold/>
 Se aclara al lector que la sentencia “<bold>Subsets</bold>” de <bold>Mathematica</bold>, calcula el <italic>conjunto potencia</italic> de {s0, s1, s2, s3}.</p>
 <p>En la <xref ref-type="fig" rid="gf35">figura 32</xref>, por otra parte, se está haciendo uso del atributo “distractores” para personalizar los distractores de las entradas en la primera fila de la tabla “HTML”, como: {{},{s0},{s1},{s2},{s3}}, {{s2,s3},{s0,s1,s2}} y {{s1,s2,s3},{s0,s1,s2,s3}}, respectivamente. A pesar de haber incluido el conjunto {s0} como distractor del primer campo de la tabla “HTML”, en realidad {s0} es la respuesta correcta de dicha entrada, en este sentido, el software lo detecta automáticamente y excluye a {s0} como una opción incorrecta. El código de  Wolfram que facilita la elaboración del ítem así descrito, se comparte a continuación:</p>
 <p>
-<bold>In[ ] :=</bold>
+<bold>In&#91; &#93; :=</bold>
 </p>
 <p>
 <bold>Matriz =</bold>
@@ -3016,11 +3016,11 @@ Se aclara al lector que la sentencia “<bold>Subsets</bold>” de <bold>Mathema
 <bold>;</bold>
 </p>
 <p>
-<bold>TablaHTML[Matriz, encabezados -&gt;{{s0, s1, s2, s3}, {a, b, c}}, distractor -&gt;{Subsets[{s0, s1, s2, s3}]}]</bold>
+<bold>TablaHTML&#91;Matriz, encabezados -&gt;{{s0, s1, s2, s3}, {a, b, c}}, distractor -&gt;{Subsets&#91;{s0, s1, s2, s3}&#93;}&#93;</bold>
 </p>
 <p>
 <bold/>
-No se socializan en este documento las salidas de estos <bold> In[ ]</bold> por su significativo tamaño, sin embargo, se sugiere al lector consultar el video 20, donde se proveen más detalles al respecto.</p>
+No se socializan en este documento las salidas de estos <bold> In&#91; &#93;</bold> por su significativo tamaño, sin embargo, se sugiere al lector consultar el video 20, donde se proveen más detalles al respecto.</p>
 <p>
 <fig id="gf27">
 <label>
