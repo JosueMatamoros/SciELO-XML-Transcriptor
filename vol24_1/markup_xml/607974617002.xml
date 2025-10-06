@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE article
   PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "https://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
-<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.8" xml:lang="es"
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.8" xml:lang="pt"
     xmlns:mml="http://www.w3.org/1998/Math/MathML"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <front>
@@ -35,7 +35,7 @@
                     </name>
                     <xref ref-type="aff" rid="aff1"/>
                 </contrib>
-                <contrib contrib-type="author" >
+                <contrib contrib-type="author">
                     <contrib-id contrib-id-type="orcid">0000-0003-3710-1561</contrib-id>
                     <name name-style="western">
                         <surname>Régis Vieira Alves</surname>
@@ -71,7 +71,7 @@
                 <email>brandaomenezes@hotmail.com</email>
             </aff>
             <pub-date pub-type="collection">
-                <season>Aug-Feb</season>
+                <season>Aug/Feb</season>
                 <year>2023</year>
             </pub-date>
             <volume>24</volume>
@@ -90,11 +90,12 @@
                     <year>2023</year>
                 </date>
             </history>
-             <permissions>
+            <permissions>
                 <copyright-year>2024</copyright-year>
                 <copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
-                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
-                    <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License</license-p>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="pt"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <license-p>Este é um artigo de acesso aberto distribuído sob os termos da Licença Creative Commons Attribution</license-p>
                 </license>
             </permissions>
             <abstract xml:lang="pt">
@@ -130,44 +131,52 @@
     <body>
         <sec>
             <title>
-                <bold>Introdução</bold>
+                Introdução
             </title>
             <p>O uso da história para ensinar Matemática é um caminho que diversos professores de matemática estão-se esforçando para trilhar. A capacidade da história da Matemática, assunto não explorado consideravelmente, precisa ser observada para que possa, de modo prático, permitir auxiliar os processos de construção de conhecimentos. Ensinar a Matemática por meio da história pode auxiliar no entendimento da elaboração dos conceitos matemáticos, fazendo uma ligação das descobertas com os conteúdos propostos.</p>
-            <p>Nesse momento, durante essa construção é importante que os estudantes desenvolvam o raciocínio matemático para avançar nessa consolidação de conhecimentos, para que isso ocorra “é necessário que o aluno tenha desenvolvido a habilidade de fazer deduções e construir elementos essencialmente abstratos, utilizando-se de conhecimentos prévios de forma combinada” (Sousa, Azevedo e Alves, 2021, p. 361).</p>
+            <p>Nesse momento, durante essa construção é importante que os estudantes desenvolvam o raciocínio matemático para avançar nessa consolidação de conhecimentos, para que isso ocorra “é necessário que o aluno tenha desenvolvido a habilidade de fazer deduções e construir elementos essencialmente abstratos, utilizando-se de conhecimentos prévios de forma combinada” ( <xref ref-type="bibr" rid="ref20">Sousa, Azevedo e Alves, 2021, p. 361</xref>).
+            </p>
             <p>Perante o exposto, são consideradas as dificuldades na compreensão da Matemática, no que diz respeito ao processo histórico e investigativo dos conteúdos abordados nessa área de conhecimento. Esses fatores fortalecem a necessidade do estudo da História da Matemática, que é explorada como disciplina no curso de Licenciatura em Matemática, dando um amparo à compreensão da origem das criações científicas de vários assuntos da Matemática, de maneira lógica e temporal.</p>
-            <p>Com base neste contexto, a história da sequência de Jacobsthal, uma sequência numérica recorrente e linear, é um assunto pouco explorado na Licenciatura em Matemática, tal como existem poucas produções que discutem essa sequência no ensino da Matemática, como relatam os autores (Alves, 2017; Souza e Alves, 2018; Alves e Catarino, 2018).</p>
+            <p>Com base neste contexto, a história da sequência de Jacobsthal, uma sequência numérica recorrente e linear, é um assunto pouco explorado na Licenciatura em Matemática, tal como existem poucas produções que discutem essa sequência no ensino da Matemática, como relatam os autores (<xref ref-type="bibr" rid="ref3">Alves, 2017</xref>;                <xref ref-type="bibr" rid="ref16">Laborde, 1997</xref>
+                <xref ref-type="bibr" rid="ref19">Souza e Alves, 2018</xref>;                <xref ref-type="bibr" rid="ref4">Alves e Catarino, 2018</xref>).
+            </p>
             <p>Diante dessas pesquisas surge o interesse de estudar essa sequência, tendo como objetivo deste trabalho investigar uma proposta didática que viabilize a compreensão da sequência de Jacobsthal por meio de uma visualização geométrica com arrimo do software GeoGebra.</p>
             <p>Pensando em atingir o objetivo deste trabalho, adotamos a Engenharia Didática como metodologia de pesquisa, com a perspectiva da Teoria das Situações Didáticas, pois da interação com ambas se constrói, de maneira organizada, um elo entre a teoria e a prática em sala de aula.</p>
-            <p>Alves e Dias (2019) afirmam que a Engenharia Didática é um método que traz “a opção por uma perspectiva sistemática de preparação, de concepção, de planejamento, de modelização e, possivelmente, a execução e/ou replicação de sequências estruturadas de ensino” (p.2). Fortalecendo o que se busca neste estudo. No caso da Teoria das Situações Didáticas, é uma teoria de ensino que pode ser definida a partir de situações didáticas pensadas para serem aplicadas em uma conjectura escolar, com o intuito de observar o comportamento do estudante. Segundo Almouloud (2007), essa situação tem como objetivo identificar a correlação estabelecida entre o professor-saber- aluno. Essa teoria é composta por quatro fases com propósito de investigar o processo de ensino e de aprendizagem, fazendo assim um amparo para a metodologia escolhida para essa pesquisa.</p>
-            <p>Logo, para um suporte da situação didática para uma possibilidade de visualização da sequência de Jacobsthal utilizamos o software GeoGebra, com uso de suas janelas bidimensional (2D) e tridimensional (3D), explorando definições matemáticas e particularidades dessa sequência de forma visual. Sousa, Azevedo e Alves (2021) afirmam que GeoGebra, enquanto recurso associa à prática do professor, contribui para a exibição de conteúdos de compreensão complexa de maneira mais dinâmica.</p>
+            <p>
+                <xref ref-type="bibr" rid="ref5">Alves e Dias (2019)</xref> afirmam que a Engenharia Didática é um método que traz “a opção por uma perspectiva sistemática de preparação, de concepção, de planejamento, de modelização e, possivelmente, a execução e/ou replicação de sequências estruturadas de ensino” (p.2). Fortalecendo o que se busca neste estudo. No caso da Teoria das Situações Didáticas, é uma teoria de ensino que pode ser definida a partir de situações didáticas pensadas para serem aplicadas em uma conjectura escolar, com o intuito de observar o comportamento do estudante. Segundo  <xref ref-type="bibr" rid="ref1">Almouloud (2007)</xref>  , essa situação tem como objetivo identificar a correlação estabelecida entre o professor-saber- aluno. Essa teoria é composta por quatro fases com propósito de investigar o processo de ensino e de aprendizagem, fazendo assim um amparo para a metodologia escolhida para essa pesquisa.</p>
+            <p>Logo, para um suporte da situação didática para uma possibilidade de visualização da sequência de Jacobsthal utilizamos o software GeoGebra, com uso de suas janelas bidimensional (2D) e tridimensional (3D), explorando definições matemáticas e particularidades dessa sequência de forma visual.  <xref ref-type="bibr" rid="ref20">Sousa, Azevedo e Alves (2021)</xref> afirmam que GeoGebra, enquanto recurso associa à prática do professor, contribui para a exibição de conteúdos de compreensão complexa de maneira mais dinâmica.</p>
             <p>Nas seções seguintes apresentamos a Engenharia Didática deste trabalho, estruturada em suas duas primeiras fases, que são: as análises preliminares e a análise a priori. Nas análises preliminares busca-se discutir o campo epistêmico matemático da sequência de Jacobsthal, enquanto na análise a priori enfatizamos a construção da proposta didática com apoio da Teoria das Situações Didáticas e o software GeoGebra como recurso visual e manipulável.</p>
         </sec>
         <sec>
             <title>
-                <bold>Engenharia Didática e Teoria das Situações Didáticas</bold>
+                Engenharia Didática e Teoria das Situações Didáticas
             </title>
-            <p>Na década de 80, surgiu uma preocupação por parte dos professores de Matemática na criação de centros universitários na França, com o intuito de melhorar a esquematização do ensino, tendo como resultado o surgimento da Engenharia Didática (Vieira e Alves, 2020). Visando as pesquisas de situações didáticas em ensino, temos como definição da ED uma metodologia de pesquisa que consiste em um agrupamento de sequências, com o objetivo de desenvolver um plano de aprendizagem voltado para estudantes (Laborde, 1997).</p>
-            <p>Segundo Artigue (1988), a Engenharia Didática possui uma semelhança de trabalho comparada à de um engenheiro, no qual para se desenvolver um projeto, deve-se ter o controle do conhecimento científico, mas simultaneamente, tende a trabalhar com objetos que trazem preocupações maiores do que a das ciências.</p>
-            <p>Dessa maneira, relata-se que as etapas previstas da Engenharia Didática são: (i) análises preliminares; (ii) concepção e análise a priori; (iii) experimentação; (iv) análise a posteriori e validação (Artigue, 1984; Laborde, 1997). Logo, essa pesquisa aplicamos às duas primeiras fases, com a perspectiva de mostrar nas análises preliminares o contexto histórico e a definição essencial para os números de Jacobsthal. Bem como, na análise a priori descrever o momento de elaboração e descrição da situação didática, voltada para a construção geométrica dos números que compõem a sequência de Jacobsthal.</p>
+            <p>Na década de 80, surgiu uma preocupação por parte dos professores de Matemática na criação de centros universitários na França, com o intuito de melhorar a esquematização do ensino, tendo como resultado o surgimento da Engenharia Didática ( <xref ref-type="bibr" rid="ref21">Vieira e Alves, 2020</xref>). Visando as pesquisas de situações didáticas em ensino, temos como definição da ED uma metodologia de pesquisa que consiste em um agrupamento de sequências, com o objetivo de desenvolver um plano de aprendizagem voltado para estudantes (<xref ref-type="bibr" rid="ref16">Laborde, 1997</xref>).
+            </p>
+            <p>Segundo <xref ref-type="bibr" rid="ref7">Artigue (1988)</xref>, a Engenharia Didática possui uma semelhança de trabalho comparada à de um engenheiro, no qual para se desenvolver um projeto, deve-se ter o controle do conhecimento científico, mas simultaneamente, tende a trabalhar com objetos que trazem preocupações maiores do que a das ciências.</p>
+            <p>Dessa maneira, relata-se que as etapas previstas da Engenharia Didática são: (i) análises preliminares; (ii) concepção e análise a priori; (iii) experimentação; (iv) análise a posteriori e validação ( <xref ref-type="bibr" rid="ref6">Artigue, 1984</xref>;                <xref ref-type="bibr" rid="ref16">Laborde, 1997</xref>). Logo, essa pesquisa aplicamos às duas primeiras fases, com a perspectiva de mostrar nas análises preliminares o contexto histórico e a definição essencial para os números de Jacobsthal. Bem como, na análise a priori descrever o momento de elaboração e descrição da situação didática, voltada para a construção geométrica dos números que compõem a sequência de Jacobsthal.</p>
             <p>Durante essas duas fases iniciais, percebemos a importância das situações de ensino, pois é permitida a construção do conhecimento dos estudantes, e também a modificação diante das observações realizadas pelo professor, no momento da aplicação da atividade proposta.</p>
-            <p>Pensando na relevância das situações de ensino, propomos uma metodologia de ensino, Engenharia Didática, amparada pela teoria de ensino, Teoria das Situações Didáticas, na qual o estudante apropria-se do conhecimento prévio existentes ou em andamento, estimulando o lado investigativo do aluno durante a resolução da situação de ensino da Matemática. Brousseau (2000) afirma que “este esquema tripolar é geralmente associado a uma concepção de ensino em que o professor organiza o conhecimento a ser ensinado em uma série de mensagens a partir das quais o aluno leva o que deve adquirir” (p.7).</p>
-            <p>Brousseau (1986) relata que, durante as situações Teoria das Situações Didáticas, o professor esclarece os elementos principais nas etapas de ensino que são: ação, formulação, validação e institucionalização.</p>
+            <p>Pensando na relevância das situações de ensino, propomos uma metodologia de ensino, Engenharia Didática, amparada pela teoria de ensino, Teoria das Situações Didáticas, na qual o estudante apropria-se do conhecimento prévio existentes ou em andamento, estimulando o lado investigativo do aluno durante a resolução da situação de ensino da Matemática. <xref ref-type="bibr" rid="ref10">Brousseau (2000)</xref> afirma que “este esquema tripolar é geralmente associado a uma concepção de ensino em que o professor organiza o conhecimento a ser ensinado em uma série de mensagens a partir das quais o aluno leva o que deve adquirir” (p.7).</p>
+            <p>
+                <xref ref-type="bibr" rid="ref8">Brousseau (1986)</xref> relata que, durante as situações Teoria das Situações Didáticas, o professor esclarece os elementos principais nas etapas de ensino que são: ação, formulação, validação e institucionalização.</p>
             <p>Essa situação didática proposta com as fases da Teoria das Situações Didáticas, deve fazer com que o conhecimento do estudante seja aflorado, de maneira que haja uma única intenção didática esperada. Eventualmente, os alunos encontram uma maneira mais fácil de resolver o problema proposto, no qual nesse momento a construção do saber ainda se encontra em andamento. É essencial que, durante esse processo de ensino e de aprendizagem, ocorra uma interação entre os participantes, tanto com quem aprende como com quem ensina, utilizando materiais didáticos apropriados.</p>
-            <p>Dessa maneira, esses materiais ajudaram na resolução do problema proposto, levando em consideração as regras estabelecidas, com o objetivo de traçar um caminho correto para obtenção dos resultados. Observamos que a relação entre a Engenharia Didática e a Teoria das Situações Didáticas é a complementação para um acúmulo, unido com a contestação e determinação dos conhecimentos teóricos, metodológicos e didáticos, durante uma prática organizada por uma transposição ao que se refere a um conteúdo matemático (Alves, 2017).</p>
+            <p>Dessa maneira, esses materiais ajudaram na resolução do problema proposto, levando em consideração as regras estabelecidas, com o objetivo de traçar um caminho correto para obtenção dos resultados. Observamos que a relação entre a Engenharia Didática e a Teoria das Situações Didáticas é a complementação para um acúmulo, unido com a contestação e determinação dos conhecimentos teóricos, metodológicos e didáticos, durante uma prática organizada por uma transposição ao que se refere a um conteúdo matemático (<xref ref-type="bibr" rid="ref3">Alves, 2017</xref>).
+            </p>
             <p>Por fim, com essa integração da Engenharia Didática e a Teoria das Situações Didáticas, utilizamos o GeoGebra como um recurso tecnológico para uma transposição didática, para auxiliar a pesquisa em andamento, com o intuito de promover uma situação didática como alternativa para professores de uma prática em sala de aula sobre a sequência de Jacobsthal, através das demonstrações geométricas a partir de sua lei de recorrência.</p>
             <p>Na seção seguinte abordamos o referencial teórico necessário para uma análise preliminar da sequência de Jacobsthal, por meio de definições da lei de recorrência propostos para a concepção da situação didática.</p>
         </sec>
         <sec>
             <title>
-                <bold>Análises preliminares</bold>
+                Análises preliminares
             </title>
-            <p>Como forma de sistematizar as análises preliminares, segundo a estimativa da Engenharia Didática, Artigue (1988) descreve as principais dimensões que define o fenômeno a ser estudado e que se relacione ao ensino, as quais são: epistemologia, didática e a cognição. Segundo Pais (2015), cada uma delas atua na constituição do objeto matemático.</p>
-            <p>Dessa maneira, no que diz a respeito sobre a dimensão epistemológica, tratamos a origem e as definições matemáticas relativos à sequência de Jacobsthal. Já na perspectiva da didática, analisamos uma abordagem por meio de uma pesquisa bibliográfica buscando esclarecer os elementos matemáticos referentes a essa sequência que foram apresentados em pesquisas tais como: Horadam (1996), Koken e Bozkurt (2008) e algumas mais recentes como Souza e Alves (2018), Alves e Catarino (2018).</p>
+            <p>Como forma de sistematizar as análises preliminares, segundo a estimativa da Engenharia Didática,  <xref ref-type="bibr" rid="ref7">Artigue (1988)</xref> descreve as principais dimensões que define o fenômeno a ser estudado e que se relacione ao ensino, as quais são: epistemologia, didática e a cognição. Segundo <xref ref-type="bibr" rid="ref17">Pais (2015)</xref>, cada uma delas atua na constituição do objeto matemático.</p>
+            <p>Dessa maneira, no que diz a respeito sobre a dimensão epistemológica, tratamos a origem e as definições matemáticas relativos à sequência de Jacobsthal. Já na perspectiva da didática, analisamos uma abordagem por meio de uma pesquisa bibliográfica buscando esclarecer os elementos matemáticos referentes a essa sequência que foram apresentados em pesquisas tais como:  <xref ref-type="bibr" rid="ref13">Horadam (1996)</xref>,                <xref ref-type="bibr" rid="ref14">Koken e Bozkurt (2008)</xref> e algumas mais recentes como  <xref ref-type="bibr" rid="ref19">Souza e Alves (2018)</xref>,                <xref ref-type="bibr" rid="ref3">Alves e Catarino (2018)</xref>.
+            </p>
             <p>Neste estudo, permitimos encontrar caminhos para a realização de uma transposição didática, ou seja, modificar um conhecimento científico em um assunto que possa ser ensinado em sala de aula. Em relação à dimensão cognitiva, propomos uma situação didática de modo que o estudante possa identificar e manifestar a intuição, desenvolvendo o raciocínio lógico-dedutivo mobilizando os conhecimentos da sequência de Jacobsthal.</p>
-            <p>Ainda a respeito no que se trata da análise preliminar da Engenharia Didática, segundo Almouloud e Silva (2012) essa fase destaca considerações sobre o quadro teórico didático geral. Bem como, uma análise epistemológica do ensino de um determinado tema, o ponto de vista dos estudantes e seus obstáculos, além do estudo do campo de exigências em que se pretende realizar uma situação didática.</p>
+            <p>Ainda a respeito no que se trata da análise preliminar da Engenharia Didática, segundo <xref ref-type="bibr" rid="ref2">Almouloud e Silva (2012)</xref> essa fase destaca considerações sobre o quadro teórico didático geral. Bem como, uma análise epistemológica do ensino de um determinado tema, o ponto de vista dos estudantes e seus obstáculos, além do estudo do campo de exigências em que se pretende realizar uma situação didática.</p>
             <p>Dessa forma, nessa análise preliminar realizamos um levantamento bibliográfico em relação à sequência de Jacobsthal, mostrando as concepções matemáticas dessas sequências, destacando os conceitos matemáticos mais pertinentes e construindo um elo com elementos que proporcionem a exploração desse assunto em uma situação de ensino voltada para a licenciatura em Matemática.</p>
-            <p>De acordo com as pesquisas, Siegmund-Schultze (2009) o alemão Ernst Erich Jacobsthal (1882-1965) “foi aluno de Ferdinand G. Frobenius, um especialista em Teoria dos números que tinha sido expulso de Berlim e se tornou um refugiado à Noruega e Suécia em 1939 e 1943” (p. 327). Esse matemático foi uns dos pioneiros a estudar e definir os números de Fibonacci.</p>
-            <p>Segundo Falcón e Plaza (2007) a sequência de k-Fibonacci já havia sido definida para todo número real positivo k, de acordo com a lei de recorrência <inline-formula>
+            <p>De acordo com as pesquisas, <xref ref-type="bibr" rid="ref18">Siegmund-Schultze (2009)</xref> o alemão Ernst Erich Jacobsthal (1882-1965) “foi aluno de Ferdinand G. Frobenius, um especialista em Teoria dos números que tinha sido expulso de Berlim e se tornou um refugiado à Noruega e Suécia em 1939 e 1943” (p. 327). Esse matemático foi uns dos pioneiros a estudar e definir os números de Fibonacci.</p>
+            <p>Segundo <xref ref-type="bibr" rid="ref12">Falcón e Plaza (2007)</xref> a sequência de k-Fibonacci já havia sido definida para todo número real positivo k, de acordo com a lei de recorrência <inline-formula>
                 <alternatives>
                     <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
                         <mml:msub>
@@ -269,13 +278,20 @@
     <mml:mo>=</mml:mo>
     <mml:mfenced open="{" close="}">
         <mml:mn>0</mml:mn>
+        <mml:mo>,</mml:mo>
         <mml:mn>1</mml:mn>
+        <mml:mo>,</mml:mo>
         <mml:mn>1</mml:mn>
+        <mml:mo>,</mml:mo>
         <mml:mn>2</mml:mn>
+        <mml:mo>,</mml:mo>
         <mml:mn>3</mml:mn>
+        <mml:mo>,</mml:mo>
         <mml:mn>5</mml:mn>
+        <mml:mo>,</mml:mo>
         <mml:mn>8</mml:mn>
-        <mml:mo>&#xB7;</mml:mo>
+        <mml:mo>,</mml:mo>
+        <mml:mo>…</mml:mo>
     </mml:mfenced>
 </mml:math>
 <graphic xlink:href="607974617002_gi7.png"/>
@@ -298,16 +314,22 @@
     <mml:mi>n</mml:mi>
 </mml:msub>
 </mml:mfenced>
-<mml:mo>=</mml:mo>
 <mml:mfenced open="{" close="}">
 <mml:mn>0</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>1</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>2</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>5</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>12</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>70</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>169</mml:mn>
-<mml:mo>&#xB7;&#xB7;&#xB7;</mml:mo>
+<mml:mo>,</mml:mo>
+<mml:mo>…</mml:mo>
 </mml:mfenced>
 </mml:math>
 <graphic xlink:href="607974617002_gi9.png"/>
@@ -504,12 +526,18 @@
 <mml:mo>=</mml:mo>
 <mml:mfenced open="{" close="}">
 <mml:mn>0</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>1</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>1</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>3</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>5</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>11</mml:mn>
-<mml:mo>&#xB7;&#xB7;&#xB7;</mml:mo>
+<mml:mo>,</mml:mo>
+<mml:mo>…</mml:mo>
 </mml:mfenced>
 </mml:math>
 <graphic xlink:href="607974617002_gi26.png"/>
@@ -572,7 +600,7 @@
 </alternatives>
 </inline-formula>
 </p>
-<p>Na Definição 3, temos a sequência polinomial de Jacobsthal, segundo as definições Koshy (2019) faz uma associação da sequência de Jacobsthal com um tabuleiro, de forma preliminar, a um ladrilho unidimensional do tipo <inline-formula>
+<p>Na Definição 3, temos a sequência polinomial de Jacobsthal, segundo as definições  <xref ref-type="bibr" rid="ref15">Koshy (2019)</xref> faz uma associação da sequência de Jacobsthal com um tabuleiro, de forma preliminar, a um ladrilho unidimensional do tipo <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mn>1</mml:mn>
@@ -610,7 +638,7 @@
 <p>
 <fig id="gf1">
 <label>
-<bold>Figura 1</bold>
+Figura 1
 </label>
 <caption>
 <title>Representação de um tabuleiro 1xn</title>
@@ -632,7 +660,7 @@
 </mml:math>
 <graphic xlink:href="607974617002_gi33.png"/>
 </alternatives>
-</inline-formula> , para cada tabuleiro. Segundo Koshy (2019) suponha que <inline-formula>
+</inline-formula> , para cada tabuleiro. Segundo <xref ref-type="bibr" rid="ref15">Koshy (2019)</xref> suponha que <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msub>
@@ -919,7 +947,7 @@
 <p>
 <list list-type="simple">
 <title>
-<bold>Teorema 1</bold>
+Teorema 1
 </title>
 <list-item>
 <p>Suponha que o peso de um quadrado seja 1 e o de um dominó seja x. Então a soma dos pesos dos tabuleiros de comprimento  é <inline-formula>
@@ -954,7 +982,7 @@
 </list>
 </p>
 <p>
-<italic>Prova.</italic> Segundo Koshy (2019). Como <inline-formula>
+<italic>Prova.</italic> Segundo <xref ref-type="bibr" rid="ref15">Koshy (2019)</xref>. Como <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msub>
@@ -1212,7 +1240,7 @@
 <p>
 <fig id="gf2">
 <label>
-<bold>Figura 2</bold>
+Figura 2
 </label>
 <caption>
 <title>Representação de um tabuleiro 2 × n.</title>
@@ -1222,7 +1250,7 @@
 <attrib>Adaptada pelos autores (2022)</attrib>
 </fig>
 </p>
-<p>Segundo Koshy (2019), consideramos o peso definido por  <inline-formula>
+<p>Segundo <xref ref-type="bibr" rid="ref15">Koshy (2019)</xref>, consideramos o peso definido por  <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msubsup>
@@ -1328,7 +1356,7 @@
 <p>
 <list list-type="simple">
 <title>
-<bold>Teorema 2</bold>
+Teorema 2
 </title>
 <list-item>
 <p>Seja um tabuleiro <inline-formula>
@@ -1410,7 +1438,9 @@
 </mml:math>
 <graphic xlink:href="607974617002_gi90.png"/>
 </alternatives>
-</inline-formula> (Koshy, 2019).</p>
+</inline-formula>
+<xref ref-type="bibr" rid="ref15">Koshy (2019)</xref>.
+</p>
 </list-item>
 </list>
 </p>
@@ -1716,7 +1746,7 @@
 </alternatives>
 </inline-formula>.
 </p>
-<p>De acordo com a tese de Craveiro (2004), oferece algumas possibilidades para a representação de ladrilhamentos como: 3 × 1, 3 × 2, 3 × 3, 3 × 4 e etc., utilizando quadrados de 1 × 1 e 2 × 2 para definir o total de números de ladrilhamentos possíveis para um tabuleiro <inline-formula>
+<p>De acordo com a tese de <xref ref-type="bibr" rid="ref11">Craveiro (2004)</xref>, oferece algumas possibilidades para a representação de ladrilhamentos como: 3 × 1, 3 × 2, 3 × 3, 3 × 4 e etc., utilizando quadrados de 1 × 1 e 2 × 2 para definir o total de números de ladrilhamentos possíveis para um tabuleiro <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mn>3</mml:mn>
@@ -1738,11 +1768,11 @@
 <attrib>Adaptada pelos autores (2022)</attrib>
 </fig>
 </p>
-<p>De acordo com a figura <xref ref-type="fig" rid="gf3">3</xref>, Koshy (2019) e Craveiro (2004), mostram o teorema 3 a seguir.</p>
+<p>De acordo com a figura <xref ref-type="fig" rid="gf3">3</xref>,<xref ref-type="bibr" rid="ref15">Koshy (2019)</xref> e  <xref ref-type="bibr" rid="ref11">Craveiro (2004)</xref>, mostram o teorema 3 a seguir.</p>
 <p>
 <list list-type="simple">
 <title>
-<bold>Teorema 3</bold>
+Teorema 3
 </title>
 <list-item>
 <p>Considerando um tabuleiro , com apenas dois tipos de ladrilhos, um ladrilho <inline-formula>
@@ -1796,7 +1826,7 @@
 </list>
 </p>
 <p>
-<italic>Prova.</italic> De acordo com os argumentos empregados por Craveiro (2004), vamos considerar três conjuntos, a saber: (i) um conjunto de ladrilhamentos <inline-formula>
+<italic>Prova.</italic> De acordo com os argumentos empregados por <xref ref-type="bibr" rid="ref11">Craveiro (2004)</xref>, vamos considerar três conjuntos, a saber: (i) um conjunto de ladrilhamentos <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mn>3</mml:mn>
@@ -1914,7 +1944,7 @@
 <graphic xlink:href="607974617002_gi151.png"/>
 </alternatives>
 </inline-formula> com dois ladrilhos de cor branca e um de cor vermelha, sendo os ladrilhos brancos na parte inferior.</p>
-<p>Após considerar as três possibilidades particulares de ladrilhamentos, como indicados nos itens (i), (ii) e (iii), Craveiro (2004) explica que <inline-formula>
+<p>Após considerar as três possibilidades particulares de ladrilhamentos, como indicados nos itens (i), (ii) e (iii),  <xref ref-type="bibr" rid="ref11">Craveiro (2004)</xref> explica que <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msub>
@@ -2041,7 +2071,7 @@
 </alternatives>
 </inline-formula>.
 </p>
-<p>Por fim, Craveiro (2004) emprega uma representação semelhante à de Koshy (2019), na medida em que, a partir de uma prova visual, podemos afirmar que para o item (i) o número <inline-formula>
+<p>Por fim,<xref ref-type="bibr" rid="ref11">Craveiro (2004)</xref> emprega uma representação semelhante à de <xref ref-type="bibr" rid="ref15">Koshy (2019)</xref>, na medida em que, a partir de uma prova visual, podemos afirmar que para o item (i) o número <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msub>
@@ -2135,7 +2165,7 @@
 </mml:math>
 <graphic xlink:href="607974617002_gi164.png"/>
 </alternatives>
-</inline-formula>. No entanto, Craveiro (2004) conclui a partir da observação que esta relação de recorrência fornece os números de Jacobsthal, ou seja, <inline-formula>
+</inline-formula>. No entanto, <xref ref-type="bibr" rid="ref11">Craveiro (2004)</xref> conclui a partir da observação que esta relação de recorrência fornece os números de Jacobsthal, ou seja, <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:msub>
@@ -2172,9 +2202,10 @@
 </sec>
 <sec>
 <title>
-<bold>Concepção e análise a priori</bold>
+Concepção e análise a priori
 </title>
-<p>Na análise a priori parte-se de uma situação didática, observamos os comportamentos e “tenta demonstrar como a análise permite controlar seus significados e assegurar, particularmente, que se tais comportamentos esperados ocorreram, é por consequência do desenvolvimento visado pela aprendizagem” (Almouloud e Silva, 2012, p.27).</p>
+<p>Na análise a priori parte-se de uma situação didática, observamos os comportamentos e “tenta demonstrar como a análise permite controlar seus significados e assegurar, particularmente, que se tais comportamentos esperados ocorreram, é por consequência do desenvolvimento visado pela aprendizagem” (<xref ref-type="bibr" rid="ref2">Almouloud e Silva, 2012, p.27</xref>).
+</p>
 <p>Na fase anterior, análises prelimirares, foi apresentado um estudo sobre a sequência de Fibonacci para a definição da sequência de k-Jacobsthal. Dessa maneira, com base na lei de recorrência apresentada, desenvolvemos uma situação didática de ensino, amparada pela Teoria de Situações Didáticas e por meio do software GeoGebra, permitindo a compreensão visual das características da sequência de Jacobsthal, e que também pode servir para auxiliar em outras situações-problema desenvolvidas sobre essa sequência , a partir desses conhecimentos adquiridos.</p>
 <p>Assim, tem-se como proposta para desenvolvimento a seguinte situação didática: Com base nos números de Jacobsthal representados por <inline-formula>
 <alternatives>
@@ -2188,18 +2219,25 @@
 <mml:mo>=</mml:mo>
 <mml:mfenced open="{" close="}">
 <mml:mn>0</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>1</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>1</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>3</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>5</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>11</mml:mn>
-<mml:mo>&#xB7;&#xB7;&#xB7;</mml:mo>
+<mml:mo>,</mml:mo>
+<mml:mo>…</mml:mo>
 </mml:mfenced>
 </mml:math>
 <graphic xlink:href="607974617002_gi167.png"/>
 </alternatives>
 </inline-formula>  podemos representar essa sequência de forma geométrica utilizando o software GeoGebra?</p>
-<p>Para a organização e a modelização do desenvolvimento desta situação didática, utilizamos uma sequência de resolução com base nas dialéticas da Teoria das Situações Didáticas – ação, formulação, validação e institucionalização, conforme Brousseau (1996).</p>
+<p>Para a organização e a modelização do desenvolvimento desta situação didática, utilizamos uma sequência de resolução com base nas dialéticas da Teoria das Situações Didáticas – ação, formulação, validação e institucionalização, conforme <xref ref-type="bibr" rid="ref9">Brousseau (1996)</xref>.
+</p>
 <p>Na fase de ação, inicialmente, apresentamos aos estudantes a situação didática proposta, junto a elementos para que ele entenda a lei de recorrência de Fibonacci clássica para a construção de uma nova recorrência para a sequência de Jacobsthal.</p>
 <p>Como consequência, esperamos que os estudantes absorvam o problema proposto e as informações previamente estabelecidas e as relacionem com a sequência, pensando como pode ser construída por meio de quadrados e retângulos, utilizando apenas os conhecimentos adquiridos durante a sua trajetória de estudos em etapas anteriores. Nesta dialética, é importante que o estudante conecte ideias e relações entre os conteúdos, pois isso ajudará nas possíveis formulações de respostas.</p>
 <p>Na fase da formulação, os estudantes realizam conjecturas e apresentam suas primeiras ideias encontradas, a partir da situação didática proposta, expondo a partir do que foi visualizado no GeoGebra.</p>
@@ -2209,14 +2247,22 @@
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
 <mml:mfenced open="{" close="}">
 <mml:mn>0</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>1</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>1</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>3</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>5</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>11</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>21</mml:mn>
+<mml:mo>,</mml:mo>
 <mml:mn>43</mml:mn>
-<mml:mo>&#xB7;&#xB7;&#xB7;</mml:mo>
+<mml:mo>,</mml:mo>
+<mml:mo>…</mml:mo>
 </mml:mfenced>
 </mml:math>
 <graphic xlink:href="607974617002_gi168.png"/>
@@ -2249,7 +2295,7 @@
 <p>
 <fig id="gf4">
 <label>
-<bold>Figura 4</bold>
+Figura 4
 </label>
 <caption>
 <title>Os termos iniciais dos ladrilhos para a sequência de Jacobsthal Fonte</title>
@@ -2330,7 +2376,7 @@
 <p>
 <fig id="gf5">
 <label>
-<bold>Figura 5</bold>
+Figura 5
 </label>
 <caption>
 <title>Ladrilhos 3×n da sequência de Jacobsthal para uma visualização 2D</title>
@@ -2390,7 +2436,8 @@
 </mml:math>
 <graphic xlink:href="607974617002_gi182.png"/>
 </alternatives>
-</inline-formula>. Conforme a figura 6.</p>
+</inline-formula>. Conforme a  <xref ref-type="fig" rid="gf6">figura 6</xref>.
+</p>
 <p>Para construir a visualização 3D, o estudante deve seguir os seguintes passos:</p>
 <p>
 <list list-type="order">
@@ -2402,11 +2449,11 @@
 </list-item>
 </list>
 </p>
-<p>Apos executar estes procedimentos, esperamos que o estudante chegue à construção apresentada na figura 7, que consiste na sequência de Jacobsthal em uma visualização 3D. </p>
+<p>Apos executar estes procedimentos, esperamos que o estudante chegue à construção apresentada na  <xref ref-type="fig" rid="gf7">figura 7</xref>, que consiste na sequência de Jacobsthal em uma visualização 3D. </p>
 <p>
 <fig id="gf6">
 <label>
-<bold>Figura 6</bold>
+Figura 6
 </label>
 <caption>
 <title>Termos iniciais para visualização 3D</title>
@@ -2508,7 +2555,7 @@
 <graphic xlink:href="607974617002_gi189.png"/>
 </alternatives>
 </inline-formula>, ilustramos essa pequena cadeia de igualdades usando uma prova bijetiva. Nesta fase, na situação de validação, esperamos que os estudantes demonstrem uma compreensão da regra da lei de recorrência e dos teoremas propostos como essa sequência pode ser construída por meio de figuras geométricas, por meio da visualização dos ladrilhos para uma visualização 2D e, por meio de cubos e prismas para uma visualização 3D da sequência de Jacobsthal, observando o comportamento padrão dessa sequência.</p>
-<p>Na situação de Institucionalização, de acordo com Brousseau (1996) é nesse momento que o professor se manifesta, com o intuito de produzir um percurso didático que esclarece a construção do conhecimento do estudante, agregando algumas informações essenciais que não foram observadas pelo aluno, e fazendo as intervenções sobre possíveis argumentos sem relevância para o aprendizado.</p>
+<p>Na situação de Institucionalização, de acordo com <xref ref-type="bibr" rid="ref9">Brousseau (1996)</xref> é nesse momento que o professor se manifesta, com o intuito de produzir um percurso didático que esclarece a construção do conhecimento do estudante, agregando algumas informações essenciais que não foram observadas pelo aluno, e fazendo as intervenções sobre possíveis argumentos sem relevância para o aprendizado.</p>
 <p>Então, o professor ressalta durante as suas considerações<inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -2558,11 +2605,12 @@
 </mml:math>
 <graphic xlink:href="607974617002_gi191.png"/>
 </alternatives>
-</inline-formula>, conforme a figura 8.</p>
+</inline-formula>, conforme a <xref ref-type="fig" rid="gf8">Figura 8</xref>.
+</p>
 <p>
 <fig id="gf8">
 <label>
-<bold>Figura 8</bold>
+Figura 8
 </label>
 <caption>
 <title>Associação da visualização 2D e 3D</title>
@@ -2599,7 +2647,7 @@
 </sec>
 <sec>
 <title>
-<bold>Considerações Finais</bold>
+Considerações Finais
 </title>
 <p>Neste trabalho apresentamos uma proposta didática para subsidiar a discussão da sequência da Jacobsthal, estruturada nas duas primeiras fases da Engenharia Didática e norteada pelos pressupostos da Teoria das Situações Didáticas, como possibilidade metodológica a ser discutida/trabalhada nos cursos de Licenciatura em Matemática.</p>
 <p>Assim, nas análises preliminares deste estudo foram apontados aspectos teóricos em torno da sequência de Jacobsthal, dando ênfase em definições matemáticas. Já na análise a priori, apresentamos a situação didática proposta que viabiliza a visualização pelas perspectivas 2D e 3D destas sequências com arrimo do software GeoGebra, que contribuiu de forma significativa para o processo de ensino sobre essa sequência.</p>
@@ -2614,9 +2662,8 @@
 <back>
 <ref-list>
 <title>Referências </title>
-<ref id="redalyc_607974617002_ref1">
-<label>[1]</label>
-<mixed-citation>[1] Almouloud, S. A. (2007). Fundamentos da didática da matemática. Curitiba: UFPR.</mixed-citation>
+<ref id="ref1">
+<mixed-citation> Almouloud, S. A. (2007). Fundamentos da didática da matemática. Curitiba: UFPR.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2629,9 +2676,8 @@
 <year>2007</year>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref2">
-<label>[2]</label>
-<mixed-citation>[2] Almouloud, S. A. e Silva, M. J. (2012). Engenharia didática: evolução e diversidade. Revemat - Revista Eletrônica de Educação Matemática, 7(2), 22-52.</mixed-citation>
+<ref id="ref2">
+<mixed-citation>Almouloud, S. A. e Silva, M. J. (2012). Engenharia didática: evolução e diversidade. Revemat - Revista Eletrônica de Educação Matemática, 7(2), 22-52.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2652,9 +2698,8 @@
 <lpage>52</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref3">
-<label>[3]</label>
-<mixed-citation>[3] Alves, F. R. V. (2017). Engenharia Didática para a s-Sequência Generalizada de Jacobsthal e a (s, t) -Sequência Generalizada de Jacobsthal: análises preliminares e a priori. Revista Unión, São Paulo, 12(41), 83-106.</mixed-citation>
+<ref id="ref3">
+<mixed-citation>Alves, F. R. V. (2017). Engenharia Didática para a s-Sequência Generalizada de Jacobsthal e a (s, t) -Sequência Generalizada de Jacobsthal: análises preliminares e a priori. Revista Unión, São Paulo, 12(41), 83-106.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2671,9 +2716,8 @@
 <lpage>106</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref4">
-<label>[4]</label>
-<mixed-citation>[4] Alves, F.R.V. e Catarino, P.M. (2018). Engenharia Didática de 2ª Geração com o tema: h(x)- polinômios de Jacobsthal. Ensino de Ciências e Tecnologia em Revista. 8(3).</mixed-citation>
+<ref id="ref4">
+<mixed-citation>Alves, F.R.V. e Catarino, P.M. (2018). Engenharia Didática de 2ª Geração com o tema: h(x)- polinômios de Jacobsthal. Ensino de Ciências e Tecnologia em Revista. 8(3).</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2692,9 +2736,8 @@
 <issue>3</issue>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref5">
-<label>[5]</label>
-<mixed-citation>[5] Alves, F. R. V. e Dias, M. A. (2019). Engenharia Didática para a Teoria do Resíduo: Análises Preliminares, Análise a Priori e Descrição de Situações-Problema. Revista de Ensino, Educação e Ciências Humanas, 10(1), 2-14.</mixed-citation>
+<ref id="ref5">
+<mixed-citation>Alves, F. R. V. e Dias, M. A. (2019). Engenharia Didática para a Teoria do Resíduo: Análises Preliminares, Análise a Priori e Descrição de Situações-Problema. Revista de Ensino, Educação e Ciências Humanas, 10(1), 2-14.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2715,9 +2758,8 @@
 <lpage>14</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref6">
-<label>[6]</label>
-<mixed-citation>[6] Artigue, M. (1984).Modélisation et Reproductibilité en Didactiques de Mathématiques. Les Cahiers Rouge des Didactiques des Mathematiques, 8(1), 1-38.</mixed-citation>
+<ref id="ref6">
+<mixed-citation>Artigue, M. (1984).Modélisation et Reproductibilité en Didactiques de Mathématiques. Les Cahiers Rouge des Didactiques des Mathematiques, 8(1), 1-38.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2734,9 +2776,8 @@
 <lpage>38</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref7">
-<label>[7]</label>
-<mixed-citation>[7] Artigue, M. (1988).Ingénierie Didactique. Recherches en Didactique des Mathématiques. Grenoble: La Pensée Sauvage-Éditions, 9(3), 281-308.</mixed-citation>
+<ref id="ref7">
+<mixed-citation>Artigue, M. (1988).Ingénierie Didactique. Recherches en Didactique des Mathématiques. Grenoble: La Pensée Sauvage-Éditions, 9(3), 281-308.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2753,9 +2794,8 @@
 <lpage>308</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref8">
-<label>[8]</label>
-<mixed-citation>[8] Brousseau, G. (1986). Fondements et méthodes de la didactique des mathématiques. Recherchesen Didactique des Mathématiques, 7(2), 33-115.</mixed-citation>
+<ref id="ref8">
+<mixed-citation>Brousseau, G. (1986). Fondements et méthodes de la didactique des mathématiques. Recherchesen Didactique des Mathématiques, 7(2), 33-115.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2772,9 +2812,8 @@
 <lpage>115</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref9">
-<label>[9]</label>
-<mixed-citation>[9] Brousseau, G. (1996). Fundamentos e métodos da Didáctica da Matemática. In: BRUN, Jean. (Org.). Didáticas das Matemáticas. Lisboa: Instituto Piaget. 35-113.</mixed-citation>
+<ref id="ref9">
+<mixed-citation>Brousseau, G. (1996). Fundamentos e métodos da Didáctica da Matemática. In: BRUN, Jean. (Org.). Didáticas das Matemáticas. Lisboa: Instituto Piaget. 35-113.</mixed-citation>
 <element-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -2789,9 +2828,8 @@
 <lpage>113</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref10">
-<label>[10]</label>
-<mixed-citation>[10] Brousseau, G. (2000). Educación y didáctica de las matemáticas. Educación Matemática, 12(1), 5-38.</mixed-citation>
+<ref id="ref10">
+<mixed-citation>Brousseau, G. (2000). Educación y didáctica de las matemáticas. Educación Matemática, 12(1), 5-38.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2808,9 +2846,8 @@
 <lpage>38</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref11">
-<label>[11]</label>
-<mixed-citation>[11] Craveiro, I. M. (2004). Extensões e Interpretações Combinatórias para os Números de Fibonacci, Pell e Jacobsthal. (tese de doutorado). Campinas: Unicamp.</mixed-citation>
+<ref id="ref11">
+<mixed-citation>Craveiro, I. M. (2004). <italic>Extensões e Interpretações Combinatórias para os Números de Fibonacci, Pell e Jacobsthal</italic>. (Tese de doutorado). Campinas: Unicamp.</mixed-citation>
 <element-citation publication-type="thesis">
 <person-group person-group-type="author">
 <name>
@@ -2818,14 +2855,13 @@
 <given-names>I. M.</given-names>
 </name>
 </person-group>
-<article-title>Extensões e Interpretações Combinatórias para os Números de Fibonacci, Pell e Jacobsthal. (tese de doutorado)</article-title>
-<source>Campinas: Unicamp</source>
+<source>Extensões e Interpretações Combinatórias para os Números de Fibonacci, Pell e Jacobsthal. (Tese de doutorado). Campinas: Unicamp</source>
 <year>2004</year>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref12">
-<label>[12]</label>
-<mixed-citation>[12] Falcón, S. e Plaza, (2007). Á. On the Fibonacci k-numbers. Chaos, Solitons &amp; Fractals, [s.l.], 32(5), 1615-1624.</mixed-citation>
+
+<ref id="ref12">
+<mixed-citation>Falcón, S. e Plaza, (2007). Á. On the Fibonacci k-numbers. Chaos, Solitons &amp; Fractals, [s.l.], 32(5), 1615-1624.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2846,9 +2882,8 @@
 <lpage>1624</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref13">
-<label>[13]</label>
-<mixed-citation>[13] Horadam, A. F. (1996). Jacobsthal representation numbers. The Fibonacci Quarterly. Austrália, pp. 40-55.</mixed-citation>
+<ref id="ref13">
+<mixed-citation>Horadam, A. F. (1996). Jacobsthal representation numbers. The Fibonacci Quarterly. Austrália, pp. 40-55.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2863,9 +2898,8 @@
 <lpage>55</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref14">
-<label>[14]</label>
-<mixed-citation>[14] Koken, F. e Bozkurt, D.(2008). On the Jacobsthal numbrs by matrix methods. International Journal of Contemporary Mathematics. 3(13), 605-614.</mixed-citation>
+<ref id="ref14">
+<mixed-citation>Koken, F. e Bozkurt, D.(2008). On the Jacobsthal numbrs by matrix methods. International Journal of Contemporary Mathematics. 3(13), 605-614.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2886,9 +2920,8 @@
 <lpage>614</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref15">
-<label>[15]</label>
-<mixed-citation>[15] Koshy, T. (2019). Fibonacci and Lucas Numbers and Applications, 2. New York: John Willey and Sons.</mixed-citation>
+<ref id="ref15">
+<mixed-citation>Koshy, T. (2019). Fibonacci and Lucas Numbers and Applications, 2. New York: John Willey and Sons.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2901,9 +2934,8 @@
 <series>Fibonacci and Lucas Numbers and Applications, 2.</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref16">
-<label>[16]</label>
-<mixed-citation>[16] Laborde, C. (1997).Affronter la complexité des situations didátiques d´apprentissage des mathématiques en classe: défis et tentatives. Didaskalia, 10(1), 97-112.</mixed-citation>
+<ref id="ref16">
+<mixed-citation>Laborde, C. (1997).Affronter la complexité des situations didátiques d´apprentissage des mathématiques en classe: défis et tentatives. Didaskalia, 10(1), 97-112.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2920,9 +2952,8 @@
 <lpage>112</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref17">
-<label>[17]</label>
-<mixed-citation>[17] Pais, L.C. (2015). Didática da Matemática: Uma análise da influência francesa. 3. ed. Belo Horizonte: Ed. Autêntica.</mixed-citation>
+<ref id="ref17">
+<mixed-citation>Pais, L.C. (2015). Didática da Matemática: Uma análise da influência francesa. 3. ed. Belo Horizonte: Ed. Autêntica.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2935,24 +2966,22 @@
 <series>Didática da Matemática: Uma análise da influência francesa. 3. ed</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref18">
-<label>[18]</label>
-<mixed-citation>[18] Siegmund-SchultzeI, R. (Reinhard) (2009). Mathematicians fleeing from Nazi Germany: individual fates and global impact</mixed-citation>
+<ref id="ref18">
+<mixed-citation>Siegmund-Schultze, R. (Reinhard) (2009). <italic>Mathematicians fleeing from Nazi Germany: individual fates and global impact</italic>. Princeton University Press.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
-<surname>Siegmund-SchultzeI</surname>
+<surname>Siegmund-Schultze</surname>
 <given-names>R. (Reinhard)</given-names>
 </name>
 </person-group>
-<source>Princeton University Press</source>
+<source>Mathematicians fleeing from Nazi Germany: individual fates and global impact</source>
+<publisher-name>Princeton University Press</publisher-name>
 <year>2009</year>
-<series>Mathematicians fleeing from Nazi Germany: individual fates and global impact</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref19">
-<label>[19]</label>
-<mixed-citation>[19] Souza, T.S.A. e Alves, F.R.V. (2018). Engenharia Didática como instrumento metodológico no estudo e no ensino da sequência de Jacobsthal. #Tear: Revista de Educação, Ciências e Tecnologia, Canoas, 7(2)</mixed-citation>
+<ref id="ref19">
+<mixed-citation>Souza, T.S.A. e Alves, F.R.V. (2018). Engenharia Didática como instrumento metodológico no estudo e no ensino da sequência de Jacobsthal. #Tear: Revista de Educação, Ciências e Tecnologia, Canoas, 7(2)</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2971,9 +3000,8 @@
 <issue>2</issue>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref20">
-<label>[20]</label>
-<mixed-citation>[20] Sousa, R. T., Azevedo, I. F. e Alves, F. R. V. (2021). Engenharia Didática e Teoria das Situações Didáticas: um contributo ao ensino de Geometria Analítica com o software GeoGebra. Revista Binacional Brasil-Argentina, 10(1),357-379.</mixed-citation>
+<ref id="ref20">
+<mixed-citation>Sousa, R. T., Azevedo, I. F. e Alves, F. R. V. (2021). Engenharia Didática e Teoria das Situações Didáticas: um contributo ao ensino de Geometria Analítica com o software GeoGebra. Revista Binacional Brasil-Argentina, 10(1),357-379.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2998,9 +3026,8 @@
 <lpage>379</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617002_ref21">
-<label>[21]</label>
-<mixed-citation>[21] Vieira, R.P.M e Alves, F.R.V. (2020). Engenharia Didática e sequência de Padovan e Tridovan: uma análise preliminar e a priori. Revista Iberoamericana de Educación Matemática.</mixed-citation>
+<ref id="ref21">
+<mixed-citation>Vieira, R.P.M e Alves, F.R.V. (2020). Engenharia Didática e sequência de Padovan e Tridovan: uma análise preliminar e a priori. Revista Iberoamericana de Educación Matemática.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
