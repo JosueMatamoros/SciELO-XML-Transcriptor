@@ -72,7 +72,7 @@
                 <institution content-type="original">Universidad de Granma. Grama, Cuba.</institution>
                 <institution content-type="orgname">Universidad de Granma. Grama</institution>
                 <country country="CU">Cuba</country>
-                 <email>santana@udg.co.cu</email>
+                <email>santana@udg.co.cu</email>
             </aff>
             <aff id="aff2">
                 <institution content-type="original">Universidad de Granma. Grama, Cuba.</institution>
@@ -96,7 +96,7 @@
                 <institution content-type="original">Universidad de Granma. Grama, Cuba.</institution>
                 <institution content-type="orgname">Universidad de Granma. Grama, Cuba</institution>
                 <country country="CU">Cuba</country>
-                 <email>jramirezrivera@udg.co.cu</email>
+                <email>jramirezrivera@udg.co.cu</email>
             </aff>
             <pub-date pub-type="collection">
                 <season>Aug/Feb</season>
@@ -219,13 +219,14 @@
 <body>
 <sec>
 <title>
-<bold>Introducción</bold>
+Introducción
 </title>
-<p>Tanto en el proceso de enseñanza de las carreras agropecuarias (ej. zootecnia, agronomía, medicina veterinaria) como en la producción animal como tal se hace el mayor énfasis en la formulación de raciones precisas pues alimentación de los animales que representa, por mucho, la mayor proporción de los costos totales de su producción y porque el camino hacia una producción más competitiva es selectivo y obliga cada día más a las explotaciones a afinar el aspecto alimentario (Heard et al. 2004). La máxima precisión en esta actividad es lograda cuando se brindan a los animales los alimentos que aporten las cantidades y/o proporciones exactas de nutrientes por ellos requeridas diariamente; lo que constituye la esencia de la formulación.</p>
-<p>En los documentos relacionados con la temática se describen mayoritariamente tres métodos matemáticos de formulación de raciones y de mezclas de alimentos: el tanteo o “prueba y error”, el Cuadrado de Pearson, que es un recurso didáctico para usar ecuaciones dobles (Santana et al. 2015) y el sistema de ecuaciones dobles como tal (Trujillo-Figueroa, 1987; Church, 1991; Ensminger et al., 1991; Gupta y Chandan, 2013; Nasseri y Darvishi, 2016).</p>
-<p>La aplicación de la matemática es una herramienta poderosa con la cual se puede contextualizar mejor los modelos económico-nutricionales. Sin embargo, debe ser usada en un contexto biológico por lo que es necesario poseer sólidos conocimientos de la nutrición animal para tomar acertadas decisiones (Nabasirye et al. 2011) y poder convertir oportunamente un problema nutricional en un problema matemático.</p>
+<p>Tanto en el proceso de enseñanza de las carreras agropecuarias (ej. zootecnia, agronomía, medicina veterinaria) como en la producción animal como tal se hace el mayor énfasis en la formulación de raciones precisas pues alimentación de los animales que representa, por mucho, la mayor proporción de los costos totales de su producción y porque el camino hacia una producción más competitiva es selectivo y obliga cada día más a las explotaciones a afinar el aspecto alimentario (<xref ref-type="bibr" rid="ref10">Heard et al. 2004</xref>). La máxima precisión en esta actividad es lograda cuando se brindan a los animales los alimentos que aporten las cantidades y/o proporciones exactas de nutrientes por ellos requeridas diariamente; lo que constituye la esencia de la formulación.</p>
+<p>En los documentos relacionados con la temática se describen mayoritariamente tres métodos matemáticos de formulación de raciones y de mezclas de alimentos: el tanteo o “prueba y error”, el Cuadrado de Pearson, que es un recurso didáctico para usar ecuaciones dobles (<xref ref-type="bibr" rid="ref16">Santana et al. 2015</xref>) y el sistema de ecuaciones dobles como tal (<xref ref-type="bibr" rid="ref18">Trujillo-Figueroa, 1987</xref>;<xref ref-type="bibr" rid="ref3">Church, 1991</xref>;<xref ref-type="bibr" rid="ref5">Ensminger et al., 1991</xref>;<xref ref-type="bibr" rid="ref9">Gupta y Chandan, 2013</xref>;<xref ref-type="bibr" rid="ref13">Nasseri y Darvishi, 2016</xref>).
+</p>
+<p>La aplicación de la matemática es una herramienta poderosa con la cual se puede contextualizar mejor los modelos económico-nutricionales. Sin embargo, debe ser usada en un contexto biológico por lo que es necesario poseer sólidos conocimientos de la nutrición animal para tomar acertadas decisiones (<xref ref-type="bibr" rid="ref12">Nabasirye et al. 2011</xref>) y poder convertir oportunamente un problema nutricional en un problema matemático.</p>
 <p>En la actualidad quien posea una computadora con cualquier versión de Microsoft Office dispone de Excel y si tiene responsabilidades prácticas o en la enseñanza de la formulación de raciones y de alimentos balanceados para los animales se puede servir de este para ajustar las necesidades de los animales en tres nutrientes con tres alimentos; todo ello sin costo adicional en la adquisición de los caros software especializados, con los datos de sus propios alimentos y animales y ajustados al problema práctico específico que posee.</p>
-<p>La creación de sólidas bases matemáticas para resolver estos tipos de problemas en las entidades educativas universitarias y de niveles medios (ej. donde se estudien carreras de perfil agropecuario) depende de la eficiencia de la didáctica en el planteamiento y soluciones a ecuaciones lineales mediante problemas prácticos de la vida real, que permitan plantear y resolver los problemas presentados, transformándolos en ecuaciones y afianzando sus competencias asertivamente, según concluye Cedeño-Loor (2017). También Flotts et al. (2016) han referido deficiencias como la insuficiente capacidad para aplicar los conocimientos matemáticos a situaciones reales.</p>
+<p>La creación de sólidas bases matemáticas para resolver estos tipos de problemas en las entidades educativas universitarias y de niveles medios (ej. donde se estudien carreras de perfil agropecuario) depende de la eficiencia de la didáctica en el planteamiento y soluciones a ecuaciones lineales mediante problemas prácticos de la vida real, que permitan plantear y resolver los problemas presentados, transformándolos en ecuaciones y afianzando sus competencias asertivamente, según concluye <xref ref-type="bibr" rid="ref2">Cedeño-Loor (2017)</xref>. También <xref ref-type="bibr" rid="ref6">Flotts et al. (2016)</xref>  han referido deficiencias como la insuficiente capacidad para aplicar los conocimientos matemáticos a situaciones reales.</p>
 <p>Por todo el anterior análisis, en el presente artículo se tiene como objetivo mostrar cómo integrar aspectos básicos de nutrición animal, de matemática y de didáctica en el uso de ecuaciones <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -239,7 +240,7 @@
 </sec>
 <sec>
 <title>
-<bold>Antecedentes y supuestos</bold>
+Antecedentes y supuestos
 </title>
 <p>El uso de ecuaciones <inline-formula>
 <alternatives>
@@ -250,7 +251,7 @@
 </mml:math>
 <graphic xlink:href="607974617005_gi10.png"/>
 </alternatives>
-</inline-formula> en la formulación de alimentos balanceados y de raciones para los animales ha sido ampliamente descrito en la literatura especializada (Trujillo-Figueroa, 1987; Church 1991; Ensminger et al. 1991; Gupta y Chandan 2013; Santana et al. 2015; Nasseri y Darvishi 2016) y permite ajustar dos nutrientes de los varios que necesita un animal, con dos alimentos, de los muchos que se pueden emplear en una ración. Por tanto usar sistemas que permitan hacer lo mismo pero con tres ecuaciones es un paso de avance importante en la precisión de las fórmulas.</p>
+</inline-formula> en la formulación de alimentos balanceados y de raciones para los animales ha sido ampliamente descrito en la literatura especializada (<xref ref-type="bibr" rid="ref18">Trujillo-Figueroa, 1987</xref>;<xref ref-type="bibr" rid="ref3">Church, 1991</xref>;<xref ref-type="bibr" rid="ref5">Ensminger et al., 1991</xref>;<xref ref-type="bibr" rid="ref9">Gupta y Chandan 2013</xref>;<xref ref-type="bibr" rid="ref16">Santana et al. 2015</xref>;<xref ref-type="bibr" rid="ref18">Trujillo-Figueroa, 1987</xref>Nasseri y Darvishi 2016) y permite ajustar dos nutrientes de los varios que necesita un animal, con dos alimentos, de los muchos que se pueden emplear en una ración. Por tanto usar sistemas que permitan hacer lo mismo pero con tres ecuaciones es un paso de avance importante en la precisión de las fórmulas.</p>
 <p>Los autores del presente artículo proponen que para formular una mezcla de alimentos y/o una ración para animales mediante el planteamiento y solución de sistema <inline-formula>
 <alternatives>
 <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -289,11 +290,12 @@
 </mml:math>
 <graphic xlink:href="607974617005_gi13.png"/>
 </alternatives>
-</inline-formula>, pues requiere dominio del trabajo con las ecuaciones y cierto grado de abstracción para plantearlas; sin embargo, luego de alguna práctica es posible aplicarlo con rapidez cuando no se posee una microcomputadora; pero teniéndola y el Office instalado, es fácil y rápido encontrar la solución con Excel pues el comando “MDETERM” calcula el determinante de una matriz definida. La resolución manual de los determinantes de matrices se puede ampliar consultando a Varela, Suárez, Castro y Baldoquín (1986) Garth (2002) y Kolman (2006), entre otros muchos textos básicos del tema.</p>
+</inline-formula>, pues requiere dominio del trabajo con las ecuaciones y cierto grado de abstracción para plantearlas; sin embargo, luego de alguna práctica es posible aplicarlo con rapidez cuando no se posee una microcomputadora; pero teniéndola y el Office instalado, es fácil y rápido encontrar la solución con Excel pues el comando “MDETERM” calcula el determinante de una matriz definida. La resolución manual de los determinantes de matrices se puede ampliar consultando a <xref ref-type="bibr" rid="ref19">Varela, Suárez, Castro y Baldoquín (1986) </xref>
+<xref ref-type="bibr" rid="ref8">Garth (2002) </xref> y <xref ref-type="bibr" rid="ref11">Kolman (2006)</xref>, entre otros muchos textos básicos del tema.</p>
 </sec>
 <sec>
 <title>
-<bold>Diseño de la Investigación</bold>
+Diseño de la Investigación
 </title>
 <p>Como método empírico, se realizó un análisis documental para el estudio de la bibliografía especializada sobre el tema, principalmente mediante búsquedas en la Internet y empleando el módulo de “Advanced Search de Google” teniendo como criterio de búsqueda las palabras claves mencionadas (Sistemas de ecuaciones <inline-formula>
 <alternatives>
@@ -323,15 +325,15 @@
 </mml:math>
 <graphic xlink:href="607974617005_gi16.png"/>
 </alternatives>
-</inline-formula>. Se tuvo siempre presente la recomendaciones, cuidados y principios para aplicar esta herramienta de investigación cualitativa (Denzin y Lincoln, 2005 y Vargas, 2012); así, los criterios de inclusión de los informantes fueron por su nivel de formación académica y por poseer vínculos directos con los aspectos centrales de la propuesta, es decir lo nutricional, lo matemático y lo didáctico.</p>
+</inline-formula>. Se tuvo siempre presente la recomendaciones, cuidados y principios para aplicar esta herramienta de investigación cualitativa (<xref ref-type="bibr" rid="ref4">Denzin y Lincoln, 2005</xref> y V<xref ref-type="bibr" rid="ref20">Vargas, 2012</xref>argas, 2012); así, los criterios de inclusión de los informantes fueron por su nivel de formación académica y por poseer vínculos directos con los aspectos centrales de la propuesta, es decir lo nutricional, lo matemático y lo didáctico.</p>
 </sec>
 <sec>
 <title>
-<bold>Ejemplos prácticos</bold>
+Ejemplos prácticos
 </title>
 <sec>
 <title>
-<bold>Primer ejemplo: Formulación de mezclas de alimento</bold>
+Primer ejemplo: Formulación de mezclas de aliment
 </title>
 <p>Se desea formular un balanceado para cerdos en crecimiento (30-50 kg de peso) con los cinco alimentos y requerimientos de la Tabla <xref ref-type="table" rid="gt1">1</xref>.
 </p>
@@ -340,7 +342,7 @@
 <label>Tabla 1</label>
 <caption>
 <title>
-<bold>Tabla 1</bold>
+Tabla 1
 </title>
 </caption>
 <alt-text>Tabla 1 Tabla 1</alt-text>
@@ -408,14 +410,14 @@
 </tbody>
 </table>
 </alternatives>
-<attrib>Rostagno et al. 2005</attrib>
+<attrib>
+<xref ref-type="bibr" rid="ref15">Rostagno et al. 2005</xref>
+</attrib>
 <table-wrap-foot>
-<fn-group>
-<fn id="fn1" fn-type="other">
+<fn fn-type="other" id="fn1">
 <label>1</label>
 <p>Se usara la EM expresada en Mcal/kg porque así aparece en las tablas de referencia</p>
 </fn>
-</fn-group>
 </table-wrap-foot>
 </table-wrap>
 </p>
@@ -448,7 +450,7 @@
 <label>Tabla 2</label>
 <caption>
 <title>
-<bold>Tabla 2</bold>
+Tabla 2
 </title>
 </caption>
 <alt-text>Tabla 2 Tabla 2</alt-text>
@@ -649,7 +651,9 @@
 </mml:math>
 <graphic xlink:href="607974617005_gi17.png"/>
 </alternatives>
-</inline-formula> (Santana et al. 2015).</p>
+</inline-formula>
+<xref ref-type="bibr" rid="ref16">Santana et al. 2015</xref>.
+</p>
 <p>Efectivamente, si se compara la composición de los alimentos con la diferencia, ahora expresada en concentración 15,468% de PB y 3,293 Mcal/kg de EM) dos de los tres alimentos poseen o bien superior o inferior a la diferencia, su concentración de estos dos nutrientes. Si los tres tuvieran una concentración superior o inferior a la diferencia, entonces matemáticamente podría existir solución, pero nutricionalmente no, porque una de las variables resultaría negativa al final de los cálculos y la cantidad o proporción de un alimento es un número real que no toma nunca valores negativos.</p>
 <p>La base matemática de esta condición “a punta de dedo” de que uno de los dos alimentos debe poseer una concentración del nutriente a ajustar por encima de la necesidad y los otros dos por debajo, o a la inversa uno por debajo y dos por encima se debe a que para obtener una solución donde las tres variables resulten ser positivas la misma debe estar ubicada en el primer octante de un sistema con tres variables <italic>X, Y, Z</italic> cuyos valores (que serán las proporciones de los tres alimentos) al ser multiplicados por sus respectivos coeficientes y sumados resulten en la necesidad de los tres nutrientes a ajustar.</p>
 <p>El término “a punta de dedo” se brinda porque no es absolutamente cierto que siempre que se cumpla esta condición las variables van a ser positivas pues por ejemplo en el presente ejemplo si hubiera que ajustar 15,468% de PB con dos alimentos con 45% y 30% de PB y el otro 13,24%; ya una variable resulta ser negativa. Porque 13,24% está cercano al 15 necesario y los otros dos están muy por encima de este último.</p>
@@ -838,7 +842,7 @@
 </p>
 <p>Aquí es importante recordar la manera en que se resuelven estas matrices por la Regla de Sarrus para el determinante de orden 3, o regla para obtener los productos positivos y los productos negativos. Como se muestra a continuación:</p>
 <p>
-<fig id="gf5">
+<fig>
 <graphic xlink:href="607974617005_gf4.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
@@ -1388,7 +1392,7 @@
 <label>Tabla 3</label>
 <caption>
 <title>
-<bold>Tabla 3</bold>
+Tabla 3
 </title>
 </caption>
 <alt-text>Tabla 3 Tabla 3</alt-text>
@@ -1525,7 +1529,7 @@
 <label>Figura 1</label>
 <caption>
 <title>
-<bold>Figura 1</bold>
+Figura 1
 </title>
 <p>Ejemplo de los datos iniciales</p>
 </caption>
@@ -1539,7 +1543,7 @@
 <label>Figura 2</label>
 <caption>
 <title>
-<bold>Figura 2</bold>
+Figura 2
 </title>
 <p>Realización del balance parcial (diferencia)</p>
 </caption>
@@ -1635,7 +1639,7 @@
 <label>Figura 3</label>
 <caption>
 <title>
-<bold>Figura 3</bold>
+Figura 3
 </title>
 <p>Tabulación de las matrices, su solución (<inline-formula>
 <alternatives>
@@ -1659,7 +1663,7 @@
 <label>Figura 4</label>
 <caption>
 <title>
-<bold>Figura 4</bold>
+Figura 4
 </title>
 <p>Proporciones de los tres alimentos restantes, aportes parciales y totales a la mezcla y balance final obtenidos en la hoja de Excel.<sup>
 <xref ref-type="fn" rid="fn11">3</xref>
@@ -1676,7 +1680,7 @@
 </sec>
 <sec>
 <title>
-<bold>Segundo ejemplo: Formulación de una ración para vacas</bold>
+Segundo ejemplo: Formulación de una ración para vacas
 </title>
 <p>Una ración es la cantidad de alimentos que se suministra a un animal para satisfacer sus necesidades nutritivas diarias y difiere de la formulación de una mezcla industrial de alimentos (balanceado) en que se trata de calcular cantidades de alimentos, no proporciones de estos en base a 100% como en la mezcla.</p>
 <p>En este segundo ejemplo se desea formular una ración para vacas lactantes donde se dispone de cinco alimentos y su valor nutritivo (Tabla <xref ref-type="table" rid="gt5">4</xref>) y se conocen de antemano las cantidades a ofertar de dos alimentos que son el Pasto estrella (24,25 kg), determinado por su disponibilidad en las áreas de pastoreo, y del concentrado (1,516 kg) a suministrar en el ordeño que fue prefijado, y se pretende ajustar entonces las cantidades de nutrientes que restan usando los otros tres que han de ser ofrecidos en los comederos. Se tienen los datos del valor nutritivo de los alimentos (<italic>EM</italic>,<italic>PB</italic>, Calcio (<italic>Ca</italic>) y Fósforo (<italic>P</italic>)) y los requerimientos nutritivos de los animales (Tabla <xref ref-type="table" rid="gt6">5</xref>).
@@ -1686,7 +1690,7 @@
 <label>Tabla 4</label>
 <caption>
 <title>
-<bold>Tabla 4</bold>
+Tabla 4
 </title>
 </caption>
 <alt-text>Tabla 4 Tabla 4</alt-text>
@@ -1694,7 +1698,6 @@
 <graphic xlink:href="607974617005_gt6.png" position="anchor" orientation="portrait"/>
 <table id="gt6-526564616c7963">
 <tbody>
-<tr/>
 <tr>
 <td style="text-align: center;" rowspan="2">Alimentos</td>
 <td style="text-align: center;">MS</td>
@@ -1770,7 +1773,7 @@
 <label>Tabla 5</label>
 <caption>
 <title>
-<bold>Tabla 5</bold>
+Tabla 5
 </title>
 </caption>
 <alt-text>Tabla 5 Tabla 5</alt-text>
@@ -1778,7 +1781,6 @@
 <graphic xlink:href="607974617005_gt7.png" position="anchor" orientation="portrait"/>
 <table id="gt7-526564616c7963">
 <tbody>
-<tr/>
 <tr>
 <td style="text-align: center;"/>
 <td style="text-align: center;">CMS<sup>8</sup>
@@ -1811,7 +1813,8 @@
 </table-wrap>
 </p>
 <p>Es preciso siempre realizar una estimación del CMS, en primer lugar para tener una referencia aproximada de cuánta MS puede consumir cada animal, y en segundo lugar como guía para que los requerimientos nutricionales, que están en términos cuantitativos MJ y g por día), se puedan expresar en unidades cualitativas iguales a las usadas en la tabla de composición de los alimentos (MJ/kg y % en base seca) y se puedan tomar decisiones previas acerca del uso de los alimentos.</p>
-<p>Para esta estimación se puede usar cualquier variante, generalmente ecuaciones de predicción que poseen variables niveles de precisión, pues en el proceso de formulación de raciones y en la alimentación práctica de los animales el CMS es particularmente importante porque a partir de ello se establece la cantidad de nutrientes disponibles para la producción y la salud del animal y el cálculo de la cantidad real o estimada de MS es necesario para la formulación de las dietas y para prevenir tanto la subalimentación como la sobrealimentación de los animales (NRC 2001). No obstante, se considera que el consumo de materia seca es el área de mayor incertidumbre en la formulación de raciones, aunque se “acepta” que por alguna parte hay que comenzar (Webster, 1987; Tamminga y Hof, 2000).</p>
+<p>Para esta estimación se puede usar cualquier variante, generalmente ecuaciones de predicción que poseen variables niveles de precisión, pues en el proceso de formulación de raciones y en la alimentación práctica de los animales el CMS es particularmente importante porque a partir de ello se establece la cantidad de nutrientes disponibles para la producción y la salud del animal y el cálculo de la cantidad real o estimada de MS es necesario para la formulación de las dietas y para prevenir tanto la subalimentación como la sobrealimentación de los animales (<xref ref-type="bibr" rid="ref14">NRC 2001</xref>). No obstante, se considera que el consumo de materia seca es el área de mayor incertidumbre en la formulación de raciones, aunque se “acepta” que por alguna parte hay que comenzar (<xref ref-type="bibr" rid="ref21">Webster, 19877</xref>;<xref ref-type="bibr" rid="ref17">Tamminga y Hof, 2000</xref>).
+</p>
 <p>El principio de la formulación de raciones usando ecuaciones triples es igual que el de la formulación de las mezclas que se analizó anteriormente, es decir, sería fijar previamente las cantidades de algunos alimentos (excepto tres), calcular sus aportes a la ración, comparar con los requerimientos de nutrientes, obtener las cantidades de nutrientes que restan y ajustar estas con los tres alimentos dejados “libres” para ello. Pero, cuando se hace en términos cuantitativos, o sea determinando las cantidades de alimentos necesarias para suplir las cantidades de nutrientes requeridas, se hace necesario hacer algunos cambios en el planteamiento de las ecuaciones. Sin embargo, se posee la ventaja de que se pueden ajustar ciertamente tres nutrientes, no dos nutrientes más la suma de las proporciones de los alimentos como en la formulación de balanceados; esto se debe a que en las raciones la suma de las cantidades de MS no tiene necesariamente que ser la estimada a consumir por el animal.</p>
 <p>Véase en la Tabla <xref ref-type="table" rid="gt7">6</xref> que una vez conocidas las cantidades de Pasto Estrella (24,25 kg) y del Concentrado (1,516 kg), calculados sus aportes nutritivos a la ración (teniendo en cuenta su composición), sumados sus aportes parciales y comparados con los requerimientos; se obtiene la diferencia que es necesario ajustar con los otros tres alimentos restantes.</p>
 <p>
@@ -1819,7 +1822,7 @@
 <label>Figura 6</label>
 <caption>
 <title>
-<bold>Figura 6</bold>
+Figura 6
 </title>
 </caption>
 <alt-text>Figura 6 Figura 6</alt-text>
@@ -1902,7 +1905,7 @@
 <label>Tabla 7</label>
 <caption>
 <title>
-<bold>Tabla 7</bold>
+Tabla 7
 </title>
 </caption>
 <alt-text>Tabla 7 Tabla 7</alt-text>
@@ -2386,7 +2389,7 @@
 <label>Tabla 8</label>
 <caption>
 <title>
-<bold>Tabla 8</bold>
+Tabla 8
 </title>
 </caption>
 <alt-text>Tabla 8 Tabla 8</alt-text>
@@ -2517,11 +2520,11 @@
 </table-wrap>
 </p>
 <p>
-<fig id="gf6">
+<fig>
 <label>Figura 5</label>
 <caption>
 <title>
-<bold>Figura 5</bold>
+Figura 5
 </title>
 <p>Tabulación de las matrices, su solución (<inline-formula>
 <alternatives>
@@ -2569,7 +2572,7 @@
 </sec>
 <sec>
 <title>
-<bold>Conclusiones</bold>
+Conclusiones
 </title>
 <p>Se demuestran las ventajas y cuidados de la propuesta de emplear ecuaciones <inline-formula>
 <alternatives>
@@ -2594,7 +2597,7 @@
 </sec>
 <sec>
 <title>
-<bold>Recomendaciones</bold>
+Recomendaciones
 </title>
 <p>A partir de todo lo propuesto y concluido, es factible recomendar para los encargados de la alimentación de los animales que deseen resolver problemas propios de sus haciendas, sin necesidad de usar Softwares sofisticados, elaborar sus propias hojas de cálculos en Excel y ajustar sus raciones o balanceados con ecuaciones <inline-formula>
 <alternatives>
@@ -2620,9 +2623,8 @@
 <back>
 <ref-list>
 <title>Referencias</title>
-<ref id="redalyc_607974617005_ref2">
-<label>[1]</label>
-<mixed-citation>[1] Cedeño-Loor, F.O. (2017). Importancia del método de resolución de problemas con ejemplo de la vida diaria en el aprendizaje de matemática en los estudiantes del nivel I de la Universidad Técnica de Manabí– Ecuador, 2015. Tesis doctoral. Lima – Perú. 2017.</mixed-citation>
+<ref id="ref2">
+<mixed-citation>Cedeño-Loor, F.O. (2017). Importancia del método de resolución de problemas con ejemplo de la vida diaria en el aprendizaje de matemática en los estudiantes del nivel I de la Universidad Técnica de Manabí– Ecuador, 2015. Tesis doctoral. Lima – Perú. 2017.</mixed-citation>
 <element-citation publication-type="thesis">
 <person-group person-group-type="author">
 <name>
@@ -2635,9 +2637,8 @@
 <comment content-type="degree">Importancia del método de resolución de problemas con ejemplo de la vida diaria en el aprendizaje de matemática en los estudiantes del nivel I de la Universidad Técnica de Manabí– Ecuador, 2015</comment>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref3">
-<label>[2]</label>
-<mixed-citation>[2] Church, D.C. (1991). Livestock feeds and feeding. Third edition. Prentice-Hall Editions. USA.</mixed-citation>
+<ref id="ref3">
+<mixed-citation>Church, D.C. (1991). Livestock feeds and feeding. Third edition. Prentice-Hall Editions. USA.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2650,9 +2651,8 @@
 <series>Livestock feeds and feeding. Third edition</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref4">
-<label>[3]</label>
-<mixed-citation>[3] Denzin, N. K., y Lincoln, Y. S. (2005). The Sage Handbook of Qualitative Research. London, Inglaterra: Sage. P. 643-648.</mixed-citation>
+<ref id="ref4">
+<mixed-citation>Denzin, N. K., y Lincoln, Y. S. (2005). The Sage Handbook of Qualitative Research. London, Inglaterra: Sage. P. 643-648.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2671,9 +2671,8 @@
 <series>The Sage Handbook of Qualitative Research</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref5">
-<label>[4]</label>
-<mixed-citation>[4] Ensminger, M.E. Oldfield, J.E., y Heinemann, W.W. (1991). Feeds and Nutrition. Second Edition. The Ensmimger Publishing Co. California. USA.</mixed-citation>
+<ref id="ref5">
+<mixed-citation>Ensminger, M.E. Oldfield, J.E., y Heinemann, W.W. (1991). Feeds and Nutrition. Second Edition. The Ensmimger Publishing Co. California. USA.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2694,9 +2693,8 @@
 <series>Feeds and Nutrition. Second Edition</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref6">
-<label>[5]</label>
-<mixed-citation>[5] Flotts, M., Manzi, J., Jiménez, D., Abarzúa, A., Cayuman, C., y García, M. (2016). Informe de resultados TERCE. Logros del aprendizaje. Santiago de Chile: Oficina Regional de Educación para América Latina y el Caribe. Recuperado de: http://repositorio.minedu.gob.pe/handle/123456789/3771.</mixed-citation>
+<ref id="ref6">
+<mixed-citation>Flotts, M., Manzi, J., Jiménez, D., Abarzúa, A., Cayuman, C., y García, M. (2016). Informe de resultados TERCE. Logros del aprendizaje. Santiago de Chile: Oficina Regional de Educación para América Latina y el Caribe. Recuperado de: http://repositorio.minedu.gob.pe/handle/123456789/3771.</mixed-citation>
 <element-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -2732,9 +2730,8 @@
 </comment>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref7">
-<label>[6]</label>
-<mixed-citation>[6] García Trujillo, R., y Cáceres, O. (1984). Nuevos sistemas para expresar el valor nutritivo de los alimentos y el requerimiento y racionamiento de los rumiantes. Edit. EEPF “Indio Hatuey”, Matanzas. Cuba.</mixed-citation>
+<ref id="ref7">
+<mixed-citation>García Trujillo, R., y Cáceres, O. (1984). Nuevos sistemas para expresar el valor nutritivo de los alimentos y el requerimiento y racionamiento de los rumiantes. Edit. EEPF “Indio Hatuey”, Matanzas. Cuba.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2752,9 +2749,8 @@
 <series>Nuevos sistemas para expresar el valor nutritivo de los alimentos y el requerimiento y racionamiento de los rumiantes.</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref8">
-<label>[7]</label>
-<mixed-citation>[7] Garth, W. (2002). Algebra lineal con aplicaciones. Cuarta Edición. Editorial McGraw-Hill.</mixed-citation>
+<ref id="ref8">
+<mixed-citation>Garth, W. (2002). Algebra lineal con aplicaciones. Cuarta Edición. Editorial McGraw-Hill.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2768,9 +2764,8 @@
 <series>Algebra lineal con aplicaciones</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref9">
-<label>[8]</label>
-<mixed-citation>[8] Gupta, R., y Chandan, M. (2013). Use of controlled random search technique for global optimization in animal diet problem. International Journal of Emerging Technology and Advanced Engineering, 3(2), 284-284.</mixed-citation>
+<ref id="ref9">
+<mixed-citation>Gupta, R., y Chandan, M. (2013). Use of controlled random search technique for global optimization in animal diet problem. International Journal of Emerging Technology and Advanced Engineering, 3(2), 284-284.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2791,9 +2786,8 @@
 <lpage>284</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref10">
-<label>[9]</label>
-<mixed-citation>[9] Heard, J.W., Cohen, D.C., Doyle, P.T., Wales, W.J. y Stockdale, C. R. (2004). Diet Check—a tactical decision support tool for feeding decisions with grazing dairy cows. Animal Feed Science and Technology.112:177.</mixed-citation>
+<ref id="ref10">
+<mixed-citation>Heard, J.W., Cohen, D.C., Doyle, P.T., Wales, W.J. y Stockdale, C. R. (2004). Diet Check—a tactical decision support tool for feeding decisions with grazing dairy cows. Animal Feed Science and Technology.112:177.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2824,9 +2818,8 @@
 <lpage>177</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref11">
-<label>[10]</label>
-<mixed-citation>[10] Kolman, B. (2006). Algebra lineal. Editorial Pearson. 8va Edición. 760 p.</mixed-citation>
+<ref id="ref11">
+<mixed-citation>Kolman, B. (2006). Algebra lineal. Editorial Pearson. 8va Edición. 760 p.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2841,9 +2834,8 @@
 <series>Algebra lineal</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref12">
-<label>[11]</label>
-<mixed-citation>[11] Nabasirye, M., Mugisha, J.Y.T., Tibayungwa, F., y Kyarisiima, C. C. (2011). Optimization of input in animal production: A linear programming approach to the ration formulation problem. International Research Journal of Agricultural Science and Soil Science. 1(7), 221-226.</mixed-citation>
+<ref id="ref12">
+<mixed-citation>Nabasirye, M., Mugisha, J.Y.T., Tibayungwa, F., y Kyarisiima, C. C. (2011). Optimization of input in animal production: A linear programming approach to the ration formulation problem. International Research Journal of Agricultural Science and Soil Science. 1(7), 221-226.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2872,9 +2864,8 @@
 <lpage>226</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref13">
-<label>[12]</label>
-<mixed-citation>[12] Nasseri, S.H., Darvishi, D. (2016). Animal diet formulation with floating price. Iranian Journal of Optimization. 8(2), 101-110.</mixed-citation>
+<ref id="ref13">
+<mixed-citation>Nasseri, S.H., Darvishi, D. (2016). Animal diet formulation with floating price. Iranian Journal of Optimization. 8(2), 101-110.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2895,22 +2886,21 @@
 <lpage>110</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref14">
-<label>[13]</label>
-<mixed-citation>[13] NRC (2001). Nutrient Requirements of Dairy Cattle: Seventh Revised Edition, 2001 Subcommittee on Dairy Cattle Nutrition, Committee on Animal Nutrition, National Research Council. USA. ISBN: 0-309-51521-1.</mixed-citation>
-<element-citation publication-type="confproc">
+<ref id="ref14">
+<mixed-citation>NRC (2001). Nutrient Requirements of Dairy Cattle: Seventh Revised Edition, 2001. Subcommittee on Dairy Cattle Nutrition, Committee on Animal Nutrition, National Research Council. USA. ISBN: 0-309-51521-1.</mixed-citation>
+<element-citation publication-type="book">
 <person-group person-group-type="author">
 <collab>NRC</collab>
 </person-group>
-<source>Subcommittee on Dairy Cattle Nutrition, Committee on Animal Nutrition, National Research Council</source>
+<source>Nutrient Requirements of Dairy Cattle: Seventh Revised Edition, 2001</source>
 <year>2001</year>
-<series>Nutrient Requirements of Dairy Cattle: Seventh Revised Edition, 2001</series>
+<publisher-name>National Research Council</publisher-name>
+<publisher-loc>USA</publisher-loc>
 <isbn>0-309-51521-1</isbn>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref15">
-<label>[14]</label>
-<mixed-citation>[14] Rostagno, H.S. (2005). Tablas Brasileñas para Aves y Cerdos - Composición de Alimentos y Requerimientos Nutricionales. 2da Edición. - Viçosa : UFV; Brasil.</mixed-citation>
+<ref id="ref15">
+<mixed-citation>Rostagno, H.S. (2005). Tablas Brasileñas para Aves y Cerdos - Composición de Alimentos y Requerimientos Nutricionales. 2da Edición. - Viçosa : UFV; Brasil.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2924,9 +2914,8 @@
 <series>Tablas Brasileñas para Aves y Cerdos - Composición de Alimentos y Requerimientos Nutricionales</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref16">
-<label>[15]</label>
-<mixed-citation>[15] Santana, A.A., Pernía, L.A., y Santana, D.A., (2015). Historical, mathematical and nutritional bases of Pearson Square as a fit method for ruminant rations. Cuban Journal of Agricultural Science, 49(3), 279-288.</mixed-citation>
+<ref id="ref16">
+<mixed-citation>Santana, A.A., Pernía, L.A., y Santana, D.A., (2015). Historical, mathematical and nutritional bases of Pearson Square as a fit method for ruminant rations. Cuban Journal of Agricultural Science, 49(3), 279-288.</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -2951,9 +2940,8 @@
 <lpage>288</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref17">
-<label>[16]</label>
-<mixed-citation>[16] Tamminga, S., y Hof, G. (2000). Feeding Systems and Feed Evaluation Models. Feeding Systems for Dairy Cows. CAB International. United Kingdom.</mixed-citation>
+<ref id="ref17">
+<mixed-citation>Tamminga, S., y Hof, G. (2000). Feeding Systems and Feed Evaluation Models. Feeding Systems for Dairy Cows. CAB International. United Kingdom.</mixed-citation>
 <element-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -2970,9 +2958,8 @@
 <series>Feeding Systems and Feed Evaluation Models. Feeding Systems for Dairy Cows</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref18">
-<label>[17]</label>
-<mixed-citation>[17] Trujillo-Figueroa, V. (1987). Métodos matemáticos en la nutrición animal. Editorial McGraw-Hill. México.</mixed-citation>
+<ref id="ref18">
+<mixed-citation>Trujillo-Figueroa, V. (1987). Métodos matemáticos en la nutrición animal. Editorial McGraw-Hill. México.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2986,9 +2973,8 @@
 <series>Métodos matemáticos en la nutrición animal</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref19">
-<label>[18]</label>
-<mixed-citation>[18] Varela, M.V., Suárez, L., Castro, M. &amp; Baldoquín, G. (1986). Álgebra lineal. Edit. Pueblo y Educación. La Habana. Cuba.</mixed-citation>
+<ref id="ref19">
+<mixed-citation>Varela, M.V., Suárez, L., Castro, M. &amp; Baldoquín, G. (1986). Álgebra lineal. Edit. Pueblo y Educación. La Habana. Cuba.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -3014,9 +3000,8 @@
 <series>Álgebra lineal</series>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref20">
-<label>[19]</label>
-<mixed-citation>[19] Vargas, I. (2012). La entrevista en la investigación cualitativa: nuevas tendencias y retos. Revista Calidad en la Educación Superior. 3(1). Mayo. 119-139</mixed-citation>
+<ref id="ref20">
+<mixed-citation>Vargas, I. (2012). La entrevista en la investigación cualitativa: nuevas tendencias y retos. Revista Calidad en la Educación Superior. 3(1). Mayo. 119-139</mixed-citation>
 <element-citation publication-type="journal">
 <person-group person-group-type="author">
 <name>
@@ -3034,9 +3019,8 @@
 <lpage>139</lpage>
 </element-citation>
 </ref>
-<ref id="redalyc_607974617005_ref21">
-<label>[20]</label>
-<mixed-citation>[20] Webster, J. (1987). Understanding the dairy cow. BSP Professional Books. Printed in Great Britain by Billing and Sons Ltd. Worcester. United Kingdom.</mixed-citation>
+<ref id="ref21">
+<mixed-citation>Webster, J. (1987). Understanding the dairy cow. BSP Professional Books. Printed in Great Britain by Billing and Sons Ltd. Worcester. United Kingdom.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -3075,11 +3059,13 @@
 </fn>
 <fn id="fn15" fn-type="other">
 <label>7</label>
-<p>Por conceptos de mantenimiento, producción de leche y la calidad del pasto, también según las tablas de García Trujillo y Cáceres (1984)</p>
+<p>Por conceptos de mantenimiento, producción de leche y la calidad del pasto, también según las tablas de <xref ref-type="bibr" rid="ref7">García Trujillo y Cáceres (1984)</xref>
+</p>
 </fn>
 <fn id="fn16" fn-type="other">
 <label>8</label>
-<p>El Consumo de Materia Seca (CMS) por los animales se estimó según la fórmula 1, de McCullough (1971) citado por Trujillo-Figueroa (1987):</p>
+<p>El Consumo de Materia Seca (CMS) por los animales se estimó según la fórmula 1, de McCullough (1971) citado por <xref ref-type="bibr" rid="ref18">Trujillo-Figueroa (1987)</xref>:
+</p>
 <p>
 <inline-formula>
 <alternatives>
