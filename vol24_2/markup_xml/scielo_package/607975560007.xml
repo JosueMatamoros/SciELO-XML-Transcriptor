@@ -540,7 +540,7 @@
                 </inline-formula>
             </p>
             <p>
-                <italic>en el intervalo [0, 1], con paso 0.01, mostrar las primeras 4 iteraciones y construir la gráfica de la solución.</italic>
+                <italic>en el intervalo &#91;0, 1&#93;, con paso 0.01, mostrar las primeras 4 iteraciones y construir la gráfica de la solución.</italic>
             </p>
             <p>El código R que resuelve este problema, con las condiciones establecidas, es el siguiente</p>
             <fig id="gf1">
@@ -564,22 +564,22 @@
                         <tbody>
 
                             <tr>
-                                <td style="text-align: center;">[1,]</td>
+                                <td style="text-align: center;">&#91;1,&#93;</td>
                                 <td style="text-align: center;">0,00</td>
                                 <td style="text-align: center;">0.1000000</td>
                             </tr>
                             <tr>
-                                <td style="text-align: center;">[2,]</td>
+                                <td style="text-align: center;">&#91;2,&#93;</td>
                                 <td style="text-align: center;">0,01</td>
                                 <td style="text-align: center;">0.1001051</td>
                             </tr>
                             <tr>
-                                <td style="text-align: center;">[3,]</td>
+                                <td style="text-align: center;">&#91;3,&#93;</td>
                                 <td style="text-align: center;">0,02</td>
                                 <td style="text-align: center;">0.1002205</td>
                             </tr>
                             <tr>
-                                <td style="text-align: center;">[4,]</td>
+                                <td style="text-align: center;">&#91;4,&#93;</td>
                                 <td style="text-align: center;">0,03</td>
                                 <td style="text-align: center;">0.1003461</td>
                             </tr>
@@ -757,7 +757,7 @@
                     <attrib>Elaboración propia</attrib>
                 </fig>
                 <p># Ecuaciones # P es la variable de estado Logis= function(t, P, parms) { Salida1=with(as.list(c(P, parms)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(Salida1)}</p>
-                <p>El modelo se corre en el intervalo de tiempo [0,2] con paso 0.1 y se resuelve utilizando la función <bold>ode()</bold> que contiene la rutina <bold>lsoda</bold> como método de integración predeterminado y que tiene como argumentos básicos las condiciones iniciales, el tiempo de corrida, la función Logis y los parámetros.</p>
+                <p>El modelo se corre en el intervalo de tiempo &#91;0,2&#93; con paso 0.1 y se resuelve utilizando la función <bold>ode()</bold> que contiene la rutina <bold>lsoda</bold> como método de integración predeterminado y que tiene como argumentos básicos las condiciones iniciales, el tiempo de corrida, la función Logis y los parámetros.</p>
                 <fig>
                     <graphic xlink:href="607975560007_gf7.png" position="anchor" orientation="portrait"/>
                     <attrib>Elaboración propia</attrib>
@@ -780,52 +780,52 @@
                                 <tbody>
 
                                     <tr>
-                                        <td style="text-align: center;">[1,]</td>
+                                        <td style="text-align: center;">&#91;1,&#93;</td>
                                         <td style="text-align: center;">0,0</td>
                                         <td style="text-align: center;">3.000000</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">[2,]</td>
+                                        <td style="text-align: center;">&#91;2,&#93;</td>
                                         <td style="text-align: center;">0,1</td>
                                         <td style="text-align: center;">2.840869</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">[3,]</td>
+                                        <td style="text-align: center;">&#91;3,&#93;</td>
                                         <td style="text-align: center;">0,2</td>
                                         <td style="text-align: center;">2.679054</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">[4,]</td>
+                                        <td style="text-align: center;">&#91;4,&#93;</td>
                                         <td style="text-align: center;">0,3</td>
                                         <td style="text-align: center;">2.515542</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">[5,]</td>
+                                        <td style="text-align: center;">&#91;5,&#93;</td>
                                         <td style="text-align: center;">0,4</td>
                                         <td style="text-align: center;">2.351415</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">[6,]</td>
+                                        <td style="text-align: center;">&#91;6,&#93;</td>
                                         <td style="text-align: center;">0,5</td>
                                         <td style="text-align: center;">2.187841</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">[7,]</td>
+                                        <td style="text-align: center;">&#91;7,&#93;</td>
                                         <td style="text-align: center;">0,6</td>
                                         <td style="text-align: center;">2.026040</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">[8,]</td>
+                                        <td style="text-align: center;">&#91;8,&#93;</td>
                                         <td style="text-align: center;">0,7</td>
                                         <td style="text-align: center;">1.867238</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">[9,]</td>
+                                        <td style="text-align: center;">&#91;9,&#93;</td>
                                         <td style="text-align: center;">0,8</td>
                                         <td style="text-align: center;">1.712629</td>
                                     </tr>
                                     <tr>
-                                        <td style="text-align: center;">[10,]</td>
+                                        <td style="text-align: center;">&#91;10,&#93;</td>
                                         <td style="text-align: center;">0,9</td>
                                         <td style="text-align: center;">1.563335</td>
                                     </tr>
@@ -877,9 +877,9 @@
                 <p>#                    <xref ref-type="fig" rid="gf9">figura 3</xref> # install.packages("deSolve") library(deSolve) # Solución de la ecuación logística tiempos2=seq(from = 0, to = 3, by = 0.01) param2 = c(a=1.5, L=6, K=14) logis = function(t,y,param){ salida = with(as.list(c(y,param)),{ dP=a*P*(P/L-1)*(1-P/K) list(c(dP))}) return(salida)}</p>
                 <p>oncecur=seq(0,20,2)</p>
                 <p>listadatos=lapply(oncecur,function(i){ode(y=c(P=i), times=tiempos2,func=logis,parms = param2)})</p>
-                <p>curvas= rbind(listadatos[[1]],listadatos[[2]],listadatos[[3]], listadatos[[4]],listadatos[[5]],listadatos[[6]], listadatos[[7]],listadatos[[8]],listadatos[[9]], listadatos[[10]],listadatos[[11]])</p>
+                <p>curvas= rbind(listadatos&#91;&#91;1&#93;&#93;,listadatos&#91;&#91;2&#93;&#93;,listadatos&#91;&#91;3&#93;&#93;, listadatos&#91;&#91;4&#93;&#93;,listadatos&#91;&#91;5&#93;&#93;,listadatos&#91;&#91;6&#93;&#93;, listadatos&#91;&#91;7&#93;&#93;,listadatos&#91;&#91;8&#93;&#93;,listadatos&#91;&#91;9&#93;&#93;, listadatos&#91;&#91;10&#93;&#93;,listadatos&#91;&#91;11&#93;&#93;)</p>
                 <p>curvas2=data.frame(curvas) curvas2$group=c(rep("P(0)=0",301),rep("P(0)=2",301), rep("P(0)=4",301),rep("P(0)=6",301),rep("P(0)=8",301), rep("P(0)=10",301),rep("P(0)=12",301),rep("P(0)=14",301), rep("P(0)=16",301),rep("P(0)=18",301),rep("P(0)=20",301)) curvas2</p>
-                <p>logis2=curvas2 # Modificar los datos data_label = logis2 data_label$label = NA data_label$label[which(data_label$time == min(data_label$time))] &lt;- data_label$group[which(data_label$time == min(data_label$time))]</p>
+                <p>logis2=curvas2 # Modificar los datos data_label = logis2 data_label$label = NA data_label$label&#91;which(data_label$time == min(data_label$time))&#93; &lt;- data_label$group&#91;which(data_label$time == min(data_label$time))&#93;</p>
                 <p>install.packages("ggplot2") require(ggplot2)</p>
                 <p>colcur = c("red","#999999","#E69F00", "red", "deeppink4", "green", "#000000", "red", "#0072B2","#009E73" , "#CC79A7")</p>
                 <p>install.packages("ggrepel") require(ggrepel)</p>
@@ -1016,7 +1016,7 @@
                 <p>#                    <xref ref-type="fig" rid="gf12">figura 4</xref># El Sistema de Chen # Las ecuaciones del modelo Chen = function (t, y, parms) { with(as.list(y), { dX = -a * X+a*Y dY = (c-a)*X+c*Y - X*Z dZ =X*Y - b*Z list(c(dX, dY, dZ)) })}</p>
                 <p># Valores de los parámetros y condiciones iniciales param=c(a = 35, b = 3, c = 28) Eini = c(X = -3, Y = 2, Z = 20)</p>
                 <p># la integración se realiza por 100 veces cada 0.001 vez library(deSolve) tiempos = seq(from = 0, to = 100, by = 0.001) salida = ode(y = Eini, times = tiempos, func = Chen, parms = param)</p>
-                <p># La gráfica del modelo plot(salida,xlab="tiempo", col= "blue", lwd = 1) plot(salida[,"X"], salida[,"Z"], col= "red", type = "l", xlab = "X", ylab = "Z", main = "Proyección plano XZ")</p>
+                <p># La gráfica del modelo plot(salida,xlab="tiempo", col= "blue", lwd = 1) plot(salida&#91;,"X"&#93;, salida&#91;,"Z"&#93;, col= "red", type = "l", xlab = "X", ylab = "Z", main = "Proyección plano XZ")</p>
                 <p>La gráfica resultante de este proceso se muestra en la <xref ref-type="fig" rid="gf13">figura 4</xref>.
                 </p>
 
@@ -1047,7 +1047,7 @@
                     <attrib>Elaboración propia</attrib>
                 </fig>
 
-                <p>#                    <xref ref-type="fig" rid="gf14">Figura 5</xref> gráfica 3D library(scatterplot3d) scatterplot3d(salida[,-1], type = "l", lwd = 1, xlab = "X", ylab = "Y", zlab = "Z", main = "El atractor de Chen", col.main="red",color=("darkorchid"),box=FALSE, angle=45)</p>
+                <p>#                    <xref ref-type="fig" rid="gf14">Figura 5</xref> gráfica 3D library(scatterplot3d) scatterplot3d(salida&#91;,-1&#93;, type = "l", lwd = 1, xlab = "X", ylab = "Y", zlab = "Z", main = "El atractor de Chen", col.main="red",color=("darkorchid"),box=FALSE, angle=45)</p>
                 <p>En esta sección se ha presentado únicamente una muestra del variado comportamiento que presenta este sistema para diversos valores de sus parámetros, en <xref ref-type="bibr" rid="ref13">Sooraksa y Chen, 2018</xref> puede encontrarse una descripción más completa de este sistema.</p>
                 <p>
                     <bold>El paquete phaseR</bold>
@@ -1702,7 +1702,7 @@ Figura 7
 <graphic xlink:href="607975560007_gf20.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-<p>#<xref ref-type="fig" rid="gf19">Figura 8</xref> par(mfrow=c(1,1)) # Posicion X contra t plot(Salida[,"time"],Salida[,"X"], ylim=c(-2, max(Salida[ ,"X"], 3)), type="l", col="red", lwd=2, xlab="Tiempo", ylab="", main="Un modelo que generaliza la ley de Hooke") grid() #  velocidad Y contra t lines(Salida[,"time"], Salida[,"Y"], type="l", col="blue", lwd=2) legend("topright", legend=c("Desplazamiento", "Velocidad"), col=c("red", "blue"), lwd=c(2,2), bg="snow1")</p>
+<p>#<xref ref-type="fig" rid="gf19">Figura 8</xref> par(mfrow=c(1,1)) # Posicion X contra t plot(Salida&#91;,"time"&#93;,Salida&#91;,"X"&#93;, ylim=c(-2, max(Salida&#91; ,"X"&#93;, 3)), type="l", col="red", lwd=2, xlab="Tiempo", ylab="", main="Un modelo que generaliza la ley de Hooke") grid() #  velocidad Y contra t lines(Salida&#91;,"time"&#93;, Salida&#91;,"Y"&#93;, type="l", col="blue", lwd=2) legend("topright", legend=c("Desplazamiento", "Velocidad"), col=c("red", "blue"), lwd=c(2,2), bg="snow1")</p>
 <p>Este proceso que genera la gráfica de la figura <xref ref-type="fig" rid="gf20">8</xref>, la cual sugiere que las soluciones de la ecuación diferencial tienen carácter periódico cómo se verifica teóricamente en <xref ref-type="bibr" rid="ref6">Cerón &amp; Guerrero, 2008</xref>.
 </p>
 <fig id="gf20">
@@ -1728,7 +1728,7 @@ Figura 8
 <attrib>Elaboración propia</attrib>
 </fig>
 </p>
-<p>#<xref ref-type="fig" rid="gf21">Figura 9</xref> library(phaseR) Hooke=function(t, y, param){ # Variables x =y[1] y =y[2] # Parámetros c =param[1] b =param[2] # Ecuaciones diferenciales dy =numeric(2) dy[1]=y dy[2]= -c^2*(x+2*b*x^3) list(dy)} # Campo vectorial Hooke.flowField= flowField(Hooke, xlim = c(-3, 5), ylim = c(-12, 12.5), param = c(1, 2), points =21 , add = FALSE) # Isoclinas nulas Hooke.nullclines = nullclines(Hooke, xlim = c(-5, 5), ylim = c(-12, 12.5), param = c(1, 2), points = 500) Cini = matrix(c(1, 2, 1.5, 2, 2.5, 2, 3,5), ncol = 2, nrow = 4, byrow = TRUE) # Curvas solución Hooke.trajectory = trajectory(Hooke, y0 = Cini, tlim= c(0,10), param = c(1, 2), col = rep("red", 4))</p>
+<p>#<xref ref-type="fig" rid="gf21">Figura 9</xref> library(phaseR) Hooke=function(t, y, param){ # Variables x =y&#91;1&#93; y =y&#91;2&#93; # Parámetros c =param&#91;1&#93; b =param&#91;2&#93; # Ecuaciones diferenciales dy =numeric(2) dy&#91;1&#93;=y dy&#91;2&#93;= -c^2*(x+2*b*x^3) list(dy)} # Campo vectorial Hooke.flowField= flowField(Hooke, xlim = c(-3, 5), ylim = c(-12, 12.5), param = c(1, 2), points =21 , add = FALSE) # Isoclinas nulas Hooke.nullclines = nullclines(Hooke, xlim = c(-5, 5), ylim = c(-12, 12.5), param = c(1, 2), points = 500) Cini = matrix(c(1, 2, 1.5, 2, 2.5, 2, 3,5), ncol = 2, nrow = 4, byrow = TRUE) # Curvas solución Hooke.trajectory = trajectory(Hooke, y0 = Cini, tlim= c(0,10), param = c(1, 2), col = rep("red", 4))</p>
 <p>En este proceso produce la gráfica que ilustra la figura <xref ref-type="fig" rid="gf22">9</xref> que verifica que para esta condición inicial y estos valores de los parámetros el sistema posee órbitas cerradas.</p>
 <fig id="gf22">
 <label>
@@ -1890,7 +1890,7 @@ Figura 11
 <graphic xlink:href="607975560007_gf27.png" position="anchor" orientation="portrait"/>
 <attrib>Elaboración propia</attrib>
 </fig>
-<p>Si conservamos los valores de los parámetros, modificamos la condición inicial a (0.7, 0.5), el tiempo al intervalo [0, 1.2] y corremos nuevamente el código anterior, obtenemos la gráfica que se ilustra en la figura <xref ref-type="fig" rid="gf27">12</xref>, la cual nos pone de manifiesto la posibilidad de la existencia de trayectorias no periódicas.</p>
+<p>Si conservamos los valores de los parámetros, modificamos la condición inicial a (0.7, 0.5), el tiempo al intervalo &#91;0, 1.2&#93; y corremos nuevamente el código anterior, obtenemos la gráfica que se ilustra en la figura <xref ref-type="fig" rid="gf27">12</xref>, la cual nos pone de manifiesto la posibilidad de la existencia de trayectorias no periódicas.</p>
 
 <fig id="gf27">
 <label>
@@ -1912,7 +1912,7 @@ Figura 12
 <attrib>Elaboración propia</attrib>
 </fig>
 
-<p># Figura 13 library(phaseR) Hooke=function(t, y, parameters){ #variables x =y[1] y =y[2] # parametros c =parameters[1] b =parameters[2] # definimos las ecuaciones diferenciales dy =numeric(2) dy[1]=y dy[2]= -c^2*(x+2*b*x^3) list(dy)} Hooke.flowField= flowField(Hooke, xlim = c(-2, 2), ylim = c(-2, 2), parameters = c(1, -2), points = 21, add = FALSE) Hooke.nullclines= nullclines(Hooke, xlim = c(-2, 2), ylim = c(-2, 2), parameters = c(1, -2), points = 500) Cini=matrix(c(0.1,0, 0.3,0, 0.2,0.1, 0.3, 0.2, -0.2, -0.3,0.2, 0.3,-1,1, 1,-1,-0.8,0.8,0.8,-0.8, -1,1.5,1,-1.5,-1.5,1.5,1.5,-1.5), ncol = 2, nrow = 14, byrow = TRUE) Hooke.trajectory = trajectory(Hooke, y0 = Cini, tlim= c(0,10), parameters = c(1, -2), col = rep("mediumvioletred", 6))</p>
+<p># Figura 13 library(phaseR) Hooke=function(t, y, parameters){ #variables x =y&#91;1&#93; y =y&#91;2&#93; # parametros c =parameters&#91;1&#93; b =parameters&#91;2&#93; # definimos las ecuaciones diferenciales dy =numeric(2) dy&#91;1&#93;=y dy&#91;2&#93;= -c^2*(x+2*b*x^3) list(dy)} Hooke.flowField= flowField(Hooke, xlim = c(-2, 2), ylim = c(-2, 2), parameters = c(1, -2), points = 21, add = FALSE) Hooke.nullclines= nullclines(Hooke, xlim = c(-2, 2), ylim = c(-2, 2), parameters = c(1, -2), points = 500) Cini=matrix(c(0.1,0, 0.3,0, 0.2,0.1, 0.3, 0.2, -0.2, -0.3,0.2, 0.3,-1,1, 1,-1,-0.8,0.8,0.8,-0.8, -1,1.5,1,-1.5,-1.5,1.5,1.5,-1.5), ncol = 2, nrow = 14, byrow = TRUE) Hooke.trajectory = trajectory(Hooke, y0 = Cini, tlim= c(0,10), parameters = c(1, -2), col = rep("mediumvioletred", 6))</p>
 
 <fig id="gf29">
 <label>
@@ -1987,8 +1987,8 @@ Conclusiones
 <ref-list>
 <title>Referencias</title>
 <ref id="ref3">
-<label>[1]</label>
-<mixed-citation>[1] Blanchard, P., Devaney, R., &amp; HallL, G. (1999). Ecuaciones Diferenciales. International Thomson Editores, S.A. de C.V.</mixed-citation>
+<label>&#91;1&#93;</label>
+<mixed-citation>&#91;1&#93; Blanchard, P., Devaney, R., &amp; HallL, G. (1999). Ecuaciones Diferenciales. International Thomson Editores, S.A. de C.V.</mixed-citation>
 <element-citation publication-type="book">
 <person-group person-group-type="author">
 <name>
@@ -2054,7 +2054,7 @@ Conclusiones
 </element-citation>
 </ref>
 <ref id="ref6">
-<mixed-citation>Cerón, J. &amp; Guerrero, L. (2008). Análisis cualitativo de una generalización de la Ley de Hooke [Trabajo de grado para optar el título de Licenciado en Matemáticas]. Universidad de Nariño.</mixed-citation>
+<mixed-citation>Cerón, J. &amp; Guerrero, L. (2008). Análisis cualitativo de una generalización de la Ley de Hooke &#91;Trabajo de grado para optar el título de Licenciado en Matemáticas&#93;. Universidad de Nariño.</mixed-citation>
 <element-citation publication-type="thesis">
 <person-group person-group-type="author">
 <name>
@@ -2067,7 +2067,7 @@ Conclusiones
 </name>
 </person-group>
 <year>2008</year>
-<source>Análisis cualitativo de una generalización de la Ley de Hooke [Trabajo de grado para optar el título de Licenciado en Matemáticas]. Universidad de Nariño</source>
+<source>Análisis cualitativo de una generalización de la Ley de Hooke &#91;Trabajo de grado para optar el título de Licenciado en Matemáticas&#93;. Universidad de Nariño</source>
 </element-citation>
 </ref>
 <ref id="ref7">
@@ -2103,7 +2103,7 @@ Conclusiones
 </element-citation>
 </ref>
 <ref id="ref9">
-<mixed-citation>Mosquera, S. (1992). El sistema de Lorenz [Tesis de maestría]. Universidad del Valle.</mixed-citation>
+<mixed-citation>Mosquera, S. (1992). El sistema de Lorenz &#91;Tesis de maestría&#93;. Universidad del Valle.</mixed-citation>
 <element-citation publication-type="thesis">
 <person-group person-group-type="author">
 <name>
@@ -2112,7 +2112,7 @@ Conclusiones
 </name>
 </person-group>
 <year>1992</year>
-<source>El sistema de Lorenz [Tesis de maestría]. Universidad del Valle</source>
+<source>El sistema de Lorenz &#91;Tesis de maestría&#93;. Universidad del Valle</source>
 </element-citation>
 </ref>
 <ref id="ref10">
@@ -2143,7 +2143,7 @@ Conclusiones
 </element-citation>
 </ref>
 <ref id="ref11">
-<mixed-citation>Soetaert, K., Petzoldt, T., &amp; W., S. R. (2016). R package deSolve: Solving initial value differential equations in [Internet]. (inf. téc.). http://cran.r-project.org/web/packages/deSolve/vignettes/deSolve.pdf</mixed-citation>
+<mixed-citation>Soetaert, K., Petzoldt, T., &amp; W., S. R. (2016). R package deSolve: Solving initial value differential equations in &#91;Internet&#93;. (inf. téc.). http://cran.r-project.org/web/packages/deSolve/vignettes/deSolve.pdf</mixed-citation>
 <element-citation publication-type="other">
 <person-group person-group-type="author">
 <name>
@@ -2160,7 +2160,7 @@ Conclusiones
 </name>
 </person-group>
 <year>2016</year>
-<series>R package deSolve: Solving initial value differential equations in [Internet]. (inf. téc.)</series>
+<series>R package deSolve: Solving initial value differential equations in &#91;Internet&#93;. (inf. téc.)</series>
 <comment>
 <ext-link ext-link-type="uri" xlink:href="http://cran.r-project.org/web/packages/deSolve/vignettes/deSolve.pdf">http://cran.r-project.org/web/packages/deSolve/vignettes/deSolve.pdf</ext-link>
 </comment>

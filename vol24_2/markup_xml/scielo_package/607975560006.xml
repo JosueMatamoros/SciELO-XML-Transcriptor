@@ -529,7 +529,7 @@
         </p>
         <p>Cada comando o función de SymPy recibe parámetros predeterminados necesarios para su funcionamiento; en el caso de este ejercicio, se utiliza el comando <italic>limit</italic> que recibe cuatro: la función real del límite, la variable simbólica, el valor hacia donde tiende el límite y, el tipo de evaluación: si es por izquierda o derecha, o ambos. La transcripción del ejercicio queda con la siguiente sintáxis:</p>
         <p>a = np.random.randint(1,4,2)</p>
-        <p>exprFun = sp.Limit( ( x-a[0]**2 ) / ( sp.sqrt(x) - a[0]), x, a[0]**2,'+-')</p>
+        <p>exprFun = sp.Limit( ( x-a&#91;0&#93;**2 ) / ( sp.sqrt(x) - a&#91;0&#93;), x, a&#91;0&#93;**2,'+-')</p>
         <p>donde <italic>expFun</italic> es el nombre de la variable que almacena la cadena de <italic>strings</italic>.
         </p>
         <p>Posteriormente, la salida almacenada en <italic>exp</italic> se concatena con texto fijo formado por una cadena de <italic>strings</italic> con el objetivo de imprimir el resultado así como su solución. Los comandos <italic>latex</italic> y <italic>str</italic> son necesarios pues convierten a código látex las lineas de <italic>strings</italic> de los resultados. La sintaxis del código resultante es:</p>
@@ -627,9 +627,9 @@
 </alternatives>
 </inline-formula>.
 </p>
-<p>Una elección adecuada de los parámetros reales son <italic>a</italic> y <italic>b</italic> tomados aleatoriamente como números enteros en los intervalos [3,7] y [-2,3] respectivamente se basa según lo analizado previamente y en la sección 2.1. En la figura siguiente se muestra la sintaxis del código de parametrización y el criterio de la función.</p>
+<p>Una elección adecuada de los parámetros reales son <italic>a</italic> y <italic>b</italic> tomados aleatoriamente como números enteros en los intervalos &#91;3,7&#93; y &#91;-2,3&#93; respectivamente se basa según lo analizado previamente y en la sección 2.1. En la figura siguiente se muestra la sintaxis del código de parametrización y el criterio de la función.</p>
 <p>a = np.random.randint(3,7,1) b = np.random.randint(-2,3,1)</p>
-<p># funcion f fun  = (a[0] * x - a[0]**2 ) / (x**2 + (b[0] - a[0])*x - a[0]*b[0]) file.write('Analice la continuidad de la función $f$ con criterio de asociación:\n')</p>
+<p># funcion f fun  = (a&#91;0&#93; * x - a&#91;0&#93;**2 ) / (x**2 + (b&#91;0&#93; - a&#91;0&#93;)*x - a&#91;0&#93;*b&#91;0&#93;) file.write('Analice la continuidad de la función $f$ con criterio de asociación:\n')</p>
 <p>file.write('\\begin{center} \n')</p>
 <p>file.write('$\displaystyle f(x) := ' + str(sp.latex(fun)) + '$')</p>
 <p>file.write('\end{center}\n')</p>
@@ -841,12 +841,12 @@ Ejemplos
 <p># -- Declaración de la variable simbólica --</p>
 <p>x  = sp.Symbol('x')</p>
 <p># -- Uso del comando Limit para la escritura del límite --</p>
-<p>expr = sp.Limit( ( x-a[0]**2 ) / ( sp.sqrt(x) - a[0]), x, a[0]**2,'+-')</p>
+<p>expr = sp.Limit( ( x-a&#91;0&#93;**2 ) / ( sp.sqrt(x) - a&#91;0&#93;), x, a&#91;0&#93;**2,'+-')</p>
 <p># -- Escritura del límite en el archivo .tex --</p>
 <p>file.write('$  \displaystyle' + str(sp.latex(expr)) + '$ \\\\ \n ')</p>
 <p># -- Respuesta al límite --</p>
 <p># -- Uso del comando limit para el cálculo del resultado --</p>
-<p>resp = sp.limit( ( x-a[0]**2 ) / ( sp.sqrt(x) - a[0]), x, a[0]**2,'+-')</p>
+<p>resp = sp.limit( ( x-a&#91;0&#93;**2 ) / ( sp.sqrt(x) - a&#91;0&#93;), x, a&#91;0&#93;**2,'+-')</p>
 <p># -- Escritura del resultado límite en el archivo .tex --</p>
 <p>file.write('\\textit{Respuesta}: $'  + str(sp.latex(resp)) +  '$  \\\\ \n ')</p>
 <p># -- Escritura final en el archivo .tex --</p>
@@ -886,7 +886,7 @@ Ejemplos
 <p># -- Declaración de la variable simbólica --</p>
 <p>x  = sp.Symbol('x')</p>
 <p># Declaración de la funcion f</p>
-<p>fun  = (a[0] * x - a[0]**2 ) / (x**2 + (b[0] - a[0])*x - a[0]*b[0])</p>
+<p>fun  = (a&#91;0&#93; * x - a&#91;0&#93;**2 ) / (x**2 + (b&#91;0&#93; - a&#91;0&#93;)*x - a&#91;0&#93;*b&#91;0&#93;)</p>
 <p># Encabezados del ejercicio</p>
 <p>file.write('Analice la continuidad de la función $f$ con criterio de asociación:\n')</p>
 <p>file.write('\\begin{center} \n')</p>
@@ -899,25 +899,25 @@ Ejemplos
 <p>file.write('\\begin{enumerate}\n')</p>
 <p>#  -- Dominio de la función --</p>
 <p>file.write('\item El dominio de la función es ${\\rm I\!R } - \{')</p>
-<p>file.write( str(a[0]) + ',' + str(-1*b[0]) + '\}$\n')</p>
+<p>file.write( str(a&#91;0&#93;) + ',' + str(-1*b&#91;0&#93;) + '\}$\n')</p>
 <p># -- Cálculo de los límites --</p>
-<p>simb = str(sp.latex(sp.Limit(fun, x, a[0],'+-')))</p>
-<p>res = str(sp.latex(sp.limit(fun, x, a[0],'+-')))</p>
+<p>simb = str(sp.latex(sp.Limit(fun, x, a&#91;0&#93;,'+-')))</p>
+<p>res = str(sp.latex(sp.limit(fun, x, a&#91;0&#93;,'+-')))</p>
 <p># -- Respuesta para x=a --</p>
 <p>file.write('\item $f$ posee una discontinuidad evitable en ')</p>
-<p>file.write('$ x = ' + str(a[0])+'$ pues: \n')</p>
+<p>file.write('$ x = ' + str(a&#91;0&#93;)+'$ pues: \n')</p>
 <p>file.write('\\begin{center}')</p>
 <p>file.write('$ \displaystyle'+ simb + ' $ =' + '$ \displaystyle' + res + '$.\n' )</p>
 <p>file.write('\end{center}\n')</p>
 <p># -- Respuesta para x=b --</p>
-<p>simb = str(sp.latex(sp.Limit(fun, x, -1*b[0],'-')))</p>
+<p>simb = str(sp.latex(sp.Limit(fun, x, -1*b&#91;0&#93;,'-')))</p>
 <p>file.write('\item $f$ posee una discontinuidad inevitable en ')</p>
-<p>file.write('$ x = ' + str(-1*b[0])+'$ pues: \n ')</p>
+<p>file.write('$ x = ' + str(-1*b&#91;0&#93;)+'$ pues: \n ')</p>
 <p>file.write('\\begin{center}')</p>
-<p>res = str(sp.latex(sp.limit(fun, x, -1*b[0],'-')))</p>
+<p>res = str(sp.latex(sp.limit(fun, x, -1*b&#91;0&#93;,'-')))</p>
 <p>file.write('$ \displaystyle'+ simb + ' $ =' + '$ \displaystyle' + res + '$ \n' )</p>
-<p>simb = str(sp.latex(sp.Limit(fun, x, -1*b[0],'+')))</p>
-<p>res = str(sp.latex(sp.limit(fun, x, -1*b[0],'+')))</p>
+<p>simb = str(sp.latex(sp.Limit(fun, x, -1*b&#91;0&#93;,'+')))</p>
+<p>res = str(sp.latex(sp.limit(fun, x, -1*b&#91;0&#93;,'+')))</p>
 <p>file.write(' y  $ \displaystyle'+ simb + ' $ =' + '$ \displaystyle' + res + '$. \n' )</p>
 <p>file.write('\end{center}')</p>
 <p>file.write('\\end{enumerate}')</p>
@@ -939,7 +939,7 @@ Ejemplos
 <p>
 <bold>head</bold>.
 </p>
-<p>\documentclass[varwidth]{standalone}</p>
+<p>\documentclass&#91;varwidth&#93;{standalone}</p>
 <p>\usepackage{amssymb}</p>
 <p>\begin{document}</p>
 <p>
