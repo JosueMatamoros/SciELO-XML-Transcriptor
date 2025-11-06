@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "http://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1" specific-use="sps-1.9" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">REDMEI</journal-id>
+<journal-title-group>
+<journal-title>Revista Digital: Matemática, Educación e Internet</journal-title>
+<abbrev-journal-title abbrev-type="publisher">-</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1659-0643</issn>
+<publisher>
+<publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.18845/rdmei.v25i2.7606</article-id>
+<article-id pub-id-type="other">4</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículo científico</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Estudio de la relación entre la “actitud hacia la utilidad de la matemática” y la “autoconfianza matemática” en dos colegios costarricenses</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0009-0000-4808-8353</contrib-id>
+<name>
+<surname>Sequeira Solano</surname>
+<given-names>Robin</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="fn" rid="fn5">1</xref>
+<email>robinseq315@gmail.com</email>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0009-0002-0001-1191</contrib-id>
+<name>
+<surname>Ortiz Mata</surname>
+<given-names>Jennany</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<xref ref-type="fn" rid="fn6">2</xref>
+<email>jennany010900@gmail.com</email>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0000-0002-5413-0172</contrib-id>
+<name>
+<surname>Meza Cascante</surname>
+<given-names>Luis Gerardo</given-names>
+</name>
+<xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+<xref ref-type="fn" rid="fn7">3</xref>
+<email>gemeza@itcr.ac.cr</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Investigador independiente, robinseq315@gmail.com</institution>
+<institution content-type="normalized">Investigador independiente, Costa Rica, robinseq315@gmail.com</institution>
+<country country="CR">Costa Rica</country>
+<email>robinseq315@gmail.com</email>
+</aff>
+<aff id="aff2">
+<institution content-type="original">Investigadora independiente, jennany010900@gmail.com</institution>
+<institution content-type="normalized">Investigadora independiente, Costa Rica, jennany010900@gmail.com</institution>
+<country country="CR">Costa Rica</country>
+<email>jennany010900@gmail.com</email>
+</aff>
+<aff id="aff3">
+<institution content-type="original">Instituto Tecnológico de Costa Rica, gemeza@itcr.ac.cr</institution>
+<institution content-type="normalized">Instituto Tecnológico de Costa Rica, Costa Rica, gemeza@itcr.ac.cr</institution>
+<country country="CR">Costa Rica</country>
+<email>gemeza@itcr.ac.cr</email>
+</aff>
+<author-notes>
+<fn id="fn5" fn-type="current-aff">
+<label>1</label>
+<p>Robin Sequeira Solano. Docente de matemática. Investigador independiente. Correo electrónico: robinseq315@gmail.com</p>
+</fn>
+<fn id="fn6" fn-type="current-aff">
+<label>2</label>
+<p>Jennany Ortiz Mata. Docente de matemática. Investigadora independiente. Correo electrónico: jennany010900@gmail.com</p>
+</fn>
+<fn id="fn7" fn-type="current-aff">
+<label>3</label>
+<p>Luis Gerardo Meza Cascante. Docente, investigador y extensionista de la Escuela de Matemática del Instituto Tecnológico de Costa Rica. Dirección postal: Oriental, Cartago, Costa Rica. Código postal: 30101. Correo electrónico: gemeza@tec.ac.cr.</p>
+</fn>
+</author-notes>
+<pub-date date-type="pub" publication-format="electronic">
+<day>01</day>
+<month>10</month>
+<year>2024</year>
+</pub-date>
+<pub-date date-type="collection" publication-format="electronic">
+<season>Feb-Aug</season>
+<year>2025</year>
+</pub-date>
+<volume>25</volume>
+<issue>2</issue>
+<fpage>1</fpage>
+<lpage>12</lpage>
+<history>
+<date date-type="received">
+<day>13</day>
+<month>01</month>
+<year>2024</year>
+</date>
+<date date-type="accepted">
+<day>01</day>
+<month>10</month>
+<year>2024</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2024</copyright-year>
+<copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+<license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract>
+<title>Resumen</title>
+<p>La parte afectiva desempeña un papel relevante en el proceso de enseñanza y aprendizaje de la matemática. Este estudio investiga la relación entre la actitud hacia la utilidad de la matemática y la autoconfianza matemática en una muestra de 476 estudiantes de un colegio rural y otro urbano, ambos públicos y diurnos, en Costa Rica. Las variables se midieron utilizando las subescalas de Fennema y Sherman.</p>
+<p>Los resultados indican que los niveles de ambas variables son elevados, con un 87,4% del estudiantado mostrando una actitud positiva hacia la utilidad de la matemática y un 65,8% exhibiendo alta autoconfianza matemática. Se identificaron diferencias significativas en la autoconfianza matemática según el sexo, aunque no se observaron diferencias en la actitud hacia la utilidad de la matemática. Asimismo, se hallaron variaciones en ambas variables en función del tipo de colegio, destacándose que el colegio rural presentó los promedios más altos. No se encontraron diferencias significativas en ninguna de las variables según el nivel educativo. Finalmente, se detectó una relación positiva, débil y lineal entre la actitud hacia la utilidad de la matemática y la autoconfianza matemática</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>The affective part plays a relevant role in the teaching and learning process of mathematics. This study investigates the relationship between the attitude towards the usefulness of mathematics and mathematical self-confidence in a sample of 476 students from a rural and an urban school, both public and daytime, in Costa Rica. The variables were measured using the Fennema and Sherman subscales. The results indicate that the levels of both variables are high, with 87.4% of the students showing a positive attitude towards the usefulness of mathematics and 65.8% exhibiting high mathematical self-confidence. Significant differences were identified in mathematical self-confidence according to sex, although no differences were observed in the attitude towards the usefulness of mathematics. Likewise, variations were found in both variables depending on the type of school, highlighting that the rural school presented the highest averages. No significant differences were found in any of the variables according to educational level. Finally, a positive, weak and linear relationship was detected between the attitude towards the usefulness of mathematics and mathematical self-confidence.</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>Actitud</kwd>
+<kwd>autoconfianza</kwd>
+<kwd>utilidad</kwd>
+<kwd>matemática</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>Attitude</kwd>
+<kwd>self-confidence</kwd>
+<kwd>usefulness</kwd>
+<kwd>mathematics</kwd>
+</kwd-group>
+<counts>
+<fig-count count="0"/>
+<table-count count="4"/>
+<equation-count count="0"/>
+<ref-count count="35"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec sec-type="intro">
+<title>
+<bold>Introducción</bold>
+</title>
+<p>La matemática ha sido una parte fundamental del desarrollo de la humanidad a lo largo de la historia. Hoy en día, permite el análisis y la interpretación de la información, así como la resolución de problemas tanto en la vida cotidiana como en la ciencia, la tecnología y los procesos productivos. Además, facilita la toma de decisiones en función del entorno y aporta significativamente a casi todos los ámbitos de la actividad humana.</p>
+<p>Investigar el impacto de los factores afectivos en el aprendizaje es importante porque, tal como lo menciona Estrada (2002), influyen en la manera en que el estudiantado actúa y su capacidad para aprender. Asimismo, Estrada (2002) afirma que esta influencia es bidireccional, ya que el proceso de enseñanza-aprendizaje también genera cambios afectivos en las personas estudiantes.</p>
+<p>Gómez-Chacón (2010) respalda una postura similar al argumentar que la relación entre los elementos afectivos (emociones, actitudes y creencias) y el rendimiento académico es cíclica. Según Gómez-Chacón (2010), el estudiantado experimenta diversas reacciones durante el aprendizaje de la matemática que influyen en la formación de sus creencias, las que, a su vez, afectan directamente la manera en que enfrentan las situaciones de aprendizaje y su capacidad para aprender. En un estudio previo, Gómez-Chacón (2009) también sugiere que la actitud está vinculada a la estima y el valor otorgado a la matemática, así como al grado de interés en aplicarla en situaciones cotidianas.</p>
+<p>Hannula (2016, p. 33) sostiene que “la tendencia general es que un estudiante con una disposición positiva hacia las matemáticas tiende a experimentar emociones positivas con mayor frecuencia y emociones negativas con menor frecuencia que uno con disposición negativa”.</p>
+<p>Gómez (2023), Laura (2023) y Capote, Robaina y Capote (2022) han encontrado que una mejor actitud hacia la matemática se traduce en un mejor rendimiento en la asignatura. Chacón y Meza (2024) reportan una relación positiva, significativa y directa entre la actitud hacia la matemática y la actitud hacia la resolución de problemas en esa disciplina. Asimismo, Leal, Fernández-Cézar, Núñez y Suárez (2022) concluyen que las creencias positivas sobre la matemática se asocian con un mejor rendimiento académico, y viceversa.</p>
+<p>La “actitud hacia la utilidad de la matemática” se define como “las creencias sobre la utilidad de la matemática en el presente y en relación con la futura educación, vocación y otras actividades” (Fennema y Sherman, 1976, como se cita en Pérez-Tyteca, 2012, p. 22). Pérez-Tyteca (2012, p. 29) destaca la importancia de esta variable del “dominio afectivo”, al señalar que “la utilidad que un sujeto asigna a las matemáticas está estrechamente relacionada con el grado de persistencia en su estudio”.</p>
+<p>Fennema y Sherman (1976), pioneras en el estudio de la afectividad matemática, definen la autoconfianza matemática como el grado de confianza que una persona tiene en su capacidad para completar tareas asignadas en esa disciplina, relacionando esta confianza con el esfuerzo invertido en el aprendizaje. Pérez-Tyteca et al. (2013) amplían esta definición al referirse a la autoconfianza matemática como la confianza en la propia capacidad para aprender matemática.</p>
+<p>Malmivuori (2001) subraya que la autoconfianza matemática es crucial, ya que influye tanto en el rendimiento como en el desempeño de los estudiantes. Nurmi, Hannula, Maijala y Pehkonen (2003) destacan la existencia de una relación entre la autoconfianza en el aprendizaje y el éxito académico.</p>
+<p>Hendriana, Johanto y Sumarmo (2018) hallaron una alta correlación entre la autoconfianza y la capacidad de los estudiantes para resolver problemas matemáticos. Además, observaron que aquellos que aprendían mediante la resolución de problemas mostraban mayores niveles de autoconfianza. Irhamna, Amry y Syahputra (2020) identificaron que la variable autoconfianza matemática contribuye en un 16,7% a explicar las habilidades matemáticas de los estudiantes. Nandya, Nurhanurawati y Coesamin (2022) sugieren que a mayor nivel de autoconfianza matemática, mayor es la capacidad de los estudiantes para resolver problemas.</p>
+<p>En Costa Rica, se han llevado a cabo varios estudios sobre la variable “actitud hacia la utilidad de la matemática". Agüero-Calvo et al. (2017) encontraron que el 65% de una muestra de estudiantes de colegios diurnos oficiales tenía una actitud positiva hacia la utilidad de las matemáticas. También observaron que los varones mostraban una mejor actitud que las mujeres y no se detectaron diferencias según la ubicación geográfica del colegio. Un hallazgo adicional fue que los estudiantes de décimo y undécimo grado presentaban los niveles más bajos en esta variable.</p>
+<p>Martínez y Ramírez (2022) informaron que el 82,8% de los estudiantes en su muestra, tomada de dos colegios privados, tenía altos niveles de “actitud hacia la utilidad de las matemáticas". Además, detectaron diferencias por sexo, con los hombres mostrando niveles promedio superiores, y por colegio, pero no por nivel educativo.</p>
+<p>Ramos (2015) reportó, para la variable “autoconfianza matemática”, que el 71,7% del estudiantado tenía niveles de autoconfianza matemática entre medios y bajos, con diferencias significativas por sexo, con resultados menos favorables para las mujeres. Agüero et al. (2016) encontraron que el 78,9% de los estudiantes manifestaron niveles altos o moderados de autoconfianza matemática, con diferencias por sexo en favor de las mujeres. Además, observaron que los estudiantes de noveno grado tenían niveles más altos que los de décimo y undécimo.</p>
+<p>Coto (2018) informó que el 77,2% del estudiantado presentaba niveles entre medios y altos de autoconfianza matemática, con diferencias por sexo, desfavorables para las mujeres. Solano, Garro y Meza (2021) reportaron que las mujeres tenían niveles más altos de autoconfianza, sin diferencias según el nivel educativo. Agüero-Calvo et al. (2016) identificaron una relación positiva entre autoconfianza y autoestima con las mujeres mostrando niveles inferiores en ambas variables. Coto (2018) también halló una relación significativa entre la autoconfianza matemática y la actitud hacia la utilidad de la matemática, resultados similares a los reportados por Castro-Méndez y Madrigal-Ramírez (2020).</p>
+<p>Con base en estos antecedentes y en el marco de los esfuerzos de investigación sobre el ámbito afectivo en la educación matemática, llevados a cabo por la Escuela de Matemática del Instituto Tecnológico de Costa Rica, se realizó un estudio sobre la relación entre la “actitud hacia la utilidad de la matemática” y la “autoconfianza matemática” en dos colegios costarricenses, analizando las diferencias según sexo, nivel educativo y tipo de colegio.</p>
+<p>La pregunta de investigación planteada es: ¿Existe relación entre la “actitud hacia la utilidad de la matemática” y la “autoconfianza matemática” en el estudiantado de dos colegios costarricenses? Asimismo, se estudian las diferencias en estas variables según sexo, nivel educativo y tipo de colegio.</p>
+</sec>
+<sec sec-type="methods">
+<title>
+<bold>Método</bold>
+</title>
+<p>La investigación es de tipo cuantitativa y dentro de ese enfoque se clasifica como descriptiva y correlacional. El estudio se realizó con una muestra de 476 estudiantes, de una población total de 957 personas, integrada con el estudiantado de las tres primeras secciones de sétimo, octavo y noveno y las dos primeras de décimo y undécimo de cada colegio, quienes contestaron de manera completa los cuestionarios proporcionados para la medición de las variables, con una distribución por colegio, sexo y nivel educativo, como se presenta en las Tablas <underline>
+<xref ref-type="table" rid="gt1">1</xref>
+</underline>, <underline>
+<xref ref-type="table" rid="gt2">2</xref>
+</underline> y <underline>
+<xref ref-type="table" rid="gt3">3</xref>
+</underline>, respectivamente.</p>
+<p>
+<table-wrap id="gt1">
+<label>1</label>
+<caption>
+<title>
+<bold>Tabla 1.</bold>
+</title>
+<p>Distribución de la muestra por colegio</p>
+</caption>
+<alternatives>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00001-gt2.png" position="anchor" orientation="portrait">
+<alt-text>1 Tabla 1.</alt-text>
+</graphic>
+<table id="gt2-526564616c7963">
+<tbody>
+<tr>
+<th style="text-align: center;">
+<p>
+<bold>Colegio</bold>
+</p>
+</th>
+<th style="text-align: center;">
+<p>
+<bold>Frecuencia</bold>
+</p>
+</th>
+<th style="text-align: center;">
+<p>
+<bold>Porcentaje</bold>
+</p>
+</th>
+</tr>
+<tr>
+<td style="text-align: center;">Rural</td>
+<td style="text-align: center;">159</td>
+<td style="text-align: center;">33.4</td>
+</tr>
+<tr>
+<td style="text-align: center;">Urbano</td>
+<td style="text-align: center;">317</td>
+<td style="text-align: center;">66.6</td>
+</tr>
+<tr>
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">476</td>
+<td style="text-align: center;">100</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración Propia</attrib>
+</table-wrap>
+</p>
+<p>
+<table-wrap id="gt2">
+<label>2</label>
+<caption>
+<title>
+<bold>Tabla 2.</bold>
+</title>
+<p>Distribución de la muestra por sexo.</p>
+</caption>
+<alternatives>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00001-gt3.png" position="anchor" orientation="portrait">
+<alt-text>2 Tabla 2.</alt-text>
+</graphic>
+<table id="gt3-526564616c7963">
+<tbody>
+<tr>
+<th style="text-align: center;">
+<p>
+<bold>Sexo</bold>
+</p>
+</th>
+<th style="text-align: center;">
+<p>
+<bold>Frecuencia</bold>
+</p>
+</th>
+<th style="text-align: center;">
+<p>
+<bold>Porcentaje</bold>
+</p>
+</th>
+</tr>
+<tr>
+<td style="text-align: center;">Masculino</td>
+<td style="text-align: center;">223</td>
+<td style="text-align: center;">46.8</td>
+</tr>
+<tr>
+<td style="text-align: center;">Femenino</td>
+<td style="text-align: center;">253</td>
+<td style="text-align: center;">53.2</td>
+</tr>
+<tr>
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">476</td>
+<td style="text-align: center;">100</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>
+<table-wrap id="gt3">
+<label>3</label>
+<caption>
+<title>
+<bold>Tabla 3.</bold>
+</title>
+<p>Distribución de la muestra por nivel educativo.</p>
+</caption>
+<alternatives>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00001-gt4.png" position="anchor" orientation="portrait">
+<alt-text>3 Tabla 3.</alt-text>
+</graphic>
+<table id="gt4-526564616c7963">
+<tbody>
+<tr>
+<th style="text-align: center;">
+<p>
+<bold>Nivel</bold>
+</p>
+</th>
+<th style="text-align: center;">
+<p>
+<bold>Frecuencia</bold>
+</p>
+</th>
+<th style="text-align: center;">
+<p>
+<bold>Porcentaje</bold>
+</p>
+</th>
+</tr>
+<tr>
+<td style="text-align: center;">Sétimo</td>
+<td style="text-align: center;">99</td>
+<td style="text-align: center;">20.8</td>
+</tr>
+<tr>
+<td style="text-align: center;">Octavo</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">21.0</td>
+</tr>
+<tr>
+<td style="text-align: center;">Noveno</td>
+<td style="text-align: center;">110</td>
+<td style="text-align: center;">23.1</td>
+</tr>
+<tr>
+<td style="text-align: center;">Décimo</td>
+<td style="text-align: center;">87</td>
+<td style="text-align: center;">18.3</td>
+</tr>
+<tr>
+<td style="text-align: center;">Undécimo</td>
+<td style="text-align: center;">80</td>
+<td style="text-align: center;">16.8</td>
+</tr>
+<tr>
+<td style="text-align: center;">Total</td>
+<td style="text-align: center;">476</td>
+<td style="text-align: center;">100</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>Las variables de la investigación son: sexo, nivel educativo, colegio, actitud hacia la utilidad de la matemática y autoconfianza matemática. La definición conceptual y operativa de estas variables se presenta en la Tabla <underline>4</underline>.</p>
+<p>
+<table-wrap id="gt4">
+<label>4</label>
+<caption>
+<title>
+<bold>Tabla 4.</bold>
+</title>
+<p>Definición conceptual y operativa de las variables</p>
+</caption>
+<alternatives>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00001-gt5.png" position="anchor" orientation="portrait">
+<alt-text>4 Tabla 4.</alt-text>
+</graphic>
+<table id="gt5-526564616c7963">
+<tbody>
+<tr>
+<th style="text-align: center;">
+<p>
+<bold>Variables</bold>
+</p>
+</th>
+<th style="text-align: center;">
+<p>
+<bold>Definición conceptual</bold>
+</p>
+</th>
+<th style="text-align: center;">
+<p>
+<bold>Definición operativa</bold>
+</p>
+</th>
+</tr>
+<tr>
+<td style="text-align: center;">Sexo</td>
+<td style="text-align: center;">Condición de femenino o masculino</td>
+<td style="text-align: center;">Con base en la indicación que la persona estudiante seleccione en el formulario</td>
+</tr>
+<tr>
+<td style="text-align: center;">Colegio</td>
+<td style="text-align: center;">Institución en la que está matriculado(a) el o la estudiante informante</td>
+<td style="text-align: center;">Con base en la indicación que la persona estudiante seleccione en el formulario</td>
+</tr>
+<tr>
+<td style="text-align: center;">Nivel educativo</td>
+<td style="text-align: center;">Nivel de secundaria en el que se encuentra matriculada la persona estudiante a saber: sétimo, octavo, noveno, décimo o undécimo</td>
+<td style="text-align: center;">Con base en la indicación que la persona estudiante seleccione en el formulario</td>
+</tr>
+<tr>
+<td style="text-align: center;">Actitud hacia la matemática</td>
+<td style="text-align: center;">Valoración evaluativa (negativa o positiva) sobre la utilidad matemática</td>
+<td style="text-align: center;">Puntaje obtenido por el/la estudiante mediante la aplicación de la "Escala de actitud hacia la matemática" de Fennema y Sherman, (1976)</td>
+</tr>
+<tr>
+<td style="text-align: center;">Autoconfianza matemática</td>
+<td style="text-align: center;">Creencia sobre la propia competencia matemática que consiste en la confianza que la persona tiene en sus propias habilidades para enfrentarse a tareas relacionadas con la matemática</td>
+<td style="text-align: center;">Puntaje obtenido por el/la estudiante mediante la aplicación de la "Escala de actitud hacia la matemática" de Fennema y Sherman, (1976)</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia,</attrib>
+</table-wrap>
+</p>
+<p>En la investigación se utilizaron dos instrumentos de medición, a saber, la “Sub-Escala de actitud hacia la utilidad de la matemática” y la “Sub-Escala de autoconfianza matemática”, que forman parte de la “Escala de actitud hacia la matemática” de Fennema-Sherman (1976), que ha sido validada en numerosas investigaciones desde entonces (Nortes Martínez-Artero y Nortes Checa, 2017). Ambos instrumentos constan de 12 ítems tipo Likert; seis redactados en positivo y seis en negativo.</p>
+<p>Los instrumentos se aplicaron al estudiantado de las secciones previstas de cada colegio, mediante la técnica de “papel y lápiz”, por las personas investigadoras, por ser una opción que facilitaba la recolección de los datos y permitía mantener un buen control de la confidencialidad de cada participante.</p>
+<p>La confiabilidad (o fiabilidad de la escala) se estudió con la técnica alfa de Cronbach, con un valor de 0.829 para la escala de “Actitud hacia la utilidad de la matemática” y de 0.911 para la escala de “Autoconfianza matemática”, valores que, de acuerdo con Cea (1999), evidencian una confiabilidad adecuada.</p>
+<p>Como parte del estudio de validez, se calcularon los índices de discriminación de los ítems mediante la correlación entre la puntuación aportada por cada reactivo y la obtenida por la suma de los demás (excluyendo el ítem evaluado). Se obtuvieron valores superiores a 0,3 en todos los casos, lo que indica una excelente capacidad de discriminación (Lozano y De la Fuente-Solana, 2013).</p>
+<p>La razonabilidad de asumir el supuesto de unidimensionalidad de cada escala se llevó a cabo mediante la técnica del análisis factorial, que es la más utilizada para tal fin (Jiménez y Montero, 2013). Esta técnica evidenció que las escalas miden esencialmente un solo constructo, con un índice de adecuación muestral de Kaiser-Meyer-Olkin (KMO) de 0.879 y 0.919 para la escala de “Actitud hacia la utilidad de la matemática” y “Autoconfianza matemática”, respectivamente. Además, se comprobó la esfericidad de Bartlett (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>p</mml:mi> <mml:mo>=</mml:mo> <mml:mn>0</mml:mn> <mml:mo>&lt;</mml:mo> <mml:mn>0.05</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00001-gi2.png"/>
+</alternatives>
+</inline-formula>) para ambas escalas. Como criterio de unidimensionalidad, se utilizó el recomendado por Reckase (1979), citado en Burga (2006), que exige que el primer factor explique al menos el 20 % de la varianza total (35.81 % y 50.19 % para este estudio, respectivamente).</p>
+<p>La investigación sometió a prueba las siguientes siete hipótesis:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>No existen diferencias en el nivel de actitud hacia la utilidad de la matemática, según el sexo.</p>
+</list-item>
+<list-item>
+<p>No existen diferencias en el nivel de autoconfianza matemática, según el sexo.</p>
+</list-item>
+<list-item>
+<p>No existen diferencias en el nivel de actitud hacia la utilidad de la matemática, según el nivel educativo.</p>
+</list-item>
+<list-item>
+<p>No existen diferencias en el nivel de autoconfianza matemática, según el nivel educativo.</p>
+</list-item>
+<list-item>
+<p>No existen diferencias en el nivel de actitud hacia la utilidad de la matemática, según el colegio.</p>
+</list-item>
+<list-item>
+<p>No existen diferencias en el nivel de autoconfianza matemática, según el colegio.</p>
+</list-item>
+<list-item>
+<p>No existe relación entre el nivel de la actitud hacia la utilidad de la matemática y el nivel de autoconfianza matemática.</p>
+</list-item>
+</list>
+</p>
+<p>Para la prueba de las hipótesis, se utilizaron métodos paramétricos (t de Student o ANOVA). En los casos en que se detectaron diferencias entre las medias, se calculó el tamaño del efecto mediante el coeficiente de Cohen y su valor se interpretó de acuerdo con las recomendaciones de dicho autor (Villasís-Keever et al., 2021).</p>
+<p>Finalmente, para estudiar la existencia de correlación entre las variables se utilizó el coeficiente de correlación de Pearson, previa prueba de hipótesis de que este coeficiente no es nulo.</p>
+<sec sec-type="results">
+<title>
+<bold>Resultados</bold>
+</title>
+<p>El nivel medio de “Actitud hacia la utilidad de la matemática” (M = 45.05, DT = 7.41) fue significativamente mayor que el promedio de la escala (t(475) = 26.62, p &lt; 0.05). Esto sugiere que, globalmente, el estudiantado de la muestra manifiesta un nivel de “Actitud hacia la utilidad de la matemática” superior al promedio. La clasificación de los puntajes obtenidos muestra que el 12.6% de los estudiantes se encuentra en la categoría baja (valores menores a la media de la escala), mientras que el 87.4% se sitúa en la categoría alta (valores iguales o superiores a la media de la escala).</p>
+<p>Por otra parte, el nivel medio de “Autoconfianza matemática” (M = 40.31, DT = 9.82) también fue significativamente mayor que el promedio de la escala (t(475) = 9.58, p &lt; 0.05). Esto indica que, globalmente, el estudiantado de la muestra manifiesta un nivel de “Autoconfianza matemática” superior al promedio. La clasificación de los puntajes obtenidos muestra que el 34.2% de los estudiantes se encuentra en la categoría baja, mientras que el 65.8% se sitúa en la categoría alta.</p>
+</sec>
+<sec>
+<title>
+<bold>Contraste de hipótesis. Hipótesis 1</bold>
+</title>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>H<sub>0</sub>: </bold>No existen diferencias en el nivel de actitud hacia la utilidad de la matemática, según el sexo.</p>
+</list-item>
+<list-item>
+<p>
+<bold>H<sub>1</sub>
+</bold>: Sí existen diferencias en el nivel de actitud hacia la utilidad de la matemática, según el sexo.</p>
+</list-item>
+</list>
+</p>
+<p>Para contrastar esta hipótesis, se comparó la media de los hombres (M = 44.74, DT = 7.87) con la media de las mujeres (M = 45.31, DT = 6.98) y no se encontró una diferencia estadísticamente significativa (t(474) = -0.833, p = 0.406 &gt; 0.05). De esto se desprende que se acepta la hipótesis nula y se rechaza la hipótesis alternativa, lo que indica que no existen diferencias en el nivel de “Actitud hacia la utilidad de la matemática” según el sexo del estudiantado.</p>
+</sec>
+<sec>
+<title>
+<bold>Hipótesis 2</bold>
+</title>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>H<sub>0</sub>
+</bold>: No existen diferencias en el nivel de autoconfianza matemática, según el sexo.</p>
+</list-item>
+<list-item>
+<p>
+<bold>H<sub>1</sub>: </bold>Sí existen diferencias en el nivel de autoconfianza matemática, según el sexo.</p>
+</list-item>
+</list>
+</p>
+<p>Para el estudio de esta hipótesis, se comparó la media de los hombres (M = 41.97, DT = 8.83) con la media de las mujeres (M = 38.85, DT = 10.42), encontrándose una diferencia estadísticamente significativa (t(474) = 3.538, p = 0.00 &lt; 0.05). Esto sugiere que se rechaza la hipótesis nula y se acepta la alternativa, lo que indica que existen diferencias en el nivel de autoconfianza matemática, con una media más alta para los hombres. El tamaño del efecto (d = 0.32) se interpreta como una diferencia pequeña.</p>
+</sec>
+<sec>
+<title>
+<bold>Hipótesis 3</bold>
+</title>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>H<sub>0</sub>: </bold>No existen diferencias en el nivel de actitud hacia la utilidad de la matemática, según el nivel educativo.</p>
+</list-item>
+<list-item>
+<p>
+<bold>H<sub>1</sub>: </bold>Sí existen diferencias en el nivel de actitud hacia la utilidad de la matemática, según el nivel educativo.</p>
+</list-item>
+</list>
+</p>
+<p>Para el estudio de esta hipótesis, se compararon las medias de los cinco niveles educativos utilizando la prueba ANOVA, obteniendo una significancia de p = 0.492 &gt; 0.05. En otras palabras, no se encontraron diferencias estadísticamente significativas en el nivel de “Actitud hacia la utilidad de la matemática” según el nivel educativo.</p>
+</sec>
+<sec>
+<title>
+<bold>Hipótesis 4</bold>
+</title>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>H<sub>0</sub>: </bold>No existen diferencias en el nivel de autoconfianza matemática, según el nivel educativo.</p>
+</list-item>
+<list-item>
+<p>
+<bold>H<sub>1</sub>: </bold>Sí existen diferencias en el nivel de autoconfianza matemática, según el nivel educativo.</p>
+</list-item>
+</list>
+</p>
+<p>Para analizar esta hipótesis, se compararon las medias de los cinco niveles educativos utilizando la prueba ANOVA, obteniendo una significancia de p = 0.286 &gt; 0.05. En otros términos, no se encontraron diferencias estadísticamente significativas en el nivel de “Autoconfianza matemática” según el nivel educativo.</p>
+</sec>
+<sec>
+<title>
+<bold>Hipótesis 5</bold>
+</title>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>H<sub>0</sub>: </bold>No existen diferencias en el nivel de actitud hacia la utilidad de la matemática, según el colegio.</p>
+</list-item>
+<list-item>
+<p>
+<bold>H<sub>1</sub>: </bold>Sí existen diferencias en el nivel de actitud hacia la utilidad de la matemática, según el colegio.</p>
+</list-item>
+</list>
+</p>
+<p>Para contrastar esta hipótesis, se compararon las medias del colegio rural (M = 46.34, DT = 7.88) y del colegio urbano (M = 44.40, DT = 7.09) y se encontró una diferencia estadísticamente significativa (t(474) = 2.717, p = 0.007 &lt; 0.05). De esto se concluye el rechazo de la hipótesis nula y la aceptación de la hipótesis alternativa, lo que indica que existen diferencias en el nivel de “Actitud hacia la utilidad de la matemática” según el colegio. El tamaño del efecto (d=0.26) se interpreta como una diferencia pequeña.</p>
+</sec>
+<sec>
+<title>
+<bold>Hipótesis 6</bold>
+</title>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>H<sub>0</sub>: </bold>No existen diferencias en el nivel de autoconfianza matemática, según el colegio.</p>
+</list-item>
+<list-item>
+<p>
+<bold>H<sub>1</sub>: </bold>Sí existen diferencias en el nivel de autoconfianza matemática, según el colegio.</p>
+</list-item>
+</list>
+</p>
+<p>Para contrastar esta hipótesis, se compararon las medias del colegio rural (M = 41.83, DT = 9.99) y del colegio urbano (M = 39.55, DT = 9.67) y se encontró una diferencia estadísticamente significativa (t(474) = 2.390, p = 0.017 &lt; 0.05). De ello se concluye que se rechaza la hipótesis nula y se acepta la hipótesis alternativa, lo que implica que existen diferencias en el nivel de “Autoconfianza matemática” según el colegio. El tamaño del efecto (d=0.23) se interpreta como una diferencia pequeña.</p>
+</sec>
+<sec>
+<title>
+<bold>Hipótesis 7</bold>
+</title>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>H<sub>0</sub>: </bold>No existe relación entre el nivel de la actitud hacia la utilidad de la matemática y el nivel de autoconfianza matemática.</p>
+</list-item>
+<list-item>
+<p>
+<bold>H<sub>1</sub>: </bold>Sí existe relación entre el nivel de la actitud hacia la utilidad de la matemática y el nivel de autoconfianza matemática.</p>
+</list-item>
+</list>
+</p>
+<p>Para estudiar esta hipótesis, se calculó el coeficiente de Pearson (r = 0.326), el cual resultó significativo (p = 0.00 &lt; 0.01). Por tanto, se rechaza la hipótesis nula y se acepta la hipótesis alternativa, lo que indica que existe una relación significativa entre las variables. El signo positivo del coeficiente de correlación de Pearson sugiere una relación directa entre las variables estudiadas. Además, según Aguayo (2004), dado que el valor absoluto del coeficiente de Pearson (|0.326| = 0.326) se encuentra en el rango de 0.2 a 0.4, la asociación entre ambas variables se considera débil.</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Discusión de resultados</bold>
+</title>
+<p>La investigación se enfocó en estudiar dos variables del dominio afectivo en la educación matemática: “actitud hacia la utilidad de la matemática” y “autoconfianza matemática”, en el estudiantado de dos colegios públicos costarricenses, uno rural y otro urbano.</p>
+<p>Los resultados indican que el estudiantado presenta niveles altos en ambas variables, con un 87.4 % y un 65.8 % de la muestra mostrando altos niveles de “actitud hacia la utilidad de la matemática” y “autoconfianza matemática”, respectivamente. Estos resultados superan los obtenidos por Agüero-Calvo et al. (2016), quienes encontraron que el 65 % de su muestra tenía una actitud positiva hacia la utilidad de la matemática. Aunque el nivel porcentual es diferente en ambos estudios, se puede señalar como un hallazgo positivo que la mayoría del estudiantado tenga altos niveles en estas variables.</p>
+<p>Otro hallazgo de la investigación plantea que no se identificaron diferencias en el nivel medio de actitud hacia la utilidad de las matemáticas en función del sexo. Este resultado es consistente con los hallazgos del estudio de Sanabria (2016) sobre la actitud hacia las matemáticas, pero no coincide con otras investigaciones en el dominio afectivo desarrolladas en Costa Rica, donde las mujeres han presentado niveles menos favorables que los hombres, como se reporta en Meza <italic>et al.</italic> (2015), Agüero et al. (2016), Agüero et al. (2017) y Meza et al. (2019). Estos hallazgos sugieren que las diferencias encontradas entre hombres y mujeres en variables del dominio afectivo podrían estar explicadas por elementos culturales y no por otros factores, principalmente porque el tamaño del efecto suele ser bajo.</p>
+<p>Además, el análisis reveló que no existen diferencias en cuanto al nivel promedio de “actitud hacia la utilidad de la matemática” según el nivel educativo, lo que no coincide con otras investigaciones en el dominio afectivo, como la de Sanabria (2016) que encontró diferencias en el nivel de actitud hacia las matemáticas entre los estudiantes de sétimo año en comparación con los de octavo, décimo y undécimo año. Asimismo, se observaron diferencias entre noveno y décimo año en cuanto a su actitud hacia la matemática.</p>
+<p>El análisis también mostró que existen variaciones en el nivel medio de “actitud hacia la utilidad de las matemáticas” dependiendo del tipo de colegio. Se observó que el colegio rural presenta valores promedio más elevados en comparación con el colegio urbano, hallazgos que coinciden con la investigación previa realizada por Sanabria (2016).</p>
+<p>Se hallaron diferencias en el nivel de “autoconfianza matemática” según el sexo, lo cual coincide con estudios anteriores, como el realizado por Agüero-Calvo et al. (2016). Sin embargo, no se detectaron diferencias en esta variable según el nivel educativo, un resultado que difiere del obtenido por Meza-Cascante et al. (2019), quienes encontraron que el estudiantado de noveno año tenía niveles más altos que el de décimo y undécimo año.</p>
+<p>Por otra parte, los resultados revelan que hay diferencias en el nivel promedio de “autoconfianza matemática” según el tipo de colegio. Se encontró que el rural tiene valores promedio más altos que el urbano, resultado que no concuerda con lo reportado por Meza-Cascante et al. (2015), quienes no encontraron diferencias en el nivel de autoconfianza matemática entre los estudiantes según el tipo de colegio.</p>
+<p>Por último, se encontró una relación positiva, débil y lineal entre las variables “actitud hacia la utilidad de la matemática” y “autoconfianza matemática”, lo cual concuerda con diversas investigaciones, entre ellas Coto (2018) y Castro-Méndez y Madrigal-Ramírez (2020). Este hallazgo sugiere, aunque la investigación no tiene alcances explicativos, que un incremento en la autoconfianza matemática podría tener un efecto positivo en la actitud hacia la utilidad de la matemática y viceversa. Esto podría servir de base para el desarrollo de un programa de intervención en los colegios participantes en la investigación, tendiente a mejorar el nivel en alguna de estas variables.</p>
+</sec>
+<sec>
+<title>
+<bold>Conclusiones</bold>
+</title>
+<p>El 87.4% y el 65.8% de la muestra, es decir, la mayoría del estudiantado, mostró, respectivamente, un nivel positivo de “actitud hacia la matemática” y de “autoconfianza matemática”, lo que se refleja en que la media de esta variable en la muestra es significativamente mayor que la media de la escala. No se detectaron diferencias en el nivel de actitud hacia la utilidad de la matemática según el sexo, mas si en el nivel de autoconfianza matemática, mostrando los hombres valores promedio más altos que las mujeres, con un tamaño del efecto bajo. No existen diferencias en el nivel de actitud hacia la utilidad de la matemática según el nivel educativo. ni en el nivel de autoconfianza matemática. Existen diferencias en el nivel de actitud hacia la utilidad de la matemática y de autoconfianza matemática según el tipo de colegio, con valores promedio más altos para el colegio rural y un tamaño del efecto bajo, en ambos casos. Finalmente, existe una relación lineal, directa y débil entre el nivel de actitud hacia la utilidad de la matemática y el nivel de autoconfianza.</p>
+</sec>
+<sec>
+<title>
+<bold>Discusión</bold>
+</title>
+<p>En esta sección, tiene la oportunidad de analizar los resultados de su estudio en profundidad. Discuta cómo se relacionan los hallazgos con la literatura existente y explique su relevancia en el contexto más amplio del campo de estudio. Aborde cualquier limitación que pueda haber surgido durante la investigación y ofrezca una interpretación crítica de los resultados. La discusión debe permitir a los lectores comprender mejor el significado y las implicaciones de su trabajo.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>Bibliografía</title>
+<ref id="ref1">
+<label>1</label>
+<mixed-citation publication-type="journal">Agüero-Calvo, E., Meza-Cascante, G., Calderón-Ferrey, M., y Suárez-Valdés-Ayala, Z. S. (2016). Relación entre autoestima y autoconfianza matemática en estudiantes de educación media costarricense. Revista Comunicación, 25(2-16), 4–13. https://doi.org/10.18845/ rc.v25i2-16.3302</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Agüero-Calvo</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Meza-Cascante</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Calderón-Ferrey</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Suárez-Valdés-Ayala</surname>
+<given-names>Z. S.</given-names>
+</name>
+</person-group>
+<article-title>Relación entre autoestima y autoconfianza matemática en estudiantes de educación media costarricense</article-title>
+<source>Revista Comunicación</source>
+<year>2016</year>
+<volume>25</volume>
+<issue>2-16</issue>
+<fpage>4</fpage>
+<lpage>13</lpage>
+<pub-id pub-id-type="doi">10.18845/ rc.v25i2-16.3302</pub-id>
+</element-citation>
+</ref>
+<ref id="ref2">
+<label>2</label>
+<mixed-citation publication-type="journal">Agüero-Calvo, E., Meza-Cascante, L. G., y Suárez-Valdés-Ayala, Z. (2017). Attitude to- ward usefulness of mathematics of Costa Rican high school students. Modern journal of language teaching methods, 7(8), 162-168.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Agüero-Calvo</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Meza-Cascante</surname>
+<given-names>L. G.</given-names>
+</name>
+<name>
+<surname>Suárez-Valdés-Ayala</surname>
+<given-names>Z.</given-names>
+</name>
+</person-group>
+<article-title>Attitude to- ward usefulness of mathematics of Costa Rican high school students.</article-title>
+<source>Modern journal of language teaching methods</source>
+<year>2017</year>
+<volume>7</volume>
+<issue>8</issue>
+<fpage>162</fpage>
+<lpage>168</lpage>
+</element-citation>
+</ref>
+<ref id="ref3">
+<label>3</label>
+<mixed-citation publication-type="journal">Burga, A. (2006). La unidimensionalidad de un instrumento de medición: perspectiva factorial. Revista de Psicología de la PUCP, XXIV (1), 53-80.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Burga</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>La unidimensionalidad de un instrumento de medición: perspectiva factorial</article-title>
+<source>Revista de Psicología de la PUCP</source>
+<year>2006</year>
+<volume>XXIV</volume>
+<issue>1</issue>
+<fpage>53</fpage>
+<lpage>80</lpage>
+</element-citation>
+</ref>
+<ref id="ref4">
+<label>4</label>
+<mixed-citation publication-type="thesis">Castro-Méndez, D., y Madrigal-Ramírez, Y. (2020). Estudio de la relación entre la “autoconfianza matemática” y la “actitud hacia la utilidad de la matemática” en los estudiantes del ciclo diversificado del Seminario Menor Colegio Seráfico San Francisco de Asís, Cartago, Costa Rica.[Tesis de licenciatura, Instituto Tecnologico de Costa Rica].</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Castro-Méndez</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Madrigal-Ramírez</surname>
+<given-names>Y</given-names>
+</name>
+</person-group>
+<article-title>Estudio de la relación entre la “autoconfianza matemática” y la “actitud hacia la utilidad de la matemática” en los estudiantes del ciclo diversificado del Seminario Menor Colegio Seráfico San Francisco de Asís, Cartago, Costa Rica.</article-title>
+<source>Tesis de licenciatura, Instituto Tecnologico de Costa Rica</source>
+<year>2020</year>
+<comment content-type="degree">licenciatura</comment>
+</element-citation>
+</ref>
+<ref id="ref5">
+<label>5</label>
+<mixed-citation publication-type="journal">Capote, M., Robaina, l, y Capote, M. (2022). Relaciones entre las actitudes hacia la Matemática y el rendimiento académico de los estudiantes. Mendive. Revista de Educación, 20(3), 1022-1035. Epub 02 de septiembre de 2022. <ext-link ext-link-type="uri" xlink:href="https://mendive.upr.edu.cu/index.php/MendiveUPR/article/view/2520">https://mendive.upr.edu.cu/index.php/MendiveUPR/article/view/2520</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Capote</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Robaina</surname>
+<given-names>l</given-names>
+</name>
+<name>
+<surname>Capote</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>Relaciones entre las actitudes hacia la Matemática y el rendimiento académico de los estudiantes</article-title>
+<source>Mendive. Revista de Educación</source>
+<year>2022</year>
+<day>02 de septiembre de 2022</day>
+<volume>20</volume>
+<issue>3</issue>
+<fpage>1022</fpage>
+<lpage>1035</lpage>
+</element-citation>
+</ref>
+<ref id="ref6">
+<label>6</label>
+<mixed-citation publication-type="book">Cea, M.A. (1999). Metodología cuantitativa: estrategias y técnicas de investigación social. Madrid: Síntesis.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Cea</surname>
+<given-names>M.A.</given-names>
+</name>
+</person-group>
+<source>Madrid: Síntesis.</source>
+<year>1999</year>
+<series>Metodología cuantitativa: estrategias y técnicas de investigación social.</series>
+</element-citation>
+</ref>
+<ref id="ref7">
+<label>7</label>
+<mixed-citation publication-type="journal">Chacón, R. y Meza, G. (2024). Estudio de la relación entre la “actitud hacia la matemática” y la “actitud hacia la resolución de problemas matemáticos” en el estudiantado de dos colegios públicos diurnos costarricenses. Revista Comunicación. Año 45, Vol. 33, No. 1, enero-junio, 2024. Pp. 88-101. http://dx.doi.org/10.18845/rc.v33i1.7183</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Chacón</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Meza</surname>
+<given-names>G.</given-names>
+</name>
+</person-group>
+<article-title>Estudio de la relación entre la “actitud hacia la matemática” y la “actitud hacia la resolución de problemas matemáticos” en el estudiantado de dos colegios públicos diurnos costarricenses.</article-title>
+<source>Revista Comunicación</source>
+<year>2024</year>
+<volume>33</volume>
+<issue>1</issue>
+<fpage>88</fpage>
+<lpage>101</lpage>
+<pub-id pub-id-type="doi">10.18845/rc.v33i1.7183</pub-id>
+</element-citation>
+</ref>
+<ref id="ref8">
+<label>8</label>
+<mixed-citation publication-type="thesis">Coto, J. (2018). Estudio de la relación entre la “autoconfianza matemática” y la “actitud hacia la utilidad de la matemática” en los estudiantes del tercer ciclo del Colegio de San Luis Gonzaga, Cartago, Costa Rica. [Tesis de licenciatura inédita, Instituto Tecnológico de Costa Rica.]</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Coto</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Estudio de la relación entre la “autoconfianza matemática” y la “actitud hacia la utilidad de la matemática” en los estudiantes del tercer ciclo del Colegio de San Luis Gonzaga, Cartago, Costa Rica.</article-title>
+<source>Tesis de licenciatura inédita, Instituto Tecnológico de Costa Rica.</source>
+<year>2018</year>
+<comment content-type="degree">licenciatura inédita</comment>
+</element-citation>
+</ref>
+<ref id="ref9">
+<label>9</label>
+<mixed-citation publication-type="thesis">Estrada, M. A. (2002). Análisis de las actitudes y conocimientos estadísticos elementales en la formación del profesorado [Tesis doctoral, Universitat Autonoma de Barcelona.]</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Estrada</surname>
+<given-names>M. A.</given-names>
+</name>
+</person-group>
+<article-title>Análisis de las actitudes y conocimientos estadísticos elementales en la formación del profesorado</article-title>
+<source>Tesis doctoral, Universitat Autonoma de Barcelona.</source>
+<year>2002</year>
+<comment content-type="degree">Tesis doctoral</comment>
+</element-citation>
+</ref>
+<ref id="ref10">
+<label>10</label>
+<mixed-citation publication-type="journal">Fennema, E., y Sherman, J. A. (1976). Fennema-Sherman Mathematics Attitudes Scales: Instruments Designed to Measure Attitudes toward the Learning of Mathematics by Females and Males. Journal for Research in Mathematics Education, 7(5), 324–326. https: //doi.org/10.2307/748467</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fennema</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Sherman</surname>
+<given-names>J. A.</given-names>
+</name>
+</person-group>
+<article-title>Fennema-Sherman Mathematics Attitudes Scales: Instruments Designed to Measure Attitudes toward the Learning of Mathematics by Females and Males</article-title>
+<source>Journal for Research in Mathematics Education</source>
+<year>1976</year>
+<volume>7</volume>
+<issue>5</issue>
+<fpage>324</fpage>
+<lpage>326</lpage>
+<pub-id pub-id-type="doi">10.2307/748467</pub-id>
+</element-citation>
+</ref>
+<ref id="ref11">
+<label>11</label>
+<mixed-citation publication-type="journal">Gómez, R. (2023). Relación entre la actitud hacia la matemática y el rendimiento académico en adolescentes. Revista De Ciencias De La educación E inclusión, 1(1), 10. <ext-link ext-link-type="uri" xlink:href="https://revistacei.com/index.php/rcei/article/view/1">https://revistacei.com/index.php/rcei/article/view/1</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gómez</surname>
+<given-names>R</given-names>
+</name>
+</person-group>
+<article-title>Relación entre la actitud hacia la matemática y el rendimiento académico en adolescentes</article-title>
+<source>Revista De Ciencias De La educación E inclusión</source>
+<year>2023</year>
+<volume>1</volume>
+<issue>1</issue>
+<fpage>10</fpage>
+</element-citation>
+</ref>
+<ref id="ref12">
+<label>12</label>
+<mixed-citation publication-type="journal">Gómez-Chacón, I. M. (2009). Actitudes matemáticas: Propuestas para la transición del bachillerato a la universidad. Educación Matemática, 21(3), 5-32.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gómez-Chacón</surname>
+<given-names>I. M</given-names>
+</name>
+</person-group>
+<article-title>Actitudes matemáticas: Propuestas para la transición del bachillerato a la universidad</article-title>
+<source>Educación Matemática</source>
+<year>2009</year>
+<volume>21</volume>
+<issue>3</issue>
+<fpage>5</fpage>
+<lpage>32</lpage>
+</element-citation>
+</ref>
+<ref id="ref13">
+<label>13</label>
+<mixed-citation publication-type="journal">Gómez-Chacón, I. (2010). Actitudes de los estudiantes en el aprendizaje de la matemática con tecnología. Enseñanza de las ciencias: Revista de investigación y experiencias didácticas, 28(2), 227–244. <ext-link ext-link-type="uri" xlink:href="https://www.raco.cat/index.php/Ensenanza/article/view/199615">https://www.raco.cat/index.php/Ensenanza/article/view/199615</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gómez-Chacón</surname>
+<given-names>I.</given-names>
+</name>
+</person-group>
+<article-title>Actitudes de los estudiantes en el aprendizaje de la matemática con tecnología</article-title>
+<source>Enseñanza de las ciencias: Revista de investigación y experiencias didácticas</source>
+<year>2010</year>
+<volume>28</volume>
+<issue>2</issue>
+<fpage>227</fpage>
+<lpage>244</lpage>
+</element-citation>
+</ref>
+<ref id="ref14">
+<label>14</label>
+<mixed-citation publication-type="journal">Hannula, M. (2016). Affect in Mathematics Education. Encyclopedia of Mathematics Education. 32-36. Doi:10.1007/978-3-030-15678-0</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hannula</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>Affect in Mathematics Education</article-title>
+<source>Encyclopedia of Mathematics Education</source>
+<year>2016</year>
+<fpage>32</fpage>
+<lpage>36</lpage>
+<pub-id pub-id-type="doi">10.1007/978-3-030-15678-0</pub-id>
+</element-citation>
+</ref>
+<ref id="ref15">
+<label>15</label>
+<mixed-citation publication-type="journal">Hendriana, H., Johanto, T., y Sumarmo, U. (2018). The role of problem-based learning to improve students’ mathematical problem-solving ability and self-confidence. Journal on Mathematics Education, 9(2), 291-300.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hendriana</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Johanto</surname>
+<given-names>T</given-names>
+</name>
+<name>
+<surname>Sumarmo</surname>
+<given-names>U</given-names>
+</name>
+</person-group>
+<article-title>The role of problem-based learning to improve students’ mathematical problem-solving ability and self-confidence</article-title>
+<source>Journal on Mathematics Education</source>
+<year>2018</year>
+<volume>9</volume>
+<issue>2</issue>
+<fpage>291</fpage>
+<lpage>300</lpage>
+</element-citation>
+</ref>
+<ref id="ref16">
+<label>16</label>
+<mixed-citation publication-type="journal">Irhamna, I., Amry, Z., y Syahputra, H. (2020). Contribution of mathematical anxiety, learning motivation, and self-confidence to students’ mathematical problem solving. Budapest International Research and Critics in Linguistics and Education (BirLE) Journal, 3(4), 1759-1772.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Irhamna</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>Amry</surname>
+<given-names>Z</given-names>
+</name>
+<name>
+<surname>Syahputra</surname>
+<given-names>H</given-names>
+</name>
+</person-group>
+<article-title>Contribution of mathematical anxiety, learning motivation, and self-confidence to students’ mathematical problem solving</article-title>
+<source>Budapest International Research and Critics in Linguistics and Education (BirLE) Journal</source>
+<year>2020</year>
+<volume>3</volume>
+<issue>4</issue>
+<fpage>1759</fpage>
+<lpage>1772</lpage>
+</element-citation>
+</ref>
+<ref id="ref17">
+<label>17</label>
+<mixed-citation publication-type="journal">Jiménez, K., y Montero, E. (2013). Aplicación del modelo de Rasch, en el análisis psicométrico de una prueba de diagnóstico en matemática. Revista digital Matemática, Educación e Internet, 13(1), 1-23.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Jiménez</surname>
+<given-names>K</given-names>
+</name>
+<name>
+<surname>Montero</surname>
+<given-names>E</given-names>
+</name>
+</person-group>
+<article-title>Aplicación del modelo de Rasch, en el análisis psicométrico de una prueba de diagnóstico en matemática</article-title>
+<source>Revista digital Matemática, Educación e Internet</source>
+<year>2013</year>
+<volume>13</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>23</lpage>
+</element-citation>
+</ref>
+<ref id="ref18">
+<label>18</label>
+<mixed-citation publication-type="journal">Laura, L. (2023). Actitud Hacia la Matemática y Rendimiento Académico en estudiantes de educación secundaria de una Institución educativa particular Los Olivos. <ext-link ext-link-type="uri" xlink:href="https://hdl.handle.net/20.500.12692/106569">https://hdl.handle.net/20.500.12692/106569</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Laura</surname>
+<given-names>L</given-names>
+</name>
+</person-group>
+<article-title>Actitud Hacia la Matemática y Rendimiento Académico en estudiantes de educación secundaria de una Institución educativa particular Los Olivos</article-title>
+<source>Repositorio Digital Institucional, Universidad Cesar Vallejo</source>
+<year>2023</year>
+</element-citation>
+</ref>
+<ref id="ref19">
+<label>19</label>
+<mixed-citation publication-type="journal">Leal, P.R., Fernández-Cézar, R., Núñez, R.P., Suárez, C.A.H. (2022). Academic Performance And Beliefs About Mathematics In College Students. Journal of Language and Linguistic Studies, 18(3), 148-160. <ext-link ext-link-type="uri" xlink:href="https://files.eric.ed.gov/fulltext/EJ1379208.pdf">https://files.eric.ed.gov/fulltext/EJ1379208.pdf</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Leal</surname>
+<given-names>P.R.</given-names>
+</name>
+<name>
+<surname>Fernández-Cézar</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Núñez</surname>
+<given-names>R.P.</given-names>
+</name>
+<name>
+<surname>Suárez</surname>
+<given-names>C.A.H.</given-names>
+</name>
+</person-group>
+<article-title>Academic Performance And Beliefs About Mathematics In College Students</article-title>
+<source>Journal of Language and Linguistic Studies</source>
+<year>2022</year>
+<volume>18</volume>
+<issue>3</issue>
+<fpage>148</fpage>
+<lpage>160</lpage>
+</element-citation>
+</ref>
+<ref id="ref20">
+<label>20</label>
+<mixed-citation publication-type="book">Lozano, L., y De la Fuente-Solana, E. (2013). Diseño y validación de cuestionarios. En Pantoja-Vallejo. Manual básico para la realización de tesinas, tesis y trabajos de investigación. España: Editorial EOS, 251-274.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Lozano</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>De la Fuente-Solana</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<source>Editorial EOS</source>
+<year>2013</year>
+<fpage>251</fpage>
+<lpage>274</lpage>
+<chapter-title>Diseño y validación de cuestionarios. En Pantoja-Vallejo. Manual básico para la realización de tesinas, tesis y trabajos de investigación.</chapter-title>
+</element-citation>
+</ref>
+<ref id="ref21">
+<label>21</label>
+<mixed-citation publication-type="journal">Malmivuori, M. (2001). The dynamics of affect, cognition, and social environment in the regulation of personal learning processes: The case of mathematics. <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/10138/19814">http://hdl.handle.net/10138/19814</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Malmivuori</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>The dynamics of affect, cognition, and social environment in the regulation of personal learning processes: The case of mathematics</article-title>
+<source>Repositorio Público de la Universidad de Helsinki</source>
+<year>2001</year>
+</element-citation>
+</ref>
+<ref id="ref22">
+<label>22</label>
+<mixed-citation publication-type="thesis">Martínez, D., y Ramírez, N. (2022). Estudio de la relación entre las variables “predisposición desfavorable hacia el aprendizaje de la matemática”, “actitud hacia la utilidad de la matemática” y “autoestima” en el estudiantado de Los Ángeles School y del Liceo Hospicio de Huérfanos de Cartago Experimental Bilingüe José Figueres Ferrer. [Tesis de licenciatura inédita, Instituto Tecnológico de Costa Rica.]</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Martínez</surname>
+<given-names>D</given-names>
+</name>
+<name>
+<surname>Ramírez</surname>
+<given-names>N.</given-names>
+</name>
+</person-group>
+<article-title>Estudio de la relación entre las variables “predisposición desfavorable hacia el aprendizaje de la matemática”, “actitud hacia la utilidad de la matemática” y “autoestima” en el estudiantado de Los Ángeles School y del Liceo Hospicio de Huérfanos de Cartago Experimental Bilingüe José Figueres Ferrer.</article-title>
+<source>Tesis de licenciatura inédita, Instituto Tecnológico de Costa Rica.</source>
+<year>2022</year>
+<comment content-type="degree">licenciatura inédita</comment>
+</element-citation>
+</ref>
+<ref id="ref23">
+<label>23</label>
+<mixed-citation publication-type="journal">Meza-Cascante, L. G., Suarez-Valdés-Ayala, Z., y Agüero-Calvo, E. (2015). Resolución de problemas matemáticos en la educación media costarricense: un estudio acerca de la actitud. Revista Comunicación, 24(2), 58-69.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Meza-Cascante</surname>
+<given-names>L. G.</given-names>
+</name>
+<name>
+<surname>Suarez-Valdés-Ayala</surname>
+<given-names>Z.</given-names>
+</name>
+<name>
+<surname>Agüero-Calvo</surname>
+<given-names>E</given-names>
+</name>
+</person-group>
+<article-title>Resolución de problemas matemáticos en la educación media costarricense: un estudio acerca de la actitud</article-title>
+<source>Revista Comunicación</source>
+<year>2015</year>
+<volume>24</volume>
+<issue>2</issue>
+<fpage>58</fpage>
+<lpage>69</lpage>
+</element-citation>
+</ref>
+<ref id="ref24">
+<label>24</label>
+<mixed-citation publication-type="journal">Meza-Cascante, L. G., Agüero-Calvo, E., y Suárez-Valdés-Ayala, Z. (2019). La autoconfianza matemática de estudiantes de educación secundaria: Un estudio en Costa Rica. Revista Electrónica Educare, 23(1), 35-49. https://dx.doi.org/10.15359/ree.23-1.3</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Meza-Cascante</surname>
+<given-names>L. G.</given-names>
+</name>
+<name>
+<surname>Agüero-Calvo</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Suárez-Valdés-Ayala</surname>
+<given-names>Z.</given-names>
+</name>
+</person-group>
+<article-title>La autoconfianza matemática de estudiantes de educación secundaria: Un estudio en Costa Rica.</article-title>
+<source>Revista Electrónica Educare</source>
+<year>2019</year>
+<volume>23</volume>
+<issue>1</issue>
+<fpage>35</fpage>
+<lpage>49</lpage>
+<pub-id pub-id-type="doi">10.15359/ree.23-1.3</pub-id>
+</element-citation>
+</ref>
+<ref id="ref25">
+<label>25</label>
+<mixed-citation publication-type="journal">Nandya, A., Nurhanurawati, N., y Coesamin, M. (2022). Pengaruh self-confidence terhadap kemampuan pemecahan masalah matematis siswa. Jurnal Pendidikan Matematika Universitas Lampung, 10(2), 196-207.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Nandya</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Nurhanurawati</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Coesamin</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>Pengaruh self-confidence terhadap kemampuan pemecahan masalah matematis siswa</article-title>
+<source>Jurnal Pendidikan Matematika Universitas Lampung</source>
+<year>2022</year>
+<volume>10</volume>
+<issue>2</issue>
+<fpage>196</fpage>
+<lpage>207</lpage>
+</element-citation>
+</ref>
+<ref id="ref26">
+<label>26</label>
+<mixed-citation publication-type="journal">Nortes, R., y Nortes, A. (2017). Agrado y utilidad de las matemáticas en la formación inicial de maestros de educación primaria. PNA, 12(1), 27-42.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Nortes</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Nortes</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>Agrado y utilidad de las matemáticas en la formación inicial de maestros de educación primaria</article-title>
+<source>PNA</source>
+<year>2017</year>
+<volume>12</volume>
+<issue>1</issue>
+<fpage>27</fpage>
+<lpage>42</lpage>
+</element-citation>
+</ref>
+<ref id="ref27">
+<label>27</label>
+<mixed-citation publication-type="journal">Nortes Martínez-Artero, R., y Nortes Checa, A. (2017). Competencia matemática, actitud y ansiedad hacia las matemáticas en futuros maestros. Revista Electrónica Interuniversitaria de Formación del Profesorado, 20(3), 145-160. http://dx.doi.org/10.6018/reifop.20.3.2</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Nortes Martínez-Artero</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Nortes Checa</surname>
+<given-names>A</given-names>
+</name>
+</person-group>
+<article-title>Competencia matemática, actitud y ansiedad hacia las matemáticas en futuros maestros</article-title>
+<source>Revista Electrónica Interuniversitaria de Formación del Profesorado</source>
+<year>2017</year>
+<volume>20</volume>
+<issue>3</issue>
+<fpage>145</fpage>
+<lpage>160</lpage>
+<pub-id pub-id-type="doi">10.6018/reifop.20.3.2</pub-id>
+</element-citation>
+</ref>
+<ref id="ref28">
+<label>28</label>
+<mixed-citation publication-type="journal">Nurmi, A., Hannula, M., Maijala, H., y Pehkonen, E. (2003). On pupils’ self-confidence in mathematics: Gender comparisons. Proceedings of the International Group for the Psychology of Mathematics Education, 3, 453-460.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Nurmi</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Hannula</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Maijala</surname>
+<given-names>H</given-names>
+</name>
+<name>
+<surname>Pehkonen</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>On pupils’ self-confidence in mathematics: Gender comparisons.</article-title>
+<source>Proceedings of the International Group for the Psychology of Mathematics Education</source>
+<year>2003</year>
+<volume>3</volume>
+<fpage>453</fpage>
+<lpage>460</lpage>
+</element-citation>
+</ref>
+<ref id="ref29">
+<label>29</label>
+<mixed-citation publication-type="thesis">Perez-Tyteca, P. (2012). La ansiedad matemática como centro de un modelo causal predictivo de la elección de carreras. Tesis doctoral, Universidad de Granada, España.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Perez-Tyteca</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<article-title>La ansiedad matemática como centro de un modelo causal predictivo de la elección de carreras</article-title>
+<source>Universidad de Granada</source>
+<year>2012</year>
+<comment content-type="degree">Tesis doctoral</comment>
+</element-citation>
+</ref>
+<ref id="ref30">
+<label>30</label>
+<mixed-citation publication-type="journal">Perez-Tyteca, P., Monje, J., y Castro, E. (2013). Afecto y matemáticas. Diseño de una entrevista para acceder a los sentimientos de alumnos adolescentes. Avances de Investigación en Educacion Matemática, 4, 65-82.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Perez-Tyteca</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Monje</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Castro</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>Afecto y matemáticas. Diseño de una entrevista para acceder a los sentimientos de alumnos adolescentes</article-title>
+<source>Avances de Investigación en Educacion Matemática</source>
+<year>2013</year>
+<volume>4</volume>
+<fpage>65</fpage>
+<lpage>82</lpage>
+</element-citation>
+</ref>
+<ref id="ref31">
+<label>31</label>
+<mixed-citation publication-type="thesis">Ramos, N. (2015). Estudio de la relación entre “ansiedad matemática” y “autoconfianza matemática” en tres colegios privados costarricenses. [Tesis de licenciatura inédita, Instituto Tecnológico de Costa Rica.]</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Ramos</surname>
+<given-names>N.</given-names>
+</name>
+</person-group>
+<article-title>Estudio de la relación entre “ansiedad matemática” y “autoconfianza matemática” en tres colegios privados costarricenses</article-title>
+<source>Instituto Tecnológico de Costa Rica</source>
+<year>2015</year>
+<comment content-type="degree">Tesis de licenciatura inédita</comment>
+</element-citation>
+</ref>
+<ref id="ref32">
+<label>32</label>
+<mixed-citation publication-type="journal">Reckase, M. D. (1979). Unifactor Latent Trait Models Applied to Multifactor Tests: Results and Implications. Journal of Educational Statistics, 4(3), 207–230. https://doi.org/10.3102/10769986004003207</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Reckase</surname>
+<given-names>M. D.</given-names>
+</name>
+</person-group>
+<article-title>Unifactor Latent Trait Models Applied to Multifactor Tests: Results and Implications</article-title>
+<source>Journal of Educational Statistics</source>
+<year>1979</year>
+<volume>4</volume>
+<issue>3</issue>
+<fpage>207</fpage>
+<lpage>230</lpage>
+<pub-id pub-id-type="doi">10.3102/10769986004003207</pub-id>
+</element-citation>
+</ref>
+<ref id="ref33">
+<label>33</label>
+<mixed-citation publication-type="thesis">Sanabria, J. (2016). Estudio de los niveles de “actitud hacia la matemática”, “percepción de la actitud del padre hacia la matemática” y “percepción de la actitud de la madre hacia la matemática” que manifiestan los estudiantes de los colegios Francisca Carrasco Jiménez, San Luis Gonzaga y Experimental Bilingüe José Figueres Ferrer en el año 2015. [Tesis de licenciatura inédita, Instituto Tecnológico de Costa Rica.]</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Sanabria</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Estudio de los niveles de “actitud hacia la matemática”, “percepción de la actitud del padre hacia la matemática” y “percepción de la actitud de la madre hacia la matemática” que manifiestan los estudiantes de los colegios Francisca Carrasco Jiménez, San Luis Gonzaga y Experimental Bilingüe José Figueres Ferrer en el año 2015</article-title>
+<source>Instituto Tecnológico de Costa Rica</source>
+<year>2016</year>
+<comment content-type="degree">Tesis de licenciatura inédita</comment>
+</element-citation>
+</ref>
+<ref id="ref34">
+<label>34</label>
+<mixed-citation publication-type="journal">Solano, M., Garro, K., y Meza, L. (2021). Estudio de la relación entre la “predisposición desfavorable hacia el aprendizaje de la matemática” y la “autoconfianza matemática” en estudiantes de secundaria en un colegio de la provincia de Cartago, Costa Rica. Trama, Revista de Ciencias Sociales y Humanidades, 10(2), 124-152.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Solano</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Garro</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Meza</surname>
+<given-names>L</given-names>
+</name>
+</person-group>
+<article-title>Estudio de la relación entre la “predisposición desfavorable hacia el aprendizaje de la matemática” y la “autoconfianza matemática” en estudiantes de secundaria en un colegio de la provincia de Cartago, Costa Rica</article-title>
+<source>Revista de Ciencias Sociales y Humanidades</source>
+<year>2021</year>
+<volume>10</volume>
+<issue>2</issue>
+<fpage>124</fpage>
+<lpage>152</lpage>
+</element-citation>
+</ref>
+<ref id="ref35">
+<label>35</label>
+<mixed-citation publication-type="journal">Villasís-Keever, M. A., Zarco-Villavicencio, I. S., y Rendón-Macías, M. E. (2021). Métodos estadísticos para el análisis del tamaño del efecto. Revista Alergia México, 68(2), 128-136</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Villasís-Keever</surname>
+<given-names>M. A</given-names>
+</name>
+<name>
+<surname>Zarco-Villavicencio</surname>
+<given-names>I. S</given-names>
+</name>
+<name>
+<surname>Rendón-Macías</surname>
+<given-names>M. E.</given-names>
+</name>
+</person-group>
+<article-title>Métodos estadísticos para el análisis del tamaño del efecto</article-title>
+<source>Revista Alergia México</source>
+<year>2021</year>
+<volume>68</volume>
+<issue>2</issue>
+<fpage>128</fpage>
+<lpage>136</lpage>
+</element-citation>
+</ref>
+</ref-list>
+<app-group>
+<app id="app1">
+<title>A. Apéndice</title>
+<sec>
+<title/>
+<p>En esta sección, se incluyen materiales adicionales que respaldan y complementan la información presentada en el artículo principal. Los anexos pueden contener datos brutos, gráficos, tablas, documentos, códigos, fuente, imágenes u otra información relevante que no esté incluida en el cuerpo del artículo, pero que es importante para una comprensión más profunda de la investigación. Los anexos proporcionan a los lectores acceso a información adicional que respalda y enriquece el contenido del artículo.</p>
+</sec>
+<sec>
+<title>Agradecimientos</title>
+<p>Se agradece a los colegios participantes, cuyos nombres se mantienen en reserva debido al compromiso de confidencialidad adquirido, así como al estudiantado que integró la muestra. También se extiende un agradecimiento a las profesoras Licda. Ivonne Sánchez Fernández, Dra. Evelyn Agüero Calvo, y al profesor Dr. Jorge Monge Fallas de la Escuela de Matemática del Tecnológico de Costa Rica, por sus valiosas aportaciones como integrantes del tribunal evaluador en la revisión de la tesis que originó esta investigación.</p>
+</sec>
+<sec>
+<title>Contribución de las personas autoras</title>
+<p>Conceptualización: R.S.S., J.O.M, L.G.M.C. Investigación: R.S.S, J.O.M. Metodología:, R.S.S.,J.O.M.,L.G.M.C. Validación: R.S.S., J.O.M, L.G.M.C. Escritura (borrador original): R.S.S., J.O.M. Escritura (revisión y edición): L.G.M.C.</p>
+</sec>
+<sec>
+<title>Accesibilidad de datos</title>
+<p>los datos pueden ser solicitados al correo gemeza@itcr.ac.cr.</p>
+</sec>
+</app>
+</app-group>
+</back>
+</article>
