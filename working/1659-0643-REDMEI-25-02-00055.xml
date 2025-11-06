@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "http://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1" specific-use="sps-1.9" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">REDMEI</journal-id>
+<journal-title-group>
+<journal-title>Revista Digital: Matemática, Educación e Internet</journal-title>
+<abbrev-journal-title abbrev-type="publisher">-</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1659-0643</issn>
+<publisher>
+<publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.18845/rdmei.v25i2.7542</article-id>
+<article-id pub-id-type="other">2</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículo científico</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>EREM: Aportes en competencias digitales al personal docente de matemática de la Región Caribe Norte de Costa Rica</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>EREM: Contributions on digital competences to the mathematics teaching staff of the Northern Caribbean Region of Costa Rica</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0000-0001-7984-6866</contrib-id>
+<name>
+<surname>Jiménez-Castro</surname>
+<given-names>Maynor</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="fn" rid="fn2">1</xref>
+<email>mynor.jimenez@ucr.ac.cr</email>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0009-0004-4847-5264</contrib-id>
+<name>
+<surname>Mena Esquivel</surname>
+<given-names>Luis Fernando</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<xref ref-type="fn" rid="fn3">2</xref>
+<email>luis.mena.esquivel@mep.go.cr</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Universidad de Costa Rica mynor.jimenez@ucr.ac.cr</institution>
+<institution content-type="normalized">Universidad de Costa Rica mynor.jimenez@ucr.ac.cr Costa Rica</institution>
+<country country="CR">Costa Rica</country>
+<email>mynor.jimenez@ucr.ac.cr</email>
+</aff>
+<aff id="aff2">
+<institution content-type="original">Universidad de Costa Rica luis.mena.esquivel@mep.go.cr</institution>
+<institution content-type="normalized">Universidad de Costa Rica luis.mena.esquivel@mep.go.cr Costa Rica</institution>
+<country country="CR">Costa Rica</country>
+<email>luis.mena.esquivel@mep.go.cr</email>
+</aff>
+<author-notes>
+<fn id="fn2" fn-type="current-aff">
+<label>1</label>
+<p>Maynor Jiménez Castro. Profesor Recinto Guápiles, Sede del Atlántico de la Universidad de Costa Rica. Dirección postal: Guápiles, Pococí, Limón. Código Postal: 70201. Correo electrónico: mynor.jimenez@ucr.ac.cr</p>
+</fn>
+<fn id="fn3" fn-type="current-aff">
+<label>2</label>
+<p>Luis Fernando Mena Esquivel. Asesor Regional de Educación Matemática, Dirección Regional Educativa Guápiles. Dirección postal: Guápiles, Pococí, Limón. Código Postal: 70201. Correo electrónico: luis.mena.esquivel@mep.go.cr</p>
+</fn>
+</author-notes>
+<pub-date date-type="pub" publication-format="electronic">
+<day>01</day>
+<month>08</month>
+<year>2024</year>
+</pub-date>
+<pub-date date-type="collection" publication-format="electronic">
+<season>Feb-Aug</season>
+<year>2025</year>
+</pub-date>
+<volume>25</volume>
+<issue>2</issue>
+<fpage>1</fpage>
+<lpage>16</lpage>
+<history>
+<date date-type="received">
+<day>09</day>
+<month>03</month>
+<year>2024</year>
+</date>
+<date date-type="accepted">
+<day>01</day>
+<month>08</month>
+<year>2024</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2024</copyright-year>
+<copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+<license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract>
+<title>Resumen</title>
+<p>Este artículo expone el impacto que ha dejado los Encuentros Regionales de Enseñanza de la Matemática (EREM), organizados por la Dirección Regional Educativa, el Recinto de la Universidad de Costa Rica en Guápiles y la Escuela de Matemática del Instituto Tecnológico de Costa Rica, en las competencias digitales a los docentes de primaria y secundaria participantes en los eventos comprendidos en el periodo 2011-2021. Para ello se trabajó con los docentes con mayor frecuencia de participaciones en estos encuentros, siguiendo los aspectos metodológicos del marco europeo para la Competencia Digital de los Educadores (DigCompEdu). En general, los resultados destacan niveles importantes de competencias digitales de B1 en <italic>Compromiso Profesional y Enseñanza y Aprendizaje</italic> y B2 en <italic>Contenidos digitales</italic>, pero un nivel incipiente en la competencia de <italic>Evaluación y Retroalimentación</italic> a través de herramientas digitales.</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>This article outlines the impact left by the Regional Mathematics Teaching Encounters (EREM), organized by the Regional Educational Directorate, the Campus of the University of Costa Rica in Guápiles, and the School of Mathematics Technological Institute of Costa Rica, on digital competences of primary and secondary school teachers who participated in the events carried out form 2011-2021. The study focused on teachers with the highest frequency of participation in these encounters, following the methodological aspects of the European Framework for Digital Competence of Educators (DigCompEdu). In general, the results highlight a relevant B1 level on digital competences in Professional Commitment and Teaching and Learning; and a B2 level on Digital Content. However, there is an incipient level on Evaluation and Feedback through digital tools.</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>Tecnologías de información y la matemática</kwd>
+<kwd>matemática y educación secundaria</kwd>
+<kwd>formación docente</kwd>
+<kwd>competencias digitales</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>Information technology and mathematics</kwd>
+<kwd>mathematics and secondary education</kwd>
+<kwd>teacher training</kwd>
+<kwd>digital skills</kwd>
+</kwd-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="1"/>
+<equation-count count="0"/>
+<ref-count count="18"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec sec-type="intro">
+<title>
+<bold>Introducción</bold>
+</title>
+<p>Las tecnologías digitales (TD) se han convertido en la base de todas las actividades que realiza el ser humano en la actualidad. De manera particular, los procesos educativos no han permanecido indiferentes ante este impacto y hoy las nuevas tecnologías de información y comunicación plantean grandes retos en este campo. Por un lado, es a través de la educación que se prepara una sociedad para enfrentar los desafíos del mañana, pero por otro, cumplir este objetivo requiere que los encargados de brindar este acompañamiento, se capaciten y preparen en el uso de las TD para poderlas utilizar con eficiencia y eficacia en su labor docente. En consecuencia, existe un gran desafío para que los docentes adquieran los conocimientos y habilidades tecnológicas y pedagógicas necesarias para integrar de buena manera las TD en su quehacer docente, pues sus habilidades tendrán impactos directos sobre los estudiantes, su área disciplinar y sus motivaciones para integrar las tecnologías digitales en sus aprendizajes (OCDE, 2020).</p>
+<p>De lo anterior, es clara la relevancia que tiene el manejo de las competencias tecnológicas por parte del docente, por lo que dichas habilidades no solo conllevan una serie de conocimientos sobre el manejo instrumental de las tecnologías, sino que también, su uso pedagógico integral en la práctica docente (Almerich et al., 2016).</p>
+<p>Diversos estudios referidos en Almerich et al., (2016) y Sandí &amp; Sanz, (2018), indican la necesidad de realizar un modelo común para valorar las competencias tecnológicas de los docentes en el campo de la educación. Dichos estudios plantean la existencia de al menos tres conjuntos en los que se pueden clasificar estos modelos según sus características y enfoques: el primero de ellos, corresponde a aquellos planteados por organizaciones como el propuesto por el Centro Común de Investigación de la Comisión Europea, el cual plantea el modelo DigCompEdu o los modelos propuestos por el International Society for Technology in Education (ISTE, 2008) o la de UNESCO (2019). El segundo grupo lo componen aquellos autores que consideran las competencias digitales como de conocimientos tecnológicos, pedagógicos y de contenidos (TPACK); término que se introduce como una extensión del conocimiento pedagógico del contenido según (Shulman, 1987), pero como señala (Graham, 2011), los constructos que corresponden a TPACK presentan problemas a nivel teórico y requieren una definición más precisa. Por último, el tercer grupo comprende una serie de autores que han planteado diversas propuestas sobre competencias digitales para maestros y docentes de todos los niveles educativos (Almerich et al., 2016; Baca, 2015 y Sandí &amp; Sanz, 2018), por citar solo algunos.</p>
+<p>En la última década, el avance tecnológico ha transformado la educación, destacando la necesidad de que los docentes desarrollen competencias y se preparen para la incorporación de las nuevas tecnologías digitales en el campo educativo. Diversos estudios han evaluado el impacto de los programas de capacitación en competencias digitales para docentes, revelando mejoras significativas en la enseñanza y el aprendizaje. Este es el caso de estudios realizados por Suárez-Rodríguez et al. (2018), donde se evaluó la efectividad de un programa de formación continua en competencias digitales para docentes de educación primaria y secundaria en España. Los resultados indicaron que los docentes que participaron en el programa mejoraron significativamente sus habilidades digitales, lo que a su vez tuvo un efecto positivo en la integración de las TD en el aula. Estos hallazgos subrayan la necesidad de considerar múltiples variables al diseñar programas de capacitación y de desarrollo profesional para docentes, con el fin de promover una integración efectiva de las TD en la práctica educativa. En resumen, el estudio resalta la complejidad de la relación entre competencia docente y uso de tecnología, enfatizando la importancia de abordar estos aspectos de manera integral para potenciar el impacto positivo de las TD en el aprendizaje de los estudiantes.</p>
+<p>En Tondeur et al., (2017), también se analizó el impacto de un programa de desarrollo profesional en competencias digitales en Flandes, Bélgica. Los resultados mostraron que la capacitación no solo incrementó las habilidades digitales de los docentes, sino que también mejoró su confianza y actitud hacia el uso de las tecnologías digitales en la enseñanza. Estudios similares desarrollados en Finlandia para determinar cómo un programa de formación en competencias digitales influía en la práctica docente, también revelaron que los docentes que participaron en el programa adoptaron nuevas estrategias pedagógicas y mostraron una mayor disposición para utilizar herramientas digitales en sus clases (Hämäläinen et al., 2019).</p>
+<p>Estos estudios destacan que los programas de capacitación en competencias digitales son esenciales para el desarrollo profesional de los docentes. La formación continua en este ámbito no solo mejora las habilidades tecnológicas de los docentes, sino que también influye positivamente en su confianza y disposición para integrar las TD en el proceso educativo, promoviendo así una enseñanza más eficaz y actualizada.</p>
+<p>Si bien Costa Rica cuenta con una larga historia en la incursión de las tecnologías digitales como apoyo en el desarrollo del currículo escolar, principalmente implementada por la Fundación Omar Dengo y el Ministerio de Educación Pública, que le ha merecido un gran reconocimiento en América Latina (Baltodano et al., 2022), no se cuenta con un marco referencial para apoyar políticas nacionales, regionales y locales en la promoción de la innovación educativa y las competencias digitales en los educadores.</p>
+</sec>
+<sec>
+<title>
+<bold>Marco Teórico</bold>
+</title>
+<p>Ante este hecho, en esta investigación se asume el Marco Europeo para la Competencia Digital de los Educadores (DigCompEdu), propuesto por (Redecker, 2020), el cual reúne veintidós competencias digitales específicas que un docente debe dominar. Estas se presentan en seis categorías o áreas de interés: Compromiso Profesional, Contenidos Digitales, Enseñanza y Aprendizaje, Evaluación y Retroalimentación, Empoderamiento de los Estudiantes y Desarrollo de la Competencia Digital de los Estudiantes, como se muestra en la figura <underline>
+<xref ref-type="fig" rid="gf2">1</xref>
+</underline>.</p>
+<p>
+<fig id="gf2">
+<label>
+<bold>Figura 1</bold>
+</label>
+<caption>
+<title>Las competencias DigCompuEdu</title>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00055-gf7.png" position="anchor" orientation="portrait"/>
+<attrib>Redecker, 2020, p.16</attrib>
+</fig>
+</p>
+<p>En el área de compromiso profesional, este modelo contempla aquellos usos de las tecnologías digitales que realizan los docentes en sus interacciones profesionales con compañeros, estudiantes, padres y otros miembros de la comunidad educativa, para su beneficio profesional o de la institución donde labora.</p>
+<p>Por su lado en la categoría de los contenidos digitales, este modelo contempla aquellas competencias orientadas a la utilización, creación y el compartir contenidos digitales propias del contexto curricular para un aprendizaje efectivo. En el área de enseñanza y aprendizaje, el modelo considera aquellas competencias que debe mostrar el educador en la gestión y coordinación del uso de las tecnologías digitales en los procesos de enseñanza y aprendizaje.</p>
+<p>En el área de evaluación y retroalimentación, se valora aspectos docentes en cuanto al uso de las tecnologías digitales para la evaluación de los aprendizajes a utilizar, crear y compartir contenidos digitales relativos al aprendizaje de manera eficaz y responsable.</p>
+<p>En la categoría de Empoderamiento de los estudiantes, el docente debe tener la capacidad de promover la participación activa de los estudiantes a través de estrategias pedagógicas con tecnologías digitales que permitan su apropiamiento y máximo beneficio en su aprendizaje.</p>
+<p>La sexta y última categoría, plantea el Desarrollo de la competencia digital de los estudiantes, la cual se considera como la capacidad del docente para inculcar en los estudiantes el uso creativo y responsable de las tecnologías digitales en tareas como, búsqueda de información, medio de comunicación, creación de contenido, bienestar y la resolución de problemas (Redecker, 2020).</p>
+<p>Para nuestro propósito de investigación, no se tomarán en cuenta las competencias digitales de los estudiantes en esta primera etapa del trabajo, por cuanto nos hemos concentrado en conocer las competencias digitales que han dejado los encuentros regionales de enseñanza de la matemática en el docente, desde su propia percepción, es decir las competencias correspondientes al Compromiso Social, Contenidos Digitales, Enseñanza y Aprendizaje y Evaluación y Retroalimentación, como se detallan en la Tabla 1.</p>
+<p>Cada una de estas competencias es caracterizada por niveles de aptitud sobre las habilidades digitales que presenta el docente, a través de un modelo de progresión, destinado a ayudar al docente para comprender sus fortalezas y debilidades en el desarrollo de las competencias digitales. Estas etapas de competencias digitales, están asociadas a los seis niveles de aptitud utilizado por el Marco Común Europeo de Referencia para las Lenguas y van del A1 al C2, como se muestra en la siguiente Figura <underline>
+<xref ref-type="fig" rid="gf3">2</xref>
+</underline>.</p>
+<p>En este modelo de progresión sobre el avance de las competencias digitales del docente, se avanza de un estado a otro siguiendo el principio de la taxonomía de Bloom, donde se parte de etapas cognitivas subsecuentes, iniciando en aspectos como <italic>recordar y comprender</italic>, hasta <italic>aplicar y analizar</italic> y posteriormente, <italic>evaluar y crear</italic> (Redecker, 2020). De esta manera un nivel <italic>Novel</italic> (A1), lo conforman aquellos docentes que tienen conciencia sobre el valor y la importancia que tienen las TD en la educación, sin embargo, han tenido poco contacto con ellas y solo las utilizan en tareas básicas de la escuela o lugar de trabajo.</p>
+<p>En el nivel <italic>Explorador</italic> (A2) se encuentran aquellos docentes igualmente conscientes de la importancia del uso de las TD en la práctica pedagógica, que han iniciado la experimentación en algunas áreas, pero sin utilizar un enfoque integral o coherente. Regularmente son personas que necesitan del apoyo y estímulo de otras para seguir incursionando con mejores competencias tecnológicas.</p>
+<p>Nivel <italic>Integrador</italic> (B1): en este se encuentran aquellos educadores que ya realizan diversas labores utilizando las tecnologías digitales. Se encuentran motivados por ampliar conocimientos sobre cómo utilizar mejor las herramientas tecnológicas y en cuáles contextos se obtienen los mejores beneficios. Su tendencia es ampliar conocimientos sobre las TD y mejorar con el tiempo el uso en las prácticas pedagógicas. Nivel <italic>Experto</italic> (B2): los educadores en este nivel son capaces de utilizar las TD de forma creativa y crítica para realizar mejor su labor. Saben elegir las herramientas adecuadas para una actividad específica y experimentar con el propósito de ampliar y mejorar su repertorio de estrategias didácticas. Nivel <italic>Líder</italic> (C1): Las personas en este nivel cuentan con un enfoque consiente e integral para aplicar las tecnologías digitales en el mejoramiento de sus prácticas pedagógicas y profesionales. Saben elegir las herramientas adecuadas para atender un caso concreto y mantienen una actitud crítica sobre los resultados de la aplicación de las tecnologías en sus prácticas pedagógicas. Su actitud les permite siempre mantenerse actualizados y promoviendo el intercambio de ideas y conocimientos con otros colegas. Estas personas son fuente de inspiración para otros que se encuentran en el proceso de mejoramientos de sus competencias digitales.</p>
+<p>Nivel <italic>Pionero</italic> (C2), quienes se encuentran en este nivel, son líderes ampliamente comprometidos por innovar y desarrollar enfoques pedagógicos novedosos. Son críticos de la idoneidad y aplicación de las nuevas tecnologías y se preocupan por estudiar las limitaciones o desventajas que ellas presentan con el propósito de plantear soluciones. Su liderazgo en el campo del uso de las tecnologías en educación, les hace un modelo a seguir por muchos otros docentes.</p>
+<p>
+<fig id="gf3">
+<label>
+<bold>Figura 2</bold>
+</label>
+<caption>
+<title>Modelo de progresión DigCompuEdu,  ©Union Europea.</title>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00055-gf8.png" position="anchor" orientation="portrait"/>
+<attrib>Redecker, 2020, p.29</attrib>
+</fig>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Capacitación docente y el uso de tecnologías digitales en la educación matemática en la región Caribe de Costa Rica</bold>
+</title>
+<p>Los procesos de capacitación y actualización docente en la educación básica costarricense tradicionalmente han estado a cargo de propio Ministerio de Educación Pública (MEP), donde a través del Instituto de Desarrollo Profesional Uladislao Gámez Solano (IDP-UGS) se han coordinado procesos de formación continua a los docentes en general. Sin embargo, el último programa nacional de capacitación docente presencial a profesores de matemática en el país, fue realizado como resultado de un diagnóstico llevado a cabo en el año 2010. En esta oportunidad se capacitaron cerca de 841 educadores de todo el país, en cursos sobre los temas de números reales y álgebra (Alfaro et al., 2013). Si bien el programa de capacitación había sido planificado para realizarse en una segunda etapa en el año 2011, esta no se llevó a cabo, pues el convenio para ejecutarlo entre las Universidades Públicas y el MEP se finalizó.</p>
+<p>De manera casi simultánea, en el contexto regional de la zona de Pococí y Guácimo, las instituciones con mejor capacidad tecnológica instalada (Colegios de Innovaciones Educativas) fueron invitadas a participar en el proyecto de Regionalización Interuniversitaria financiado por el Consejo Nacional de Rectores (CONARE) denominado Tecnologías de Información y Comunicación y su Impacto en la Enseñanza de la Matemática en la Educación Pública de la Zona de Pococí y Guácimo (ITEM). El propósito fundamental del proyecto fue capacitar a docentes de matemática de estos colegios para aprovechar las tecnologías instaladas, ya que a pesar de contar con tecnología de punta en su institución, los procesos de capacitación enfocados en el uso de las tecnologías digitales en la enseñanza fueron escasos, sin articulación y seguimiento alguno (Castro et al., 2011).</p>
+<p>
+<table-wrap id="gt2">
+<label>Tabla 1</label>
+<caption>
+<title>Competencias específicas en distintas categorías</title>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00055-gt4.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>Estudios preliminares del proyecto realizados en el año 2008 para valorar la incorporación de las tecnologías de información y comunicación (TIC) en el aula de matemática en estos colegios de la zona de Pococí y Guácimo, revelaron una población joven de docentes de matemática, donde el 75 % de ellos se encontraba entre los 21 a 30 años de edad, solo un 8,3 % había alcanzado el grado de licenciatura en educación matemática y solo el 33% se encontraba en propiedad. Los resultados de esta investigación describen una situación incipiente sobre el uso de las TIC en el aula y muy escasas competencias docentes en tecnologías digitales. La mitad de los docentes encuestados prácticamente no habían recibido capacitación sobre el uso de las TIC para mejorar la enseñanza de las Matemáticas y solamente un 8% planificaba su trabajo de aula con ayuda de las TD (Jiménez-Castro &amp; Salas, 2011).</p>
+<p>Como se menciona en Jiménez-Castro &amp; Salas (2011) para el año 2008 existía un gran descontento con las capacitaciones brindadas por el MEP y según esta investigación, el 58% de los docentes encuestados, consideraban que las capacitaciones poco o nada les ayudaban en su labor de aula. Esta percepción cambió luego de que con el proyecto ITEM, se capacitara al grupo de docentes por más de 400 horas en el uso de tecnologías digitales. Con la finalización del proyecto, los docentes participantes propusieron realizar un “<italic>encuentro</italic>” cada dos años para compartir los nuevos conocimientos generados con el uso de las tecnologías digitales y así invitar a otros colegas de la región y fuera de ella, a compartir sus experiencias e investigaciones. Es así como el Primer Encuentro Regional de Enseñanza de la Matemática (I EREM), se llevó a cabo durante los días 20, 21 y 22 de julio del 2011, donde participaron 123 docentes y más de 30 ponentes. El éxito alcanzado en este primer encuentro, generó la motivación entre los organizadores, para acordar la realización de este evento cada dos años en la región y que la coordinación general del evento se alternara entre los representantes de la Universidad de Costa Rica, Recinto de Guápiles y la Dirección Regional Educativa de Guápiles.</p>
+<p>Posterior a este proceso, se introduce un cambio en los planes de estudio de matemática, producto de la reforma educativa llevada a cabo a partir del año 2013. De esta manera, se inicia desde antes del año 2012 procesos de capacitación en una nueva modalidad, en la que se incluye los cursos de manera bimodal, principalmente dirigidos a capacitar en el enfoque de los nuevos programas y su estrategia pedagógica (Alfaro et al., 2013).</p>
+<p>Los nuevos planes de estudio fueron concebidos con cinco ejes transversales, en los que se citan: la resolución de problemas como la principal estrategia metodológica, acompañada de la contextualización activa, el uso de las tecnologías digitales, la promoción de actitudes y creencias positivas sobre las matemáticas, así como también el uso de la historia de las matemáticas (M.E.P, 2012), incorporando por primera vez el uso de las tecnologías como un eje transversal del proceso educativo en la enseñanza de la matemática.</p>
+<p>Con este propósito el MEP plantea mejorar la enseñanza y el aprendizaje en la educación matemática, pues el uso de las TD en las aulas, permite a los estudiantes acceder a recursos y herramientas que facilitan la comprensión de conceptos matemáticos, así como practicar y resolver problemas de manera más dinámica e interactiva. Igualmente brinda algunas recomendaciones para el uso adecuado de la tecnología en las clases, como:</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>
+<bold>Selección y utilización de recursos tecnológicos apropiados</bold>: el docente debe elegir herramientas y software que sean accesibles para todos los estudiantes y que estén aliados con los objetivos de aprendizaje y las habilidades indicadas por el programa de Matemática.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Integración de la tecnología de forma pedagógica</bold>: la tecnología debe ser utilizada como una herramienta para apoyar y enriquecer el proceso de enseñanza-aprendizaje de la Matemática. El docente debe planificar actividades y tareas que integren la tecnología de manera significativa, fomentando la participación de los estudiantes y promoviendo la reflexión y el análisis matemático.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Promoción del pensamiento crítico y creativo</bold>: la tecnología puede ser utilizada para promover el pensamiento crítico y creativo en la resolución de problemas matemáticos. El docente puede plantear situaciones problemáticas que requieran el uso de herramientas tecnológicas para su resolución, permitiendo a los estudiantes explorar diferentes estrategias y soluciones.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Desarrollo de habilidades digitales</bold>: el uso de la tecnología en las clases de Matemática también debe incluir la formación de los estudiantes en habilidades digitales básicas. Esto implica enseñarles a usar con destreza distintas herramientas y software matemáticos, así como a comunicarse y colaborar de forma segura y responsable en entornos digitales.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Evaluación del uso de la tecnología</bold>: El docente debe evaluar de forma continua y sistemática el uso de la tecnología en las clases de Matemática. Esto implica no solo evaluar los resultados obtenidos por los estudiantes, sino también evaluar la efectividad de los recursos y estrategias utilizadas, para realizar ajustes y mejoras en futuras experiencias.</p>
+</list-item>
+</list>
+</p>
+<p>En resumen, el programa de Matemática del MEP 2012 promueve el uso adecuado de la tecnología en las clases, siempre y cuando se seleccione y utilice de forma apropiada, se integre de manera pedagógica, se promueva el pensamiento crítico y creativo, se desarrollen habilidades digitales y se evalúe de manera efectiva.</p>
+<p>El uso de nuevas tecnologías como eje transversal de la mediación pedagógica en la enseñanza de la matemática, motivó aún más, la realización del II Encuentro Regional de Enseñanza de la Matemática – Guápiles 2013, reafirmando que su orientación hacia el uso de las tecnologías digitales en la enseñanza de la matemática, consistía en un eje fundamental para el desarrollo de estos eventos.</p>
+<p>Los informes y resultados obtenidos en los encuentros realizados desde el año 2011 al año 2021, demuestran la necesidad de contar con estos espacios de discusión y participación activa en el análisis de la educación matemática regional y confirma los grandes retos que tienen las autoridades educativas del país, en fortalecer y acompañar la gestión docente. Lamentablemente, los procesos de capacitación docente se han reducido considerablemente en los últimos años e incluso la actual administración del Ministerio de Educación Pública, ha limitado la convocatoria a docentes para que participen en procesos de actualización profesional (Programa Estado de la Nación, 2023).</p>
+<p>A pesar de lo mencionado anteriormente, los EREM realizados en la Dirección Regional Educativa Guápiles han tenido una gran aceptación. Durante el período 2011-2021, en promedio, 115 docentes de primaria y secundaria asistieron a cada evento, capacitándose en talleres sobre temas como los que se muestran en la Figura <underline>
+<xref ref-type="fig" rid="gf4">3</xref>
+</underline>.</p>
+<p>
+<fig id="gf4">
+<label>
+<bold>Figura 3</bold>
+</label>
+<caption>
+<title>Distribución de talleres por categorías, realizados en el EREm durante el periodo 2011-2021</title>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00055-gf9.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia a partir de los informes de ejecución del proyecto ED-2993 VAS - UCR 2011-2021</attrib>
+</fig>
+</p>
+<p>De aquí la importancia que tiene valorar los impactos que los EREM han dejado en las competencias digitales de las personas docentes que con mayor frecuencia participan en estos espacios y que son el sujeto de investigación en este artículo.</p>
+</sec>
+<sec>
+<title>
+<bold>Metodología</bold>
+</title>
+<p>Para este trabajo se utilizó el enfoque de investigación cualitativa, a través de la realización de dos procesos: el primero de ellos consistió en conformar dos grupos focales con docentes de primaria (formación generalista) y secundaria (formación en la enseñanza de la matemática) elegidos al azar y en los cuales participaron 4 y 8 personas respectivamente. El segundo proceso se llevó a cabo con la aplicación de un cuestionario digital al grupo de docentes que más asistencia han registrado a los Encuentros de Matemáticas organizados desde el Recinto de la Universidad de Costa Rica en Guápiles. Esta población muestral se estimó con las personas que cumplieron los requisitos de participación y asistencia (más del 80% de asistencia a las actividades programadas por evento) y que han asistido entre 3 y 6 ediciones del EREM, es decir 40 personas en total. En ambos casos participaron los docentes con la mayor asistencia en los Encuentros Regionales de Enseñanza de la Matemática entre los eventos del periodo 2011 al 2021 (6 en total), obtenidos de los informes finales de ejecución de los EREM, registrados por la comisión organizadora de estos encuentros.</p>
+<p>Para la recopilación de datos en los grupos focales, se utilizó una entrevista con siete preguntas, orientadas a conocer la valoración personal que han tenido con la participación en los EREM, es decir, preguntas con la intención de conocer los aportes que estos eventos les ha dejado, así como los aspectos positivos y negativos de los Encuentros, según su percepción personal. Estas respuestas fueron grabadas con su consentimiento y posteriormente estudiadas a través de un análisis de datos por categorías, en sus fases de reducción de datos, análisis descriptivo y la interpretación. Esta fase metodológica, permitió establecer ciertas categorías, codificarlas, tabular los resultados y establecer inferencias a través de los comentarios realizados.</p>
+<p>De igual forma, se llevó a cabo un cuestionario digital que fue enviado a la muestra elegida de manera intencional entre aquellos docentes participantes que registraron 3 o más asistencias a los EREM. Este cuestionario, igual responde al propósito de conocer las competencias digitales que han dejado los EREM en los docentes, según su percepción y fue establecido siguiendo el marco europeo para la Competencia Digital de los Educadores (DigCompEdu), propuesto por (Redecker, 2020), circunscrito a las competencias específicas del docente, es decir, considerando solo los aspectos de competencias profesionales y competencias pedagógicas de los educadores, tipificados en la Figura <underline>
+<xref ref-type="fig" rid="gf2">1</xref>
+</underline>.</p>
+<p>Las preguntas de este cuestionario fueron del tipo cerradas y se realizaron utilizando una escala Likert, clasificadas en cuatro competencias digitales, según en el DigCompEdu: compromiso profesional, contenidos digitales, enseñanza y aprendizaje y evaluación y retroalimentación. Adicionalmente, se incorporaron dos secciones para recopilar datos sobre caracterización de la población y comentarios para mejorar el desarrollo futuro de los EREM y que es utilizarán en otros estudios posteriores.</p>
+</sec>
+<sec>
+<title>
+<bold>Análisis de resultados</bold>
+</title>
+<p>De las intervenciones de los docentes participantes en el grupo focal de secundaria, se desprende que el mayor beneficio que ha dejado su participación en las charlas y talleres realizados en los EREM en su quehacer como docente, es una mejora en la didáctica de la enseñanza de la matemática, pues consideran que lo aprendido les ha permitido planificar actividades más interactivas, lúdicas y significativas para los estudiantes, estimulando la interpretación y visualización de fenómenos, que sin el uso de las tecnologías digitales pueden ser muy abstractos y complejos de aprender.</p>
+<p>En este mismo sentido, los docentes también consideran que las herramientas tecnológicas abordadas en los EREM, les permitió acceder a material e información actualizada y aprender sobre herramientas tecnológicas que de otra manera no hubieran logrado. Casi en el mismo nivel de importancia que el aspecto anterior, los docentes expresan que su participación en estos eventos matemáticos organizados en la región, les ha brindado confianza y motivación para seguir estudios superiores donde el acceso a información y recursos tecnológicos es fundamental. Esto les proporcionó un mayor crecimiento profesional en su área.</p>
+<p>Por último, pero no menos importante, los docentes consideran que los encuentros regionales en Guápiles, les ha permitido tener un mayor acercamiento con otros colegas de la zona, lo que ha facilitado compartir ideas y enlaces a información de interés académico. Lo anterior se puede observar en la Figura <underline>
+<xref ref-type="fig" rid="gf5">4</xref>
+</underline>.</p>
+<p>Ante la misma pregunta, los docentes de primaria del grupo focal, mencionan como su principal beneficio, que su asistencia a los encuentros de matemática, les ha permitido actualizarse y mejorar sus aprendizajes en el uso de las tecnologías digitales, pero también, les ha dado confianza para acercarse a las nuevas tecnologías de enseñanza. En otro nivel de importancia, mencionan que estos eventos también les ha permitido mejorar su didáctica en el aula y establecer un mayor acercamiento para el intercambio de ideas y conocimientos, con colegas de la región.</p>
+<p>Como se observa en estos resultados, los docentes expresan un impacto muy positivo de los EREM en la mejora de la didáctica realizada con el apoyo de la tecnología y como esta competencia digital les ha permitido planificar y llevar a cabo procesos de enseñanza-aprendizaje más dinámicos e interactivos con los estudiantes. Igualmente, en relación con la competencia en el desarrollo de contenidos digitales, los docentes expresan, que los EREM les permitieron acceder y seleccionar recursos digitales más adecuados para los temas a desarrollar en clase. Así mismo, esta competencia, les facilitó poner al alcance de los estudiantes, una serie de contenidos y enlaces a recursos digitales sobre los temas que ven en clase para reforzar conocimiento sobre la materia de interés. En este caso no se mencionan aspectos de la competencia digital de docente en la creación y modificación de recursos digitales.</p>
+<p>
+<fig id="gf5">
+<label>
+<bold>Figura 4</bold>
+</label>
+<caption>
+<title>Clasificación de los beneficios del EREM, según los docentes de secundaria participantes en el grupo focal</title>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00055-gf10.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia por reducción de categorías, según docentes participantes en grupo focal</attrib>
+</fig>
+</p>
+<p>Por su lado, los docentes que respondieron al cuestionario digital, lo hicieron a través de seis secciones, en las que se destacan los siguientes aspectos:</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>La caracterización de la población docente participante en el estudio.</p>
+</list-item>
+<list-item>
+<p>Afirmaciones con respecto a competencias digitales de los docentes no solo para mejorar la enseñanza, sino también sus interacciones profesionales con compañeros y estudiantes.</p>
+</list-item>
+<list-item>
+<p>Afirmaciones con respecto a competencias en el desarrollo de contenidos digitales por parte de los docentes para utilizarlos en el proceso de enseñanza de la matemática.</p>
+</list-item>
+<list-item>
+<p>Afirmaciones con respecto a competencias digitales del docente para promover mecanismos de evaluación a través del uso de las tecnologías digitales.</p>
+</list-item>
+<list-item>
+<p>Conocimiento y aplicación general pedagógica de las tecnologías digitales (TD).</p>
+</list-item>
+<list-item>
+<p>Consideraciones para mejorar el desarrollo de los Encuentros Regionales de Enseñanza de la Matemática en la Región.</p>
+</list-item>
+</list>
+</p>
+<p>El estudio, se concentró en los aspectos del 2 al 5, es decir, aspectos de la competencia de <italic>Compromiso Profesional, Contenidos digitales, Enseñanza y Aprendizaje y Evaluación y retroalimentación</italic>, dejando para otros análisis posteriores, la caracterización de la población y sus recomendaciones para mejorar los futuros encuentros de matemática en la región.</p>
+<sec>
+<title>
+<bold>Competencia digital en Compromiso Profesional de los docentes</bold>
+</title>
+<p>Con respecto a las competencias digitales del <italic>Compromiso Profesional</italic> de los docentes, se destaca opiniones muy favorables de las personas encuestadas, donde el 80% de ellas mencionan que la participación en los EREM les ha permitido mantener contacto y colaboración con otros colegas educadores para intercambiar conocimientos y experiencias de aula que a su vez les ha permitido una mayor habilidad para investigar y mantenerse informado sobre temas de uso de las tecnologías en la enseñanza de la matemática.</p>
+<p>Igualmente, el manejo de las herramientas digitales les ha permitido mantener una comunicación más efectiva con estudiantes y diversos sectores de la comunidad educativa como lo son, padres de familia y la misma administración institucional. Así mismo, un 87.5% de los encuestados, indican que los EREM les brindó mayor confianza para recibir cursos virtuales o bien iniciar procesos de capacitación y actualización docente, lo que ha generado una mejor actitud hacia el uso de las tecnologías digitales en la enseñanza de la matemática.</p>
+<p>En general, las apreciaciones de los encuestados reflejan un uso integrador (Nivel B1) de las tecnologías digitales, donde han logrado apropiarse de herramientas para mantener comunicaciones efectivas con estudiantes y colegas, compartir conocimientos y tener confianza para establecer procesos de desarrollo profesional a través de medios digitales. La variedad de contextos y propósitos con que utilizan las herramientas tecnológicas, sin evidenciar un nivel experto en el uso, es la característica más importante del nivel B1 en el que se ubican los encuestados en esta competencia tecnológica.</p>
+</sec>
+<sec>
+<title>
+<bold>Competencia en la gestión de Contenidos digitales</bold>
+</title>
+<p>En relación con la competencia de Contenidos digitales, el 90% de los docentes encuestados indican que la participación en los EREM les ha permitido mejorar las habilidades para la búsqueda y selección adecuada de recursos digitales para la enseñanza y el aprendizaje de la matemática. Un 80% indica que la participación en estos eventos les ha permitido crear material educativo como juegos, videos, páginas web y especialmente, sesiones de aprendizaje en Geogebra, para usarlas en las aulas. De igual forma, afirman que esta participación también les ha permitido desarrollar habilidades para descargar aplicaciones y recursos digitales para apoyar el proceso de enseñanza aprendizaje de la matemática, así como compartir e intercambiar material educativo con colegas y estudiantes (recursos digitales creados o guías de trabajo autónomo).</p>
+<p>Un 82% de los encuestados indica que la participación en los EREM les ha brindado mejores herramientas para identificar, evaluar y seleccionar recursos digitales para implementar en la clase de matemática y solo un 8% indica que no ha generado ningún impacto en ellos. De igual forma indican que les ha permitido modificar y adaptar recursos digitales existentes para contextualizarlos y ajustarlos a los objetivos de aprendizaje propuestos.</p>
+<p>De acuerdo con los datos recolectados por los docentes en la encuesta y los grupos focales, antes mencionados, se puede concluir que los docentes de secundaria de educación matemática en la competencia de <italic>Contenidos Digitales</italic>, se encuentran en el nivel B2 (Experto), pues han desarrollado habilidades para la creación de sesiones de aprendizaje con herramientas tecnológicas, principalmente desarrolladas en Geogebra, Kahoot y otras aplicaciones móviles. De igual forma, un alto porcentaje asegura contar con habilidades para localizar, evaluar y seleccionar recursos digitales para sus objetivos didácticos planteados y la participación en los EREM, les ha permitido ampliar su red de contactos para intercambiar y compartir recursos digitales en el área de la educación matemática.</p>
+</sec>
+<sec>
+<title>
+<bold>Competencia digital en el desarrollo de estrategias de Enseñanza y Aprendizaje</bold>
+</title>
+<p>Con relación a las competencias digitales del docente para fortalecer y mejorar las estrategias de <italic>Enseñanza y Aprendizaje</italic>, el 90% de los encuestados indica que la participación en los EREM, les permitió la apropiación de herramientas digitales y nuevas metodologías para preparar las lecciones y realizar mejor las gestiones administrativas en el lugar de trabajo.</p>
+<p>El 80% considera que lo aprendido en los EREM les facilitó conocimientos para desarrollar contenidos en herramientas como: Power Point, Geogebra, Kahoot y otras aplicaciones móviles, pero un 13% indica que no contaron con conocimientos sobre herramientas digitales para incentivar el aprendizaje colaborativo entre estudiantes. De acuerdo con lo mencionado por los docentes participantes en este estudio, un alto porcentaje considera que el uso de las tecnologías digitales fue importante para mejorar la didáctica en el aula y que les ha permitido contar con mayores conocimientos para evaluar la efectividad de herramientas y su pertinencia ante diversos contextos pedagógicos.</p>
+<p>Dado los resultados en competencias digitales docentes en la enseñanza y aprendizaje y de acuerdo con lo expuesto en los antecedentes, se puede concluir que la población estudiada se encuentra en el nivel B1, de integración de recursos digitales en las sesiones de enseñanza-aprendizaje en el aula. Sin embargo, se evidencian algunas debilidades en la generación de ambientes de aprendizaje colaborativos en donde se utilicen tecnologías digitales y donde el diseño de las estrategias de mediación pedagógica a través de las herramientas digitales se encuentre centrada en el estudiante; el docente mantiene un papel director de la clase y los estudiantes un rol más pasivo.</p>
+</sec>
+<sec>
+<title>
+<bold>Competencia digital en estrategias de Evaluación y Retroalimentación</bold>
+</title>
+<p>La competencia digital en este aspecto, se entiende según el Marco Europeo para la Competencia Digital de los Educadores (DigCompEdu), como aquellas habilidades que desarrolla el docente para implementar procesos de evaluación utilizando herramientas digitales que facilitan el registro del aprendizaje estudiantil para dar el seguimiento y la retroalimentación respectiva, brindando al docente un apoyo para la atención individual o bien la toma de decisiones grupales que permitan mejorar las estrategias didácticas utilizadas.</p>
+<p>En este sentido lo aportado por los docentes encuestados, muestra que el 72% tiene mayores conocimientos para llevar a cabo evaluaciones a los estudiantes, utilizando tecnologías digitales con aplicaciones como Kahoot, Plickers, Tutores Inteligentes, Moodle y otros, pero a su vez no muestran evidencia del uso respectivo como mecanismo de evaluación formativa o sumativa. De igual forma indican tener un conocimiento básico de herramientas digitales que permiten monitorear el progreso de los estudiantes para proporcionar la retroalimentación correspondiente.</p>
+<p>Por otro lado, el 92% de los encuestados, consideran que su participación en los EREM, les permitió contar con un mejor conocimiento para tomar decisiones y seleccionar de manera adecuada las tecnologías digitales para alcanzar mejor los objetivos didácticos propuestos.</p>
+<p>En este contexto, los resultados proporcionan información de un dominio básico de ciertas herramientas digitales que facilitan la evaluación estudiantil, pero sin llevarse a cabo con la profundidad y la sistematización correspondiente. Esto se debe, en primera instancia, por que los dispositivos tecnológicos con que cuentan los estudiantes y la misma institución son muy limitados y en segundo, por ser los procesos de evaluación en los centros educativos públicos, normas establecidas por el Consejo Superior de Educación y los docentes se ven limitados para aplicar sus propios mecanismos de evaluación.</p>
+<p>Como se describe, los docentes en esta competencia digital, utilizan de manera esporádica herramientas de evaluación digitales por lo que se puede clasificar este nivel de dominio como A1, o Novel, pues bien tienen conocimientos en algunas herramientas para evaluar la interacción de los estudiantes, pero más que todo a nivel formativo.</p>
+</sec>
+</sec>
+<sec sec-type="conclusions">
+<title>
+<bold>Conclusiones</bold>
+</title>
+<p>Como se ha mencionado en los párrafos anteriores, la percepción del dominio de las competencias digitales de <italic>Compromiso Profesional, Contenidos digitales, Enseñanza y Aprendizaje y Evaluación y retroalimentación</italic> por parte de los docentes de matemática que han participado en los EREM, varían entre el rango de <italic>Novel</italic> (A1) y <italic>Experto</italic> (B2), dejando abiertas algunas áreas de investigación no cubiertas en este primer acercamiento con la población beneficiada de los EREM de la región Caribe Norte de Costa Rica.</p>
+<p>En primer lugar, es evidente de los conversatorios y las respuesta obtenidas en las encuestas, que los EREM han permitido llevar conocimientos importantes en el uso de las tecnologías digitales a los docentes de la región, sobre todo, por que las capacitaciones en este campo han sido prácticamente nulas por parte del Ministerio de Educación Pública y los encuentros regionales de enseñanza de la matemática ofrecidos desde el Recinto de la Universidad de Costa Rica en Guápiles, se han vuelto los únicos espacios para compartir experiencias en el uso de herramientas digitales en matemática, al que han tenido acceso los docentes de la zona. En este sentido estos espacios han brindado confianza para que los docentes se acerquen a la tecnología y accedan a conocimientos e informaciones que antes no contaban. El contacto con la tecnología y las estrategias del uso de herramientas digitales en la educación ofrecidas desde los EREM, han permitido avances para su utilización desde el aspecto personal por actualización y crecimiento profesional, hasta un uso administrativo y didáctico dentro del aula.</p>
+<p>En segundo lugar, la percepción de un alto porcentaje de docentes supone una capacidad aprendida para localizar, evaluar y seleccionar recursos digitales, así como para la creación de contenidos digitales que utilizan para apoyar sus lecciones y compartirlos con otros colegas. Esta percepción sitúa a los docentes encuestados en un nivel <italic>Experto</italic> (nivel B2) de dominio de esta competencia, pero también plantea un interés en desarrollar estudios más profundos donde se valide y se reafirmen estas aseveraciones, aspecto que estaba fuera de este primer acercamiento en el estudio desarrollado.</p>
+<p>El tercer aspecto a resaltar, es que la mayoría de docentes han incorporado las tecnologías digitales en su quehacer docente y tienen más conocimientos de su uso en la didáctica matemática, sin embargo, la evaluación y retroalimentación a través de herramientas digitales donde los estudiantes realizan las actividades y ejecutan un plan establecido por el docentes, no ha sido una práctica común en el aula, por lo que en este aspecto los docentes encuestados reflejan un nivel <italic>Novel</italic> (A1) o incipiente en esta competencia. Este no solo puede ser un tema para agendar en los futuros encuentros regionales de matemática en Pococí, sino que también, requiere de políticas institucionales para acompañar docentes y estudiantes brindando espacios y recursos tecnológicos para llevarlo a cabo dentro y fuera de la institución educativa. Por último, es importante indicar que este estudio generado desde la perspectiva docente, se realizó considerando una población que ha participado activamente en los encuentros de matemática regionales en Pococí desde el año 2011 al 2021, lo que incluye el periodo de pandemia generada por el COVID-19, quedando fuera del alcance de esta investigación, cuantificar el impacto tecnológico que sufrió la dinámica educativa durante este periodo y que esto podría significar otra línea de investigación futura. Asimismo, los resultados de esta investigación se basan en la percepción de los docentes sobre los beneficios que les han brindado los EREM en competencias tecnológicas. Sin embargo, esta percepción puede generar sesgos en la valoración del nivel alcanzado según la metodología utilizada. Por lo tanto, se sugiere la aplicación de instrumentos más precisos para verificar los niveles de competencias digitales alcanzados. Esto podría abrir nuevas líneas de investigación, como el desarrollo de un instrumento digital que evalúe las destrezas docentes en el uso y aplicación de las tecnologías digitales, similar a cómo se clasifican actualmente los niveles de dominio del idioma inglés según el Marco Común Europeo.</p>
+</sec>
+<sec sec-type="conclusions">
+<title>
+<bold>Recomendaciones</bold>
+</title>
+<p>Como se ha mencionado en diversos estudios que valoran los procesos formación de capacidades digitales en los docentes y su aplicación en el aula, las autoridades educativas deben fortalecer los procesos de capacitación continua en competencias tecnológicas y dar seguimiento a su aplicación dentro del aula, para ello, se importante considerar la creación o adopción de un marco de competencias digitales específico para el profesorado, alineado con las necesidades del siglo XXI e integrar estas competencias en los estándares de calidad educativa y en los currículos de formación inicial y continua. Asimismo, el MEP debe asegurar que todas las instituciones educativas cuenten con la infraestructura tecnológica necesaria, incluyendo acceso a internet de alta velocidad y dispositivos adecuados.</p>
+<p>Es importante profundizar las condiciones reales en las que el docente desarrolla su actividad laboral, así como también, las condiciones o políticas institucionales para incorporar las tecnologías digitales en los Colegios de los profesores de la zona de influencia de los EREM, por lo que puede ser valioso realizar el estudio de las interacciones docente-docente, docente-estudiante y estudiante-estudiante, para detallar mejor el impacto que desde la perspectiva docente ha dejado su participación en los EREM.</p>
+<p>De igual forma, es importante considerar que todo proceso de capacitación y actualización profesional requiere de un apoyo continuo, por lo que tanto las autoridades educativas de la región, como las personas que coordinan el proyecto de los EREM, deben incorporar actividades permanentes que permitan la retroalimentación y seguimiento de la actividad docente. Implementar métodos de formación basados en la práctica y el modelado, donde los formadores demuestren el uso de tecnologías en contextos educativos reales, así como la creación de comunidades de práctica entre docentes para compartir experiencias y buenas prácticas, de manera que se fortalezcan las competencias digitales que impacten en el salón de clase y en el mejoramiento de los procesos de enseñanza y aprendizaje de la matemática en la región.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>
+<bold>Bibliografía</bold>
+</title>
+<ref id="ref1">
+<label>1</label>
+<mixed-citation publication-type="journal">Alfaro, A. L., Alpízar, M., Morales, Y., Ramírez, M., &amp; Salas, O. (2013). La formación inicial y continua de docentes de matemáticas en Costa Rica. Cuadernos de Investigación y Formación En Educación Matemática, 8, 131–179.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Alfaro</surname>
+<given-names>A. L.</given-names>
+</name>
+<name>
+<surname>Alpízar</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Morales</surname>
+<given-names>Y.</given-names>
+</name>
+<name>
+<surname>Ramírez</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Salas</surname>
+<given-names>O.</given-names>
+</name>
+</person-group>
+<article-title>La formación inicial y continua de docentes de matemáticas en Costa Rica.</article-title>
+<source>Cuadernos de Investigación y Formación En Educación Matemática</source>
+<year>2013</year>
+<volume>8</volume>
+<fpage>131</fpage>
+<lpage>179</lpage>
+</element-citation>
+</ref>
+<ref id="ref2">
+<label>2</label>
+<mixed-citation publication-type="journal">Almerich, G., Orellana, N., Suárez-Rodríguez, J., &amp; Díaz-García, I. (2016). Teachers’ information and communication technology competences: A structural approach. Computers and Education, 100, 110–125. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.compedu.2016.05.002">https://doi.org/10.1016/j.compedu.2016.05.002</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Almerich</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Orellana</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Suárez-Rodríguez</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Díaz-García</surname>
+<given-names>I.</given-names>
+</name>
+</person-group>
+<article-title>Teachers’ information and communication technology competences: A structural approach</article-title>
+<source>Computers and Education</source>
+<year>2016</year>
+<volume>100</volume>
+<fpage>110</fpage>
+<lpage>125</lpage>
+<pub-id pub-id-type="doi">10.1016/j.compedu.2016.05.002</pub-id>
+</element-citation>
+</ref>
+<ref id="ref3">
+<label>3</label>
+<mixed-citation publication-type="journal">Baca, A. R. (2015). Competencias docentes digitales: propuesta de un perfil. <italic>Píxel-Bit. Revista de Medios y Educación</italic>, 46(Enero), 235–248. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.12795/pixelbit.2015.i46.15">https://doi.org/10.12795/pixelbit.2015.i46.15</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Baca</surname>
+<given-names>A. R.</given-names>
+</name>
+</person-group>
+<article-title>Competencias docentes digitales: propuesta de un perfil.</article-title>
+<source>Píxel-Bit. Revista de Medios y Educación</source>
+<year>2015</year>
+<volume>46</volume>
+<issue>1</issue>
+<fpage>235</fpage>
+<lpage>248</lpage>
+<pub-id pub-id-type="doi">10.12795/pixelbit.2015.i46.15</pub-id>
+</element-citation>
+</ref>
+<ref id="ref4">
+<label>4</label>
+<mixed-citation publication-type="book">Baltodano, M., Trejos, I.,&amp; Vargas, L. (2022). <italic>Modelo para la Inclusión de Tecnologías Digitales en Educación (MITDE)</italic> (1 ed.). Ministerio de Educación Pública.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Baltodano</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Trejos</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>Vargas</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<source>Ministerio de Educación Pública.</source>
+<year>2022</year>
+<chapter-title>Modelo para la Inclusión de Tecnologías Digitales en Educación (MITDE)</chapter-title>
+<edition>1 ed.</edition>
+</element-citation>
+</ref>
+<ref id="ref5">
+<label>5</label>
+<mixed-citation publication-type="confproc">Castro, M. J., Atlántico, S., Rica, U. D. C., Matemática, E. De, Tecnológico, I., Rica, D. C., Rica, C., &amp; Rica, C. (2011). Capacitación docente en tecnologías digitales para la enseñanza de la matemática. XIII Conferencia Interamericana de Educación Matemática, June, 1–11.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Castro</surname>
+<given-names>M. J.</given-names>
+</name>
+<name>
+<surname>Atlántico</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Rica</surname>
+<given-names>U. D. C.</given-names>
+</name>
+<name>
+<surname>Matemática</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Tecnológico</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>Rica</surname>
+<given-names>D. C.</given-names>
+</name>
+<name>
+<surname>Rica</surname>
+<given-names>C.</given-names>
+</name>
+</person-group>
+<article-title>Capacitación docente en tecnologías digitales para la enseñanza de la matemática</article-title>
+<source>XIII Conferencia Interamericana de Educación Matemática</source>
+<year>2011</year>
+<fpage>1</fpage>
+<lpage>11</lpage>
+<conf-name>XIII Conferencia Interamericana de Educación Matemática</conf-name>
+<conf-date>June</conf-date>
+</element-citation>
+</ref>
+<ref id="ref6">
+<label>6</label>
+<mixed-citation publication-type="journal">Graham, C. R. (2011). Theoretical considerations for understanding technological pedagogical content knowledge (TPACK). <italic>Computers and Education</italic>, 57(3), 1953–1960. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.compedu.2011.04.010">https://doi.org/10.1016/j.compedu.2011.04.010</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Graham</surname>
+<given-names>C. R.</given-names>
+</name>
+</person-group>
+<article-title>Theoretical considerations for understanding technological pedagogical content knowledge (TPACK)</article-title>
+<source>Computers and Education</source>
+<year>2011</year>
+<volume>57</volume>
+<issue>3</issue>
+<fpage>1953</fpage>
+<lpage>1960</lpage>
+<pub-id pub-id-type="doi">10.1016/j.compedu.2011.04.010</pub-id>
+</element-citation>
+</ref>
+<ref id="ref7">
+<label>7</label>
+<mixed-citation publication-type="journal">Hämäläinen, R., De Wever, B., Nissinen, K., &amp; Cincinnato, S. (2019). What makes the difference - PIAAC as a resource for understanding the problem-solving skills of Europe’s higher-education adults. <italic>Computers &amp; Education</italic>, 129, 27–36. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.compedu.2018.10.013">https://doi.org/10.1016/j.compedu.2018.10.013</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hämäläinen</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>De Wever</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Nissinen</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Cincinnato</surname>
+<given-names>S.</given-names>
+</name>
+</person-group>
+<article-title>What makes the difference - PIAAC as a resource for understanding the problem-solving skills of Europe’s higher-education adults.</article-title>
+<source>Computers &amp; Education</source>
+<year>2019</year>
+<volume>129</volume>
+<fpage>27</fpage>
+<lpage>36</lpage>
+<pub-id pub-id-type="doi">10.1016/j.compedu.2018.10.013</pub-id>
+</element-citation>
+</ref>
+<ref id="ref8">
+<label>8</label>
+<mixed-citation publication-type="legal-doc">ISTE. (2008). The ISTE NETS and Performance Indicators for Teachers.</mixed-citation>
+<element-citation publication-type="legal-doc">
+<person-group person-group-type="author">
+<collab>ISTE</collab>
+</person-group>
+<article-title>The ISTE NETS and Performance Indicators for Teachers</article-title>
+<source>ISTE</source>
+<year>2008</year>
+</element-citation>
+</ref>
+<ref id="ref9">
+<label>9</label>
+<mixed-citation publication-type="book">Jiménez-Castro, M., &amp; Salas, E. (2011). Evaluación del Impacto de uso de las Tecnologías de Información y Comunicación (TIC) en los Procesos de Enseñanza - Aprendizaje de la Matemática en la Región Educativa de Guápiles durante el año 2010. Universidad de Costa Rica.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Jiménez-Castro</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Salas</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>Evaluación del Impacto de uso de las Tecnologías de Información y Comunicación (TIC) en los Procesos de Enseñanza - Aprendizaje de la Matemática en la Región Educativa de Guápiles durante el año 2010.</article-title>
+<source>Universidad de Costa Rica.</source>
+<year>2011</year>
+</element-citation>
+</ref>
+<ref id="ref10">
+<label>10</label>
+<mixed-citation publication-type="book">M.E.P. (2012). <italic>Programa de Estudio Matemáticas, I, II y III Ciclos de la Educación General Básica y Ciclo Diversificado</italic>. Ministerio de Educación Pública.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<collab>MEP</collab>
+</person-group>
+<article-title>Programa de Estudio Matemáticas, I, II y III Ciclos de la Educación General Básica y Ciclo Diversificado</article-title>
+<source>Ministerio de Educación Pública.</source>
+<year>2012</year>
+</element-citation>
+</ref>
+<ref id="ref11">
+<label>11</label>
+<mixed-citation publication-type="book">OCDE. (2020). <italic>Making the Most of Technology for Learning and Training in Latin America</italic>. OECD. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1787/ce2b1a62-en">https://doi.org/10.1787/ce2b1a62-en</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<collab>OCDE</collab>
+</person-group>
+<article-title>Making the Most of Technology for Learning and Training in Latin America.</article-title>
+<source>OECD</source>
+<year>2020</year>
+<pub-id pub-id-type="doi">10.1787/ce2b1a62-en</pub-id>
+</element-citation>
+</ref>
+<ref id="ref12">
+<label>12</label>
+<mixed-citation publication-type="confproc">Programa Estado de la Nación. (2023). <italic>Noveno Estado de la Educación 2023</italic>. CONARE-PEN.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<collab>Programa Estado de la Nación</collab>
+</person-group>
+<article-title>Noveno Estado de la Educación 2023</article-title>
+<source>CONARE-PEN.</source>
+<year>2023</year>
+</element-citation>
+</ref>
+<ref id="ref13">
+<label>13</label>
+<mixed-citation publication-type="book">Redecker, C. (2020). <italic>Marco Europeo para la Competencia Digital de los Educadores: DigCompEdu</italic>. In Y. Punie (Ed.), Secretaría General Técnica del Ministerio de Educación y Formación Profesional de España (Original publicado en 2017). <ext-link ext-link-type="uri" xlink:href="https://sede.educacion.gob.es/publiventa/d/24685/19/0">https://sede.educacion.gob.es/publiventa/d/24685/19/0</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Redecker</surname>
+<given-names>C.</given-names>
+</name>
+</person-group>
+<source>Secretaría General Técnica del Ministerio de Educación y Formación Profesional de España</source>
+<year>2020</year>
+<publisher-name>In Y. Punie (Ed.)</publisher-name>
+<chapter-title>Marco Europeo para la Competencia Digital de los Educadores: DigCompEdu.</chapter-title>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://sede.educacion.gob.es/publiventa/d/24685/19/0">https://sede.educacion.gob.es/publiventa/d/24685/19/0</ext-link>
+</comment>
+<supplement>(Original publicado en 2017)</supplement>
+</element-citation>
+</ref>
+<ref id="ref14">
+<label>14</label>
+<mixed-citation publication-type="journal">Sandí, J. C., &amp; Sanz, C. V. (2018). Revisión y análisis sobre competencias tecnológicas esperadas en el profesorado en Iberoamérica. <italic>Edutec. Revista Electrónica de Tecnología Educativa</italic>, 66, 93–121. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21556/edutec.2018.66.1225">https://doi.org/10.21556/edutec.2018.66.1225</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Sandí</surname>
+<given-names>J. C.</given-names>
+</name>
+<name>
+<surname>Sanz</surname>
+<given-names>C. V.</given-names>
+</name>
+</person-group>
+<article-title>Revisión y análisis sobre competencias tecnológicas esperadas en el profesorado en Iberoamérica</article-title>
+<source>Edutec. Revista Electrónica de Tecnología Educativa</source>
+<year>2018</year>
+<volume>66</volume>
+<fpage>93</fpage>
+<lpage>121</lpage>
+<pub-id pub-id-type="doi">10.21556/edutec.2018.66.1225</pub-id>
+</element-citation>
+</ref>
+<ref id="ref15">
+<label>15</label>
+<mixed-citation publication-type="journal">Shulman, L. (1987). Knowledge and teaching: foundations of the new reform. <italic>Harvard Educational Review</italic>, 57, 1–22.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Shulman</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<article-title>Revisión y análisis sobre competencias tecnológicas esperadas en el profesorado en Iberoamérica.</article-title>
+<source>Harvard Educational Review</source>
+<year>1987</year>
+<volume>57</volume>
+<fpage>1</fpage>
+<lpage>22</lpage>
+</element-citation>
+</ref>
+<ref id="ref16">
+<label>16</label>
+<mixed-citation publication-type="journal">Suárez-Rodríguez, J., Almerich, G., Orellana, N., &amp; Díaz-García, I. (2018). A basic model of integration of ICT by teachers: competence and use. <italic>Educational Technology Research and Development</italic>, 66(5), 1165–1187. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11423-018-9591-0">https://doi.org/10.1007/s11423-018-9591-0</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Suárez-Rodríguez</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Almerich</surname>
+<given-names>G.</given-names>
+</name>
+<name>
+<surname>Orellana</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Díaz-García</surname>
+<given-names>I.</given-names>
+</name>
+</person-group>
+<article-title>A basic model of integration of ICT by teachers: competence and use</article-title>
+<source>Educational Technology Research and Development</source>
+<year>2018</year>
+<volume>66</volume>
+<issue>5</issue>
+<fpage>1165</fpage>
+<lpage>1187</lpage>
+<pub-id pub-id-type="doi">10.1007/s11423-018-9591-0</pub-id>
+</element-citation>
+</ref>
+<ref id="ref17">
+<label>17</label>
+<mixed-citation publication-type="journal">Tondeur, J., Aesaert, K., Pynoo, B., van Braak, J., Fraeyman, N., &amp; Erstad, O. (2017). Developing a validated instrument to measure preservice teachers’ ICT competencies: Meeting the demands of the 21st century. <italic>British Journal of Educational Technology</italic>, 48(2), 462–472. <ext-link ext-link-type="uri" xlink:href="https://doi.org/https://doi.org/10.1111/bjet.12380">https://doi.org/https://doi.org/10.1111/bjet.12380</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Tondeur</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Aesaert</surname>
+<given-names>K.</given-names>
+</name>
+<name>
+<surname>Pynoo</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>van Braak</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Fraeyman</surname>
+<given-names>N.</given-names>
+</name>
+<name>
+<surname>Erstad</surname>
+<given-names>O.</given-names>
+</name>
+</person-group>
+<article-title>Developing a validated instrument to measure preservice teachers’ ICT competencies: Meeting the demands of the 21st century</article-title>
+<source>British Journal of Educational Technology</source>
+<year>2017</year>
+<volume>48</volume>
+<issue>2</issue>
+<fpage>462</fpage>
+<lpage>472</lpage>
+<pub-id pub-id-type="doi">10.1111/bjet.12380</pub-id>
+</element-citation>
+</ref>
+<ref id="ref18">
+<label>18</label>
+<mixed-citation publication-type="journal">UNESCO. (2019). Marco de competencias docentes en materia de TIC. In UNESCO Publishing. UNESCO.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<collab>UNESCO.</collab>
+</person-group>
+<article-title>Marco de competencias docentes en materia de TIC</article-title>
+<source>UNESCO Publishing</source>
+<year>2019</year>
+</element-citation>
+</ref>
+</ref-list>
+<app-group>
+<app id="app1">
+<title>A. Apéndice</title>
+<sec>
+<title>Contribución de personas autoras</title>
+<p>Conceptualización: M.J.C, L.M.E. Metodología: M.J.C, L.M.E Análisis formal: M.J.C. Escritura (borrador original): M.J.C. Escritura (revisión y edición): M.J.C, L.M.E.</p>
+</sec>
+<sec>
+<title>Accesibilidad de datos:</title>
+<p>Se concede la disponibilidad de los datos a través de una solicitud por correo electrónico al correo: mynor.jimenez@ucr.ac.cr</p>
+</sec>
+</app>
+</app-group>
+</back>
+</article>

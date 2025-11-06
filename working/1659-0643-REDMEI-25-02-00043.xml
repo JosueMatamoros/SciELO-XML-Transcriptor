@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "http://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1" specific-use="sps-1.9" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">REDMEI</journal-id>
+<journal-title-group>
+<journal-title>Revista Digital: Matemática, Educación e Internet</journal-title>
+<abbrev-journal-title abbrev-type="publisher">-</abbrev-journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1659-0643</issn>
+<publisher>
+<publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.18845/rdmei.v25i2.7753</article-id>
+<article-id pub-id-type="other">3</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículo científico</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>¿Haciendo trampa o aprendiendo? ChatGPT en la enseñanza de la Función Lineal</article-title>
+<trans-title-group xml:lang="en">
+<trans-title>Cheating or learning? ChatGPT in Teaching Linear Function</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0009-0001-7381-5134</contrib-id>
+<name>
+<surname>Calderón Gairaud</surname>
+<given-names>José Pablo</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="fn" rid="fn2">1</xref>
+<email>jose03pcg@gmail.com</email>
+</contrib>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">0009-0009-2090-8247</contrib-id>
+<name>
+<surname>Chavez Montoya</surname>
+<given-names>Cristhian Alexis</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<xref ref-type="fn" rid="fn3">2</xref>
+<email>acrismontoya@gmail.com</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Universidad de Puerto Rico. jose03pcg@gmail.com</institution>
+<institution content-type="normalized">Universidad de Puerto Rico. Mayagüez, Puerto Rico. jose03pcg@gmail.com</institution>
+<country country="US">Estados Unidos de América</country>
+<email>jose03pcg@gmail.com</email>
+</aff>
+<aff id="aff2">
+<institution content-type="original">Investigador independiente. acrismontoya@gmail.com</institution>
+<institution content-type="normalized">Investigador independiente. Alajuela, Costa Rica. acrismontoya@gmail.com</institution>
+<country country="CR">Costa Rica</country>
+<email>acrismontoya@gmail.com</email>
+</aff>
+<author-notes>
+<fn id="fn2" fn-type="current-aff">
+<label>1</label>
+<p>José Pablo Calderón Gairaud. Estudiante del programa de maestría en Matemática Estadística de la Universidad de Puerto Rico, recinto Mayagüez. Dirección postal: Mayagüez, Puerto Rico. Código postal: 00680. Correo electrónico: jose03pcg@gmail.com.</p>
+</fn>
+<fn id="fn3" fn-type="current-aff">
+<label>2</label>
+<p>Cristhian Alexis Chavez Montoya. Licenciado en Enseñanza de la Matemática con Entornos Tecnológicos. Dirección postal: Santa Rosa de Pocosol, Alajuela, Costa Rica. Código postal: 21013. Correo electrónico: acrismontoya@gmail.com. </p>
+</fn>
+</author-notes>
+<pub-date date-type="pub" publication-format="electronic">
+<day>05</day>
+<month>08</month>
+<year>2024</year>
+</pub-date>
+<pub-date date-type="collection" publication-format="electronic">
+<season>Feb-Aug</season>
+<year>2025</year>
+</pub-date>
+<volume>25</volume>
+<issue>2</issue>
+<fpage>1</fpage>
+<lpage>31</lpage>
+<history>
+<date date-type="received">
+<day>03</day>
+<month>12</month>
+<year>2023</year>
+</date>
+<date date-type="accepted">
+<day>05</day>
+<month>08</month>
+<year>2024</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2024</copyright-year>
+<copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+<license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract>
+<title>Resumen</title>
+<p>El siguiente artículo presenta un marco conceptual referente a las inteligencias artificiales, una breve descripción sobre lo que es a ChatGPT, su impacto en la educación desde su lanzamiento, además de un resumen de las ventajas y desventajas de utilizar este tipo de IA en el aprendizaje de conceptos y/o nociones matemáticas. A raíz de este análisis se plantea una propuesta didáctica que consiste en una guía de trabajo independiente que involucra discusión interactiva y resolución de problemas utilizando ChatGPT, para abarcar los contenidos referentes a función lineal de 10° nivel del programa de estudios de matemáticas según el Ministerio de Educación Pública de Costa Rica. Se presenta una visión general sobre las implicaciones al utilizar ChatGPT en el estudio de la función lineal y los retos que se presentan al intentar implementarlo en el sistema educativo costarricense. Además, se describe la experiencia sobre la aplicación de la propuesta en una institución ubicada en Cartago en dos ocasiones, la primera ayudó a realizar mejoras en la propuesta y la segunda contribuyó a consolidar el diseño final de las correcciones. Se destaca que el uso de herramientas como ChatGPT aporta como acompañamiento estudiantil para mejorar la comprensión de los contenidos, sin embargo, no sustituye el trabajo realizado por un docente y la atención que este brinda.</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>The following article presents a conceptual framework regarding artificial intelligence, a description of what ChatGPT is, its impact on education since its launch, as well as a summary of the advantages and disadvantages of using this type of AI in learning. . of concepts and/or mathematical notions. As a result of this analysis, a didactic proposal is proposed that consists of an independent work guide that involves interactive discussion and problem solving using ChatGPT, to cover the contents related to the linear function of the 10th level of the mathematics study program according to the Ministry of Public Education of Costa Rica. An overview of the implications of using ChatGPT in the study of the Linear Function and the challenges that arise when trying to implement it in the Costa Rican educational system is presented. In addition, the experience on the application of the proposal in an institution located in Cartago on two occasions is described, the first one helped to make improvements in the proposal. It is highlighted that the use of tools such as ChatGPT provides student support to improve the understanding of the contents, however, it does not replace the work done by a teacher and the attention that can provides.</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>ChatGPT</kwd>
+<kwd>guía de trabajo</kwd>
+<kwd>función lineal</kwd>
+<kwd>inteligencia artificial</kwd>
+<kwd>enseñanza</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>ChatGPT</kwd>
+<kwd>Self-Study Guide</kwd>
+<kwd>Linear Function</kwd>
+<kwd>Artificial Intelligence</kwd>
+</kwd-group>
+<counts>
+<fig-count count="10"/>
+<table-count count="1"/>
+<equation-count count="0"/>
+<ref-count count="17"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec sec-type="intro">
+<title>
+<bold>Introducción</bold>
+</title>
+<p>Los avances tecnológicos suelen promover mejoras en los diversos ámbitos sociales, buscan reducir procesos y aprovechar al máximo los recursos; particularmente, para la enseñanza, la tecnología viene a ser un apoyo para el docente y el estudiante al ser un agente facilitador del proceso de aprendizaje. Sin embargo, en los últimos años, estos apoyos han evolucionado de tal forma que más allá de facilitar, obstaculizan el proceso al brindar soluciones de forma directa, como lo hacen la mayoría de las inteligencias artificiales (IA).</p>
+<p>Por lo anterior, se realizó un análsis sobre cómo aprovechar este tipo de herramientas y cómo enseñarles a los usuarios a hacer uso crítico de este tipo de apoyos, más específicamente de la inteligencia artificial con más impacto recientemente ChatGPT, esto por medio de una guía de trabajo independiente en el desarrollo de un tema específico de secundaria. De esta forma, el artículo brinda y expone, a través de una experiencia en el aula, una propuesta que demuestra como las IA pueden integrarse eficazmente en el proceso educativo de estudiantes de secundaria para abordar temas de matemáticas.</p>
+<p>A lo largo del artículo se describen diferentes aspectos sobre la herramienta ChatGPT y temas que han sido también de debate desde su creación, además, se discuten algunas dificultades que algunos estudiantes enfrentan al trabajar el tema de función lineal y cómo ChatGPT puede brindar apoyo en las adquisiciones de las nociones relaciondas a dicho tema. También se describe cómo se desarrollan algunas teorías del aprendizaje al implementar una guía de trabajo independiente y los aportes que brinda en la independencia del estudiante al ser un agente activo en la construcción de su conocimiento. Por último, se presenta la propuesta específica de una guía de trabajo para abarcar habilidades relaciondas a función lineal y cómo aplicarla en clases.</p>
+</sec>
+<sec sec-type="discussion">
+<title>
+<bold>Desarrollo</bold>
+</title>
+<p>A continuación, se describen diferentes aspectos que se tomaron en consideración para realizar la propuesta, además de esta propiamente, que consiste en una guía de trabajo para introducir el tema de Función Lineal, en la que se deberá utilizar ChatGPT para completarla. En dicha guía se encontrarán preguntas sobre conceptos relacionados al tema que los estudiantes deberán responder utilizando el programa. Por último, deberán resolver problemas planteados por ChatGPT para medir su aprendizaje.</p>
+<sec>
+<title>
+<bold>ChatGPT</bold>
+</title>
+<p>Las siglas GPT significan "Generative Pre-trained Transformer" que su traducción al español se entiende como transformador pre-entrenado generativo, es decir, un chat entrenado previamente para generar texto de forma autónoma, siguiendo esa misma línea ChatGPT es una herramienta que tiene muchas funcionalidades, en las que se destacan la traducción a distintos idiomas, realizar resúmenes, responder preguntas, y generar textos con poca o nula capacitación para la tarea (Cotton et al., 2023, p. 228). Estas funcionalidades tienen un gran impacto a nivel educativo, pues pueden servir como gran apoyo a los estudiantes a la hora de realizar sus asignaciones facilitando en gran medida la adquisición de aprendizajes. Shoufan (2023) señala al respecto que: “esto no solo transformará la forma en que los estudiantes adquieren conocimientos, sino que también alterará los métodos de evaluación actuales” (p. 38816). Es claro que herramientas como ChatGPT tendrán gran influencia en la educación, por lo que es necesario hacer consideraciones que permitan deliberar el uso de esta inteligencia artificial en el proceso de enseñanza y aprendizaje.</p>
+<p>ChatGPT funciona como un sistema de pregunta-respuesta, Frieder et al. (2023), en su investigación, pone a prueba algunas capacidades matemáticas del programa, de las que describe que puede responder preguntas de cálculo, completar demostraciones matemáticas y dar respuestas a preguntas más de fondo sobre el objeto matemático de estudio (análisis de conceptos y todo lo relacionado a éste). Si bien se han detectado errores en la parte algebraica a la hora de resolver un problema de este tipo, la calidad de respuestas es positiva, recita la mayoría de definiciones correctamente, tiene conocimiento sobre la mayoría de teoremas matemáticos (aunque puede presentar errores al momento de citarlos) y comprende la estructura de los problemas; es decir, reconoce el contexto (p.2). Lo anterior, le permite rescatar que la utilidad de ChatGPT como motor de búsqueda matemático es alta. Por otro lado, Shahriar y Hayawi (2023) señalan algunas limitantes, si bien no son específicas de las matemáticas, de cierta forma disminuyen la capacidad con la que el programa podría tratar esta área, por ejemplo, puede llegar a ser muy redundante en las respuestas, la interfaz de momento no permite cargar archivos tipo imágenes o audios, y extiende respuestas a veces con información no tan relevante (p.9). Se puede agregar que ChatGPT actualmente no cuenta con algún apartado que permita introducir texto matemático por lo que operaciones complejas pueden tornarse difíciles de tratar usando esta plataforma.</p>
+<p>La integración de ChatGPT o cualquier inteligencia artificial en la educación conlleva grandes implicaciones. Vera (2023), menciona “Uno de los desafíos clave de la integración de la IA en la educación superior es la brecha de acceso y equidad” (p. 20). Esto da a entender que, a pesar de la capacidad de las IA de atender a gran cantidad de estudiantes a la vez, está limitado únicamente a aquellos que poseen acceso a internet. Por otro lado, Vera (2023) también menciona varias ventajas en el uso de las IA en la educación, entre ellas: personalización del aprendizaje, mejora de la eficiencia y efectividad del proceso educativo, acceso a recursos de aprendizaje avanzados, mejora en la retención y finalización de programas educativos (pp. 20-21). Además, Zhang (2023) añade dentro de las ventajas la capacidad de adaptarse a todos los niveles y las necesidades educativos, también logra recolectar información sobre el estudiante según su rendimiento y así dar soluciones rápidas ante las situaciones didácticas y también es una gran ventaja para aquellos estudiantes internacionales pues la disponibilidad 24/7 y multiplicidad de idiomas dan gran acceso al estudiantado . Por otro lado, menciona también que se necesita aumentar la supervisión sobre el estudiante y la capacitación de los docentes sobre el uso de las IA y sus implicaciones de usarlo en el aula (p.6).</p>
+<p>Uno de los grandes temas de discusión con el uso de ChatGPT es la honestidad académica dada la facilidad que brinda la plataforma en la realización de diferentes tareas. Cotton et al. (2023) señala que las Inteligencias Artificiales: “pueden facilitar el hacer trampa, y puede ser difícil distinguir la escritura humana y la generada por una máquina” (p. 6). Es importante que esta herramienta, u otras de este tipo, sean usadas de forma ética, que sirvan como apoyo y ser críticos en la información que se brinda en las respuestas generadas por esta IA, además, esto no debe darse solo por parte de los estudiantes, sino también de los docentes que quieran recurrir a este recurso para facilitar su trabajo. Shoufan (2023) con base en los hallazgos con la implementación de ChatGPT en diversos cuestionarios con estudiantes de ingeniería informática, considera que los educadores: “deben reconsiderar como evaluar a los estudiantes e implementar medidas para prevenir mala conducta académica” (p.13). Lo anterior es por la dificultad que genera no diferenciar los trabajos realizados en gran parte por Inteligencias Artificiales. Así, mientras más mejore esta tecnología, mayores son las oportunidades para mejorar el aprendizaje de los estudiantes, pero mayor será el reto de integridad académica (Shoufan, 2023, p. 38817).</p>
+<p>Como todo cambio en la educación, ya sea a nivel currículo, metodológico o de tendencia, siempre generará opiniones de parte del cuerpo docente y del estudiantado. Vera (2023) realiza una encuesta para saber la opinión de 35 docentes sobre la integración de IA en sus clases, en ella concluye: “podemos señalar que la IA, en este grupo de docentes, tiene una amplia aceptación, especialmente cuando se tiene como objetivo mejorar la experiencia de aprendizaje del estudiantado y se busca promover un enfoque educativo centrado en sus necesidades.” (p. 32). Esta aceptación de debe a su versatilidad y la capacidad de agilizar las tareas educativas. Ausat et al. (2023) plantea la siguiente pregunta en su informe: ¿puede ChatGPT remplazar el rol del docente en su clase? A raíz de su investigación, logra concluir que una IA como lo es ChatGPT no podría remplazar al docente, particularmente por el aporte humano que brinda. El docente en el aula no solo transmite conocimiento, sino que es un modelo por seguir para sus estudiantes y es capaz de comprenderlos y ayudarlos (pp. 16102-16103). De esta manera, observa más a ChatGPT como una herramienta que facilita la labor docente y que, a su vez, facilita la adaptación de los contenidos a cada estudiante.</p>
+<p>Por otro lado, Cribben y Zeinali (2023) profundizan un poco sobre la perspectiva del estudiante al utilizar ChatGPT en su proceso educativo. Dentro de los beneficios de usar ChatGPT para los estudiantes, es la capacidad de explicar de forma más sencilla conceptos complejos, esto se logra ya que su léxico para comunicarse es bastante coloquial. Además, gracias al sistema de preguntas, ChatGPT es una gran herramienta para que los estudiantes puedan prepararse para un examen ya que puede generar muchos problemas para el mismo tema. Por último, la capacidad de organizar los contenidos por medio de mapas conceptuales, esta última habilidad le permite al estudiante resumir el contenido, extrayendo así lo más importante (pp. 15-17).</p>
+</sec>
+<sec sec-type="materials|methods">
+<title>
+<bold>Función lineal como contenido curricular</bold>
+</title>
+<p>Otras de las consideraciones para el desarrollo de la propuesta es el tema en particular; a nivel matemático, el estudio de funciones es importante en diferentes aspectos como la modelización de situaciones, su complejidad se ha evidenciado en distintos niveles, Roldán Cruz (2013) señala que algunas investigaciones sobre la enseñanza y aprendizaje de función evidencian que existen dificultades relacionadas principalmente con las representaciones y el significado de los atributos; se menciona que los docentes tradicionalmente se centran en la forma algebraica del concepto sin entrar en detalle a un análisis adecuado, teniendo como consecuencia que los estudiantes repitan procesos sobre objetos algebraicos sin cobrar algún sentido para ellos (p. 47). A raíz de lo anterior, se destaca el uso de diferentes representaciones para interiorizar el concepto de función, y de la misma forma, más específicamente, el de función lineal.</p>
+<p>Lozano et al. (2015) evidencian en su investigación una gran dificultad de parte de los estudiantes por percibir de forma correcta la noción de pendiente y la intersección con el eje de ordenadas. Principalmente enlazar las constantes <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>m</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi8.png"/>
+</alternatives>
+</inline-formula> y <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>b</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi9.png"/>
+</alternatives>
+</inline-formula> de la forma <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo form="prefix" stretchy="false">(</mml:mo> <mml:mi>x</mml:mi> <mml:mo form="postfix" stretchy="false">)</mml:mo> <mml:mo>=</mml:mo> <mml:mi>m</mml:mi> <mml:mi>x</mml:mi> <mml:mo>+</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi10.png"/>
+</alternatives>
+</inline-formula> con sus implicaciones gráficas (p. 35). De la misma manera, Paguay (2020) concluye que la mayoría de los estudiantes no logran realizar la gráfica de la función lineal porque poseen deficiencias en la conceptualización, realización de operaciones y la elaboración de la tabla de valores (p. 29). Esto quiere decir que se necesita de un aprendizaje significativo de los conceptos relacionados a función lineal para que el estudiante pueda ser capaz de interiorizarlos y construir a partir de ellos, pues de lo contrario, los nuevos contenidos y habilidades presentarán deficiencias posteriormente.</p>
+<p>Así, un buen análisis sobre las nociones referentes al tema de función lineal podría potenciar su aprendizaje; a partir de esto, se pretende desarrollar ese análisis por medio de una guía de trabajo y el apoyo de la herramienta ChatGPT. A su vez, un uso guiado de la plataforma incentivaría el uso reflexivo y crítico de este tipo de apoyos.</p>
+</sec>
+<sec sec-type="materials|methods">
+<title>
+<bold>Fundamento teórico</bold>
+</title>
+<p>La metodología escogida para la presente propuesta es la implementación de una guía de trabajo, esta con la finalidad de aportar en el aprendizaje independiente de los estudiantes. García y de la Cruz Blanco (2014) define las guías como: “(…) un recurso para el aprendizaje a través del cual (…), de forma planificada y organizada, brinda información técnica al estudiante y tiene como premisa la educación como conducción y proceso activo.” (p. 165). Con las guías de trabajo se desarrolla la autonomía e independencia cognoscitiva del estudiante, y en general al proceso de enseñanza y aprendizaje al promover una actitud más activa en los involucrados. García y de la Ctuz Blanco (2014) menciona además que las guías de trabajo están relacionadas y fundamentadas por las teorías constructivistas, siempre que en su confección se consideren aspectos como conocimientos previos, haciendo referencia a los esquemas y que estos contribuyen a la construcción de su propio conocimiento; la zona de desarrollo próximo determinada por la capacidad de resolver independientemente una situación y la resolución de un problema bajo la guía de otro sujeto; por último, que exista una relación entre el nuevo conocimiento y los que ya posee el estudiante convirtiéndose en una actividad significativa (p.168). Así, vemos que la aplicación de guías de trabajo abarca muchos componentes importantes en el desarrollo cognoscitivo de las personas que se dedican a resolverlas.</p>
+<p>Relacionado al aprendizaje indepediente de los estudiantes, un tema de interés son las situaciones a-didáctica de la Teoría de Situaciones Didácticas de Guy Brosseau. Godino et al. (2020) señala que en las situaciones a-didácticas: "las interacciones entre alumno y medio se describen como una actividad de producción de conocimiento por parte del alumno" (p. 150). Las guías de trabajo independientes tienen como finalidad ese proceso, que la adquisición de conocimiento se de por un aprendizaje activo de parte del estudiante, es decir, que la gestión de lo planteado en las guías recaiga en ellos. Esto último es esencial para la construcción y comunicación de nuevos conocimientos (Godino et al., 2020, p.150).</p>
+<p>Por otro lado, en la guía de trabajo desarrollada en el presente escrito se incluye una metodología importante en el desarrollo del pensamiento matemático, esta es la resolución de problemas. Esta metodología permite que los estudiantes exploren la utilidad de la matemática en el mundo que los rodea. Para Polya (como se menciona en García, 2001) la resolución de problema consiste en 4 fases bien definidas: <italic>comprender el problema, concebir un plan, ejecutar el plan</italic> y <italic>examinar la solución</italic>, que podrían verse como una serie de pasos que debería seguir un resolutor ideal (p. 6). Estas fases se pueden ver potenciadas con apoyos externos como el planteado en esta propuesta, por ejemplo, para comprender el problema se pueden generar preguntas que le permita al estudiante clarificar la situación y comprender elementos del problema, repondiendo así a preguntas tipo ¿cuál es la incógnita, cuáles son los datos?; para concebir y ejecutar un plan, el apoyo puede ser variado, e incluso la sola verificación de resultados puede promover un buen análisis del problema; para examinar la solución se podrían realizar preguntas directas sobre resultados obtenidos o consultar ”¿cómo hiciste ese razonamiento?" para luego reflexionar sobre lo que se logró hacer, comparado con lo realizado por el programa y los razonamientos ejecutados.</p>
+</sec>
+<sec sec-type="materials|methods">
+<title>
+<bold>Aspectos curriculares</bold>
+</title>
+<p>Como se mencionó anteriormente, la propuesta consiste en la implementación de una guía de trabajo para el aprendizaje del tema de función lineal con el apoyo de la herramienta ChatGPT. Las habilidades que se pretenden abarcar, según el programa de estudios de matemáticas del Ministerio de Educación Pública (MEP), son las relacionadas al tema de función lineal de 10° nivel que se describen más adelante (contenido téorico).</p>
+<p>Se sugiere que la aplicación de la propuesta se realice aproximadamente en un lapso de 80 minutos y el escenario ideal es que se cuente con dispositivos tecnológicos que permiten el uso de ChatGPT. La propuesta está pensada para aplicarse con grupos de 2 o 3 personas máximo, puede trabajarse de forma física o digital y es necesario un monitoreo docente constante. Se generarán discusiones en diversas secciones de la guía para asegurar que el conocimiento desarrollado sea el correcto, se especifica cuando realizar estas intervenciones, sin embargo, queda a disposición del aplicador si considera adecuado realizar más.</p>
+<p>Algunos aspectos importantes para la implementación de la propuesta se presenta a continuación:</p>
+<sec sec-type="materials|methods">
+<title>
+<bold>Conocimientos previos</bold>
+</title>
+<p>El MEP (2012, pp. 331-336) menciona lo siguiente sobre lo que se espera de las habilidades ya adquiridas de los estudiantes al iniciar el curso lectivo:</p>
+<p>Al ingresar a este ciclo cada estudiante deberá haber desarrollado la habilidad para resolver ecuaciones de primer y de segundo grado, identificar una relación matemática en distintas representaciones así como pasar de una representación a otra. En particular deberá poder trazar la gráfica de funciones lineales y la gráfica de funciones cuadráticas. Al llegar a esta fase cada estudiante también debe comprender el concepto de variable e identificar cuantitativamente cambios en ella. (p.405)</p>
+<p>Específicamente en relación con el tema de función lineal, se habría abarcado las siguientes en octavo año:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>1. Identificar situaciones dadas que pueden ser expresadas algebraicamente en la forma <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>y</mml:mi> <mml:mo>=</mml:mo> <mml:mi>a</mml:mi> <mml:mi>x</mml:mi> <mml:mo>+</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi11.png"/>
+</alternatives>
+</inline-formula>.</p>
+</list-item>
+<list-item>
+<p>2. Representar de forma tabular, algebraica y gráficamente una función lineal.</p>
+</list-item>
+<list-item>
+<p>15. Relacionar una ecuación de primer grado con una incógnita de la forma <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>a</mml:mi> <mml:mi>x</mml:mi> <mml:mo>+</mml:mo> <mml:mi>b</mml:mi> <mml:mo>=</mml:mo> <mml:mi>c</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi12.png"/>
+</alternatives>
+</inline-formula> con la función lineal cuya representación algebraica es <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>y</mml:mi> <mml:mo>=</mml:mo> <mml:mi>a</mml:mi> <mml:mi>x</mml:mi> <mml:mo>+</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi13.png"/>
+</alternatives>
+</inline-formula>.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec sec-type="materials|methods">
+<title>
+<bold>Contenido teórico</bold>
+</title>
+<p>La guía de trabajo abarcará las siguientes habilidades relacionadas con función lineal para décimo año según el MEP (2012):</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>10. Representar gráficamente una función lineal.</p>
+</list-item>
+<list-item>
+<p>11. Determinar la pendiente, la intersección con el eje de las ordenadas y de las abscisas de una recta dada, en forma gráfica o algebraica.</p>
+</list-item>
+<list-item>
+<p>12. Determinar la ecuación de una recta utilizando datos relacionados con ella.</p>
+</list-item>
+<list-item>
+<p>14. Plantear y resolver problemas en contextos reales utilizando las funciones estudiadas.</p>
+</list-item>
+<list-item>
+<p>15. Relacionar la representación gráfica con la algebraica. (pp. 410-412)</p>
+</list-item>
+</list>
+</p>
+<p>Para abarcar estas habilidades, el estudiante deberá adquirir los siguientes conocimientos relacionados a función lineal:</p>
+<p>
+<bold>Definición 1. (Función): </bold>Se dice que una relación <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>=</mml:mo> <mml:mo form="prefix" stretchy="false">(</mml:mo> <mml:mi>A</mml:mi> <mml:mo separator="true">,</mml:mo> <mml:mi>B</mml:mi> <mml:mo separator="true">,</mml:mo> <mml:msub> <mml:mi>G</mml:mi> <mml:mi>f</mml:mi> </mml:msub> <mml:mo form="postfix" stretchy="false">)</mml:mo> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi14.png"/>
+</alternatives>
+</inline-formula> es una función de <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>A</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi15.png"/>
+</alternatives>
+</inline-formula> en <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>B</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi16.png"/>
+</alternatives>
+</inline-formula>, si y solo si, <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>f</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi17.png"/>
+</alternatives>
+</inline-formula> cumple la siguiente condición:<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mo form="prefix" stretchy="false">(</mml:mo> <mml:mi>&#x2200;</mml:mi> <mml:mi>a</mml:mi> <mml:mo>&#x2208;</mml:mo> <mml:mi>A</mml:mi> <mml:mo form="postfix" stretchy="false">)</mml:mo> <mml:mo form="prefix" stretchy="false">(</mml:mo> <mml:mi>&#x2203;</mml:mi> <mml:mo form="postfix" stretchy="false">!</mml:mo> <mml:mi>b</mml:mi> <mml:mo>&#x2208;</mml:mo> <mml:mi>B</mml:mi> <mml:mo form="postfix" stretchy="false">)</mml:mo> <mml:mo form="prefix" stretchy="false">[</mml:mo> <mml:mi>a</mml:mi> <mml:mspace width="0.1cm"></mml:mspace> <mml:mi>f</mml:mi> <mml:mspace width="0.2cm"></mml:mspace> <mml:mi>b</mml:mi> <mml:mo form="postfix" stretchy="false">]</mml:mo> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi18.png"/>
+</alternatives>
+</inline-formula> Lo cual se lee: “Para todo <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>a</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi19.png"/>
+</alternatives>
+</inline-formula> en <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>A</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi20.png"/>
+</alternatives>
+</inline-formula>, existe un único <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>b</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi21.png"/>
+</alternatives>
+</inline-formula> en <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>B</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi22.png"/>
+</alternatives>
+</inline-formula> tal que <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>a</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi23.png"/>
+</alternatives>
+</inline-formula> está relacionado con <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>b</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi24.png"/>
+</alternatives>
+</inline-formula> por <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>f</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi25.png"/>
+</alternatives>
+</inline-formula>”.</p>
+<p>
+<bold>Definición 2. (Función lineal) </bold>Sea<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo lspace="0.2222em" rspace="0.2222em">:</mml:mo> <mml:mi>&#x211D;</mml:mi> <mml:mo stretchy="false">&#x2192;</mml:mo> <mml:mi>&#x211D;</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi26.png"/>
+</alternatives>
+</inline-formula>. Se dice que es una función lineal si su criterio puede ser escrito de la forma: <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo form="prefix" stretchy="false">(</mml:mo> <mml:mi>x</mml:mi> <mml:mo form="postfix" stretchy="false">)</mml:mo> <mml:mo>=</mml:mo> <mml:mi>m</mml:mi> <mml:mi>x</mml:mi> <mml:mo>+</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi27.png"/>
+</alternatives>
+</inline-formula>, con <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>m</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi28.png"/>
+</alternatives>
+</inline-formula> y <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>b</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi29.png"/>
+</alternatives>
+</inline-formula> constantes reales, donde al valor <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>m</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi30.png"/>
+</alternatives>
+</inline-formula> se le denomina pendiente y determina el grado de inclinación que tendrá la gráfica de <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>f</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi31.png"/>
+</alternatives>
+</inline-formula> respecto al eje <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>x</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi32.png"/>
+</alternatives>
+</inline-formula>.</p>
+<p>
+<bold>Gráfica de la función lineal: </bold>La representación gráfica de cualquier función lineal consiste en una recta no vertical en el plano cartesiano.</p>
+<p>
+<bold>Pendiente de la función lineal: </bold>El valor de la pendiente <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>m</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi33.png"/>
+</alternatives>
+</inline-formula> de la ecuación de la recta dado dos puntos <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mo form="prefix" stretchy="false">(</mml:mo> <mml:msub> <mml:mi>x</mml:mi> <mml:mn>1</mml:mn> </mml:msub> <mml:mo separator="true">,</mml:mo> <mml:msub> <mml:mi>y</mml:mi> <mml:mn>1</mml:mn> </mml:msub> <mml:mo form="postfix" stretchy="false">)</mml:mo> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi34.png"/>
+</alternatives>
+</inline-formula> y <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mo form="prefix" stretchy="false">(</mml:mo> <mml:msub> <mml:mi>x</mml:mi> <mml:mn>2</mml:mn> </mml:msub> <mml:mo separator="true">,</mml:mo> <mml:msub> <mml:mi>y</mml:mi> <mml:mn>2</mml:mn> </mml:msub> <mml:mo form="postfix" stretchy="false">)</mml:mo> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi35.png"/>
+</alternatives>
+</inline-formula> en ella, se puede calcular con la fórmula:</p>
+<p>
+<bold>Intersección con los ejes: </bold>Si la función lineal <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>f</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi37.png"/>
+</alternatives>
+</inline-formula> no es constante, es decir, <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>m</mml:mi> <mml:mo>&#x2260;</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi38.png"/>
+</alternatives>
+</inline-formula>, entonces la gráfica de la función <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>f</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi39.png"/>
+</alternatives>
+</inline-formula> es una recta que corta al eje <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>x</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi40.png"/>
+</alternatives>
+</inline-formula> o eje de las abscisas en el punto <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mo form="prefix" fence="true">(</mml:mo> <mml:mfrac> <mml:mrow> <mml:mo lspace="0em" rspace="0em">&#x2212;</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> <mml:mi>m</mml:mi> </mml:mfrac> <mml:mo separator="true">,</mml:mo> <mml:mn>0</mml:mn> <mml:mo form="postfix" fence="true">)</mml:mo> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi41.png"/>
+</alternatives>
+</inline-formula> y al eje <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>y</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi42.png"/>
+</alternatives>
+</inline-formula> o eje de las ordenadas en el punto <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mo form="prefix" stretchy="false">(</mml:mo> <mml:mn>0</mml:mn> <mml:mo separator="true">,</mml:mo> <mml:mi>b</mml:mi> <mml:mo form="postfix" stretchy="false">)</mml:mo> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi43.png"/>
+</alternatives>
+</inline-formula>.</p>
+<p>
+<bold>Teorema 1: </bold>Sea <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo lspace="0.2222em" rspace="0.2222em">:</mml:mo> <mml:mi>&#x211D;</mml:mi> <mml:mo stretchy="false">&#x2192;</mml:mo> <mml:mi>&#x211D;</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi44.png"/>
+</alternatives>
+</inline-formula>. Se dice que es una función lineal con criterio <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo form="prefix" stretchy="false">(</mml:mo> <mml:mi>x</mml:mi> <mml:mo form="postfix" stretchy="false">)</mml:mo> <mml:mo>=</mml:mo> <mml:mi>m</mml:mi> <mml:mi>x</mml:mi> <mml:mo>+</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi45.png"/>
+</alternatives>
+</inline-formula>, donde <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>m</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi46.png"/>
+</alternatives>
+</inline-formula> y <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>b</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi47.png"/>
+</alternatives>
+</inline-formula> son constantes reales fijas. Entonces:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>f</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi48.png"/>
+</alternatives>
+</inline-formula> es estrictamente creciente en <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>&#x211D;</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi49.png"/>
+</alternatives>
+</inline-formula> si y solo si, <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>m</mml:mi> <mml:mo>&gt;</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi50.png"/>
+</alternatives>
+</inline-formula>.</p>
+</list-item>
+<list-item>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>f</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi51.png"/>
+</alternatives>
+</inline-formula> es estrictamente decreciente en <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>&#x211D;</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi52.png"/>
+</alternatives>
+</inline-formula> si y solo si, <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>m</mml:mi> <mml:mo>&lt;</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi53.png"/>
+</alternatives>
+</inline-formula>.</p>
+</list-item>
+<list-item>
+<p>
+<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>f</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi54.png"/>
+</alternatives>
+</inline-formula> es una función constante en <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>&#x211D;</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi55.png"/>
+</alternatives>
+</inline-formula> si y solo si, <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>m</mml:mi> <mml:mo>=</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi56.png"/>
+</alternatives>
+</inline-formula>.</p>
+</list-item>
+</list>
+</p>
+<p>
+<bold>Teorema 2. (Signo de la función lineal): </bold>Sea <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo lspace="0.2222em" rspace="0.2222em">:</mml:mo> <mml:mi>&#x211D;</mml:mi> <mml:mo stretchy="false">&#x2192;</mml:mo> <mml:mi>&#x211D;</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi79.png"/>
+</alternatives>
+</inline-formula>. Se dice que es una función lineal con criterio <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo form="prefix" stretchy="false">(</mml:mo> <mml:mi>x</mml:mi> <mml:mo form="postfix" stretchy="false">)</mml:mo> <mml:mo>=</mml:mo> <mml:mi>m</mml:mi> <mml:mi>x</mml:mi> <mml:mo>+</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi81.png"/>
+</alternatives>
+</inline-formula>, donde <italic>m</italic> y <italic>b</italic> son constantes reales fijas. Entonces:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Si <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>m</mml:mi> <mml:mo>&gt;</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi83.png"/>
+</alternatives>
+</inline-formula>, entonces <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>&#x2212;</mml:mo> <mml:mo lspace="0.2222em" rspace="0.2222em">:</mml:mo> <mml:mrow> <mml:mo form="prefix" fence="true">]</mml:mo> <mml:mo>&#x2212;</mml:mo> <mml:mi>&#x221E;</mml:mi> <mml:mo separator="true">,</mml:mo> <mml:mfrac> <mml:mrow> <mml:mo lspace="0em" rspace="0em">&#x2212;</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> <mml:mi>m</mml:mi> </mml:mfrac> <mml:mo form="postfix" fence="true">[</mml:mo> </mml:mrow> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi85.png"/>
+</alternatives>
+</inline-formula> y <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>+</mml:mo> <mml:mo lspace="0.2222em" rspace="0.2222em">:</mml:mo> <mml:mrow> <mml:mo form="prefix" fence="true">]</mml:mo> <mml:mfrac> <mml:mrow> <mml:mo lspace="0em" rspace="0em">&#x2212;</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> <mml:mi>m</mml:mi> </mml:mfrac> <mml:mo separator="true">,</mml:mo> <mml:mo form="prefix" stretchy="false">+</mml:mo> <mml:mi>&#x221E;</mml:mi> <mml:mo form="postfix" fence="true">[</mml:mo> </mml:mrow> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi87.png"/>
+</alternatives>
+</inline-formula>
+</p>
+</list-item>
+<list-item>
+<p>Si <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>m</mml:mi> <mml:mo>&lt;</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi89.png"/>
+</alternatives>
+</inline-formula>, entonces <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>+</mml:mo> <mml:mo lspace="0.2222em" rspace="0.2222em">:</mml:mo> <mml:mrow> <mml:mo form="prefix" fence="true">]</mml:mo> <mml:mo>&#x2212;</mml:mo> <mml:mi>&#x221E;</mml:mi> <mml:mo separator="true">,</mml:mo> <mml:mfrac> <mml:mrow> <mml:mo lspace="0em" rspace="0em">&#x2212;</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> <mml:mi>m</mml:mi> </mml:mfrac> <mml:mo form="postfix" fence="true">[</mml:mo> </mml:mrow> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi91.png"/>
+</alternatives>
+</inline-formula> y <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>&#x2212;</mml:mo> <mml:mo lspace="0.2222em" rspace="0.2222em">:</mml:mo> <mml:mrow> <mml:mo form="prefix" fence="true">]</mml:mo> <mml:mfrac> <mml:mrow> <mml:mo lspace="0em" rspace="0em">&#x2212;</mml:mo> <mml:mi>b</mml:mi> </mml:mrow> <mml:mi>m</mml:mi> </mml:mfrac> <mml:mo separator="true">,</mml:mo> <mml:mo form="prefix" stretchy="false">+</mml:mo> <mml:mi>&#x221E;</mml:mi> <mml:mo form="postfix" fence="true">[</mml:mo> </mml:mrow> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi93.png"/>
+</alternatives>
+</inline-formula>
+</p>
+</list-item>
+<list-item>
+<p>Si <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>m</mml:mi> <mml:mo>=</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi121.png"/>
+</alternatives>
+</inline-formula>, el signo lo establece el signo de <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>b</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi122.png"/>
+</alternatives>
+</inline-formula> en todo <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mi>&#x211D;</mml:mi> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi123.png"/>
+</alternatives>
+</inline-formula>. Es decir, si <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>b</mml:mi> <mml:mo>&gt;</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi124.png"/>
+</alternatives>
+</inline-formula>, entonces <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>+</mml:mo> <mml:mo lspace="0.2222em" rspace="0.2222em">:</mml:mo> <mml:mi>&#x211D;</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi125.png"/>
+</alternatives>
+</inline-formula>; y si <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>b</mml:mi> <mml:mo>&lt;</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi126.png"/>
+</alternatives>
+</inline-formula>, entonces <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>&#x2212;</mml:mo> <mml:mo lspace="0.2222em" rspace="0.2222em">:</mml:mo> <mml:mi>&#x211D;</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi127.png"/>
+</alternatives>
+</inline-formula>.</p>
+</list-item>
+</list>
+</p>
+<p>Considerando <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>+</mml:mo> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi129.png"/>
+</alternatives>
+</inline-formula> como <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>&gt;</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi131.png"/>
+</alternatives>
+</inline-formula> y <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>&#x2212;</mml:mo> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi133.png"/>
+</alternatives>
+</inline-formula> como <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>f</mml:mi> <mml:mo>&lt;</mml:mo> <mml:mn>0</mml:mn> </mml:mrow> </mml:math>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gi135.png"/>
+</alternatives>
+</inline-formula>.</p>
+<p>
+<italic>Nota: Información extraída del libro "Funciones Algebraicas Matemática General", 2018.</italic>
+</p>
+</sec>
+</sec>
+</sec>
+<sec sec-type="methods">
+<title>
+<bold>Aplicación de la propuesta</bold>
+</title>
+<p>La propuesta se implementó con grupos de décimo de una institución educativa ubicada en Cartago. Se describirán aspectos sobre una primera y segunda aplicación, y cómo se realizaron mejoras en la propuesta según la experiencia en la implementación.</p>
+<sec>
+<title>
+<bold>Primera aplicación de la propuesta</bold>
+</title>
+<p>Se siguió una línea parecida a la que se describió en el apartado de propuesta didáctica con la diferencia de implementar la propuesta en un lapso de 120 minutos (3 lecciones) por selección de grupo y disposición de horario.</p>
+<sec>
+<title>
+<bold>Caracterización de la población</bold>
+</title>
+<p>La propuesta se llevó a cabo con un grupo de décimo, sección 10-4, del Liceo de San Francisco, Daniel Oduber Quirós a cargo de la Licda. Adriana González Dobrosky con estudiantes de edades que oscilan entre los 15 y 16 años. El día que se implementó fue miércoles 13 de setiembre del 2023, en 3 lecciones de 40 minutos con un receso de 5 minutos después de la segunda lección. Del total del grupo, 24 que asistieron ese día participaron de la propuesta.</p>
+<p>La versión definitiva de la propuesta se implementó con un otro grupo de décimo de la misma institución, sección 10-3, a cargo de la Licda. Jessica Aguilera Piedra. La edad de los estudiantes oscilaban entre 15 y 16 años. La aplicación de la guía se realizó el 12 de octubre del 2023, 24 alumnos participaron en un tiempo de 3 lecciones con receso después de la segunda lección.</p>
+</sec>
+<sec>
+<title>
+<bold>Diseño de la investigación</bold>
+</title>
+<p>El desarrollo tecnológico invade cada vez más nuestra vida cotidiana, incluyendo la educación. Este trabajo propone el uso de la inteligencia artificial, específicamente ChatGPT, como herramienta para que los estudiantes aprendan de manera independiente. Los estudiantes utilizarán ChatGPT para responder preguntas diseñadas, bajo la supervisión de un profesor.</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>Herramienta:</bold> La IA ChatGPT requiere que al momento de utilizarla tengamos una cuenta creada y en definitiva una conexión a internet. Por lo tanto, esas dos situaciones tienen que cumplirse para una ideal y efectiva aplicación en el aula. Por otro lado al ser una inteligencia artificial puede brindar distintas respuestas para una misma pregunta como se muestra en la Figura <xref ref-type="fig" rid="gf1">1</xref>; por ello es importante una revisión y supervisión del docente a cargo.</p>
+</list-item>
+</list>
+</p>
+<p>
+<fig id="gf1">
+<label>1</label>
+<caption>
+<title>
+<bold>Figura 1. </bold>
+</title>
+<p>ChatGPT versión 3.5</p>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gf4.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>Los tiempos establecidos para la dinámica de la aplicación se estructuró de la siguiente forma:</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>Explicación de la dinámica (10 min)</p>
+</list-item>
+<list-item>
+<p>Parte I de la guía (50 min)</p>
+</list-item>
+<list-item>
+<p>Parte II de la guía (20 min)</p>
+</list-item>
+<list-item>
+<p>Parte III de la guía (35 min)</p>
+</list-item>
+<list-item>
+<p>Cierre de la clase (5 min)</p>
+</list-item>
+</list>
+</p>
+<p>La aplicación de la guía de trabajo se basó en 4 momentos claves:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>Momento 1:</bold> Al inicio de la clase se tomó un espacio de alrededor de 10 min para explicarle a los estudiantes la dinámica de la guía de trabajo, su objetivo y por supuesto que se utilizaría la inteligencia artificial ChatGPT. En relación con la IA se explicó qué era, para que pudiese servir, cómo instalarla y qué clase de preguntas se le podía realizar. Finalmente, se debían colocar en parejas o tríos para resolver la guía.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Momento 2:</bold> Los estudiantes realizaron la primera parte de la guía, donde su único trabajo era responder las preguntas utilizando la IA. Para esta parte se les brindó un total de 50 minutos, los estudiantes digitaban las preguntas en la aplicación y debían copiar a mano las respuestas que generaba.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Momento 3:</bold> Debido al tiempo, los estudiantes realizaron la segunda etapa de la guía en conjunto con el profesor. El grupo compartió las respuestas que les brindó ChatGPT y se aplicó la teoría encontrada y el profesor corregía de ser necesario.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Momento 4:</bold> Se termina la aplicación de la guía resolviendo el problema contextualizado de la tercera etapa. Para ello los docentes, proyectando pantalla, digitan el problema en ChatGPT y analizan en grupo la respuesta.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec sec-type="materials|methods">
+<title>
+<bold>Aspectos técnicos sobre la aplicación</bold>
+</title>
+<p>Para obtener la autorización del centro educativo e implementar la guía de trabajo, se solicitó el espacio por medio de una carta física firmada por un docente del Instituto Tecnológico de Costa Rica. Por otro lado, la fecha y hora de la aplicación se coordinó con la profesora encargada del grupo, la cual siempre se mostró anuente a ayudar al equipo aplicador.</p>
+<p>En un principio se había considerado aplicar la propuesta en 80 minutos (2 lecciones), para la primera aplicación se tuvo la dicha de contar con tres lecciones a disposición de la docente. Esto hizo caer en cuenta que se necesitan más de dos lección para llevar a cabo la aplicación. Parte de las correcciones que se llevaron a cabo están vínculadas al tiempo de aplicación de la propuesta pues se pretende hacer un trabajo más sintetizado y eficiente para que pueda hacerse en tres lecciones, ya que, se considera que una propuesta que dure más de tres lecciones no sería factible por las cantidad de contenidos que deben abarcarse al año. La asignación de la tarea brindada en la guía se llevó a cabo para la primera aplicación se consideró viable; se asignó en el cierre de la clase de manera individual y los estudiantes tenían ocho días para entregarla, luego se dedicó un lección para hacer entrega de las tareas ya calificadas y se procedió a explicar la solución en al pizarra. Esta asignación queda a disposición del docente que desee implementar la guía.</p>
+<p>La distribución de grupos en el aula (parejas o tríos) se considera apta para la aplicación de la guía pues se genera un aprendizaje entre pares y permite al docente brindar una atención más detallada a cada equipo de trabajo. Collazos et al. (2001) mencionan al respecto que: "La colaboración solamente podrá ser efectiva si hay una interdependencia genuina y positiva entre los estudiantes que están colaborando, los profesores y su entorno" (p. 9). Esto se logró evidenciar durante la aplicación ya que en la mayoría de grupos se cambiaban los roles respecto a quién hacía la búsqueda y quién escribía la respuesta. Además, las respuestas brindadas por ChatPGT a veces eran extensas por lo que, quién hacía uso de la herramienta se encargaba de sintetizar lo que el o la compañera debía escribir en la guía.</p>
+<p>Por otro lado, se recomienda que si el grupo es en parejas, solo haya 1 teléfono con conexión a internet y si es en tríos a lo mucho 2 para evitar distracciones durante la resolución de la guía. Por último, la mayoría de celulares no cuentan con conexión a internet por lo que es muy seguro que sea al docente a quien le corresponda brindar este servicio para la aplicación de la guía.</p>
+<p>
+<bold>Instrumento de evaluación:</bold>
+</p>
+<p>Para poder evaluar la eficiencia de la guía, se decidió dejar la tarea previamente detallada. En coordinación con la profesora, se decidió brindar un porcentaje extra a aquellos estudiantes que decidieran realizarla. Para evaluar la tarea se utilizó la rúbrica detallada en la Tabla <xref ref-type="table" rid="gt1">1</xref>.</p>
+<p>
+<table-wrap id="gt1">
+<label>1</label>
+<caption>
+<title>
+<bold>Tabla 1</bold>
+</title>
+<p>Rúbrica para la evaluación de la tarea</p>
+</caption>
+<alternatives>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gt3.png" position="anchor" orientation="portrait">
+<alt-text>1 Tabla 1</alt-text>
+</graphic>
+<table id="gt2-526564616c7963">
+<tbody>
+<tr>
+<th style="text-align: left;"/>
+<th style="text-align: left;">
+<p>Inicial</p>
+</th>
+<th style="text-align: left;">
+<p>Intermedio</p>
+</th>
+<th style="text-align: left;">
+<p>Avanzado</p>
+</th>
+</tr>
+<tr>
+<td style="text-align: left;">Explica cómo una situación determinada se representa de manera gráfica a través de una función lineal.</td>
+<td style="text-align: left;">Menciona generalidades del plano cartesiano.</td>
+<td style="text-align: left;">Menciona pares ordenados que corresponden a valores de la situación planteada.</td>
+<td style="text-align: left;">Representa gráficamente la situación planteada mediante una función lineal.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Explica, a partir de la representación gráfica o algebraica de una función lineal, los diferentes elementos que la componen, y viceversa.</td>
+<td style="text-align: left;">Menciona, a partir de la representación gráfica o algebraica de una función lineal, los diferentes elementos que la componen (pendiente e intersección con los ejes).</td>
+<td style="text-align: left;">Refiere los pasos para determinar los diferentes elementos que componen una función lineal (pendiente e intersección con los ejes), a partir de su representación gráfica o algebraica.</td>
+<td style="text-align: left;">Determina la pendiente o la intersección con los ejes de una función lineal, a partir de su representación gráfica o algebraica.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Decide la representación algebraica de una función lineal, a partir de datos relacionados con ella.</td>
+<td style="text-align: left;">Menciona aspectos generales de la representación algebraica de una función lineal (pendiente e intersección con el eje de las ordenadas), a partir de datos relacionados con ella.</td>
+<td style="text-align: left;">Elige los pasos necesarios para realizar la representación algebraica de una función lineal a partir de datos relacionados con ella (pendiente e intersección con las ordenadas).</td>
+<td style="text-align: left;">Determina la representación algebraica de una función lineal, a partir de datos relacionados con ella.</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Adaptado de Programa de Estudios Matemática. MEP (2012).</attrib>
+</table-wrap>
+</p>
+</sec>
+<sec sec-type="results">
+<title>
+<bold>Evidencias de la aplicación</bold>
+</title>
+<p>Se realizó una discusión con las respuestas que brindaba ChatGPT. Uno de los riesgos que se esperaban era que la inteligencia presentara un error en alguna respuesta o solución. Esto sucedió una vez en el problema de la parte III de la guía, se le explicó a los estudiantes que esto podría ocurrir y que ahí recae la importancia de hacer un uso reflexivo y crítico de inteligencias artificiales como apoyo educativo. Se explicó y corrigió el error en la solución brindada por el programa.</p>
+<p>Parte de las evidencias que se añaden a este trabajo es el producto obtenido por los estudiantes.</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Las respuestas de las parejas y tríos que participaron de la propuesta se pueden observar por medio del siguiente enlace: <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/12TdA4Ku6iP41ouMhwd8hgsqsFedSmu8A/view?usp=drive_link">https://drive.google.com/file/d/12TdA4Ku6iP41ouMhwd8hgsqsFedSmu8A/view?usp=drive_link</ext-link>. [Guías de trabajo]</p>
+</list-item>
+<list-item>
+<p>La siguiente semana de la aplicación de la propuesta los estudiantes debían entregar la tarea que se asignó. Debido a que durante esa semana la profesora a cargo del grupo perdió lecciones con este grupo solo se recibió la tarea, la semana posterior se entrega y explica en una lección extra. La solución de las tareas se pueden observar en el siguiente enlace: <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1nc3MYKlBXXPF8kBcI3b3FZO1LCTAX-J4/view?usp=drive_link">https://drive.google.com/file/d/1nc3MYKlBXXPF8kBcI3b3FZO1LCTAX-J4/view?usp=drive_link</ext-link> [Tareas].</p>
+</list-item>
+</list>
+</p>
+</sec>
+</sec>
+<sec sec-type="discussion">
+<title>
+<bold>Corrección de la propuesta didáctica</bold>
+</title>
+<p>La primera aplicación de la propuesta brindó varios insumos para hacer mejoras en esta, desde los tiempos para implementarla hasta correcciones propias en la redacción de la guía de trabajo. Estos cambios pretenden hacer un ambiente más activo de aprendizaje que le permita a los estudiantes aplicar lo aprendido al instante, el apoyo docente se mantiene por las implicaciones de usar tecnología a la que no están acostumbrados.</p>
+<sec sec-type="discussion">
+<title>
+<bold>Análisis de la primera aplicación de la propuesta</bold>
+</title>
+<p>El primer momento de la clase, cuando se explicó la guía de trabajo, la mayoría de los estudiantes no habían utilizado ni conocían la herramienta ChatGPT, por lo que no conocían el potencial de esta aplicación. Además, varios estudiantes optaron por descargar la aplicación desde la tienda de aplicaciones de sus dispositivos en vez de usar el navegador de internet. Normalmente no afectaría en la aplicación de la guía, pero varios grupos descargaron una aplicación que no correspondía a la oficial por lo que tenían limitaciones y debieron desinstalar e instalar la correcta.</p>
+<p>Para la primera parte de la guía, debido al desconocimiento hacia la aplicación, se optó por responder la primer pregunta en conjunto para que supieran cómo trabajar el resto de las preguntas. Esta fue la etapa que más tiempo abarcó de la aplicación, pues muchos estudiantes no resumían las respuestas o bien eran muchas preguntas por responder (aspecto que se tomó en cuenta para la corrección).</p>
+<p>En la segunda parte de la propuesta, los estudiantes debían aplicar lo ”aprendido” en la primera parte y resolver los análisis que les solicitaban para el ejercicio. Sin embargo, los estudiantes no fueron capaces de resolverlo pues no hubo un aprendizaje significativo en la primer parte. Esto se tradujo en volver a repasar las preguntas y muchas veces borrar y escribir de nuevo la respuesta (lo que conllevó más tiempo), principalmente la pregunta relacionada a cómo realizar la gráfica de una función lineal.</p>
+<p>Para la tercera parte, ya no se contaba con mucho tiempo, por lo que se limitó a la resolución grupal con ChatGPT pero no se pudo realizar un análisis en conjunto. Por último, se asignó la tarea que, con autorización de la profesora encargada, sería opcional y se reconocería cierto porcentaje en la nota final de los estudiantes.</p>
+</sec>
+<sec sec-type="cases">
+<title>
+<bold>Correcciones a la propuesta didáctica</bold>
+</title>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Se añade un código QR para acceder a ChatGPT, ya que para la primera aplicación de la propuesta se trabajó la guía de forma física y un enlace perdía sentido. Al haber usado dispositivos móviles, el código QR tiene mejor adaptabilidad en la aplicación. Se espera que para la segunda aplicación también se usen dispositivos móviles.</p>
+</list-item>
+<list-item>
+<p>Se eliminaron las preguntas 1, 5 y 8 pues considera conocimiento previo de los estudiantes (del tema de funciones).</p>
+</list-item>
+<list-item>
+<p>Se unieron las preguntas preguntas 2 y 3 de la primera parte pues ChatGPT brinda la respuesta de la tercera pregunta en la segunda y los estudiantes llenaban ambas con la misma información. Además, esta nueva pregunta fusionada es ahora la primera parte de la guía para mostrarle a los estudiantes el funcionamiento de la herramienta e ir explicando la idea principal de la guía, que es el uso reflexivo y crítico de las inteligencias artificiales como apoyo en el proceso de aprendizaje.</p>
+</list-item>
+<list-item>
+<p>Se reformula la pregunta sobre el signo pues ChatCPG no brindaba información sobre la creación de los intervalos.</p>
+</list-item>
+<list-item>
+<p>Se hace un combinación de la primera y segunda parte de la guía, lo que era la parte I y parte II se trabajará de forma que puedan ir averiguando los conceptos y a su vez puedan ir resolviendo un ejemplo. Esto en una tabla donde del lado izquierdo estarán las preguntas y al lado derecho el ejemplo. Al trabajarlo de esta manera, se espera evitar lo que pasó en la primera aplicación lo cual fue invertir mucho tiempo en la primera parte y aún así no poder aplicarlo en la segunda parte.</p>
+</list-item>
+<list-item>
+<p>Se elimina el comentario que estaba justo antes de la Parte II porque se considera innecesario.</p>
+</list-item>
+<list-item>
+<p>Lo que era parte II ahora pasa a ser parte III y se mantiene con la misma dinámica pero la función trabajada es distinta a la que había anteriormente pues la pasada ahora se trabaja en paralelo en la parte II.</p>
+</list-item>
+<list-item>
+<p>Lo que era parte III ahora pasa a ser parte IV, la resolución del problema. Además, se cambio el valor inicial del problema por <italic>150 000</italic> colones, pues la escala de la gráfica resulta más sencilla para los estudiantes.</p>
+</list-item>
+<list-item>
+<p>Se cambió ligeramente el problema de la tarea pues se notó que el planteamiento pasado generaba problemas con el contexto y eso confundía a los estudiantes.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec sec-type="discussion">
+<title>
+<bold>Propuesta didáctica</bold>
+</title>
+<p>La versión definitiva de la propuesta didáctica se puede visualizar en las Figuras <xref ref-type="fig" rid="gf2">2</xref>, <xref ref-type="fig" rid="gf3">3</xref>, <xref ref-type="fig" rid="gf4">4</xref>, <xref ref-type="fig" rid="gf5">5</xref> y <xref ref-type="fig" rid="gf6">6</xref>.</p>
+<p>
+<fig id="gf2">
+<label>2</label>
+<caption>
+<title>
+<bold>Figura 2</bold>
+</title>
+<p>Propuesta definitiva página 1.</p>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gf5.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf3">
+<label>3</label>
+<caption>
+<title>
+<bold>Figura 3</bold>
+</title>
+<p>Propuesta definitiva página 2.</p>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gf7.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf4">
+<label>4</label>
+<caption>
+<title>
+<bold>Figura 4.</bold>
+</title>
+<p>Propuesta definitiva página 3.</p>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gf8.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf5">
+<label>5</label>
+<caption>
+<title>
+<bold>Figura 5</bold>
+</title>
+<p>Propuesta definitiva, página 4.</p>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gf9.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf6">
+<label>6</label>
+<caption>
+<title>
+<bold>Figura 6</bold>
+</title>
+<p>Propuesta definitiva página 5.</p>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gf10.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>La versión definitiva y anteriores de la guía de trabajo y la tarea, además de sus soluciones, se adjuntan en la sección de anexos al final de este documento.</p>
+</sec>
+</sec>
+<sec sec-type="methods">
+<title>
+<bold>Segunda aplicación de la propuesta</bold>
+</title>
+<p>La propuesta se implementó por segunda vez con un grupo de décimo de la misma institución educativa. A continuación, se describirán aspectos sobre la segunda aplicación donde se utilizó la versión definitiva de la propuesta. Esta segunda aplicación fue muy similar a la primera, se implementó en un lapso de 120 minutos (3 lecciones) pues se analizó que es el tiempo necesario para llevar a cabo la propuesta. Los aspectos técnicos que se mencionan para la primera aplicación se mantuvieron para esta segunda con la diferencia de que la tarea no se aplicó por cuestiones administrativas.</p>
+<sec>
+<title>
+<bold>Instrumento y Procedimiento</bold>
+</title>
+<p>Los tiempos establecidos para la dinámica de la aplicación se estructuró de la siguiente forma:</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>Explicación de la dinámica y parte I de la guía: 15 minutos</p>
+</list-item>
+<list-item>
+<p>Parte II de la guía: 40 minutos</p>
+</list-item>
+<list-item>
+<p>Parte III de la guía: 25 minutos</p>
+</list-item>
+<list-item>
+<p>Parte IV de la guía: 35 minutos</p>
+</list-item>
+<list-item>
+<p>Cierre de la clase: 5 minutos</p>
+</list-item>
+</list>
+</p>
+<p>Además, la aplicación se basó en 4 momentos clave:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>Momento 1:</bold> Se tomó un espacio para brindar contexto sobre la propuesta, explicar la dinámica con la que se iba a llevar a cabo la aplicación, para este punto se formaron los equipos de trabajo. Seguidamente, se realizó la primera parte de la guía en conjunto para explicar el funcionamiento de la inteligencia artificial.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Momento 2:</bold> Los estudiantes respondieron la segunda parte de la guía con apoyo de los aplicadores, si el equipo era en parejas solo uno de ellos contaba con conexión a internet para usar ChatGPT, en caso de tríos, dos integrantes contaban con conexión a internet.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Momento 3:</bold> Algunos de los equipos de trabajo que habían finalizado la segunda parte antes del tiempo establecido procedieron a realizar la tercera parte de la guía. Al momento correspondiente se introdujo de forma conjunta lo que debía hacerse en la sección que ya algunos había empezado. Al finalizar, se discutieron y revisaron las respuestas de esta parte en conjunto y se comentó el uso de la herramienta hasta este punto.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Momento 4:</bold> Se procede con la cuarta parte de la guía, esta se hizo en conjunto con todo el grupo mostrando la solución propuesta por ChatGPT e interiorizarla con lo aprendido a lo largo de la guía. Luego se hizo el cierre de la clase, se agradeció la participación y se recogieron las guías.</p>
+</list-item>
+</list>
+</p>
+</sec>
+</sec>
+<sec sec-type="results">
+<title>
+<bold>Evidencias de la aplicación</bold>
+</title>
+<p>Las Figuras <xref ref-type="fig" rid="gf7">7</xref>, <xref ref-type="fig" rid="gf8">8</xref>, <xref ref-type="fig" rid="gf9">9</xref> y <xref ref-type="fig" rid="gf10">10</xref> presentan algunas de las respuestas obtenidas por los estudiantes en la guía de trabajo. Todas estas son de elaboración propia.</p>
+<p>
+<fig id="gf7">
+<label>7</label>
+<caption>
+<title>
+<bold>Figura 7.</bold>
+</title>
+<p>Parte I e inicio de la parte II de la guía</p>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gf11.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>La primera parte era en conjunto, se explicó el funcionamiento de ChatGPT y los alcances del mismo, haciendo una reflexión sobre su uso crítico y responsable como apoyo en el desarrollo académico. La Parte II empezaron a contestarlas solos. Conforme se presentaban dudas llamaban a alguno delos aplicadores pero se evidenció una buena comprensión respecto a las respuestas que brindaban ChatGPT.</p>
+<p>Esta sección duró un poco menos de lo pensado, pues los estudiantes había comprendido lo realizado en la parte II y lograron aplicar el conocimiento más directamente con esta nueva función. La parte gráfica tuvo algunos inconvenientes pero se asociaron a conocimiento previo no tan interiorizado.</p>
+<p>
+<fig id="gf8">
+<label>8</label>
+<caption>
+<title>
+<bold>Figura 8.</bold>
+</title>
+<p>Parte III de la guía.</p>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gf29.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf9">
+<label>9</label>
+<caption>
+<title>
+<bold>Figura 9.</bold>
+</title>
+<p>Parte III de la guía.</p>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gf30.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>Aquí se evidencia un “truco” para hacer un análisis sobre la monotonía y signo de la función, que consiste en realizar una lectura de izquierda a derecha de la función e imaginarse que se encuentran sobre ella pero que solo pueden recorrerla de izquierda a derecha. Esta asociación les permitió comprender si la función era creciente o decreciente, y a partir de donde era positiva o negativa.</p>
+<p>
+<fig id="gf10">
+<label>10</label>
+<caption>
+<title>
+<bold>Figura 10.</bold>
+</title>
+<p>Parte IV de la guía.</p>
+</caption>
+<graphic xlink:href="1659-0643-REDMEI-25-02-00043-gf31.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>Como era de esperar, la resolución de problemas se torno con mas dificultad para los estudiantes. Sin embargo, la explicación que brindó la herramienta sobre el contexto y como dar solución al problema fue muy completo. Junto a la explicación de los aplicadores, la comprensión de los estudiantes fue positiva, se logro interiorizar que elementos eran necesarios para formar la ecuación que representaba la situación (factor de mas dificultad entre los estudiantes) y luego se procedió a resolver con el conocimiento adquirido en las secciones anteriores. Es importante destacar que esto se logro con acompañamiento y explicación mas profunda, en este caso, de los aplicadores.</p>
+<p>Las demás respuestas de las parejas y tríos que participaron de la propuesta se pueden observar por medio del siguiente enlace: <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1SUEJ8UFDFCi520uR-uOdbrcVP3U03I9A/view?usp=drive_link">https://drive.google.com/file/d/1SUEJ8UFDFCi520uR-uOdbrcVP3U03I9A/view?usp=drive_link</ext-link> [Respuestas de las guías de trabajo]</p>
+</sec>
+</sec>
+<sec sec-type="conclusions">
+<title>
+<bold>Recomendaciones</bold>
+</title>
+<p>La propuesta tiene la finalidad de desarrollar el aprendizaje independiente de los estudiantes, interesarse por el uso de herramientas tecnológicas para el aprendizaje de las matemáticas de mano con el uso reflexivo y crítico de estas. Para ello, se recomienda que la guía se elabore en parejas o tríos. Sin embargo, al utilizar una inteligencia artificial, es de suma importancia que el docente esté presente en todo momento como discriminador de las respuestas que brinde ChatGPT.</p>
+<p>La guía de trabajo se basa en el uso de ChatGPT, una inteligencia artificial con versión gratuita, como apoyo para la comprensión de algunos contenidos y la resolución de problemas. Por esta razón, se requiere de un monitoreo constante y se verifique que los contenidos brindados por ChatGPT sean los correctos, en caso contrario también permitir a los estudiantes que indaguen sobre hasta qué punto estas herramientas pueden favorecer el desarrollo académico y qué papel tiene el usuario para con su aprendizaje.</p>
+<p>Los aspectos metodológicos de la propuesta se brindan a modo de sugerencia, los tiempos y cantidad de estudiantes por grupo, entre otros aspectos, pueden varias según las disposiciones del docente, alumnos y el centro educativo donde se aplique. De no contarse con un laboratorio de computadoras con acceso a internet, la actividad podría realizarse desde la conectividad del docente proyectando su pantalla y que los estudiantes propongan las preguntas para que el docente las ingrese.</p>
+<p>Se recomienda que la rúbrica para evaluar la tarea cumpla con los lineamientos del Ministerio de Educación Pública de Costa Rica que estén establecidos para el momento de impartir la propuesta didáctica.</p>
+</sec>
+<sec sec-type="conclusions">
+<title>
+<bold>Conclusiones</bold>
+</title>
+<p>La aplicación de la propuesta didáctica sobre el uso de ChatGPT y la función lineal en matemáticas ha mostrado resultados positivos en cuanto a la comprensión de los conceptos básicos de la función lineal por parte de los alumnos. Sin embargo, el papel del docente fue fundamental en todo momento pues el estudiante aún no es capaz de reconocer las información pertinente de las respuestas e incluso determinar la veracidad de la misma.</p>
+<p>La combinación de la tecnología ChatGPT con la enseñanza de la función lineal ha demostrado ser una estrategia pedagógica efectiva y moderna. La interactividad proporcionada por ChatGPT ha mejorado la comunicación y el acceso a la información. Esta propuesta didáctica no solo ha facilitado el aprendizaje de conceptos matemáticos, sino que también ha cultivado habilidades críticas y analíticas que serán beneficiosas en el desarrollo académico y profesional de los estudiantes.</p>
+<p>En futuras investigaciones, sería interesante explorar el uso de ChatGPT para la enseñanza de otros conceptos matemáticos, como las funciones cuadráticas, las funciones exponenciales o las funciones trigonométricas. También sería interesante investigar cómo ChatGPT puede utilizarse para personalizar el aprendizaje de los estudiantes, teniendo en cuenta sus necesidades y estilos de aprendizaje individuales.</p>
+<p>Por último, instar a los docentes a utilizar inteligencias artificiales en aula. Dada la creciente influencia de la inteligencia artificial en diversos aspectos de la vida cotidiana, su integración en el aula se convierte en un paso crucial para cultivar habilidades que serán fundamentales en la sociedad del mañana. Al proporcionar a los estudiantes la oportunidad de interactuar con inteligencias artificiales de manera educativa y supervisada, se les capacita para comprender, evaluar y utilizar estas herramientas de manera ética y eficiente.</p>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>
+<bold>Referencias Bibliográficas</bold>
+</title>
+<ref id="ref1">
+<label>1</label>
+<mixed-citation publication-type="journal">Ausat, A., Massang, B., Efendi M., Nofirman N. y Riady Y. (2023). Can ChatGPT Replace the Role of the Teacher in the Classroom: A Fundamental Analysis. Journal on Education, 5(4), 16100-16106. <ext-link ext-link-type="uri" xlink:href="https://jonedu.org/index.php/joe/article/view/2745">https://jonedu.org/index.php/joe/article/view/2745</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ausat</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Massang</surname>
+<given-names>B.</given-names>
+</name>
+</person-group>
+<article-title>Can ChatGPT Replace the Role of the Teacher in the Classroom: A Fundamental Analysis</article-title>
+<source>Journal on Education</source>
+<year>2023</year>
+<volume>5</volume>
+<issue>4</issue>
+<fpage>16100</fpage>
+<lpage>16106</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://jonedu.org/index.php/joe/article/view/2745">https://jonedu.org/index.php/joe/article/view/2745</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="ref2">
+<label>2</label>
+<mixed-citation publication-type="book">Chavarría J., Gutiérrez M., Rodríguez N. (2018). Funciones Algebraicas Matemática General. Instituto Tecnológico de Costa Rica.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<collab>Chavarría J</collab>
+</person-group>
+<article-title>Funciones Algebraicas Matemática General</article-title>
+<source>Instituto Tecnológico de Costa Rica.</source>
+<year>2018</year>
+</element-citation>
+</ref>
+<ref id="ref3">
+<label>3</label>
+<mixed-citation publication-type="journal">Cribben, I. y Zeinali, Y. (2023). The Benefits and Limitations of ChatGPT in Business Education and Research: A Focus on Management Science, Operations Management and Data Analytics. Operations Management and Data Analytics (March 29, 2023). <ext-link ext-link-type="uri" xlink:href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4404276">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4404276</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Cribben</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>Zeinali</surname>
+<given-names>Y.</given-names>
+</name>
+</person-group>
+<article-title>The Benefits and Limitations of ChatGPT in Business Education and Research: A Focus on Management Science, Operations Management and Data Analytics.</article-title>
+<source>Operations Management and Data Analytics</source>
+<year>2023</year>
+</element-citation>
+</ref>
+<ref id="ref4">
+<label>4</label>
+<mixed-citation publication-type="journal">Collazos, C., Guerrero, L. y Vergara, A. (2001). Aprendizaje Colaborativo: un cambio en el rol del profesor. In Proceedings of the 3rd Workshop on Education on Computing, Punta Arenas, Chile. <ext-link ext-link-type="uri" xlink:href="https://www.academia.edu/download/43797416/CESC-01.pdf">https://www.academia.edu/download/43797416/CESC-01.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Collazos</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Guerrero</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Vergara</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>Aprendizaje Colaborativo: un cambio en el rol del profesor.</article-title>
+<source>In Proceedings of the 3rd Workshop on Education on Computing, Punta Arenas, Chile.</source>
+<year>2001</year>
+</element-citation>
+</ref>
+<ref id="ref5">
+<label>5</label>
+<mixed-citation publication-type="webpage">Cotton D., Cotton P. y Shipway J. (2023): Chatting and cheating: Ensuring academic integrity in the era of ChatGPT, Innovations in Education and Teaching International. <ext-link ext-link-type="uri" xlink:href="https://www.tandfonline.com/doi/pdf/10.1080/14703297.2023.2190148">https://www.tandfonline.com/doi/pdf/10.1080/14703297.2023.2190148</ext-link>
+</mixed-citation>
+<element-citation publication-type="webpage">
+<person-group person-group-type="author">
+<name>
+<surname>Cotton</surname>
+<given-names>D</given-names>
+</name>
+<name>
+<surname>Cotton</surname>
+<given-names>P</given-names>
+</name>
+<name>
+<surname>Shipway</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Chatting and cheating: Ensuring academic integrity in the era of ChatGPT, Innovations in Education and Teaching International</article-title>
+<source>https://www.tandfonline.com</source>
+<year>2023</year>
+</element-citation>
+</ref>
+<ref id="ref6">
+<label>6</label>
+<mixed-citation publication-type="book">Frieder, S., Pinchetti, L., Chevalier, A., Griffiths, R.-R., Salvatori, T., Lukasiewicz, T., Petersen, P. C. y Berner, J. (2023). Mathematical capabilities of chatgpt. arXiv, Cornell University. <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2301.13867">https://arxiv.org/abs/2301.13867</ext-link>
+</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Frieder</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Pinchetti</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Chevalier</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Griffiths</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Salvatori</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Lukasiewicz</surname>
+<given-names>T.</given-names>
+</name>
+<name>
+<surname>Petersen</surname>
+<given-names>P. C.</given-names>
+</name>
+<name>
+<surname>Berner</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Mathematical capabilities of chatgpt.</article-title>
+<source>arXiv, Cornell University</source>
+<year>2023</year>
+</element-citation>
+</ref>
+<ref id="ref7">
+<label>7</label>
+<mixed-citation publication-type="book">García Cruz, J. A. (2001). La Didáctica de las Matemáticas: una visión general. Gobierno de Canarias. España. Consulta, 7.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>García Cruz</surname>
+<given-names>J. A.</given-names>
+</name>
+</person-group>
+<source>Gobierno de Canarias. España. Consulta, 7.</source>
+<year>2001</year>
+<chapter-title>La Didáctica de las Matemáticas: una visión general</chapter-title>
+</element-citation>
+</ref>
+<ref id="ref8">
+<label>8</label>
+<mixed-citation publication-type="journal">García Hernández, I. y de la Cruz Blanco, G. M. (2014). Las guías didácticas: recursos necesarios para el aprendizaje autónomo. Edumecentro, 6(3), 162-175.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>García Hernández</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>de la Cruz Blanco</surname>
+<given-names>G. M.</given-names>
+</name>
+</person-group>
+<article-title>Las guías didácticas: recursos necesarios para el aprendizaje autónomo</article-title>
+<source>Edumecentro</source>
+<year>2014</year>
+<volume>6</volume>
+<issue>3</issue>
+<fpage>162</fpage>
+<lpage>175</lpage>
+</element-citation>
+</ref>
+<ref id="ref9">
+<label>9</label>
+<mixed-citation publication-type="journal">Godino, J. D., Burgos, M. y Wilhelmi, M. R. (2020). Papel de las situaciones adidácticas en el aprendizaje matemático. Una mirada crítica desde el enfoque ontosemiótico. Enseñanza de las Ciencias. Revista de investigación y experiencias didácticas, 38(1), 147-164. <ext-link ext-link-type="uri" xlink:href="https://ensciencias.uab.cat/article/view/v38-n1-godino-burgos-wilhelmi">https://ensciencias.uab.cat/article/view/v38-n1-godino-burgos-wilhelmi</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Godino</surname>
+<given-names>J. D.</given-names>
+</name>
+<name>
+<surname>Burgos</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Wilhelmi</surname>
+<given-names>M. R.</given-names>
+</name>
+</person-group>
+<article-title>Papel de las situaciones adidácticas en el aprendizaje matemático. Una mirada crítica desde el enfoque ontosemiótico</article-title>
+<source>Revista de investigación y experiencias didácticas</source>
+<year>2020</year>
+<volume>38</volume>
+<issue>1</issue>
+<fpage>147</fpage>
+<lpage>164</lpage>
+</element-citation>
+</ref>
+<ref id="ref10">
+<label>10</label>
+<mixed-citation publication-type="journal">Lozano, M., Haye, E., Montenegro, F. y Córdoba, L.(2015). Dificultades de los alumnos para articular representaciones gráficas y algebraicas de funciones lineales y cuadráticas. UNIÓN-REVISTA IBEROAMERICANA DE EDUCACIÓN MATEMÁTICA, 11(41). <ext-link ext-link-type="uri" xlink:href="http://revistaunion.org/index.php/UNION/article/view/644/379">http://revistaunion.org/index.php/UNION/article/view/644/379</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Lozano</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Haye</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Montenegro</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Córdoba</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<article-title>Dificultades de los alumnos para articular representaciones gráficas y algebraicas de funciones lineales y cuadráticas</article-title>
+<source>UNIÓN-REVISTA IBEROAMERICANA DE EDUCACIÓN MATEMÁTICA</source>
+<year>2015</year>
+<volume>11</volume>
+<issue>41</issue>
+</element-citation>
+</ref>
+<ref id="ref11">
+<label>11</label>
+<mixed-citation publication-type="book">Ministerio de Educación Pública. (2012). Programa de estudio de Matemáticas: III ciclo de la educación general básica y educación diversificada. San José, Costa Rica: Ministerio de Educación Pública.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<collab>Ministerio de Educación Pública</collab>
+</person-group>
+<article-title>Programa de estudio de Matemáticas: III ciclo de la educación general básica y educación diversificada.</article-title>
+<source>San José, Costa Rica: Ministerio de Educación Pública.</source>
+<year>2012</year>
+</element-citation>
+</ref>
+<ref id="ref12">
+<label>12</label>
+<mixed-citation publication-type="journal">Paguay, J. (2020). DIFICULTADES EN EL APRENDIZAJE DE FUNCIONES LINEALES EN EL BLOQUE 1 DE ALGEBRA Y FUNCIONES EN LOS ESTUDIANTES DE DÉCIMO AÑO DE EDUCACIÓN BÁSICA PARALELO “A” DE LA UNIDAD EDUCATIVA PEDRO VICENTE MALDONADO, EN EL PERÍODO SEPTIEMBRE 2019-FEBRERO 2020. UNIVERSIDAD NACIONAL DE CHIMBORAZO.<ext-link ext-link-type="uri" xlink:href="http://dspace.unach.edu.ec/bitstream/51000/7082/1/UNACH-EC-FCEHT-TG-C.EXAC-2020-000023.pdf">http://dspace.unach.edu.ec/bitstream/51000/7082/1/UNACH-EC-FCEHT-TG-C.EXAC-2020-000023.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Paguay</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>DIFICULTADES EN EL APRENDIZAJE DE FUNCIONES LINEALES EN EL BLOQUE 1 DE ALGEBRA Y FUNCIONES EN LOS ESTUDIANTES DE DÉCIMO AÑO DE EDUCACIÓN BÁSICA PARALELO “A” DE LA UNIDAD EDUCATIVA PEDRO VICENTE MALDONADO, EN EL PERÍODO SEPTIEMBRE 2019-FEBRERO 2020.</article-title>
+<source>UNIVERSIDAD NACIONAL DE CHIMBORAZO</source>
+<year>2020</year>
+</element-citation>
+</ref>
+<ref id="ref13">
+<label>13</label>
+<mixed-citation publication-type="journal">Roldán Cruz, E. O. (2013). El aprendizaje de la Función Lineal, propuesta didáctica para estudiantes de 8 y 9 grados de educación básica. Facultad de Ciencias. <ext-link ext-link-type="uri" xlink:href="https://repositorio.unal.edu.co/handle/unal/21934">https://repositorio.unal.edu.co/handle/unal/21934</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Roldán Cruz</surname>
+<given-names>E. O.</given-names>
+</name>
+</person-group>
+<article-title>El aprendizaje de la Función Lineal, propuesta didáctica para estudiantes de 8 y 9 grados de educación básica</article-title>
+<source>Facultad de Ciencias</source>
+<year>2013</year>
+</element-citation>
+</ref>
+<ref id="ref14">
+<label>14</label>
+<mixed-citation publication-type="journal">Shahriar, S. y Hayawi, K. (2023). Let’s have a chat! A Conversation with ChatGPT: Technology, Applications, and Limitations. arXiv:2302.13817. <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/2302.13817">https://arxiv.org/abs/2302.13817</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Shahriar</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Hayawi</surname>
+<given-names>K.</given-names>
+</name>
+</person-group>
+<article-title>Let’s have a chat! A Conversation with ChatGPT: Technology, Applications, and Limitations.</article-title>
+<source>arXiv:2302.13817</source>
+<year>2023</year>
+</element-citation>
+</ref>
+<ref id="ref15">
+<label>15</label>
+<mixed-citation publication-type="journal">Shoufan, A. (2023). Exploring Students’ Perceptions of ChatGPT: Thematic Analysis and Follow-up Survey. IEEE Access. <ext-link ext-link-type="uri" xlink:href="https://ieeexplore.ieee.org/abstract/document/10105236">https://ieeexplore.ieee.org/abstract/document/10105236</ext-link>/</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Shoufan</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>Exploring Students’ Perceptions of ChatGPT: Thematic Analysis and Follow-up Survey</article-title>
+<source>IEEE Access</source>
+<year>2023</year>
+</element-citation>
+</ref>
+<ref id="ref16">
+<label>16</label>
+<mixed-citation publication-type="journal">Vera, F. (2023). Integración de la Inteligencia Artificial en la Educación superior: Desafíos y oportunidades. Transformar, 4(1), 17-34. <ext-link ext-link-type="uri" xlink:href="https://www.revistatransformar.cl/index.php/transformar/article/view/84">https://www.revistatransformar.cl/index.php/transformar/article/view/84</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Vera</surname>
+<given-names>F.</given-names>
+</name>
+</person-group>
+<article-title>Integración de la Inteligencia Artificial en la Educación superior: Desafíos y oportunidades</article-title>
+<source>Transformar</source>
+<year>2023</year>
+<volume>4</volume>
+<issue>1</issue>
+<fpage>17</fpage>
+<lpage>34</lpage>
+</element-citation>
+</ref>
+<ref id="ref17">
+<label>17</label>
+<mixed-citation publication-type="journal">Zhang, B. (2023) Preparing Educators and Students for ChatGPT and AI Technology in Higher Education. <ext-link ext-link-type="uri" xlink:href="https://www.researchgate.net/publication/367380845_Preparing_Educators_and_Students_for_ChatGPT_and_AI_Technology_in_Higher_EducationBenefits_Limitations_Strategies_and_Implications_of_ChatGPT_AI_Technologies">https://www.researchgate.net/publication/367380845_Preparing_Educators_and_Students_for_ChatGPT_and_AI_Technology_in_Higher_EducationBenefits_Limitations_Strategies_and_Implications_of_ChatGPT_AI_Technologies</ext-link>
+</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Zhang</surname>
+<given-names>B.</given-names>
+</name>
+</person-group>
+<article-title>Preparing Educators and Students for ChatGPT and AI Technology in Higher Education.</article-title>
+<source>researchgate</source>
+<year>2023</year>
+</element-citation>
+</ref>
+</ref-list>
+<app-group>
+<app id="app1">
+<title>Anexos</title>
+<sec>
+<title>Contribución de las personas autoras:</title>
+<p>Conceptualización: J.P.C.G., C.C.M. Curación de datos: J.P.C.G. Análisis formal: C.C.M. Metodología: J.P.C.G., C.C.M. Administración del proyecto: J.P.C.G. Recursos: C.C.M., J.P.C.G. Supervisión: C.C.M. Visualización: C.C.M. Escritura (borrador original): J.P.C.G., C.C.M. Escritura (revisión y edición): J.P.C.G., C.C.M.</p>
+</sec>
+<sec>
+<title>Accesibilidad de los datos:</title>
+<p>Los datos utilizados en este estudio están disponibles públicamente mediante los enlaces proporcionados en este documento. Para obtener información adicional o asistencia en la interpretación de los datos, las personas interesadas pueden contactar a los autores a través de los correos electrónicos: jose03pcg@gmail.com y acrismontoya@gmail.com.</p>
+</sec>
+</app>
+<app id="app2">
+<title>Anexos</title>
+<sec>
+<title>Anexos</title>
+<p>A continuación, se adjunta el material correspondiente a la propuesta didáctica mediante enlaces. Dado que la propuesta ha sufrido modificaciones, se incluyen las versiones actualizadas trabajadas.</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Guía de trabajo de función lineal ChatGPT versión 1. <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1IbHZZ2aiVAc28lptiNK7TTM_Z6PP3wwW/view?usp=drive_link">https://drive.google.com/file/d/1IbHZZ2aiVAc28lptiNK7TTM_Z6PP3wwW/view?usp=drive_link</ext-link>
+</p>
+</list-item>
+<list-item>
+<p>Solución I parte guía de trabajo función lineal ChatGPT versión 1. <ext-link ext-link-type="uri" xlink:href="https://chat.openai.com/share/3f71d768-f758-4aa1-be18-763dc3019aba">https://chat.openai.com/share/3f71d768-f758-4aa1-be18-763dc3019aba</ext-link>
+</p>
+</list-item>
+<list-item>
+<p>Solución II y III parte guía de trabajo función lineal ChatGPT Versión 1. <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1D8--F_S3jnGSShe8ts0pVn7JIIWlHdB4/view?usp=drive_link">https://drive.google.com/file/d/1D8--F_S3jnGSShe8ts0pVn7JIIWlHdB4/view?usp=drive_link</ext-link>
+</p>
+</list-item>
+<list-item>
+<p>Guía de trabajo función lineal ChatGPT versión 2 (definitiva). <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1RDEgGpmLdLmuW1R9E54W9qjdQyahV8r0/view?usp=drive_link">https://drive.google.com/file/d/1RDEgGpmLdLmuW1R9E54W9qjdQyahV8r0/view?usp=drive_link</ext-link>
+</p>
+</list-item>
+<list-item>
+<p>Solución guía de trabajo función lineal ChatGPT versión 2. <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1pC4DyAH1ZSKl3B-3vbBAzamlA9Wj0J9W/view?usp=drive_link">https://drive.google.com/file/d/1pC4DyAH1ZSKl3B-3vbBAzamlA9Wj0J9W/view?usp=drive_link</ext-link>
+</p>
+</list-item>
+<list-item>
+<p>Tarea versión 1. <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1-5isStH18eBLWMzhq43q0C6o7vplVrQu/view?usp=drive_link">https://drive.google.com/file/d/1-5isStH18eBLWMzhq43q0C6o7vplVrQu/view?usp=drive_link</ext-link>
+</p>
+</list-item>
+<list-item>
+<p>Tarea versión 1. <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1-5isStH18eBLWMzhq43q0C6o7vplVrQu/view?usp=drive_link">https://drive.google.com/file/d/1-5isStH18eBLWMzhq43q0C6o7vplVrQu/view?usp=drive_link</ext-link>
+</p>
+</list-item>
+<list-item>
+<p>Solución tarea versión 1. <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1FpN5yZJtUVNeAx0mGwI0osZYAX7EQjJY/view?usp=drive_link">https://drive.google.com/file/d/1FpN5yZJtUVNeAx0mGwI0osZYAX7EQjJY/view?usp=drive_link</ext-link>
+</p>
+</list-item>
+<list-item>
+<p>Tarea versión 2 (definitiva). <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1ONWjCP_35SDRqVyD071ItJBOY-J2dLPk/view?usp=drive_link">https://drive.google.com/file/d/1ONWjCP_35SDRqVyD071ItJBOY-J2dLPk/view?usp=drive_link</ext-link>
+</p>
+</list-item>
+<list-item>
+<p>Solución tarea versión 2 (definitiva). <ext-link ext-link-type="uri" xlink:href="https://drive.google.com/file/d/1EalnCzqhh8ktRPgvshIMk-7vkVgGRwcs/view?usp=drive_link">https://drive.google.com/file/d/1EalnCzqhh8ktRPgvshIMk-7vkVgGRwcs/view?usp=drive_link</ext-link>
+</p>
+</list-item>
+</list>
+</p>
+</sec>
+</app>
+</app-group>
+</back>
+</article>
