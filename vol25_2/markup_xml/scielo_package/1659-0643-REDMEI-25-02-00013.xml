@@ -1,0 +1,3076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "http://jats.nlm.nih.gov/publishing/1.1/JATS-journalpublishing1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1" specific-use="sps-1.8" article-type="research-article" xml:lang="es">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">REDMEI</journal-id>
+            <journal-title-group>
+                <journal-title>Revista Digital: Matemática, Educación e Internet</journal-title>
+                <abbrev-journal-title abbrev-type="publisher">-</abbrev-journal-title>
+            </journal-title-group>
+            <issn pub-type="ppub">1659-0643</issn>
+            <publisher>
+                <publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.18845/rdmei.v25i2.7604</article-id>
+            <article-categories>
+                <subj-group subj-group-type="heading">
+                    <subject>Artículo científico</subject>
+                </subj-group>
+            </article-categories>
+            <title-group>
+                <article-title>Algoritmo iterativo para calcular raíces cuadradas y cúbicas para estudiantes de educación media</article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="orcid">0000-0002-5518-3858</contrib-id>
+                    <name>
+                        <surname>Sandoval-Hernández</surname>
+                        <given-names>Mario A.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff1">
+                        <sup>1</sup>
+                    </xref>
+                    <xref ref-type="fn" rid="fn4">1</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="orcid">0000-0003-0142-0923</contrib-id>
+                    <name>
+                        <surname>Morales-Alarcón</surname>
+                        <given-names>Griselda J.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff2">
+                        <sup>2</sup>
+                    </xref>
+                    <xref ref-type="fn" rid="fn5">2</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="orcid">0000-0002-0726-1153</contrib-id>
+                    <name>
+                        <surname>Velez-López</surname>
+                        <given-names>Gerardo C.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff3">
+                        <sup>3</sup>
+                    </xref>
+                    <xref ref-type="fn" rid="fn6">3</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="orcid">0000-0003-1811-1238</contrib-id>
+                    <name>
+                        <surname>Jiménez-Fernández</surname>
+                        <given-names>Víctor M.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff4">
+                        <sup>4</sup>
+                    </xref>
+                    <xref ref-type="fn" rid="fn7">4</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="orcid">0000-0002-3543-834X</contrib-id>
+                    <name>
+                        <surname>Filobello-Niño</surname>
+                        <given-names>Uriel A.</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="aff5">
+                        <sup>5</sup>
+                    </xref>
+                    <xref ref-type="fn" rid="fn8">5</xref>
+                </contrib>
+                <contrib contrib-type="author">
+                    <contrib-id contrib-id-type="orcid">0000-0002-7785-5272</contrib-id>
+                    <name>
+                        <surname>Vázquez Leal</surname>
+                        <given-names>Héctor</given-names>
+                    </name>
+                    <xref ref-type="corresp" rid="corresp1"/>
+                    <xref ref-type="aff" rid="aff6">
+                        <sup>6</sup>
+                    </xref>
+                    <xref ref-type="fn" rid="fn9">6</xref>
+                </contrib>
+            </contrib-group>
+            <aff id="aff1">
+                <institution content-type="original">Centro de Bachillerato Tecnológico industrial y de servicios No.190. marioalberto.sandoval.cb190</institution>
+                <institution content-type="normalized">Centro de Bachillerato Tecnológico industrial y de servicios No.190, México, marioalberto.sandoval.cb190</institution>
+                <institution content-type="orgname">Centro de Bachillerato Tecnológico industrial y de servicios No.190</institution>
+                <country country="MX">México</country>
+                <email>marioalberto.sandoval.cb190@dgeti.sems.gob.mx</email>
+            </aff>
+            <aff id="aff2">
+                <institution content-type="original">Universidad Veracruzana, zS21000480@estudiantes.uv.mx</institution>
+                <institution content-type="normalized">Universidad Veracruzana, México, zS21000480@estudiantes.uv.mx</institution>
+                <institution content-type="orgname">Universidad Veracruzana, México, zS21000480@estudiantes.uv.mx</institution>
+                <country country="MX">México</country>
+                <email>zS21000480@estudiantes.uv.mx</email>
+            </aff>
+            <aff id="aff3">
+                <institution content-type="original">Instituto Nacional de Astrofísica, Óptica y Electrónica, cesar18f452@gmail.com</institution>
+                <institution content-type="normalized">Instituto Nacional de Astrofísica, Óptica y Electrónica, México, cesar18f452@gmail.com</institution>
+                <institution content-type="orgname">Instituto Nacional de Astrofísica, Óptica y Electrónica, México, cesar18f452@gmail.com</institution>
+                <country country="MX">México</country>
+                <email>cesar18f452@gmail.com</email>
+            </aff>
+            <aff id="aff4">
+                <institution content-type="original">Universidad Veracruzana, vicjimenez@uv.mx</institution>
+                <institution content-type="normalized">Universidad Veracruzana, México, vicjimenez@uv.mx</institution>
+                <institution content-type="orgname">Universidad Veracruzana, México, vicjimenez@uv.mx</institution>
+                <country country="MX">México</country>
+                <email>vicjimenez@uv.mx</email>
+            </aff>
+            <aff id="aff5">
+                <institution content-type="original">Universidad Veracruzana, ufilobello@uv.mx</institution>
+                <institution content-type="normalized">Universidad Veracruzana, México, vicjimenez@uv.mx</institution>
+                <institution content-type="orgname">Universidad Veracruzana, México, vicjimenez@uv.mx</institution>
+                <country country="MX">México</country>
+                <email>ufilobello@uv.mx</email>
+            </aff>
+            <aff id="aff6">
+                <institution content-type="original">Universidad Veracruzana, hvazquez@uv.mx</institution>
+                <institution content-type="normalized">Universidad Veracruzana, México, hvazquez@uv.mx</institution>
+                <institution content-type="orgname">Universidad Veracruzana, México, hvazquez@uv.mx</institution>
+                <country country="MX">México</country>
+                <email>hvazquez@uv.mx</email>
+            </aff>
+            <author-notes>
+                <fn id="fn4" fn-type="current-aff">
+                    <label>1</label>
+                    <p>Mario A. Sandoval Hernández, Profesor del Centro de Bachillerato Tecnológico industrial y de servicios 190. Dirección: Av. 15, Venustiano Carranza, Carranza 2da Secc. Código postal: 94297 Boca del Río, Ver., México. Correo electrónico: marioalberto.sandovdal.cb190@dgeti.sems.gob.mx</p>
+                </fn>
+                <fn id="fn5" fn-type="current-aff">
+                    <label>2</label>
+                    <p>Griselda J. Morales Alarcón. Estudiante de la maestría del instituto de Psicología y Educación de la Universidad Veracruzana. Dirección: Agustín Melgar, colonia Revolución. Código postal 91100 Xalapa-Enríquez, Ver., México. Correo electrónico:  zS1000480@estudiantes.uv.mx </p>
+                </fn>
+                <fn id="fn6" fn-type="current-aff">
+                    <label>3</label>
+                    <p>Gerardo C. Vélez-Lopez. Estudiante de doctorado del Instituto Nacional de Astrofísica, Óptica y Electrónica. Dirección: ´ Luis Enrique Erro #1, Santa María Tonantzintla, Código postal: 72840 San Andrés Cholula, Pue., México. Correo electrónico: cesar18f452@gmail.com </p>
+                </fn>
+                <fn id="fn7" fn-type="current-aff">
+                    <label>4</label>
+                    <p>Víctor M. Jimenez-Fernandez. Profesor de la facultad de Instrumentación Electrónica de la Universidad Veracruza-na. Dirección: Cto Aguirre Beltrán S/N, Zona Universitaria, Código postal: 91090 Xalapa-Enríquez, Ver., México. Correo ´ electrónico: vicjimenez@uv.mx</p>
+                </fn>
+                <fn id="fn8" fn-type="current-aff">
+                    <label>5</label>
+                    <p>Uriel A. Filobello-Nino. Profesor de la facultad de Instrumentación Electrónica de la Universidad Veracruzana. Dirección: Cto Aguirre Beltrán S/N, Zona Universitaria, Código postal: 91090 Xalapa-Enríquez, Ver., México. Correo electrónico: ufilobello@uv.mx</p>
+                </fn>
+                <fn id="fn9" fn-type="current-aff">
+                    <label>6</label>
+                    <p>Hector Vazquez Leal. Profesor de la facultad de Instrumentación Electrónica de la Universidad Veracruzana. Dirección: Cto Aguirre Beltrán S/N, Zona Universitaria, Código postal: 91090 Xalapa-Enríquez, Ver., México. Correo electrónico: hvazquez@uv.mx </p>
+                </fn>
+                <corresp id="corresp1">
+                    <email>hvazquez@uv.mx</email>
+                </corresp>
+            </author-notes>
+            <pub-date pub-type="collection">
+                <season>Feb/Aug</season>
+                <year>2025</year>
+            </pub-date>
+            <volume>25</volume>
+            <issue>2</issue>
+            <fpage>1</fpage>
+            <lpage>15</lpage>
+            <history>
+                <date date-type="received">
+                    <day>09</day>
+                    <month>05</month>
+                    <year>2024</year>
+                </date>
+                <date date-type="accepted">
+                    <day>19</day>
+                    <month>09</month>
+                    <year>2024</year>
+                </date>
+            </history>
+             <permissions>
+                <copyright-year>2024</copyright-year>
+                <copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+                <license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/" xml:lang="es">
+                    <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License</license-p>
+                </license>
+            </permissions>
+            <abstract>
+                <title>Resumen</title>
+                <p>En este artículo se presenta una metodología didáctica basada en el algoritmo numérico de Newton-Raphson, diseñada para enseñar a estudiantes de educación media superior cómo calcular raíces cuadradas y cúbicas. El enfoque de esta metodología está basada en el criterio de paro de convergencia cuadrática de Newton-Raphson, permitiendo en dos iteraciones una precisión de hasta cuatro dígitos significativos o más en las raíces obtenidas. Asimismo, esta metodología puede apoyarse en la descomposición de factores para su aplicación. Además, se incluyen ejemplos numéricos frecuentemente propuestos a los alumnos de educación media, con el fin de brindarles práctica en la aplicación del algoritmo enseñado en escuelas secundarias y preparatorias. La aplicación de este algoritmo trae como beneficio estimular el cálculo mental en los estudiantes.</p>
+            </abstract>
+            <trans-abstract xml:lang="en">
+                <title>Abstract</title>
+                <p>This article introduces a teaching method using the Newton-Raphson numerical algorithm, specifically to teach for high school students in Mexico to learn how to compute square and cubic roots. The method relies on the Newton-Raphson algorithm’s quadratic convergence stopping criterion, which achieves precision up to four significant digits in the roots calculated within just two iterations. Additionally, factor decomposition supports the application of this methodology. The article also includes numerical examples commonly given to middle school students, providing them with practical experience in using the algorithm as it is taught in secondary and high schools. Applying this algorithm helps enhance students’ mental arithmetic skills, offering a significant educational benefit.</p>
+            </trans-abstract>
+            <kwd-group xml:lang="es">
+                <title>Palabras clave</title>
+                <kwd>matemática educativa</kwd>
+                <kwd>alternativas de enseñanza</kwd>
+                <kwd>enseñanza media superior</kwd>
+                <kwd>aritmética</kwd>
+                <kwd>discurso matemático escolar</kwd>
+            </kwd-group>
+            <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Mathematics Education</kwd>
+                <kwd>Teaching Alternatives</kwd>
+                <kwd>high school</kwd>
+                <kwd>arithmetic</kwd>
+                <kwd>school mathematical speech</kwd>
+            </kwd-group>
+            <counts>
+                <fig-count count="3"/>
+                <table-count count="4"/>
+                <equation-count count="3"/>
+                <ref-count count="23"/>
+            </counts>
+        </article-meta>
+    </front>
+    <body>
+        <sec sec-type="intro">
+            <title>
+                Introducción
+            </title>
+            <p>El cálculo de la raíz cuadrada es una de las operaciones aritméticas enseñadas en los niveles de educación secundaria y media superior. Se inicia con la adquisición de las operaciones aritméticas elementales, como la suma, resta, multiplicación y división. Estas operaciones elementales se introducen en la educación primaria, pero es en la educación secundaria donde los estudiantes se familiarizan por primera vez con los conceptos de potenciación. La radicación, a su vez, se presenta como una forma de potenciación que involucra exponentes racionales
+                [
+                <xref ref-type="bibr" rid="ref1">1</xref>],
+                [
+                <xref ref-type="bibr" rid="ref2">2</xref>]. Por ejemplo, la raíz cuadrada se representa comúnmente como el exponente racional de un medio.
+            </p>
+            <p>El discurso matemático escolar (DME), presente en las aulas en los diversos niveles educativos, se caracteriza por su naturaleza hegemónica, utilitaria y la falta de marcos de referencia claros. Sin embargo, a pesar de los intentos de innovación en los métodos de enseñanza, el DME continúa sin modificar sustancialmente el contenido enseñado. Su influencia sigue siendo significativa en los procesos de enseñanza-aprendizaje
+                [
+                <xref ref-type="bibr" rid="ref3">3</xref>],
+                [
+                <xref ref-type="bibr" rid="ref4">4</xref>],
+                [
+                <xref ref-type="bibr" rid="ref5">5</xref>],
+                [
+                <xref ref-type="bibr" rid="ref6">6</xref>].
+            </p>
+            <p>En la literatura de educación matemática, los libros no escapan a la influencia del DME, observándose que muchas prácticas docentes aún prevalecen. Incluso, la instrucción en aritmética elemental sigue siendo afectada por dicha influencia. Se ha registrado en la literatura académica múltiples propuestas de diversos autores destinadas a atenuar el impacto del DME en este campo educativo. Por ejemplo, en
+                [
+                <xref ref-type="bibr" rid="ref7">7</xref>] desarrollaron una metodología para implementar el método de integración por partes, poniendo especial atención en la elección del diferencial y la función dentro del integrando para simplificar el proceso de integración. Además, en
+                [
+                <xref ref-type="bibr" rid="ref8">8</xref>] introdujeron una metodología alternativa para deducir la fórmula general que resuelve ecuaciones cuadráticas, empleando números complejos en el procedimiento algebraico. De igual manera, en
+                [
+                <xref ref-type="bibr" rid="ref9">9</xref>] propusieron una fórmula algebraica que utiliza una función exponencial y un polinomio en su argumento para calcular la función error y la función acumulativa de probabilidad normal, evitando así el empleo convencional de tablas matemáticas
+                [
+                <xref ref-type="bibr" rid="ref10">10</xref>] y a su vez, resignificando el uso de las funciones matemáticas en el campo de la estadística y la ingeniería.
+            </p>
+            <p>El DME sigue teniendo un impacto significativo en los libros de aritmética, lo cual se refleja en la persistencia de ciertos procedimientos matemáticos hasta nuestros días. Un claro ejemplo de esto es la metodología para el cálculo de raíces cuadradas que se enseña en los cursos de matemáticas de nivel secundaria. Conforme a las referencias de autores como Baldor
+                [
+                <xref ref-type="bibr" rid="ref2">2</xref>],
+                [
+                <xref ref-type="bibr" rid="ref11">11</xref>],
+                [
+                <xref ref-type="bibr" rid="ref12">12</xref>], la técnica de enseñanza utilizada para calcular la raíz cuadrada de un número ha permanecido constante a lo largo de los años. Notablemente, esta metodología, aún presente en la edición 2019 del libro de Aritmética de Baldor, ha continuado inalterada desde 1982, y desde sus primeras ediciones, mostrando únicamente modificaciones en la tipografía y el formato del texto. Este fenómeno ilustra la influencia duradera del DME en la pedagogía matemática, subrayando la necesidad de reflexionar sobre la evolución de las prácticas educativas en este campo.
+            </p>
+        </sec>
+        <sec sec-type="materials">
+            <title>
+                Estado del arte
+            </title>
+            <p>El cálculo de raíces cuadradas y cúbicas tiene un vínculo con las ecuaciones de segundo y tercer grado, un área de estudio fundamental en la educación matemática. En este contexto, muchos autores han explorado diversas estrategias didácticas para enseñar estas ecuaciones y para la deducción de las fórmulas que permiten resolverlas
+                [
+                <xref ref-type="bibr" rid="ref8">8</xref>]. Por ejemplo, en
+                [
+                <xref ref-type="bibr" rid="ref13">13</xref>], se presenta un enfoque innovador para deducir la ecuación de tercer grado. Esta deducción se realiza a través de una técnica que combina elementos geométricos y algebraicos, conocida como la completación del cubo. En este método, se construyen y visualizan formas tridimensionales en el espacio, cuya integración o suma de volúmenes de diversas figuras geométricas ayuda a conceptualizar y resolver la ecuación de tercer grado. Esta aproximación facilita la comprensión de conceptos abstractos mediante la visualización, y además, enriquece el aprendizaje al conectar la geometría con el álgebra de manera tangible y aplicada.
+            </p>
+            <p>En la esfera de la enseñanza de las raíces cuadradas, se han propuesto metodologías innovadoras que buscan mejorar y enriquecer el aprendizaje matemático desde los niveles más básicos. Un ejemplo destacado en
+                [
+                <xref ref-type="bibr" rid="ref14">14</xref>], quienes diseñaron material pedagógico destinado a enseñar la obtención de raíces cuadradas desde cero, orientado especialmente a estudiantes en los primeros años de la escuela primaria. Esta propuesta pedagógica se apoya en la historia de las matemáticas y en la Teoría del Aprendizaje Significativo como pilares epistemológicos y didácticos
+                [
+                <xref ref-type="bibr" rid="ref15">15</xref>], introduciendo conceptos como el cuadrado perfecto y el método babilónico para calcular la raíz cuadrada en ausencia de cuadrados perfectos. Por otro lado, en
+                [
+                <xref ref-type="bibr" rid="ref16">16</xref>] se sugiere una metodología para calcular la raíz cuadrada a partir de la descomposición decimal del número. Este enfoque requiere que los estudiantes posean un entendimiento sólido sobre la representación decimal de números reales, productos notables, factorización de cuadrados, y propiedades básicas de la potenciación, además de habilidades en las operaciones y propiedades fundamentales de la suma y la multiplicación. Este método está diseñado para ser implementado tanto en alumnos de nivel bachillerato como en los primeros semestres de la educación universitaria, mostrando la adaptabilidad y la profundidad de las nuevas propuestas educativas en matemáticas.
+            </p>
+            <p>En el trabajo
+                [
+                <xref ref-type="bibr" rid="ref17">17</xref>], se detalla la puesta en práctica de una situación didáctica diseñada específicamente para la enseñanza de la determinación de la raíz cuadrada a nivel medio superior, utilizando para ello una aproximación geométrica. Dicha situación didáctica consiste en la construcción de un triángulo inscrito en una circunferencia, lo cual facilita la obtención de una aproximación de la raíz cuadrada en un número determinado. Este enfoque no solo proporciona un método visual y tangible para comprender conceptos abstractos, sino que también enriquece la experiencia de aprendizaje al integrar elementos de geometría en el cálculo de raíces. Adicionalmente, la literatura matemática actual incluye una variedad de técnicas más avanzadas para calcular la raíz cuadrada, como los algoritmos asintóticos y numéricos. Estos métodos ofrecen precisión y eficiencia y pueden ser implementados en diversos lenguajes de programación, ampliando así las herramientas disponibles para estudiantes y educadores
+                [
+                <xref ref-type="bibr" rid="ref18">18</xref>].
+            </p>
+            <p>De acuerdo al DME la metodología clásica utilizada en los cursos habituales de matemáticas a nivel secundaria para calcular la raíz cuadrada de un número real y presentado en
+                [
+                <xref ref-type="bibr" rid="ref11">11</xref>] es la siguiente
+            </p>
+            <p>
+                <bold>Algoritmo</bold> clásico para calcular la raíz cuadrada
+            </p>
+            <p>
+                <list list-type="order">
+                    <list-item>
+                        <p>Dividir el número dado en grupos de dos cifras, comenzando desde la derecha. El último grupo, periodo o sección puede tener una o dos cifras.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Extraer la raíz cuadrada del primer grupo o periodo. Esta será la primera cifra de la raíz. Elevar esta cifra al cuadrado y restarlo del primer periodo. A la derecha de este resto, se coloca la siguiente sección, separando la primera cifra a la derecha. El resultado se divide por el doble de la raíz obtenida anteriormente.</p>
+                    </list-item>
+                    <list-item>
+                        <p>El cociente representa la siguiente cifra de la raíz o una cifra mayor.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Para verificar si esta cifra es correcta, se coloca a la derecha del doble de la raíz obtenida anteriormente. Se multiplica el número formado por esta cifra y se comprueba. Si el producto se puede restar del número original del cual se extrajo la primera cifra de la derecha, la cifra es correcta y se añade a la raíz. Si no se puede restar, se disminuye la cifra en una unidad o más hasta que el producto sea restablecido.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Una vez hecho esto, se resta el producto del número original y se escribe a la derecha el siguiente periodo. Estas operaciones se repiten hasta completar todos los periodos del número original.</p>
+                    </list-item>
+                </list>
+            </p>
+            <p>Como ejemplo, se calculará la raíz cuadrada de 456.40 empleando el algoritmo presentado.</p>
+            <p>
+                <list list-type="order">
+                    <list-item>
+                        <p>Dividir el número dado en grupos de dos cifras, esto es
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>4</mml:mn>
+                                            <mml:mo separator="true">,</mml:mo>
+                                            <mml:mn>56</mml:mn>
+                                            <mml:mo separator="true">,</mml:mo>
+                                            <mml:mn>40</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi5.png"/>
+                                </alternatives>
+                            </inline-formula>. De esta manera el primer grupo es
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mn>4</mml:mn>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi7.png"/>
+                                </alternatives>
+                            </inline-formula>; el segundo es
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mn>56</mml:mn>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi8.png"/>
+                                </alternatives>
+                            </inline-formula>; el tercero es
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mn>40</mml:mn>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi9.png"/>
+                                </alternatives>
+                            </inline-formula>.
+                        </p>
+                    </list-item>
+                    <list-item>
+                        <p>La raíz cuadrada de 4 es 2. Esto significa que el primer dígito de la raíz cuadrada de
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>4</mml:mn>
+                                            <mml:mo separator="true">,</mml:mo>
+                                            <mml:mn>56</mml:mn>
+                                            <mml:mo separator="true">,</mml:mo>
+                                            <mml:mn>40</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi11.png"/>
+                                </alternatives>
+                            </inline-formula> es 2.
+                        </p>
+                        <p>Ahora, elevamos 2 al cuadrado, esto es
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:msup>
+                                                <mml:mn>2</mml:mn>
+                                                <mml:mn>2</mml:mn>
+                                            </mml:msup>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>4</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi12.png"/>
+                                </alternatives>
+                            </inline-formula>. Restamos 4 del primer grupo:
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>4</mml:mn>
+                                            <mml:mo>&#x2212;</mml:mo>
+                                            <mml:mn>4</mml:mn>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>0</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi13.png"/>
+                                </alternatives>
+                            </inline-formula>. A la derecha del resto escribimos 0 y bajamos el siguiente grupo, que es 56. Ahora tenemos 056. Doblamos la raíz obtenida hasta ahora, 2. Ahora tomamos el número 056 y lo dividimos por 4.
+                        </p>
+                    </list-item>
+                    <list-item>
+                        <p>Al realizar la operación
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>056</mml:mn>
+                                            <mml:mi>/</mml:mi>
+                                            <mml:mn>4</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi14.png"/>
+                                </alternatives>
+                            </inline-formula>, obtenemos 14. Este cociente indica que la siguiente cifra de nuestra raíz podría ser
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math>
+                                        <mml:menclose notation="bottom">
+                                            <mml:mn>1</mml:mn>
+                                        </mml:menclose>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi15.png"/>
+                                </alternatives>
+                            </inline-formula>.
+                        </p>
+                    </list-item>
+                    <list-item>
+                        <p>Para verificar la validez de la cifra, se divide
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>5</mml:mn>
+                                            <mml:mi>/</mml:mi>
+                                            <mml:mn>4</mml:mn>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>1</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi16.png"/>
+                                </alternatives>
+                            </inline-formula> y este residuo se coloca a la derecha del 4, formando el número
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>4</mml:mn>
+                                            <mml:menclose notation="bottom">
+                                                <mml:mn>1</mml:mn>
+                                            </mml:menclose>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi17.png"/>
+                                </alternatives>
+                            </inline-formula>, que lo multiplicamos por la misma cifra siendo
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>4</mml:mn>
+                                            <mml:menclose notation="bottom">
+                                                <mml:mn>1</mml:mn>
+                                            </mml:menclose>
+                                            <mml:mo>&#xD7;</mml:mo>
+                                            <mml:menclose notation="bottom">
+                                                <mml:mn>1</mml:mn>
+                                            </mml:menclose>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>41</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi18.png"/>
+                                </alternatives>
+                            </inline-formula>. Restamos
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>56</mml:mn>
+                                            <mml:mo>&#x2212;</mml:mo>
+                                            <mml:mn>41</mml:mn>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>15</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi19.png"/>
+                                </alternatives>
+                            </inline-formula> y observamos que la resta se realiza sin problema. De este modo, comprobamos que
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math >
+                                        <mml:menclose notation="bottom">
+                                            <mml:mn>1</mml:mn>
+                                        </mml:menclose>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi25.png"/>
+                                </alternatives>
+                            </inline-formula>  es el segundo digito de la raíz, y su valor numérico en este momento es
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math >
+                                        <mml:mn>21</mml:mn>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi21.png"/>
+                                </alternatives>
+                            </inline-formula>.
+                        </p>
+                    </list-item>
+                    <list-item>
+                        <p>El proceso se repite. Bajamos el siguiente grupo 40 y obtenemos 1540. Duplicamos la raíz 21 y tenemos 42.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Hacemos la separación 154,0 y dividimos
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>154</mml:mn>
+                                            <mml:mi>/</mml:mi>
+                                            <mml:mn>41</mml:mn>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>3</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi26.png"/>
+                                </alternatives>
+                            </inline-formula>. Este cociente indica que la tercer cifra de nuestra raíz podría ser
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math >
+                                        <mml:menclose notation="bottom">
+                                            <mml:mn>3</mml:mn>
+                                        </mml:menclose>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi27.png"/>
+                                </alternatives>
+                            </inline-formula>.
+                        </p>
+                    </list-item>
+                    <list-item>
+                        <p>Para verificar la validez de la cifra, se divide
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>154</mml:mn>
+                                            <mml:mi>/</mml:mi>
+                                            <mml:mn>41</mml:mn>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>3</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi29.png"/>
+                                </alternatives>
+                            </inline-formula> y este cociente se coloca a la derecha del 42, formando el número
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>42</mml:mn>
+                                            <mml:menclose notation="bottom">
+                                                <mml:mn>3</mml:mn>
+                                            </mml:menclose>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi30.png"/>
+                                </alternatives>
+                            </inline-formula>, que lo multiplicamos por la misma cifra siendo
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>42</mml:mn>
+                                            <mml:menclose notation="bottom">
+                                                <mml:mn>3</mml:mn>
+                                            </mml:menclose>
+                                            <mml:mo>&#xD7;</mml:mo>
+                                            <mml:menclose notation="bottom">
+                                                <mml:mn>3</mml:mn>
+                                            </mml:menclose>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>1269</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi31.png"/>
+                                </alternatives>
+                            </inline-formula>. Restamos
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>1540</mml:mn>
+                                            <mml:mo>&#x2212;</mml:mo>
+                                            <mml:mn>1269</mml:mn>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>271</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi32.png"/>
+                                </alternatives>
+                            </inline-formula> y la sustracción se realiza sin dificultad. De este modo comprobamos que
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math >
+                                        <mml:menclose notation="bottom">
+                                            <mml:mn>3</mml:mn>
+                                        </mml:menclose>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi33.png"/>
+                                </alternatives>
+                            </inline-formula> es el tercer dígito de la raíz. En este momento el valor de la raíz es
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math >
+                                        <mml:mn>21.3</mml:mn>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi34.png"/>
+                                </alternatives>
+                            </inline-formula>.
+                        </p>
+                    </list-item>
+                    <list-item>
+                        <p>El proceso se repite nuevamente. Debido a que ya no hay más dígitos en el radicando, se agregan los digitos 00 y se bajan para obtener 27100, duplicamos la raíz para tener 426.</p>
+                    </list-item>
+                    <list-item>
+                        <p>Hacemos la separación 2710,0 y dividimos
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>426</mml:mn>
+                                            <mml:mi>/</mml:mi>
+                                            <mml:mn>6</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi35.png"/>
+                                </alternatives>
+                            </inline-formula>. Este cociente indica que la cuarta cifra de nuestra raíz podría ser
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math >
+                                        <mml:menclose notation="bottom">
+                                            <mml:mn>6</mml:mn>
+                                        </mml:menclose>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi36.png"/>
+                                </alternatives>
+                            </inline-formula>.
+                        </p>
+                    </list-item>
+                    <list-item>
+                        <p>Para verificar la validez de la cifra, se divide
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>426</mml:mn>
+                                            <mml:mi>/</mml:mi>
+                                            <mml:mn>6</mml:mn>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>6</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi37.png"/>
+                                </alternatives>
+                            </inline-formula> y este cociente se coloca a la derecha del 4266, formando el número
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>426</mml:mn>
+                                            <mml:menclose notation="bottom">
+                                                <mml:mn>6</mml:mn>
+                                            </mml:menclose>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi38.png"/>
+                                </alternatives>
+                            </inline-formula>, que lo multiplicamos por la misma cifra siendo
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>426</mml:mn>
+                                            <mml:menclose notation="bottom">
+                                                <mml:mn>6</mml:mn>
+                                            </mml:menclose>
+                                            <mml:mo>&#xD7;</mml:mo>
+                                            <mml:menclose notation="bottom">
+                                                <mml:mn>6</mml:mn>
+                                            </mml:menclose>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>25596</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi39.png"/>
+                                </alternatives>
+                            </inline-formula>. Restamos
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mn>27100</mml:mn>
+                                            <mml:mo>&#x2212;</mml:mo>
+                                            <mml:mn>25596</mml:mn>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>1504</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi40.png"/>
+                                </alternatives>
+                            </inline-formula> y la sustracción se realiza sin problema. De este modo comprobamos que
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math >
+                                        <mml:menclose notation="bottom">
+                                            <mml:mn>6</mml:mn>
+                                        </mml:menclose>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi41.png"/>
+                                </alternatives>
+                            </inline-formula> es el cuarto dígito de la raíz. En este paso el valor de la raíz es
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math >
+                                        <mml:mn>21.36</mml:mn>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi42.png"/>
+                                </alternatives>
+                            </inline-formula>.
+                        </p>
+                    </list-item>
+                    <list-item>
+                        <p>El proceso se repite de la misma manera para obtener los dígitos significativos
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math >
+                                        <mml:menclose notation="bottom">
+                                            <mml:mn>35</mml:mn>
+                                        </mml:menclose>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi43.png"/>
+                                </alternatives>
+                            </inline-formula>.
+                        </p>
+                    </list-item>
+                </list>
+            </p>
+            <p>En la Figura
+                <underline>
+                    <xref ref-type="fig" rid="gf1">1</xref>
+                </underline> se muestra el proceso extracción de la raíz cuadrada de 456.40 la cual es igual a
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mn >2</mml:mn>
+                                <mml:menclose notation="bottom">
+                                    <mml:mn>1.3635</mml:mn>
+                                </mml:menclose>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi44.png"/>
+                    </alternatives>
+                </inline-formula> utilizando el procedimiento previamente descrito. Se observa que fueron necesarias 5 iteraciones para obtener las cifras
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:menclose notation="bottom">
+                                <mml:mn>13635</mml:mn>
+                            </mml:menclose>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi45.png"/>
+                    </alternatives>
+                </inline-formula> debido a que el primer dígito,
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mn >2</mml:mn>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi46.png"/>
+                    </alternatives>
+                </inline-formula> se obtuvo mediante la raíz cuadrada descrito en el paso 2 del algoritmo para calcular raíces cuadradas
+                [
+                <xref ref-type="bibr" rid="ref11">11</xref>].
+            </p>
+            <p>
+                <fig id="gf1">
+                    <label>1</label>
+                    <caption>
+                        <title>
+                            Figura 1.
+                        </title>
+                        <p>Raíz cuadrada de un número.</p>
+                    </caption>
+                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gf2.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia.</attrib>
+                </fig>
+            </p>
+            <p>Es importante destacar que, en
+                [
+                <xref ref-type="bibr" rid="ref2">2</xref>,
+                <xref ref-type="bibr" rid="ref11">11</xref>], se expone también la metodología clásica para calcular la raíz cúbica de un número real. Asimismo, es notable observar en estos libros la influencia del DME porque el autor presenta la metodología en forma de resumen acompañado de ejemplos demostrativos sin dar explicaciones de métodos alternativos para su determinación, a pesar de que se trata de una edición reciente de su mismo libro.
+            </p>
+        </sec>
+        <sec sec-type="materials|methods">
+            <title>
+                Materiales y métodos
+            </title>
+            <p>En este trabajo se llevó a cabo una revisión documental mediante un enfoque sistemático. El proceso se dividió en tres etapas: recopilación de datos, análisis de información y síntesis, siguiendo la metodología propuesta por
+                [
+                <xref ref-type="bibr" rid="ref9">9</xref>]. En la primera etapa, se realizó una revisión sistemática de la literatura, utilizando una variedad de artículos con una base homogénea. Del mismo modo, en el caso de los libros, se llevó a cabo una revisión física, tanto en aquellos publicados en formato físico como en formato electrónico, siempre y cuando, estuvieran disponibles en documentos portátiles (PDF). La
+                [
+                <xref ref-type="table" rid="gt1"> Tabla 1  </xref>]
+                presenta el proceso metodológico utilizado para buscar y recopilar la información. Las principales fuentes de búsqueda para las referencias bibliográficas en el caso de los artículos científicos fueron las bases de datos SCOPUS y Elsevier, así como Scielo y Redalyc. Se seleccionaron artículos publicados en revistas indexadas y se utilizaron términos de búsqueda relacionados con el tema de esta investigación. En cuanto a los libros, se incluyeron aquellos que suelen ser utilizados por las escuelas de primaria, secundaria y bachillerato.
+            </p>
+            <p>
+                <table-wrap id="gt1">
+                    <label>1</label>
+                    <caption>
+                        <title>
+                            Tabla 1.
+                        </title>
+                        <p>Revisión de referencias.</p>
+                    </caption>
+                    <alternatives>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gt2.png" position="anchor" orientation="portrait"/>
+                        <table id="gt2-526564616c7963">
+                            <tbody>
+                                <tr>
+                                    <th style="text-align: center;">
+                                        <p>
+                                            <italic>
+                                                <italic>Paso</italic>
+                                            </italic>
+                                        </p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>
+                                            <italic>
+                                                <italic>Descripción</italic>
+                                            </italic>
+                                        </p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>
+                                            <italic>
+                                                <italic>Procedimiento</italic>
+                                            </italic>
+                                        </p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">1</td>
+                                    <td style="text-align: center;">Bases de datos consultadas</td>
+                                    <td style="text-align: center;">Scopus, Scielo, Dianet, Google Scholar.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">2</td>
+                                    <td style="text-align: center;">Criterios de búsqueda</td>
+                                    <td style="text-align: center;">Aritmética, discurso matemático escolar, Raíz, algoritmos numéricos, educación, Período de búsqueda: 2022-2023.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"/>
+                                    <td style="text-align: center;"/>
+                                    <td style="text-align: center;"/>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"/>
+                                    <td style="text-align: center;"/>
+                                    <td style="text-align: center;"/>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">3</td>
+                                    <td style="text-align: center;">Criterios de inclusión y exclusión</td>
+                                    <td style="text-align: center;">Exclusión: Documentos no representativos (libros, artículos sin ISSN, etc.) Inclusión: Español, portugués e inglés.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"/>
+                                    <td style="text-align: center;"/>
+                                    <td style="text-align: center;"/>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"/>
+                                    <td style="text-align: center;"/>
+                                    <td style="text-align: center;"/>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">4</td>
+                                    <td style="text-align: center;">Documentos irrelevantes</td>
+                                    <td style="text-align: center;">Cada referencia fue revisada minuciosamente para eliminar las fuentes con menos relevancia.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">5</td>
+                                    <td style="text-align: center;">Citas</td>
+                                    <td style="text-align: center;">Se consideran los enlaces de las referencias encontradas e las bases de datos para expandir la búsqueda de datos.</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">6</td>
+                                    <td style="text-align: center;">Criterios de revisión</td>
+                                    <td style="text-align: center;">Mismos criterios del paso 3</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </alternatives>
+                    <attrib>Elaboración propia basada en
+                        [
+                        <xref ref-type="bibr" rid="ref19">19</xref>]
+                    </attrib>
+                </table-wrap>
+            </p>
+        </sec>
+        <sec sec-type="methods">
+            <title>
+                Fundamento teórico
+            </title>
+            <p>En este trabajo, partimos del análisis del método numérico de Newton-Raphson (N-R), el cual es un método abierto de convergencia local
+                [
+                <xref ref-type="bibr" rid="ref20">20</xref>,
+                <xref ref-type="bibr" rid="ref6">6</xref>]. Para alcanzar la convergencia, es crucial seleccionar un valor inicial lo más próximo posible a la raíz deseada. Se recomienda iniciar la iteración con un valor cercano a cero, comúnmente conocido como punto de arranque o valor supuesto. La proximidad relativa del punto inicial a la raíz está determinada por la naturaleza misma de la función. Si la función presenta múltiples puntos de inflexión o pendientes pronunciadas cerca de la raíz, existe una mayor probabilidad de divergencia del algoritmo, por lo que la selección de un valor supuesto próximo a la raíz se vuelve crucial. Una vez determinado, el método la función utilizando la recta tangente en dicho valor supuesto. La Figura
+                <underline>
+                    <xref ref-type="fig" rid="gf2">2</xref>
+                </underline> ilustra el proceso de iteración en el método N-R.
+            </p>
+            <p>
+                <fig id="gf2">
+                    <label>2</label>
+                    <caption>
+                        <title>
+                            Figura 2.
+                        </title>
+                        <p>Esquema Newton-Raphson</p>
+                    </caption>
+                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gf3.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia.</attrib>
+                </fig>
+            </p>
+            <p>La intersección de esta recta con el eje de las abscisas proporcionará una mejor aproximación de la raíz que el valor anterior. Se realizan iteraciones sucesivas hasta que el método haya convergido lo suficiente. El método de NR está dado por la ecuación dada por</p>
+            <p>
+                <disp-formula id="e1">
+                    <label>(1)</label>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>1</mml:mn>
+                                </mml:msub>
+                                <mml:mo>=</mml:mo>
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>0</mml:mn>
+                                </mml:msub>
+                                <mml:mo>&#x2212;</mml:mo>
+                                <mml:mfrac>
+                                    <mml:mrow>
+                                        <mml:mi>f</mml:mi>
+                                        <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                        <mml:msub>
+                                            <mml:mi>x</mml:mi>
+                                            <mml:mn>0</mml:mn>
+                                        </mml:msub>
+                                        <mml:mo form="postfix" lspace="0em" rspace="0em" stretchy="false">)</mml:mo>
+                                    </mml:mrow>
+                                    <mml:mrow>
+                                        <mml:mi>f</mml:mi>
+                                        <mml:mtext>&#xB4;</mml:mtext>
+                                        <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                        <mml:msub>
+                                            <mml:mi>x</mml:mi>
+                                            <mml:mn>0</mml:mn>
+                                        </mml:msub>
+                                        <mml:mo form="postfix" lspace="0em" rspace="0em" stretchy="false">)</mml:mo>
+                                    </mml:mrow>
+                                </mml:mfrac>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-ee2.png"/>
+                    </alternatives>
+                </disp-formula>
+            </p>
+            <p>con
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:msub>
+                                <mml:mi>x</mml:mi>
+                                <mml:mn>0</mml:mn>
+                            </mml:msub>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi49.png"/>
+                    </alternatives>
+                </inline-formula> siendo el punto de inicio,
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>f</mml:mi>
+                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi47.png"/>
+                    </alternatives>
+                </inline-formula> la función en la que se busca obtener la raíz y
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>f</mml:mi>
+                                <mml:mtext>&#xB4;</mml:mtext>
+                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi48.png"/>
+                    </alternatives>
+                </inline-formula> la derivada de la función.
+            </p>
+            <p>El método de Newton-Raphson exhibe convergencia cuadrática, lo que significa que a medida que el algoritmo se acerca a una raíz, la diferencia entre la solución actual y la solución óptima disminuye cuadráticamente en cada iteración
+                [
+                <xref ref-type="bibr" rid="ref20">20</xref>,
+                <xref ref-type="bibr" rid="ref21">21</xref>]. Es importante destacar que la ecuación (
+                <xref ref-type="disp-formula" rid="e1">1</xref>) representa una fórmula iterativa y se debe establecer un criterio de paro para determinar cuándo detener las iteraciones. Es común fijar una tolerancia con un error de
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mn>1</mml:mn>
+                                <mml:mo>&#xD7;</mml:mo>
+                                <mml:msup>
+                                    <mml:mn>10</mml:mn>
+                                    <mml:mrow>
+                                        <mml:mo lspace="0em" rspace="0em">&#x2212;</mml:mo>
+                                        <mml:mn>6</mml:mn>
+                                    </mml:mrow>
+                                </mml:msup>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi50.png"/>
+                    </alternatives>
+                </inline-formula>. Sin embargo, los algoritmos numéricos suelen implementarse en lenguajes de programación como Python [
+                <xref ref-type="bibr" rid="ref18">18</xref>], lo que proporciona la ventaja de obtener resultados de manera rápida.
+            </p>
+            <p>En el caso específico del algoritmo de N-R, su implementación en lenguajes de programación ofrece ventajas significativas en términos de evaluación y tiempos de cómputo, especialmente cuando se enfrentan expresiones que involucran múltiples términos o funciones trascendentes como trigonométricas y exponenciales.</p>
+        </sec>
+        <sec sec-type="results">
+            <title> </title>
+            <p>
+                <bold>Propuesta didáctica</bold>
+                <bold>Deducción del método</bold>
+            </p>
+            <p>Sean
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>f</mml:mi>
+                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                <mml:mo>=</mml:mo>
+                                <mml:msup>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msup>
+                                <mml:mo>&#x2212;</mml:mo>
+                                <mml:mi>A</mml:mi>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi51.png"/>
+                    </alternatives>
+                </inline-formula>, la función cuadrática, con donde
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mi>A</mml:mi>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi53.png"/>
+                    </alternatives>
+                </inline-formula> es un número real,
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>0</mml:mn>
+                                </mml:msub>
+                                <mml:mo>=</mml:mo>
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mi>n</mml:mi>
+                                </mml:msub>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi52.png"/>
+                    </alternatives>
+                </inline-formula> el punto de inicio para el algoritmo iterativo. Sustituyendo la función cuadrática en (
+                <xref ref-type="disp-formula" rid="e1">1</xref>) y realizando las simplificaciones algebraicas obtenemos
+            </p>
+            <p>
+                <disp-formula id="e2">
+                    <label>(2)</label>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mrow>
+                                        <mml:mi>n</mml:mi>
+                                        <mml:mo>+</mml:mo>
+                                        <mml:mn>1</mml:mn>
+                                    </mml:mrow>
+                                </mml:msub>
+                                <mml:mo>=</mml:mo>
+                                <mml:mfrac>
+                                    <mml:mn>1</mml:mn>
+                                    <mml:mrow>
+                                        <mml:mn>2</mml:mn>
+                                        <mml:msub>
+                                            <mml:mi>x</mml:mi>
+                                            <mml:mi>n</mml:mi>
+                                        </mml:msub>
+                                    </mml:mrow>
+                                </mml:mfrac>
+                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                <mml:msubsup>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mi>n</mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msubsup>
+                                <mml:mo>+</mml:mo>
+                                <mml:mi>A</mml:mi>
+                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-ee4.png"/>
+                    </alternatives>
+                </disp-formula>
+            </p>
+            <p>Esta expresión nos permitirá calcular la raíz de cualquier número real mediante una serie de sumas y divisiones sucesivas. Véase que esta expresión es en realidad la fórmula del método Babilónico
+                [
+                <xref ref-type="bibr" rid="ref14">14</xref>]. De este análisis podemos ver que la formula iterativa Babilónica es un caso particular del método N-R.
+            </p>
+            <p>Para obtener un algoritmo que calcula la raíz cúbica, tenemos la como función
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>f</mml:mi>
+                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                <mml:mo>=</mml:mo>
+                                <mml:msup>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>3</mml:mn>
+                                </mml:msup>
+                                <mml:mo>&#x2212;</mml:mo>
+                                <mml:mi>A</mml:mi>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi55.png"/>
+                    </alternatives>
+                </inline-formula>. Con un numero real y
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>0</mml:mn>
+                                </mml:msub>
+                                <mml:mo>=</mml:mo>
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mi>n</mml:mi>
+                                </mml:msub>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi57.png"/>
+                    </alternatives>
+                </inline-formula> el punto de inicio para el algoritmo iterativo. Procediendo de igual manera y haciendo las simplificaciones algebraicas correspondientes obtenemos
+            </p>
+            <p>
+                <disp-formula id="e3">
+                    <label>(3)</label>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mrow>
+                                        <mml:mi>n</mml:mi>
+                                        <mml:mo>+</mml:mo>
+                                        <mml:mn>1</mml:mn>
+                                    </mml:mrow>
+                                </mml:msub>
+                                <mml:mo>=</mml:mo>
+                                <mml:mfrac>
+                                    <mml:mn>1</mml:mn>
+                                    <mml:mrow>
+                                        <mml:mn>3</mml:mn>
+                                        <mml:msubsup>
+                                            <mml:mi>x</mml:mi>
+                                            <mml:mi>n</mml:mi>
+                                            <mml:mn>2</mml:mn>
+                                        </mml:msubsup>
+                                    </mml:mrow>
+                                </mml:mfrac>
+                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                <mml:msubsup>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mi>n</mml:mi>
+                                    <mml:mn>3</mml:mn>
+                                </mml:msubsup>
+                                <mml:mo>+</mml:mo>
+                                <mml:mi>A</mml:mi>
+                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-ee5.png"/>
+                    </alternatives>
+                </disp-formula>
+            </p>
+            <p>De esta manera, las funciones
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>f</mml:mi>
+                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                <mml:mo>=</mml:mo>
+                                <mml:msup>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msup>
+                                <mml:mo>&#x2212;</mml:mo>
+                                <mml:mi>A</mml:mi>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi59.png"/>
+                    </alternatives>
+                </inline-formula> y
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>f</mml:mi>
+                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                <mml:mo>=</mml:mo>
+                                <mml:msup>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>3</mml:mn>
+                                </mml:msup>
+                                <mml:mo>&#x2212;</mml:mo>
+                                <mml:mi>A</mml:mi>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi61.png"/>
+                    </alternatives>
+                </inline-formula> representan una función cuadrática y cúbica, respectivamente, con intersección en el eje vertical en
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>y</mml:mi>
+                                <mml:mo>=</mml:mo>
+                                <mml:mo form="prefix" stretchy="false">&#x2212;</mml:mo>
+                                <mml:mi>A</mml:mi>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi62.png"/>
+                    </alternatives>
+                </inline-formula>. Este desplazamiento hacia abajo en
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mi>A</mml:mi>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi63.png"/>
+                    </alternatives>
+                </inline-formula> unidades ocasiona que las funciones se intercepten con el eje
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mi>x</mml:mi>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi64.png"/>
+                    </alternatives>
+                </inline-formula> [
+                <xref ref-type="bibr" rid="ref22">22</xref>]. Al aplicar el método de N-R a
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>f</mml:mi>
+                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi65.png"/>
+                    </alternatives>
+                </inline-formula>, lo que se obtiene es la raíz buscada. Esto puede demostrarse fácilmente si hacemos
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>f</mml:mi>
+                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                <mml:mo>=</mml:mo>
+                                <mml:mn>0</mml:mn>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi66.png"/>
+                    </alternatives>
+                </inline-formula>. Al despejar
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mi>x</mml:mi>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi67.png"/>
+                    </alternatives>
+                </inline-formula> en las funciones cuadrática y cúbica encontramos que su valor es igual a
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:msqrt>
+                                <mml:mi>A</mml:mi>
+                            </mml:msqrt>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi68.png"/>
+                    </alternatives>
+                </inline-formula>, o bien,
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mroot>
+                                <mml:mi>A</mml:mi>
+                                <mml:mn>3</mml:mn>
+                            </mml:mroot>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi69.png"/>
+                    </alternatives>
+                </inline-formula> de manera respectiva. La
+                <xref ref-type="fig" rid="gf3"> Figura 3</xref>
+                muestra de manera gráfica el desplazamiento hacia abajo de las funciones cuadrática y cúbica generado por
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mi>A</mml:mi>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi70.png"/>
+                    </alternatives>
+                </inline-formula>. En este ejemplo se tiene
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>A</mml:mi>
+                                <mml:mo>=</mml:mo>
+                                <mml:mn>2</mml:mn>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi71.png"/>
+                    </alternatives>
+                </inline-formula>, obteniéndose
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo>=</mml:mo>
+                                <mml:msqrt>
+                                    <mml:mn>2</mml:mn>
+                                </mml:msqrt>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi72.png"/>
+                    </alternatives>
+                </inline-formula>, o bien,
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:mi>x</mml:mi>
+                                <mml:mo>=</mml:mo>
+                                <mml:mroot>
+                                    <mml:mn>2</mml:mn>
+                                    <mml:mn>3</mml:mn>
+                                </mml:mroot>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi73.png"/>
+                    </alternatives>
+                </inline-formula>.
+            </p>
+            <p>
+                <fig id="gf3">
+                    <label>3</label>
+                    <caption>
+                        <title>
+                            Figura 3.
+                        </title>
+                        <p>Funciones cuadrática  cúbica, con
+                            <inline-formula>
+                                <alternatives>
+                                    <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                        <mml:mrow>
+                                            <mml:mi>A</mml:mi>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>2</mml:mn>
+                                        </mml:mrow>
+                                    </mml:math>
+                                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi74.png"/>
+                                </alternatives>
+                            </inline-formula>
+                        </p>
+                    </caption>
+                    <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gf4.png" position="anchor" orientation="portrait"/>
+                    <attrib>Elaboración propia.</attrib>
+                </fig>
+            </p>
+            <p>Para que los estudiantes de secundaria y bachillerato puedan utilizar el método iterativo dados por (
+                <xref ref-type="disp-formula" rid="e2">2</xref>) y (
+                <xref ref-type="disp-formula" rid="e3">3</xref>) es necesario en algunos casos hacer una descomposición de factores del número al que deseamos extraer raíz cuadrada o cubica, y posteriormente, proponer un
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:msub>
+                                <mml:mi>x</mml:mi>
+                                <mml:mn>0</mml:mn>
+                            </mml:msub>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi75.png"/>
+                    </alternatives>
+                </inline-formula> cercano a la raíz buscada. Conforme
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:msub>
+                                <mml:mi>x</mml:mi>
+                                <mml:mn>0</mml:mn>
+                            </mml:msub>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi76.png"/>
+                    </alternatives>
+                </inline-formula> este más cerca de la raíz, las probabilidades de converger en dos iteraciones aumenta, así como obtener al menos tres dígitos significativos después de su aplicación. Veáse que el método propuesto obedece la convergencia de N-R
+                [
+                <xref ref-type="bibr" rid="ref20">20</xref>,
+                <xref ref-type="bibr" rid="ref21">21</xref>].
+            </p>
+            <sec sec-type="results">
+                <title>
+                   Descripción de la estrategia didáctica
+                </title>
+                <p>Sea
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mi>A</mml:mi>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi78.png"/>
+                        </alternatives>
+                    </inline-formula> el número del cual deseamos extraer la raíz cuadrada o cúbica, y
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>0</mml:mn>
+                                </mml:msub>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi77.png"/>
+                        </alternatives>
+                    </inline-formula> el punto de inicio. Las expresiones para determinar la raíz cuadrada y cúbica de un número real cualquiera están dadas por las ecuaciones (
+                    <xref ref-type="disp-formula" rid="e2">2</xref>) y (
+                    <xref ref-type="disp-formula" rid="e3">3</xref>). Para estas ecuaciones, el punto de inicio
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>0</mml:mn>
+                                </mml:msub>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi79.png"/>
+                        </alternatives>
+                    </inline-formula> estará dado por la raíz cuadrada de un número lo más cercano posible a la raíz que se busca, o bien, un número conocido muy próximo a la raíz que estamos buscando. Esto hace posible que en dos iteraciones se pueda obtener una exactitud de 4 dígitos significativos. Tomando en cuenta los argumentos teóricos presentados anteriormente, las metodologías que se proponen en este trabajo para calcular las raices cuadradas y cúbicas de
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mi>A</mml:mi>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi80.png"/>
+                        </alternatives>
+                    </inline-formula>, quedan de la siguiente forma
+                </p>
+                <p>
+                    <bold>Metodología </bold>propuesta para calcular la raíz cuadrada de
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mi>A</mml:mi>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi81.png"/>
+                        </alternatives>
+                    </inline-formula>
+                    <bold>.</bold>
+                </p>
+                <p>
+                    <list list-type="order">
+                        <list-item>
+                            <p>Proponer el valor de
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mi>A</mml:mi>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi82.png"/>
+                                    </alternatives>
+                                </inline-formula> en la ecuación (
+                                <xref ref-type="disp-formula" rid="e2">2</xref>).
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:msub>
+                                                <mml:mi>x</mml:mi>
+                                                <mml:mn>0</mml:mn>
+                                            </mml:msub>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi83.png"/>
+                                    </alternatives>
+                                </inline-formula> debe tener un valor cercano a la raíz buscada. De esta manera, se obtiene
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>1</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mfrac>
+                                                    <mml:mn>1</mml:mn>
+                                                    <mml:mrow>
+                                                        <mml:mn>2</mml:mn>
+                                                        <mml:msub>
+                                                            <mml:mi>x</mml:mi>
+                                                            <mml:mn>0</mml:mn>
+                                                        </mml:msub>
+                                                    </mml:mrow>
+                                                </mml:mfrac>
+                                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                                <mml:msubsup>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>0</mml:mn>
+                                                    <mml:mn>2</mml:mn>
+                                                </mml:msubsup>
+                                                <mml:mo>+</mml:mo>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi84.png"/>
+                                    </alternatives>
+                                </inline-formula>.
+                            </p>
+                        </list-item>
+                        <list-item>
+                            <p>El valor determinado
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:msub>
+                                                <mml:mi>x</mml:mi>
+                                                <mml:mn>1</mml:mn>
+                                            </mml:msub>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi85.png"/>
+                                    </alternatives>
+                                </inline-formula> en el paso anterior será el nuevo punto de inicio en la ecuación (
+                                <xref ref-type="disp-formula" rid="e2">2</xref>). En este paso, encontraremos
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>2</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mfrac>
+                                                    <mml:mn>1</mml:mn>
+                                                    <mml:mrow>
+                                                        <mml:mn>2</mml:mn>
+                                                        <mml:msub>
+                                                            <mml:mi>x</mml:mi>
+                                                            <mml:mn>1</mml:mn>
+                                                        </mml:msub>
+                                                    </mml:mrow>
+                                                </mml:mfrac>
+                                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                                <mml:msubsup>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>1</mml:mn>
+                                                    <mml:mn>2</mml:mn>
+                                                </mml:msubsup>
+                                                <mml:mo>+</mml:mo>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi86.png"/>
+                                    </alternatives>
+                                </inline-formula>, que es el valor de la raíz buscada.
+                            </p>
+                        </list-item>
+                        <list-item>
+                            <p>De ser necesario, puede realizarse una tercera iteración que garantiza al menos 4 dígitos, siendo
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>3</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mfrac>
+                                                    <mml:mn>1</mml:mn>
+                                                    <mml:mrow>
+                                                        <mml:mn>2</mml:mn>
+                                                        <mml:msub>
+                                                            <mml:mi>x</mml:mi>
+                                                            <mml:mn>2</mml:mn>
+                                                        </mml:msub>
+                                                    </mml:mrow>
+                                                </mml:mfrac>
+                                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                                <mml:msubsup>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>2</mml:mn>
+                                                    <mml:mn>2</mml:mn>
+                                                </mml:msubsup>
+                                                <mml:mo>+</mml:mo>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi87.png"/>
+                                    </alternatives>
+                                </inline-formula>.
+                            </p>
+                        </list-item>
+                    </list>
+                </p>
+                <p>
+                    <bold>Metodología </bold>propuesta para calcular la raíz cúbica de
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mi>A</mml:mi>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi88.png"/>
+                        </alternatives>
+                    </inline-formula>.
+                </p>
+                <p>
+                    <list list-type="order">
+                        <list-item>
+                            <p>Proponer el valor de
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mi>A</mml:mi>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi89.png"/>
+                                    </alternatives>
+                                </inline-formula> en la ecuación (
+                                <xref ref-type="disp-formula" rid="e3">3</xref>).
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:msub>
+                                                <mml:mi>x</mml:mi>
+                                                <mml:mn>0</mml:mn>
+                                            </mml:msub>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi90.png"/>
+                                    </alternatives>
+                                </inline-formula> debe tener un valor cercano a la raíz buscada. De esta manera, se obtiene
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>1</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mfrac>
+                                                    <mml:mn>1</mml:mn>
+                                                    <mml:mrow>
+                                                        <mml:mn>3</mml:mn>
+                                                        <mml:msubsup>
+                                                            <mml:mi>x</mml:mi>
+                                                            <mml:mn>0</mml:mn>
+                                                            <mml:mn>2</mml:mn>
+                                                        </mml:msubsup>
+                                                    </mml:mrow>
+                                                </mml:mfrac>
+                                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                                <mml:mn>2</mml:mn>
+                                                <mml:msubsup>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>0</mml:mn>
+                                                    <mml:mn>3</mml:mn>
+                                                </mml:msubsup>
+                                                <mml:mo>+</mml:mo>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi91.png"/>
+                                    </alternatives>
+                                </inline-formula>.
+                            </p>
+                        </list-item>
+                        <list-item>
+                            <p>El valor determinado
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:msub>
+                                                <mml:mi>x</mml:mi>
+                                                <mml:mn>1</mml:mn>
+                                            </mml:msub>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi93.png"/>
+                                    </alternatives>
+                                </inline-formula> en el paso anterior será el nuevo punto de inicio en la ecuación (
+                                <xref ref-type="disp-formula" rid="e3">3</xref>). En este paso, encontraremos
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>2</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mfrac>
+                                                    <mml:mn>1</mml:mn>
+                                                    <mml:mrow>
+                                                        <mml:mn>3</mml:mn>
+                                                        <mml:msubsup>
+                                                            <mml:mi>x</mml:mi>
+                                                            <mml:mn>1</mml:mn>
+                                                            <mml:mn>2</mml:mn>
+                                                        </mml:msubsup>
+                                                    </mml:mrow>
+                                                </mml:mfrac>
+                                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                                <mml:mn>2</mml:mn>
+                                                <mml:msubsup>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>1</mml:mn>
+                                                    <mml:mn>3</mml:mn>
+                                                </mml:msubsup>
+                                                <mml:mo>+</mml:mo>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi92.png"/>
+                                    </alternatives>
+                                </inline-formula>, que es el valor de la raíz buscada.
+                            </p>
+                        </list-item>
+                        <list-item>
+                            <p>De ser necesario, puede realizarse una tercera iteración que garantiza al menos 4 dígitos, siendo
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>3</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mfrac>
+                                                    <mml:mn>1</mml:mn>
+                                                    <mml:mrow>
+                                                        <mml:mn>3</mml:mn>
+                                                        <mml:msubsup>
+                                                            <mml:mi>x</mml:mi>
+                                                            <mml:mn>2</mml:mn>
+                                                            <mml:mn>2</mml:mn>
+                                                        </mml:msubsup>
+                                                    </mml:mrow>
+                                                </mml:mfrac>
+                                                <mml:mo form="prefix" stretchy="false">(</mml:mo>
+                                                <mml:mn>2</mml:mn>
+                                                <mml:msubsup>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>2</mml:mn>
+                                                    <mml:mn>3</mml:mn>
+                                                </mml:msubsup>
+                                                <mml:mo>+</mml:mo>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo form="postfix" stretchy="false">)</mml:mo>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi94.png"/>
+                                    </alternatives>
+                                </inline-formula>.
+                            </p>
+                        </list-item>
+                    </list>
+                </p>
+            </sec>
+        </sec>
+        <sec sec-type="cases">
+            <title>
+                Casos de Estudio
+            </title>
+            <sec sec-type="cases">
+                <title>
+                    Caso de estudio 1
+                </title>
+                <p>Determine la raíz cuadrada de 100.</p>
+                <p>Solución: La raíz de 100 es exacta y su valor es igual a 10 . Nosotros estableceremos un valor de inicio cercano a la raíz del número que estamos buscando. En este caso consideramos 9, y que su cuadrado es 81 .</p>
+                <p>
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>Primera iteración.</p>
+                            <p>Sustituyendo los valores en (
+                                <xref ref-type="disp-formula" rid="e2">2</xref>) obtenemos
+                            </p>
+                        </list-item>
+                        <list-item>
+                            <p>Segunda iteración.</p>
+                            <p>Sustituyendo
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:msub>
+                                                <mml:mi>x</mml:mi>
+                                                <mml:mn>1</mml:mn>
+                                            </mml:msub>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi96.png"/>
+                                    </alternatives>
+                                </inline-formula> y
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mi>A</mml:mi>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi97.png"/>
+                                    </alternatives>
+                                </inline-formula> en (
+                                <xref ref-type="disp-formula" rid="e2">2</xref>) tenemos
+                            </p>
+                        </list-item>
+                    </list>
+                </p>
+            </sec>
+            <sec sec-type="cases">
+                <title>
+                    Caso de estudio 2
+                </title>
+                <p>Determine la raíz cuadrada de 3.</p>
+                <p>Solución: En este caso de estudio consideramos para
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:msub>
+                                    <mml:mi>x</mml:mi>
+                                    <mml:mn>0</mml:mn>
+                                </mml:msub>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi99.png"/>
+                        </alternatives>
+                    </inline-formula> el número 2 con cuadrado igual a 4. Por lo tanto
+                </p>
+                <p>
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>Primera iteración.</p>
+                            <p>Sustituyendo
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mn>3</mml:mn>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi100.png"/>
+                                    </alternatives>
+                                </inline-formula> y
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>0</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mn>2</mml:mn>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi101.png"/>
+                                    </alternatives>
+                                </inline-formula> tenemos
+                            </p>
+                        </list-item>
+                        <list-item>
+                            <p>Segunda iteración.</p>
+                            <p>Ahora con
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mn>3</mml:mn>
+                                                <mml:mo separator="true">,</mml:mo>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>1</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mn>1.75</mml:mn>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi104.png"/>
+                                    </alternatives>
+                                </inline-formula>,
+                            </p>
+                        </list-item>
+                    </list>
+                </p>
+                <p>La solución exacta es
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mn>1.732050</mml:mn>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi105.png"/>
+                        </alternatives>
+                    </inline-formula>. En este caso de estudio, el valor obtenido consta de tres dígitos significativos. En este caso, si se requieren más dígitos, una tercera iteración se puede llevará a cabo.
+                </p>
+            </sec>
+            <sec sec-type="cases">
+                <title>
+                    Caso de estudio 3
+                </title>
+                <p>Calcular la raíz de 33000.</p>
+                <p>Solución. Conviene encomendar de memoria el valor de la raíz cuadrada de algunos números con dos o tres dígitos significativos porque nos puede ayudar a determinar con facilidad la raíz de números más grandes. En este caso podemos hacer una descomposición en factores para 33000, esto es</p>
+                <p>Ahora se procede a buscar la raíz cuadrada aproximada, la cual será el punto de inicio del algoritmo y que además estará cercana a la raíz del número que deseamos hallar. De esta manera tenemos
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mrow>
+                                    <mml:mn>100</mml:mn>
+                                    <mml:msqrt>
+                                        <mml:mn>3.3</mml:mn>
+                                    </mml:msqrt>
+                                </mml:mrow>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi107.png"/>
+                        </alternatives>
+                    </inline-formula>, sin embargo, al saber de memoria la raíz cuadrada de algunos números, entonces la tarea es más fácil de llevar a cabo. En este caso el valor más cercano a
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:msqrt>
+                                    <mml:mn>3.3</mml:mn>
+                                </mml:msqrt>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi108.png"/>
+                        </alternatives>
+                    </inline-formula> es
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:msqrt>
+                                    <mml:mn>3</mml:mn>
+                                </mml:msqrt>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi109.png"/>
+                        </alternatives>
+                    </inline-formula>, el cual tiene un valor aproximado de 1.73, en otras palabras, se tiene
+                </p>
+                <p>El valor que hemos obtenido es 173 y debe ser valor cercano a la raíz cuadrada que estamos buscando para el punto de inicio. Por lo tanto, el punto de inicio es
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mrow>
+                                    <mml:msub>
+                                        <mml:mi>x</mml:mi>
+                                        <mml:mn>0</mml:mn>
+                                    </mml:msub>
+                                    <mml:mo>=</mml:mo>
+                                    <mml:mn>173</mml:mn>
+                                </mml:mrow>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi111.png"/>
+                        </alternatives>
+                    </inline-formula>.
+                </p>
+                <p>
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>Primera iteración.</p>
+                            <p>En este caso
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>0</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mn>173</mml:mn>
+                                                <mml:mo separator="true">,</mml:mo>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mn>33000</mml:mn>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi112.png"/>
+                                    </alternatives>
+                                </inline-formula>, sustituyuendo en (
+                                <xref ref-type="disp-formula" rid="e2">2</xref>),
+                            </p>
+                        </list-item>
+                        <list-item>
+                            <p>Segunda iteración.</p>
+                            <p>se tiene
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>1</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mn>181.5757</mml:mn>
+                                                <mml:mo separator="true">,</mml:mo>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mn>33000</mml:mn>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi118.png"/>
+                                    </alternatives>
+                                </inline-formula>, sustituyendo, se obtiene
+                            </p>
+                        </list-item>
+                    </list>
+                </p>
+                <p>La raíz cuadrada exacta de 33000 es 181.6590.</p>
+            </sec>
+            <sec sec-type="cases">
+                <title>
+                    Caso de estudio 4
+                </title>
+                <p>Determine la raíz cubica de 770.6.</p>
+                <p>Solución: Procedemos de manera similar al ejemplo anterior. El número más cercano a 770.6 es 729 con raíz cubica exacta igual a 9. Por lo tanto, punto inicial es
+                    <inline-formula>
+                        <alternatives>
+                            <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                <mml:mrow>
+                                    <mml:msub>
+                                        <mml:mi>x</mml:mi>
+                                        <mml:mn>0</mml:mn>
+                                    </mml:msub>
+                                    <mml:mo>=</mml:mo>
+                                    <mml:mn>9</mml:mn>
+                                </mml:mrow>
+                            </mml:math>
+                            <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi117.png"/>
+                        </alternatives>
+                    </inline-formula>, sustituyendo en (
+                    <xref ref-type="disp-formula" rid="e3">3</xref>) tenemos
+                </p>
+                <p>
+                    <list list-type="bullet">
+                        <list-item>
+                            <p>Primera iteración.</p>
+                            <p>Sustituyendo
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:mrow>
+                                                <mml:msub>
+                                                    <mml:mi>x</mml:mi>
+                                                    <mml:mn>0</mml:mn>
+                                                </mml:msub>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mn>9</mml:mn>
+                                                <mml:mo separator="true">,</mml:mo>
+                                                <mml:mi>A</mml:mi>
+                                                <mml:mo>=</mml:mo>
+                                                <mml:mn>170.6</mml:mn>
+                                            </mml:mrow>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi134.png"/>
+                                    </alternatives>
+                                </inline-formula> en (
+                                <xref ref-type="disp-formula" rid="e3">3</xref>), obtenemos
+                            </p>
+                        </list-item>
+                        <list-item>
+                            <p>Segunda iteración.</p>
+                            <p>Sustituyendo
+                                <inline-formula>
+                                    <alternatives>
+                                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                                            <mml:msub>
+                                                <mml:mi>x</mml:mi>
+                                                <mml:mn>1</mml:mn>
+                                            </mml:msub>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:msup>
+                                                <mml:mn>9.17119</mml:mn>
+                                                <mml:mn>3</mml:mn>
+                                            </mml:msup>
+                                            <mml:mo separator="true">,</mml:mo>
+                                            <mml:mi>A</mml:mi>
+                                            <mml:mo>=</mml:mo>
+                                            <mml:mn>770.6</mml:mn>
+                                        </mml:math>
+                                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi121.png"/>
+                                    </alternatives>
+                                </inline-formula>, se tiene
+                            </p>
+                        </list-item>
+                    </list>
+                </p>
+                <p>El valor exacto es 9.168036526.</p>
+            </sec>
+        </sec>
+        <sec sec-type="discussion">
+            <title>
+                Discusión
+            </title>
+            <p>En la Tabla
+                <xref ref-type="table" rid="gt2">2</xref> se presentan ocho ejemplares de ejercicios que se suelen pedir a los alumnos de secundaria y bachillerato empleando el método publicado en . Sin embargo, este método de solución exige el manejo de las cuatro operaciones aritméticas a lo largo del procedimiento.
+            </p>
+            <p>
+                <table-wrap id="gt2">
+                    <label>2</label>
+                    <caption>
+                        <title>
+                            Tabla 2
+                        </title>
+                        <p>Iteraciones realizadas para obtener la raíz cuadrada</p>
+                    </caption>
+                    <alternatives>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gt3.png" position="anchor" orientation="portrait"/>
+                        <table id="gt3-526564616c7963">
+                            <tbody>
+                                <tr>
+                                    <th style="text-align: center;">
+                                        <p>Ejemplo</p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>
+                                            <italic>x</italic>
+                                        </p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>Valor inicial</p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>Iteración 1</p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>Iteración 2</p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>Raíz exacta</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">1</td>
+                                    <td style="text-align: center;">100</td>
+                                    <td style="text-align: center;">9</td>
+                                    <td style="text-align: center;">10.0556</td>
+                                    <td style="text-align: center;">10.0001</td>
+                                    <td style="text-align: center;">10</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">2</td>
+                                    <td style="text-align: center;">3</td>
+                                    <td style="text-align: center;">2</td>
+                                    <td style="text-align: center;">1.75</td>
+                                    <td style="text-align: center;">1.7321</td>
+                                    <td style="text-align: center;">1.73205081</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">3</td>
+                                    <td style="text-align: center;">33000</td>
+                                    <td style="text-align: center;">173</td>
+                                    <td style="text-align: center;">181.8757</td>
+                                    <td style="text-align: center;">181.6591</td>
+                                    <td style="text-align: center;">181.65902125</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">4</td>
+                                    <td style="text-align: center;">456.40</td>
+                                    <td style="text-align: center;">21</td>
+                                    <td style="text-align: center;">21.3666</td>
+                                    <td style="text-align: center;">21.363520</td>
+                                    <td style="text-align: center;">21.36352031</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">5</td>
+                                    <td style="text-align: center;">76.32</td>
+                                    <td style="text-align: center;">9</td>
+                                    <td style="text-align: center;">8.7400</td>
+                                    <td style="text-align: center;">8.7361</td>
+                                    <td style="text-align: center;">8.73613187</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">6</td>
+                                    <td style="text-align: center;">160</td>
+                                    <td style="text-align: center;">13</td>
+                                    <td style="text-align: center;">12.6538</td>
+                                    <td style="text-align: center;">12.6491</td>
+                                    <td style="text-align: center;">12.64911064</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">7</td>
+                                    <td style="text-align: center;">50</td>
+                                    <td style="text-align: center;">7</td>
+                                    <td style="text-align: center;">7.0714</td>
+                                    <td style="text-align: center;">7.0710</td>
+                                    <td style="text-align: center;">7.0710678</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">8</td>
+                                    <td style="text-align: center;">2257.2</td>
+                                    <td style="text-align: center;">50</td>
+                                    <td style="text-align: center;">47.5720</td>
+                                    <td style="text-align: center;">47.5100</td>
+                                    <td style="text-align: center;">47.50999895</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </alternatives>
+                    <attrib>Elaboración propia</attrib>
+                </table-wrap>
+            </p>
+            <p>Los tres primeros ejemplos (casos de estudio 1-3) se resolvieron siguiendo
+                <italic>la metodología propuesta para calcular la raíz cuadrada de</italic>
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mi>A</mml:mi>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi126.png"/>
+                    </alternatives>
+                </inline-formula>, presentada en la sección
+                <underline>5.2</underline>. Es importante destacar que en todos los casos se llevaron a cabo dos iteraciones para obtener la raíz cuadrada. Se puede observar en la Tabla
+                <underline>
+                    <xref ref-type="table" rid="gt3">2</xref>
+                </underline> que, en la primera iteración, se asegura al menos 1 significativo en la parte decimal, a excepción del caso de estudio 3, donde esto no se cumple. En la segunda iteración, se pueden obtener 4 dígitos significativos o más. Específicamente, en la segunda iteración, el caso de estudio 3 logra 3 dígitos significativos mientras que en el ejemplo 4 se alcanzan 6 dígitos significativos. Sin embargo, en el caso de estudio 8, a pesar de tener solo 2 dígitos significativos, presenta un error absoluto igual a 0.0001, lo que indica una alta precisión al utilizar este método con solo dos iteraciones.
+            </p>
+            <p>En el caso de estudio 3 (ejemplo 3) se realizó una descomposición por factores permitiendo utilizar valores aproximados para obtener el punto de inicio, es decir utilizar
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:msqrt>
+                                <mml:mn>3</mml:mn>
+                            </mml:msqrt>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi127.png"/>
+                    </alternatives>
+                </inline-formula> en lugar de
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:msqrt>
+                                <mml:mn>3.3</mml:mn>
+                            </mml:msqrt>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi128.png"/>
+                    </alternatives>
+                </inline-formula>. Esto permitió proponer fácilmente un punto de inicio que permitiera una rápida convergencia a la solución deseada.
+            </p>
+            <p>La ventaja del uso de la estrategia propuesta en este trabajo contra el procedimiento convencional influenciado por el DME se muestra en la Figura
+                <xref ref-type="fig" rid="gf2">1</xref>. Para ello, el caso de estudio 4 fue resuelto utilizando el método convencional, el cual requiere 5 iteraciones para obtener 4 dígitos significativos, resultando ser más tedioso. Sin embargo, la Tabla
+                <xref ref-type="table" rid="gt2">2</xref> muestra que con solo dos iteraciones se obtuvieron 6 dígitos significativos.
+            </p>
+            <p>Para hallar la raíz cúbica, se procede de manera análoga, utilizando la
+                <italic>metodología propuesta para calcular la raíz cubica de</italic>
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mi>A</mml:mi>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi129.png"/>
+                    </alternatives>
+                </inline-formula>, también presentada en la sección
+                <underline>5.2</underline>. En el caso de estudio 4, ejemplo 1 de la tabla
+                <xref ref-type="table" rid="gt3">3</xref>, se utiliza como punto de inicio la raíz cúbica exacta de un número cercano a la raíz buscada. En otras palabras
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mrow>
+                                <mml:msup>
+                                    <mml:mn>3</mml:mn>
+                                    <mml:mn>9</mml:mn>
+                                </mml:msup>
+                                <mml:mo>=</mml:mo>
+                                <mml:mn>727</mml:mn>
+                            </mml:mrow>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi130.png"/>
+                    </alternatives>
+                </inline-formula>, y 727 cercano a
+                <inline-formula>
+                    <alternatives>
+                        <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML">
+                            <mml:mn>770.6</mml:mn>
+                        </mml:math>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gi131.png"/>
+                    </alternatives>
+                </inline-formula>. La Tabla
+                <xref ref-type="table" rid="gt3">3</xref> presenta cinco ejemplos, en donde la raíz cúbica fue encontrada utilizando dos iteraciones. Veáse que el procedimiento es similar al mostrado para los casos de estudio mostrados de los ejemplos de la Tabla
+                <xref ref-type="table" rid="gt2">2</xref>.
+            </p>
+            <p>
+                <table-wrap id="gt3">
+                    <caption>
+                        <title>
+                            Tabla 3.
+                        </title>
+                        <p>Iteraciones realizadas para obtener la raíz cúbica.</p>
+                    </caption>
+                    <alternatives>
+                        <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gt4.png" position="anchor" orientation="portrait"/>
+                        <table id="gt4-526564616c7963">
+                            <tbody>
+                                <tr>
+                                    <th style="text-align: center;">
+                                        <p>Ejemplo</p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>
+                                            <italic>x</italic>
+                                        </p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>Valor inicial</p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>Iteración 1</p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>Iteración 2</p>
+                                    </th>
+                                    <th style="text-align: center;">
+                                        <p>Raíz exacta</p>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">1</td>
+                                    <td style="text-align: center;">770.6</td>
+                                    <td style="text-align: center;">9</td>
+                                    <td style="text-align: center;">9.1711</td>
+                                    <td style="text-align: center;">9.1680</td>
+                                    <td style="text-align: center;">9.16803652</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">2</td>
+                                    <td style="text-align: center;">1000</td>
+                                    <td style="text-align: center;">11</td>
+                                    <td style="text-align: center;">10.0881</td>
+                                    <td style="text-align: center;">10.0007</td>
+                                    <td style="text-align: center;">10</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">3</td>
+                                    <td style="text-align: center;">8544.4</td>
+                                    <td style="text-align: center;">20</td>
+                                    <td style="text-align: center;">20.4536</td>
+                                    <td style="text-align: center;">20.4437</td>
+                                    <td style="text-align: center;">20.44374823</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">4</td>
+                                    <td style="text-align: center;">60</td>
+                                    <td style="text-align: center;">4</td>
+                                    <td style="text-align: center;">3.9166</td>
+                                    <td style="text-align: center;">3.9148</td>
+                                    <td style="text-align: center;">3.91486764</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">5</td>
+                                    <td style="text-align: center;">24752</td>
+                                    <td style="text-align: center;">30</td>
+                                    <td style="text-align: center;">29.1674</td>
+                                    <td style="text-align: center;">29.1431</td>
+                                    <td style="text-align: center;">29.14316838</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </alternatives>
+                    <attrib>Elaboración propia.</attrib>
+                </table-wrap>
+            </p>
+            <p>Una de las grandes fortalezas de utilizar el método de Newton-Raphson en la enseñanza media es que puede promover el aprendizaje por descubrimiento
+                [
+                <xref ref-type="bibr" rid="ref15">15</xref>], una metodología en la que los estudiantes asumen un rol activo en la construcción de su propio conocimiento. Al resolver problemas utilizando este método, los estudiantes no siguen simplemente un conjunto de instrucciones, sino que exploran de manera iterativa cómo pequeñas modificaciones en las aproximaciones iniciales afectan los resultados. En este sentido, el método N-R se convierte en una herramienta valiosa para que los estudiantes exploren y descubran, haciendo que el aprendizaje sea una experiencia más enriquecedora y activa. Por otro lado, esta metodología fomenta el concepto de lo que es la precisión numérica
+                [
+                <xref ref-type="bibr" rid="ref21">21</xref>]  en los estudiantes adolescentes, la perseverancia a través de iteraciones y el pensamiento crítico al verificar resultados. Esta metodología sugiere que los estudiantes trabajen en grupos para resolver problemas utilizando el método iterativo, comparando sus resultados y discutiendo sus resultados. Este enfoque colaborativo , además de reforzar el contenido matemático, promueve habilidades sociales, así como el trabajo colaborativo
+                [
+                <xref ref-type="bibr" rid="ref15">15</xref>,
+                <xref ref-type="bibr" rid="ref23">23</xref>], cualidades importante que deben desarrollarse en el entorno educativo.
+            </p>
+        </sec>
+        <sec sec-type="conclusions">
+            <title>
+                Conclusiones
+            </title>
+            <p>En este artículo educativo se propuso un procedimiento educativo alternativo basado en el método N-R para calcular raíces cuadradas y cúbicas, con un límite de dos iteraciones como criterio de parada. Los casos de estudio realizados han demostrado una precisión de hasta cuatro dígitos significativos. No obstante, en aquellos casos donde se obtuvieron tres dígitos significativos, es factible lograr una mayor precisión mediante una tercera iteración.</p>
+            <p>La elección del punto de inicio resulta fundamental, pues asegura la factibilidad de llevar a cabo las dos iteraciones en el procedimiento. En algunos casos, es necesario descomponer el número en factores para proponer un punto de inicio adecuado. La simplicidad de esta metodología la convierte en una herramienta accesible para enseñar a estudiantes de educación secundaria y bachillerato, prescindiendo del uso de lenguajes de programación. Este enfoque puede implementarse fácilmente con lápiz y papel, y opcionalmente con el apoyo de una calculadora básica que incluya las cuatro operaciones aritméticas. Asimismo, este algoritmo promueve en los alumnos el razonamiento para la descomposición de un número en factores como fue mostrado en el caso de estudio 3.</p>
+            <p>La metodología presentada en este trabajo basada en el método numérico N-R prepara al alumno para enfrentar problemas mas complejos vistos en otras asignaturas como de álgebra, cálculo, y análisis numérico, por lo que sería útil incluir esta estrategia didáctica en los programas de estudio en las escuelas debido a que contribuye al desarrollo de un pensamiento más estructurado y lógico.</p>
+        </sec>
+    </body>
+    <back>
+        <ref-list>
+            <title>Referencias</title>
+            <ref id="ref1">
+                <label>[1]</label>
+                <mixed-citation publication-type="book">A. Aguilar-Márquez, F. V. Vazquez-Bravo, H. A. Ruiz-Gallegos, M. Cerón-Villegas y R. Reyes-Figueroa, “Matemáticas simplificadas”, México, Editorial Pearson, 2009.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Aguilar-Márquez</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                        <name>
+                            <surname>Vazquez-Bravo</surname>
+                            <given-names>F. V.</given-names>
+                        </name>
+                        <name>
+                            <surname>Ruiz-Gallegos</surname>
+                            <given-names>H. A.</given-names>
+                        </name>
+                        <name>
+                            <surname>Cerón-Villegas</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Reyes-Figueroa</surname>
+                            <given-names>R.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Editorial Pearson</source>
+                    <year>2009</year>
+                    <chapter-title>Matemáticas simplificadas</chapter-title>
+                </element-citation>
+            </ref>
+            <ref id="ref2">
+                <label>[2]</label>
+                <mixed-citation publication-type="book">A. Baldor, “Aritmética”, México, Editorial Patria, 2019.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Baldor</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Editorial Patria</source>
+                    <year>2019</year>
+                    <chapter-title>Aritmética</chapter-title>
+                </element-citation>
+            </ref>
+            <ref id="ref3">
+                <label>[3]</label>
+                <mixed-citation publication-type="journal">D. Soto y R. Cantoral, “Discurso matemático escolar y exclusión. Una visión socioepistemológica”, Bolema: Boletim de Educação Matemática, vol. 28, pp. 1525-1544, 2014.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Soto</surname>
+                            <given-names>D.</given-names>
+                        </name>
+                        <name>
+                            <surname>Cantoral</surname>
+                            <given-names>R.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Discurso matemático escolar y exclusión. Una visión socioepistemológica</article-title>
+                    <source>Bolema: Boletim de Educação Matemática</source>
+                    <year>2014</year>
+                    <volume>28</volume>
+                    <fpage>1525</fpage>
+                    <lpage>1544</lpage>
+                </element-citation>
+            </ref>
+            <ref id="ref4">
+                <label>[4]</label>
+                <mixed-citation publication-type="journal">L. M. Paz-Corrales, J. D. Molina y K. Alonso-García, “Construcción mecánica de la hipérbola desarrollada por Descartes”, Acta Latinoamericana de Matemática Educativa, vol. 35, no. 1, 2022.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Paz-Corrales</surname>
+                            <given-names>L. M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Molina</surname>
+                            <given-names>J. D.</given-names>
+                        </name>
+                        <name>
+                            <surname>Alonso-García</surname>
+                            <given-names>K.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Construcción mecánica de la hipérbola desarrollada por Descartes</article-title>
+                    <source>Acta Latinoamericana de Matemática Educativa</source>
+                    <year>2022</year>
+                    <volume>35</volume>
+                    <issue>1</issue>
+                </element-citation>
+            </ref>
+            <ref id="ref5">
+                <label>[5]</label>
+                <mixed-citation publication-type="journal">M. A. Sandoval-Hernández, S. Hernández-Méndez, S. E. Torreblanca-Bouchan y G. U. Díaz-Arango, “Actualización de contenidos en el campo disciplinar de matemáticas del componente propedéutico del bachillerato tecnológico: el caso de las funciones especiales”, RIDE Revista Iberoamericana para la Investigación y el Desarrollo Educativo, vol. 12, no. 23, 2021. [En línea]. Disponible: https://doi.org/10.23913/ride.v12i23.1044.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Sandoval-Hernández</surname>
+                            <given-names>M. A.</given-names>
+                        </name>
+                        <name>
+                            <surname>Hernández-Méndez</surname>
+                            <given-names>S.</given-names>
+                        </name>
+                        <name>
+                            <surname>Torreblanca-Bouchan</surname>
+                            <given-names>S. E.</given-names>
+                        </name>
+                        <name>
+                            <surname>Díaz-Arango</surname>
+                            <given-names>G. U.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Actualización de contenidos en el campo disciplinar de matemáticas del componente propedéutico del bachillerato tecnológico: el caso de las funciones especiales</article-title>
+                    <source>RIDE Revista Iberoamericana para la Investigación y el Desarrollo Educativo</source>
+                    <year>2021</year>
+                    <volume>12</volume>
+                    <issue>23</issue>
+                    <pub-id pub-id-type="doi">10.23913/ride.v12i23.1044</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="ref6">
+                <label>[6]</label>
+                <mixed-citation publication-type="journal">R. C. Uriza, G. M. Espinosa y D. R. Gasperini, “Análisis del discurso matemático escolar en los libros de texto, una mirada desde la Teoría Socioepistemológica”, Avances de investigación en educación matemática, no. 8, pp. 9-28, 2015. [En línea]. Disponible: https://doi.org/10.35763/aiem.v1i8.123</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Uriza</surname>
+                            <given-names>R. C.</given-names>
+                        </name>
+                        <name>
+                            <surname>Espinosa</surname>
+                            <given-names>G. M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Gasperini</surname>
+                            <given-names>D. R.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Análisis del discurso matemático escolar en los libros de texto, una mirada desde la Teoría Socioepistemológica</article-title>
+                    <source>Avances de investigación en educación matemática</source>
+                    <year>2015</year>
+                    <issue>8</issue>
+                    <fpage>9</fpage>
+                    <lpage>28</lpage>
+                    <pub-id pub-id-type="doi">10.35763/aiem.v1i8.123</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="ref7">
+                <label>[7]</label>
+                <mixed-citation publication-type="journal">M. A. Sandoval-Hernández, H. Vázquez-Leal, J. Huerta-Chua, U. A. Filobello-Nino y D. Mayorga Cruz, “ La didáctica del cálculo integral: el caso de los procedimientos de integración”, RIDE Revista Iberoamericana para la Investigación y el Desarrollo Educativo, vol. 13, no. 25, 2022. [En línea]. Disponible: https://doi.org/10.23913/ride.v13i25.1245.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Sandoval-Hernández</surname>
+                            <given-names>M. A.</given-names>
+                        </name>
+                        <name>
+                            <surname>Vázquez-Leal</surname>
+                            <given-names>H.</given-names>
+                        </name>
+                        <name>
+                            <surname>Huerta-Chua</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                        <name>
+                            <surname>Filobello-Nino</surname>
+                            <given-names>U. A.</given-names>
+                        </name>
+                        <name>
+                            <surname>Mayorga Cruz</surname>
+                            <given-names>D.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>La didáctica del cálculo integral: el caso de los procedimientos de integración</article-title>
+                    <source>RIDE Revista Iberoamericana para la Investigación y el Desarrollo Educativo</source>
+                    <year>2022</year>
+                    <volume>13</volume>
+                    <issue>25</issue>
+                    <pub-id pub-id-type="doi">10.23913/ride.v13i25.1245</pub-id>
+                </element-citation>
+            </ref>
+            <ref id="ref8">
+                <label>[8]</label>
+                <mixed-citation publication-type="journal">M. Sandoval-Hernandez, H. Vazquez-Leal, U. Filobello-Nino, E. De-Leo-Baquero, A. C. Bielma-Perez, J. C. Vichi-Mendoza, O. Alvarez-Gasca, A. D. Contreras-Hernandez, N. Bagatella-Flores, B. E. Palma-Grayeb, J. Sanchez-Orea y L. Cuellar-Hernandez, “ The Quadratic Equation and its Numerical Roots”, International Journal of Engineering Research &amp; Technology, vol. 10, no. 06, 2021. [En línea]. Disponible: https://www.ijert.org/the-quadratic-equation-and-its-numerical-roots</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Sandoval-Hernandez</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Vazquez-Leal</surname>
+                            <given-names>H.</given-names>
+                        </name>
+                        <name>
+                            <surname>Filobello-Nino</surname>
+                            <given-names>U.</given-names>
+                        </name>
+                        <name>
+                            <surname>De-Leo-Baquero</surname>
+                            <given-names>E.</given-names>
+                        </name>
+                        <name>
+                            <surname>Bielma-Perez</surname>
+                            <given-names>A. C.</given-names>
+                        </name>
+                        <name>
+                            <surname>Vichi-Mendoza</surname>
+                            <given-names>J. C.</given-names>
+                        </name>
+                        <name>
+                            <surname>Alvarez-Gasca</surname>
+                            <given-names>O.</given-names>
+                        </name>
+                        <name>
+                            <surname>Contreras-Hernandez</surname>
+                            <given-names>A. D.</given-names>
+                        </name>
+                        <name>
+                            <surname>Bagatella-Flores</surname>
+                            <given-names>N.</given-names>
+                        </name>
+                        <name>
+                            <surname>Palma-Grayeb</surname>
+                            <given-names>B. E.</given-names>
+                        </name>
+                        <name>
+                            <surname>Sanchez-Orea</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                        <name>
+                            <surname>Cuellar-Hernandez</surname>
+                            <given-names>L.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>The Quadratic Equation and its Numerical Roots</article-title>
+                    <source>International Journal of Engineering Research &amp; Technology</source>
+                    <year>2021</year>
+                    <volume>10</volume>
+                    <issue>06</issue>
+                </element-citation>
+            </ref>
+            <ref id="ref9">
+                <label>[9]</label>
+                <mixed-citation publication-type="journal">M. M. Crossan y M. Apaydin, “A multi-dimensional framework of organizational innovation:A systematic reviewof the literature”, Journal of management studies, vol. 47, n. 6, págs. 1154-1191, 2010. [En línea]. Disponible:
+                    <ext-link ext-link-type="uri" xlink:href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6486.2009.00880.x">https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6486.2009.00880.x</ext-link>
+                </mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Crossan</surname>
+                            <given-names>M. M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Apaydin</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>A multi-dimensional framework of organizational innovation:A systematic reviewof the literature</article-title>
+                    <source>Journal of management studies</source>
+                    <year>2010</year>
+                    <volume>47</volume>
+                    <issue>6</issue>
+                    <fpage>1154</fpage>
+                    <lpage>1191</lpage>
+                </element-citation>
+            </ref>
+            <ref id="ref10">
+                <label>[10]</label>
+                <mixed-citation publication-type="book">
+                C.-C. Arquímides, L. Martinez-C. y J. Bernardez-G.,
+                “Tablas matemáticas”, Editorial Esfinge, 1999.
+                </mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Arquímides-C.</surname>
+                            <given-names>C.</given-names>
+                        </name>
+                        <name>
+                            <surname>Martinez-C.</surname>
+                            <given-names>L.</given-names>
+                        </name>
+                        <name>
+                            <surname>Bernardez-G.</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Editorial Esfinge</source>
+                    <chapter-title>Tablas matemáticas</chapter-title>
+                    <year>1999</year>
+                </element-citation>
+            </ref>
+            <ref id="ref11">
+                <label>[11]</label>
+                <mixed-citation publication-type="book">A. Baldor, “Aritmética”, México, Editorial Patria, 1983.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Baldor</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Editorial Patria</source>
+                    <year>1983</year>
+                    <chapter-title>Aritmética</chapter-title>
+                </element-citation>
+            </ref>
+            <ref id="ref12">
+                <label>[12]</label>
+                <mixed-citation publication-type="book">L. Parra-Cabrera and J. Walls-Medina, Matemáticas Primer curso. Kapeluz Mexicana, 2020.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Parra-Cabrera</surname>
+                            <given-names>L.</given-names>
+                        </name>
+                        <name>
+                            <surname>Walls-Medina</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Kapeluz Mexicana</source>
+                    <year>2020</year>
+                    <chapter-title>Matemáticas Primer curso</chapter-title>
+                </element-citation>
+            </ref>
+            <ref id="ref13">
+                <label>[13]</label>
+                <mixed-citation publication-type="journal">J. C. Barreto Garcia, “Completación de cuadrados y cubos en la deducción geométrica-algebraica de la ecuación de tercer grado”, Unión-Revista Iberoramericana de Educación Matemática, vol. 19, n.69, 2023. [En línea]. Disponible:
+                    <ext-link ext-link-type="uri" xlink:href="https://union.fespm.es/index.php/UNION/article/view/1543">https://union.fespm.es/index.php/UNION/article/view/1543</ext-link>.
+                </mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Barreto Garcia</surname>
+                            <given-names>J. C.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Completación de cuadrados y cubos en la deducción geométrica-algebraica de la ecuación de tercer grado</article-title>
+                    <source>Unión-Revista Iberoramericana de Educación Matemática</source>
+                    <year>2023</year>
+                    <volume>19</volume>
+                    <issue>69</issue>
+                </element-citation>
+            </ref>
+            <ref id="ref14">
+                <label>[14]</label>
+                <mixed-citation publication-type="journal">A. M. Visgueira-Cunha y j. R. da-silva josé, “Elaboração de um material potencialmente significativo: uma abordagem histórica para o ensino de raiz quadrada”, Educacção em Revista, vol. 37, n.1, 2021. [En línea]. Disponible:
+                    <ext-link ext-link-type="uri" xlink:href="https://periodicos.ufmg.br/index.php/edrevista/article/view/25928">https://periodicos.ufmg.br/index.php/edrevista/article/view/25928</ext-link>.
+                </mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Visgueira-Cunha</surname>
+                            <given-names>A. M.</given-names>
+                        </name>
+                        <name>
+                            <surname>da-silva josé</surname>
+                            <given-names>j. R.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Elaboração de um material potencialmente significativo: uma abordagem histórica para o ensino de raiz quadrada</article-title>
+                    <source>Educacção em Revista</source>
+                    <year>2021</year>
+                    <volume>37</volume>
+                    <issue>1</issue>
+                </element-citation>
+            </ref>
+            <ref id="ref15">
+                <label>[15]</label>
+                <mixed-citation publication-type="book">F. D. Barriga Arceo, G. H. Rojas y E. L. G. González, Estrategias docentes para un aprendizaje significativo: una interpretación constructivista. McGraw-Hill Interamericana, 2010.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Barriga Arceo</surname>
+                            <given-names>F. D.</given-names>
+                        </name>
+                        <name>
+                            <surname>Rojas</surname>
+                            <given-names>G. H.</given-names>
+                        </name>
+                        <name>
+                            <surname>González</surname>
+                            <given-names>E. L. G.</given-names>
+                        </name>
+                    </person-group>
+                    <source>McGraw-Hill Interamericana</source>
+                    <year>2010</year>
+                    <chapter-title>Estrategias docentes para un aprendizaje significativo: una interpretación constructivista</chapter-title>
+                </element-citation>
+            </ref>
+            <ref id="ref16">
+                <label>[16]</label>
+                <mixed-citation publication-type="journal">J. R. Guillén, “Algoritmo para calcular o aproximar la Raíz Cuadrada de un número real positivo: Algorithm to calculate or approximate the Square Root of a positive real number,” Revista Digital: Matemática, Educación e Internet, vol. 20, no. 1, 2020.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Guillén</surname>
+                            <given-names>J. R.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Algoritmo para calcular o aproximar la Raíz Cuadrada de un número real positivo: Algorithm to calculate or approximate the Square Root of a positive real number,</article-title>
+                    <source>Revista Digital: Matemática, Educación e Internet</source>
+                    <year>2020</year>
+                    <volume>20</volume>
+                    <issue>1</issue>
+                </element-citation>
+            </ref>
+            <ref id="ref17">
+                <label>[17]</label>
+                <mixed-citation publication-type="journal">S. García Quezada, E. Borjón Robles, N. J. Calvillo Guevara y M. del R. Torres Ibarra, “Enseñanza-aprendizaje de la raíz cuadrada con uso de geometría en el nivel bachillerato”, Educación matemática, vol. 34, no. 3, pp. 352–371, 2022.</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>García Quezada</surname>
+                            <given-names>S.</given-names>
+                        </name>
+                        <name>
+                            <surname>Borjón Robles</surname>
+                            <given-names>E.</given-names>
+                        </name>
+                        <name>
+                            <surname>Calvillo Guevara</surname>
+                            <given-names>N. J.</given-names>
+                        </name>
+                        <name>
+                            <surname>Torres Ibarra</surname>
+                            <given-names>M. del R.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Enseñanza-aprendizaje de la raíz cuadrada con uso de geometría en el nivel bachillerato</article-title>
+                    <source>Educación matemática</source>
+                    <year>2022</year>
+                    <volume>34</volume>
+                    <issue>3</issue>
+                    <fpage>352</fpage>
+                    <lpage>371</lpage>
+                </element-citation>
+            </ref>
+            <ref id="ref18">
+                <label>[18]</label>
+                <mixed-citation publication-type="book">Q. Kong, T. Siauw, and A. Bayen, Python Programming and Numerical Methods: A Guide for Engineers and Scientists. Academic Press, 2020.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Kong</surname>
+                            <given-names>Q.</given-names>
+                        </name>
+                        <name>
+                            <surname>Siauw</surname>
+                            <given-names>T.</given-names>
+                        </name>
+                        <name>
+                            <surname>Bayen</surname>
+                            <given-names>A.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Academic Press</source>
+                    <year>2020</year>
+                    <series>Python Programming and Numerical Methods: A Guide for Engineers and Scientists</series>
+                </element-citation>
+            </ref>
+            <ref id="ref19">
+                <label>[19]</label>
+                <mixed-citation publication-type="journal">
+                S. Shu y Y. Liu,
+                “Looking back to move forward: A bibliometric analysis of consumer privacy research”,
+                Journal of Theoretical and Applied Electronic Commerce Research. MDPI.,
+                vol. 16, no. 4, pp. 727-747, 2021.
+              </mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Shu</surname>
+                            <given-names>S.</given-names>
+                        </name>
+                        <name>
+                            <surname>Liu</surname>
+                            <given-names>Y.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>Looking back to move forward: A bibliometric analysis of consumer privacy research</article-title>
+                    <source>Journal of Theoretical and Applied Electronic Commerce Research. MDPI.</source>
+                    <year>2021</year>
+                    <volume>16</volume>
+                    <issue>4</issue>
+                    <fpage>727</fpage>
+                    <lpage>747</lpage>
+                </element-citation>
+            </ref>
+            <ref id="ref20">
+                <label>[20]</label>
+                <mixed-citation publication-type="book">R. L. Burden y J. D. Faires, Numerical analysis. Brooks Cole Cengage Learning, 2011.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Burden</surname>
+                            <given-names>R. L.</given-names>
+                        </name>
+                        <name>
+                            <surname>Faires</surname>
+                            <given-names>J. D.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Brooks Cole Cengage Learning</source>
+                    <year>2011</year>
+                    <series>Numerical analysis</series>
+                </element-citation>
+            </ref>
+            <ref id="ref21">
+                <label>[21]</label>
+                <mixed-citation publication-type="book">S. C. Chapra, Applied numerical methods. McGraw-Hill Columbus, 2012.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Chapra</surname>
+                            <given-names>S. C.</given-names>
+                        </name>
+                    </person-group>
+                    <source>McGraw-Hill Columbus</source>
+                    <year>2012</year>
+                    <series>Applied numerical methods</series>
+                </element-citation>
+            </ref>
+            <ref id="ref22">
+                <label>[22]</label>
+                <mixed-citation publication-type="book">J. Stewart, L. Redlin y S. Watson, Precalculo: Matemáticas para el Cálculo, 7th ed. Cengage Learning Editores, 2019.</mixed-citation>
+                <element-citation publication-type="book">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Stewart</surname>
+                            <given-names>J.</given-names>
+                        </name>
+                        <name>
+                            <surname>Redlin</surname>
+                            <given-names>L.</given-names>
+                        </name>
+                        <name>
+                            <surname>Watson</surname>
+                            <given-names>S.</given-names>
+                        </name>
+                    </person-group>
+                    <source>Cengage Learning Editores</source>
+                    <year>2019</year>
+                    <chapter-title>Precalculo: Matemáticas para el Cálculo</chapter-title>
+                    <edition>7</edition>
+                </element-citation>
+            </ref>
+            <ref id="ref23">
+                <label>[23]</label>
+                <mixed-citation publication-type="journal">M. Juárez-Pulido, I. Rasskin-Gutman y S. Mendo-Lázaro, “El Aprendizaje Cooperativo, una metodología activa para la educación del siglo XXI: una revisión bibliográfica”, Revista Prisma Social, no. 26, pp. 200–210, jul. 2019. [En línea]. Disponible: https://revistaprismasocial.es/article/view/2693</mixed-citation>
+                <element-citation publication-type="journal">
+                    <person-group person-group-type="author">
+                        <name>
+                            <surname>Juárez-Pulido</surname>
+                            <given-names>M.</given-names>
+                        </name>
+                        <name>
+                            <surname>Rasskin-Gutman</surname>
+                            <given-names>I.</given-names>
+                        </name>
+                        <name>
+                            <surname>Mendo-Lázaro</surname>
+                            <given-names>S.</given-names>
+                        </name>
+                    </person-group>
+                    <article-title>El Aprendizaje Cooperativo, una metodología activa para la educación del siglo XXI: una revisión bibliográfica</article-title>
+                    <source>Revista Prisma Social</source>
+                    <year>2019</year>
+                    <issue>26</issue>
+                    <fpage>200</fpage>
+                    <lpage>210</lpage>
+                </element-citation>
+            </ref>
+        </ref-list>
+        <app-group>
+            <app id="app1">
+                <title>Contribución de las personas autoras y Accesibilidad de los Datos</title>
+                <sec>
+                    <title>Contribución de las personas autoras</title>
+                    <p>
+                        <table-wrap >
+                            <caption>
+                                <title>Contribución de personas autoras</title>
+                            </caption>
+                            <alternatives>
+                                <graphic xlink:href="1659-0643-REDMEI-25-02-00013-gt7.png"
+                 position="anchor"
+                 orientation="portrait"/>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </alternatives>
+                            <attrib>Elaboración propia.</attrib>
+                        </table-wrap>
+                    </p>
+                </sec>
+                <sec>
+                    <title>Accesibilidad de datos</title>
+                    <p>Los resultados obtenidos en los casos de estudio presentados en este artículo pueden replicarse utilizando la información presentada en las tablas 1, 2 y 3.</p>
+                </sec>
+            </app>
+        </app-group>
+    </back>
+</article>

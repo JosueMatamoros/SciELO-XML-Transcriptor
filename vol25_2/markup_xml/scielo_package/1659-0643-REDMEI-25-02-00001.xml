@@ -150,7 +150,7 @@
                 <fig-count count="0"/>
                 <table-count count="4"/>
                 <equation-count count="0"/>
-                <ref-count count="35"/>
+                <ref-count count="34"/>
             </counts>
         </article-meta>
     </front>
@@ -1315,28 +1315,6 @@
                     <issue>2</issue>
                     <fpage>196</fpage>
                     <lpage>207</lpage>
-                </element-citation>
-            </ref>
-            <ref id="ref26">
-                <mixed-citation publication-type="journal">Nortes, R., y Nortes, A. (2017). Agrado y utilidad de las matemáticas en la formación inicial de maestros de educación primaria. PNA, 12(1), 27-42.</mixed-citation>
-                <element-citation publication-type="journal">
-                    <person-group person-group-type="author">
-                        <name>
-                            <surname>Nortes</surname>
-                            <given-names>R.</given-names>
-                        </name>
-                        <name>
-                            <surname>Nortes</surname>
-                            <given-names>A.</given-names>
-                        </name>
-                    </person-group>
-                    <article-title>Agrado y utilidad de las matemáticas en la formación inicial de maestros de educación primaria</article-title>
-                    <source>PNA</source>
-                    <year>2017</year>
-                    <volume>12</volume>
-                    <issue>1</issue>
-                    <fpage>27</fpage>
-                    <lpage>42</lpage>
                 </element-citation>
             </ref>
             <ref id="ref27">
