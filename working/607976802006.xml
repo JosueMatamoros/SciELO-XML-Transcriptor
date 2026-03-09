@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml-dtd" href="http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1d3" specific-use="Marcalyc 1.2" article-type="research-article" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="redalyc">6079</journal-id>
+<journal-title-group>
+<journal-title specific-use="original" xml:lang="en">Revista Digital: Matemática, Educación e Internet</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1659-0643</issn>
+<publisher>
+<publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+<publisher-loc>
+<country>Costa Rica</country>
+<email>revistadigitalmatematica@itcr.ac.cr</email>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="art-access-id" specific-use="redalyc">607976802006</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículos</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title xml:lang="es">Representación Gráfica: recurso heurístico-didáctico para la enseñanza-aprendizaje de la Matemática</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-4838-3170</contrib-id>
+<name name-style="western">
+<surname>Bermudo Navarrete</surname>
+<given-names>Sergio</given-names>
+</name>
+<xref ref-type="aff" rid="aff1"/>
+<xref ref-type="fn" rid="fn1">1</xref>
+<email>sbernav@upo.es</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0003-2806-4842</contrib-id>
+<name name-style="western">
+<surname>Cabrera Martínez</surname>
+<given-names>Abel</given-names>
+</name>
+<xref ref-type="aff" rid="aff2"/>
+<xref ref-type="fn" rid="fn2">2</xref>
+<email>acmartinez@uco.es</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-6876-1461</contrib-id>
+<name name-style="western">
+<surname>Pinto Leivas</surname>
+<given-names>José Carlos</given-names>
+</name>
+<xref ref-type="aff" rid="aff3"/>
+<xref ref-type="fn" rid="fn3">3</xref>
+<email>leivasjc@gmail.com</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0001-9015-2400</contrib-id>
+<name name-style="western">
+<surname>Rojas Velázquez</surname>
+<given-names>Osvaldo Jesús</given-names>
+</name>
+<xref ref-type="aff" rid="aff4"/>
+<xref ref-type="fn" rid="fn4">4</xref>
+<email>orojasv69@uan.edu.co</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-0863-4695</contrib-id>
+<name name-style="western">
+<surname>Sigarreta Almira</surname>
+<given-names>José María</given-names>
+</name>
+<xref ref-type="aff" rid="aff5"/>
+<xref ref-type="fn" rid="fn5">5</xref>
+<email>jsmathguerrero@gmail.com</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Universidad Pablo de Olavide. Sevilla, España. sbernav@upo.es</institution>
+<institution content-type="orgname">Universidad Pablo de Olavide</institution>
+<country country="ES">España</country>
+</aff>
+<aff id="aff2">
+<institution content-type="original">Universidad Pablo de Olavide. Sevilla, España. \(^*\)sbernav@upo.es Universidad de Córdoba.</institution>
+<institution content-type="orgname">Universidad de Córdoba.</institution>
+<country country="ES">España</country>
+</aff>
+<aff id="aff3">
+<institution content-type="original">Universidade Franciscana – UFN. Santa Maria, Brasil. leivasjc@gmail.com</institution>
+<institution content-type="orgname">Universidade Franciscana – UFN</institution>
+<country country="BR">Brasil</country>
+</aff>
+<aff id="aff4">
+<institution content-type="original">Universidad Antonio Nariño. Bogotá, Colombia. orojasv69@uan.edu.co</institution>
+<institution content-type="orgname">Universidad Antonio Nariño</institution>
+<country country="CO">Colombia</country>
+</aff>
+<aff id="aff5">
+<institution content-type="original">Universidad Autónoma de Guerrero. Acapulco, México. jsmathguerrero@gmail.com</institution>
+<institution content-type="orgname">Universidad Autónoma de Guerrero</institution>
+<country country="MX">México</country>
+</aff>
+<author-notes>
+<fn id="fn1" fn-type="current-aff">
+<label>1</label>
+<p>Sergio Bermudo Navarrete, Catedrático de Universidad de la Universidad Pablo de Olavide de Sevilla. Dirección postal: Carretera de Utrera Km 1, Sevilla, España. Código postal 41013. Correo electrónico: sbernav@upo.es.</p>
+</fn>
+<fn id="fn2" fn-type="current-aff">
+<label>2</label>
+<p>Abel Cabrera Martínez, Profesor del Departamento de Matemáticas de la Universidad de Córdoba. Dirección Postal: Campus de Rabanales, Carretera N-IVa Km 396, Córdoba, España. Código Postal: 14071. Correo electrónico: acmartinez@uco.es.  </p>
+</fn>
+<fn id="fn3" fn-type="current-aff">
+<label>3</label>
+<p>José Carlos Pinto Leivas, professor do Programa de Pós-Graduação em Ensino de Ciências e Matemática da Universidade Franciscana de Santa Maria, no Brasil. Rua Ernesto Witrock, 141 ap. 202 – Canoas – RS - Brasil - CEP 92310-280. Correio eletrônico: leivasjc@gmail.com.</p>
+</fn>
+<fn id="fn4" fn-type="current-aff">
+<label>4</label>
+<p>Osvaldo Jesús Rojas Velázquez, profesor Asociado de la Universidad Antonio Nariño, Bogotá, Colombia. Dirección Postal: Carrera 68H 21A - 11 Sur, Apto. 213, Edificio Torres de las Américas, Barrio Villa Claudia, Kennedy, Bogotá, Colombia. ´ Código postal: 110831. Correo electronico: orojasv69@uan.edu.co.</p>
+</fn>
+<fn id="fn5" fn-type="current-aff">
+<label>5</label>
+<p>José María Sigarreta Almira, Profesor Titular C de la Universidad Autónoma de Guerrero, México. Dirección postal: Calle Carlos E. Adame 5, Acapulco, México. Código postal 39690. Correo electrónico: jsmathguerrero@gmail.com.</p>
+</fn>
+</author-notes>
+<pub-date pub-type="epub-ppub">
+<season>Enero-Febrero</season>
+<year>2025</year>
+</pub-date>
+<volume>25</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>20</lpage>
+<history>
+<date date-type="received" publication-format="dd mes yyyy">
+<day>20</day>
+<month>12</month>
+<year>2023</year>
+</date>
+<date date-type="accepted" publication-format="dd mes yyyy">
+<day>10</day>
+<month>06</month>
+<year>2024</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2024</copyright-year>
+<copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+<ali:free_to_read/>
+<license xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+<license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract xml:lang="es">
+<title>Resumen</title>
+<p>Las limitaciones y dificultades que presentan los estudiantes en el aprendizaje de la Matemática ponen de manifiesto la necesidad de dotar a los docentes de estrategias para favorecer su proceso de enseñanza-aprendizaje. En esa dirección, se propone una estrategia didáctica para aprovechar las potencialidades de la Representación Gráfica como recurso heurístico-didáctico en el proceso de enseñanza-aprendizaje de la Matemática.</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>The limitations and difficulties presented by students in the learning of Mathematics highlight the need to provide teachers with strategies to favor the teaching-learning process of Mathematics. In this direction, a didactic strategy is proposed to take advantage of the potential of Graphic Representation as a heuristic-didactic resource in the teaching-learning process of Mathematics.</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>Principio Heurístico</kwd>
+<kwd>Representación Gráfica</kwd>
+<kwd>Enseñanza- Aprendizaje</kwd>
+<kwd>Resolución de problemas</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>Heuristic principle</kwd>
+<kwd>Graphic representation</kwd>
+<kwd>Teaching-Learning</kwd>
+<kwd>Problems solving</kwd>
+</kwd-group>
+<counts>
+<fig-count count="8"/>
+<table-count count="0"/>
+<equation-count count="0"/>
+<ref-count count="44"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>
+<bold>Introducción</bold>
+</title>
+<p>Es indiscutible el papel que juegan las sensaciones y percepciones en el ser humano para el conocimiento concreto del medio socio cultural en el que desarrolla su actividad, como paso previo al conocimiento racional. En tal dirección Lenin (1979) aseveró, “[...] de la percepción viva al pensamiento abstracto y de éste a la práctica” (p. 79), es decir, el conocimiento es el reflejo de la realidad objetiva en la conciencia del hombre y ese reflejo se produce en función de la práctica social. Rubinstein (1967) expresa que la representación gráfico-visual propicia una percepción más acabada y genuina de los objetos, y que las percepciones objetivas se muestran fundamentalmente en las percepciones visuales. El conocimiento está asociado, en gran medida, con las formas y representaciones que rodean a la persona (Sigarreta y Laborde, 2004; Rojas, 2009; Tall, 2013).</p>
+<p>En el Gran Diccionario Enciclopédico Grijalbo (1997) respecto al término “representar” se plantea: “[...] representar gráficamente nociones abstractas. Reconstruir mentalmente algo que no vemos”. En el Diccionario Enciclopédico Color (1999) se destaca que representar es “[...] Imaginar con rasgos visibles algo que no se tiene a la vista. Hacer aparecer información en la pantalla de la computadora o del terminal”. En ambas definiciones, representar es analizado como una acción mental y de creación de imágenes en el proceso del pensamiento y en el plano externo, es vista como la acción de realizar un dibujo o una ilustración con fines de aprendizaje. Además, aparece explícitamente la significación de una acción, como el resultado del desarrollo de los medios tecnológicos; la parte mental de la acción da la posibilidad al sujeto de construir imágenes gráficas a su voluntad, el modo externo (el individuo con la ayuda de un medio que es el que visualiza) le da una connotación concreta a la acción.</p>
+<p>Aunque existen múltiples definiciones del término representar, todas ponen en un primer plano a la Representación Gráfica como acción externa del sujeto en la búsqueda de una determinada información, y enfatizan el vínculo que se establece entre lo abstracto y lo concreto. Esencialmente, las definiciones existentes del término representar ponen al descubierto la conjunción y relación entre las acciones internas y externas que realiza el sujeto en el proceso de obtención del conocimiento.</p>
+<p>Uno de los primeros elementos matemáticos elaborados por el hombre fue el de representación gráfica (pinturas rupestres), como reflejo mental de las formas que rodean al ser humano en su medio sociocultural. La necesidad de representarlo condujo al dibujo pictórico, de manera que este se convierte en portador de un significado. Cada concepto geométrico escolar está asociado, tanto al dibujo que lo representa, como a la palabra que lo define (Nápoles, 2009; Morales, Dolores, Nolasco, Hernández y Sigarreta, 2014; Pérez, 2016; entre otros). En la Matemática, y en particular, en la relación conceptual, el símbolo ha precedido en muchas ocasiones al concepto, e incluso se da el caso de que existe una determinada representación gráfica y no se tiene definición formal del mismo, ejemplo: recta y punto (ver Sigarreta y Ruesga, 2004).</p>
+<p>Bishop (1988) enfatiza que “[…] las representaciones visuales ofrecen una introducción poderosa a las abstracciones complejas de las matemáticas; las manipulaciones, incorporaciones concretas y artificios de intuición; son parte de los recursos actualizados de un maestro” (p. 123). En los estudiantes que han trabajado poco la representación gráfica en sus clases (en períodos cortos, a lo sumo un curso) predomina la tendencia a lo algebraico (Barbosa, Vale y Palhares, 2012; entre otros). Tal situación revela las bases de un problema didáctico, el estudiante que no ha sido enfrentado con regularidad a tareas de carácter visual, no reconoce la importancia de la representación gráfica como vía esencial en el proceso de resolución de problemas.</p>
+<p>En la misma dirección Zimmermann y Cunningham (1991) expresan que las representaciones visuales en la enseñanza de las matemáticas son utilizadas en forma pobre y pasiva. En tal sentido, se hace necesario un constante apoyo en el aula, para dotar a los estudiantes de herramientas y estímulos que le permita establecer posibles relaciones y conjeturas a través de representaciones gráficas. Por su parte, la visualización constituye un recurso para la comprensión de los conceptos matemáticos y para comunicar ideas matemáticas (Arcavi, 2003), además aduce que "La visualización ofrece un método de ver lo invisible" (p. 216), criterios que coinciden con lo planteado por Leivas (2009).</p>
+<p>La Representación Gráfica en la Escuela ha sido abordado en eventos de trascendencia internacional en el campo de la Educación Matemática, como el International Congress on Mathematical Education (ICME), el Congress of the European Society for Research in Mathematics Education (CERME), la Conference of the International Group for the Psychology of Mathematics Education (PME), la Conferencia Iberoamericana de Educación Matemática (CIAEM), la Reunión Latinoamericana de Matemática Educativa (RELME), entre otros. En el ICME13 se conforma el Topic Study Group (TSG 20), mismo que centra su discusión en el papel de la visualización para lograr los conocimientos matemáticos significativos. Estas ideas se continúan en el TSG 23 del ICME 14 (2021).</p>
+<p>Las investigaciones realizadas por Rojas (2009) permiten constatar la existencia de manifestaciones naturales asociadas con la representación gráfica como elemento heurístico en los estudiantes. Por otra parte, el desarrollo de la Matemática, así como las dificultades y carencias de su proceso enseñanza-aprendizaje, ponen de manifiesto, en primer lugar, la necesidad de un desarrollo teórico-didáctico asociado con la Representación Gráfica y, en segundo lugar, que su aplicación en la escuela propicie la construcción de un conocimiento significativo para los estudiantes. En este trabajo se propone una estrategia didáctica donde se aprovechan las potencialidades de la Representación Gráfica para favorecer la enseñanza-aprendizaje de la Matemática en la escuela.</p>
+</sec>
+<sec>
+<title>
+<bold>Marco teórico-conceptual para el estudio</bold>
+</title>
+<p>En esta investigación se argumenta teóricamente la importancia de la Representación Gráfica como recurso heurístico-didáctico dentro del proceso de enseñanza-aprendizaje de la Matemática. La Representación Gráfica es analizada a partir de un conjunto de fases simultáneas y/o sucesivas asociadas a la evolución y desarrollo en un determinado objeto, ya sea objetivo o subjetivo. En esa dirección, es de destacar que en la presente investigación se propone una estrategia didáctica para aprovechar las potencialidades de la representación gráfica, y se realiza una implementación parcial en la práctica, mostrándose los resultados alcanzados.</p>
+<p>Coincidimos con Arcavi (2003) cuando se refiere a la visualización matemática como:</p>
+<p>[...] la capacidad, el proceso y el producto de creación, interpretación, uso y reflexión sobre fotos, imágenes, diagramas, en nuestra mente, sobre el papel o con herramientas tecnológicas, con el propósito de representar y comunicar información sobre el pensamiento y desarrollo de ideas previamente desconocidas y avanzar en la comprensión. (p. 217)</p>
+<p>Miller (2012) plantea que las representaciones gráficas constituyen herramientas valiosas para las clases de Matemática, pues en el contenido geométrico es imprescindible la combinación de lo visual y el lenguaje natural. Nelsen (2000) considera que la demostración visual o los dibujos juegan un rol legítimo en la evidencia y la justificación, pues los dibujos están en las bases de las demostraciones de teoremas. Por su parte, también, con respecto a las soluciones gráficas de problemas, Eisenberg y DiBiase (1996) asevera que los maestros expresan que las soluciones visuales son algo inferior a las soluciones analíticas o algebraicas; aunque no pueden dar explicaciones claras al respecto.</p>
+<p>Tratando de responder o explicar algunas de las razones del rechazo a la Matemática, en particular, a la Matemática por parte de los estudiantes, Eisenberg y DiBiase (1996) alude a ciertas creencias y a cómo se produce el proceso de codificación de la información, así destaca que es una práctica comunicar las ideas matemáticas mediante estructuras no visuales, incluyendo casos en que las ideas pueden representarse de manera natural desde el punto de vista gráfico. Por su parte, Tall (1990) da una explicación más satisfactoria desde un punto de vista psicológico, enfoca este problema como una necesidad objetiva, pues el individuo es un comunicador mediante la voz y no mediante la emisión de dibujos (Skemp, 1971, citado por Tall, 1990; Pérez, 2016), es decir, la comunicación por excelencia se realiza mediante la palabra y no por medio del dibujo.</p>
+<p>En estas investigaciones anteriormente citadas, se justifica el hecho de que siempre que sea posible y donde sea posible, tanto el modo gráfico y/o analítico, deben ser usados en el aula de Matemática con el objetivo de dar a todos los sujetos las mejores oportunidades de procesar adecuadamente la información. Bishop (1989) se refiere a los cinco tipos distintos de “imágenes visuales” que identificó Presmeg (1986) en el trabajo con sus estudiantes, las mismas son: imágenes concretas, imágenes pictóricas (pinturas en la mente), imágenes modelo (relaciones representadas en un esquema gráfico), imágenes memorísticas de fórmulas e imágenes dinámicas (que se mueven).</p>
+<p>Presmeg (1985) caracteriza la “imagen visual”, como un esquema mental que describe información visual o espacial. Esta caracterización es suficientemente amplia, pues incluye tanto “el diagrama o dibujo” visto como imagen mental y/o “intuición espacial abstracta” que puede ser experimentada como un tipo de imagen y que es particularmente efectiva en la abstracción matemática (Ballester, et al., 1992; Nelsen, 2000; Pandisico, 2002). No todas las visualizaciones dan lugar a esquemas abstractos y no pasan a la memoria gráfica del sujeto, a manera de ejemplo, los recursos gráficos que utiliza un estudiante para resolver un problema aritmético, tienen un carácter temporal y externo, por tanto, no hay una creación simbólica asociada al proceso de representación.</p>
+<p>“Representar”, desde un punto de vista general, es una acción que se realiza en dos planos: uno externo y otro interno, que tiene por resultado hacer “visible” lo que no se ve de manera inmediata. A los efectos de su importancia y uso frecuente en la enseñanza de la Matemática, se hace imprescindible acotar dicha caracterización a un plano puramente matemático. Por otra parte, para Presmeg (1986) “Un método visual de solución, involucra imágenes visuales, con o sin un diagrama, como parte esencial del método de solución, incluso si también se emplea el razonamiento o los métodos algebraicos” (p. 44).</p>
+<p>Representar gráficamente está relacionado con comprender el problema en términos de un diagrama auxiliar o una imagen visual, así resulta muy explícita y comprensible la definición dada por Zimmermann y Cunningham (1991, p. 3), al expresar que la visualización matemática “[...] es el proceso de formar imágenes (mentalmente, con lápiz y papel o con ayuda de materiales o tecnologías) y utilizar estas imágenes de manera efectiva para el descubrimiento y la comprensión matemática”. El analizar la Representación Gráfica como ilustración (plano externo) y como producto de la imaginación del individuo (plano interno), permite asumir desde el plano teórico a dicha representación a partir de su relación entre elaboración de imágenes y las representaciones mentales de conceptos abstractos.</p>
+<p>La resolución de problemas constituye otro referente para esta investigación. Investigadores como Pólya (1965); Schoenfeld (1985): Ballester et al. (1992); Mason, Burton y Stacey (2010); Pochulu y Rodríguez (2012), Cruz, García, y Sigarreta (2016), entre otros, aportan definiciones, metodologías y fases o estrategias. En la investigación se asume la definición dada por Krulik y Rudnik (1987, p. 4), al establecer que un problema es “[...] una situación, cuantitativa o de otra clase, a la que se enfrenta un individuo o un grupo, que requiere solución, y para la cual no se vislumbra un medio o camino aparente y obvio que conduzca a la misma”. Para el proceso de resolución de problemas se aduce a la estrategia propuesta por Pólya (1965): orientación hacia el problema, trabajo en el problema, solución del problema, evaluación de la solución y de la vía.</p>
+<p>La heurística aparece en relación con el descubrimiento, la invención y la resolución de problemas; mediante la aplicación y/o elaboración de técnicas, estrategias, formas de pensamiento y creatividad. Müller (1986), Sigarreta y Arias (2009), Torres (2000) y Sigarreta y Laborde (2004) asumen los procedimientos heurísticos como formas de trabajo que favorecen el desarrollo de los procesos de pensamiento, mismos que están en relación directa con los denominados principios, reglas y estrategias heurísticas.</p>
+<p>Los principios heurísticos en lo general, son las bases para la búsqueda, argumentación y fundamentación de nuevos conocimientos, y en lo particular, favorecen la generación de ideas para la solución de diferentes problemas. Es importante resaltar que la Representación Gráfica está presente dentro de los principios heurísticos generales y específicos de: analogía, reducción, modelación, generalización (empírica), movilidad, medición y comparación, etc. Los principios heurísticos en su aplicación no se presentan de forma aislada, sino que se combinan y vinculan unos con otros; en este sentido la representación gráfica en múltiples ocasiones sirve de elemento de engarce entre los diferentes principios (Sigarreta, Locia y Bermudo, 2011).</p>
+<p>Las reglas heurísticas son las acciones y operaciones que debe realizar el estudiante en el proceso de búsqueda de la vía para resolver una determinada actividad (problema). Cabe destacar que, dentro de las reglas heurísticas, la representación gráfica tiene valor universal dentro del proceso de resolución de problemas (confeccionar una figura de análisis, elaborar una figura o un esbozo de lo que se busca, completar la figura con líneas auxiliares, decidir qué se puede trazar de inmediato, analizar casos particulares y especiales). Las estrategias heurísticas son analizadas como un sistema de fases o etapas sustentadas en los principios y reglas heurísticas para favorecer el proceso de solución de problemas (a título de ejemplo, el programa heurístico general y la estrategia propuesta por Polya).</p>
+<p>Las investigaciones anteriores ponen de manifiesto el carácter de recurso heurístico general de la representación gráfica dentro de la resolución de problemas, y como medio y sustento metodológico en la enseñanza-aprendizaje de la Matemática. El principal interés teórico-práctico de la representación gráfica se centra, en lo fundamental, en su carácter heurístico-didáctico, base para que los estudiantes desarrollen la habilidad de elaborar un diagrama apropiado (con lápiz o papel o con el ordenador) para representar los elementos de un concepto dado o las relaciones intrínsecas a un determinado problema, como base para favorecer la comprensión conceptual y la resolución del problema.</p>
+<p>Desde el punto de vista didáctico, el profesor debe aprovechar las potencialidades de la Representación Gráfica en dos direcciones. Por un lado, en la construcción mental de objetos y procesos que el estudiante asocia con sucesos percibidos por él como externos y, por otro, la construcción en algún medio externo de sucesos que el estudiante identifique con objetos y procesos en su mente. En la Matemática Escolar se necesita que el estudiante constantemente elabore representaciones gráficas; mediante una interacción sujeto-objeto, donde se activen, estimulen y desarrollen los procesos lógicos del pensamiento para obtener el nuevo conocimiento, de forma tal que le permita al mismo reflexionar, profundizar, definir, valorar, argumentar y plantear conjeturas.</p>
+<p>Una acertada representación gráfica facilita el proceso de resolución de problemas que requieren de la abstracción, que exijan que el estudiante busque y explore las relaciones, propiedades y formas de representación de las figuras geométricas, sin la presencia del objeto para hacer referencia directa. De esta forma, las exigencias intelectuales conducen a que el alumno opere con el conocimiento, hacia niveles cada vez más complejos, estimulando así su desarrollo. Por otra parte, la utilización de la computadora, a través de los Softwares de Geometría Dinámica (SGD), es un recurso para favorecer dicha representación; ya que permite la generalización, abstracción, detección de propiedades invariantes y la posibilidad de conjeturar y experimentar el cumplimiento de propiedades geométricas que inicialmente no eran reconocidas por el sujeto.</p>
+<p>La Representación Gráfica tiene un papel desarrollador dentro del proceso de enseñanza-aprendizaje de la Matemática, mismo que se manifiesta en diversos ámbitos (Müller, 1986; Ballester, et al., 1992; Torres, 2000; Rizo, 2009; Rojas, 2009).</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Necesidad de vincular objetos externos percibidos con su imagen mental y con su representación concreta, donde se propicie el trabajo para la manipulación y se estimulen y desarrollen las formas de trabajo y de pensamiento de la Matemática.</p>
+</list-item>
+<list-item>
+<p>Búsqueda de nuevas representaciones concretas que permitan estimular y desarrollar los conocimientos lógicos del pensamiento, mediante el procesamiento de imágenes que potencien el proceso de solución de problemas específicos.</p>
+</list-item>
+<list-item>
+<p>Desarrollo tecnológico y su aplicación al contexto escolar, lo cual brinda nuevas posibilidades para el trabajo con imágenes y representaciones.  </p>
+</list-item>
+<list-item>
+<p>Se revela en todas las situaciones típicas<sup/>
+<xref ref-type="fn" rid="fn6">
+<sup>1</sup>
+</xref>de la enseñanza de la Matemática, fundamentalmente en el tratamiento de problemas y ejercicios, construcciones geométricas, tratamiento de conceptos y sus definiciones, y de tratamientos de teoremas y sus demostraciones (Muller, 1986; ¨ Ballester, et al., 1992; Rizo, 2009). </p>
+</list-item>
+<list-item>
+<p>Se pone de manifiesto en técnicas y procedimientos de solución de problemas (Cantoral y Montiel, 2001; López, 2005).</p>
+</list-item>
+<list-item>
+<p>Es un recurso heurístico básico (Hernández, 2002).</p>
+</list-item>
+</list>
+</p>
+<p>En el proceso de enseñanza-aprendizaje de la Matemática Escolar, la Representación Gráfica es necesaria, pues permite enfocar geométricamente los conceptos y relaciones y representar nuevos conocimientos. Además, dicha representación posee un carácter general de aplicabilidad que está asociado al proceso integral de búsqueda y representación del conocimiento matemático. Aunque comúnmente la representación gráfica se asocia con la enseñanza de la Geometría, la misma está presente en la enseñanza de contenidos algebraicos y analíticos. Por ejemplo, el estudio de las funciones y sus propiedades no pueden ser posibles al margen de la representación gráfica. Incluso en la educación superior, la comprensión del concepto de continuidad uniforme se logra desplazando cierto rectángulo por el gráfico de la función. Allí los estudiantes reconocen el extraordinario valor de la representación gráfica, para esclarecer mejor la definición de este concepto en el lenguaje <inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mrow> <mml:mi>&#x3B5;</mml:mi> <mml:mo>&#x2212;</mml:mo> <mml:mi>&#x3B4;</mml:mi> </mml:mrow> </mml:math>
+<graphic xlink:href="607976802006_gi2.png"/>
+</alternatives>
+</inline-formula>
+</p>
+<p>La representación gráfica logrará mayor efectividad si la imagen entra en movimiento con el auxilio de algún software, o cuando el medio de enseñanza la hace girar en diferentes ángulos. Su esencialidad se evidencia, ya que su exclusión deja un vacío en el orden teórico-práctico asociado a la construcción del conocimiento. Un hecho particular, que requiere de explicación, consiste en la posibilidad de realización de una determinada representación “gráfica” en el aprendizaje de personas con discapaciades visuales. Para ellas esta representación también es posible; de acuerdo al sistema de comprensión dinámica, las vías y zonas cerebrales que dejan de funcionar son sustituidas por otras vías y zonas que asumen la función perdida (Asratian, 1962).</p>
+<p>En efecto, la resolución de problemas geométricos, por su propia naturaleza, exige la construcción de figuras. Este condicionante orienta todo el razonamiento alrededor de la figura de análisis, de modo que la Representación Gráfica en esta dirección adquiere un carácter heurístico. Resulta atinado plantear que existen investigaciones que ponen de manifiesto aspectos negativos respecto al uso indiscriminado y no planificado de la representación gráfico-visual, una de ellas se refiere a lo que se denominó “rigidez geométrica”, la cual ocurre cuando el que aprende es incapaz de ver un diagrama de manera diferente, esta dificultad se agrava en el momento en que la representación geométrica se convierte en un símbolo para un objeto.</p>
+<p>Diferentes investigadores abordan limitaciones sobre el uso de imagen, figura o diagrama para la enseñanza-aprendizaje de la matemática escolar. Presmeg (1986) resume en un estudio realizado, estos tipos de dificultades:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>La concreción de una imagen o diagrama puede atar el pensamiento a detalles irrelevantes, o incluso, puede introducir datos falsos.</p>
+</list-item>
+<list-item>
+<p>Una imagen de una figura estándar puede inducir el pensamiento inflexible, el cual impedirá el reconocimiento de un concepto en un diagrama no estándar</p>
+</list-item>
+<list-item>
+<p>Una imagen incontrolable puede persistir, impidiendo, por lo tanto, la apertura de avenidas de pensamiento más fructíferas (esta dificultad es particularmente aguda si la misma es viva)</p>
+</list-item>
+<list-item>
+<p>En el trabajo con imágenes vagas, es posible que no se acoplen a los procesos de pensamiento analítico riguroso, pues son inútiles. Las limitaciones y dificultades anteriormente explicitadas muestran la necesidad de dotar a los docentes de estrategias para el uso eficiente de la representación gráfica en la enseñanza-aprendizaje de la matemática escolar. La estrategia propuesta en esta investigación pretende erradicar estas dificultades durante la resolución de problemas en el aula.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Estrategia didáctica para aprovechar las potencialidades de la representación gráfica para favorecer la enseñanza-aprendizaje de la Matemática</bold>
+</title>
+<p>El término estrategia didáctica ha sido usado y se usa en diferentes contextos asociado, en lo fundamental, con el ámbito docente-investigativo. Dentro de sus usos más comunes, es analizada como forma específica de estructurar y aplicar una o varias técnicas, procedimientos y formas de organizar una determinada actividad o proceso docente. En nuestro estudio, pretendemos analizar y sintetizar la representación gráfica en una estrategia didáctica para favorecer la enseñanza-aprendizaje de la Matemática en la escuela.</p>
+<p>A partir de lo antes expuesto se puede establecer, como guía para el maestro, que la estrategia didáctica dirigida a aprovechar las potencialidades de la representación gráfica para favorecer la enseñanza-aprendizaje de la Matemática se sustenta en:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Fundamentos psico-pedagógicos: estos están dados por el papel que tienen la percepción, la representación, la imaginación, las operaciones lógicas del pensamiento, los procesos mentales (procesamiento visual e interpretación de información figurativa); o sea, el rol de las funciones psíquicas superiores dadas por su naturaleza sociocultural, así como en la ley genética del desarrollo y la zona de desarrollo potencial (ZDP) y la teoría de la actividad (TA).</p>
+</list-item>
+<list-item>
+<p>Presupuestos epistémico-didácticos: evidenciados en las raíces gnoseológicas de la Matemática como una ciencia dinámica y cambiante, a partir de la resolución de problemas. Los procesos de visualización se reflejan con suficiente elocuencia en la historia de la Matemática y de su enseñanza, donde la representación geométrica ha constituido objeto de enseñanza desde la antigüedad (Sigarreta y Ruesga, 2004). Así mismo, la representación gráfica se integra con todos los componentes de la didáctica. Además, mediante el empleo de las TIC, en particular de la computadora, se favorece y se desarrolla permitiendo una comprensión más completa del contenido geométrico.</p>
+</list-item>
+<list-item>
+<p>La representación gráfica, se correlaciona y perfecciona al integrarse con los elementos heurísticos, pues permite fijar, comprender el contenido geométrico y se convierte en una potente herramienta heurística para la enseñanza-aprendizaje de la Matemática.</p>
+</list-item>
+<list-item>
+<p>La representación gráfica consiste en la búsqueda de una interpretación o reinterpretación de los objetos matemáticos y sus interrelaciones en un determinado contexto, donde el pensamiento geométrico se activa en la actividad mediante el trabajo dentro de la zona de desarrollo potencial.</p>
+</list-item>
+</list>
+</p>
+<p>El esquema siguiente describe los dos momentos en los que se da el desarrollo del conocimiento (ver Figura <xref ref-type="fig" rid="gf5">1</xref>), en el primer momento el sujeto se encuentra en la zona de desarrollo actual (ZDA), esta zona está formada por todos los conocimientos que la persona ha logrado desarrollar hasta ese momento; el objetivo es llegar a la zona de desarrollo potencial (ZDP), en la que se encuentran los conocimientos que se quiere lograr en el estudiante. Esta estructura permite dosificar el desarrollo del estudiante a través de fases, en la que cada fase está diseñada para lograr un objetivo particular, utilizando diversas herramientas que el docente considere necesarias, se debe de aclarar que cada etapa y su objetivo particular deben estar planificados para llegar a la zona de desarrollo potencial.</p>
+<p>
+<fig id="gf5">
+<label>fig1</label>
+<caption>
+<title>
+<bold>Figura 1:</bold>
+</title>
+<p>Momentos en el desarrollo del conocimiento</p>
+</caption>
+<alt-text>fig1 Figura 1:</alt-text>
+<graphic xlink:href="607976802006_gf6.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>En la teoría de la actividad (TA) de Leonitev (1983), se concibe a la actividad como un sistema de acciones y operaciones que realiza el sujeto sobre el objeto, en interrelación con otros sujetos. La acción incluye los elementos estructurales básicos de la actividad como: el motivo, el objetivo, lo medios de realización y el resultado, es decir, la acción está siempre dirigida a un objeto material (objetivo) o ideal y dicha acción se convierte en actividad, cuando hay un motivo. Las operaciones (medios) son los instrumentos materiales, informativos, lingüísticos y psicológicos, que posee el sujeto y que emplea en la transformación del objeto.</p>
+<p>En correspondencia con lo que se quiere lograr, la manipulación se presenta en las dos primeras fases de la estratega didáctica propuesta, pues ellas se usan para ajustar la representación gráfica a lo que se busca o se exige en el problema o situación de aprendizaje. Cabe destacar que el proceso de control está presente en todo momento del desarrollo de la estrategia como se muestra en la Figura <xref ref-type="fig" rid="gf6">2</xref>.</p>
+<p>
+<fig id="gf6">
+<label>fig2</label>
+<caption>
+<title>
+<bold>Figura 2:</bold>
+</title>
+<p>Estrategia didáctica para aprovechar las potencialidades de la representación gráfica</p>
+</caption>
+<alt-text>fig2 Figura 2:</alt-text>
+<graphic xlink:href="607976802006_gf7.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>En función de lo antes planteado, se asume por estrategia didáctica un sistema de fases sustentadas en acciones y operaciones que permiten dirigir y organizar un determinado proceso didáctico-metodológico con el fin de lograr un determinado objetivo. Teniendo en cuenta los elementos teóricos desarrollados y, para aprovechar al máximo las potencialidades de la Representación Gráfica en la enseñanza-aprendizaje de la Matemática, se le sugiere al profesor considerar las siguientes fases para el desarrollo de la estrategia:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>Fase de Aproximación:</bold> se realiza un estudio de la información abstracta o no figurativa en imágenes visuales, o la lectura, comprensión e interpretación de las representaciones gráficas usadas en Matemática, para extraer la información que se necesita en la solución del ejercicio y/o problema. Es decir, se efectúa el análisis sobre las operaciones de las imágenes mentales o visuales, las cuales se realizan mediante el procesamiento visual e interpretación de información figurativa.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Fase de Análisis:</bold> está asociada al proceso de búsqueda y comparación a nivel mental que realiza el estudiante sobre los conceptos, relaciones esenciales (propiedades y teoremas) y elementos, como resultado de la abstracción inmediata de la palabra o de la imagen sensoperceptual de las figuras geométricas, con el objetivo de ajustar una posible vía de solución a la situación o problemática dada.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Fase de Concreción:</bold> la misma puede darse en dos grandes dimensiones: la representación interna, cuando se comienza a imaginar internamente cada una de las partes de un determinado objeto y las relaciones entre estas, permitiendo la representación mental de la figura geométrica en su conjunto, y la representación externa, que, en lo fundamental, se realiza con lápiz y papel, tiza y pizarra, materiales, con el uso de los SGD o con ayuda de programas informáticos.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Fase de Valoración:</bold> consiste en la valoración asociada a la correlación entre la representación de los elementos, propiedades y relaciones de las figuras geométricas en análisis.</p>
+</list-item>
+</list>
+</p>
+<p>La representación inicial tiene un papel importante en la interiorización y comprensión de las dos primeras acciones: aproximación y análisis. Por tal motivo, en aras de lograr mejores niveles de aprendizaje, es necesario utilizar la Representación Gráfica como un apoyo constante intra y extraescolar, a fin de que los estudiantes sean provistos de recursos heurísticos y metodológicos que les facilite el aprendizaje de la Matemática.</p>
+<p>Para potenciar los alcances desarrolladores de la estrategia propuesta se le plantea al profesor las siguientes acciones:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Emplear la representación gráfica en la clase, como medio para la formación de abstracciones y generalizaciones, y así obtener nuevos conocimientos o sistematización de estos.</p>
+</list-item>
+<list-item>
+<p>Mostrar la necesidad de las imágenes y abstracción para la concreción de una determinada representación gráfica.</p>
+</list-item>
+<list-item>
+<p>Concebir y aplicar los medios visuales, en particular las TIC, como medio para el proceso de resolución de problemas.</p>
+</list-item>
+<list-item>
+<p>Utilizar la representación gráfica en la solución de problemas relacionados con objetos reales del entorno, contextualizados a la vida cotidiana y a la actividad cognoscitiva del estudiante.</p>
+</list-item>
+</list>
+</p>
+<p>Para la concreción de la representación gráfica se sugiere la implementación de las siguientes operaciones:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Objetivación de figuras: se pone de manifiesto en la representación del objeto concreto, en la representación simplificada, en la construcción de figuras de análisis y en construcciones auxiliares.</p>
+</list-item>
+<list-item>
+<p>Manipulación: descomposición e integración de una representación gráfica u objeto matemático</p>
+</list-item>
+<list-item>
+<p>Determinación: se refiere a buscar relaciones analíticas, coligadas con la representación gráfica, asociadas con los objetos matemáticos y las operaciones que se pueden establecer entre ellos.</p>
+</list-item>
+</list>
+</p>
+<p>Para hacer un uso adecuado de la estrategia propuesta, el profesor debe tener en cuenta algunos criterios diferenciadores durante el desarrollo de la actividad, entre los cuales se encuentran: La representación gráfica es netamente individual (no todos los estudiantes generan las mismas imágenes ni tienen la misma aptitud para generarlas). Los estudiantes no tienen las mismas posibilidades para la memoria visual (recordar imágenes apropiadas). La necesidad de que las incursiones en los recursos visuales sean sistemáticas (no se puede pretender el fomento de la habilidad en un corto tiempo y con pocos estímulos).</p>
+<p>El uso de las TIC’s dentro del proceso de enseñanza-aprendizaje de la Matemática está en relación con la representación gráfica, pues permite un proceso de exploración y búsqueda del conocimiento, tanto por orientación del maestro como por propia iniciativa. Esta exploración permite abordar conceptos de alto nivel de complejidad de una manera natural en las primeras etapas de su formación, utilizando los recursos visuales disponibles; estas avanzadas tecnologías permiten el acercamiento al concepto de diversas maneras eligiendo variadas formas de representación ya sean estas verbales, simbólicas, icónicas, gráficas, numéricas, etcétera.</p>
+</sec>
+<sec>
+<title>
+<bold>Metodología de investigación</bold>
+</title>
+<p>La metodología aplicada para la implementación práctica de la estrategia propuesta está sustentada en un enfoque mixto con un diseño de investigación-acción. Este diseño según Hernández, Fernández y Baptista (2014, p. 496) expresa que “su precepto básico es que debe conducir a cambiar y, por tanto, este cambio debe incorporarse en el propio proceso de investigación. Se indaga al mismo tiempo que se interviene”. Este diseño permite transformar, mejorar y enriquecer el quehacer docente en el aula.</p>
+<p>En el desarrollo de la investigación se utilizan métodos teóricos (análisis-síntesis) y empíricos (observación participante, instrumento de contenido y la encuesta). Se realiza un análisis estadístico descriptivo y se utiliza el procedimiento del cálculo porcentual para el procesamiento de la información obtenida, a través de los métodos y técnicas del nivel empírico, durante el desarrollo de la investigación.</p>
+<p>La población la integran estudiantes de noveno grado de la Institución Educativa Distrital CEDID Ciudad Bolívar, Bogotá, Colombia. La muestra fue de forma intencionada y estuvo conformada por dos grupos de noveno grado, para un total de 40 estudiantes. Durante la investigación se utilizan software de geometría dinámica, materiales visuales manipulables, instrumentos tradicionales, entre otros. El instrumento de contenido se dirige a constatar cómo se manifiesta el proceso de la representación gráfica en la resolución de problemas.</p>
+<p>A continuación, a manera de ejemplo, se valoran tres problemas, donde se puso de manifiesto la estrategia asociada con la Representación Gráfica en la resolución de problemas.</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>Juan desea sembrar un árbol a 5 metros del árbol del limón y a 6 metros del árbol de durazno. Indícale el lugar adecuado.</p>
+<list list-type="alpha-lower">
+<list-item>
+<p>¿Cuántas opciones tiene Juan para realizar la plantación? Justifique su respuesta.</p>
+</list-item>
+<list-item>
+<p>¿Es posible plantar un segundo árbol, de tal manera que quede a 3 metros del limón y 1 metro del durazno? Justifique su respuesta. ¿Bajo qué condiciones sería posible?</p>
+</list-item>
+</list>
+</list-item>
+<list-item>
+<p>¿Qué relación existe en una circunferencia entre el ángulo central y el inscrito en el arco correspondiente? Se les sugiere a los estudiantes hacer uso de GeoGebra para resolver este problema, para lo cual deben realizar una construcción. El profesor ofrece diferentes niveles de ayuda a través de los siguientes impulsos heurísticos:</p>
+<list list-type="alpha-lower">
+<list-item>
+<p>Dibuja una circunferencia y traza un ángulo central en dicha circunferencia.</p>
+</list-item>
+<list-item>
+<p>Traza un ángulo inscrito que le corresponda el mismo arco que al ángulo central trazado.</p>
+</list-item>
+<list-item>
+<p>Mide las amplitudes de estos ángulos y compáralas.</p>
+</list-item>
+<list-item>
+<p>¿Existe alguna relación entre estas?</p>
+</list-item>
+<list-item>
+<p>Explora moviendo el vértice del ángulo inscrito, ¿varían las medidas de estos ángulos?</p>
+</list-item>
+<list-item>
+<p>Explora moviendo uno de los extremos del ángulo central, ¿qué sucede con las medidas de estos ángulos?, ¿existe alguna relación entre estas?</p>
+</list-item>
+<list-item>
+<p>Formula una conjetura.</p>
+</list-item>
+</list>
+</list-item>
+<list-item>
+<p>En este salón hay 40 estudiantes, sabemos que cada uno de ellos siente inclinación por, al menos, una de las siguientes áreas de conocimiento: Humanidades, Artes o Ciencias Básicas. 18 de ellos se inclinan por el estudio de las Humanidades, 20 por las Ciencias Básicas y 27 por las Artes. 7 sienten inclinación tanto por las Humanidades como por las Ciencias Básicas, 12 por las Artes y las Ciencias Básicas, y 4 sienten inclinación por las tres áreas.</p>
+<list list-type="alpha-lower">
+<list-item>
+<p>¿Cuántos estudiantes sienten inclinación por Humanidades y Ciencias Básicas?</p>
+</list-item>
+<list-item>
+<p>¿Cuántos estudiantes sienten inclinación por Humanidades y Ciencias Básicas, pero no por las Artes?</p>
+</list-item>
+<list-item>
+<p>¿Cuántos estudiantes sienten inclinación por un y sólo un área del conocimiento?</p>
+</list-item>
+</list>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Análisis de resultados</bold>
+</title>
+<p>En la resolución de estos problemas se consideran la estrategia propuesta (Aproximación, Análisis, Concreción, Valoración), y los elementos teóricos abordados (Rubinstein, 1967; Leonitev, 1983; Mason, Burton, y Stacey, 1988; Ballester, S. et al., 1992; Nelsen, 2000; Arcavi, 2003; Rizo, 2009; Leivas, 2009; Rojas, 2009; Pochulu, y Rodríguez, 2012, Tall, 2013) tomados en esta investigación. A continuación, se realiza el análisis para cada uno de los problemas.</p>
+<sec>
+<title>
+<bold>Problema 1</bold>
+</title>
+<p>En la resolución de este problema, que consta de dos incisos a y b, el 77.7% de los estudiantes comprenden el enunciado del problema e identifican los datos suministrados, a pesar de ello, tan sólo el 52% identifica el procedimiento adecuado. En el Inciso b, donde se debería pensar en mover las condiciones del problema para garantizar la existencia del triángulo, o pensar en trazar distancias desde los árboles mediante circunferencias (problema no rutinario), el 60% de los estudiantes intenta realizar un proceso similar, donde se observa nuevamente que los estudiantes relacionan la posibilidad de formar un triángulo si las circunferencias se intersecan, pero se bloquean al tener que cambiar las condiciones del problema para poder dar una posible solución, el 27.7% plantea de manera verbal que no se puede resolver. En la Figura <xref ref-type="fig" rid="gf8">4</xref> se muestran algunas respuestas dadas por los estudiantes al inciso b.</p>
+<p>
+<fig id="gf8">
+<label>fig4</label>
+<caption>
+<title>
+<bold>Figura 4:</bold>
+</title>
+<p>Resolución del problema por el estudiante ARV.</p>
+</caption>
+<alt-text>fig4 Figura 4:</alt-text>
+<graphic xlink:href="607976802006_gf38.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>Resolución del problema por el estudiante ARV. Elaboración propia.</p>
+<p>En la resolución de este problema, los estudiantes con el apoyo de la representación gráfica son capaces de interpretar o reinterpretar el objeto específico representado (triángulo) y sus interrelaciones. En el proceso de búsqueda, el estudiante utiliza diferentes instrumentos, explora diversas vías y activa diferentes conceptos, para reconfigurar el significado y el sentido del objeto (puntos) y poder establecer la solución deseada (Mason, Burton, y Stacey, 1988; Ballester, S. et al., 1992; Rojas, 2009).</p>
+<p>El análisis se realiza considerando las cuatro fases propuestas en la estrategia: aproximación, análisis, concreción y valoración. En la primera fase el estudiante ARV realiza un estudio preliminar de las condiciones dadas en el problema (distancia entre dos puntos del plano), traduce del lenguaje literario al geométrico, determina los medios y materiales a utilizar, y dibuja una figura auxiliar, lo cual le va permitir dar sentido a la construcción realizada, propiciando la comprensión e interpretación de las representaciones visuales que necesita para la resolución del problema. En la segunda fase el estudiante establece la relación entre los conceptos presentes en el problema: circunferencia, distancia entre dos puntos del plano, desigualdad triangular, y los relaciona en la imagen sensoperceptual de la figura geométrica construida, con el objetivo de encontrar la vía de solución al problema.</p>
+<p>En la fase de concreción se interioriza y se consolida la representación mental de la figura geométrica del problema, además se concreta su representación externa con sus posibles soluciones a través de los materiales didácticos. Es de destacar que la visualización matemática propicia representar y comunicar información, pensar y desarrollar ideas a partir de la figura de análisis realizada en el problema (Presmeg, 1986; Arcavi, 2003; Leivas, 2009), aspectos estos importante en esta fase.</p>
+<p>En la fase de valoración, es importante que el profesor realice una discusión sobre los posibles errores de medición, haciendo notar a los estudiantes, elementos propios asociados con el rigor matemático. El estudiante determina cual es el objeto matemático pedido (puntos), los medios (concepto de circunferencia, distancia entre dos puntos del plano, lugar geométrico y desigualdad triangular), los materiales (instrumentos tradicionales y/o SGD) y como obtenerlo (procedimiento para realizar la construcción), lo cual le permite concretar la representación mental y externa de la figura geométrica del problema. Los estudiantes usan el compás para trasladar las medidas o trazar las circunferencias con centro en cada uno de los puntos y radio de longitud dada y ofrecen una respuesta acorde al contexto del problema. En este proceso, al trazar las circunferencias estas se cortan en dos puntos, donde deben discriminar uno de ellos. Algunos estudiantes intentaron dar solución, haciendo uso de la regla, luego de varios intentos no lograron situar el punto solicitado, pues al trazar las distancias estas no determinan un punto en común. En la fase de valoración, los estudiantes realizan la construcción deseada teniendo en cuenta la representación de los elementos, propiedades y relaciones dadas en las fases anteriores.</p>
+</sec>
+<sec>
+<title>
+<bold>Pregunta 2</bold>
+</title>
+<p>En el análisis de este problema se constató que el 95% de los estudiantes son capaces de realizar la construcción. Con respecto a medir las amplitudes de los ángulos y compararlas, el 93% la realiza adecuadamente con las herramientas del sistema, el resto requiere de ayuda, la cual es brindada por el docente y/o sus compañeros. El 79% aduce que el ángulo inscrito es la mitad del ángulo central o que el ángulo central es el doble del ángulo inscrito, el resto, expresa que es mayor el ángulo central que el ángulo inscrito, respuesta que no es incorrecta, pero no es la adecuada. La totalidad de los estudiantes al explorar, moviendo el vértice del ángulo inscrito (ver Figura <xref ref-type="fig" rid="gf9">5</xref>), son capaces de hacer uso del proceso de representación gráfica, donde observan, analizan y comparan, que no varía la medida de estos ángulos y que los mismos guardan una relación más concreta y exacta con el ángulo central correspondiente.</p>
+<p>
+<fig id="gf9">
+<label>fig5</label>
+<caption>
+<title>
+<bold>Figura 5</bold>
+</title>
+<p>Relación del ángulo central y el ángulo inscrito</p>
+</caption>
+<alt-text>fig5 Figura 5</alt-text>
+<graphic xlink:href="607976802006_gf37.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>En la resolución del problema se siguen las ideas de Mason, Burton, y Stacey, (1988); Ballester, et al., (1992) y Pochulu, y Rodríguez, (2012), con el apoyo del proceso de la representación gráfica, los SGD constituyen un apoyo donde el estudiante explora diversas vías y activa diferentes conceptos, para interpretar o reinterpretar el objeto específico representado (la circunferencia) y sus interrelaciones, para poder establecer la conjetura deseada (la amplitud de un ángulo central es el doble que el ángulo inscrito correspondiente al mismo arco).</p>
+<p>Con respecto a explorar moviendo uno de los extremos del ángulo central, la totalidad de los estudiantes la realiza adecuadamente. Este resultado es producto de la exploración con los estudiantes. Es de destacar que tres de ellos presentaron ciertas dificultades, y el profesor, a través de los impulsos heurísticos (Torres, 2000), los reorienta hacia la búsqueda de resolución. A pesar del trabajo de exploración realizado, un 5% siguen planteando que es menor, sin poder establecer la relación de igualdad. Se debe comentar que, en la discusión con los estudiantes, se llegó a la conclusión que este resultado obtenido a través de la representación gráfica con el apoyo del software y la visualización matemática (Arcavi, 2003), es una aproximación a la amplitud real del ángulo (por los errores de medición), además que su utilidad en este caso sirve esencialmente como base para conjeturar relaciones matemáticas que deben ser demostradas de manera formal.</p>
+<p>Esta actividad constituyó un desafío para los estudiantes, tanto por el uso de los instrumentos tradicionales (utilizados por algunos para contrastar) como por el uso de los SGD. En su implementación se constatan las siguientes dificultades:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>En algunos estudiantes (15%) es limitada la habilidad en el manejo de los instrumentos tradicionales y de GeoGebra</p>
+</list-item>
+<list-item>
+<p>La habilidad argumentativa e interpretativa de los estudiantes es limitada, en algunos casos por temor a equivocarse</p>
+</list-item>
+<list-item>
+<p>Existen dificultades para establecer comparaciones (<inline-formula>
+<alternatives><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"> <mml:mo>=</mml:mo> <mml:mo>,</mml:mo> <mml:mo>&gt;</mml:mo> <mml:mo>,</mml:mo> <mml:mo>&lt;</mml:mo> </mml:math>
+<graphic xlink:href="607976802006_gi4.png"/>
+</alternatives>
+</inline-formula>) entre longitudes y amplitudes</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Pregunta 3</bold>
+</title>
+<p>En el análisis de este problema se constató que el 100% de los estudiantes no pudieron establecer una relación o estrategia clara para enfrentar la resolución del problema. El 53% de ellos intentó establecer ecuaciones, pero les era imposible concretarlas porque había muchas variables y no sabían que tenían que hacer (22% plantea que faltan datos para poder trabajar). Sólo un 4% intentó representar gráficamente los datos asociados (pero no sabían cómo proceder cuando los conjuntos se interceptaban).</p>
+<p>El profesor dio indicaciones a través de impulsos heurísticos (Torres, 2000; Ballester, et al., (1992) sobre cómo elaborar un diagrama para representar los datos mostrados, pues una demostración visual o dibujo tiene un papel legítimo en el proceso de resolución de un problema (Nelsen, 2000). A continuación, en elaboración conjunta procedieron a establecer algunas de las relaciones (datos conocidos) como muestra la Figura <xref ref-type="fig" rid="gf11">6</xref> (nótese que no fueron indicados en el diagrama todos los datos). Después de este impulso, el 72% de los estudiantes comenzaron a trabajar, aunque sólo el 36% de ellos establecieron de forma correcta todos los datos en el diagrama.</p>
+<p>
+<fig id="gf11">
+<label>fig6</label>
+<caption>
+<title>
+<bold>Figura 6</bold>
+</title>
+<p>Diagrama de Relaciones.</p>
+</caption>
+<alt-text>fig6 Figura 6</alt-text>
+<graphic xlink:href="607976802006_gf36.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>Queremos destacar dos procesos de soluciones desarrollados por los estudiantes, en lo fundamental, ya que los mismos ponen de manifiesto los alcances de la representación gráfica (Nelsen 2000) en la búsqueda de la solución de problemas. El primero mostrado en la Figura <xref ref-type="fig" rid="gf12">7</xref>, aunque el estudiante no fue capaz de completar todos los datos, asignando una variable más al problema (“y” cuando su valor era dado 8), sin embargo, fue capaz de establecer algunas relaciones a partir de la representación gráfica establecida y comenzó la búsqueda de la solución mediante un tanteo inteligente aprovechando los elementos representados en el diagrama. Es de resaltar que el estudiante, por no completar los datos del problema, enfrentaba un problema más complicado que el propuesto. Cuando el maestro se acercó al final de la actividad y le dijo que el valor de “y” se daba como dato y que era igual a 8, el estudiante expresó: “ah! entonces yo lo puedo resolver”.</p>
+<p>
+<fig id="gf12">
+<label>fig7</label>
+<caption>
+<title>
+<bold>Figura 7</bold>
+</title>
+<p>Solución Problema 3 por estudiante ERF.</p>
+</caption>
+<alt-text>fig7 Figura 7</alt-text>
+<graphic xlink:href="607976802006_gf35.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>El segundo proceso de solución que mostramos en la Figura <xref ref-type="fig" rid="gf13">8</xref>, presenta dos importantes momentos, el primero a la izquierda de la imagen, antes del maestro explicar los elementos básicos para elaborar el diagrama y el otro a la derecha después de la explicación. Nótese, que en la parte izquierda el estudiante comenzó a realizar operaciones aritméticas un tanto desordenadas, siempre teniendo en cuenta el total de estudiantes 40. En la parte derecha se puede observar como después del impulso heurístico (Torres, 2000; Ballester, et al., (1992) proporcionado por el maestro comenzó a trabajar un poco más ordenado, pero sin establecer los datos correctamente y luego rectificó estableciendo las relaciones en el diagrama de manera correcta, donde se muestra el rol de la visualización matemática en la resolución del problema (Arcavi, 2003). Es claro que el estudiante hubiese llegado a la solución del problema con un poco más de tiempo, ya que sólo le faltó establecer la relación con el total de estudiantes (nótese que en lo tachado había planteado una primera relación).</p>
+<p>
+<fig id="gf13">
+<label>fig8</label>
+<caption>
+<title>
+<bold>Figura 8</bold>
+</title>
+<p>Solución Problema 3.</p>
+</caption>
+<alt-text>fig8 Figura 8</alt-text>
+<graphic xlink:href="607976802006_gf34.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Conclusiones</bold>
+</title>
+<p>Los resultados obtenidos propician destacar algunos elementos que resultan esenciales, entre ellos podemos mencionar:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>En este trabajo se exponen los fundamentos didácticos y metodológicos que sustentan el proceso de Representación Gráfica como recurso heurístico-didáctico y sus potencialidades en el proceso de enseñanza-aprendizaje de la Matemática.</p>
+</list-item>
+<list-item>
+<p>El estudio realizado permitió abordar el proceso de enseñanza-aprendizaje de la Matemática en la escuela, propiciando la experimentación, concreción, búsqueda y exploración de la solución de problemas. Además, a partir de las respuestas obtenidas y del análisis de la resolución de los problemas sobre la base del marco teórico asumido, se concluye que se favorece la motivación hacia el desarrollo de la actividad, a partir de las posibilidades que tienen los estudiantes de plantear, expresar y comprobar sus ideas, compartirlas y confrontarlas.</p>
+</list-item>
+<list-item>
+<p>En este estudio se propone una estrategia en cuatro fases: aproximación, análisis, concreción y valoración, y una etapa integral de control general en cada fase. Con su implementación práctica se pudo constatar que permitió la manipulación de los objetos matemáticos, logrando una mejor comprensión analítica de las relaciones intrínsecas y extrínsecas entre los conceptos matemáticos.</p>
+</list-item>
+<list-item>
+<p>El proceso de Representación Gráfica permite una aproximación concreta al entorno sociocultural en el que el estudiante desarrolla su actividad. </p>
+</list-item>
+<list-item>
+<p>La Representación Gráfica explicita las relaciones entre la percepción, la memorización y las capacidades de comprensión-concreción; además, favorece la estructuración del pensamiento para que el sujeto oriente su actividad, así como los procesos metacognitivos asociados con la resolución de problemas.</p>
+</list-item>
+</list>
+</p>
+<p>Para constatar los resultados se aplica una encuesta de satisfacción a los estudiantes (Apéndice <xref ref-type="app" rid="app1">A</xref>), la cual consta de cinco preguntas cerradas, donde los estudiantes expresaron su opinión respecto al desarrollo de la actividad. A continuación, se exponen los resultados obtenidos.</p>
+<p>La primera pregunta está relacionada con la motivación por el aprendizaje de la Matemática. El 100% de las estudiantes considera que, en este sentido, la actividad y problemas desarrollados contribuyeron y motivaron a su aprendizaje.</p>
+<p>El 6% de los estudiantes, aunque tienen interés frente a la resolución de los problemas, no vislumbran que el aumento de propuestas de problemas similares pueda mejorar su desempeño en el área de matemáticas, ya que carecen de la habilidad para utilizar y aplicar la Representación Gráfica, por lo cual requieren un nivel superior de ayuda.</p>
+<p>La pregunta tres se dirige a determinar el impacto que tuvo el uso de la regla y el compás, y el uso de los TIC’s en el desarrollo de las actividades. El 81% de los estudiantes manifiesta que el empleo de estos instrumentos los motivó y contribuyó en el proceso de resolución de problemas.</p>
+<p>En la pregunta cuatro se les pide que valoren la utilidad de las representaciones gráficas para la resolución de los problemas propuestos. El 94% considera que las representaciones gráficas utilizadas les fueron útiles para la resolución de los problemas, pues les ayudaron a comprender mejor el problema y a establecer relaciones entre los diferentes conceptos relacionados en el problema. También les resultaron muy llamativas e interesantes, pues les invitaban a pensar de manera creativa. Tan sólo el 6% de los estudiantes opinaron lo contrario.</p>
+<p>En la última pregunta se les pide que valoren si el uso de materiales didácticos les facilita la representación gráfica. El 75% de los estudiantes considera adecuado el uso de recursos manipulativos durante la clase, pues es significativo hacer uso de variadas herramientas para el desarrollo de los problemas. En la Figura 9 se muestran los resultados de la encuesta.</p>
+<p>
+<fig id="gf15">
+<label>fig9</label>
+<caption>
+<title>
+<bold>Figura 9:</bold>
+</title>
+<p>Datos obtenidos en la encuesta de satisfacción</p>
+</caption>
+<alt-text>fig9 Figura 9:</alt-text>
+<graphic xlink:href="607976802006_gf39.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>La triangulación que se realiza a partir del desarrollo de la actividad, los resultados obtenidos del análisis realizado y los resultados de la encuesta de satisfacción, permiten constatar que en la práctica:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>Aumento de la motivación hacia el estudio, interés y curiosidad por el aprendizaje de la Matemática en los estudiantes, dado que el profesor les muestra la importancia y aplicabilidad de la Representación Gráfica.</p>
+</list-item>
+<list-item>
+<p>Los estudiantes, en el proceso de resolución de problemas, consideran figuras de análisis, sobre la base de representaciones gráficas, como un recurso y/o herramienta de apoyo para una mejor comprensión.</p>
+</list-item>
+<list-item>
+<p>Se crea un escenario propicio en los estudiantes para la familiaridad y el desarrollo de habilidades con los instrumentos tradicionales y, posteriormente, con el uso de los SGD, en particular GeoGebra.</p>
+</list-item>
+<list-item>
+<p>Se favoreció el sentido crítico, autocrítico y argumentativo en los estudiantes, permitiendo que expresaran libremente sus ideas sin temor a incurrir en errores.</p>
+</list-item>
+</list>
+</p>
+</sec>
+</body>
+<back>
+<ack>
+<title>Agradecimientos</title>
+<p>
+<bold>Contribución de las personas autoras:</bold>
+</p>
+<p>Conceptualización: S.B.N., A.C.M., J.C.P.L., O.J.R.V., J.M.S.A.  Análisis formal: S.B.N., A.C.M., J.C.P.L., O.J.R.V., J.M.S.A. Investigación: S.B.N., A.C.M., J.C.P.L., O.J.R.V., J.M.S.A. Metodología: S.B.N., A.C.M., J.C.P.L., O.J.R.V., J.M.S.A. Supervisión: S.B.N., A.C.M., J.C.P.L., O.J.R.V., J.M.S.A. Validación: S.B.N., A.C.M., J.C.P.L., O.J.R.V., J.M.S.A. Escritura borrador original: S.B.N., A.C.M., J.C.P.L., O.J.R.V., J.M.S.A. Escritura revisión y edición: S.B.N., A.C.M., J.C.P.L., O.J.R.V., J.M.S.A.</p>
+<p>
+<bold>Accesibilidad de datos:</bold>
+</p>
+<p>Los datos usados en este trabajo estarán disponibles para los interesados que lo soliciten por correo electrónico</p>
+</ack>
+<ref-list>
+<title>Referencias</title>
+<ref id="redalyc_607976802006_ref2">
+<label>[1]</label>
+<mixed-citation>[1] Arcavi, A. (2003). The role of visual representations in the learning of mathematics. Educational Studies in Mathematics, 52(3), 215-241.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Arcavi</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>The role of visual representations in the learning of mathematics</article-title>
+<source>Educational Studies in Mathematics</source>
+<year>2003</year>
+<volume>52</volume>
+<issue>3</issue>
+<fpage>215</fpage>
+<lpage>241</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref3">
+<label>[2]</label>
+<mixed-citation>[2] Asratian, E. A. (1962). Problemas de neurofisiología. Buenos Aires: Quezal.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Asratian</surname>
+<given-names>E. A.</given-names>
+</name>
+</person-group>
+<source>Quezal.</source>
+<year>1962</year>
+<publisher-loc>Buenos Aires</publisher-loc>
+<series>Problemas de neurofisiología</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref4">
+<label>[3]</label>
+<mixed-citation>[3] Ballester, S., Santana, H., Hernández, S., Cruz, I., Arango, C., García, M., Álvarez, A., Rodríguez, M., Batista, L. C., Villegas, E., Almeida, B., Torres, P. (1992). Metodología de la enseñanza de la Matemática. Tomo 1. La Habana: Editorial Pueblo y Educación</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Ballester</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Santana</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Hernández</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Cruz</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>Arango</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>García</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Álvarez</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Rodríguez</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Batista</surname>
+<given-names>L. C.</given-names>
+</name>
+<name>
+<surname>Villegas</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Almeida</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Torres</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<source>La Habana: Editorial Pueblo y Educación</source>
+<year>1992</year>
+<edition>Tomo 1</edition>
+<series>Metodología de la enseñanza de la Matemática</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref5">
+<label>[4]</label>
+<mixed-citation>[4] Barbosa, A., Vale, I., &amp; Palhares, P. (2012). Pattern tasks: thinking processes used by 6th grade students. Revista latinoamericana de investigación en matemática educativa, 15(3), 273-293.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Barbosa</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Vale</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>Palhares</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<article-title>Pattern tasks: thinking processes used by 6th grade students</article-title>
+<source>Revista latinoamericana de investigación en matemática educativa</source>
+<year>2012</year>
+<volume>15</volume>
+<issue>3</issue>
+<fpage>273</fpage>
+<lpage>293</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref6">
+<label>[5]</label>
+<mixed-citation>[5] Bishop, A. (1989). Implicaciones didácticas de la investigación sobre Visualización. Revista de investigación sobre la visualización en Matemáticas (Inglaterra), Universidad de Cambridge, UK.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bishop</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>Implicaciones didácticas de la investigación sobre Visualización</article-title>
+<source>Revista de investigación sobre la visualización en Matemáticas (Inglaterra)</source>
+<year>1989</year>
+<publisher-loc>UK</publisher-loc>
+<publisher-name>Universidad de Cambridge</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref7">
+<label>[6]</label>
+<mixed-citation>[6] Bishop, A. J. (1988). Aspectos sociales y culturales de la educación matemática. Revista Enseñanza de las Ciencias, 6(2), 121-125.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bishop</surname>
+<given-names>A. J.</given-names>
+</name>
+</person-group>
+<article-title>Aspectos sociales y culturales de la educación matemática.</article-title>
+<source>Revista Enseñanza de las Ciencias</source>
+<year>1988</year>
+<volume>6</volume>
+<issue>2</issue>
+<fpage>121</fpage>
+<lpage>125</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref8">
+<label>[7]</label>
+<mixed-citation>[7] Cantoral, R., Montiel, G. (2001). Funciones: visualización y pensamiento matemático. Ciudad México: Pearson Educación, Tipográfica Barsa, S.A. de C.V.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Cantoral</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Montiel</surname>
+<given-names>G.</given-names>
+</name>
+</person-group>
+<source>Pearson Educación, Tipográfica Barsa, S.A. de C.V.</source>
+<year>2001</year>
+<publisher-name>Ciudad México</publisher-name>
+<series>Funciones: visualización y pensamiento matemático</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref9">
+<label>[8]</label>
+<mixed-citation>[8] Cruz, M., García, M. y Sigarreta, J. M. (2016). Analogies in Mathematical Problems Solving. Journal of Science Education, 2(17), 84-90.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Cruz</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>García</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Sigarreta</surname>
+<given-names>J. M.</given-names>
+</name>
+</person-group>
+<article-title>Analogies in Mathematical Problems Solving</article-title>
+<source>Journal of Science Education</source>
+<year>2016</year>
+<volume>2</volume>
+<issue>17</issue>
+<fpage>84</fpage>
+<lpage>90</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref10">
+<label>[9]</label>
+<mixed-citation>[9] Diccionario Enciclopédico Color. (1999). Barcelona: Océano.</mixed-citation>
+<element-citation publication-type="other">
+<source>Diccionario Enciclopédico Color</source>
+<year>1999</year>
+<publisher-loc>Barcelona</publisher-loc>
+<publisher-name>Océano</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref11">
+<label>[10]</label>
+<mixed-citation>[10] Eisenberg, M., y DiBiase, J. (1996). Mathematical manipulatives as designed artifacts: The cognitive, affective, and technological dimensions. In Proceedings of the 1996 International Conference on Learning Sciences (ICLS ’96) (pp. 44–51). International Society of the Learning Sciences.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Eisenberg</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>DiBiase</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Mathematical manipulatives as designed artifacts: The cognitive, affective, and technological dimensions</article-title>
+<source>International Society of the Learning Sciences.</source>
+<year>1996</year>
+<fpage>44</fpage>
+<lpage>51</lpage>
+<series>Proceedings of the 1996 International Conference on Learning Sciences (ICLS ’96)</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref12">
+<label>[11]</label>
+<mixed-citation>[11] Gran Diccionario Enciclopédico Grijalbo. (1997). Barcelona: Grijalbo.</mixed-citation>
+<element-citation publication-type="other">
+<source>Gran Diccionario Enciclopédico Grijalbo</source>
+<year>1997</year>
+<publisher-loc>Barcelona</publisher-loc>
+<publisher-name>Grijalbo</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref13">
+<label>[12]</label>
+<mixed-citation>[12] Hernández Sampieri, R., Fernández Collado, C., y Baptista Lucio, P. (2014). Metodología de la investigación (Vol. 3). México: McGraw-Hill.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Hernández Sampieri</surname>
+<given-names>R.</given-names>
+</name>
+<name>
+<surname>Fernández Collado</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Baptista Lucio</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<source>Metodología de la investigación</source>
+<year>2014</year>
+<volume>3</volume>
+<publisher-loc>México</publisher-loc>
+<publisher-name>McGraw-Hill</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref14">
+<label>[13]</label>
+<mixed-citation>[13] Hernández, H. (2002). Cambio curricular para un aprendizaje desarrollador. Experiencias en matemática. En Memorias del II Congreso Internacional sobre Mejoramiento de las áreas de Comunicación y Matemática en la Formación Docente, Lima.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Hernández</surname>
+<given-names>H.</given-names>
+</name>
+</person-group>
+<article-title>Cambio curricular para un aprendizaje desarrollador. Experiencias en matemática.</article-title>
+<source>Memorias del II Congreso Internacional sobre Mejoramiento de las áreas de Comunicación y Matemática en la Formación Docente</source>
+<year>2002</year>
+<publisher-loc>Lima</publisher-loc>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref15">
+<label>[14]</label>
+<mixed-citation>[14] Krulik, S., y Rudnik, J. (1987). Problem solving: a handbook for teachers. Boston: Allyn and Bacon.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Krulik</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Rudnik</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<source>Allyn and Bacon</source>
+<year>1987</year>
+<publisher-loc>Boston</publisher-loc>
+<series>Problem solving: a handbook for teachers</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref16">
+<label>[15]</label>
+<mixed-citation>[15] Leivas, J. C. P. (2009). Imaginação, intuição e visualização: a riqueza de possibilidades da abordagem geométrica no currículo de cursos de licenciatura de matemática. (Tesis de doctorado). Universidade Federal Do Paraná.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Leivas</surname>
+<given-names>J. C. P.</given-names>
+</name>
+</person-group>
+<article-title>Imaginação, intuição e visualização: a riqueza de possibilidades da abordagem geométrica no currículo de cursos de licenciatura de matemática</article-title>
+<source>Universidade Federal Do Paraná</source>
+<year>2009</year>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref17">
+<label>[16]</label>
+<mixed-citation>[16] Lenin, V. (1979). Materialismo y empiriocriticismo. Moscú: Progreso.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Lenin</surname>
+<given-names>V.</given-names>
+</name>
+</person-group>
+<source>Progreso</source>
+<year>1979</year>
+<publisher-loc>Moscú</publisher-loc>
+<series>Materialismo y empiriocriticismo</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref18">
+<label>[17]</label>
+<mixed-citation>[17] Leóntiev, A. N. (1983). Teoría psicológica de la actividad. En A. N. Leóntiev, Selección de Obras de Psicología, Tomo II, (pp 94-261). Moscú. Pedagogía</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Leóntiev</surname>
+<given-names>A. N.</given-names>
+</name>
+</person-group>
+<source>Pedagogía</source>
+<year>1983</year>
+<fpage>94</fpage>
+<lpage>261</lpage>
+<publisher-loc>Moscú</publisher-loc>
+<chapter-title>Teoría psicológica de la actividad</chapter-title>
+<edition>Tomo II</edition>
+<series>A. N. Leóntiev, Selección de Obras de Psicología</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref19">
+<label>[18]</label>
+<mixed-citation>[18] López, L. (2005). Metodología para el perfeccionamiento del proceso enseñanza aprendizaje del cálculo vectorial, fundamentada en el desarrollo de la visualización matemática tridimensional. (Tesis de doctorado). Universidad de Camagüey. Centro de Estudios de Ciencias de la Educación “Enrique José Varona”.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>López</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<article-title>Metodología para el perfeccionamiento del proceso enseñanza aprendizaje del cálculo vectorial, fundamentada en el desarrollo de la visualización matemática tridimensional</article-title>
+<source>Universidad de Camagüey. Centro de Estudios de Ciencias de la Educación “Enrique José Varona”.</source>
+<year>2005</year>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref20">
+<label>[19]</label>
+<mixed-citation>[19] Mason, J., Burton, L., y Stacey, K. (1988). Pensar matemáticamente. Madrid: Editorial Labor.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Mason</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Burton</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Stacey</surname>
+<given-names>K.</given-names>
+</name>
+</person-group>
+<source>Editorial Labor</source>
+<year>1988</year>
+<publisher-loc>Madrid</publisher-loc>
+<series>Pensar matemáticamente</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref21">
+<label>[20]</label>
+<mixed-citation>[20] Mason, J., Burton, L. y Stacey, K. (2010). Thinking Mathematically. Harlow: Pearson.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Mason</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Burton</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Stacey</surname>
+<given-names>K.</given-names>
+</name>
+</person-group>
+<source>Pearson</source>
+<year>2010</year>
+<publisher-loc>Harlow</publisher-loc>
+<series>Thinking Mathematically</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref22">
+<label>[21]</label>
+<mixed-citation>[21] Miller, R. (2012). On Proofs Without Words. Whitman College. Disponible en: http://www.whitman.edu/mathematics/SeniorProjectArchive/2012/Miller.pdf</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Miller</surname>
+<given-names>R.</given-names>
+</name>
+</person-group>
+<source>Whitman College</source>
+<year>2012</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="http://www.whitman.edu/mathematics/SeniorProjectArchive/2012/Miller.pdf">http://www.whitman.edu/mathematics/SeniorProjectArchive/2012/Miller.pdf</ext-link>
+</comment>
+<series>On Proofs Without Words</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref24">
+<label>[22]</label>
+<mixed-citation>[22] Morales, A., Dolores, C., Nolasco, H., Hernández, J., &amp; Sigarreta, J. (2014). Methodology based on problem solving in the treatment of the concept of limit to infinity. International Journal of Research in Education Methodology, 5(1).</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Morales</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Dolores</surname>
+<given-names>C.</given-names>
+</name>
+<name>
+<surname>Nolasco</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Hernández</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Sigarreta</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Methodology based on problem solving in the treatment of the concept of limit to infinity.</article-title>
+<source>International Journal of Research in Education Methodology</source>
+<year>2014</year>
+<volume>5</volume>
+<issue>1</issue>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref25">
+<label>[23]</label>
+<mixed-citation>[23] Müller, H. (1986). Formas de trabajo heurístico en la enseñanza de la matemática (I parte). Boletín Sociedad Cubana de Matemática, 37-48.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Müller</surname>
+<given-names>H.</given-names>
+</name>
+</person-group>
+<article-title>Formas de trabajo heurístico en la enseñanza de la matemática (I parte)</article-title>
+<source>Boletín Sociedad Cubana de Matemática</source>
+<year>1986</year>
+<fpage>37</fpage>
+<lpage>48</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref26">
+<label>[24]</label>
+<mixed-citation>[24] Nápoles, J. (2009). Elementos para una historia de las Matemáticas griegas. Argentina: Universidad Tecnológica Nacional.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Nápoles</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<source>Universidad Tecnológica Nacional</source>
+<year>2009</year>
+<publisher-loc>Argentina</publisher-loc>
+<series>Elementos para una historia de las Matemáticas griegas</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref27">
+<label>[25]</label>
+<mixed-citation>[25] Nelsen, R. (2000). Proofs Without Words II: More Exercises in Visual Thinking. United States of America: The Mathematical Association of America.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Nelsen</surname>
+<given-names>R.</given-names>
+</name>
+</person-group>
+<source>The Mathematical Association of America.</source>
+<year>2000</year>
+<publisher-loc>United States of America</publisher-loc>
+<series>Proofs Without Words II: More Exercises in Visual Thinking</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref28">
+<label>[26]</label>
+<mixed-citation>[26] Pandisico, E. (2002). Alternative Geometric Constructions: Promoting Mathematical Reasoning. Mathematics Teacher, 95.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Pandisico</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>Alternative Geometric Constructions: Promoting Mathematical Reasoning</article-title>
+<source>Mathematics Teacher</source>
+<year>2002</year>
+<volume>95</volume>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref29">
+<label>[27]</label>
+<mixed-citation>[27] Pérez, D. (2016). Construcción de significado robusto para el concepto de área y caracterización del pensamiento geométrico involucrado en los estudiantes de sexto grado (niños entre 10 y 13 años). (Tesis de doctorado). Bogotá: Universidad Antonio Nariño, Colombia.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Pérez</surname>
+<given-names>D.</given-names>
+</name>
+</person-group>
+<article-title>Construcción de significado robusto para el concepto de área y caracterización del pensamiento geométrico involucrado en los estudiantes de sexto grado (niños entre 10 y 13 años)</article-title>
+<source>Universidad Antonio Nariño, Colombia</source>
+<year>2016</year>
+<publisher-loc>Bogotá</publisher-loc>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref30">
+<label>[28]</label>
+<mixed-citation>[28] Pochulu, M., y Rodríguez, M. (2012). Educación matemática. Aportes a la formación docente desde distintos enfoques teóricos. Buenos Aires, Argentina: Eduvim.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Pochulu</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Rodríguez</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<source>Eduvim</source>
+<year>2012</year>
+<publisher-loc>Buenos Aires, Argentina</publisher-loc>
+<series>Educación matemática. Aportes a la formación docente desde distintos enfoques teóricos.</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref31">
+<label>[29]</label>
+<mixed-citation>[29] Polya, G. (1965). Cómo plantear y resolver problemas. México: Editorial Trillas.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Polya</surname>
+<given-names>G.</given-names>
+</name>
+</person-group>
+<source>Editorial Trillas</source>
+<year>1965</year>
+<publisher-loc>México</publisher-loc>
+<series>Cómo plantear y resolver problemas.</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref32">
+<label>[30]</label>
+<mixed-citation>[30] Presmeg, N. C. (1985). The role of visually mediated processes in high school mathematics: A classroom investigation. (Tesis de doctorado). Londres: University of Cambridge.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Presmeg</surname>
+<given-names>N. C.</given-names>
+</name>
+</person-group>
+<article-title>The role of visually mediated processes in high school mathematics: A classroom investigation</article-title>
+<source>University of Cambridge.</source>
+<year>1985</year>
+<publisher-loc>Londres</publisher-loc>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref33">
+<label>[31]</label>
+<mixed-citation>[31] Presmeg, N. C. (1986). Visualisation in high school mathematics. For the learning of mathematics, 6(3), 42-46.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Presmeg</surname>
+<given-names>N. C.</given-names>
+</name>
+</person-group>
+<article-title>Visualisation in high school mathematics</article-title>
+<source>For the learning of mathematics</source>
+<year>1986</year>
+<volume>6</volume>
+<issue>3</issue>
+<fpage>42</fpage>
+<lpage>46</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref34">
+<label>[32]</label>
+<mixed-citation>[32] Rizo, C. (2009). La heurística y la didáctica. Texto inédito.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Rizo</surname>
+<given-names>C.</given-names>
+</name>
+</person-group>
+<source>Texto inédito.</source>
+<year>2009</year>
+<series>La heurística y la didáctica</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref35">
+<label>[33]</label>
+<mixed-citation>[33] Rojas, O. (2009). Modelo didáctico para favorecer la enseñanza - aprendizaje de la Matemática con un enfoque desarrollador. (Tesis de doctorado). Holguín: Universidad de Ciencias Pedagógicas José de la Luz y Caballero.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Rojas</surname>
+<given-names>O.</given-names>
+</name>
+</person-group>
+<article-title>Modelo didáctico para favorecer la enseñanza - aprendizaje de la Matemática con un enfoque desarrollador</article-title>
+<source>Universidad de Ciencias Pedagógicas José de la Luz y Caballero.</source>
+<year>2009</year>
+<publisher-loc>Holguín</publisher-loc>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref36">
+<label>[34]</label>
+<mixed-citation>[34] Rubinstein, S. L. (1967). Principios de Psicología General. La Habana: Edición Revolucionaria.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Rubinstein</surname>
+<given-names>S. L.</given-names>
+</name>
+</person-group>
+<source>Edición Revolucionaria.</source>
+<year>1967</year>
+<publisher-loc>La Habana</publisher-loc>
+<series>Principios de Psicología General</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref37">
+<label>[35]</label>
+<mixed-citation>[35] Schoenfeld, A. (1985). Mathematical problem solving. New York: Academic Press.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Schoenfeld</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<source>Academic Press.</source>
+<year>1985</year>
+<publisher-loc>New York</publisher-loc>
+<series>Mathematical problem solving</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref38">
+<label>[36]</label>
+<mixed-citation>[36] Sigarreta, J. M., y Arias, L. (2009). La resolución de problemas: un recurso para el desarrollo de la formación de la personalidad. Ed. Universidad Autónoma de Guerrero. Guerrero, México.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Sigarreta</surname>
+<given-names>J. M.</given-names>
+</name>
+<name>
+<surname>Arias</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<source>Ed. Universidad Autónoma de Guerrero</source>
+<year>2009</year>
+<publisher-loc>Guerrero, México.</publisher-loc>
+<series>La resolución de problemas: un recurso para el desarrollo de la formación de la personalidad</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref39">
+<label>[37]</label>
+<mixed-citation>[37] Sigarreta, J. M., y Laborde, J. M. (2004). Estrategia para la resolución de problemas como recurso para la interacción sociocultural. Revista PREMISA, 6(20), 15-29.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Sigarreta</surname>
+<given-names>J. M.</given-names>
+</name>
+<name>
+<surname>Laborde</surname>
+<given-names>J. M.</given-names>
+</name>
+</person-group>
+<article-title>Estrategia para la resolución de problemas como recurso para la interacción sociocultural</article-title>
+<source>Revista PREMISA</source>
+<year>2004</year>
+<volume>6</volume>
+<issue>20</issue>
+<fpage>15</fpage>
+<lpage>29</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref40">
+<label>[38]</label>
+<mixed-citation>[38] Sigarreta, J. M., y Ruesga, P. (2004). The evolution of geometry from a historical perspective. Boletín de la Asociación Matemática Venezolana XI, 85-95.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Sigarreta</surname>
+<given-names>J. M.</given-names>
+</name>
+<name>
+<surname>Ruesga</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<article-title>The evolution of geometry from a historical perspective</article-title>
+<source>Boletín de la Asociación Matemática Venezolana XI</source>
+<year>2004</year>
+<fpage>85</fpage>
+<lpage>95</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref41">
+<label>[39]</label>
+<mixed-citation>[39] Sigarreta, J., Locia, E., y Bermudo, S. (2011). Metodología para el tratamiento de los problemas matemáticos. Revista Premisa, 13(48), 28-40.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Sigarreta</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Locia</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>Bermudo</surname>
+<given-names>S.</given-names>
+</name>
+</person-group>
+<article-title>Metodología para el tratamiento de los problemas matemáticos</article-title>
+<source>Revista Premisa</source>
+<year>2011</year>
+<volume>13</volume>
+<issue>48</issue>
+<fpage>28</fpage>
+<lpage>40</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref42">
+<label>[40]</label>
+<mixed-citation>[40] Tall, D. (1990). Inconsistencies in the learning of calculus and analysis. Focus on Learning Problems in mathematics, 12(3), 49-63.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Tall</surname>
+<given-names>D.</given-names>
+</name>
+</person-group>
+<article-title>Inconsistencies in the learning of calculus and analysis</article-title>
+<source>Focus on Learning Problems in mathematics</source>
+<year>1990</year>
+<volume>12</volume>
+<issue>3</issue>
+<fpage>49</fpage>
+<lpage>63</lpage>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref43">
+<label>[41]</label>
+<mixed-citation>[41] Tall, D. (2013). How humans learn to think mathematically: exploring the three worlds of mathematics. Cambridge University Press.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Tall</surname>
+<given-names>D.</given-names>
+</name>
+</person-group>
+<source>Cambridge University Press</source>
+<year>2013</year>
+<series>How humans learn to think mathematically: exploring the three worlds of mathematics.</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref44">
+<label>[42]</label>
+<mixed-citation>[42] Torres, P. (2000). La instrucción Heurística de la Matemática Escolar. La Habana: ISP Enrique José Varona.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Torres</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<source>ISP Enrique José Varona</source>
+<year>2000</year>
+<publisher-loc>La Habana</publisher-loc>
+<series>La instrucción Heurística de la Matemática Escolar</series>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref46">
+<label>[43]</label>
+<mixed-citation>[43] TSG 23, ICME 14. (2021). Visualization in the teaching and learning of mathematics. International Congress on Mathematical Education. https://www.icme14.org/static/en/news/37.html?v=1625461455948.</mixed-citation>
+<element-citation publication-type="other">
+<article-title>Visualization in the teaching and learning of mathematics. International Congress on Mathematical Education.</article-title>
+<source>TSG 23, ICME 14</source>
+<year>2021</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.icme14.org/static/en/news/37.html?v=1625461455948">https://www.icme14.org/static/en/news/37.html?v=1625461455948</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802006_ref47">
+<label>[44]</label>
+<mixed-citation>[44] Zimmerman, W., y Cunningham, S. (1991). Visualization in Teaching and Learning. Mathematics. MAA Notes Number 19. USA: Mathematical Association of America.</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>Zimmerman</surname>
+<given-names>W.</given-names>
+</name>
+<name>
+<surname>Cunningham</surname>
+<given-names>S.</given-names>
+</name>
+</person-group>
+<source>Mathematical Association of America</source>
+<year>1991</year>
+<publisher-loc>USA</publisher-loc>
+<series>Visualization in Teaching and Learning. Mathematics.</series>
+</element-citation>
+</ref>
+</ref-list>
+<fn-group>
+<title>Notas</title>
+<fn id="fn6" fn-type="other">
+<label>1</label>
+<p>Situaciones típicas son las distintas formas en la que se presentan los contenidos matemáticos en el proceso de enseñanza-aprendizaje. Se consideran situaciones típicas de la enseñanza de la Matemática: la formulación y resolución de problemas matemáticos, el trabajo con proposiciones matemáticas y su demostración, el trabajo con conceptos y definiciones, las construcciones geométricas y los procedimientos matemáticos.</p>
+</fn>
+</fn-group>
+<app-group>
+<app id="app1">
+<title>Encuesta satisfacción estudiantes</title>
+<sec>
+<title/>
+<p>Apreciado estudiante, se le agradece su aporte al desarrollo de las siguientes preguntas marcando tu respuesta con una cruz (X). La escala de valoración es de 1 a 5, siendo cinco (5) la mayor calificación y uno (1) la menor calificación. </p>
+<p>
+<list list-type="order">
+<list-item>
+<p>¿Considera usted que los problemas desarrollados motivan el aprendizaje por la Matemática?</p>
+</list-item>
+<list-item>
+<p>¿Cree usted que su desempeño en el área de Matemática mejoraría si estos problemas se repitieran con frecuencia?</p>
+</list-item>
+<list-item>
+<p>¿Las construcciones de regla y compás, y con SGD motivaron su aprendizaje?</p>
+</list-item>
+<list-item>
+<p>¿Considera usted que las representaciones gráficas utilizadas le fueron útil para la resolución de los problemas propuestos?</p>
+</list-item>
+<list-item>
+<p>¿El uso de materiales didácticos durante la resolución de los problemas le facilita la representación gráfica?</p>
+</list-item>
+</list>
+</p>
+</sec>
+</app>
+</app-group>
+</back>
+</article>

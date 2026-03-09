@@ -1,0 +1,1684 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model type="application/xml-dtd" href="http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" dtd-version="1.1d3" specific-use="Marcalyc 1.2" article-type="book-review" xml:lang="es">
+<front>
+<journal-meta>
+<journal-id journal-id-type="redalyc">6079</journal-id>
+<journal-title-group>
+<journal-title specific-use="original" xml:lang="en">Revista Digital: Matemática, Educación e Internet</journal-title>
+</journal-title-group>
+<issn pub-type="ppub">1659-0643</issn>
+<publisher>
+<publisher-name>Instituto Tecnológico de Costa Rica</publisher-name>
+<publisher-loc>
+<country>Costa Rica</country>
+<email>revistadigitalmatematica@itcr.ac.cr</email>
+</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="art-access-id" specific-use="redalyc">607976802007</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Artículos</subject>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title xml:lang="es">La enseñanza de los gráficos estadísticos: reseña de un libro de texto interactivo para tercer año de la educación costarricense</article-title>
+<trans-title-group>
+<trans-title xml:lang="en">The teaching of statistical graphs: review of an interactive textbook for third grade in Costa Rican education</trans-title>
+</trans-title-group>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-5148-2797</contrib-id>
+<name name-style="western">
+<surname>Monge Madriz</surname>
+<given-names>Carlos</given-names>
+</name>
+<xref ref-type="aff" rid="aff1"/>
+<xref ref-type="fn" rid="fn5">1</xref>
+<email>camonge@itcr.ac.cr</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1822-4825</contrib-id>
+<name name-style="western">
+<surname>Suárez Valdés-Ayala</surname>
+<given-names>Zuleyka</given-names>
+</name>
+<xref ref-type="aff" rid="aff2"/>
+<xref ref-type="fn" rid="fn7">2</xref>
+<email>zsuarez@itcr.ac.cr</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1822-4825</contrib-id>
+<name name-style="western">
+<surname>Solís Ortega</surname>
+<given-names>Rebeca</given-names>
+</name>
+<xref ref-type="aff" rid="aff3"/>
+<xref ref-type="fn" rid="fn6">3</xref>
+<email>rsolis@tec.ac.cr</email>
+</contrib>
+<contrib contrib-type="author" corresp="no">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-5413-0172</contrib-id>
+<name name-style="western">
+<surname>Meza Cascante</surname>
+<given-names>Luis Gerardo</given-names>
+</name>
+<xref ref-type="aff" rid="aff4"/>
+<xref ref-type="fn" rid="fn8">4</xref>
+<email>gemeza@tec.ac.cr</email>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<institution content-type="original">Instituto Tecnológico de Costa Rica. camonge@itcr.ac.cr</institution>
+<institution content-type="orgname">Instituto Tecnológico de Costa Rica.</institution>
+<country country="CR">Costa Rica</country>
+</aff>
+<aff id="aff2">
+<institution content-type="original">Instituto Tecnológico de Costa Rica. zsuarez@itcr.ac.cr</institution>
+<institution content-type="orgname">Instituto Tecnológico de Costa Rica.</institution>
+<country country="CR">Costa Rica</country>
+</aff>
+<aff id="aff3">
+<institution content-type="original">Instituto Tecnológico de Costa Rica. rsolis@tec.ac.cr</institution>
+<institution content-type="orgname">Instituto Tecnológico de Costa Rica.</institution>
+<country country="CR">Costa Rica</country>
+</aff>
+<aff id="aff4">
+<institution content-type="original">Instituto Tecnológico de Costa Rica. gemeza@tec.ac.cr</institution>
+<institution content-type="orgname">Instituto Tecnológico de Costa Rica.</institution>
+<country country="CR">Costa Rica</country>
+</aff>
+<author-notes>
+<fn id="fn5" fn-type="current-aff">
+<label>1</label>
+<p>Carlos Monge Madriz. Docente, investigador y extensionista de la Escuela de Matemática del Instituto Tecnológico de Costa Rica. Dirección postal: Oreamuno, Cartago, Costa Rica. Código postal: 30701. Correo electrónico: camonge@tec.ac.cr.</p>
+</fn>
+<fn id="fn7" fn-type="current-aff">
+<label>2</label>
+<p>Zuleyka Suárez Valdés-Ayala. Docente, investigadora y extensionista de la Escuela de Matemática del Instituto Tecnológico de Costa Rica. Dirección postal: Escazú, Costa Rica. Código postal: 10201. Correo electrónico: zsuarez@tec.ac.cr</p>
+</fn>
+<fn id="fn6" fn-type="current-aff">
+<label>3</label>
+<p>Rebeca Solís Ortega. Docente, investigadora y extensionista de la Escuela de Matemática del Instituto Tecnológico de Costa Rica. Dirección postal: Dulce Nombre, Cartago, Costa Rica. Código postal: 30109. Correo electrónico: rsolis@tec.ac.cr.</p>
+</fn>
+<fn id="fn8" fn-type="current-aff">
+<label>4</label>
+<p>Luis Gerardo Meza Cascante. Docente, investigador y extensionista de la Escuela de Matemática del Instituto Tecnológico de Costa Rica. Dirección postal: Oriental, Cartago, Costa Rica. Código postal: 30101. Correo electrónico: gemeza@tec.ac.cr.</p>
+</fn>
+</author-notes>
+<pub-date pub-type="epub-ppub">
+<season>Enero-Febrero</season>
+<year>2025</year>
+</pub-date>
+<volume>25</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>23</lpage>
+<product product-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Monge Madriz</surname>
+<given-names>Carlos</given-names>
+</name>
+<name>
+<surname>Solís Ortega</surname>
+<given-names>Rebeca</given-names>
+</name>
+<name>
+<surname>Suárez Valdés-Ayala</surname>
+<given-names>Zuleyka</given-names>
+</name>
+</person-group>
+<year>2023</year>
+<publisher-name>Editorial Tecnológica de Costa Rica</publisher-name>
+<publisher-loc>Costa Rica</publisher-loc>
+<size units="pages">215</size>
+<inline-graphic xlink:href="607976802007_p3.png"/>
+</product>
+<history>
+<date date-type="received" publication-format="dd mes yyyy">
+<day>23</day>
+<month>09</month>
+<year>2023</year>
+</date>
+<date date-type="accepted" publication-format="dd mes yyyy">
+<day>30</day>
+<month>03</month>
+<year>2024</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2024</copyright-year>
+<copyright-holder>Instituto Tecnológico de Costa Rica</copyright-holder>
+<ali:free_to_read/>
+<license xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">
+<ali:license_ref>https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+<license-p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-SinDerivar 4.0 Internacional.</license-p>
+</license>
+</permissions>
+<abstract xml:lang="es">
+<title>Resumen</title>
+<p>Este artículo presenta un libro interactivo de estadística destinado al tercer año de primaria, dirigido a niños y niñas de entre 8 y 9 años aproximadamente. El material fue elaborado en el año 2023 y se enfoca en la educación costarricense, analizando la pertinencia de sus actividades relacionadas con gráficos estadísticos. La metodología incluyó la identificación de habilidades, la revisión de un estudio sobre gráficos en libros de texto costarricenses, la consideración de aspectos teóricos, el diseño de actividades, el análisis de contenido y la validación con expertos. El libro promueve la resolución de problemas, la argumentación estadística y el uso de tecnología, de manera concordante con las disposiciones del programa de matemática vigente en la educación costarricense. Es un recurso educativo innovador y completo, que podría mejorar la enseñanza de estadística en la educación primaria.</p>
+</abstract>
+<trans-abstract xml:lang="en">
+<title>Abstract</title>
+<p>This paper introduces an interactive statistics book designed for third-grade primary students, targeting both boys and girls aged approximately 8 to 9 years old. Developed in 2023, the material is centered around Costa Rican education, examining the significance of its activities pertaining to statistical graphics. The methodology involved skill identification, a review of a study on graphics in Costa Rican textbooks, consideration of theoretical aspects, activity design, content analysis, and validation by experts. The book promotes problem-solving, statistical argumentation, and the utilization of technology, aligning with the current mathematics curriculum in Costa Rican education. It stands as an innovative and comprehensive educational resource poised to enhance the teaching of statistics in primary education.</p>
+</trans-abstract>
+<kwd-group xml:lang="es">
+<title>Palabras clave</title>
+<kwd>Enseñanza primaria</kwd>
+<kwd>estadística</kwd>
+<kwd>gráfico</kwd>
+<kwd>libro de texto</kwd>
+<kwd>enseñanza de la estadística</kwd>
+</kwd-group>
+<kwd-group xml:lang="en">
+<title>Keywords</title>
+<kwd>Primary education</kwd>
+<kwd>statistics</kwd>
+<kwd>graphs</kwd>
+<kwd>textbooks</kwd>
+<kwd>statistics education</kwd>
+</kwd-group>
+<counts>
+<fig-count count="10"/>
+<table-count count="4"/>
+<equation-count count="0"/>
+<ref-count count="27"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec>
+<title>
+<bold>Introducción</bold>
+</title>
+<p>Los recursos educativos didácticos son un apoyo pedagógico fundamental para docentes y estudiantes. Estos materiales constituyen un soporte importante para el proceso de enseñanza, pues facilitan el aprendizaje de las habilidades y contenidos por abarcar.</p>
+<p>Dentro de los recursos educativos que más han perdurado están los libros de texto. Estos actúan como una herramienta facilitadora del proceso de aprendizaje del estudiante y, al mismo tiempo, se ha convertido en el principal elegido por los profesores para la planificación curricular (Braga y Belver, 2014). Si bien es cierto, la persona docente es la responsable de planear e impartir la lección, los enfoques presentados en los libros de texto tienden a influir en la forma en que se enseñan los contenidos (Sievert et al., 2019). Así, se fortalece la idea de que el proceso de enseñanza y aprendizaje no solamente depende del currículo de los programas educativos, sino también del enfoque que le den los libros de texto a este.</p>
+<p>Según Herreros y Sanz, 2020, la estadística no recibe la atención docente, pese a la creciente conciencia de la importancia de desarrollar competencias sólidas en esta disciplina entre los ciudadanos. Esta falta de énfasis en la educación estadística tiene consecuencias significativas, ya que dificulta que las personas adquieran las habilidades necesarias para procesar información de manera eficaz y crítica. Asimismo, limita su capacidad para comprender la variabilidad presente en una amplia gama de fenómenos y tomar decisiones informadas, incluso en situaciones caracterizadas por el cambio y la incertidumbre (León-Gómez, 2021).</p>
+<p>En este contexto, resulta crucial reconocer la importancia de dotar a la ciudadanía con las habilidades esenciales para interpretar y comprender la información disponible. De esta manera, podrán formular opiniones fundamentadas y tomar decisiones reflexivas en diversos contextos. (Díaz-Levicoy et al., 2020). La educación estadística, por lo tanto, se convierte en un componente clave en la formación de personas capacitadas para enfrentar los desafíos de un mundo cada vez más complejo y lleno de datos.</p>
+<p>En Costa Rica, la enseñanza de la estadística inicia desde el primer nivel del Ciclo de la Educación Primaria (CEP). Así, los estudiantes entran en contacto con esta rama de las Matemáticas desde los 7 años hasta terminar sus estudios alrededor de los 17 años de edad. La intención del Ministerio de Educación Pública costarricense (MEP) es que, al concluir sus estudios, el estudiantado pueda estructurar información en diversos entornos y que sea capaz de tomar decisiones en circunstancias de incertidumbre (MEP, 2012).</p>
+<p>La finalidad de la enseñanza de la estadística y la probabilidad en los primeros niveles del CEP consiste en capacitar a los estudiantes para que puedan manipular información, tanto cuantitativa como cualitativa, en diversos contextos. Se busca que la estadística se convierta en una herramienta poderosa para la creación de modelos, la representación y la comprensión de la realidad (MEP, 2012). Además, las orientaciones curriculares para estos niveles buscan que los estudiantes desarrollen habilidades que les permitan interpretar datos provenientes de su entorno.</p>
+<p>La inclusión de contenidos de estadística ha sido un desafío real para el profesorado, ya que una mayoría significativa no ha adquirido los conocimientos didácticos y disciplinarios necesarios para la enseñanza efectiva en el aula, pese a la importancia de la estadística en la educación (Alsina, 2019). Esto subraya la necesidad de mejorar la preparación de las personas docentes en este campo.</p>
+<p>En Costa Rica, para respaldar la formación y disponibilidad de recursos en estadística y probabilidad, un equipo de docentes del Instituto Tecnológico de Costa Rica (ITCR) diseñaron, confeccionaron y validaron unos Recursos Educativos Abiertos, compilados en un libro interactivo. Esta iniciativa se suma a los esfuerzos dirigidos a contrarrestar el llamado "apagón educativo" en Costa Rica, desencadenado por las huelgas de educadores en 2018 y 2019, así como la continua afectación de la pandemia Covid-19 (Programa Estado de la Educación en Desarrollo Humano Sostenible, 2023).</p>
+<p>Este libro cubre los contenidos establecidos por el MEP para el tercer año del I CEP, el cual está dirigido a niños y niñas de entre 8 y 9 años de edad aproximadamente. La elección de este nivel se fundamenta en que representa el cierre del primer ciclo educativo de los estudiantes, marcando un periodo de transición hacia el segundo ciclo. En esta etapa, se espera que los alumnos hayan desarrollado una mayor madurez cognitiva y adquirido herramientas fundamentales para abordar conceptos más avanzados. Al seleccionar este nivel, se busca aprovechar la consolidación de conocimientos por parte de los estudiantes, facilitando así la introducción efectiva de temas estadísticos.</p>
+<p>En cuanto a las actividades incorporadas en el libro, se precisa que estas se crearon en primera instancia y luego se analizaron para verificar su alineación con los principios teóricos establecidos tanto por el MEP como con la teoría vigente sobre la enseñanza de la estadística, especialmente en lo que respecta a los gráficos.</p>
+<p>A continuación, se exponen los fundamentos teóricos que sirvieron como base para realizar y analizar las actividades desarrolladas en el libro. Posteriormente, se detalla la metodología empleada en este estudio, seguida de la presentación de los resultados y, finalmente, las conclusiones.</p>
+</sec>
+<sec>
+<title>
+<bold>Análisis de gráficos estadísticos en libros de texto de educación primaria</bold>
+</title>
+<p>Los libros de texto actúan como una herramienta facilitadora del proceso de aprendizaje, por eso es importante analizar cómo estos abordan la enseñanza de la estadística, especialmente en lo que respecta a los gráficos estadísticos.</p>
+<p>A nivel internacional, numerosas investigaciones se han enfocado en analizar el abordaje de ciertos elementos asociados a la enseñanza de la estadística en la educación primaria. Por ejemplo, Dhakulkar y Nagarjuna (2011) analizaron libros de texto de matemática en la India, encontrando una limitada presencia de gráficos en estos. Concluyeron que esta carencia perjudica el desarrollo de habilidades cruciales de lectura, escritura e interpretación de gráficos en ciencia y matemáticas. Recomendaron una representación más adecuada de gráficos en futuras ediciones, subrayando que la presencia de gráficos no tiene justificación sin una conexión apropiada con el contenido temático.</p>
+<p>De manera similar, Díaz Levicoy et al. (2017) realizaron un estudio cualitativo sobre la presencia de gráficos estadísticos en libros de texto para el segundo ciclo de Educación Primaria en Argentina. Identificaron 44 actividades, destacando el predominio de gráficos de barras, sectores y líneas. Los resultados evidenciaron un bajo énfasis en este objeto matemático en los libros de texto, lo cual contrasta con la importancia contemporánea atribuida a los gráficos estadísticos como elementos culturales. Subrayaron la necesidad de integrar estos elementos desde los primeros cursos de Educación Primaria para asegurar que los estudiantes desarrollen habilidades críticas en su interpretación y análisis.</p>
+<p>Análogamente, Díaz-Levicoy et al. (2018) llevaron a cabo un análisis de dieciocho libros de texto de matemáticas de Educación Primaria en Perú, correspondientes a tres series diferentes de diferentes editoriales. Utilizando la metodología de análisis de contenido, examinaron las secciones que presentan gráficos estadísticos, identificando el tipo de actividad, los gráficos utilizados, el nivel de lectura y el nivel de complejidad semiótica. Los resultados indicaron una adaptación parcial de los libros de texto a las directrices curriculares en relación con la presentación de gráficos por nivel educativo, aunque la cantidad de actividades propuestas por las tres editoriales fue similar. Se destacó la prevalencia de actividades centradas en calcular y construir, así como el predominio del gráfico de barras, un nivel de lectura básico y la representación de una distribución de datos en el gráfico.</p>
+<p>Por otro lado, Vidal-Henry et al. (2021) realizaron una revisión de la literatura de los últimos 15 años sobre estudios relacionados con gráficos y tablas estadísticas en libros de texto de educación primaria de Iberoamérica. Identificaron 39 estudios primarios desde el 2006, de Chile, Brasil, España, Perú, México, Venezuela, Argentina, Costa Rica, Colombia y Guatemala. Denotan preocupación al no encontrarse investigaciones de esta temática en más países iberoamericanos. Dentro de los resultados se destaca que la mayoría de los estudios analizados, señalan que en los libros de texto predomina el gráfico de barras, el segundo nivel de lectura (leer entre los datos), el tercer nivel de complejidad semiótica (representar una distribución) y el contexto personal. Concluyen, que, a raíz de estos resultados, los libros de texto de educación primaria deberían procurar desarrollar en mayor medida, el nivel 3 de lectura (leer más allá de los datos) y nivel 4 de lectura (leer detrás de los datos), además del nivel 4 de complejidad semiótica (representar dos distribuciones de frecuencias en un solo gráfico) y otros tipos de contextos (laboral, científico y social).</p>
+<p>En Costa Rica, solo existe un estudio sobre la caracterización de gráficos estadísticos en libros de texto usados en educación primaria. Jiménez-Castro et al. (2020) realizaron el estudio, y los resultados destacaron la prevalencia del uso de gráficos de barras, asociados con el tercer nivel de complejidad semiótica (representar una distribución), el segundo nivel de habilidad de lectura (leer entre los datos) (coincidiendo con resultados del estudio de Vidal-Henry et al. (2021) a nivel Iberoamericano), y se utilizan contextos laborales y escolares. Se detectan debilidades con actividades relacionadas con gráficos estadísticos que se enfoquen en el uso de la tecnología, la resolución de problemas o la detección de errores en los datos utilizados.</p>
+<p>Se aprecia un patrón consistente de escasa presencia y atención a los gráficos estadísticos en la revisión de estudios tanto a nivel internacional como nacional. Este hallazgo resalta la importancia crucial de una representación adecuada de los gráficos, subrayando la necesidad imperante de ajustar las futuras ediciones de libros de texto para asegurar una conexión más significativa con el contenido temático.</p>
+</sec>
+<sec>
+<title>
+<bold>Consideraciones teóricas relacionadas con la caracterización de gráficos estadísticos</bold>
+</title>
+<p>En concordancia con Gómez (2012), un gráfico estadístico es “un instrumento cuyo objeto es presentar datos numéricos por medio de magnitudes geométricas, es decir, con longitudes, pendientes, ángulos, áreas, volúmenes, etc.” (p. 248). Además, según este mismo autor, los gráficos permiten la lectura e interpretación de los datos de manera más inmediata que una tabla.</p>
+<p>A continuación, se presentan distintas variables que están involucradas cuando el estudiantado se enfrenta a una tarea matemática que involucra un gráfico estadístico.</p>
+<sec>
+<title>
+<bold>Niveles de lectura de gráficos estadísticos</bold>
+</title>
+<p>Existen niveles de lectura asociados a los gráficos estadísticos. Según Díaz-Levicoy et al. (2017) esto “hace referencia a la dificultad que tienen las preguntas que se pueden formular a los estudiantes” (p. 307). Curcio (1989), Friel et al. (2001) y Arredondo et al. (2018), describen los siguientes niveles de lectura:</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>Leer los datos: se da una lectura directa de la información que explícitamente se presenta en el gráfico. No se realizan cálculos de ningún tipo.</p>
+</list-item>
+<list-item>
+<p>Leer dentro de los datos: se debe dar una interpretación de la información del gráfico que no está explícita y para ello deben realizarse cálculos matemáticos básicos que permitan establecer relaciones entre los datos.</p>
+</list-item>
+<list-item>
+<p>Leer más allá de los datos: se realizan inferencias o predicciones sobre información que no se muestra en el gráfico y que no se puede obtener con operaciones matemáticas.</p>
+</list-item>
+<list-item>
+<p>Leer detrás de los datos: es una revisión crítica y analítica de los datos y la forma en que se recolectaron, la importancia del gráfico utilizado en razonabilidad del contexto. También la persona que lee el gráfico puede obtener conclusiones considerando su saber en relación con el contexto.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Niveles de complejidad semiótica</bold>
+</title>
+<p>Según Díaz-Levicoy et al. (2017), un nivel de complejidad semiótica “se refiere a los objetos matemáticos que intervienen en la construcción” (p. 307). Estos autores y Pallauta y Arteaga (2021) proponen los siguientes niveles:</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>Representación de datos individuales: en este nivel no se realiza una representación de los datos en conjunto, sino de forma aislada.</p>
+</list-item>
+<list-item>
+<p>Representación de un conjunto de datos sin llegar a resumir su distribución: acá se presentan los datos de un conjunto, pero no se incluye la noción de frecuencia o distribución.</p>
+</list-item>
+<list-item>
+<p>Representación de una distribución de datos: en este nivel se presentan los datos de un conjunto representando sus frecuencias.</p>
+</list-item>
+<list-item>
+<p>Representación de varias distribuciones sobre un mismo gráfico: este es el nivel más avanzado y pretende que se presenten dos o más distribuciones de frecuencias en un mismo gráfico estadístico.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Tipos de tareas con gráficos estadísticos</bold>
+</title>
+<p>Jiménez-Castro et al. (2020) proponen los siguientes tipos de tareas que integran las actividades que tienen que ver con gráficos estadísticos:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>Leer el gráfico:</bold> responden a interrogantes asociados a la lectura literal de un gráfico.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Calcular:</bold> corresponden a cálculos aritméticos sencillos relacionados con los datos del gráfico. Incluye obtener algunas medidas de tendencia central.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Construir:</bold> dada una distribución de frecuencias se solicita la construcción de un gráfico.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Ejemplo:</bold> sección en donde se presenta un caso particular con el cual se explica un tema.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Pasar a tabla:</bold> se toma un gráfico estadístico y se representa en una distribución de frecuencias.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Completar:</bold> se presenta un gráfico inicialmente construido que debe acabarse.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Inventar un problema:</bold> dado un gráfico estadístico o una tabla, el estudiante plantea una situación problema asociado con el mismo.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Propósito del gráfico estadístico</bold>
+</title>
+<p>Kosslyn (1985) indica que un gráfico estadístico es utilizado para analizar, comunicar o construir en los procesos de enseñanza de la estadística. Según Jiménez-Castro et al. (2020), se pueden presentar los siguientes propósitos:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>Propósito de análisis:</bold> el propósito principal del gráfico es revelar o reconocer características del conjunto de datos y se obtiene información que antes no se percibía.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Propósito de comunicación:</bold> los gráficos de esta clase se emplean para comunicar información sobre los datos y las relaciones entre ellos. En este caso, la intención del gráfico no es que se descubran características de los datos, sino transmitirlas eficazmente a otra persona.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Propósito de construcción:</bold> el enfoque se orienta a adquirir la habilidad de construir el gráfico, en lugar de priorizar el análisis o la transmisión de información.</p>
+</list-item>
+</list>
+</p>
+<p>Las variables descritas anteriormente son las que se consideraron y evaluaron en las actividades relacionadas con gráficos estadísticos que se construyeron en el libro y se describe en la siguiente sección con mayor detalle.</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Marco metodológico</bold>
+</title>
+<p>Para el diseño de cada una de las actividades relacionadas con el libro de texto interactivo de estadística se siguieron las siguientes etapas.</p>
+<sec>
+<title>
+<bold>Identificación de conocimientos y habilidades</bold>
+</title>
+<p>En esta etapa, se llevó a cabo un análisis exhaustivo de los Programas de Estudio de Matemáticas de Costa Rica (PMCR) vigentes para tercer año, específicamente en el área de Estadística y Probabilidad. Esto permitió determinar los propósitos, enfoques de enseñanza y procesos matemáticos relacionados con la estadística.</p>
+<p>En tercer año las habilidades que están directamente relacionadas con gráficos estadísticos son: “Interpretar información que ha sido resumida en textos, dibujos, diagramas, cuadros y gráficos” y “Resumir los datos por medio de cuadros que incluyan frecuencias absolutas o gráficos de barras.” (MEP, 2012, p. 156)</p>
+</sec>
+<sec>
+<title>
+<bold>Consideraciones asociadas a libros de texto que actualmente se usan en Costa Rica</bold>
+</title>
+<p>Como se mencionó en la sección 2, hasta ahora solo se ha encontrado un estudio en Costa Rica que se centra en el análisis de gráficos en libros de texto de educación primaria. Este estudio, llevado a cabo por Jiménez en 2017, generó resultados que fueron ampliados y difundidos a través de varios artículos subsecuentes (Jiménez-Castro y Arteaga, 2019; Jiménez-Castro et al., 2020; Jiménez-Castro et al., 2022).</p>
+<p>En el marco de este análisis, se evaluaron dos series de libros de texto que eran las más utilizadas en la educación primaria de Costa Rica en 2017 (Jiménez, 2017; Jiménez-Castro y Arteaga, 2019; Jiménez-Castro et al., 2020) y otras dos series vigentes en 2022 (Jiménez-Castro et al., 2022). En líneas generales, los análisis destacaron algunas debilidades en las actividades destinadas a fomentar la resolución de problemas, la falta de impulso en el uso de la tecnología, así como la presencia de contextos asociados a situaciones científicas poco comunes. Además, se observó que algunos gráficos estadísticos se introducían prematuramente en diferentes niveles educativos. Sin embargo, también se identificaron aspectos positivos en los libros de texto costarricenses, como los niveles de lectura sobre gráficos adaptados a los diversos niveles educativos, la progresión de complejidad semiótica con el tiempo y la coherencia de los tipos de tareas con los lineamientos curriculares, que también abarcan propósitos analíticos.</p>
+<p>Estos hallazgos se han tomado como punto de partida para fortalecer los aspectos positivos y abordar las debilidades identificadas en los libros de texto costarricenses en relación con los gráficos estadísticos. La principal meta de esta iniciativa es crear, corregir y mejorar estos aspectos en un nuevo libro de estadística interactivo.</p>
+</sec>
+<sec>
+<title>
+<bold>Consideración de aspectos teóricos relacionados con gráficos estadísticos</bold>
+</title>
+<p>En concordancia con Friel et al. (2001), para la instrucción en gráficos, es necesario considerar varios elementos, entre los que destacan: la secuencia de tipos de gráficos, el desarrollo de la comprensión de la reducción de datos y el abordaje de varios aspectos del sentido de los gráficos. Se consideraron las siguientes variables para el diseño de las actividades:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>
+<bold>Niveles de lectura:</bold> facilitan la elección del nivel de dificultad que se tenía en mente para cada una de las actividades (Díaz-Levicoy et al., 2017). Fueron considerados los niveles propuestos por Cursio (1989) y Friel et al. (2001), específicamente: N1. Leer los datos; N2. Leer dentro de los datos; N3. Leer más allá de los datos y N4. Leer detrás de los datos.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Nivel de complejidad semiótica:</bold> fueron tomados en cuenta los usados por Díaz-Levicoy et al. (2017) y Pallauta y Arteaga (2021) en sus estudios. Específicamente: N1. Representación de datos individuales; N2. Representación de una lista de datos; N3. Representación de una distribución de datos y N4. Representación de varias distribuciones sobre un mismo gráfico.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Tipo de actividad:</bold> corresponde al accionar que hará el estudiante en relación con los gráficos estadísticos. Específicamente se consideraron las propuestas por Díaz-Levicoy et al (2017), destacándose: leer, construir, ejemplo, pasar a tabla, completare inventar un problema..</p>
+</list-item>
+<list-item>
+<p>
+<bold>Propósito del gráfico estadístico:</bold> los propósitos considerados son los expuestos por Kosslyn (1985): análisis, construcción y comunicación.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Contexto:</bold> en concordancia con el Programa para la Evaluación Internacional de Alumnos (PISA) (OECD, 2017) el contexto de una actividad matemática es importante porque de ello dependerán las estrategias que utilizará el estudiante al enfrentarse a la tarea. Para la construcción de las actividades, se consideraron los mismos contextos que expone PISA (OECD, 2017), a saber: personal, ocupacional, social y científico.</p>
+</list-item>
+</list>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Diseño de las actividades y secciones del libro</bold>
+</title>
+<p>Para el diseño del libro se tomaron en cuenta diversos apartados para ofrecer una experiencia de aprendizaje integral. Así, el libro incluye secciones como repaso de conocimientos previos, reforzamiento de un contenido determinado, conocimientos más avanzados (pensando en estudiantes talentosos o con mayor interés), teoría y situaciones contextualizadas, ejercicios de práctica con soluciones paso a paso, videos explicativos, aplicaciones tecnológicas, secciones con curiosidades o historia de la estadística y matemática en general, y videos.</p>
+<p>Lo anterior permitió cumplir con lo indicado en los PMCR según los siguientes ejes disciplinares: la resolución de problemas como estrategia metodológica principal, la contextualización activa como un componente pedagógico especial, el uso inteligente y visionario de tecnologías digitales, la potenciación de actitudes y creencias positivas en torno a las Matemáticas y el uso de la historia de las Matemáticas. (MEP; 2012, p. 15). En cada sección se confeccionaron actividades que involucraban gráficos estadísticos.</p>
+</sec>
+<sec>
+<title>
+<bold>Análisis de contenido</bold>
+</title>
+<p>Después de que se confeccionaron todas las actividades asociadas con gráficos estadísticos, se realizó un análisis del contenido de las actividades diseñadas, pues este método permite “establecer y estudiar la diversidad de significados escolares de los conceptos y procedimientos de las matemáticas que aparecen un texto” (Rico, 2013, p. 18). Se siguieron las fases propuestas por Piñuel (2002), a saber:</p>
+<p>
+<list list-type="alpha-upper">
+<list-item>
+<p>
+<bold>Elegir el texto que se someterá al estudio: </bold>en este caso corresponde al libro de texto interactivo confeccionado.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Seleccionar las categorías que se utilizarán: </bold>corresponden a las variables nivel de lectura, nivel de complejidad semiótica, tipo de actividad, propósito del gráfico estadístico y contexto. Estas categorías han sido utilizadas en otros estudios a nivel iberoamericano (Jiménez-Castro y Arteaga, 2019; Jiménez-Castro et al. 2020; Jiménez-Castro et al., 2022, Vidal-Henry et al., 2021).,</p>
+</list-item>
+<list-item>
+<p>
+<bold>Seleccionar unidades de análisis:</bold> corresponden a cada una de las actividades que involucra el manejo con un gráfico estadístico.</p>
+</list-item>
+<list-item>
+<p>
+<bold>Seleccionar el sistema de recuento:</bold> se cuenta la presencia de cada variable en las actividades que sirven de unidad de análisis.</p>
+</list-item>
+</list>
+</p>
+<p>Esta etapa permitió identificar debilidades en las variables que se utilizaron para el desarrollo de actividades. Por ejemplo, detectar si había una mayor concentración de tareas asociadas a un nivel de lectura y era necesario reforzar otro.</p>
+</sec>
+<sec>
+<title>
+<bold>Proceso de validación</bold>
+</title>
+<p>Después de realizar ajustes necesarios con respecto a la etapa anterior, se llevaron a cabo validaciones mediante el juicio de expertos en donde se empleó un formulario (consultar anexo A) que evaluó diversos aspectos, como la calidad y cantidad de actividades y el lenguaje utilizado. Además, se contó con la participación de docentes en ejercicio de primaria con más de 5 años de experiencia en la enseñanza de los contenidos del libro, así como del asesor nacional de matemáticas de I y II ciclo.</p>
+<p>En total, participaron seis docentes de primaria, junto con el asesor, considerados expertos debido a su vasta experiencia y conocimientos en el campo, lo que aportó una perspectiva valiosa para enriquecer el proceso de validación y garantizar la calidad de las actividades propuestas. Algunos de los comentarios y sugerencias de los docentes se encuentran detallados en el anexo B.</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Resultados</bold>
+</title>
+<p>El libro elaborado, centrado en el nivel de tercer año, consta de 149 páginas sobre contenidos estadísticos, 60 de las cuales corresponden a la lectura y comprensión de gráficos estadísticos. A continuación, se presentan los resultados de cada una de las variables consideradas en el análisis de contenido.</p>
+<sec>
+<title>
+<bold>Niveles de lectura</bold>
+</title>
+<p>En la obra elaborada, el nivel de lectura predominante en las actividades relacionadas con gráficos estadísticos es el nivel 2 con un 61.8% (ver tabla 1), coincidiendo con los resultados de estudios iberoamericanos, donde, para la educación primaria, el nivel 2 tiene más presencia (Vidal-Henry et al., 2021). Sin embargo, difiere de los resultados encontrados en los libros costarricenses, donde el nivel 1 aparece con un 50.9% en las actividades que involucran gráficos (Jiménez-Castro et al., 2020), pero es consistente con lo propuesto por el MEP (2012) en sus programas en donde se quiere fomentar la evaluación y comprensión de la información transmitida por los datos.</p>
+<p>
+<table-wrap id="gt1">
+<label>Tabla 1</label>
+<caption>
+<title>Tabla 1</title>
+<p>Niveles de lectura</p>
+</caption>
+<alt-text>Tabla 1 Tabla 1</alt-text>
+<alternatives>
+<graphic xlink:href="607976802007_gt2.png" position="anchor" orientation="portrait"/>
+<table id="gt2-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: left;">N1: Leer los datos</td>
+<td style="text-align: center;">14.4</td>
+</tr>
+<tr>
+<td style="text-align: left;">N2: Leer dentro de los datos</td>
+<td style="text-align: center;">61.8</td>
+</tr>
+<tr>
+<td style="text-align: left;">N3: Leer más allá de los datos</td>
+<td style="text-align: center;">9.4</td>
+</tr>
+<tr>
+<td style="text-align: left;">N4: Leer detrás de los datos</td>
+<td style="text-align: center;">14.4</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>En la investigación de Jiménez-Castro et al. (2020) con libros de texto costarricenses, se contabiliza el nivel 3 con un 7.3% y el nivel 4 con 1.8%; se incrementaron esos niveles de lectura en el libro construido, alcanzando un 9.4% en el nivel 3 y un 14.4% en el nivel 4 en las actividades con gráficos estadísticos. Un ejemplo de actividad en donde se requiere un nivel 2 de lectura se presenta en la figura <xref ref-type="fig" rid="gf11">1</xref>, específicamente en los incisos b), c) y d) en donde deben realizar comparaciones o cálculos sencillos como sumas para responder a las interrogantes.</p>
+<p>Por otro lado, se puede observar un ejemplo de actividad en un nivel de lectura N4 con respecto al gráfico presentado en la figura <xref ref-type="fig" rid="gf11">1</xref> y específicamente en el interrogante e), en donde los estudiantes deben establecer una conclusión con respecto a la globalidad de la información presentada en el gráfico.</p>
+</sec>
+<sec>
+<title>
+<bold>Tipos de contexto</bold>
+</title>
+<p>El libro confeccionado presenta porcentajes muy similares para los contextos personal, ocupacional o escolar y social en las actividades con gráficos estadísticos. La información se puede observar en la tabla <xref ref-type="table" rid="gt2">2</xref>.</p>
+<p>Se puede observar que los contextos que más presencia tienen son el ocupacional o escolar, el social y el personal, todos con un 29%. Lo propuesto, coincide con la investigación realizada a nivel costarricense, en donde el contexto ocupacional o laboral es uno de mayor predominio junto con el contexto personal (un 34.6% para ambos) y el científico es el que menos presencia supone (un 3.8%) (Jiménez-Castro et al., 2022). A nivel Iberoamericano el mayor porcentaje de tareas con gráficos estadísticos se enmarcan en un contexto personal (Vidal-Henry et al., 2021).</p>
+<p>
+<fig id="gf4">
+<label>Figura 2</label>
+<caption>
+<title>Figura 2</title>
+<p>Ejemplo de complejidad semiótica 3, representación de una distribución de datos.</p>
+</caption>
+<alt-text>Figura 2 Figura 2</alt-text>
+<graphic xlink:href="607976802007_gf3.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>
+<table-wrap id="gt2">
+<label>Tabla 2</label>
+<caption>
+<title>Tabla 2</title>
+<p>Porcentaje de gráficos estadísticos por contexto.</p>
+</caption>
+<alt-text>Tabla 2 Tabla 2</alt-text>
+<alternatives>
+<graphic xlink:href="607976802007_gt3.png" position="anchor" orientation="portrait"/>
+<table id="gt3-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: left;">Personal</td>
+<td style="text-align: center;">29</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ocupacional o escolar</td>
+<td style="text-align: center;">29</td>
+</tr>
+<tr>
+<td style="text-align: left;">Científico</td>
+<td style="text-align: center;">13</td>
+</tr>
+<tr>
+<td style="text-align: left;">Social</td>
+<td style="text-align: center;">29</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>En el libro diseñado, el contexto científico supone un 13% de presencia en las actividades incluidas, es decir, casi un 10% más con respecto a los libros nacionales; lo que responde a la recomendación de Vidal-Henry et al. (2021) quienes indican que se debe reforzar los contextos social, ocupacional y científico.</p>
+<p>En las figuras <xref ref-type="fig" rid="gf11">1</xref>, <xref ref-type="fig" rid="gf4">2</xref> y <xref ref-type="fig" rid="gf3">3</xref> se presentan ejemplos de contextos sociales, puesto que son situaciones que van más allá de la realidad del estudiantado. Por otro lado, en la figura <xref ref-type="fig" rid="gf5">4</xref> se presenta un contexto ocupacional, ya que está relacionado con una situación del mundo laboral. En la figura <xref ref-type="fig" rid="gf12">5</xref> se hace alusión a un contexto de tipo científico, pues se relacionan con características comparables de hábitos de animales.</p>
+<p>
+<fig id="gf3">
+<label>Figura 3</label>
+<caption>
+<title>Figura 3</title>
+<p>Ejemplo de actividad de contexto social y con el propósito de comunicación.</p>
+</caption>
+<alt-text>Figura 3 Figura 3</alt-text>
+<graphic xlink:href="607976802007_gf4.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf5">
+<label>Figura 4</label>
+<caption>
+<title>Figura 4</title>
+<p>Ejemplo de un contexto ocupacional.</p>
+</caption>
+<alt-text>Figura 4 Figura 4</alt-text>
+<graphic xlink:href="607976802007_gf5.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf12">
+<label>Figura 5</label>
+<caption>
+<title>Figura 5</title>
+<p>Ejemplo de actividad con un contexto científico y del tipo de construir y completar.</p>
+</caption>
+<alt-text>Figura 5 Figura 5</alt-text>
+<graphic xlink:href="607976802007_gf6.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Tipos de actividades</bold>
+</title>
+<p>La investigación de Jiménez-Castro et al. (2020) indica que, para el tercer año, en los libros costarricenses, la actividad de leer representa un 41.8%, teniendo la mayor frecuencia con respecto al resto de actividades, lo que contrasta con las recomendaciones de Díaz-Levicoy et al. (2017), quienes sugieren que este tipo de tarea debería ir disminuyendo conforme se avanza en los niveles educativos. Con respecto al libro generado, se le brindó más presencia a la actividad de cálculo suponiendo un mayor nivel cognitivo por parte del estudiantado.</p>
+<p>En la tabla 3 se nota que la actividad más presentada en relación con los gráficos estadísticos es la de calcular, lo que implica manipular datos junto con operaciones aritméticas. Seguidamente, con mayor frecuencia aparecen las de leer el gráfico y las de construir.</p>
+<p>
+<table-wrap id="gt3">
+<label>Tabla 3</label>
+<caption>
+<title>Tabla 3</title>
+<p>Porcentaje de gráficos estadísticos por tipo de actividad</p>
+</caption>
+<alt-text>Tabla 3 Tabla 3</alt-text>
+<alternatives>
+<graphic xlink:href="607976802007_gt4.png" position="anchor" orientation="portrait"/>
+<table id="gt4-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: left;">Leer</td>
+<td style="text-align: left;">32.9</td>
+</tr>
+<tr>
+<td style="text-align: left;">Calcular</td>
+<td style="text-align: left;">40.4</td>
+</tr>
+<tr>
+<td style="text-align: left;">Construir</td>
+<td style="text-align: left;">9.6</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ejemplo</td>
+<td style="text-align: left;">2.2</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pasar a tabla</td>
+<td style="text-align: left;">5.3</td>
+</tr>
+<tr>
+<td style="text-align: left;">Inventar un problema</td>
+<td style="text-align: left;">5.3</td>
+</tr>
+<tr>
+<td style="text-align: left;">Completar</td>
+<td style="text-align: left;">4.3</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia.</attrib>
+</table-wrap>
+</p>
+<p>La actividad de construcción está presente un 9.6 %, ya que en las habilidades esperadas para tercer año el estudiantado con información resumida en gráficos de barras. Esta es una diferencia con respecto a los libros de textos costarricenses analizados por Jiménez-Castro et al. (2020) donde solo un 5.5 % de las actividades son de construcción. Además, en esa investigación, la actividad de inventar un problema es la que menos presencia tenía, únicamente con un 1.8%, en el libro construido esto se fortaleció con un 5.3% de actividades en esa línea.</p>
+<p>En la figura <xref ref-type="fig" rid="gf12">5</xref>, se presenta una actividad en donde en el inciso a) deben construir y en el c) inventar un problema. Por otro lado, si se observa la figura 1, para la interrogante a) se presenta la actividad de leer, mientras que para la pregunta d) implica una tarea relacionada con calcular.</p>
+</sec>
+<sec>
+<title>
+<bold>Propósito del gráfico</bold>
+</title>
+<p>Dentro de las actividades presentadas en el libro, el propósito de analizar es el que más resalta con un 57.9%, seguido por el de construcción con un 26.3% y la que menor presencia tiene es la de comunicar con un 15.8%. Estos resultados coinciden con los resaltados en libros de textos nacionales, en donde el propósito del 53% de las actividades contempladas era el análisis, un 23.6% la construcción y un 12.7% la comunicación (Jiménez-Castro et al., 2020).</p>
+<p>En el inciso a) de la figura <xref ref-type="fig" rid="gf3">3</xref> se presenta un propósito de comunicación, ya que el estudiante solo debe utilizar la información presentada en el gráfico para elaborar una tabla sin necesitar extraer información de este. Por otro lado, si se observa la figura <xref ref-type="fig" rid="gf11">1</xref>, se puede observar un ejemplo de gráfico con propósito de análisis, en donde el estudiante debe usarlo para responder a una serie de interrogantes. También en la figura <xref ref-type="fig" rid="gf12">5</xref>, para el inciso a) se presenta un propósito de construcción, pues dada la información debe elaborarse el gráfico de barras.</p>
+</sec>
+<sec>
+<title>
+<bold>Uso de la tecnología</bold>
+</title>
+<p>La investigación de Jiménez-Castro et al. (2020) puso de manifiesto la carencia en el uso de la tecnología asociada a actividades con gráficos estadísticos en los libros de texto costarricenses. Para solventar esta debilidad, en el libro confeccionado se incluyó una sección de “aplicaciones tecnológicas”, en la que se presentan herramientas interactivas de la web que permiten explorar datos o construir gráficos estadísticos. En total son 4 secciones asociadas con tecnología que se relacionan con gráficos estadísticos y algunas de estas se acompañan con la explicación en videos. En la figura <xref ref-type="fig" rid="gf6">6</xref>, los estudiantes, en una actividad previa, debían recolectar datos asociados al color y tipos de calcetines que tienen y luego se sugiere construir el gráfico de barras apoyado en una aplicación de GeoGebra.</p>
+<p>
+<fig id="gf6">
+<label>Figura 6</label>
+<caption>
+<title>Figura 6</title>
+<p>Ejemplo de actividad que involucra el uso de tecnología.</p>
+</caption>
+<alt-text>Figura 6 Figura 6</alt-text>
+<graphic xlink:href="607976802007_gf7.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>Ejemplo de actividad que involucra el uso de la tecnología. Elaboración propia</p>
+</sec>
+<sec>
+<title>
+<bold>Resolución de problemas</bold>
+</title>
+<p>La investigación de Jiménez-Castro et al. (2020) también develó que los libros de texto costarricenses no favorecen el lineamiento curricular, establecido en el programa de matemática vigente, vinculado con la resolución de problemas en contextualización activa. En contraste, el libro de texto creado comienza cada tema con una situación problemática contextualizada, y se refuerza especialmente en las secciones de práctica. En total, el libro propone 15 situaciones que evocan la resolución de problemas ubicados en las secciones teóricas y las prácticas. En la figura <xref ref-type="fig" rid="gf7">7</xref> se presenta un gráfico asociado a una situación problema, donde se debe ayudar a una turista que quiere visitar la provincia de Puntarenas en una temporada menos lluviosa y se le cuestiona: ¿qué mes le recomendaría venir al turista?</p>
+<p>
+<fig id="gf7">
+<label>Figura 7</label>
+<caption>
+<title>Figura 7</title>
+<p>Gráfico asociado a una situación problema contextualizada.</p>
+</caption>
+<alt-text>Figura 7 Figura 7</alt-text>
+<graphic xlink:href="607976802007_gf8.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+<p>Estas situaciones problema que se plantean en el libro, se enmarcan en el eje disciplinar que plantea el programa de matemática vigente referente a la contextualización activa como un componente pedagógico. La figura <xref ref-type="fig" rid="gf8">8</xref> sirve como ilustración de esto, mostrando una tabla que presenta el número de turistas de países específicos del Medio Oriente que visitaron Costa Rica en abril de 2022. En este contexto, se insta a los estudiantes a construir un gráfico de barras para representar visualmente la información, al tiempo que se les plantean preguntas generales sobre los datos proporcionados. Como parte de la solución al problema presentado al estudiante, se incluye el mapa de Costa Rica y la región del Medio Oriente. Al incorporar la dimensión geográfica en la experiencia de aprendizaje, se anima a los estudiantes a establecer conexiones entre la estadística matemática y los contextos del mundo real, enriqueciendo así su comprensión del tema.</p>
+<p>
+<fig id="gf8">
+<label>Figura 8 (a)</label>
+<caption>
+<title>Figura 8</title>
+<p>Enunciado del problema</p>
+</caption>
+<alt-text>Figura 8 (a) Figura 8</alt-text>
+<graphic xlink:href="607976802007_gf9.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>
+<fig id="gf9">
+<label>Figura 8 (b)</label>
+<caption>
+<title>Figura 8</title>
+<p>Ejemplo de actividad que supone un problema contextualizado</p>
+</caption>
+<alt-text>Figura 8 (b) Figura 8</alt-text>
+<graphic xlink:href="607976802007_gf10.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Otras actividades que favorecen la argumentación estadística</bold>
+</title>
+<p>Además de las actividades consideradas en la sección 5.4., se incorporaron otro tipo de tareas que favorecen la justificación y argumentación estadística, atendiendo la sugerencia de Bustamante-Valdés y Díaz-Levicoy (2020), quienes indican que debe incluirse con mayor frecuencia este tipo de tareas en los libros de texto.</p>
+<p>Se desarrollaron actividades en las que se plantea la pregunta sobre cuál es la representación más apropiada para describir un conjunto de datos y otras en donde se deben identificar errores presentados en la construcción de gráficos estadísticos. Un ejemplo de esto se presenta en la figura <xref ref-type="fig" rid="gf10">9</xref> en donde deben identificarse errores o dificultades para interpretar la información provista por unos datos que fueron recolectados.</p>
+<p>
+<fig id="gf10">
+<label>Figura 9</label>
+<caption>
+<title>Figura 9</title>
+<p>Ejemplo de actividad que supone un problema contextualizado en donde se debe emplear la argumentación estadística.</p>
+</caption>
+<alt-text>Figura 9 Figura 9</alt-text>
+<graphic xlink:href="607976802007_gf11.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia.</attrib>
+</fig>
+</p>
+</sec>
+<sec>
+<title>
+<bold>Niveles de complejidad semiótica</bold>
+</title>
+<p>Con respecto a los niveles de complejidad semiótica, las actividades relacionadas con los gráficos estadísticos únicamente se centran en el nivel 2: Representación de una lista de datos (un 29.4 % de las actividades) y el nivel 3: Representación de una distribución de datos (un 70.6 % de las actividades). Contrastándolo con los resultados presentados en Jiménez-Castro et al. (2019) y Jiménez-Castro et al. (2020), para tercer a ˜no los libros de texto costarricenses ubican el 100 % de las actividades en un nivel 3, lo que también coincide con los resultados a nivel general de primaria en Iberoamérica (Vidal-Henry et al., 2021).</p>
+<p>
+<fig id="gf11">
+<label>Figura 1</label>
+<caption>
+<title>Figura 1</title>
+<p>Ejemplo de nivel de lectura N2 y N4.</p>
+</caption>
+<alt-text>Figura 1 Figura 1</alt-text>
+<graphic xlink:href="607976802007_gf2.png" position="anchor" orientation="portrait"/>
+<attrib>Elaboración propia</attrib>
+</fig>
+</p>
+<p>A diferencia de los resultados obtenidos en esas investigaciones, se decide dejar el porcentaje de actividades de la propuesta sugeridas para el nivel 2, siguiendo la sugerencia de Díaz-Levicoy et al. (2017) quienes plantean que “Sería interesante trabajar con más cantidad de gráficos de nivel semiótico 2 que facilitarían la comprensión de estos mismos y de gráficos de complejidad superior”. (p. 312)</p>
+<p>En la figura <xref ref-type="fig" rid="gf4">2</xref> se puede observar un ejemplo de gráfico en un nivel de complejidad semiótica 3 que se incorporó en el libro confeccionado. Se puede observar la formación de una distribución de frecuencias.</p>
+</sec>
+</sec>
+<sec>
+<title>
+<bold>Conclusiones</bold>
+</title>
+<p>Los libros de texto desempeñan un papel importante en la enseñanza de los contenidos de cualquier currículo. Manteniendo esto en perspectiva, se ha diseñado un libro específicamente para estudiantes de tercer año de la educación primaria costarricense, centrado en la educación en estadística y siguiendo los lineamientos del currículo actual establecido en los PMCR. El libro ofrece una amplia gama de secciones: revisión de conocimientos previos, refuerzo de contenido específico, conceptos avanzados para desafiar a estudiantes talentosos, videos interactivos, aplicaciones tecnológicas y secciones que enfatizan la aplicación práctica del conocimiento estadístico en situaciones del mundo real.</p>
+<p>El nivel de lectura predominante en las actividades relacionadas con gráficos es el N2: Leer entre los datos, pero también se favorecen los restantes niveles, lo que se alinea con la sugerencia de fomentar la evaluación y comprensión de la información que los datos transmiten, tal como se propone en los PMCR (Jiménez-Castro et al. 2020). Además, se fortaleció la presencia de los niveles 3 y 4 siguiendo las recomendaciones internacionales (Vidal-Henry et al., 2021). Esto marca una diferencia favorable con respecto a los niveles de lectura presentes en otros libros de texto producidos por editoriales de libros costarricenses.</p>
+<p>En cuanto al nivel de complejidad semiótica se presenta en mayor proporción el nivel 3 de representación de una distribución de datos, lo que coincide con los resultados de Jiménez-Castro et al. (2020), y atiende el planteamiento de estos autores acerca de que la complejidad de los gráficos debe ir en aumento conforme se avanza en los niveles educativos. Aproximadamente una cuarta parte de las actividades son de un nivel 2 de complejidad semiótica, lo que se ajusta a las recomendaciones de investigaciones internacionales (Díaz-Levicoy et al., 2017). El nivel 1 no se encuentra presente, pues es muy básico para el tercer año escolar y el cuarto nivel no se presenta pues debería desarrollarse en años posteriores.</p>
+<p>Los tipos de actividades predominantes en el libro confeccionado son las de calcular, leer y construir, alineándose con lo que dictan los PMCR. Además, se reforzó la actividad de inventar problemas para superar los hallazgos de Jiménez-Castro et al. (2020) de que este tipo de tarea estaba casi ausente en los textos costarricenses. Se incorporaron tareas en donde se favorece la justificación y argumentación estadística, al tener que discutir sobre la mejor representación para un conjunto de datos o errores presentes en la construcción de gráficos estadísticos.</p>
+<p>Los contextos que más resaltan son: ocupacional o escolar y social, coincidiendo con las orientaciones del MEP (2012) en los PMCR al indicar que “muchos de los problemas que se han sugerido hasta ahora se relacionan con características estudiantiles; pero ésta no debe ser la norma, sino que dentro del contexto escolar, familiar o comunal es posible plantear problemas que involucren otras características.” (p. 166). Además, se fortalecieron actividades en el contexto científico, aumentando su presencia con respecto a los resultados encontrados en algunas editoriales de libros costarricenses (Jiménez-Castro et al., 2020) y atendiendo la recomendación de estudios internacionales (Vidal-Henry et al., 2021).</p>
+<p>En cuanto a los propósitos de las actividades, el mayor porcentaje están centradas en el análisis y esto se adecúa a las indicaciones del PMCR, al buscar que se respondan preguntas orientadas a la presentación y el análisis de datos (MEP, 2012).</p>
+<p>Dado que la investigación de Jiménez-Castro et al. (2020) reportó carencias en el uso de la tecnología en los libros de textos que analizaron, el libro desarrollado incorpora una sección denominada “aplicaciones tecnológicas” en la que se fomenta el uso de herramientas de la web para la recolección de datos o la elaboración de gráficos estadísticos.</p>
+<p>Otras de las carencias reportadas por Jiménez-Castro et al. (2020) es que los libros de texto costarricenses, en el área de estadística no se enfocan en la resolución de problemas tal y como se pretende en los PMCR. Por ello, para superar esta carencia en el libro se proponen situaciones problema contextualizadas al inicio de cada área temática y en las secciones de práctica. En total son 15 las situaciones asociadas con la resolución de problemas asociadas con gráficos estadísticos que se incorporaron en el libro. Además, un 5.3% de las actividades relacionadas con gráficos se centran en que los estudiantes inventen sus propios problemas, formulando situaciones o preguntas.</p>
+<p>La etapa de análisis de contenido permitió detectar algunas debilidades en la propuesta. Por ejemplo, existían pocas actividades en un nivel 3 de lectura de gráficos estadísticos, necesitaba reforzarse los contextos personales y la actividad de pasar a tabla era necesario fortalecerse. Por tanto, se realizaron las mejoras respectivas y se obtuvo la información presentada anteriormente.</p>
+<p>El libro propuesto, por tanto, presenta un enfoque que se valora como novedoso y completo para la enseñanza de gráficos estadísticos, que superar las limitaciones encontradas en los libros de texto analizados por Jiménez-Castro et al. (2020) y, por ello, ofrece una experiencia de aprendizaje integral que aborda conceptos teóricos, enfatiza aplicaciones prácticas, contextualiza el conocimiento estadístico en situaciones del mundo real e incorpora tecnología y la historia de las matemáticas.</p>
+<p>Actualmente no existe un recurso comparable en el panorama educativo costarricense que abarque todas las características mencionadas anteriormente y, por tanto, el libro que se ha elaborado es pionero en la educación costarricense.</p>
+<p>Se espera que el libro resulte valioso para la comunidad educativa costarricense, en primer lugar, y que también pueda ser de utilidad en otros ámbitos educativos, ofreciendo una amplia gama de recursos de alta calidad y de acceso gratuito. Además, las personas autoras esperamos que la metodología utilizada para la elaboración del libro pueda servir de base para iniciativas similares en otras regiones, no solo en el campo de la estadística, sino también en otras áreas de las Matemáticas.</p>
+<p>
+<bold>Contribución de las personas autoras:</bold> Conceptualización: C.M.M., Z.S.V.A., R.S.O., L.G.M.C. Investigación: C.M.M., Z.S.V.A., R.S.O. Metodología: C.M.M., Z.S.V.A., R.S.O., L.G.M.C. Validación: C.M.M., Z.S.V.A., R.S.O. Escritura (borrador original): C.M.M., Z.S.V.A., R.S.O., L.G.M.C. Escritura (revisión y edición): C.M.M., Z.S.V.A., R.S.O., L.G.M.C.</p>
+<p>
+<bold>Accesibilidad de datos:</bold> El libro interactivo es de acceso gratuito y puede descargarse desde el sitio web <ext-link ext-link-type="uri" xlink:href="http://www.tec.ac.cr/eveprim">http://www.tec.ac.cr/eveprim</ext-link>.</p>
+</sec>
+</body>
+<back>
+<ack>
+<title>Agradecimientos</title>
+<p>
+<bold>Agradecimientos:</bold> Se agradece el apoyo de la Vicerrectoría de Investigación y Extensión del ITCR, a los docentes participantes en los procesos de validación y a los estudiantes asistentes de la carrera Enseñanza de la Matemática con Entornos Tecnológicos del ITCR por su valiosa ayuda .</p>
+</ack>
+<ref-list>
+<title>Referencias</title>
+<ref id="redalyc_607976802007_ref1">
+<label>[1]</label>
+<mixed-citation>[1] Alsina, A. (2019). La estadística y la probabilidad en educación infantil: un itinerario de enseñanza. En J. M. Contreras, M. M. Gea, M. M. López-Martín y E. Molina-Portillo (Eds.), Actas del Tercer Congreso Internacional Virtual de Educación Estadística. Disponible en <ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/10481/55032">http://hdl.handle.net/10481/55032</ext-link>.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Alsina</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>Contreras</surname>
+<given-names>J. M.</given-names>
+</name>
+<name>
+<surname>Gea</surname>
+<given-names>M. M.</given-names>
+</name>
+<name>
+<surname>López-Martín</surname>
+<given-names>M. M.</given-names>
+</name>
+<name>
+<surname>Molina-Portillo</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>La estadística y la probabilidad en educación infantil: un itinerario de enseñanza.</article-title>
+<source>Actas del Tercer Congreso Internacional Virtual de Educación Estadística.</source>
+<year>2019</year>
+<comment>http://hdl.handle.net/10481/55032</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref2">
+<label>[2]</label>
+<mixed-citation>[2] Arredondo, E., García, J. y López, C. (2018). Niveles de lectura de estudiantes de licenciatura: el caso de una tabla y gráfico de líneas. Revista Digital Matemática, Educación e Internet, 19(2), 1-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18845/rdmei.v19i2.4214">https://doi.org/10.18845/rdmei.v19i2.4214</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Arredondo</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>García</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>López</surname>
+<given-names>C.</given-names>
+</name>
+</person-group>
+<article-title>Niveles de lectura de estudiantes de licenciatura: el caso de una tabla y gráfico de líneas</article-title>
+<source>Revista Digital Matemática, Educación e Internet</source>
+<year>2018</year>
+<volume>19</volume>
+<issue>(2)</issue>
+<fpage>1</fpage>
+<lpage>13</lpage>
+<pub-id pub-id-type="doi">10.18845/rdmei.v19i2.4214</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref3">
+<label>[3]</label>
+<mixed-citation>[3] Braga, B. y Belver, J. (2014). El análisis de libros de texto: una estrategia metodológica en la formación de los profesionales de la educación. Revista Complutense de Educación, 27(1), 199-218.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5209/rev_RCED.2016.v27.n1.45688">https://doi.org/10.5209/rev_RCED.2016.v27.n1.45688</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Braga</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Belver</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>El análisis de libros de texto: una estrategia metodológica en la formación de los profesionales de la educación</article-title>
+<source>Revista Complutense de Educación</source>
+<year>2014</year>
+<volume>27</volume>
+<issue>1</issue>
+<fpage>199</fpage>
+<lpage>218</lpage>
+<pub-id pub-id-type="doi">10.5209/rev_RCED.2016.v27.n1.45688</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref4">
+<label>[4]</label>
+<mixed-citation>[4] Bustamante-Valdés, M. y Díaz-Levicoy, D. (2020). Actividades evaluativas sobre gráficos estadísticos en el libro de texto para escuelas rurales multigrado-chilenas. Revista de Estudios y Experiencias en Educación, 20(43), 149-166. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21703/rexe.20212043bustamante8">https://doi.org/10.21703/rexe.20212043bustamante8</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bustamante-Valdés</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Díaz-Levicoy</surname>
+<given-names>D.</given-names>
+</name>
+</person-group>
+<article-title>Actividades evaluativas sobre gráficos estadísticos en el libro de texto para escuelas rurales multigrado-chilenas</article-title>
+<source>Revista de Estudios y Experiencias en Educación</source>
+<year>2020</year>
+<volume>20</volume>
+<issue>43</issue>
+<fpage>149</fpage>
+<lpage>166</lpage>
+<pub-id pub-id-type="doi">10.21703/rexe.20212043bustamante8</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref5">
+<label>[5]</label>
+<mixed-citation>[5] Curcio, F.R. (1989). Developing graph comprehension. National Council of Teachers of Mathematics.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Curcio</surname>
+<given-names>F.R.</given-names>
+</name>
+</person-group>
+<article-title>Developing graph comprehension</article-title>
+<source>National Council of Teachers of Mathematics.</source>
+<year>1989</year>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref6">
+<label>[6]</label>
+<mixed-citation>[6] Dhakulkar, A. &amp; Nagarjuna, G. (2011). An Analysis of Graphs in School Textbooks. In S. Chunawala &amp; M. Kharatmal (Eds.), Proceedings of epiSTEME 4: International Conference to Review Research on Science, Technology and Mathematics Education (pp. 127–131). Macmillan.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Dhakulkar</surname>
+<given-names>A.</given-names>
+</name>
+<name>
+<surname>Nagarjuna</surname>
+<given-names>G.</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>Chunawala</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Kharatmal</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>An Analysis of Graphs in School Textbooks</article-title>
+<source>Proceedings of epiSTEME 4: International Conference to Review Research on Science, Technology and Mathematics Education</source>
+<year>2011</year>
+<fpage>127</fpage>
+<lpage>131</lpage>
+<publisher-name>Macmillan</publisher-name>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref7">
+<label>[7]</label>
+<mixed-citation>[7] Díaz-Levicoy, D., Giacamone, B. y Arteaga, P. (2017). Caracterización de los gráficos estadísticos en libros de texto argentinos en el segundo ciclo de educación primaria. Profesorado, 21(2), 299-326. Disponible en <ext-link ext-link-type="uri" xlink:href="https://recyt.fecyt.es/index.php/profesorado/article/view/59800">https://recyt.fecyt.es/index.php/profesorado/article/view/59800</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Díaz-Levicoy</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Giacamone</surname>
+<given-names>B.</given-names>
+</name>
+<name>
+<surname>Arteaga</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<article-title>Caracterización de los gráficos estadísticos en libros de texto argentinos en el segundo ciclo de educación primaria</article-title>
+<source>Profesorado</source>
+<year>2017</year>
+<volume>21</volume>
+<issue>2</issue>
+<fpage>299</fpage>
+<lpage>326</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://recyt.fecyt.es/index.php/profesorado/article/view/59800">https://recyt.fecyt.es/index.php/profesorado/article/view/59800</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref8">
+<label>[8]</label>
+<mixed-citation>[8] Díaz-Levicoy, D., Morales-García, L. y Rodríguez-Alveal, F. (2020). Las medidas de tendencia central en libros de texto de Educación Primaria en México. Revista Paradigma, 41, 706-729. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.37618/PARADIGMA.1011-2251.2020.p706-729.id819">https://doi.org/10.37618/PARADIGMA.1011-2251.2020.p706-729.id819</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Díaz-Levicoy</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Morales-García</surname>
+<given-names>L.</given-names>
+</name>
+<name>
+<surname>Rodríguez-Alveal</surname>
+<given-names>F.</given-names>
+</name>
+</person-group>
+<article-title>Las medidas de tendencia central en libros de texto de Educación Primaria en México</article-title>
+<source>Revista Paradigma</source>
+<year>2020</year>
+<volume>41</volume>
+<fpage>706</fpage>
+<lpage>729</lpage>
+<pub-id pub-id-type="doi">10.37618/PARADIGMA.1011-2251.2020.p706-729.id819</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref9">
+<label>[9]</label>
+<mixed-citation>[9] Díaz-Levicoy, D., Osorio, M., Arteaga, P., &amp; Rodríguez-Alveal, F. (2018). Gráficos estadísticos en libros de texto de matemática de Educación Primaria en Perú. Bolema: Boletim de Educação Matemática, 32, 503-525. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1590/1980-4415v32n61a10">http://dx.doi.org/10.1590/1980-4415v32n61a10</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Díaz-Levicoy</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Osorio</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Arteaga</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Rodríguez-Alveal</surname>
+<given-names>F.</given-names>
+</name>
+</person-group>
+<article-title>Gráficos estadísticos en libros de texto de matemática de Educación Primaria en Perú</article-title>
+<source>Bolema: Boletim de Educação Matemática</source>
+<year>2018</year>
+<volume>32</volume>
+<fpage>503</fpage>
+<lpage>525</lpage>
+<pub-id pub-id-type="other">http://dx.doi.org/10.1590/1980-4415v32n61a10</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref10">
+<label>[10]</label>
+<mixed-citation>[10] Friel, S., Curcio, F. y Bright, G. (2001). Making sense of graphs: critical factors influencing comprehension and instructional implications. Journal for Research in mathematics Education, 32(2), 124-158. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/749671">https://doi.org/10.2307/749671</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Friel</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Curcio</surname>
+<given-names>F.</given-names>
+</name>
+<name>
+<surname>Bright</surname>
+<given-names>G.</given-names>
+</name>
+</person-group>
+<article-title>Making sense of graphs: critical factors influencing comprehension and instructional implications</article-title>
+<source>Journal for Research in mathematics Education</source>
+<year>2001</year>
+<volume>32</volume>
+<issue>2</issue>
+<fpage>124</fpage>
+<lpage>158</lpage>
+<pub-id pub-id-type="doi">10.2307/749671</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref11">
+<label>[11]</label>
+<mixed-citation>[11] Gómez, M. (2012). Elementos de Estadística Descriptiva. Editorial Universidad Estatal a Distancia.</mixed-citation>
+<element-citation publication-type="book">
+<person-group person-group-type="author">
+<name>
+<surname>Gómez</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<source>Editorial Universidad Estatal a Distancia.</source>
+<year>2012</year>
+<chapter-title>Elementos de Estadística Descriptiva</chapter-title>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref12">
+<label>[12]</label>
+<mixed-citation>[12] Herreros, D. y Sanz, M.T. (2020). Estadística en educación primaria a través del aprendizaje basado en juegos. Matemáticas, Educación y Sociedad, 3(1), 33-47. Disponible en <ext-link ext-link-type="uri" xlink:href="https://journals.uco.es/mes/article/view/12702">https://journals.uco.es/mes/article/view/12702</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Herreros</surname>
+<given-names>D.</given-names>
+</name>
+<name>
+<surname>Sanz</surname>
+<given-names>M.T.</given-names>
+</name>
+</person-group>
+<article-title>Estadística en educación primaria a través del aprendizaje basado en juegos</article-title>
+<source>Matemáticas, Educación y Sociedad</source>
+<year>2020</year>
+<volume>3</volume>
+<issue>1</issue>
+<fpage>33</fpage>
+<lpage>47</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://journals.uco.es/mes/article/view/12702">https://journals.uco.es/mes/article/view/12702</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref13">
+<label>[13]</label>
+<mixed-citation>[13] Jiménez, M. (2017). Los gráficos estadísticos en el currículo y los libros de texto en Educación Primaria en Costa Rica [Trabajo final de graduación para optar el grado de maestría, Universidad de Granada]. Repositorio Digital Digibug. Disponible en <ext-link ext-link-type="uri" xlink:href="https://www.ugr.es/~batanero/documentos/TFMMaynor.pdf">https://www.ugr.es/~batanero/documentos/TFMMaynor.pdf</ext-link>.</mixed-citation>
+<element-citation publication-type="thesis">
+<person-group person-group-type="author">
+<name>
+<surname>Jiménez</surname>
+<given-names>M.</given-names>
+</name>
+</person-group>
+<article-title>Los gráficos estadísticos en el currículo y los libros de texto en Educación Primaria en Costa Rica</article-title>
+<source>Repositorio Digital Digibug</source>
+<year>2017</year>
+<comment content-type="degree">[Trabajo final de graduación para optar el grado de maestría, Universidad de Granada]</comment>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.ugr.es/~batanero/documentos/TFMMaynor.pdf">https://www.ugr.es/~batanero/documentos/TFMMaynor.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref14">
+<label>[14]</label>
+<mixed-citation>[14] Jiménez-Castro, M. y Arteaga, P. (2019). Complejidad semiótica y nivel de lectura de gráficos estadísticos en libros de texto de la educación primaria en Costa Rica. En J. M. Contreras, M. M. Gea, M. M. López-Martín y E. Molina-Portillo (Eds.), Actas del Tercer Congreso Internacional Virtual de Educación Estadística. Disponible en <ext-link ext-link-type="uri" xlink:href="https://www.ugr.es/~fqm126/civeest/jimenez_arteaga.pdf">https://www.ugr.es/~fqm126/civeest/jimenez_arteaga.pdf</ext-link>.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>Jiménez-Castro</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Arteaga</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<person-group person-group-type="editor">
+<name>
+<surname>Contreras</surname>
+<given-names>J. M.</given-names>
+</name>
+<name>
+<surname>Gea</surname>
+<given-names>M. M.</given-names>
+</name>
+<name>
+<surname>López-Martín</surname>
+<given-names>M. M.</given-names>
+</name>
+<name>
+<surname>Molina-Portillo</surname>
+<given-names>E.</given-names>
+</name>
+</person-group>
+<article-title>Complejidad semiótica y nivel de lectura de gráficos estadísticos en libros de texto de la educación primaria en Costa Rica</article-title>
+<source>Actas del Tercer Congreso Internacional Virtual de Educación Estadística</source>
+<year>2019</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.ugr.es/~fqm126/civeest/jimenez_arteaga.pdf">https://www.ugr.es/~fqm126/civeest/jimenez_arteaga.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref15">
+<label>[15]</label>
+<mixed-citation>[15] Jiménez-Castro, M., Arteaga, P. y Batanero, C. (2020). Los Gráficos Estadísticos en los Libros de Texto de Educación Primaria en Costa Rica. Bolema, 34 (66), 132-156. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1590/1980-4415v34n66a07">http://dx.doi.org/10.1590/1980-4415v34n66a07</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Jiménez-Castro</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Arteaga</surname>
+<given-names>P.</given-names>
+</name>
+<name>
+<surname>Batanero</surname>
+<given-names>C.</given-names>
+</name>
+</person-group>
+<article-title>Los Gráficos Estadísticos en los Libros de Texto de Educación Primaria en Costa Rica</article-title>
+<source>Bolema</source>
+<year>2020</year>
+<volume>34</volume>
+<issue>66</issue>
+<fpage>132</fpage>
+<lpage>156</lpage>
+<pub-id pub-id-type="other">http://dx.doi.org/10.1590/1980-4415v34n66a07</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref16">
+<label>[16]</label>
+<mixed-citation>[16] Jiménez-Castro, M., Garzón-Guerrero, J. y Batanero, C. (2022). El contexto PISA de los gráficos estadísticos en los libros de texto de matemáticas de Educación Básica en Costa Rica. Revista Digital Matemática, Educación e Internet, 22(2), 1-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18845/rdmei.v22i2.6127">https://doi.org/10.18845/rdmei.v22i2.6127</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Jiménez-Castro</surname>
+<given-names>M.</given-names>
+</name>
+<name>
+<surname>Garzón-Guerrero</surname>
+<given-names>J.</given-names>
+</name>
+<name>
+<surname>Batanero</surname>
+<given-names>C.</given-names>
+</name>
+</person-group>
+<article-title>El contexto PISA de los gráficos estadísticos en los libros de texto de matemáticas de Educación Básica en Costa Rica</article-title>
+<source>Revista Digital Matemática, Educación e Internet</source>
+<year>2022</year>
+<volume>22</volume>
+<issue>2</issue>
+<fpage>1</fpage>
+<lpage>17</lpage>
+<pub-id pub-id-type="doi">10.18845/rdmei.v22i2.6127</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref17">
+<label>[17]</label>
+<mixed-citation>[17] Kosslyn, S.M. (1985). Graphics and human information processing. Journal of the American Statistical Association, 80(3), 499-512. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/01621459.1985.10478147">https://doi.org/10.1080/01621459.1985.10478147</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Kosslyn</surname>
+<given-names>S.M.</given-names>
+</name>
+</person-group>
+<article-title>Graphics and human information processing</article-title>
+<source>Journal of the American Statistical Association</source>
+<year>1995</year>
+<volume>80</volume>
+<issue>3</issue>
+<fpage>499</fpage>
+<lpage>512</lpage>
+<pub-id pub-id-type="doi">10.1080/01621459.1985.10478147</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref18">
+<label>[18]</label>
+<mixed-citation>[18] León-Gómez, N. (2021). Enseñanza de la Estadística con sentido y en contexto a través de la resolución de problemas. Realidad Y Reflexión, 53(53), pp. 228–253. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5377/ryr.v53i53.10897">https://doi.org/10.5377/ryr.v53i53.10897</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>León-Gómez</surname>
+<given-names>N.</given-names>
+</name>
+</person-group>
+<article-title>Enseñanza de la Estadística con sentido y en contexto a través de la resolución de problemas</article-title>
+<source>Realidad Y Reflexión</source>
+<year>2021</year>
+<volume>53</volume>
+<issue>53</issue>
+<fpage>228</fpage>
+<lpage>253</lpage>
+<pub-id pub-id-type="doi">10.5377/ryr.v53i53.10897</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref19">
+<label>[19]</label>
+<mixed-citation>[19] Ministerio de Educación Pública de Costa Rica. (2012). Programas de Estudio Matemáticas. Educación General Básica y Ciclo Diversificado. Gobierno de la República de Costa Rica. Disponible en <ext-link ext-link-type="uri" xlink:href="https://www.mep.go.cr/sites/default/files/programadeestudio/programas/matematica.pdf">https://www.mep.go.cr/sites/default/files/programadeestudio/programas/matematica.pdf</ext-link>
+</mixed-citation>
+<element-citation publication-type="other">
+<person-group person-group-type="author">
+<name>
+<surname>de Educación Pública de Costa Rica</surname>
+<given-names>Ministerio</given-names>
+</name>
+<collab>Ministerio de Educación Pública de Costa Rica</collab>
+</person-group>
+<article-title>Programas de Estudio Matemáticas. Educación General Básica y Ciclo Diversificado</article-title>
+<source>Gobierno de la República de Costa Rica</source>
+<year>2012</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.mep.go.cr/sites/default/files/programadeestudio/programas/matematica.pdf">https://www.mep.go.cr/sites/default/files/programadeestudio/programas/matematica.pdf</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref20">
+<label>[20]</label>
+<mixed-citation>[20] OECD (2017), PISA 2015 Assessment and Analytical Framework: Science, Reading, Mathematic, Financial Literacy and Collaborative Problem Solving, PISA, OECD Publishing, Paris. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1787/9789264281820-en">https://doi.org/10.1787/9789264281820-en</ext-link>.</mixed-citation>
+<element-citation publication-type="confproc">
+<person-group person-group-type="author">
+<name>
+<surname>OECD</surname>
+<given-names>OECD</given-names>
+</name>
+<collab>OECD</collab>
+</person-group>
+<article-title>Assessment and Analytical Framework: Science, Reading, Mathematic, Financial Literacy and Collaborative Problem Solving</article-title>
+<source>PISA</source>
+<year>2017</year>
+<publisher-loc>Paris</publisher-loc>
+<publisher-name>OECD Publishing</publisher-name>
+<pub-id pub-id-type="doi">10.1787/9789264281820-en</pub-id>
+<conf-date>2015</conf-date>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref21">
+<label>[21]</label>
+<mixed-citation>[21] Pallauta, J. D. y Arteaga, P. (2021). Niveles de complejidad semiótica en gráficos y tablas estadísticas. Revista de Didáctica de las Matemáticas, 106, 13-22. Disponible en <ext-link ext-link-type="uri" xlink:href="https://hdl.handle.net/11162/221746">https://hdl.handle.net/11162/221746</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Pallauta</surname>
+<given-names>J. D.</given-names>
+</name>
+<name>
+<surname>Arteaga</surname>
+<given-names>P.</given-names>
+</name>
+</person-group>
+<article-title>Niveles de complejidad semiótica en gráficos y tablas estadísticas</article-title>
+<source>Revista de Didáctica de las Matemáticas</source>
+<year>2021</year>
+<volume>106</volume>
+<fpage>13</fpage>
+<lpage>22</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://hdl.handle.net/11162/221746">https://hdl.handle.net/11162/221746</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref22">
+<label>[22]</label>
+<mixed-citation>[22] Piñuel, J. (2002). Epistemología, metodología y técnicas del análisis de contenido. Estudios de Sociolingüística, 3(1), 1-42. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1558/sols.v3i1.1">https://doi.org/10.1558/sols.v3i1.1</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Piñuel</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Epistemología, metodología y técnicas del análisis de contenido</article-title>
+<source>Estudios de Sociolingüística</source>
+<year>2002</year>
+<volume>3</volume>
+<issue>1</issue>
+<fpage>1</fpage>
+<lpage>42</lpage>
+<pub-id pub-id-type="doi">10.1558/sols.v3i1.1</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref23">
+<label>[23]</label>
+<mixed-citation>[23] Programa Estado de la Educación en Desarrollo Humano Sostenible (2023). Resumen noveno informe estado de la educación (1.a ed.). PEN. Disponible en <ext-link ext-link-type="uri" xlink:href="https://estadonacion.or.cr/informes/">https://estadonacion.or.cr/informes/</ext-link>
+</mixed-citation>
+<element-citation publication-type="report">
+<person-group person-group-type="author">
+<name>
+<surname>Estado de la Educación en Desarrollo Humano Sostenible</surname>
+<given-names>Programa</given-names>
+</name>
+<collab>Programa Estado de la Educación en Desarrollo Humano Sostenible</collab>
+</person-group>
+<article-title>Resumen noveno informe estado de la educación</article-title>
+<source>PEN</source>
+<year>2023</year>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://estadonacion.or.cr/informes/">https://estadonacion.or.cr/informes/</ext-link>
+</comment>
+<edition>1</edition>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref24">
+<label>[24]</label>
+<mixed-citation>[24] Rico, L. (2013). El método del Análisis Didáctico. Revista Iberoamericana de Educación Matemática, 33, 11-27. Disponible en <ext-link ext-link-type="uri" xlink:href="https://www.revistaunion.org/index.php/UNION/article/view/801">https://www.revistaunion.org/index.php/UNION/article/view/801</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rico</surname>
+<given-names>L.</given-names>
+</name>
+</person-group>
+<article-title>El método del Análisis Didáctico</article-title>
+<source>Revista Iberoamericana de Educación Matemática</source>
+<year>2013</year>
+<volume>33</volume>
+<fpage>11</fpage>
+<lpage>27</lpage>
+<comment>
+<ext-link ext-link-type="uri" xlink:href="https://www.revistaunion.org/index.php/UNION/article/view/801">https://www.revistaunion.org/index.php/UNION/article/view/801</ext-link>
+</comment>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref25">
+<label>[25]</label>
+<mixed-citation>[25] Sievert, H., Van den Ham, A. K., Niedermeyer, I. y Heinze, A. (2019). Effects of mathematics textbooks on the development of primary school children’s adaptive expertise in arithmetic. Learning and Individual Differences, 74, 1-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.lindif.2019.02.006">https://doi.org/10.1016/j.lindif.2019.02.006</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Sievert</surname>
+<given-names>H.</given-names>
+</name>
+<name>
+<surname>Van den Ham</surname>
+<given-names>A. K.</given-names>
+</name>
+<name>
+<surname>Niedermeyer</surname>
+<given-names>I.</given-names>
+</name>
+<name>
+<surname>Heinze</surname>
+<given-names>A.</given-names>
+</name>
+</person-group>
+<article-title>Effects of mathematics textbooks on the development of primary school children’s adaptive expertise in arithmetic</article-title>
+<source>Learning and Individual Differences</source>
+<year>2019</year>
+<volume>74</volume>
+<fpage>1</fpage>
+<lpage>13</lpage>
+<pub-id pub-id-type="doi">10.1016/j.lindif.2019.02.006</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref26">
+<label>[26]</label>
+<mixed-citation>[26] Vidal-Henry, S., Arredondo, E., García-García, J. (2021). Investigación sobre tablas y gráficos estadísticos en libros de texto de educación primaria de Iberoamérica: revisión de literatura. Revista Innovaciones Educativas, 23(35), 193-207. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.22458/ie.v23i35.3636">https://doi.org/10.22458/ie.v23i35.3636</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Vidal-Henry</surname>
+<given-names>S.</given-names>
+</name>
+<name>
+<surname>Arredondo</surname>
+<given-names>E.</given-names>
+</name>
+<name>
+<surname>García-García</surname>
+<given-names>J.</given-names>
+</name>
+</person-group>
+<article-title>Investigación sobre tablas y gráficos estadísticos en libros de texto de educación primaria de Iberoamérica: revisión de literatura</article-title>
+<source>Revista Innovaciones Educativas</source>
+<year>2021</year>
+<volume>23</volume>
+<issue>35</issue>
+<fpage>193</fpage>
+<lpage>207</lpage>
+<pub-id pub-id-type="doi">10.22458/ie.v23i35.3636</pub-id>
+</element-citation>
+</ref>
+<ref id="redalyc_607976802007_ref27">
+<label>[27]</label>
+<mixed-citation>[27] Zangara, M. A., &amp; Sanz, C. (2020). Trabajo colaborativo mediado por tecnología informática en espacios educativos: Metodología de seguimiento y su validación. Revista Iberoamericana de Tecnología en Educación y Educación en Tecnología, (25), 8-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.24215/18509959.25.e1">https://doi.org/10.24215/18509959.25.e1</ext-link>.</mixed-citation>
+<element-citation publication-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Zangara</surname>
+<given-names>M. A.</given-names>
+</name>
+<name>
+<surname>Sanz</surname>
+<given-names>C.</given-names>
+</name>
+</person-group>
+<article-title>Trabajo colaborativo mediado por tecnología informática en espacios educativos: Metodología de seguimiento y su validación</article-title>
+<source>Revista Iberoamericana de Tecnología en Educación y Educación en Tecnología</source>
+<year>2020</year>
+<issue>25</issue>
+<fpage>8</fpage>
+<lpage>20</lpage>
+<pub-id pub-id-type="doi">10.24215/18509959.25.e1</pub-id>
+</element-citation>
+</ref>
+</ref-list>
+<app-group>
+<app id="app2">
+<title>
+<bold>A. Anexo #1: Aportes de las personas docentes revisoras.</bold>
+</title>
+<sec>
+<title/>
+<p>Para que las personas docentes revisoras evaluaran los materiales, se utilizó una escala tipo Likert que consideraba los niveles: Muy buena, Buena, Regular, Mala y Deficiente. Cada uno de los siguientes ítems debían ser evaluados bajo esa escala:</p>
+<p>
+<list list-type="order">
+<list-item>
+<p>Pertinencia del material educativo para el nivel de tercer grado</p>
+</list-item>
+<list-item>
+<p>Claridad en la exposición de los contenidos</p>
+</list-item>
+<list-item>
+<p>Uso de un lenguaje correcto para estudiantes de tercer grado de primaria</p>
+</list-item>
+<list-item>
+<p>Calidad de las situaciones contextualizadas que introducen un tema</p>
+</list-item>
+<list-item>
+<p>Cantidad de ejemplos propuestos que permiten concretar un tema</p>
+</list-item>
+<list-item>
+<p>Calidad de los ejemplos propuestos que permiten concretar un tema</p>
+</list-item>
+<list-item>
+<p>Uso de recursos tecnológicos que apoyan los contenidos</p>
+</list-item>
+<list-item>
+<p>Calidad de los videos que apoyan los contenidos que se exponen</p>
+</list-item>
+<list-item>
+<p>Calidad de las prácticas que se presentan luego de cada unidad</p>
+</list-item>
+<list-item>
+<p>Nivel de interés que generan los datos curiosos y los hechos históricos</p>
+</list-item>
+<list-item>
+<p>Vinculación de las situaciones contextualizadas, datos o hechos curiosos con la realidad costarricense</p>
+</list-item>
+<list-item>
+<p>Nivel de dificultad de los ejemplos y ejercicios que se presentan</p>
+</list-item>
+<list-item>
+<p>Pertinencia de los conocimientos previos que se abarcan antes de cubrir un tema</p>
+</list-item>
+<list-item>
+<p>Calidad de las explicaciones en las soluciones de los capítulos de práctica</p>
+</list-item>
+<list-item>
+<p>Comparación con otros libros de texto utilizados</p>
+</list-item>
+</list>
+</p>
+<p>Al final se dejaba un espacio en donde se podían realizar anotaciones que ayudan a mejorar el libro o realimentarlo</p>
+</sec>
+</app>
+<app id="app3">
+<title>
+<bold>B. Anexo #2: Resultados del proceso de revisión.</bold>
+</title>
+<sec>
+<title/>
+<p>En la tabla <xref ref-type="table" rid="gt6">4</xref>, se muestran los resultados del proceso de revisión por parte de expertos.</p>
+<p>
+<table-wrap id="gt6">
+<label>4</label>
+<caption>
+<title>Tabla 4</title>
+<p>Tabla de evaluación de aspectos del material educativo</p>
+</caption>
+<alt-text>4 Tabla 4</alt-text>
+<alternatives>
+<graphic xlink:href="607976802007_gt6.png" position="anchor" orientation="portrait"/>
+<table id="gt6-526564616c7963">
+<tbody>
+<tr/>
+<tr>
+<td style="text-align: left;">Pertinencia del material educativo para el nivel de tercer grado</td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Claridad en la exposición de los contenidos</td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Uso de un lenguaje correcto para estudiantes de tercer grado de primaria</td>
+<td style="text-align: center;">71.4%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Calidad de las situaciones contextualizadas que introducen un tema</td>
+<td style="text-align: center;">71.4%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cantidad de ejemplos propuestos que permiten concretar un tema</td>
+<td style="text-align: center;">85.7%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Calidad de los ejemplos propuestos que permiten concretar un tema</td>
+<td style="text-align: center;">85.7%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Uso de recursos tecnológicos que apoyan los contenidos</td>
+<td style="text-align: center;">100%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Calidad de los videos que apoyan los contenidos que se exponen</td>
+<td style="text-align: center;">85.7%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Calidad de las prácticas que se presentan luego de cada unidad</td>
+<td style="text-align: center;">85.7%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nivel de interés que generan los datos curiosos y los hechos históricos</td>
+<td style="text-align: center;">71.4%</td>
+<td style="text-align: center;">28.6%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Vinculación de las situaciones contextualizadas, datos o hechos curiosos con la realidad costarricense</td>
+<td style="text-align: center;">85.7%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nivel de dificultad de los ejemplos y ejercicios que se presentan</td>
+<td style="text-align: center;">85.7%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pertinencia de los conocimientos previos que se abarcan antes de cubrir un tema</td>
+<td style="text-align: center;">71.4%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Calidad de las explicaciones en las soluciones de los capítulos de práctica</td>
+<td style="text-align: center;">85.7%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+<tr>
+<td style="text-align: left;">Comparación con otros libros de texto utilizados</td>
+<td style="text-align: center;">85.7%</td>
+<td style="text-align: center;">14.3%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+<td style="text-align: center;">0%</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+<attrib>Elaboración propia</attrib>
+</table-wrap>
+</p>
+<p>Entre los principales comentarios que se obtuvieron se tienen:</p>
+<p>
+<list list-type="bullet">
+<list-item>
+<p>“Me parece que el material permite que los estudiantes desarrollen de forma autónoma la resolución de los problemas, ya que la complejidad se encuentra acorde al nivel de desarrollo de los estudiantes.”</p>
+</list-item>
+<list-item>
+<p>“El libro me parece un material educativo excelente, es acorde al nivel sugerido, es fácil de comprensión para los estudiantes, utiliza un lenguaje correcto para el nivel de tercero, los ejemplos que brindan son claros y contextualizados, utiliza recursos tecnológicos que apoyan y refuerzan los contenidos desarrollados y hacen el aprendizaje más dinámico, divertido y significativo para los estudiantes.”</p>
+</list-item>
+<list-item>
+<p>“El libro me parece un material educativo excelente, es acorde al nivel sugerido, es fácil de comprensión para los estudiantes, utiliza un lenguaje correcto para el nivel de tercero, los ejemplos que brindan son claros y contextualizados, utiliza recursos tecnológicos que apoyan y refuerzan los contenidos desarrollados y hacen el aprendizaje más dinámico, divertido y significativo para los estudiantes.”</p>
+</list-item>
+<list-item>
+<p>“Muestra contenidos previos necesarios para la comprensión del aprendizaje, además permite adquirir más conocimientos sobre otros temas, debido a que permite relacionar la matemática con hechos históricos.”</p>
+</list-item>
+<list-item>
+<p>“Es un material educativo de mucha utilidad tanto para docentes y estudiantes.”</p>
+</list-item>
+<list-item>
+<p>“Primeramente, felicitarlos por excelente material y aporte, solamente como sugerencia en el video 1.1 hace mención a la palabra chiquillos para mencionar a la persona estudiante, en caso de nombrar se recomienda utilizar la palabra estudiantes y no mencionarlos como chicos, chicas ni chiquillos, por lo general el trabajo está excelente.”</p>
+</list-item>
+<list-item>
+<p>“Se debe contextualizar y utilizar un lenguaje acorde al nivel.”</p>
+</list-item>
+<list-item>
+<p>“Me parece muy práctico y bonito el contenido del libro, sin embargo, muy extenso para el tiempo real en la práctica docente.”</p>
+</list-item>
+<list-item>
+<p>“Mi sincera felicitación por este aporte a la educación costarricense. Es un libro al cual se le puede sacar mucho provecho: es creativo, de fácil comprensión y muy atinado con el programa de estudio de tercer nivel.”</p>
+</list-item>
+</list>
+</p>
+<p>Con base en la retroalimentación obtenida se realizaron cambios pertinentes para la mejora de los materiales, en especial en el uso del lenguaje y contextualización de las actividades.</p>
+</sec>
+</app>
+</app-group>
+</back>
+</article>
