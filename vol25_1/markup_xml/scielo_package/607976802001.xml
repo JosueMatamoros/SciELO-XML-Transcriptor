@@ -18,6 +18,7 @@
         </journal-meta>
         <article-meta>
             <article-id pub-id-type="doi">10.18845/meij.v25i1.7091</article-id>
+            <article-id pub-id-type="other">06</article-id>
             <article-categories>
                 <subj-group subj-group-type="heading">
                     <subject>Didáctica y Software</subject>
@@ -57,8 +58,7 @@
             </pub-date>
             <volume>25</volume>
             <issue>1</issue>
-            <fpage>1</fpage>
-            <lpage>18</lpage>
+            <elocation-id>7091</elocation-id>
             <history>
                 <date date-type="received" publication-format="dd mes yyyy">
                     <day>08</day>

@@ -18,6 +18,7 @@
         </journal-meta>
         <article-meta>
             <article-id pub-id-type="doi">10.18845/meij.v25i1.7094</article-id>
+            <article-id pub-id-type="other">01</article-id>
             <article-categories>
                 <subj-group subj-group-type="heading">
                     <subject>Artículos</subject>
@@ -96,8 +97,7 @@
             </pub-date>
             <volume>25</volume>
             <issue>1</issue>
-            <fpage>1</fpage>
-            <lpage>18</lpage>
+            <elocation-id>7094</elocation-id>
             <history>
                 <date date-type="received" publication-format="dd mes yyyy">
                     <day>10</day>
